@@ -174,14 +174,27 @@
       background: var(--bg2); border: 1px solid var(--border);
       border-radius: var(--radius); padding: 24px; margin-bottom: 24px;
     }
-    .chart-tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+    .chart-header { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    .chart-title-area .section-title { margin-bottom: 4px; }
+    .chart-stats { display: flex; gap: 20px; flex-wrap: wrap; }
+    .chart-stat { text-align: right; }
+    .chart-stat-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--text3); margin-bottom: 2px; }
+    .chart-stat-value { font-size: 15px; font-weight: 800; color: var(--text); }
+    .chart-stat-value.up { color: var(--green); }
+    .chart-stat-value.down { color: var(--red); }
+    .chart-tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 8px; }
     .chart-tab {
-      padding: 5px 14px; border-radius: 6px; border: 1px solid var(--border);
-      background: transparent; color: var(--text2); font-size: 12px; font-weight: 600;
+      padding: 5px 13px; border-radius: 20px; border: 1px solid transparent;
+      background: transparent; color: var(--text3); font-size: 12px; font-weight: 600;
       cursor: pointer; font-family: 'Inter', sans-serif; transition: all .2s;
     }
-    .chart-tab.active { background: var(--bg3); border-color: var(--blue); color: var(--blue); }
-    .chart-wrap { position: relative; height: 260px; }
+    .chart-tab:hover { color: var(--text); background: var(--bg3); }
+    .chart-tab.active { background: var(--blue); color: #fff; }
+    .chart-meta { font-size: 11px; color: var(--text3); margin-bottom: 10px; }
+    .chart-legend { display: flex; gap: 16px; margin-bottom: 10px; }
+    .chart-legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text2); font-weight: 500; }
+    .chart-legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .chart-wrap { position: relative; height: 280px; }
 
     /* ── BCB CARD ── */
     .bcb-card {
@@ -380,12 +393,41 @@
 
   <!-- CHART -->
   <div class="chart-card">
-    <div class="section-title" style="margin-bottom:8px"><span class="icon">📈</span> Tendencia del USDT en Bolivia</div>
+    <div class="chart-header">
+      <div class="chart-title-area">
+        <div class="section-title"><span class="icon">📈</span> Tendencia USDT/BOB</div>
+      </div>
+      <div class="chart-stats">
+        <div class="chart-stat">
+          <div class="chart-stat-label">VENTA</div>
+          <div class="chart-stat-value" id="statVenta">—</div>
+        </div>
+        <div class="chart-stat">
+          <div class="chart-stat-label">CAMBIO</div>
+          <div class="chart-stat-value" id="statCambio">—</div>
+        </div>
+        <div class="chart-stat">
+          <div class="chart-stat-label">MÁX</div>
+          <div class="chart-stat-value" id="statMax">—</div>
+        </div>
+        <div class="chart-stat">
+          <div class="chart-stat-label">MÍN</div>
+          <div class="chart-stat-value" id="statMin">—</div>
+        </div>
+      </div>
+    </div>
     <div class="chart-tabs">
-      <button class="chart-tab active" onclick="setChartRange(7, this)">7 días</button>
-      <button class="chart-tab" onclick="setChartRange(15, this)">15 días</button>
-      <button class="chart-tab" onclick="setChartRange(30, this)">30 días</button>
-      <button class="chart-tab" onclick="setChartRange(60, this)">60 días</button>
+      <button class="chart-tab" onclick="setChartRange('7D', this)">7D</button>
+      <button class="chart-tab active" onclick="setChartRange('30D', this)">30D</button>
+      <button class="chart-tab" onclick="setChartRange('90D', this)">90D</button>
+      <button class="chart-tab" onclick="setChartRange('180D', this)">180D</button>
+      <button class="chart-tab" onclick="setChartRange('1A', this)">1A</button>
+      <button class="chart-tab" onclick="setChartRange('MAX', this)">MAX</button>
+    </div>
+    <div class="chart-meta" id="chartMeta"></div>
+    <div class="chart-legend">
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:#58a6ff"></div> Venta</div>
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(88,166,255,0.35)"></div> Compra</div>
     </div>
     <div class="chart-wrap">
       <canvas id="priceChart"></canvas>
@@ -557,7 +599,7 @@
   let pricesData = null;
   let currentMode = 'buy';
   let chartInstance = null;
-  let currentRange = 7;
+  let currentRange = '30D';
 
   async function fetchBinanceP2P(tradeType) {
     const res = await fetch('https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search', {
@@ -667,43 +709,91 @@
     renderChart(currentRange);
   }
 
-  function renderChart(days) {
+  function getHistorySlice(range) {
+    const all = pricesData.history;
+    if (!all || all.length === 0) return [];
+    const today = new Date();
+    const cutoff = (days) => {
+      const d = new Date(today);
+      d.setDate(d.getDate() - days);
+      return d.toISOString().slice(0, 10);
+    };
+    if (range === '7D')  return all.filter(h => h.date >= cutoff(7));
+    if (range === '30D') return all.filter(h => h.date >= cutoff(30));
+    if (range === '90D') return all.filter(h => h.date >= cutoff(90));
+    if (range === '180D') return all.filter(h => h.date >= cutoff(180));
+    if (range === '1A')  return all.filter(h => h.date >= cutoff(365));
+    return all; // MAX
+  }
+
+  function updateChartStats(slice) {
+    if (!slice.length) return;
+    const last = slice[slice.length - 1];
+    const prev = slice[slice.length - 2] || slice[0];
+    const sells = slice.map(h => h.sell);
+    const maxVal = Math.max(...sells);
+    const minVal = Math.min(...sells);
+    const change = last.sell - prev.sell;
+    const changePct = ((change / prev.sell) * 100).toFixed(2);
+
+    document.getElementById('statVenta').textContent = `Bs ${last.sell.toFixed(2)}`;
+    const cambioEl = document.getElementById('statCambio');
+    cambioEl.textContent = `${change >= 0 ? '+' : ''}${changePct}%`;
+    cambioEl.className = 'chart-stat-value ' + (change >= 0 ? 'up' : 'down');
+    document.getElementById('statMax').textContent = `Bs ${maxVal.toFixed(2)}`;
+    document.getElementById('statMin').textContent = `Bs ${minVal.toFixed(2)}`;
+
+    const pts = slice.length;
+    const minsPerPt = range === '7D' ? 1440 : range === '30D' ? 1440 : range === '90D' ? 1440 : 1440;
+    document.getElementById('chartMeta').textContent =
+      `Últimos ${slice.length} días · ${slice.length} puntos`;
+  }
+
+  function renderChart(range) {
     if (!pricesData) return;
-    const history = pricesData.history.slice(-days);
-    const labels = history.map(h => {
+    const slice = getHistorySlice(range);
+    if (!slice.length) return;
+
+    updateChartStats(slice);
+
+    const showDots = slice.length <= 14;
+    const labels = slice.map(h => {
       const [y, m, d] = h.date.split('-');
-      return `${d}/${m}`;
+      return `${d}-${['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][+m-1]}`;
     });
-    const buyData = history.map(h => h.buy);
-    const sellData = history.map(h => h.sell);
 
     if (chartInstance) chartInstance.destroy();
-
     const ctx = document.getElementById('priceChart').getContext('2d');
+
     chartInstance = new Chart(ctx, {
       type: 'line',
       data: {
         labels,
         datasets: [
           {
-            label: 'Compra (Bs)',
-            data: buyData,
-            borderColor: '#3fb950',
-            backgroundColor: 'rgba(63,185,80,0.08)',
+            label: 'Venta',
+            data: slice.map(h => h.sell),
+            borderColor: '#58a6ff',
+            backgroundColor: (ctx) => {
+              const gradient = ctx.chart.ctx.createLinearGradient(0, 0, 0, 280);
+              gradient.addColorStop(0, 'rgba(88,166,255,0.18)');
+              gradient.addColorStop(1, 'rgba(88,166,255,0)');
+              return gradient;
+            },
             borderWidth: 2,
-            pointRadius: days <= 15 ? 4 : 2,
-            pointHoverRadius: 6,
+            pointRadius: showDots ? 4 : 0,
+            pointHoverRadius: 5,
             fill: true,
             tension: 0.3,
           },
           {
-            label: 'Venta (Bs)',
-            data: sellData,
-            borderColor: '#f85149',
-            backgroundColor: 'rgba(248,81,73,0.05)',
-            borderWidth: 2,
-            pointRadius: days <= 15 ? 4 : 2,
-            pointHoverRadius: 6,
+            label: 'Compra',
+            data: slice.map(h => h.buy),
+            borderColor: 'rgba(88,166,255,0.35)',
+            backgroundColor: 'transparent',
+            borderWidth: 1.5,
+            pointRadius: 0,
+            pointHoverRadius: 4,
             fill: false,
             tension: 0.3,
           }
@@ -714,32 +804,30 @@
         maintainAspectRatio: false,
         interaction: { mode: 'index', intersect: false },
         plugins: {
-          legend: {
-            labels: { color: '#8b949e', font: { size: 12, family: 'Inter' }, boxWidth: 12 }
-          },
+          legend: { display: false },
           tooltip: {
-            backgroundColor: '#21262d',
+            backgroundColor: '#161b22',
             borderColor: '#30363d',
             borderWidth: 1,
             titleColor: '#e6edf3',
             bodyColor: '#8b949e',
+            padding: 10,
             callbacks: {
-              label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)} Bs`
+              title: items => items[0].label,
+              label: ctx => ` ${ctx.dataset.label}: Bs ${ctx.parsed.y.toFixed(2)}`
             }
           }
         },
         scales: {
           x: {
-            ticks: { color: '#6e7681', font: { size: 11 }, maxTicksLimit: 10 },
-            grid: { color: '#21262d' },
+            ticks: { color: '#6e7681', font: { size: 11 }, maxTicksLimit: 8, maxRotation: 0 },
+            grid: { color: 'rgba(48,54,61,0.5)' },
             border: { color: '#30363d' }
           },
           y: {
-            ticks: {
-              color: '#6e7681', font: { size: 11 },
-              callback: v => v.toFixed(2) + ' Bs'
-            },
-            grid: { color: '#21262d' },
+            position: 'right',
+            ticks: { color: '#6e7681', font: { size: 11 }, callback: v => 'Bs ' + v.toFixed(2) },
+            grid: { color: 'rgba(48,54,61,0.5)' },
             border: { color: '#30363d' }
           }
         }
@@ -747,11 +835,11 @@
     });
   }
 
-  function setChartRange(days, el) {
-    currentRange = days;
+  function setChartRange(range, el) {
+    currentRange = range;
     document.querySelectorAll('.chart-tab').forEach(t => t.classList.remove('active'));
     el.classList.add('active');
-    renderChart(days);
+    renderChart(range);
   }
 
   function setMode(mode) {
