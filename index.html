@@ -1014,7 +1014,9 @@
 
   function platCard({ name, domain, logo, gradient, desc, features, data, btn1Text, btn2Text, btn2Color, url, time }) {
     if (!data?.available) return '';
-    const avg = ((data.buy + data.sell) / 2).toFixed(2);
+    const buy = parseFloat(data.buy), sell = parseFloat(data.sell);
+    if (isNaN(buy) || isNaN(sell)) return '';
+    const avg = ((buy + sell) / 2).toFixed(2);
     return `
     <div class="plat-big-card" style="background:${gradient}">
       <div class="plat-big-partner">☆ Partner Verificado</div>
@@ -1038,12 +1040,12 @@
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px">
           <div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px 10px;text-align:center">
             <div style="font-size:10px;opacity:.7;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px">↓ Compra</div>
-            <div style="font-size:18px;font-weight:900">Bs ${data.buy.toFixed(2)}</div>
+            <div style="font-size:18px;font-weight:900">Bs ${buy.toFixed(2)}</div>
             <div style="font-size:10px;opacity:.6">Tú compras USDT</div>
           </div>
           <div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px 10px;text-align:center">
             <div style="font-size:10px;opacity:.7;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px">↑ Venta</div>
-            <div style="font-size:18px;font-weight:900">Bs ${data.sell.toFixed(2)}</div>
+            <div style="font-size:18px;font-weight:900">Bs ${sell.toFixed(2)}</div>
             <div style="font-size:10px;opacity:.6">Tú vendes USDT</div>
           </div>
         </div>
