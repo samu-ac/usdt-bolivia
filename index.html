@@ -474,8 +474,126 @@
 <!-- MAIN -->
 <main>
 
-  <div class="alert-strip">
-    ℹ️ Los precios son promedios referenciales del mercado P2P. No constituyen asesoramiento financiero.
+  <!-- CHART USDT -->
+  <div id="chart" class="card">
+    <div class="chart-header">
+      <div class="section-title" style="margin-bottom:0"><span>📈</span> Tendencia USDT/BOB</div>
+      <div class="chart-stats">
+        <div><div class="chart-stat-label">VENTA</div><div class="chart-stat-value" id="statVenta">—</div></div>
+        <div><div class="chart-stat-label">CAMBIO</div><div class="chart-stat-value" id="statCambio">—</div></div>
+        <div><div class="chart-stat-label">MÁX</div><div class="chart-stat-value" id="statMax">—</div></div>
+        <div><div class="chart-stat-label">MÍN</div><div class="chart-stat-value" id="statMin">—</div></div>
+      </div>
+    </div>
+    <div class="chart-tabs" style="margin-top:12px">
+      <button class="chart-tab" onclick="setChartRange('7D',this)">7D</button>
+      <button class="chart-tab active" onclick="setChartRange('30D',this)">30D</button>
+      <button class="chart-tab" onclick="setChartRange('90D',this)">90D</button>
+      <button class="chart-tab" onclick="setChartRange('180D',this)">180D</button>
+      <button class="chart-tab" onclick="setChartRange('1A',this)">1A</button>
+      <button class="chart-tab" onclick="setChartRange('MAX',this)">MAX</button>
+    </div>
+    <div class="chart-meta" id="chartMeta"></div>
+    <div class="chart-legend">
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--navy)"></div>Venta</div>
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(0,48,135,.3)"></div>Compra</div>
+    </div>
+    <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+  </div>
+
+  <!-- BCB VRD SECTION -->
+  <div id="bcbvrd" class="bcb-vrd-section">
+    <div class="bcb-vrd-hero">
+      <div class="bcb-vrd-hero-inner">
+        <div class="bcb-vrd-hero-top">
+          <div>
+            <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
+            <div class="bcb-vrd-hero-name">Valor Referencial de Compra<br>del Dólar (VRD)</div>
+            <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">VRD HOY</div>
+            <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
+            <div class="bcb-vrd-price-sub">Bs por 1 USD · <span id="vrdRefreshLabel" style="color:rgba(255,255,255,.5)">—</span></div>
+          </div>
+        </div>
+        <div class="bcb-vrd-stats">
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Mín del día</div>
+            <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
+          </div>
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Máx del día</div>
+            <div class="bcb-vrd-stat-val" id="vrdMax">—</div>
+          </div>
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Transacciones</div>
+            <div class="bcb-vrd-stat-val" id="vrdNTrans">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPARACIÓN USD FÍSICO vs USDT -->
+    <div class="card" style="margin-bottom:14px">
+      <div class="section-title"><span>⚖️</span> USD Físico vs USDT Digital — ¿Cuál conviene más?</div>
+      <div class="compare-grid">
+        <div class="compare-card" id="comparePhysCard">
+          <div class="compare-card-tag" style="color:var(--navy)">🏦 USD Físico (Librecambista)</div>
+          <div class="compare-card-price" id="comparePhysPrice">—</div>
+          <div class="compare-card-label">Bs por 1 USD · VRD BCB</div>
+          <div class="compare-card-detail">
+            Precio promedio ponderado de las operaciones reales entre bancos y librecambistas en Bolivia.<br><br>
+            <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
+            <strong>Riesgo:</strong> Variación en el mercado, requiere contacto físico.
+          </div>
+        </div>
+        <div class="compare-card" id="compareUsdtCard">
+          <div class="compare-card-tag" style="color:#7C3AED">🔷 USDT Digital (P2P)</div>
+          <div class="compare-card-price" style="color:#7C3AED" id="compareUsdtPrice">—</div>
+          <div class="compare-card-label">Bs por 1 USDT · Promedio P2P</div>
+          <div class="compare-card-detail">
+            Precio del mercado P2P de criptomonedas como Binance, El Dorado, Takenos, Wallbit.<br><br>
+            <strong>Ventajas:</strong> Transacciones digitales, disponible 24/7, envíos internacionales.<br>
+            <strong>Riesgo:</strong> Volatilidad crypto, requiere billetera digital.
+          </div>
+        </div>
+      </div>
+      <div id="recBox" class="rec-box yellow">
+        <div class="rec-box-icon" id="recIcon">⏳</div>
+        <div>
+          <div class="rec-box-title" id="recTitle">Calculando recomendación...</div>
+          <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al VRD BCB del día vs precio P2P promedio (compra+venta)/2</div>
+    </div>
+
+    <!-- GRÁFICO VRD HISTÓRICO -->
+    <div class="card">
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px">
+        <div class="section-title" style="margin-bottom:0"><span>📊</span> Tendencia VRD BCB Histórico</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">VRD HOY</div><div style="font-size:14px;font-weight:800" id="vrdStatHoy">—</div></div>
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">CAMBIO</div><div style="font-size:14px;font-weight:800" id="vrdStatCambio">—</div></div>
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">MÁX</div><div style="font-size:14px;font-weight:800" id="vrdStatMax">—</div></div>
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">MÍN</div><div style="font-size:14px;font-weight:800" id="vrdStatMin">—</div></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px" id="vrdChartTabs">
+        <button class="chart-tab" onclick="setVrdRange('7D',this)">7D</button>
+        <button class="chart-tab active" onclick="setVrdRange('MAX',this)">TODO</button>
+      </div>
+      <div style="font-size:11px;color:var(--text3);margin-bottom:8px" id="vrdChartMeta"></div>
+      <div style="display:flex;gap:16px;margin-bottom:10px">
+        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600"><div style="width:10px;height:10px;border-radius:50%;background:#1565C0"></div>VRD Compra</div>
+        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600"><div style="width:10px;height:10px;border-radius:50%;background:rgba(124,58,237,.5)"></div>USDT P2P</div>
+      </div>
+      <div class="vrd-chart-wrap"><canvas id="vrdChart"></canvas></div>
+      <div style="font-size:11px;color:var(--text3);margin-top:10px;text-align:center">
+        Fuente: BCB — bcb.gob.bo · Se actualiza cada 4 horas en días hábiles
+      </div>
+    </div>
   </div>
 
   <!-- PLATFORMS CARDS -->
@@ -492,6 +610,10 @@
     <div class="otras-grid" id="otrasGrid">
       <div style="grid-column:1/-1;text-align:center;padding:20px;color:var(--text3)">Cargando...</div>
     </div>
+  </div>
+
+  <div class="alert-strip">
+    ℹ️ Los precios son promedios referenciales del mercado P2P. No constituyen asesoramiento financiero.
   </div>
 
   <!-- CALCULATOR -->
@@ -545,150 +667,6 @@
     </div>
   </div>
 
-  <!-- CHART -->
-  <div id="chart" class="card">
-    <div class="chart-header">
-      <div class="section-title" style="margin-bottom:0"><span>📈</span> Tendencia USDT/BOB</div>
-      <div class="chart-stats">
-        <div><div class="chart-stat-label">VENTA</div><div class="chart-stat-value" id="statVenta">—</div></div>
-        <div><div class="chart-stat-label">CAMBIO</div><div class="chart-stat-value" id="statCambio">—</div></div>
-        <div><div class="chart-stat-label">MÁX</div><div class="chart-stat-value" id="statMax">—</div></div>
-        <div><div class="chart-stat-label">MÍN</div><div class="chart-stat-value" id="statMin">—</div></div>
-      </div>
-    </div>
-    <div class="chart-tabs" style="margin-top:12px">
-      <button class="chart-tab" onclick="setChartRange('7D',this)">7D</button>
-      <button class="chart-tab active" onclick="setChartRange('30D',this)">30D</button>
-      <button class="chart-tab" onclick="setChartRange('90D',this)">90D</button>
-      <button class="chart-tab" onclick="setChartRange('180D',this)">180D</button>
-      <button class="chart-tab" onclick="setChartRange('1A',this)">1A</button>
-      <button class="chart-tab" onclick="setChartRange('MAX',this)">MAX</button>
-    </div>
-    <div class="chart-meta" id="chartMeta"></div>
-    <div class="chart-legend">
-      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--navy)"></div>Venta</div>
-      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(0,48,135,.3)"></div>Compra</div>
-    </div>
-    <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
-  </div>
-
-  <!-- BCB -->
-  <div class="card">
-    <div class="section-title"><span>🏛️</span> Tipo de Cambio BCB</div>
-    <div class="bcb-grid">
-      <div class="bcb-type oficial">
-        <div class="bcb-type-label">OFICIAL</div>
-        <div class="bcb-row"><span>Compra:</span><span id="bcbOfficialBuy">—</span></div>
-        <div class="bcb-row"><span>Venta:</span><span id="bcbOfficialSell">—</span></div>
-      </div>
-      <div class="bcb-type referencial">
-        <div class="bcb-type-label">REFERENCIAL (Blue)</div>
-        <div class="bcb-row"><span>Compra:</span><span id="bcbRefBuy">—</span></div>
-        <div class="bcb-row"><span>Venta:</span><span id="bcbRefSell">—</span></div>
-      </div>
-    </div>
-    <div class="bcb-date" id="bcbDate">Fuente: Banco Central de Bolivia</div>
-  </div>
-
-  <!-- BCB VRD SECTION -->
-  <div id="bcbvrd" class="bcb-vrd-section">
-    <div class="bcb-vrd-hero">
-      <div class="bcb-vrd-hero-inner">
-        <div class="bcb-vrd-hero-top">
-          <div>
-            <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
-            <div class="bcb-vrd-hero-name">Valor Referencial de Compra<br>del Dólar (VRD)</div>
-            <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
-          </div>
-          <div style="text-align:right">
-            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">VRD HOY</div>
-            <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
-            <div class="bcb-vrd-price-sub">Bs por 1 USD</div>
-          </div>
-        </div>
-        <div class="bcb-vrd-stats">
-          <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Mín del día</div>
-            <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
-          </div>
-          <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Máx del día</div>
-            <div class="bcb-vrd-stat-val" id="vrdMax">—</div>
-          </div>
-          <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Transacciones</div>
-            <div class="bcb-vrd-stat-val" id="vrdNTrans">—</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- COMPARACIÓN USD FÍSICO vs USDT -->
-    <div class="card" style="margin-bottom:14px">
-      <div class="section-title"><span>⚖️</span> USD Físico vs USDT Digital — ¿Cuál conviene más?</div>
-      <div class="compare-grid">
-        <div class="compare-card" id="comparePhysCard">
-          <div class="compare-card-tag" style="color:var(--navy)">🏦 USD Físico (Librecambista)</div>
-          <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · VRD BCB</div>
-          <div class="compare-card-detail">
-            Precio promedio ponderado de las operaciones reales entre bancos y librecambistas en Bolivia.<br><br>
-            <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
-            <strong>Riesgo:</strong> Variación en el mercado, requiere contacto físico.
-          </div>
-        </div>
-        <div class="compare-card" id="compareUsdtCard">
-          <div class="compare-card-tag" style="color:#7C3AED">🔷 USDT Digital (P2P)</div>
-          <div class="compare-card-price" style="color:#7C3AED" id="compareUsdtPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USDT · Promedio P2P</div>
-          <div class="compare-card-detail">
-            Precio del mercado P2P de criptomonedas como Binance, El Dorado, Takenos, Wallbit.<br><br>
-            <strong>Ventajas:</strong> Transacciones digitales, disponible 24/7, envíos internacionales.<br>
-            <strong>Riesgo:</strong> Volatilidad crypto, requiere billetera digital.
-          </div>
-        </div>
-      </div>
-      <!-- RECOMENDACIÓN DINÁMICA -->
-      <div id="recBox" class="rec-box yellow">
-        <div class="rec-box-icon" id="recIcon">⏳</div>
-        <div>
-          <div class="rec-box-title" id="recTitle">Calculando recomendación...</div>
-          <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
-        </div>
-      </div>
-      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al VRD BCB del día vs precio P2P promedio (compra+venta)/2</div>
-    </div>
-
-    <!-- GRÁFICO VRD HISTÓRICO -->
-    <div class="card">
-      <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px">
-        <div class="section-title" style="margin-bottom:0"><span>📊</span> Tendencia VRD BCB Histórico</div>
-        <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">VRD HOY</div><div style="font-size:14px;font-weight:800" id="vrdStatHoy">—</div></div>
-          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">CAMBIO</div><div style="font-size:14px;font-weight:800" id="vrdStatCambio">—</div></div>
-          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">MÁX</div><div style="font-size:14px;font-weight:800" id="vrdStatMax">—</div></div>
-          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">MÍN</div><div style="font-size:14px;font-weight:800" id="vrdStatMin">—</div></div>
-        </div>
-      </div>
-      <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px" id="vrdChartTabs">
-        <button class="chart-tab" onclick="setVrdRange('7D',this)">7D</button>
-        <button class="chart-tab active" onclick="setVrdRange('MAX',this)">TODO</button>
-      </div>
-      <div style="font-size:11px;color:var(--text3);margin-bottom:8px" id="vrdChartMeta"></div>
-      <div style="display:flex;gap:16px;margin-bottom:10px">
-        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-          <div style="width:10px;height:10px;border-radius:50%;background:#1565C0"></div>VRD Compra
-        </div>
-        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-          <div style="width:10px;height:10px;border-radius:50%;background:rgba(124,58,237,.5)"></div>USDT P2P
-        </div>
-      </div>
-      <div class="vrd-chart-wrap"><canvas id="vrdChart"></canvas></div>
-      <div style="font-size:11px;color:var(--text3);margin-top:10px;text-align:center">
-        Fuente: Banco Central de Bolivia — bcb.gob.bo · Actualizado diariamente (días hábiles)
-      </div>
-    </div>
-  </div>
 
   <!-- LIMITS -->
   <div id="limits" class="limits-section">
@@ -912,14 +890,16 @@
     return data;
   }
 
-  // Márgenes por plataforma basados en datos reales del mercado boliviano
-  // buy = cuánto pagas para comprar 1 USDT (mayor = más caro)
-  // sell = cuánto recibes por vender 1 USDT (menor = peor para ti)
+  // Márgenes reales confirmados por el usuario (base: Binance P2P buy ~9.93)
+  // Takenos:  buy=10.15, sell=9.83  → mults: 10.15/9.93=1.0222, 9.83/9.97=0.9860
+  // El Dorado: buy=10.00, sell=9.85 → mults: 10.00/9.93=1.0071, 9.85/9.97=0.9880
+  // Airtm:    buy=10.09, sell=9.68  → mults: 10.09/9.93=1.0161, 9.68/9.97=0.9709
+  // Wallbit:  buy=10.05, sell=9.81  → mults: 10.05/9.93=1.0121, 9.81/9.97=0.9840
   const PLATFORM_MARGINS = {
-    eldorado: { buyMult: 1.004, sellMult: 0.993 },
-    takenos:  { buyMult: 1.019, sellMult: 0.990 },
-    wallbit:  { buyMult: 1.009, sellMult: 0.989 },
-    airtm:    { buyMult: 1.012, sellMult: 0.975 },
+    eldorado: { buyMult: 1.0071, sellMult: 0.9880 },
+    takenos:  { buyMult: 1.0222, sellMult: 0.9860 },
+    wallbit:  { buyMult: 1.0121, sellMult: 0.9840 },
+    airtm:    { buyMult: 1.0161, sellMult: 0.9709 },
   };
 
   async function loadPrices() {
@@ -951,15 +931,15 @@
       }
     } catch(e) { console.warn('API en vivo no disponible:', e.message); }
 
-    // Calcular plataformas que no existen en el JSON guardado
-    if (base.binance && !base.wallbit) {
+    // Siempre recalcular plataformas con los márgenes actuales
+    if (base.binance) {
       const b = base.binance.buy, s = base.binance.sell;
-      if (!base.eldorado) base.eldorado = { buy: +(b*PLATFORM_MARGINS.eldorado.buyMult).toFixed(2), sell: +(s*PLATFORM_MARGINS.eldorado.sellMult).toFixed(2), available: true };
-      if (!base.takenos)  base.takenos  = { buy: +(b*PLATFORM_MARGINS.takenos.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.takenos.sellMult).toFixed(2),  available: true };
+      base.eldorado = { buy: +(b*PLATFORM_MARGINS.eldorado.buyMult).toFixed(2), sell: +(s*PLATFORM_MARGINS.eldorado.sellMult).toFixed(2), available: true };
+      base.takenos  = { buy: +(b*PLATFORM_MARGINS.takenos.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.takenos.sellMult).toFixed(2),  available: true };
       base.wallbit  = { buy: +(b*PLATFORM_MARGINS.wallbit.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.wallbit.sellMult).toFixed(2),  available: true };
       base.airtm    = { buy: +(b*PLATFORM_MARGINS.airtm.buyMult).toFixed(2),    sell: +(s*PLATFORM_MARGINS.airtm.sellMult).toFixed(2),    available: true };
-      base.bybit    = { buy: +(b*1.0).toFixed(2),     sell: +(s*1.0).toFixed(2),     available: true };
-      base.saldoar  = { buy: +(b*1.011).toFixed(2),   sell: +(s*0.988).toFixed(2),   available: true };
+      base.bybit    = { buy: +(b*1.0).toFixed(2),   sell: +(s*1.0).toFixed(2),   available: true };
+      base.saldoar  = { buy: +(b*1.011).toFixed(2), sell: +(s*0.988).toFixed(2), available: true };
     }
 
     const d = new Date();
@@ -1280,9 +1260,13 @@
     const d = today ? new Date(today + 'T12:00:00') : new Date();
     const meses = ['enero','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
     document.getElementById('vrdDate').textContent = `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()} · Días hábiles bancarios`;
+    const updTime = new Date(vrdData.lastUpdated);
+    const label = document.getElementById('vrdRefreshLabel');
+    if (label) label.textContent = 'act. ' + updTime.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
 
-    // Comparación
-    renderComparison(vrd_today);
+    // Comparación — si pricesData aún no cargó, reintenta en 1s
+    if (pricesData?.binance) renderComparison(vrd_today);
+    else setTimeout(() => { if (pricesData?.binance) renderComparison(vrd_today); }, 1200);
 
     // Gráfico
     renderVrdChart(vrdRange);
@@ -1412,6 +1396,14 @@
 
   loadPrices();
   loadVRD();
+
+  // Auto-refresh cada 4 horas (14,400,000 ms)
+  // El BCB actualiza datos durante el día hábil; GitHub Actions corre cada 4h
+  const FOUR_HOURS = 4 * 60 * 60 * 1000;
+  setInterval(() => {
+    loadPrices();
+    loadVRD();
+  }, FOUR_HOURS);
 </script>
 </body>
 </html>

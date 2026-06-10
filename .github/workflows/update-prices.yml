@@ -2,9 +2,16 @@ name: Actualizar precios USDT Bolivia
 
 on:
   schedule:
-    # Cada día a las 08:00 Bolivia (UTC-4) = 12:00 UTC
-    - cron: '0 12 * * *'
-  workflow_dispatch: # Permite ejecutar manualmente
+    # Cada 4 horas en horario laboral boliviano (UTC-4)
+    # 08:00 BOL = 12:00 UTC
+    # 12:00 BOL = 16:00 UTC
+    # 16:00 BOL = 20:00 UTC
+    # 20:00 BOL = 00:00 UTC
+    - cron: '0 12 * * 1-5'
+    - cron: '0 16 * * 1-5'
+    - cron: '0 20 * * 1-5'
+    - cron: '0 0  * * 2-6'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -21,13 +28,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Obtener precios USDT
+      - name: Obtener precios USDT y VRD BCB
         run: python fetch_prices.py
 
       - name: Commit y push de datos actualizados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/prices.json
-          git diff --staged --quiet || git commit -m "📊 Actualización diaria de precios USDT - $(date -u '+%Y-%m-%d')"
+          git add data/prices.json data/bcb_vrd.json
+          git diff --staged --quiet || git commit -m "Actualizacion de precios - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
