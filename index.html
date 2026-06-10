@@ -151,27 +151,63 @@
     .platform-link:hover { text-decoration: underline; }
 
     /* ── CALCULATOR ── */
-    .calc-mode { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
-    .calc-btn {
-      padding: 7px 16px; border-radius: 8px; border: 2px solid var(--border);
-      background: transparent; color: var(--text2); font-size: 13px; font-weight: 600;
-      cursor: pointer; font-family: 'Inter', sans-serif; transition: all .2s;
+    .calc-wrapper { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    @media (max-width:680px) { .calc-wrapper { grid-template-columns:1fr; } }
+    .calc-left { display:flex; flex-direction:column; gap:14px; }
+    .calc-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:4px; }
+    .calc-rate-pill {
+      background:var(--blue-lt); color:var(--navy); font-size:13px; font-weight:800;
+      padding:5px 14px; border-radius:20px; border:1px solid #c3d7f7;
     }
-    .calc-btn.active { background: var(--navy); border-color: var(--navy); color: #fff; }
-    .calc-grid { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 12px; }
-    @media (max-width: 580px) { .calc-grid { grid-template-columns: 1fr; } }
-    .calc-group label { display:block; font-size:11px; font-weight:700; color:var(--text2); text-transform:uppercase; letter-spacing:.06em; margin-bottom:8px; }
-    .calc-input-wrap { position: relative; }
-    .calc-input-wrap input {
-      width:100%; background:var(--bg3); border:2px solid var(--border);
-      color:var(--text); border-radius:8px; padding:12px 48px 12px 16px;
-      font-size:20px; font-weight:700; font-family:'Inter',sans-serif;
-      outline:none; transition:border-color .2s;
+    .calc-field-label { font-size:11px; font-weight:700; color:var(--text2); text-transform:uppercase; letter-spacing:.06em; margin-bottom:6px; }
+    .calc-field-row { display:flex; gap:8px; align-items:stretch; }
+    .calc-select {
+      padding:12px 10px; border:2px solid var(--border); border-radius:8px;
+      background:var(--bg3); color:var(--text); font-size:14px; font-weight:700;
+      font-family:'Inter',sans-serif; outline:none; cursor:pointer; min-width:80px;
+      transition:border-color .2s;
     }
-    .calc-input-wrap input:focus { border-color: var(--navy); }
-    .calc-unit { position:absolute; right:14px; top:50%; transform:translateY(-50%); font-size:13px; font-weight:700; color:var(--text2); }
-    .calc-arrow { font-size:22px; color:var(--text3); padding-bottom:12px; text-align:center; }
-    .calc-note  { margin-top:12px; font-size:12px; color:var(--text2); background:var(--blue-lt); border-radius:8px; padding:10px 14px; }
+    .calc-select:focus { border-color:var(--navy); }
+    .calc-input {
+      flex:1; padding:12px 16px; border:2px solid var(--border); border-radius:8px;
+      background:var(--bg2); color:var(--text); font-size:20px; font-weight:700;
+      font-family:'Inter',sans-serif; outline:none; transition:border-color .2s;
+    }
+    .calc-input:focus { border-color:var(--navy); }
+    .calc-sublabel { font-size:11px; color:var(--text3); margin-top:3px; }
+    .calc-swap-wrap { display:flex; justify-content:center; align-items:center; }
+    .calc-swap {
+      width:36px; height:36px; border-radius:50%; border:2px solid var(--border);
+      background:var(--bg2); cursor:pointer; font-size:16px; display:flex;
+      align-items:center; justify-content:center; transition:all .2s; color:var(--navy);
+    }
+    .calc-swap:hover { background:var(--navy); color:#fff; border-color:var(--navy); }
+    .calc-quick { display:flex; gap:8px; flex-wrap:wrap; }
+    .calc-quick-btn {
+      flex:1; min-width:48px; padding:8px 4px; border:2px solid var(--border);
+      border-radius:8px; background:var(--bg3); color:var(--text2); font-size:13px;
+      font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; text-align:center;
+    }
+    .calc-quick-btn:hover { border-color:var(--navy); color:var(--navy); background:var(--blue-lt); }
+    .calc-convert-btn {
+      width:100%; padding:14px; background:var(--navy); color:#fff; border:none;
+      border-radius:10px; font-size:15px; font-weight:800; cursor:pointer;
+      font-family:'Inter',sans-serif; transition:background .2s; letter-spacing:.02em;
+    }
+    .calc-convert-btn:hover { background:var(--navy2); }
+    .calc-rate-note { font-size:12px; color:var(--text2); text-align:center; font-weight:600; }
+    /* History */
+    .calc-right { display:flex; flex-direction:column; }
+    .calc-history-title { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:800; color:var(--navy); margin-bottom:14px; }
+    .calc-history-list { display:flex; flex-direction:column; gap:8px; flex:1; }
+    .calc-history-item {
+      background:var(--bg3); border-radius:8px; padding:12px 14px;
+      display:flex; justify-content:space-between; align-items:center;
+      border:1px solid var(--border);
+    }
+    .calc-history-conv { font-size:13px; font-weight:700; color:var(--text); }
+    .calc-history-meta { text-align:right; font-size:11px; color:var(--text3); line-height:1.6; }
+    .calc-empty { font-size:13px; color:var(--text3); text-align:center; padding:24px 0; }
 
     /* ── CHART ── */
     .chart-header { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:12px; }
@@ -379,29 +415,68 @@
 
   <!-- CALCULATOR -->
   <div id="calculator" class="card">
-    <div class="section-title" style="margin-bottom:14px"><span class="icon">🧮</span> Calculadora USDT / BOB</div>
-    <div class="calc-mode">
-      <button class="calc-btn active" id="btnBuy" onclick="setMode('buy')">Vender USDT → Recibir BOB</button>
-      <button class="calc-btn" id="btnSell" onclick="setMode('sell')">Comprar USDT → Pagar BOB</button>
+    <div class="calc-header">
+      <div class="section-title" style="margin-bottom:0"><span class="icon">🧮</span> Calculadora de Divisas</div>
+      <div class="calc-rate-pill">Bs <span id="calcRatePill">—</span> · USDT P2P</div>
     </div>
-    <div class="calc-grid">
-      <div class="calc-group">
-        <label id="fromLabel">USDT que vendes</label>
-        <div class="calc-input-wrap">
-          <input type="number" id="fromAmount" placeholder="0.00" oninput="calculate()" />
-          <span class="calc-unit" id="fromUnit">USDT</span>
+
+    <div class="calc-wrapper" style="margin-top:16px">
+      <!-- LEFT: Conversor -->
+      <div class="calc-left">
+        <!-- Desde -->
+        <div>
+          <div class="calc-field-label">Desde</div>
+          <div class="calc-field-row">
+            <select class="calc-select" id="fromCurrency" onchange="onCurrencyChange()">
+              <option value="USDT">USDT</option>
+              <option value="BOB">BOB</option>
+            </select>
+            <input class="calc-input" type="number" id="fromAmount" placeholder="100" oninput="calculate()" />
+          </div>
+          <div class="calc-sublabel" id="fromSubLabel">Tether (USDT)</div>
+        </div>
+
+        <!-- Swap -->
+        <div class="calc-swap-wrap">
+          <button class="calc-swap" onclick="swapCurrencies()" title="Invertir">⇅</button>
+        </div>
+
+        <!-- Hacia -->
+        <div>
+          <div class="calc-field-label">Hacia</div>
+          <div class="calc-field-row">
+            <select class="calc-select" id="toCurrency" onchange="onCurrencyChange()">
+              <option value="BOB">BOB</option>
+              <option value="USDT">USDT</option>
+            </select>
+            <input class="calc-input" type="number" id="toAmount" placeholder="0" oninput="calculateReverse()" />
+          </div>
+          <div class="calc-sublabel" id="toSubLabel">Boliviano</div>
+        </div>
+
+        <!-- Tasa -->
+        <div class="calc-rate-note" id="calcRateNote">1 USDT = <strong id="calcRateDisplay">—</strong> BOB</div>
+
+        <!-- Botones rápidos -->
+        <div class="calc-quick">
+          <button class="calc-quick-btn" onclick="setQuick(10)">10</button>
+          <button class="calc-quick-btn" onclick="setQuick(50)">50</button>
+          <button class="calc-quick-btn" onclick="setQuick(100)">100</button>
+          <button class="calc-quick-btn" onclick="setQuick(500)">500</button>
+        </div>
+
+        <!-- Convertir -->
+        <button class="calc-convert-btn" onclick="doConvert()">Convertir</button>
+      </div>
+
+      <!-- RIGHT: Historial -->
+      <div class="calc-right">
+        <div class="calc-history-title">🕐 Historial de Conversiones</div>
+        <div class="calc-history-list" id="calcHistory">
+          <div class="calc-empty">Aún no hay conversiones</div>
         </div>
       </div>
-      <div class="calc-arrow">→</div>
-      <div class="calc-group">
-        <label id="toLabel">BOB que recibes</label>
-        <div class="calc-input-wrap">
-          <input type="number" id="toAmount" placeholder="0.00" oninput="calculateReverse()" />
-          <span class="calc-unit" id="toUnit">BOB</span>
-        </div>
-      </div>
     </div>
-    <div class="calc-note" id="calcNote">Ingresa un monto para calcular la conversión.</div>
   </div>
 
   <!-- CHART -->
@@ -495,18 +570,6 @@
     </div>
   </div>
 
-  <!-- WIDGET -->
-  <div class="card">
-    <div class="section-title" style="margin-bottom:16px"><span class="icon">🔌</span> Widget en Vivo</div>
-    <div class="widget-wrap">
-      <iframe
-        src="https://api.dolarbluebolivia.click/widget?theme=light&size=md&show=both"
-        width="340" height="220" frameborder="0" loading="lazy"
-        title="Cotizacion Dolar Blue Bolivia"
-        style="border-radius:14px;border:none;max-width:100%;">
-      </iframe>
-    </div>
-  </div>
 
 </main>
 
@@ -763,6 +826,7 @@
       document.getElementById('footerBcbDate').innerHTML = (displayDate||'') + '<br>Fuente: Banco Central de Bolivia';
     }
     renderChart(currentRange);
+    initCalc();
   }
 
   function getHistorySlice(range) {
@@ -851,43 +915,112 @@
     renderChart(range);
   }
 
-  function setMode(mode) {
-    currentMode = mode;
-    document.getElementById('btnBuy').classList.toggle('active', mode==='buy');
-    document.getElementById('btnSell').classList.toggle('active', mode==='sell');
-    document.getElementById('fromLabel').textContent = mode==='buy' ? 'USDT que vendes' : 'BOB que pagas';
-    document.getElementById('toLabel').textContent   = mode==='buy' ? 'BOB que recibes'  : 'USDT que recibes';
-    document.getElementById('fromUnit').textContent  = mode==='buy' ? 'USDT' : 'BOB';
-    document.getElementById('toUnit').textContent    = mode==='buy' ? 'BOB'  : 'USDT';
-    document.getElementById('fromAmount').value = '';
-    document.getElementById('toAmount').value   = '';
-    document.getElementById('calcNote').textContent = 'Ingresa un monto para calcular la conversión.';
+  // ── CALCULADORA ──
+  let calcHistory = [];
+
+  const CURRENCY_LABELS = { USDT: 'Tether (USDT)', BOB: 'Boliviano' };
+
+  function getCalcRate() {
+    if (!pricesData?.binance) return null;
+    const from = document.getElementById('fromCurrency').value;
+    const to   = document.getElementById('toCurrency').value;
+    if (from === 'USDT' && to === 'BOB') return pricesData.binance.sell;
+    if (from === 'BOB'  && to === 'USDT') return 1 / pricesData.binance.sell;
+    return 1;
+  }
+
+  function updateCalcRateDisplay() {
+    const from = document.getElementById('fromCurrency').value;
+    const to   = document.getElementById('toCurrency').value;
+    const rate = getCalcRate();
+    document.getElementById('fromSubLabel').textContent = CURRENCY_LABELS[from] || from;
+    document.getElementById('toSubLabel').textContent   = CURRENCY_LABELS[to]   || to;
+    if (rate) {
+      const rateVal = from === 'USDT' ? rate.toFixed(2) : (1/rate).toFixed(4);
+      document.getElementById('calcRateDisplay').textContent = from==='USDT'
+        ? `${rate.toFixed(2)} BOB` : `${(1/rate).toFixed(4)} USDT`;
+      document.getElementById('calcRatePill').textContent = pricesData?.binance?.sell?.toFixed(2) || '—';
+      document.getElementById('calcRateNote').innerHTML =
+        from==='USDT' ? `1 USDT = <strong>${rate.toFixed(2)}</strong> BOB`
+                      : `1 BOB = <strong>${(1/rate).toFixed(4)}</strong> USDT`;
+    }
+  }
+
+  function onCurrencyChange() {
+    const from = document.getElementById('fromCurrency').value;
+    const toEl = document.getElementById('toCurrency');
+    // Auto-switch opposite
+    if (from === toEl.value) {
+      toEl.value = from === 'USDT' ? 'BOB' : 'USDT';
+    }
+    updateCalcRateDisplay();
+    calculate();
+  }
+
+  function swapCurrencies() {
+    const fromEl = document.getElementById('fromCurrency');
+    const toEl   = document.getElementById('toCurrency');
+    const tmp = fromEl.value; fromEl.value = toEl.value; toEl.value = tmp;
+    // Also swap amounts
+    const fromAmt = document.getElementById('fromAmount').value;
+    const toAmt   = document.getElementById('toAmount').value;
+    document.getElementById('fromAmount').value = toAmt;
+    document.getElementById('toAmount').value   = fromAmt;
+    updateCalcRateDisplay();
   }
 
   function calculate() {
-    if (!pricesData) return;
     const from = parseFloat(document.getElementById('fromAmount').value);
-    if (isNaN(from)||from<=0) { document.getElementById('toAmount').value=''; return; }
-    const rate = currentMode==='buy' ? pricesData.binance?.buy : pricesData.binance?.sell;
+    if (isNaN(from) || from <= 0) { document.getElementById('toAmount').value = ''; return; }
+    const rate = getCalcRate();
     if (!rate) return;
-    const result = currentMode==='buy' ? from*rate : from/rate;
-    document.getElementById('toAmount').value = result.toFixed(currentMode==='buy'?2:4);
-    document.getElementById('calcNote').textContent = currentMode==='buy'
-      ? `${from} USDT × ${rate.toFixed(2)} Bs = ${result.toFixed(2)} Bs`
-      : `${from} BOB ÷ ${rate.toFixed(2)} Bs = ${result.toFixed(4)} USDT`;
+    const result = from * rate;
+    const to = document.getElementById('toCurrency').value;
+    document.getElementById('toAmount').value = to === 'BOB' ? result.toFixed(2) : result.toFixed(4);
   }
 
   function calculateReverse() {
-    if (!pricesData) return;
     const to = parseFloat(document.getElementById('toAmount').value);
-    if (isNaN(to)||to<=0) { document.getElementById('fromAmount').value=''; return; }
-    const rate = currentMode==='buy' ? pricesData.binance?.buy : pricesData.binance?.sell;
+    if (isNaN(to) || to <= 0) { document.getElementById('fromAmount').value = ''; return; }
+    const rate = getCalcRate();
     if (!rate) return;
-    const result = currentMode==='buy' ? to/rate : to*rate;
-    document.getElementById('fromAmount').value = result.toFixed(currentMode==='buy'?4:2);
-    document.getElementById('calcNote').textContent = currentMode==='buy'
-      ? `${to} BOB ÷ ${rate.toFixed(2)} = ${result.toFixed(4)} USDT`
-      : `${to} USDT × ${rate.toFixed(2)} = ${result.toFixed(2)} BOB`;
+    const result = to / rate;
+    const from = document.getElementById('fromCurrency').value;
+    document.getElementById('fromAmount').value = from === 'BOB' ? result.toFixed(2) : result.toFixed(4);
+  }
+
+  function setQuick(val) {
+    document.getElementById('fromAmount').value = val;
+    calculate();
+  }
+
+  function doConvert() {
+    const fromVal = parseFloat(document.getElementById('fromAmount').value);
+    const toVal   = parseFloat(document.getElementById('toAmount').value);
+    if (isNaN(fromVal) || isNaN(toVal) || fromVal <= 0) return;
+    const from = document.getElementById('fromCurrency').value;
+    const to   = document.getElementById('toCurrency').value;
+    const rate = getCalcRate();
+    const now  = new Date();
+    const time = now.toLocaleTimeString('es-BO', {hour:'2-digit', minute:'2-digit', second:'2-digit'});
+
+    calcHistory.unshift({ from: fromVal, fromCur: from, to: toVal, toCur: to, rate, time });
+    if (calcHistory.length > 8) calcHistory.pop();
+    renderCalcHistory();
+  }
+
+  function renderCalcHistory() {
+    const el = document.getElementById('calcHistory');
+    if (!calcHistory.length) { el.innerHTML = '<div class="calc-empty">Aún no hay conversiones</div>'; return; }
+    el.innerHTML = calcHistory.map(h => `
+      <div class="calc-history-item">
+        <div class="calc-history-conv">${h.from} ${h.fromCur} ⇄ ${h.to.toFixed(h.toCur==='BOB'?2:4)} ${h.toCur}</div>
+        <div class="calc-history-meta">Tasa: ${h.rate?.toFixed(h.toCur==='BOB'?2:4)}<br>${h.time}</div>
+      </div>`).join('');
+  }
+
+  function initCalc() {
+    updateCalcRateDisplay();
   }
 
   loadPrices();
