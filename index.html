@@ -1073,6 +1073,10 @@
 
   function renderAll() {
     if (!pricesData) return;
+
+    // El gráfico siempre se renderiza primero, de forma independiente
+    try { renderChart(currentRange); } catch(e) { console.error('Chart error:', e); }
+
     const { binance, airtm, eldorado, takenos, wallbit, bybit, saldoar, bcb, displayDate } = pricesData;
 
     document.getElementById('headerDate').textContent = displayDate || '';
@@ -1082,8 +1086,9 @@
 
     // Hero rates card
     if (binance) {
-      document.getElementById('heroCardBuy').textContent  = 'Bs ' + binance.buy.toFixed(2);
-      document.getElementById('heroCardSell').textContent = 'Bs ' + binance.sell.toFixed(2);
+      const bBuy  = parseFloat(binance.buy),  bSell = parseFloat(binance.sell);
+      document.getElementById('heroCardBuy').textContent  = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
+      document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
     }
     if (bcb) {
       document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.vrdBuy  || bcb.referentialBuy  || '9.79');
@@ -1145,7 +1150,6 @@
       document.getElementById('footerBcbDate').innerHTML = (displayDate||'')+'<br>Fuente: Banco Central de Bolivia';
     }
 
-    renderChart(currentRange);
     initCalc();
     // Actualizar comparación si el VRD ya cargó
     if (vrdData?.vrd_today) renderComparison(vrdData.vrd_today);
