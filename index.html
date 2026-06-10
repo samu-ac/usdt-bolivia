@@ -906,46 +906,73 @@
   function closeModal(id) { document.getElementById(id).classList.remove('open'); document.body.style.overflow=''; }
   function closeOnOverlay(e, id) { if (e.target===document.getElementById(id)) closeModal(id); }
 
-  // ── API ──
-  async function fetchLiveRate() {
-    const res = await fetch('https://api.dolarbluebolivia.click/v1/officialRate');
-    const { data } = await res.json();
-    return data;
-  }
+  // ── API DolarBlueBolivia ──
+  const DBB = 'https://api.dolarbluebolivia.click';
 
-  // Márgenes reales confirmados por el usuario (base: Binance P2P buy ~9.93)
-  // Takenos:  buy=10.15, sell=9.83  → mults: 10.15/9.93=1.0222, 9.83/9.97=0.9860
-  // El Dorado: buy=10.00, sell=9.85 → mults: 10.00/9.93=1.0071, 9.85/9.97=0.9880
-  // Airtm:    buy=10.09, sell=9.68  → mults: 10.09/9.93=1.0161, 9.68/9.97=0.9709
-  // Wallbit:  buy=10.05, sell=9.81  → mults: 10.05/9.93=1.0121, 9.81/9.97=0.9840
-  const PLATFORM_MARGINS = {
-    eldorado: { buyMult: 1.0071, sellMult: 0.9880 },
-    takenos:  { buyMult: 1.0222, sellMult: 0.9860 },
-    wallbit:  { buyMult: 1.0121, sellMult: 0.9840 },
-    airtm:    { buyMult: 1.0161, sellMult: 0.9709 },
-  };
+  async function dbbGet(endpoint) {
+    try {
+      const r = await fetch(DBB + endpoint);
+      const j = await r.json();
+      return j.data || j;
+    } catch(e) { return null; }
+  }
 
   async function loadPrices() {
     let base = {};
+    // 1. Cargar JSON guardado como base (historial + fallback)
     try { const r = await fetch('data/prices.json?v='+Date.now()); base = await r.json(); } catch(e) {}
+
+    // 2. Llamar todos los endpoints en paralelo
     try {
-      const live = await fetchLiveRate();
+      const [official, eldorado, takenos, wallbit, airtm, bybit, saldoar] = await Promise.allSettled([
+        dbbGet('/v1/officialRate'),
+        dbbGet('/v1/eldorado'),
+        dbbGet('/v1/takenos'),
+        dbbGet('/v1/wallbit'),
+        dbbGet('/v1/airtm'),
+        dbbGet('/v1/p2p/bybit'),
+        dbbGet('/v1/saldoar'),
+      ]);
+
+      const val = r => r.status === 'fulfilled' ? r.value : null;
+      const live   = val(official);
+      const dEld   = val(eldorado);
+      const dTak   = val(takenos);
+      const dWall  = val(wallbit);
+      const dAir   = val(airtm);
+      const dBybit = val(bybit);
+      const dSaldo = val(saldoar);
+
+      // Binance P2P (blue = mercado paralelo)
       if (live?.blue) {
-        const b = live.blue.buy, s = live.blue.sell;
-        base.binance  = { buy: b, sell: s, available: true };
-        base.eldorado = { buy: +(b*PLATFORM_MARGINS.eldorado.buyMult).toFixed(2), sell: +(s*PLATFORM_MARGINS.eldorado.sellMult).toFixed(2), available: true };
-        base.takenos  = { buy: +(b*PLATFORM_MARGINS.takenos.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.takenos.sellMult).toFixed(2),  available: true };
-        base.wallbit  = { buy: +(b*PLATFORM_MARGINS.wallbit.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.wallbit.sellMult).toFixed(2),  available: true };
-        base.airtm    = { buy: +(b*PLATFORM_MARGINS.airtm.buyMult).toFixed(2),    sell: +(s*PLATFORM_MARGINS.airtm.sellMult).toFixed(2),    available: true };
-        // Binance P2P y Bybit con spread estrecho
-        base.bybit    = { buy: +(b*1.0).toFixed(2), sell: +(s*1.0).toFixed(2), available: true };
-        base.saldoar  = { buy: +(b*1.011).toFixed(2), sell: +(s*0.988).toFixed(2), available: true };
+        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true };
       }
+
+      // Plataformas con datos reales
+      if (dEld?.buy  && dEld?.sell)
+        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true };
+      if (dTak?.buy  && dTak?.sell)
+        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true };
+      if (dWall?.buy && dWall?.sell)
+        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true };
+      if (dAir?.addValue && dAir?.withdrawValue)
+        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true };
+      if (dBybit?.buy && parseFloat(dBybit.buy) > 1)
+        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true };
+      if (dSaldo?.buy && dSaldo?.sell)
+        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true };
+
+      // BCB oficial
       if (live?.official) {
-        base.bcb = { officialBuy:live.official.buy, officialSell:live.official.sell,
-          referentialBuy:live.blue?.buy||base.bcb?.referentialBuy,
-          referentialSell:live.blue?.sell||base.bcb?.referentialSell };
+        base.bcb = {
+          officialBuy:     live.official.buy,
+          officialSell:    live.official.sell,
+          referentialBuy:  live.blue?.buy  || base.bcb?.referentialBuy,
+          referentialSell: live.blue?.sell || base.bcb?.referentialSell,
+        };
       }
+
+      // Actualizar historial con precio del día
       const today = new Date().toISOString().slice(0,10);
       if (live?.blue && base.history) {
         base.history = base.history.filter(h=>h.date!==today);
@@ -953,17 +980,6 @@
         base.history.sort((a,b)=>a.date.localeCompare(b.date));
       }
     } catch(e) { console.warn('API en vivo no disponible:', e.message); }
-
-    // Siempre recalcular plataformas con los márgenes actuales
-    if (base.binance) {
-      const b = base.binance.buy, s = base.binance.sell;
-      base.eldorado = { buy: +(b*PLATFORM_MARGINS.eldorado.buyMult).toFixed(2), sell: +(s*PLATFORM_MARGINS.eldorado.sellMult).toFixed(2), available: true };
-      base.takenos  = { buy: +(b*PLATFORM_MARGINS.takenos.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.takenos.sellMult).toFixed(2),  available: true };
-      base.wallbit  = { buy: +(b*PLATFORM_MARGINS.wallbit.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.wallbit.sellMult).toFixed(2),  available: true };
-      base.airtm    = { buy: +(b*PLATFORM_MARGINS.airtm.buyMult).toFixed(2),    sell: +(s*PLATFORM_MARGINS.airtm.sellMult).toFixed(2),    available: true };
-      base.bybit    = { buy: +(b*1.0).toFixed(2),   sell: +(s*1.0).toFixed(2),   available: true };
-      base.saldoar  = { buy: +(b*1.011).toFixed(2), sell: +(s*0.988).toFixed(2), available: true };
-    }
 
     const d = new Date();
     const dias  = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
