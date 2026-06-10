@@ -47,7 +47,9 @@
     "officialBuy": 6.86,
     "officialSell": 6.96,
     "referentialBuy": 9.92,
-    "referentialSell": 9.96
+    "referentialSell": 9.96,
+    "vrdBuy": 9.79,
+    "vrdSell": 10.0
   },
   "history": [
     {

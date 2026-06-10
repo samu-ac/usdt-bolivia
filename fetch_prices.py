@@ -208,12 +208,18 @@ if d_official and d_official.get("official"):
         "officialSell":    off["sell"],
         "referentialBuy":  blue.get("buy",  buy_price),
         "referentialSell": blue.get("sell", sell_price),
+        "vrdBuy":  float(d_bcb_vrd["buy"])  if d_bcb_vrd and d_bcb_vrd.get("buy")  else 9.79,
+        "vrdSell": float(d_bcb_vrd["sell"]) if d_bcb_vrd and d_bcb_vrd.get("sell") else 10.0,
     }
 else:
     bcb_data = existing.get("bcb", {
         "officialBuy": 6.86, "officialSell": 6.96,
         "referentialBuy": 9.86, "referentialSell": 10.07
     })
+    # Actualizar VRD si está disponible aunque officialRate haya fallado
+    if d_bcb_vrd and d_bcb_vrd.get("buy"):
+        bcb_data["vrdBuy"]  = float(d_bcb_vrd["buy"])
+        bcb_data["vrdSell"] = float(d_bcb_vrd["sell"])
 print(f"   Oficial  Compra: {bcb_data['officialBuy']} | Venta: {bcb_data['officialSell']}")
 
 # ── BCB VRD ────────────────────────────────────────────────────────────────
