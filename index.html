@@ -519,7 +519,7 @@
         </div>
         <div class="bcb-vrd-stats">
           <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Mín del día</div>
+            <div class="bcb-vrd-stat-label">Cotización Oficial</div>
             <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
           </div>
           <div class="bcb-vrd-stat">
@@ -1321,7 +1321,8 @@
 
     // Hero
     document.getElementById('vrdPriceBig').textContent = 'Bs ' + (vrd_today||'—');
-    document.getElementById('vrdMin').textContent = vrd_min_today ? 'Bs ' + vrd_min_today : '—';
+    const oficialBuy = pricesData?.bcb?.officialBuy || 6.86;
+    document.getElementById('vrdMin').textContent = 'Bs ' + oficialBuy;
     document.getElementById('vrdMax').textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
     document.getElementById('vrdNTrans').textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
     const d = today ? new Date(today + 'T12:00:00') : new Date();
