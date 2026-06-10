@@ -551,9 +551,9 @@
         <div class="compare-card" id="compareUsdtCard">
           <div class="compare-card-tag" style="color:#7C3AED">🔷 USDT Digital (P2P)</div>
           <div class="compare-card-price" style="color:#7C3AED" id="compareUsdtPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USDT · Promedio P2P</div>
+          <div class="compare-card-label">Bs por 1 USDT · Precio Compra Binance P2P</div>
           <div class="compare-card-detail">
-            Precio del mercado P2P de criptomonedas como Binance, El Dorado, Takenos, Wallbit.<br><br>
+            Precio de compra en el mercado P2P de Binance — lo que pagas para adquirir 1 USDT con bolivianos.<br><br>
             <strong>Ventajas:</strong> Transacciones digitales, disponible 24/7, envíos internacionales.<br>
             <strong>Riesgo:</strong> Volatilidad crypto, requiere billetera digital.
           </div>
@@ -566,7 +566,7 @@
           <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
         </div>
       </div>
-      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al VRD BCB del día vs precio P2P promedio (compra+venta)/2</div>
+      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al VRD BCB del día vs precio de compra Binance P2P (en vivo)</div>
     </div>
 
     <!-- GRÁFICO VRD HISTÓRICO -->
@@ -1317,7 +1317,8 @@
 
   function renderComparison(vrd) {
     if (!pricesData?.binance || !vrd) return;
-    const usdt = (pricesData.binance.buy + pricesData.binance.sell) / 2;
+    // Usamos el precio de COMPRA de Binance P2P (lo que pagas para adquirir 1 USDT)
+    const usdt = pricesData.binance.buy;
     const diff = usdt - vrd;
     const pct  = ((diff / vrd) * 100).toFixed(2);
 
