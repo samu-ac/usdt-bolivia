@@ -1532,13 +1532,12 @@
   loadPrices();
   loadVRD();
 
-  // Auto-refresh cada 4 horas (14,400,000 ms)
-  // El BCB actualiza datos durante el día hábil; GitHub Actions corre cada 4h
-  const FOUR_HOURS = 4 * 60 * 60 * 1000;
+  // Auto-refresh cada 30 minutos (precios en vivo desde la API del navegador)
+  // GitHub Actions actualiza el historial cada 2 horas en días hábiles
   setInterval(() => {
     loadPrices();
     loadVRD();
-  }, FOUR_HOURS);
+  }, 30 * 60 * 1000);
 </script>
 </body>
 </html>
