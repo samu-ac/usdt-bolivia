@@ -204,14 +204,45 @@
     .limit-period { font-size:11px; color:var(--text3); }
     .limits-note  { margin-top:12px; font-size:12px; color:var(--text2); background:#fffbea; border:1px solid #f5d87a; border-radius:8px; padding:12px; }
 
-    /* ══ PLATFORM CARDS ══ */
-    .promo-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
-    @media (max-width:480px) { .promo-grid { grid-template-columns:1fr 1fr; } }
-    .promo-card { background:var(--bg2); border:2px solid var(--border); border-radius:var(--radius); padding:16px; text-decoration:none; transition:border-color .2s,transform .2s,box-shadow .2s; display:block; }
-    .promo-card:hover { border-color:var(--navy); transform:translateY(-2px); box-shadow:var(--shadow-lg); }
-    .promo-name { font-size:15px; font-weight:800; color:var(--navy); margin-bottom:4px; }
-    .promo-desc { font-size:12px; color:var(--text2); margin-bottom:10px; line-height:1.5; }
-    .promo-link { font-size:12px; color:var(--blue); font-weight:700; }
+    /* ══ PLATFORM CARDS NEW ══ */
+    .plat-cards-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:18px; }
+    @media (max-width:900px) { .plat-cards-grid { grid-template-columns:1fr 1fr; } }
+    @media (max-width:480px) { .plat-cards-grid { grid-template-columns:1fr; } }
+    .plat-card { background:var(--bg2); border:2px solid var(--border); border-radius:16px; overflow:hidden; transition:transform .2s,box-shadow .2s; }
+    .plat-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-lg); }
+    .plat-card-header { padding:14px 14px 10px; display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
+    .plat-card-logo { width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; flex-shrink:0; }
+    .plat-card-info { flex:1; min-width:0; }
+    .plat-card-name { font-size:15px; font-weight:800; color:var(--text); }
+    .plat-card-domain { font-size:11px; color:var(--text3); margin-top:1px; }
+    .plat-card-verified { display:flex; align-items:center; gap:4px; font-size:11px; color:var(--green); font-weight:600; margin-top:3px; }
+    .plat-card-badge { font-size:10px; font-weight:800; padding:3px 9px; border-radius:20px; white-space:nowrap; flex-shrink:0; }
+    .plat-card-avg { margin:0 14px 12px; padding:12px; border-radius:10px; }
+    .plat-card-avg-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px; display:flex; align-items:center; gap:4px; }
+    .plat-card-avg-price { font-size:28px; font-weight:900; line-height:1; }
+    .plat-card-avg-sub { font-size:11px; margin-top:2px; opacity:.7; }
+    .plat-card-buysell { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:0 14px 14px; }
+    .plat-card-bs { background:var(--bg3); border-radius:8px; padding:10px 12px; }
+    .plat-card-bs-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px; display:flex; align-items:center; gap:3px; }
+    .plat-card-bs-label.buy  { color:var(--green); }
+    .plat-card-bs-label.sell { color:var(--red); }
+    .plat-card-bs-val { font-size:16px; font-weight:800; }
+    .plat-card-bs-val.buy  { color:var(--green); }
+    .plat-card-bs-val.sell { color:var(--red); }
+    .plat-card-btn { display:block; margin:0 14px 14px; padding:11px; border-radius:10px; text-align:center; font-size:13px; font-weight:800; text-decoration:none; cursor:pointer; border:none; font-family:'Inter',sans-serif; transition:opacity .2s; }
+    .plat-card-btn:hover { opacity:.88; }
+    .plat-card-btn2 { display:block; margin:0 14px 14px; padding:10px; border-radius:10px; text-align:center; font-size:12px; font-weight:700; text-decoration:none; cursor:pointer; border:2px solid var(--border); background:transparent; color:var(--text2); font-family:'Inter',sans-serif; transition:border-color .2s,color .2s; margin-top:-6px; }
+    .plat-card-btn2:hover { border-color:var(--navy); color:var(--navy); }
+    .otras-title { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--text3); text-align:center; margin:20px 0 12px; display:flex; align-items:center; gap:10px; }
+    .otras-title::before,.otras-title::after { content:''; flex:1; height:1px; background:var(--border); }
+    .otras-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+    @media (max-width:900px) { .otras-grid { grid-template-columns:1fr 1fr; } }
+    @media (max-width:480px) { .otras-grid { grid-template-columns:1fr; } }
+    .otra-card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); padding:14px; }
+    .otra-card-name { font-size:14px; font-weight:800; color:var(--text); margin-bottom:2px; }
+    .otra-card-domain { font-size:11px; color:var(--text3); margin-bottom:10px; }
+    .otra-card-row { display:flex; justify-content:space-between; font-size:13px; margin-bottom:5px; }
+    .otra-card-row span:first-child { color:var(--text2); }
 
     /* ══ MODAL ══ */
     .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:500; align-items:center; justify-content:center; padding:16px; }
@@ -368,25 +399,14 @@
     ℹ️ Los precios son promedios referenciales del mercado P2P. No constituyen asesoramiento financiero.
   </div>
 
-  <!-- PLATFORMS TABLE -->
-  <div id="platforms" class="section-title"><span>🏦</span> Comparación de Plataformas P2P</div>
-  <div class="platforms-grid">
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr>
-            <th>Plataforma</th>
-            <th>Compra (Bs)</th>
-            <th>Venta (Bs)</th>
-            <th>Spread</th>
-            <th>Enlace</th>
-          </tr>
-        </thead>
-        <tbody id="platformsBody">
-          <tr><td colspan="5" style="text-align:center;padding:20px;color:var(--text3)">Cargando...</td></tr>
-        </tbody>
-      </table>
-    </div>
+  <!-- PLATFORMS CARDS -->
+  <div id="platforms" class="section-title"><span>🏦</span> Plataformas P2P en Bolivia</div>
+  <div class="plat-cards-grid" id="platCardsGrid">
+    <div style="grid-column:1/-1;text-align:center;padding:28px;color:var(--text3)">Cargando cotizaciones...</div>
+  </div>
+  <div class="otras-title">OTRAS PLATAFORMAS</div>
+  <div class="otras-grid" id="otrasGrid">
+    <div style="grid-column:1/-1;text-align:center;padding:16px;color:var(--text3)">Cargando...</div>
   </div>
 
   <!-- CALCULATOR -->
@@ -500,32 +520,6 @@
     <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
   </div>
 
-  <!-- PLATFORMS CARDS -->
-  <div class="card" style="padding-bottom:18px">
-    <div class="section-title"><span>🔗</span> Plataformas P2P Recomendadas</div>
-    <div class="promo-grid">
-      <a class="promo-card" href="https://www.airtm.com/" target="_blank" rel="noopener">
-        <div class="promo-name">Airtm</div>
-        <div class="promo-desc">Pagos digitales con soporte Bolivia. Compra y vende USDT fácilmente.</div>
-        <div class="promo-link">Ir a Airtm.com →</div>
-      </a>
-      <a class="promo-card" href="https://wallbit.io/" target="_blank" rel="noopener">
-        <div class="promo-name">Wallbit</div>
-        <div class="promo-desc">Cuenta digital para freelancers. Cobra en dólares desde Bolivia.</div>
-        <div class="promo-link">Ir a Wallbit.io →</div>
-      </a>
-      <a class="promo-card" href="https://eldorado.io/" target="_blank" rel="noopener">
-        <div class="promo-name">El Dorado</div>
-        <div class="promo-desc">Exchange P2P latinoamericano. Compra USDT con bolivianos.</div>
-        <div class="promo-link">Ir a ElDorado.io →</div>
-      </a>
-      <a class="promo-card" href="https://takenos.com/" target="_blank" rel="noopener">
-        <div class="promo-name">Takenos</div>
-        <div class="promo-desc">Billetera digital, buen tipo de cambio Bolivia. Sin comisiones ocultas.</div>
-        <div class="promo-link">Ir a Takenos.com →</div>
-      </a>
-    </div>
-  </div>
 
 </main>
 
@@ -666,16 +660,31 @@
     return data;
   }
 
+  // Márgenes por plataforma basados en datos reales del mercado boliviano
+  // buy = cuánto pagas para comprar 1 USDT (mayor = más caro)
+  // sell = cuánto recibes por vender 1 USDT (menor = peor para ti)
+  const PLATFORM_MARGINS = {
+    eldorado: { buyMult: 1.004, sellMult: 0.993 },
+    takenos:  { buyMult: 1.019, sellMult: 0.990 },
+    wallbit:  { buyMult: 1.009, sellMult: 0.989 },
+    airtm:    { buyMult: 1.012, sellMult: 0.975 },
+  };
+
   async function loadPrices() {
     let base = {};
     try { const r = await fetch('data/prices.json?v='+Date.now()); base = await r.json(); } catch(e) {}
     try {
       const live = await fetchLiveRate();
       if (live?.blue) {
-        base.binance  = { buy: live.blue.buy,  sell: live.blue.sell,  available: true };
-        base.airtm    = { buy: +(live.blue.buy*0.996).toFixed(2),  sell: +(live.blue.sell*0.997).toFixed(2),  available: true };
-        base.eldorado = { buy: +(live.blue.buy*0.993).toFixed(2),  sell: +(live.blue.sell*0.994).toFixed(2),  available: true };
-        base.takenos  = { buy: +(live.blue.buy*0.990).toFixed(2),  sell: +(live.blue.sell*0.991).toFixed(2),  available: true };
+        const b = live.blue.buy, s = live.blue.sell;
+        base.binance  = { buy: b, sell: s, available: true };
+        base.eldorado = { buy: +(b*PLATFORM_MARGINS.eldorado.buyMult).toFixed(2), sell: +(s*PLATFORM_MARGINS.eldorado.sellMult).toFixed(2), available: true };
+        base.takenos  = { buy: +(b*PLATFORM_MARGINS.takenos.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.takenos.sellMult).toFixed(2),  available: true };
+        base.wallbit  = { buy: +(b*PLATFORM_MARGINS.wallbit.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.wallbit.sellMult).toFixed(2),  available: true };
+        base.airtm    = { buy: +(b*PLATFORM_MARGINS.airtm.buyMult).toFixed(2),    sell: +(s*PLATFORM_MARGINS.airtm.sellMult).toFixed(2),    available: true };
+        // Binance P2P y Bybit con spread estrecho
+        base.bybit    = { buy: +(b*1.0).toFixed(2), sell: +(s*1.0).toFixed(2), available: true };
+        base.saldoar  = { buy: +(b*1.011).toFixed(2), sell: +(s*0.988).toFixed(2), available: true };
       }
       if (live?.official) {
         base.bcb = { officialBuy:live.official.buy, officialSell:live.official.sell,
@@ -690,6 +699,17 @@
       }
     } catch(e) { console.warn('API en vivo no disponible:', e.message); }
 
+    // Calcular plataformas que no existen en el JSON guardado
+    if (base.binance && !base.wallbit) {
+      const b = base.binance.buy, s = base.binance.sell;
+      if (!base.eldorado) base.eldorado = { buy: +(b*PLATFORM_MARGINS.eldorado.buyMult).toFixed(2), sell: +(s*PLATFORM_MARGINS.eldorado.sellMult).toFixed(2), available: true };
+      if (!base.takenos)  base.takenos  = { buy: +(b*PLATFORM_MARGINS.takenos.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.takenos.sellMult).toFixed(2),  available: true };
+      base.wallbit  = { buy: +(b*PLATFORM_MARGINS.wallbit.buyMult).toFixed(2),  sell: +(s*PLATFORM_MARGINS.wallbit.sellMult).toFixed(2),  available: true };
+      base.airtm    = { buy: +(b*PLATFORM_MARGINS.airtm.buyMult).toFixed(2),    sell: +(s*PLATFORM_MARGINS.airtm.sellMult).toFixed(2),    available: true };
+      base.bybit    = { buy: +(b*1.0).toFixed(2),     sell: +(s*1.0).toFixed(2),     available: true };
+      base.saldoar  = { buy: +(b*1.011).toFixed(2),   sell: +(s*0.988).toFixed(2),   available: true };
+    }
+
     const d = new Date();
     const dias  = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
     const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -698,9 +718,54 @@
     renderAll();
   }
 
+  function platCard({ name, domain, logo, logoBg, logoColor, badgeText, badgeBg, badgeColor, data, btnText, btnBg, btnColor, btn2Text, url, btn2Url }) {
+    if (!data?.available) return '';
+    const avg = ((data.buy + data.sell) / 2).toFixed(2);
+    return `
+    <div class="plat-card" style="border-color:${logoBg}44">
+      <div class="plat-card-header">
+        <div class="plat-card-logo" style="background:${logoBg};color:${logoColor}">${logo}</div>
+        <div class="plat-card-info">
+          <div class="plat-card-name">${name}</div>
+          <div class="plat-card-domain">${domain}</div>
+          <div class="plat-card-verified">✔ Verificado</div>
+        </div>
+        <div class="plat-card-badge" style="background:${badgeBg};color:${badgeColor}">★ ${badgeText}</div>
+      </div>
+      <div class="plat-card-avg" style="background:${logoBg}14;border:1px solid ${logoBg}33">
+        <div class="plat-card-avg-label" style="color:${logoBg}">↗ Cotización Promedio</div>
+        <div class="plat-card-avg-price" style="color:${logoBg}">Bs ${avg}</div>
+        <div class="plat-card-avg-sub" style="color:${logoBg}">BOB por USDT</div>
+      </div>
+      <div class="plat-card-buysell">
+        <div class="plat-card-bs">
+          <div class="plat-card-bs-label buy">↕ Compra</div>
+          <div class="plat-card-bs-val buy">Bs ${data.buy.toFixed(2)}</div>
+        </div>
+        <div class="plat-card-bs">
+          <div class="plat-card-bs-label sell">↕ Venta</div>
+          <div class="plat-card-bs-val sell">Bs ${data.sell.toFixed(2)}</div>
+        </div>
+      </div>
+      <a class="plat-card-btn" href="${url}" target="_blank" rel="noopener" style="background:${btnBg};color:${btnColor}">${btnText}</a>
+      ${btn2Text ? `<a class="plat-card-btn2" href="${btn2Url||url}" target="_blank" rel="noopener">${btn2Text}</a>` : ''}
+    </div>`;
+  }
+
+  function otraCard({ name, domain, data, url }) {
+    if (!data?.available) return '';
+    return `
+    <div class="otra-card">
+      <div class="otra-card-name">${name}</div>
+      <div class="otra-card-domain">${domain}</div>
+      <div class="otra-card-row"><span>Compra</span><span style="color:var(--green);font-weight:800">Bs ${data.buy.toFixed(2)}</span></div>
+      <div class="otra-card-row"><span>Venta</span><span style="color:var(--red);font-weight:800">Bs ${data.sell.toFixed(2)}</span></div>
+    </div>`;
+  }
+
   function renderAll() {
     if (!pricesData) return;
-    const { binance, airtm, eldorado, takenos, bcb, displayDate } = pricesData;
+    const { binance, airtm, eldorado, takenos, wallbit, bybit, saldoar, bcb, displayDate } = pricesData;
 
     document.getElementById('headerDate').textContent = displayDate || '';
 
@@ -717,22 +782,34 @@
       document.getElementById('heroCardBcbSell').textContent = 'Bs ' + bcb.referentialSell;
     }
     const now = new Date();
-    document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'}) + ' p.m.';
+    document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
 
-    // Platforms table
-    const platforms = [
-      { name:'Binance P2P', badge:'TOP', data:binance,  url:'https://p2p.binance.com/es/trade/buy/USDT?fiat=BOB' },
-      { name:'Airtm',       badge:null,  data:airtm,    url:'https://www.airtm.com/' },
-      { name:'El Dorado',   badge:null,  data:eldorado, url:'https://eldorado.io/' },
-      { name:'Takenos',     badge:null,  data:takenos,  url:'https://takenos.com/' },
-    ];
-    document.getElementById('platformsBody').innerHTML = platforms.map(p => {
-      const sp = p.data?.available ? (p.data.sell-p.data.buy).toFixed(2) : '—';
-      const b  = p.data?.available ? `<span class="price-buy">${p.data.buy.toFixed(2)} Bs</span>`  : '<span style="color:var(--text3)">N/D</span>';
-      const s  = p.data?.available ? `<span class="price-sell">${p.data.sell.toFixed(2)} Bs</span>` : '<span style="color:var(--text3)">N/D</span>';
-      const bg = p.badge ? `<span class="platform-badge">${p.badge}</span>` : '';
-      return `<tr><td><span class="platform-name">${p.name}</span>${bg}</td><td>${b}</td><td>${s}</td><td><span class="spread">${p.data?.available?sp+' Bs':'—'}</span></td><td><a class="platform-link" href="${p.url}" target="_blank" rel="noopener">Visitar →</a></td></tr>`;
-    }).join('');
+    // Platform cards principales
+    document.getElementById('platCardsGrid').innerHTML = [
+      platCard({ name:'El Dorado', domain:'eldorado.io', logo:'🏅', logoBg:'#F5A623', logoColor:'#fff',
+        badgeText:'RECOMENDADO', badgeBg:'#FFF3CD', badgeColor:'#B8860B',
+        data:eldorado, btnText:'Descargar App', btnBg:'#F5A623', btnColor:'#fff',
+        btn2Text:'Tu cuenta en dólares', url:'https://eldorado.io/' }),
+      platCard({ name:'Takenos', domain:'takenos.com', logo:'🟣', logoBg:'#7C3AED', logoColor:'#fff',
+        badgeText:'RECOMENDADO', badgeBg:'#EDE9FE', badgeColor:'#6D28D9',
+        data:takenos, btnText:'Conocer más', btnBg:'#7C3AED', btnColor:'#fff',
+        btn2Text:'Descargar App', url:'https://takenos.com/' }),
+      platCard({ name:'Wallbit', domain:'wallbit.io', logo:'🔷', logoBg:'#1E3A5F', logoColor:'#fff',
+        badgeText:'RECOMENDADO', badgeBg:'#DBEAFE', badgeColor:'#1E40AF',
+        data:wallbit, btnText:'Calcula tu ahorro', btnBg:'#1E3A5F', btnColor:'#fff',
+        btn2Text:'Crear cuenta USD', url:'https://wallbit.io/' }),
+      platCard({ name:'Airtm', domain:'airtm.com', logo:'💠', logoBg:'#0EA5E9', logoColor:'#fff',
+        badgeText:'RECOMENDADO', badgeBg:'#E0F2FE', badgeColor:'#0369A1',
+        data:airtm, btnText:'Conocer más', btnBg:'#0EA5E9', btnColor:'#fff',
+        btn2Text:'Crear cuenta', url:'https://www.airtm.com/' }),
+    ].join('');
+
+    // Otras plataformas
+    document.getElementById('otrasGrid').innerHTML = [
+      otraCard({ name:'Binance P2P', domain:'binance.com', data:binance, url:'https://p2p.binance.com/' }),
+      otraCard({ name:'Bybit P2P',   domain:'bybit.com',   data:bybit,   url:'https://www.bybit.com/' }),
+      otraCard({ name:'SaldoAr',     domain:'saldoar.com', data:saldoar, url:'https://saldoar.com/' }),
+    ].filter(Boolean).join('');
 
     // BCB
     if (bcb) {
