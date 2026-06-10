@@ -30,6 +30,9 @@ jobs:
 
       - name: Obtener precios USDT y VRD BCB
         run: python fetch_prices.py
+        env:
+          ELDORADO_API_KEY: ${{ secrets.ELDORADO_API_KEY }}
+          WALLBIT_API_KEY:  ${{ secrets.WALLBIT_API_KEY }}
 
       - name: Commit y push de datos actualizados
         run: |
