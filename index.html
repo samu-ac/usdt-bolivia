@@ -1175,7 +1175,8 @@
     const s=getHistorySlice(range); if (!s.length) return;
     updateChartStats(s);
     const M=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-    const labels=s.map(h=>{ const[y,m,d]=h.date.split('-'); return `${d}-${M[+m-1]}`; });
+    const MFULL=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    const labels=s.map(h=>{ const[y,m,d]=h.date.split('-'); return `${d}-${M[+m-1]}-${y.slice(2)}`; });
     if (chartInstance) chartInstance.destroy();
     const ctx=document.getElementById('priceChart').getContext('2d');
     chartInstance=new Chart(ctx,{
@@ -1190,8 +1191,15 @@
       options:{ responsive:true, maintainAspectRatio:false, interaction:{mode:'index',intersect:false},
         plugins:{ legend:{display:false},
           tooltip:{ backgroundColor:'#fff', borderColor:'#D6DFF0', borderWidth:1,
-            titleColor:'#0D1B3E', bodyColor:'#4A5573', padding:10,
-            callbacks:{ label:c=>` ${c.dataset.label}: Bs ${c.parsed.y.toFixed(2)}` }}},
+            titleColor:'#0D1B3E', bodyColor:'#4A5573', padding:10, cornerRadius:10,
+            callbacks:{
+              title: items => {
+                const h = s[items[0].dataIndex];
+                const [y,m,d] = h.date.split('-');
+                return `${d} de ${MFULL[+m-1]} de ${y}`;
+              },
+              label:c=>` ${c.dataset.label}: Bs ${c.parsed.y.toFixed(2)}`
+            }}},
         scales:{
           x:{ ticks:{color:'#8A95B0',font:{size:11},maxTicksLimit:7,maxRotation:0}, grid:{color:'rgba(0,0,0,0.04)'}, border:{color:'#D6DFF0'} },
           y:{ position:'right', ticks:{color:'#8A95B0',font:{size:11},callback:v=>'Bs '+v.toFixed(2)}, grid:{color:'rgba(0,0,0,0.04)'}, border:{color:'#D6DFF0'} }
