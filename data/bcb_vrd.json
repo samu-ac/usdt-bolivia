@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-10T01:21:03Z",
-  "today": "2026-06-09",
-  "vrd_today": 9.8591,
-  "vrd_min_today": 6.9701,
-  "vrd_max_today": 9.98,
-  "monto_today": 35731745.77,
-  "n_trans_today": 1164,
+  "lastUpdated": "2026-06-10T14:00:00Z",
+  "today": "2026-06-10",
+  "vrd_today": 9.79,
+  "vrd_min_today": 6.97,
+  "vrd_max_today": 10.0,
+  "monto_today": 0,
+  "n_trans_today": 0,
   "history": [
     {
       "date": "2026-04-30",
@@ -214,6 +214,14 @@
       "max": 9.98,
       "monto": 35731745.77,
       "n_trans": 1164
+    },
+    {
+      "date": "2026-06-10",
+      "vrd": 9.79,
+      "min": 6.97,
+      "max": 10.0,
+      "monto": 0,
+      "n_trans": 0
     }
   ]
 }
