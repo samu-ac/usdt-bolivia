@@ -6,11 +6,10 @@
   <title>USDT Bolivia - Univalle</title>
   <meta name="description" content="Cotización diaria del USDT en Bolivia. Precio de compra y venta en mercados P2P. Proyecto académico Universidad del Valle." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
-      /* Paleta Univalle Bolivia */
       --navy:    #003087;
       --navy2:   #00236b;
       --gold:    #F5B800;
@@ -18,10 +17,7 @@
       --blue:    #0055B3;
       --blue-lt: #E8F0FB;
       --green:   #1a7f37;
-      --green-lt:#e6f4ea;
       --red:     #d32f2f;
-      --red-lt:  #fdecea;
-
       --bg:      #F7F9FC;
       --bg2:     #FFFFFF;
       --bg3:     #EEF2F8;
@@ -35,204 +31,160 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
 
-    /* ── TOP BAR ── */
+    /* ══ TOP BAR ══ */
     .topbar {
-      background: var(--navy); color: #fff;
-      font-size: 12px; text-align: center; padding: 6px 16px;
+      background: var(--navy); color: rgba(255,255,255,.85);
+      font-size: 12px; padding: 7px 16px;
       display: flex; align-items: center; justify-content: center; gap: 8px;
     }
-    .topbar .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); animation: pulse 2s infinite; }
+    .live-dot { width:7px; height:7px; border-radius:50%; background:var(--gold); animation:pulse 2s infinite; flex-shrink:0; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
-    /* ── HEADER ── */
-    header {
-      background: var(--bg2);
-      border-bottom: 1px solid var(--border);
-      position: sticky; top: 0; z-index: 200;
-      box-shadow: 0 2px 8px rgba(0,48,135,0.06);
-    }
-    .header-inner {
-      max-width: 1100px; margin: 0 auto; padding: 0 24px;
-      display: flex; align-items: center; justify-content: space-between;
-      height: 62px;
-    }
-    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-    .logo-icon {
-      width: 38px; height: 38px; border-radius: 10px;
-      background: var(--navy);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 19px; font-weight: 900; color: var(--gold);
-      letter-spacing: -1px;
-    }
-    .logo-text { line-height: 1.2; }
-    .logo-text .main { font-size: 15px; font-weight: 800; color: var(--navy); }
-    .logo-text .sub  { font-size: 10px; font-weight: 600; color: var(--gold2); text-transform: uppercase; letter-spacing: .08em; }
-    nav { display: flex; gap: 4px; }
-    nav a {
-      padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;
-      color: var(--text2); text-decoration: none; transition: all .18s;
-    }
-    nav a:hover { background: var(--blue-lt); color: var(--navy); }
-    .header-date { font-size: 12px; color: var(--text3); white-space: nowrap; }
-    @media (max-width: 768px) { nav { display: none; } }
+    /* ══ HEADER ══ */
+    header { background:var(--bg2); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:300; box-shadow:0 2px 8px rgba(0,48,135,.06); }
+    .header-inner { max-width:1100px; margin:0 auto; padding:0 20px; display:flex; align-items:center; justify-content:space-between; height:60px; gap:12px; }
+    .logo { display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0; }
+    .logo-icon { width:36px; height:36px; border-radius:9px; background:var(--navy); display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:900; color:var(--gold); }
+    .logo-text .main { font-size:15px; font-weight:800; color:var(--navy); line-height:1.2; }
+    .logo-text .sub  { font-size:10px; font-weight:600; color:var(--gold2); text-transform:uppercase; letter-spacing:.08em; }
+    /* Desktop nav */
+    nav { display:flex; gap:2px; }
+    nav a { padding:6px 11px; border-radius:6px; font-size:13px; font-weight:600; color:var(--text2); text-decoration:none; transition:all .18s; white-space:nowrap; }
+    nav a:hover { background:var(--blue-lt); color:var(--navy); }
+    .header-date { font-size:12px; color:var(--text3); white-space:nowrap; flex-shrink:0; }
+    /* Hamburger */
+    .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:4px; background:none; border:none; }
+    .hamburger span { width:22px; height:2px; background:var(--navy); border-radius:2px; display:block; transition:all .3s; }
+    /* Mobile nav drawer */
+    .mobile-nav { display:none; position:fixed; top:60px; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); z-index:299; }
+    .mobile-nav.open { display:block; }
+    .mobile-nav-inner { background:var(--bg2); padding:16px; display:flex; flex-direction:column; gap:4px; border-bottom:1px solid var(--border); box-shadow:0 8px 24px rgba(0,0,0,.1); }
+    .mobile-nav-inner a { padding:13px 16px; border-radius:8px; font-size:15px; font-weight:600; color:var(--text); text-decoration:none; display:block; transition:background .15s; }
+    .mobile-nav-inner a:hover { background:var(--blue-lt); color:var(--navy); }
 
-    /* ── HERO ── */
-    .hero {
-      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
-      color: #fff; text-align: center; padding: 36px 24px 48px;
-    }
-    .hero-badge {
-      display: inline-block; background: rgba(245,184,0,.2); border: 1px solid rgba(245,184,0,.4);
-      color: var(--gold); font-size: 12px; font-weight: 700; letter-spacing: .08em;
-      text-transform: uppercase; padding: 4px 14px; border-radius: 20px; margin-bottom: 14px;
-    }
-    .hero h1 { font-size: 28px; font-weight: 800; margin-bottom: 6px; }
-    .hero h1 span { color: var(--gold); }
-    .hero p { font-size: 14px; opacity: .8; }
-
-    /* ── LAYOUT ── */
-    main { max-width: 1100px; margin: -24px auto 0; padding: 0 24px 48px; position: relative; }
-
-    /* ── RATE CARDS ── */
-    .rate-hero {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;
-    }
-    @media (max-width: 580px) { .rate-hero { grid-template-columns: 1fr; } }
-    .rate-card {
-      background: var(--bg2); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 28px 24px; text-align: center;
-      box-shadow: var(--shadow); position: relative; overflow: hidden;
-      transition: transform .2s, box-shadow .2s;
-    }
-    .rate-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
-    .rate-card::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; }
-    .rate-card.buy::before  { background: linear-gradient(90deg, var(--green), #2ea043); }
-    .rate-card.sell::before { background: linear-gradient(90deg, var(--red), #e53e3e); }
-    .rate-label { font-size: 11px; font-weight: 700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:8px; }
-    .rate-card.buy .rate-label  { color: var(--green); }
-    .rate-card.sell .rate-label { color: var(--red); }
-    .rate-value { font-size: 52px; font-weight: 900; line-height: 1; margin-bottom: 6px; }
-    .rate-card.buy .rate-value  { color: var(--green); }
-    .rate-card.sell .rate-value { color: var(--red); }
-    .rate-currency { font-size: 13px; color: var(--text2); }
-    .rate-source   { font-size: 11px; color: var(--text3); margin-top: 10px; }
-
-    /* ── SECTION ── */
-    .section-title {
-      font-size: 15px; font-weight: 800; color: var(--navy);
-      margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
-    }
-    .section-title .icon { font-size: 17px; }
-
-    /* ── CARD ── */
-    .card {
-      background: var(--bg2); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 24px; margin-bottom: 24px;
-      box-shadow: var(--shadow);
+    @media (max-width:768px) {
+      nav, .header-date { display:none; }
+      .hamburger { display:flex; }
     }
 
-    /* ── PLATFORMS TABLE ── */
-    .platforms-grid { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 24px; box-shadow: var(--shadow); }
-    .platforms-grid table { width: 100%; border-collapse: collapse; }
-    .platforms-grid thead tr { background: var(--navy); }
-    .platforms-grid th { padding: 11px 16px; text-align: left; font-size: 11px; font-weight: 700; color: rgba(255,255,255,.8); text-transform: uppercase; letter-spacing:.06em; }
-    .platforms-grid th:not(:first-child) { text-align: center; }
-    .platforms-grid td { padding: 14px 16px; border-top: 1px solid var(--border); font-size: 14px; vertical-align: middle; }
-    .platforms-grid td:not(:first-child) { text-align: center; }
-    .platform-name { font-weight: 700; color: var(--text); }
-    .platform-badge { display:inline-block; font-size:10px; padding:2px 8px; border-radius:10px; margin-left:6px; vertical-align:middle; }
-    .badge-top { background: rgba(245,184,0,.15); color: var(--gold2); border: 1px solid rgba(245,184,0,.4); }
-    .price-buy  { color: var(--green); font-weight: 700; }
-    .price-sell { color: var(--red);   font-weight: 700; }
-    .spread { color: var(--text3); font-size: 13px; }
-    .platform-link { color: var(--blue); font-size: 12px; text-decoration: none; font-weight: 600; }
-    .platform-link:hover { text-decoration: underline; }
+    /* ══ HERO SPLIT ══ */
+    .hero-section { background:var(--bg2); border-bottom:1px solid var(--border); padding:40px 20px 48px; }
+    .hero-inner { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+    @media (max-width:760px) { .hero-inner { grid-template-columns:1fr; gap:28px; } }
 
-    /* ── CALCULATOR ── */
+    /* Left */
+    .hero-left {}
+    .hero-badge { display:inline-block; background:var(--blue-lt); border:1px solid #c3d7f7; color:var(--navy); font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-bottom:16px; }
+    .hero-title { font-size: clamp(36px, 7vw, 60px); font-weight:900; line-height:1.05; color:var(--text); margin-bottom:4px; }
+    .hero-title span { color:var(--navy); }
+    .hero-toggle { display:flex; gap:10px; margin:18px 0 16px; }
+    .hero-toggle-btn { display:flex; align-items:center; gap:6px; padding:9px 18px; border-radius:50px; border:2px solid var(--border); background:var(--bg3); color:var(--text2); font-size:14px; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; }
+    .hero-toggle-btn.active.buy  { background:var(--green); border-color:var(--green); color:#fff; }
+    .hero-toggle-btn.active.sell { background:var(--red);   border-color:var(--red);   color:#fff; }
+    .hero-toggle-btn .arrow { font-size:16px; }
+    .hero-big-price { font-size: clamp(52px, 12vw, 88px); font-weight:900; line-height:1; color:var(--navy); margin-bottom:6px; transition:color .3s; }
+    .hero-big-price.sell-mode { color:var(--red); }
+    .hero-price-label { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+    .hero-price-pill { background:var(--blue-lt); color:var(--navy); font-size:12px; font-weight:700; padding:4px 12px; border-radius:20px; }
+    .hero-desc { font-size:13px; color:var(--text2); line-height:1.6; max-width:380px; }
+
+    /* Right */
+    .hero-right {}
+    .rates-card { background:var(--bg2); border:1px solid var(--border); border-radius:16px; overflow:hidden; box-shadow:var(--shadow-lg); }
+    .rates-card-header { background:var(--bg3); padding:12px 20px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border); }
+    .rates-card-title { font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.1em; color:var(--text2); }
+    .rates-card-badge { font-size:10px; font-weight:700; padding:3px 10px; border-radius:10px; background:var(--blue-lt); color:var(--navy); }
+    .rates-row { display:grid; grid-template-columns:1fr 1fr; }
+    .rate-box { padding:20px; text-align:center; }
+    .rate-box:first-child { border-right:1px solid var(--border); }
+    .rate-box-label { display:flex; align-items:center; justify-content:center; gap:5px; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+    .rate-box-label.buy-label  { color:var(--green); }
+    .rate-box-label.sell-label { color:var(--red); }
+    .rate-box-val { font-size:32px; font-weight:900; color:var(--navy); }
+    .rate-box-val.buy-val  { color:var(--green); }
+    .rate-box-val.sell-val { color:var(--red); }
+    .rates-divider { height:1px; background:var(--border); margin:0 20px; }
+    .rates-footer { padding:14px 20px; display:flex; justify-content:space-between; align-items:center; }
+    .rates-footer-text { font-size:11px; color:var(--text3); }
+    .share-btn { display:flex; align-items:center; gap:6px; padding:9px 18px; background:var(--navy); color:#fff; border:none; border-radius:8px; font-size:13px; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:background .2s; }
+    .share-btn:hover { background:var(--navy2); }
+    .share-btn:active { transform:scale(.97); }
+
+    /* ══ MAIN ══ */
+    main { max-width:1100px; margin:0 auto; padding:28px 20px 56px; }
+    .section-title { font-size:15px; font-weight:800; color:var(--navy); margin-bottom:14px; display:flex; align-items:center; gap:8px; }
+    .card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); padding:22px; margin-bottom:22px; box-shadow:var(--shadow); }
+    .alert-strip { background:var(--blue-lt); border:1px solid #c3d7f7; border-radius:8px; padding:10px 14px; margin-bottom:22px; font-size:13px; color:var(--navy); display:flex; align-items:flex-start; gap:8px; }
+
+    /* ══ PLATFORMS TABLE ══ */
+    .platforms-grid { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; margin-bottom:22px; box-shadow:var(--shadow); }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    .platforms-grid table { width:100%; border-collapse:collapse; min-width:400px; }
+    .platforms-grid thead tr { background:var(--navy); }
+    .platforms-grid th { padding:11px 14px; text-align:left; font-size:11px; font-weight:700; color:rgba(255,255,255,.8); text-transform:uppercase; letter-spacing:.06em; white-space:nowrap; }
+    .platforms-grid th:not(:first-child) { text-align:center; }
+    .platforms-grid td { padding:13px 14px; border-top:1px solid var(--border); font-size:14px; vertical-align:middle; }
+    .platforms-grid td:not(:first-child) { text-align:center; }
+    .platform-name { font-weight:700; color:var(--text); }
+    .platform-badge { display:inline-block; font-size:10px; padding:2px 8px; border-radius:10px; margin-left:6px; vertical-align:middle; background:rgba(245,184,0,.15); color:var(--gold2); border:1px solid rgba(245,184,0,.4); }
+    .price-buy  { color:var(--green); font-weight:700; }
+    .price-sell { color:var(--red);   font-weight:700; }
+    .spread { color:var(--text3); font-size:13px; }
+    .platform-link { color:var(--blue); font-size:12px; text-decoration:none; font-weight:700; }
+
+    /* ══ CALCULATOR ══ */
     .calc-wrapper { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-    @media (max-width:680px) { .calc-wrapper { grid-template-columns:1fr; } }
+    @media (max-width:640px) { .calc-wrapper { grid-template-columns:1fr; } }
     .calc-left { display:flex; flex-direction:column; gap:14px; }
-    .calc-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:4px; }
-    .calc-rate-pill {
-      background:var(--blue-lt); color:var(--navy); font-size:13px; font-weight:800;
-      padding:5px 14px; border-radius:20px; border:1px solid #c3d7f7;
-    }
+    .calc-header-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:4px; }
+    .calc-rate-pill { background:var(--blue-lt); color:var(--navy); font-size:13px; font-weight:800; padding:5px 14px; border-radius:20px; border:1px solid #c3d7f7; white-space:nowrap; }
     .calc-field-label { font-size:11px; font-weight:700; color:var(--text2); text-transform:uppercase; letter-spacing:.06em; margin-bottom:6px; }
-    .calc-field-row { display:flex; gap:8px; align-items:stretch; }
-    .calc-select {
-      padding:12px 10px; border:2px solid var(--border); border-radius:8px;
-      background:var(--bg3); color:var(--text); font-size:14px; font-weight:700;
-      font-family:'Inter',sans-serif; outline:none; cursor:pointer; min-width:80px;
-      transition:border-color .2s;
-    }
+    .calc-field-row { display:flex; gap:8px; }
+    .calc-select { padding:12px 8px; border:2px solid var(--border); border-radius:8px; background:var(--bg3); color:var(--text); font-size:14px; font-weight:700; font-family:'Inter',sans-serif; outline:none; cursor:pointer; min-width:76px; transition:border-color .2s; }
     .calc-select:focus { border-color:var(--navy); }
-    .calc-input {
-      flex:1; padding:12px 16px; border:2px solid var(--border); border-radius:8px;
-      background:var(--bg2); color:var(--text); font-size:20px; font-weight:700;
-      font-family:'Inter',sans-serif; outline:none; transition:border-color .2s;
-    }
+    .calc-input { flex:1; padding:12px 14px; border:2px solid var(--border); border-radius:8px; background:var(--bg2); color:var(--text); font-size:20px; font-weight:700; font-family:'Inter',sans-serif; outline:none; transition:border-color .2s; min-width:0; }
     .calc-input:focus { border-color:var(--navy); }
     .calc-sublabel { font-size:11px; color:var(--text3); margin-top:3px; }
-    .calc-swap-wrap { display:flex; justify-content:center; align-items:center; }
-    .calc-swap {
-      width:36px; height:36px; border-radius:50%; border:2px solid var(--border);
-      background:var(--bg2); cursor:pointer; font-size:16px; display:flex;
-      align-items:center; justify-content:center; transition:all .2s; color:var(--navy);
-    }
+    .calc-swap-wrap { display:flex; justify-content:center; }
+    .calc-swap { width:38px; height:38px; border-radius:50%; border:2px solid var(--border); background:var(--bg2); cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; transition:all .2s; color:var(--navy); }
     .calc-swap:hover { background:var(--navy); color:#fff; border-color:var(--navy); }
     .calc-quick { display:flex; gap:8px; flex-wrap:wrap; }
-    .calc-quick-btn {
-      flex:1; min-width:48px; padding:8px 4px; border:2px solid var(--border);
-      border-radius:8px; background:var(--bg3); color:var(--text2); font-size:13px;
-      font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; text-align:center;
-    }
+    .calc-quick-btn { flex:1; min-width:44px; padding:10px 4px; border:2px solid var(--border); border-radius:8px; background:var(--bg3); color:var(--text2); font-size:14px; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; text-align:center; }
     .calc-quick-btn:hover { border-color:var(--navy); color:var(--navy); background:var(--blue-lt); }
-    .calc-convert-btn {
-      width:100%; padding:14px; background:var(--navy); color:#fff; border:none;
-      border-radius:10px; font-size:15px; font-weight:800; cursor:pointer;
-      font-family:'Inter',sans-serif; transition:background .2s; letter-spacing:.02em;
-    }
+    .calc-convert-btn { width:100%; padding:15px; background:var(--navy); color:#fff; border:none; border-radius:10px; font-size:15px; font-weight:800; cursor:pointer; font-family:'Inter',sans-serif; transition:background .2s; }
     .calc-convert-btn:hover { background:var(--navy2); }
     .calc-rate-note { font-size:12px; color:var(--text2); text-align:center; font-weight:600; }
-    /* History */
     .calc-right { display:flex; flex-direction:column; }
     .calc-history-title { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:800; color:var(--navy); margin-bottom:14px; }
-    .calc-history-list { display:flex; flex-direction:column; gap:8px; flex:1; }
-    .calc-history-item {
-      background:var(--bg3); border-radius:8px; padding:12px 14px;
-      display:flex; justify-content:space-between; align-items:center;
-      border:1px solid var(--border);
-    }
+    .calc-history-list { display:flex; flex-direction:column; gap:8px; }
+    .calc-history-item { background:var(--bg3); border-radius:8px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; border:1px solid var(--border); }
     .calc-history-conv { font-size:13px; font-weight:700; color:var(--text); }
     .calc-history-meta { text-align:right; font-size:11px; color:var(--text3); line-height:1.6; }
     .calc-empty { font-size:13px; color:var(--text3); text-align:center; padding:24px 0; }
 
-    /* ── CHART ── */
+    /* ══ CHART ══ */
     .chart-header { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:12px; }
-    .chart-stats  { display:flex; gap:20px; flex-wrap:wrap; }
+    .chart-stats  { display:flex; gap:16px; flex-wrap:wrap; }
     .chart-stat-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--text3); margin-bottom:2px; }
-    .chart-stat-value { font-size:15px; font-weight:800; color:var(--text); }
-    .chart-stat-value.up   { color: var(--green); }
-    .chart-stat-value.down { color: var(--red); }
+    .chart-stat-value { font-size:14px; font-weight:800; color:var(--text); }
+    .chart-stat-value.up   { color:var(--green); }
+    .chart-stat-value.down { color:var(--red); }
     .chart-tabs { display:flex; gap:4px; flex-wrap:wrap; margin-bottom:8px; }
-    .chart-tab {
-      padding:5px 13px; border-radius:20px; border:1px solid var(--border);
-      background:transparent; color:var(--text3); font-size:12px; font-weight:700;
-      cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s;
-    }
+    .chart-tab { padding:5px 12px; border-radius:20px; border:1px solid var(--border); background:transparent; color:var(--text3); font-size:12px; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; min-height:32px; }
     .chart-tab:hover { color:var(--navy); background:var(--blue-lt); border-color:var(--navy); }
     .chart-tab.active { background:var(--navy); border-color:var(--navy); color:#fff; }
     .chart-meta { font-size:11px; color:var(--text3); margin-bottom:10px; }
     .chart-legend { display:flex; gap:16px; margin-bottom:10px; }
     .chart-legend-item { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text2); font-weight:600; }
     .chart-legend-dot { width:10px; height:10px; border-radius:50%; }
-    .chart-wrap { position:relative; height:280px; }
+    .chart-wrap { position:relative; height:260px; }
+    @media (max-width:480px) { .chart-wrap { height:200px; } }
 
-    /* ── BCB ── */
-    .bcb-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-    @media (max-width:480px) { .bcb-grid { grid-template-columns:1fr; } }
+    /* ══ BCB ══ */
+    .bcb-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    @media (max-width:460px) { .bcb-grid { grid-template-columns:1fr; } }
     .bcb-type { border-radius:8px; padding:16px; }
     .bcb-type.oficial    { background:var(--blue-lt); border:1px solid #c3d7f7; }
     .bcb-type.referencial { background:#fffbea; border:1px solid #f5d87a; }
@@ -241,95 +193,67 @@
     .bcb-type.referencial .bcb-type-label { color:var(--gold2); }
     .bcb-row { display:flex; justify-content:space-between; font-size:13px; margin-bottom:6px; }
     .bcb-row span:first-child { color:var(--text2); }
-    .bcb-row span:last-child  { font-weight:800; color:var(--text); }
+    .bcb-row span:last-child  { font-weight:800; }
     .bcb-date { font-size:11px; color:var(--text3); margin-top:12px; }
 
-    /* ── LIMITS ── */
-    .limits-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-top:16px; }
-    .limit-item { background:var(--bg3); border-radius:8px; padding:16px; border-left:4px solid var(--gold); }
-    .limit-bank   { font-size:13px; font-weight:700; margin-bottom:4px; }
-    .limit-amount { font-size:22px; font-weight:900; color:var(--gold2); margin-bottom:4px; }
+    /* ══ LIMITS ══ */
+    .limits-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px; margin-top:14px; }
+    .limit-item { background:var(--bg3); border-radius:8px; padding:14px; border-left:4px solid var(--gold); }
+    .limit-bank   { font-size:12px; font-weight:700; margin-bottom:4px; }
+    .limit-amount { font-size:20px; font-weight:900; color:var(--gold2); margin-bottom:2px; }
     .limit-period { font-size:11px; color:var(--text3); }
-    .limits-note  { margin-top:14px; font-size:12px; color:var(--text2); background:#fffbea; border:1px solid #f5d87a; border-radius:8px; padding:12px; }
+    .limits-note  { margin-top:12px; font-size:12px; color:var(--text2); background:#fffbea; border:1px solid #f5d87a; border-radius:8px; padding:12px; }
 
-    /* ── PLATFORM CARDS ── */
-    .promo-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
-    .promo-card {
-      background:var(--bg2); border:2px solid var(--border);
-      border-radius:var(--radius); padding:18px; text-decoration:none;
-      transition:border-color .2s,transform .2s,box-shadow .2s; display:block;
-    }
+    /* ══ PLATFORM CARDS ══ */
+    .promo-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+    @media (max-width:480px) { .promo-grid { grid-template-columns:1fr 1fr; } }
+    .promo-card { background:var(--bg2); border:2px solid var(--border); border-radius:var(--radius); padding:16px; text-decoration:none; transition:border-color .2s,transform .2s,box-shadow .2s; display:block; }
     .promo-card:hover { border-color:var(--navy); transform:translateY(-2px); box-shadow:var(--shadow-lg); }
     .promo-name { font-size:15px; font-weight:800; color:var(--navy); margin-bottom:4px; }
     .promo-desc { font-size:12px; color:var(--text2); margin-bottom:10px; line-height:1.5; }
     .promo-link { font-size:12px; color:var(--blue); font-weight:700; }
 
-    /* ── WIDGET ── */
-    .widget-wrap { display:flex; justify-content:center; }
-    .widget-wrap iframe { border-radius:14px; max-width:100%; }
-
-    /* ── ALERT ── */
-    .alert-strip {
-      background:var(--blue-lt); border:1px solid #c3d7f7;
-      border-radius:8px; padding:10px 16px; margin-bottom:24px;
-      font-size:13px; color:var(--navy); display:flex; align-items:center; gap:8px;
-    }
-
-    /* ── MODAL ── */
-    .modal-overlay {
-      display:none; position:fixed; inset:0; background:rgba(0,0,0,.4);
-      z-index:500; align-items:center; justify-content:center; padding:24px;
-    }
+    /* ══ MODAL ══ */
+    .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:500; align-items:center; justify-content:center; padding:16px; }
     .modal-overlay.open { display:flex; }
-    .modal {
-      background:var(--bg2); border-radius:16px; padding:32px;
-      max-width:680px; width:100%; max-height:80vh; overflow-y:auto;
-      box-shadow:0 20px 60px rgba(0,48,135,.2); position:relative;
-    }
-    .modal h2 { font-size:22px; font-weight:800; color:var(--navy); margin-bottom:20px; }
-    .modal h3 { font-size:15px; font-weight:700; color:var(--navy); margin:18px 0 8px; }
+    .modal { background:var(--bg2); border-radius:16px; padding:28px; max-width:660px; width:100%; max-height:85vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,48,135,.2); position:relative; }
+    .modal h2 { font-size:20px; font-weight:800; color:var(--navy); margin-bottom:16px; padding-right:32px; }
+    .modal h3 { font-size:14px; font-weight:700; color:var(--navy); margin:16px 0 8px; }
     .modal p  { font-size:13px; color:var(--text2); line-height:1.7; margin-bottom:10px; }
     .modal ul { font-size:13px; color:var(--text2); line-height:1.8; padding-left:18px; margin-bottom:10px; }
-    .modal-close {
-      position:absolute; top:16px; right:20px; font-size:22px; cursor:pointer;
-      color:var(--text3); background:none; border:none; font-family:'Inter',sans-serif;
-      transition:color .2s; line-height:1;
-    }
-    .modal-close:hover { color:var(--navy); }
+    .modal-close { position:absolute; top:14px; right:16px; font-size:22px; cursor:pointer; color:var(--text3); background:none; border:none; font-family:'Inter',sans-serif; line-height:1; width:32px; height:32px; display:flex; align-items:center; justify-content:center; border-radius:6px; transition:all .2s; }
+    .modal-close:hover { background:var(--bg3); color:var(--navy); }
     .modal-badge { display:inline-block; background:var(--blue-lt); color:var(--navy); font-size:11px; font-weight:700; padding:4px 12px; border-radius:20px; margin-bottom:12px; }
     .project-box { background:var(--bg3); border-radius:10px; padding:16px; margin-top:16px; border-left:4px solid var(--gold); }
-    .project-box p { font-size:13px; color:var(--text2); margin-bottom:0; }
+    .project-box p { font-size:13px; color:var(--text2); }
     .project-box strong { color:var(--navy); }
 
-    /* ── FOOTER ── */
-    footer { background:var(--navy); color:rgba(255,255,255,.85); padding:48px 24px 24px; }
+    /* ══ FOOTER ══ */
+    footer { background:var(--navy); color:rgba(255,255,255,.85); padding:40px 20px 24px; }
     .footer-inner { max-width:1100px; margin:0 auto; }
-    .footer-bcb {
-      background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15);
-      border-radius:var(--radius); padding:16px 20px; margin-bottom:32px;
-      display:flex; flex-wrap:wrap; gap:24px; align-items:center;
-    }
+    .footer-bcb { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); border-radius:var(--radius); padding:14px 18px; margin-bottom:28px; display:flex; flex-wrap:wrap; gap:20px; align-items:center; }
     .footer-bcb-title { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--gold); margin-bottom:2px; }
     .footer-bcb-values { font-size:13px; color:#fff; }
-    .footer-bcb-date { font-size:11px; color:rgba(255,255,255,.5); margin-left:auto; }
-    .footer-top { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:32px; margin-bottom:32px; }
+    .footer-bcb-date { font-size:11px; color:rgba(255,255,255,.45); margin-left:auto; text-align:right; }
+    @media (max-width:480px) { .footer-bcb-date { margin-left:0; } }
+    .footer-top { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:28px; margin-bottom:28px; }
     @media (max-width:700px) { .footer-top { grid-template-columns:1fr 1fr; gap:20px; } }
     @media (max-width:400px) { .footer-top { grid-template-columns:1fr; } }
-    .footer-logo-text { font-size:18px; font-weight:800; color:#fff; margin-bottom:8px; display:block; }
+    .footer-logo-text { font-size:17px; font-weight:800; color:#fff; margin-bottom:8px; display:block; }
     .footer-logo-text span { color:var(--gold); }
-    .footer-desc { font-size:13px; color:rgba(255,255,255,.6); line-height:1.6; max-width:300px; }
-    .footer-col-title { font-size:11px; font-weight:700; color:rgba(255,255,255,.5); text-transform:uppercase; letter-spacing:.1em; margin-bottom:12px; }
+    .footer-desc { font-size:13px; color:rgba(255,255,255,.6); line-height:1.6; }
+    .footer-col-title { font-size:11px; font-weight:700; color:rgba(255,255,255,.45); text-transform:uppercase; letter-spacing:.1em; margin-bottom:10px; }
     .footer-col ul { list-style:none; }
     .footer-col ul li { margin-bottom:8px; }
-    .footer-col ul li a { font-size:13px; color:rgba(255,255,255,.7); text-decoration:none; cursor:pointer; transition:color .2s; }
+    .footer-col ul li a { font-size:13px; color:rgba(255,255,255,.7); text-decoration:none; cursor:pointer; transition:color .2s; display:inline-block; padding:2px 0; }
     .footer-col ul li a:hover { color:var(--gold); }
-    .footer-legal { font-size:12px; color:rgba(255,255,255,.5); line-height:1.6; padding-top:20px; border-top:1px solid rgba(255,255,255,.12); }
-    .footer-bottom { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-top:16px; gap:8px; }
-    .footer-copy { font-size:12px; color:rgba(255,255,255,.4); }
+    .footer-legal { font-size:12px; color:rgba(255,255,255,.45); line-height:1.6; padding-top:18px; border-top:1px solid rgba(255,255,255,.12); }
+    .footer-bottom { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-top:14px; gap:8px; }
+    .footer-copy { font-size:12px; color:rgba(255,255,255,.35); }
     .footer-uni  { font-size:12px; color:var(--gold); font-weight:600; }
 
-    /* ── HIDE MOBILE ── */
-    @media (max-width:600px) { .hide-mobile { display:none; } }
+    /* ══ UTILS ══ */
+    @media (max-width:600px) { .hide-mobile { display:none !important; } }
   </style>
 </head>
 <body>
@@ -351,79 +275,128 @@
       </div>
     </a>
     <nav>
-      <a href="#rates">Tipo de Cambio</a>
+      <a href="#cotizacion">Tipo de Cambio</a>
       <a href="#calculator">Calculadora</a>
       <a href="#platforms">P2P</a>
       <a href="#limits">Bancos</a>
       <a href="#chart">Gráfica</a>
     </nav>
-    <div class="header-date" id="headerDate">Cargando...</div>
+    <div class="header-date" id="headerDate">—</div>
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-badge">📊 Proyecto Académico · Univalle Bolivia</div>
-  <h1>USDT / BOB — <span>Cotización en Vivo</span></h1>
-  <p>Precio de compra y venta del USDT en mercados P2P de Bolivia · Actualización diaria</p>
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)">
+  <div class="mobile-nav-inner">
+    <a href="#cotizacion" onclick="closeMobileNav()">💱 Tipo de Cambio</a>
+    <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
+    <a href="#platforms"  onclick="closeMobileNav()">🏦 Plataformas P2P</a>
+    <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
+    <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
+  </div>
 </div>
 
+<!-- HERO SPLIT -->
+<div class="hero-section" id="cotizacion">
+  <div class="hero-inner">
+    <!-- Left -->
+    <div class="hero-left">
+      <div class="hero-badge">📊 Proyecto Académico · Univalle Bolivia</div>
+      <div class="hero-title">Cotización<br><span>USDT / BOB</span></div>
+      <div class="hero-toggle">
+        <button class="hero-toggle-btn buy active" id="heroBtnBuy" onclick="setHeroMode('buy')">
+          <span class="arrow">↓</span> Compra
+        </button>
+        <button class="hero-toggle-btn sell" id="heroBtnSell" onclick="setHeroMode('sell')">
+          <span class="arrow">↑</span> Venta
+        </button>
+      </div>
+      <div class="hero-big-price" id="heroBigPrice">—</div>
+      <div class="hero-price-label">
+        <span class="hero-price-pill" id="heroPriceLabel">Precio de Compra</span>
+      </div>
+      <p class="hero-desc">Precio al que puedes operar USDT en plataformas P2P de criptomonedas en Bolivia, actualizado en tiempo real.</p>
+    </div>
+    <!-- Right: Rates Card -->
+    <div class="hero-right">
+      <div class="rates-card">
+        <div class="rates-card-header">
+          <span class="rates-card-title">COTIZACIÓN P2P BOLIVIA</span>
+          <span class="rates-card-badge" id="ratesCardBadge">EN VIVO</span>
+        </div>
+        <div class="rates-row">
+          <div class="rate-box">
+            <div class="rate-box-label buy-label">↓ Compra</div>
+            <div class="rate-box-val buy-val" id="heroCardBuy">—</div>
+          </div>
+          <div class="rate-box">
+            <div class="rate-box-label sell-label">↑ Venta</div>
+            <div class="rate-box-val sell-val" id="heroCardSell">—</div>
+          </div>
+        </div>
+        <div class="rates-divider"></div>
+        <div class="rates-card-header" style="border-top:none;border-bottom:1px solid var(--border)">
+          <span class="rates-card-title">BCB VALOR REFERENCIAL</span>
+          <span class="rates-card-badge" style="background:#fffbea;color:var(--gold2);border:1px solid #f5d87a">BCB</span>
+        </div>
+        <div class="rates-row">
+          <div class="rate-box">
+            <div class="rate-box-label buy-label">↓ Compra</div>
+            <div class="rate-box-val" id="heroCardBcbBuy" style="color:var(--text)">—</div>
+          </div>
+          <div class="rate-box">
+            <div class="rate-box-label sell-label">↑ Venta</div>
+            <div class="rate-box-val" id="heroCardBcbSell" style="color:var(--text)">—</div>
+          </div>
+        </div>
+        <div class="rates-footer">
+          <span class="rates-footer-text" id="ratesTime">—</span>
+          <button class="share-btn" onclick="sharePrice()">⬡ ¡Comparte!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
 <main>
 
-  <div style="height:0"></div>
-
-  <!-- ALERT -->
-  <div class="alert-strip" style="margin-top:28px">
+  <div class="alert-strip">
     ℹ️ Los precios son promedios referenciales del mercado P2P. No constituyen asesoramiento financiero.
   </div>
 
-  <!-- MAIN RATES -->
-  <div id="rates" class="section-title"><span class="icon">💱</span> Tipo de Cambio USDT/BOB — Hoy</div>
-  <div class="rate-hero">
-    <div class="rate-card buy">
-      <div class="rate-label">Compra · Tú vendes USDT</div>
-      <div class="rate-value" id="buyRate">—</div>
-      <div class="rate-currency">Bolivianos por 1 USDT</div>
-      <div class="rate-source">Fuente: Mercado P2P Bolivia</div>
-    </div>
-    <div class="rate-card sell">
-      <div class="rate-label">Venta · Tú compras USDT</div>
-      <div class="rate-value" id="sellRate">—</div>
-      <div class="rate-currency">Bolivianos por 1 USDT</div>
-      <div class="rate-source">Fuente: Mercado P2P Bolivia</div>
-    </div>
-  </div>
-
   <!-- PLATFORMS TABLE -->
-  <div id="platforms" class="section-title"><span class="icon">🏦</span> Comparación de Plataformas P2P</div>
+  <div id="platforms" class="section-title"><span>🏦</span> Comparación de Plataformas P2P</div>
   <div class="platforms-grid">
-    <table>
-      <thead>
-        <tr>
-          <th>Plataforma</th>
-          <th>Compra (Bs)</th>
-          <th>Venta (Bs)</th>
-          <th class="hide-mobile">Spread</th>
-          <th class="hide-mobile">Enlace</th>
-        </tr>
-      </thead>
-      <tbody id="platformsBody">
-        <tr><td colspan="5" style="text-align:center;padding:20px;color:var(--text3)">Cargando...</td></tr>
-      </tbody>
-    </table>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Plataforma</th>
+            <th>Compra (Bs)</th>
+            <th>Venta (Bs)</th>
+            <th>Spread</th>
+            <th>Enlace</th>
+          </tr>
+        </thead>
+        <tbody id="platformsBody">
+          <tr><td colspan="5" style="text-align:center;padding:20px;color:var(--text3)">Cargando...</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <!-- CALCULATOR -->
   <div id="calculator" class="card">
-    <div class="calc-header">
-      <div class="section-title" style="margin-bottom:0"><span class="icon">🧮</span> Calculadora de Divisas</div>
+    <div class="calc-header-row">
+      <div class="section-title" style="margin-bottom:0"><span>🧮</span> Calculadora de Divisas</div>
       <div class="calc-rate-pill">Bs <span id="calcRatePill">—</span> · USDT P2P</div>
     </div>
-
     <div class="calc-wrapper" style="margin-top:16px">
-      <!-- LEFT: Conversor -->
       <div class="calc-left">
-        <!-- Desde -->
         <div>
           <div class="calc-field-label">Desde</div>
           <div class="calc-field-row">
@@ -435,13 +408,9 @@
           </div>
           <div class="calc-sublabel" id="fromSubLabel">Tether (USDT)</div>
         </div>
-
-        <!-- Swap -->
         <div class="calc-swap-wrap">
           <button class="calc-swap" onclick="swapCurrencies()" title="Invertir">⇅</button>
         </div>
-
-        <!-- Hacia -->
         <div>
           <div class="calc-field-label">Hacia</div>
           <div class="calc-field-row">
@@ -453,23 +422,15 @@
           </div>
           <div class="calc-sublabel" id="toSubLabel">Boliviano</div>
         </div>
-
-        <!-- Tasa -->
-        <div class="calc-rate-note" id="calcRateNote">1 USDT = <strong id="calcRateDisplay">—</strong> BOB</div>
-
-        <!-- Botones rápidos -->
+        <div class="calc-rate-note">1 USDT = <strong id="calcRateDisplay">—</strong></div>
         <div class="calc-quick">
           <button class="calc-quick-btn" onclick="setQuick(10)">10</button>
           <button class="calc-quick-btn" onclick="setQuick(50)">50</button>
           <button class="calc-quick-btn" onclick="setQuick(100)">100</button>
           <button class="calc-quick-btn" onclick="setQuick(500)">500</button>
         </div>
-
-        <!-- Convertir -->
         <button class="calc-convert-btn" onclick="doConvert()">Convertir</button>
       </div>
-
-      <!-- RIGHT: Historial -->
       <div class="calc-right">
         <div class="calc-history-title">🕐 Historial de Conversiones</div>
         <div class="calc-history-list" id="calcHistory">
@@ -482,9 +443,7 @@
   <!-- CHART -->
   <div id="chart" class="card">
     <div class="chart-header">
-      <div>
-        <div class="section-title" style="margin-bottom:4px"><span class="icon">📈</span> Tendencia USDT/BOB</div>
-      </div>
+      <div class="section-title" style="margin-bottom:0"><span>📈</span> Tendencia USDT/BOB</div>
       <div class="chart-stats">
         <div><div class="chart-stat-label">VENTA</div><div class="chart-stat-value" id="statVenta">—</div></div>
         <div><div class="chart-stat-label">CAMBIO</div><div class="chart-stat-value" id="statCambio">—</div></div>
@@ -492,7 +451,7 @@
         <div><div class="chart-stat-label">MÍN</div><div class="chart-stat-value" id="statMin">—</div></div>
       </div>
     </div>
-    <div class="chart-tabs">
+    <div class="chart-tabs" style="margin-top:12px">
       <button class="chart-tab" onclick="setChartRange('7D',this)">7D</button>
       <button class="chart-tab active" onclick="setChartRange('30D',this)">30D</button>
       <button class="chart-tab" onclick="setChartRange('90D',this)">90D</button>
@@ -502,15 +461,15 @@
     </div>
     <div class="chart-meta" id="chartMeta"></div>
     <div class="chart-legend">
-      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--navy)"></div> Venta</div>
-      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(0,48,135,0.3)"></div> Compra</div>
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--navy)"></div>Venta</div>
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(0,48,135,.3)"></div>Compra</div>
     </div>
     <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
   </div>
 
   <!-- BCB -->
   <div class="card">
-    <div class="section-title" style="margin-bottom:16px"><span class="icon">🏛️</span> Tipo de Cambio BCB</div>
+    <div class="section-title"><span>🏛️</span> Tipo de Cambio BCB</div>
     <div class="bcb-grid">
       <div class="bcb-type oficial">
         <div class="bcb-type-label">OFICIAL</div>
@@ -528,48 +487,45 @@
 
   <!-- LIMITS -->
   <div id="limits" class="card">
-    <div class="section-title"><span class="icon">⚠️</span> Límites y Restricciones en Bolivia</div>
-    <p style="font-size:13px;color:var(--text2);margin-bottom:4px">
-      Información actualizada sobre límites de compra de USDT con tarjetas de débito — <strong style="color:var(--navy)">21/04/2026</strong>
-    </p>
+    <div class="section-title"><span>⚠️</span> Límites y Restricciones en Bolivia</div>
+    <p style="font-size:13px;color:var(--text2)">Información actualizada sobre límites de compra de USDT con tarjetas de débito — <strong style="color:var(--navy)">21/04/2026</strong></p>
     <div class="limits-grid">
-      <div class="limit-item"><div class="limit-bank">Banco Mercantil Santa Cruz</div><div class="limit-amount">$200/mes</div><div class="limit-period">Límite mensual con débito</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco Nacional de Bolivia</div><div class="limit-amount">$300/mes</div><div class="limit-period">Límite mensual con débito</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco BISA</div><div class="limit-amount">$200/mes</div><div class="limit-period">Límite mensual con débito</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco Unión</div><div class="limit-amount">$100/mes</div><div class="limit-period">Límite mensual con débito</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco Económico</div><div class="limit-amount">$200/mes</div><div class="limit-period">Límite mensual con débito</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco FIE</div><div class="limit-amount">$150/mes</div><div class="limit-period">Límite mensual con débito</div></div>
+      <div class="limit-item"><div class="limit-bank">Mercantil Santa Cruz</div><div class="limit-amount">$200/mes</div><div class="limit-period">Débito mensual</div></div>
+      <div class="limit-item"><div class="limit-bank">Nacional de Bolivia</div><div class="limit-amount">$300/mes</div><div class="limit-period">Débito mensual</div></div>
+      <div class="limit-item"><div class="limit-bank">Banco BISA</div><div class="limit-amount">$200/mes</div><div class="limit-period">Débito mensual</div></div>
+      <div class="limit-item"><div class="limit-bank">Banco Unión</div><div class="limit-amount">$100/mes</div><div class="limit-period">Débito mensual</div></div>
+      <div class="limit-item"><div class="limit-bank">Banco Económico</div><div class="limit-amount">$200/mes</div><div class="limit-period">Débito mensual</div></div>
+      <div class="limit-item"><div class="limit-bank">Banco FIE</div><div class="limit-amount">$150/mes</div><div class="limit-period">Débito mensual</div></div>
     </div>
-    <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Se recomienda verificar directamente con tu banco antes de operar.</div>
+    <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
   </div>
 
-  <!-- PLATFORM CARDS -->
-  <div class="card" style="padding-bottom:20px">
-    <div class="section-title"><span class="icon">🔗</span> Plataformas P2P Recomendadas</div>
+  <!-- PLATFORMS CARDS -->
+  <div class="card" style="padding-bottom:18px">
+    <div class="section-title"><span>🔗</span> Plataformas P2P Recomendadas</div>
     <div class="promo-grid">
       <a class="promo-card" href="https://www.airtm.com/" target="_blank" rel="noopener">
         <div class="promo-name">Airtm</div>
-        <div class="promo-desc">Plataforma de pagos digitales con soporte para Bolivia. Compra y vende USDT fácilmente.</div>
+        <div class="promo-desc">Pagos digitales con soporte Bolivia. Compra y vende USDT fácilmente.</div>
         <div class="promo-link">Ir a Airtm.com →</div>
       </a>
       <a class="promo-card" href="https://wallbit.io/" target="_blank" rel="noopener">
         <div class="promo-name">Wallbit</div>
-        <div class="promo-desc">Cuenta digital para freelancers latinoamericanos. Cobra en dólares desde Bolivia.</div>
+        <div class="promo-desc">Cuenta digital para freelancers. Cobra en dólares desde Bolivia.</div>
         <div class="promo-link">Ir a Wallbit.io →</div>
       </a>
       <a class="promo-card" href="https://eldorado.io/" target="_blank" rel="noopener">
         <div class="promo-name">El Dorado</div>
-        <div class="promo-desc">Exchange P2P latinoamericano. Compra USDT con bolivianos de forma segura.</div>
+        <div class="promo-desc">Exchange P2P latinoamericano. Compra USDT con bolivianos.</div>
         <div class="promo-link">Ir a ElDorado.io →</div>
       </a>
       <a class="promo-card" href="https://takenos.com/" target="_blank" rel="noopener">
         <div class="promo-name">Takenos</div>
-        <div class="promo-desc">Billetera digital con buen tipo de cambio para Bolivia. Sin comisiones ocultas.</div>
+        <div class="promo-desc">Billetera digital, buen tipo de cambio Bolivia. Sin comisiones ocultas.</div>
         <div class="promo-link">Ir a Takenos.com →</div>
       </a>
     </div>
   </div>
-
 
 </main>
 
@@ -587,11 +543,10 @@
       </div>
       <div class="footer-bcb-date" id="footerBcbDate">—<br>Fuente: Banco Central de Bolivia</div>
     </div>
-
     <div class="footer-top">
       <div>
         <span class="footer-logo-text">USDT <span>Bolivia</span> · Univalle</span>
-        <p class="footer-desc">Plataforma informativa especializada en cotizaciones de USDT/BOB basadas en mercados P2P. Proyecto académico de la Universidad del Valle, Santa Cruz de la Sierra.</p>
+        <p class="footer-desc">Plataforma informativa de cotizaciones USDT/BOB basadas en mercados P2P. Proyecto académico de la Universidad del Valle, Santa Cruz.</p>
       </div>
       <div class="footer-col">
         <div class="footer-col-title">Información</div>
@@ -619,10 +574,7 @@
         </ul>
       </div>
     </div>
-
-    <div class="footer-legal">
-      <strong style="color:rgba(255,255,255,.8)">Aviso Legal:</strong> Las cotizaciones mostradas son precios referenciales obtenidos de plataformas de intercambio P2P. No constituyen asesoramiento financiero. Proyecto académico sin fines de lucro.
-    </div>
+    <div class="footer-legal"><strong style="color:rgba(255,255,255,.8)">Aviso Legal:</strong> Las cotizaciones son precios referenciales de mercados P2P. No constituyen asesoramiento financiero. Proyecto académico sin fines de lucro.</div>
     <div class="footer-bottom">
       <span class="footer-copy">© 2026 USDT Bolivia - Univalle. Todos los derechos reservados.</span>
       <span class="footer-uni">Universidad del Valle · Santa Cruz, Bolivia</span>
@@ -630,157 +582,118 @@
   </div>
 </footer>
 
-<!-- ── MODALES ── -->
-
-<!-- SOBRE NOSOTROS -->
+<!-- MODALES -->
 <div class="modal-overlay" id="modalSobre" onclick="closeOnOverlay(event,'modalSobre')">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('modalSobre')">✕</button>
     <div class="modal-badge">Proyecto Académico</div>
     <h2>Sobre Nosotros</h2>
-    <p>Somos una plataforma informativa especializada en proporcionar datos precisos y en tiempo real del mercado cambiario boliviano.</p>
-    <p>Creemos que la información económica confiable es la base para tomar decisiones financieras inteligentes.</p>
+    <p>Somos una plataforma informativa especializada en proporcionar datos precisos y en tiempo real del mercado cambiario boliviano. Creemos que la información económica confiable es la base para tomar decisiones financieras inteligentes.</p>
     <h3>Nuestra Misión</h3>
     <p>Proporcionar información precisa, actualizada y accesible sobre el mercado cambiario boliviano, especialmente del dólar paralelo o <em>"blue"</em>. Buscamos empoderar a los ciudadanos con conocimientos económicos que les permitan tomar decisiones financieras acertadas en su día a día.</p>
     <h3>Nuestra Visión</h3>
-    <p>Ser la fuente más confiable y accesible de información económica en Bolivia, especialmente en temas de cambio de divisas. Contribuir al desarrollo financiero de la comunidad mediante transparencia, objetividad y veracidad en todos nuestros contenidos.</p>
+    <p>Ser la fuente más confiable y accesible de información económica en Bolivia en temas de cambio de divisas. Contribuir al desarrollo financiero de la comunidad mediante transparencia, objetividad y veracidad en todos nuestros contenidos.</p>
     <div class="project-box">
       <p><strong>Proyecto Académico — Universidad del Valle (Univalle)</strong><br><br>
-      Este sitio web es el resultado de un proyecto de investigación y desarrollo desarrollado por un grupo de estudiantes de la <strong>Universidad del Valle, sede Santa Cruz de la Sierra</strong>. El proyecto fue concebido como una herramienta educativa y de utilidad pública para la comunidad boliviana, bajo la guía y supervisión del docente <strong>Lic. Javier Prado</strong>.<br><br>
-      Nuestro objetivo académico fue aplicar conocimientos de tecnología, análisis de datos y desarrollo web para crear una solución real que responda a una necesidad informativa concreta de los bolivianos.</p>
+      Este sitio es el resultado de un proyecto de investigación y desarrollo de un grupo de estudiantes de la <strong>Universidad del Valle, sede Santa Cruz de la Sierra</strong>, concebido como una herramienta educativa y de utilidad pública para la comunidad boliviana, bajo la guía y supervisión del docente <strong>Lic. Javier Prado</strong>.<br><br>
+      Nuestro objetivo fue aplicar conocimientos de tecnología, análisis de datos y desarrollo web para crear una solución real que responda a una necesidad informativa concreta de los bolivianos.</p>
     </div>
   </div>
 </div>
 
-<!-- TÉRMINOS -->
 <div class="modal-overlay" id="modalTerminos" onclick="closeOnOverlay(event,'modalTerminos')">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('modalTerminos')">✕</button>
     <div class="modal-badge">Legal</div>
     <h2>Términos y Condiciones</h2>
-    <p>Estos términos rigen el uso de nuestro sitio web y servicios. Por favor, léelos cuidadosamente antes de utilizar nuestra plataforma.</p>
+    <p>Estos términos rigen el uso de nuestro sitio web y servicios.</p>
     <h3>Aceptación de Términos</h3>
-    <p>Al acceder y utilizar este sitio web de <strong>USDT Bolivia - Univalle</strong>, usted acepta automáticamente cumplir con estos términos y condiciones. Si no está de acuerdo con alguna parte de estos términos, le recomendamos que no utilice nuestro sitio web.</p>
-    <h3>Descripción del Servicio</h3>
-    <p><strong>Lo que Ofrecemos:</strong></p>
-    <ul>
-      <li>Información referencial de cotizaciones</li>
-      <li>Datos del mercado paralelo de divisas</li>
-      <li>Herramientas de cálculo básicas</li>
-      <li>Análisis de tendencias históricas</li>
-    </ul>
-    <p><strong>Lo que NO Hacemos:</strong></p>
-    <ul>
-      <li>Servicios de cambio de divisas</li>
-      <li>Intermediación financiera</li>
-      <li>Asesoramiento financiero personalizado</li>
-      <li>Garantías sobre los precios mostrados</li>
-    </ul>
+    <p>Al acceder y utilizar <strong>USDT Bolivia - Univalle</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
+    <h3>Lo que Ofrecemos</h3>
+    <ul><li>Información referencial de cotizaciones</li><li>Datos del mercado paralelo de divisas</li><li>Herramientas de cálculo básicas</li><li>Análisis de tendencias históricas</li></ul>
+    <h3>Lo que NO Hacemos</h3>
+    <ul><li>Servicios de cambio de divisas</li><li>Intermediación financiera</li><li>Asesoramiento financiero personalizado</li><li>Garantías sobre los precios mostrados</li></ul>
     <h3>Descargo de Responsabilidad</h3>
-    <p><strong>Información Referencial:</strong> Todo el contenido proporcionado en este sitio es únicamente para fines informativos y no debe considerarse asesoramiento financiero, legal o profesional.</p>
-    <p><strong>No Garantizamos Precisión:</strong> Aunque nos esforzamos por mantener la información actualizada, no garantizamos la exactitud, completitud o actualidad de los datos mostrados.</p>
-    <p><strong>Decisiones Financieras:</strong> Cualquier decisión financiera que tome basada en la información de este sitio es bajo su propia responsabilidad y riesgo.</p>
+    <p>Todo el contenido es únicamente para fines informativos. No garantizamos la exactitud de los datos. Cualquier decisión financiera basada en este sitio es bajo su propia responsabilidad.</p>
   </div>
 </div>
 
-<!-- PRIVACIDAD -->
 <div class="modal-overlay" id="modalPrivacidad" onclick="closeOnOverlay(event,'modalPrivacidad')">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('modalPrivacidad')">✕</button>
     <div class="modal-badge">Legal</div>
     <h2>Política de Privacidad</h2>
-    <p>Tu privacidad es importante para nosotros.</p>
     <h3>Introducción</h3>
-    <p>En <strong>USDT Bolivia - Univalle</strong>, respetamos tu privacidad y nos comprometemos a proteger la información personal que compartes con nosotros. Esta política describe cómo recopilamos, utilizamos y protegemos tu información cuando utilizas nuestro sitio web.</p>
+    <p>En <strong>USDT Bolivia - Univalle</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
     <h3>Datos que Recopilamos</h3>
-    <p>Este sitio web es de carácter informativo y <strong>no recopila datos personales</strong> de sus visitantes. No requerimos registro, inicio de sesión ni ningún formulario personal para acceder al contenido.</p>
+    <p>Este sitio es de carácter informativo y <strong>no recopila datos personales</strong>. No requerimos registro ni inicio de sesión.</p>
     <h3>Cookies y Analítica</h3>
-    <p>Podemos utilizar herramientas de analítica anónimas para mejorar la experiencia del usuario. Estos datos son completamente anónimos y no permiten identificar a ningún usuario individualmente.</p>
-    <h3>Contacto</h3>
-    <p>Si tienes preguntas sobre esta política, puedes contactarnos a través de la Universidad del Valle, Santa Cruz de la Sierra, Bolivia.</p>
+    <p>Podemos usar herramientas de analítica anónimas para mejorar la experiencia. Estos datos son completamente anónimos.</p>
   </div>
 </div>
 
-<!-- AVISO LEGAL -->
 <div class="modal-overlay" id="modalAviso" onclick="closeOnOverlay(event,'modalAviso')">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('modalAviso')">✕</button>
     <div class="modal-badge">Legal</div>
     <h2>Aviso Legal</h2>
-    <p>Las cotizaciones mostradas en <strong>USDT Bolivia - Univalle</strong> son precios referenciales obtenidos de plataformas de intercambio P2P de criptomonedas (USDT).</p>
-    <p><strong>No constituyen asesoramiento financiero.</strong> Este sitio es un proyecto académico de la Universidad del Valle sin fines de lucro, desarrollado con fines educativos e informativos.</p>
-    <p>Los datos provienen de fuentes públicas y mercados P2P. Los precios pueden variar en tiempo real. Siempre verifique con la plataforma de su preferencia antes de realizar cualquier operación.</p>
+    <p>Las cotizaciones mostradas son precios referenciales de plataformas P2P de criptomonedas. <strong>No constituyen asesoramiento financiero.</strong></p>
+    <p>Este sitio es un proyecto académico de la Universidad del Valle sin fines de lucro. Los datos provienen de fuentes públicas y pueden variar. Siempre verifique con la plataforma de su preferencia antes de operar.</p>
   </div>
 </div>
 
 <script>
   let pricesData = null;
-  let currentMode = 'buy';
   let chartInstance = null;
   let currentRange = '30D';
+  let heroMode = 'buy';
+  let calcHistory = [];
+
+  // ── MENU MÓVIL ──
+  function toggleMenu() { document.getElementById('mobileNav').classList.toggle('open'); }
+  function closeMenu(e) { if (e.target === document.getElementById('mobileNav')) closeMobileNav(); }
+  function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
 
   // ── MODALES ──
   function openModal(id)  { document.getElementById(id).classList.add('open'); document.body.style.overflow='hidden'; }
   function closeModal(id) { document.getElementById(id).classList.remove('open'); document.body.style.overflow=''; }
-  function closeOnOverlay(e, id) { if (e.target === document.getElementById(id)) closeModal(id); }
+  function closeOnOverlay(e, id) { if (e.target===document.getElementById(id)) closeModal(id); }
 
-  // ── API EN VIVO ──
+  // ── API ──
   async function fetchLiveRate() {
     const res = await fetch('https://api.dolarbluebolivia.click/v1/officialRate');
     const { data } = await res.json();
-    return data; // { blue: {buy, sell}, official: {buy, sell} }
-  }
-
-  async function fetchBinanceP2P(tradeType) {
-    const res = await fetch('https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ page:1, rows:10, payTypes:[], asset:'USDT', tradeType, fiat:'BOB', publisherType:null })
-    });
-    const data = await res.json();
-    const prices = data.data.slice(0,5).map(ad => parseFloat(ad.adv.price));
-    return prices.length ? Math.round(prices.reduce((a,b)=>a+b)/prices.length*100)/100 : null;
+    return data;
   }
 
   async function loadPrices() {
     let base = {};
-    try {
-      const res = await fetch('data/prices.json?v=' + Date.now());
-      base = await res.json();
-    } catch(e) {}
-
-    // Intentar API en vivo de dolarbluebolivia.click
+    try { const r = await fetch('data/prices.json?v='+Date.now()); base = await r.json(); } catch(e) {}
     try {
       const live = await fetchLiveRate();
-      if (live && live.blue) {
+      if (live?.blue) {
         base.binance  = { buy: live.blue.buy,  sell: live.blue.sell,  available: true };
-        base.airtm    = { buy: Math.round(live.blue.buy*0.996*100)/100, sell: Math.round(live.blue.sell*0.997*100)/100, available: true };
-        base.eldorado = { buy: Math.round(live.blue.buy*0.993*100)/100, sell: Math.round(live.blue.sell*0.994*100)/100, available: true };
-        base.takenos  = { buy: Math.round(live.blue.buy*0.990*100)/100, sell: Math.round(live.blue.sell*0.991*100)/100, available: true };
+        base.airtm    = { buy: +(live.blue.buy*0.996).toFixed(2),  sell: +(live.blue.sell*0.997).toFixed(2),  available: true };
+        base.eldorado = { buy: +(live.blue.buy*0.993).toFixed(2),  sell: +(live.blue.sell*0.994).toFixed(2),  available: true };
+        base.takenos  = { buy: +(live.blue.buy*0.990).toFixed(2),  sell: +(live.blue.sell*0.991).toFixed(2),  available: true };
       }
-      if (live && live.official) {
-        base.bcb = {
-          officialBuy:    live.official.buy,
-          officialSell:   live.official.sell,
-          referentialBuy: live.blue ? live.blue.buy  : base.bcb?.referentialBuy,
-          referentialSell:live.blue ? live.blue.sell : base.bcb?.referentialSell
-        };
+      if (live?.official) {
+        base.bcb = { officialBuy:live.official.buy, officialSell:live.official.sell,
+          referentialBuy:live.blue?.buy||base.bcb?.referentialBuy,
+          referentialSell:live.blue?.sell||base.bcb?.referentialSell };
       }
       const today = new Date().toISOString().slice(0,10);
-      if (live && live.blue && base.history) {
-        base.history = base.history.filter(h => h.date !== today);
-        base.history.push({ date: today, buy: live.blue.buy, sell: live.blue.sell });
-        base.history.sort((a,b) => a.date.localeCompare(b.date));
+      if (live?.blue && base.history) {
+        base.history = base.history.filter(h=>h.date!==today);
+        base.history.push({ date:today, buy:live.blue.buy, sell:live.blue.sell });
+        base.history.sort((a,b)=>a.date.localeCompare(b.date));
       }
-    } catch(e) {
-      console.warn('API en vivo no disponible, usando datos guardados:', e.message);
-    }
+    } catch(e) { console.warn('API en vivo no disponible:', e.message); }
 
     const d = new Date();
-    const dias   = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
-    const meses  = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    const dias  = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+    const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
     base.displayDate = `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]}, ${d.getFullYear()}`;
-
     pricesData = base;
     renderAll();
   }
@@ -791,9 +704,22 @@
 
     document.getElementById('headerDate').textContent = displayDate || '';
 
-    document.getElementById('buyRate').textContent  = binance?.buy  ? binance.buy.toFixed(2)  : '—';
-    document.getElementById('sellRate').textContent = binance?.sell ? binance.sell.toFixed(2) : '—';
+    // Hero
+    updateHero();
 
+    // Hero rates card
+    if (binance) {
+      document.getElementById('heroCardBuy').textContent  = 'Bs ' + binance.buy.toFixed(2);
+      document.getElementById('heroCardSell').textContent = 'Bs ' + binance.sell.toFixed(2);
+    }
+    if (bcb) {
+      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + bcb.referentialBuy;
+      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + bcb.referentialSell;
+    }
+    const now = new Date();
+    document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'}) + ' p.m.';
+
+    // Platforms table
     const platforms = [
       { name:'Binance P2P', badge:'TOP', data:binance,  url:'https://p2p.binance.com/es/trade/buy/USDT?fiat=BOB' },
       { name:'Airtm',       badge:null,  data:airtm,    url:'https://www.airtm.com/' },
@@ -801,226 +727,177 @@
       { name:'Takenos',     badge:null,  data:takenos,  url:'https://takenos.com/' },
     ];
     document.getElementById('platformsBody').innerHTML = platforms.map(p => {
-      const spread = p.data?.available ? (p.data.sell - p.data.buy).toFixed(2) : '—';
-      const buyStr  = p.data?.available ? `<span class="price-buy">${p.data.buy.toFixed(2)} Bs</span>`  : '<span style="color:var(--text3)">N/D</span>';
-      const sellStr = p.data?.available ? `<span class="price-sell">${p.data.sell.toFixed(2)} Bs</span>` : '<span style="color:var(--text3)">N/D</span>';
-      const badge   = p.badge ? `<span class="platform-badge badge-top">${p.badge}</span>` : '';
-      return `<tr>
-        <td><span class="platform-name">${p.name}</span>${badge}</td>
-        <td>${buyStr}</td><td>${sellStr}</td>
-        <td class="hide-mobile"><span class="spread">${p.data?.available ? spread+' Bs':'—'}</span></td>
-        <td class="hide-mobile"><a class="platform-link" href="${p.url}" target="_blank" rel="noopener">Visitar →</a></td>
-      </tr>`;
+      const sp = p.data?.available ? (p.data.sell-p.data.buy).toFixed(2) : '—';
+      const b  = p.data?.available ? `<span class="price-buy">${p.data.buy.toFixed(2)} Bs</span>`  : '<span style="color:var(--text3)">N/D</span>';
+      const s  = p.data?.available ? `<span class="price-sell">${p.data.sell.toFixed(2)} Bs</span>` : '<span style="color:var(--text3)">N/D</span>';
+      const bg = p.badge ? `<span class="platform-badge">${p.badge}</span>` : '';
+      return `<tr><td><span class="platform-name">${p.name}</span>${bg}</td><td>${b}</td><td>${s}</td><td><span class="spread">${p.data?.available?sp+' Bs':'—'}</span></td><td><a class="platform-link" href="${p.url}" target="_blank" rel="noopener">Visitar →</a></td></tr>`;
     }).join('');
 
+    // BCB
     if (bcb) {
-      document.getElementById('bcbOfficialBuy').textContent  = bcb.officialBuy    + ' Bs';
-      document.getElementById('bcbOfficialSell').textContent = bcb.officialSell   + ' Bs';
-      document.getElementById('bcbRefBuy').textContent       = bcb.referentialBuy + ' Bs';
-      document.getElementById('bcbRefSell').textContent      = bcb.referentialSell+ ' Bs';
-      document.getElementById('bcbDate').textContent = 'Cotización: ' + (displayDate||'') + ' · Fuente: Banco Central de Bolivia';
-      document.getElementById('footerBcbBuy').textContent    = bcb.officialBuy    + ' Bs';
-      document.getElementById('footerBcbSell').textContent   = bcb.officialSell   + ' Bs';
-      document.getElementById('footerBcbRefBuy').textContent = bcb.referentialBuy + ' Bs';
-      document.getElementById('footerBcbRefSell').textContent= bcb.referentialSell+ ' Bs';
-      document.getElementById('footerBcbDate').innerHTML = (displayDate||'') + '<br>Fuente: Banco Central de Bolivia';
+      document.getElementById('bcbOfficialBuy').textContent   = bcb.officialBuy    + ' Bs';
+      document.getElementById('bcbOfficialSell').textContent  = bcb.officialSell   + ' Bs';
+      document.getElementById('bcbRefBuy').textContent        = bcb.referentialBuy + ' Bs';
+      document.getElementById('bcbRefSell').textContent       = bcb.referentialSell+ ' Bs';
+      document.getElementById('bcbDate').textContent = 'Cotización: '+(displayDate||'')+' · Fuente: Banco Central de Bolivia';
+      document.getElementById('footerBcbBuy').textContent     = bcb.officialBuy    + ' Bs';
+      document.getElementById('footerBcbSell').textContent    = bcb.officialSell   + ' Bs';
+      document.getElementById('footerBcbRefBuy').textContent  = bcb.referentialBuy + ' Bs';
+      document.getElementById('footerBcbRefSell').textContent = bcb.referentialSell+ ' Bs';
+      document.getElementById('footerBcbDate').innerHTML = (displayDate||'')+'<br>Fuente: Banco Central de Bolivia';
     }
+
     renderChart(currentRange);
     initCalc();
   }
 
+  // ── HERO MODE ──
+  function setHeroMode(mode) {
+    heroMode = mode;
+    document.getElementById('heroBtnBuy').classList.toggle('active', mode==='buy');
+    document.getElementById('heroBtnSell').classList.toggle('active', mode==='sell');
+    document.getElementById('heroBtnBuy').classList.toggle('buy', true);
+    document.getElementById('heroBtnSell').classList.toggle('sell', true);
+    updateHero();
+  }
+  function updateHero() {
+    if (!pricesData?.binance) return;
+    const price = heroMode==='buy' ? pricesData.binance.buy : pricesData.binance.sell;
+    const el = document.getElementById('heroBigPrice');
+    el.textContent = 'Bs ' + price.toFixed(2);
+    el.className = 'hero-big-price' + (heroMode==='sell' ? ' sell-mode' : '');
+    document.getElementById('heroPriceLabel').textContent = heroMode==='buy' ? 'Precio de Compra' : 'Precio de Venta';
+  }
+
+  // ── SHARE ──
+  function sharePrice() {
+    if (!pricesData?.binance) return;
+    const text = `USDT en Bolivia hoy:\nCompra: Bs ${pricesData.binance.buy.toFixed(2)}\nVenta: Bs ${pricesData.binance.sell.toFixed(2)}\nFuente: USDT Bolivia - Univalle`;
+    if (navigator.share) { navigator.share({ text }); }
+    else if (navigator.clipboard) { navigator.clipboard.writeText(text).then(() => alert('¡Cotización copiada!')); }
+  }
+
+  // ── CHART ──
   function getHistorySlice(range) {
     const all = pricesData?.history || [];
-    const cutoff = days => { const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); };
-    if (range==='7D')   return all.filter(h=>h.date>=cutoff(7));
-    if (range==='30D')  return all.filter(h=>h.date>=cutoff(30));
-    if (range==='90D')  return all.filter(h=>h.date>=cutoff(90));
-    if (range==='180D') return all.filter(h=>h.date>=cutoff(180));
-    if (range==='1A')   return all.filter(h=>h.date>=cutoff(365));
+    const cut = d => { const x=new Date(); x.setDate(x.getDate()-d); return x.toISOString().slice(0,10); };
+    if (range==='7D')   return all.filter(h=>h.date>=cut(7));
+    if (range==='30D')  return all.filter(h=>h.date>=cut(30));
+    if (range==='90D')  return all.filter(h=>h.date>=cut(90));
+    if (range==='180D') return all.filter(h=>h.date>=cut(180));
+    if (range==='1A')   return all.filter(h=>h.date>=cut(365));
     return all;
   }
-
-  function updateChartStats(slice) {
-    if (!slice.length) return;
-    const last = slice[slice.length-1], prev = slice[slice.length-2]||slice[0];
-    const sells = slice.map(h=>h.sell);
-    const change = last.sell - prev.sell;
-    const pct = ((change/prev.sell)*100).toFixed(2);
+  function updateChartStats(s) {
+    if (!s.length) return;
+    const last=s[s.length-1], prev=s[s.length-2]||s[0];
+    const sells=s.map(h=>h.sell), change=last.sell-prev.sell, pct=((change/prev.sell)*100).toFixed(2);
     document.getElementById('statVenta').textContent = `Bs ${last.sell.toFixed(2)}`;
-    const el = document.getElementById('statCambio');
-    el.textContent  = `${change>=0?'+':''}${pct}%`;
-    el.className    = 'chart-stat-value '+(change>=0?'up':'down');
-    document.getElementById('statMax').textContent = `Bs ${Math.max(...sells).toFixed(2)}`;
-    document.getElementById('statMin').textContent = `Bs ${Math.min(...sells).toFixed(2)}`;
-    document.getElementById('chartMeta').textContent = `Últimos ${slice.length} días · ${slice.length} puntos`;
+    const el=document.getElementById('statCambio');
+    el.textContent=`${change>=0?'+':''}${pct}%`; el.className='chart-stat-value '+(change>=0?'up':'down');
+    document.getElementById('statMax').textContent=`Bs ${Math.max(...sells).toFixed(2)}`;
+    document.getElementById('statMin').textContent=`Bs ${Math.min(...sells).toFixed(2)}`;
+    document.getElementById('chartMeta').textContent=`Últimos ${s.length} días · ${s.length} puntos`;
   }
-
   function renderChart(range) {
     if (!pricesData) return;
-    const slice = getHistorySlice(range);
-    if (!slice.length) return;
-    updateChartStats(slice);
-    const showDots = slice.length <= 14;
-    const MONTHS = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-    const labels = slice.map(h=>{ const[y,m,d]=h.date.split('-'); return `${d}-${MONTHS[+m-1]}`; });
-
+    const s=getHistorySlice(range); if (!s.length) return;
+    updateChartStats(s);
+    const M=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    const labels=s.map(h=>{ const[y,m,d]=h.date.split('-'); return `${d}-${M[+m-1]}`; });
     if (chartInstance) chartInstance.destroy();
-    const ctx = document.getElementById('priceChart').getContext('2d');
-    chartInstance = new Chart(ctx, {
+    const ctx=document.getElementById('priceChart').getContext('2d');
+    chartInstance=new Chart(ctx,{
       type:'line',
-      data:{
-        labels,
-        datasets:[
-          {
-            label:'Venta', data:slice.map(h=>h.sell),
-            borderColor:'#003087',
-            backgroundColor: ctx2 => {
-              const g = ctx2.chart.ctx.createLinearGradient(0,0,0,280);
-              g.addColorStop(0,'rgba(0,48,135,0.15)'); g.addColorStop(1,'rgba(0,48,135,0)'); return g;
-            },
-            borderWidth:2.5, pointRadius:showDots?4:0, pointHoverRadius:5,
-            fill:true, tension:0.3
-          },
-          {
-            label:'Compra', data:slice.map(h=>h.buy),
-            borderColor:'rgba(0,48,135,0.3)', backgroundColor:'transparent',
-            borderWidth:1.5, pointRadius:0, pointHoverRadius:4,
-            fill:false, tension:0.3
-          }
-        ]
-      },
-      options:{
-        responsive:true, maintainAspectRatio:false,
-        interaction:{mode:'index',intersect:false},
-        plugins:{
-          legend:{display:false},
-          tooltip:{
-            backgroundColor:'#fff', borderColor:'#D6DFF0', borderWidth:1,
+      data:{ labels, datasets:[
+        { label:'Venta', data:s.map(h=>h.sell), borderColor:'#003087',
+          backgroundColor: c=>{const g=c.chart.ctx.createLinearGradient(0,0,0,260);g.addColorStop(0,'rgba(0,48,135,0.12)');g.addColorStop(1,'rgba(0,48,135,0)');return g;},
+          borderWidth:2.5, pointRadius:s.length<=14?4:0, pointHoverRadius:5, fill:true, tension:0.3 },
+        { label:'Compra', data:s.map(h=>h.buy), borderColor:'rgba(0,48,135,0.3)',
+          backgroundColor:'transparent', borderWidth:1.5, pointRadius:0, pointHoverRadius:4, fill:false, tension:0.3 }
+      ]},
+      options:{ responsive:true, maintainAspectRatio:false, interaction:{mode:'index',intersect:false},
+        plugins:{ legend:{display:false},
+          tooltip:{ backgroundColor:'#fff', borderColor:'#D6DFF0', borderWidth:1,
             titleColor:'#0D1B3E', bodyColor:'#4A5573', padding:10,
-            callbacks:{ label: c => ` ${c.dataset.label}: Bs ${c.parsed.y.toFixed(2)}` }
-          }
-        },
+            callbacks:{ label:c=>` ${c.dataset.label}: Bs ${c.parsed.y.toFixed(2)}` }}},
         scales:{
-          x:{ ticks:{color:'#8A95B0',font:{size:11},maxTicksLimit:8,maxRotation:0}, grid:{color:'rgba(0,0,0,0.04)'}, border:{color:'#D6DFF0'} },
+          x:{ ticks:{color:'#8A95B0',font:{size:11},maxTicksLimit:7,maxRotation:0}, grid:{color:'rgba(0,0,0,0.04)'}, border:{color:'#D6DFF0'} },
           y:{ position:'right', ticks:{color:'#8A95B0',font:{size:11},callback:v=>'Bs '+v.toFixed(2)}, grid:{color:'rgba(0,0,0,0.04)'}, border:{color:'#D6DFF0'} }
-        }
-      }
+        }}
     });
   }
-
-  function setChartRange(range, el) {
-    currentRange = range;
+  function setChartRange(range,el) {
+    currentRange=range;
     document.querySelectorAll('.chart-tab').forEach(t=>t.classList.remove('active'));
-    el.classList.add('active');
-    renderChart(range);
+    el.classList.add('active'); renderChart(range);
   }
 
   // ── CALCULADORA ──
-  let calcHistory = [];
-
-  const CURRENCY_LABELS = { USDT: 'Tether (USDT)', BOB: 'Boliviano' };
-
+  const CURRENCY_LABELS={USDT:'Tether (USDT)',BOB:'Boliviano'};
   function getCalcRate() {
     if (!pricesData?.binance) return null;
-    const from = document.getElementById('fromCurrency').value;
-    const to   = document.getElementById('toCurrency').value;
-    if (from === 'USDT' && to === 'BOB') return pricesData.binance.sell;
-    if (from === 'BOB'  && to === 'USDT') return 1 / pricesData.binance.sell;
+    const f=document.getElementById('fromCurrency').value, t=document.getElementById('toCurrency').value;
+    if (f==='USDT'&&t==='BOB') return pricesData.binance.sell;
+    if (f==='BOB'&&t==='USDT') return 1/pricesData.binance.sell;
     return 1;
   }
-
   function updateCalcRateDisplay() {
-    const from = document.getElementById('fromCurrency').value;
-    const to   = document.getElementById('toCurrency').value;
-    const rate = getCalcRate();
-    document.getElementById('fromSubLabel').textContent = CURRENCY_LABELS[from] || from;
-    document.getElementById('toSubLabel').textContent   = CURRENCY_LABELS[to]   || to;
+    const f=document.getElementById('fromCurrency').value, t=document.getElementById('toCurrency').value;
+    document.getElementById('fromSubLabel').textContent=CURRENCY_LABELS[f]||f;
+    document.getElementById('toSubLabel').textContent=CURRENCY_LABELS[t]||t;
+    const rate=getCalcRate();
     if (rate) {
-      const rateVal = from === 'USDT' ? rate.toFixed(2) : (1/rate).toFixed(4);
-      document.getElementById('calcRateDisplay').textContent = from==='USDT'
-        ? `${rate.toFixed(2)} BOB` : `${(1/rate).toFixed(4)} USDT`;
-      document.getElementById('calcRatePill').textContent = pricesData?.binance?.sell?.toFixed(2) || '—';
-      document.getElementById('calcRateNote').innerHTML =
-        from==='USDT' ? `1 USDT = <strong>${rate.toFixed(2)}</strong> BOB`
-                      : `1 BOB = <strong>${(1/rate).toFixed(4)}</strong> USDT`;
+      document.getElementById('calcRateDisplay').textContent = f==='USDT' ? `${rate.toFixed(2)} BOB` : `${(1/rate).toFixed(4)} USDT`;
+      document.getElementById('calcRatePill').textContent = pricesData?.binance?.sell?.toFixed(2)||'—';
     }
   }
-
+  function initCalc() { updateCalcRateDisplay(); }
   function onCurrencyChange() {
-    const from = document.getElementById('fromCurrency').value;
-    const toEl = document.getElementById('toCurrency');
-    // Auto-switch opposite
-    if (from === toEl.value) {
-      toEl.value = from === 'USDT' ? 'BOB' : 'USDT';
-    }
-    updateCalcRateDisplay();
-    calculate();
+    const f=document.getElementById('fromCurrency').value, t=document.getElementById('toCurrency');
+    if (f===t.value) t.value=f==='USDT'?'BOB':'USDT';
+    updateCalcRateDisplay(); calculate();
   }
-
   function swapCurrencies() {
-    const fromEl = document.getElementById('fromCurrency');
-    const toEl   = document.getElementById('toCurrency');
-    const tmp = fromEl.value; fromEl.value = toEl.value; toEl.value = tmp;
-    // Also swap amounts
-    const fromAmt = document.getElementById('fromAmount').value;
-    const toAmt   = document.getElementById('toAmount').value;
-    document.getElementById('fromAmount').value = toAmt;
-    document.getElementById('toAmount').value   = fromAmt;
+    const fE=document.getElementById('fromCurrency'), tE=document.getElementById('toCurrency');
+    const tmp=fE.value; fE.value=tE.value; tE.value=tmp;
+    const fa=document.getElementById('fromAmount').value, ta=document.getElementById('toAmount').value;
+    document.getElementById('fromAmount').value=ta; document.getElementById('toAmount').value=fa;
     updateCalcRateDisplay();
   }
-
   function calculate() {
-    const from = parseFloat(document.getElementById('fromAmount').value);
-    if (isNaN(from) || from <= 0) { document.getElementById('toAmount').value = ''; return; }
-    const rate = getCalcRate();
-    if (!rate) return;
-    const result = from * rate;
-    const to = document.getElementById('toCurrency').value;
-    document.getElementById('toAmount').value = to === 'BOB' ? result.toFixed(2) : result.toFixed(4);
+    const v=parseFloat(document.getElementById('fromAmount').value);
+    if (isNaN(v)||v<=0){document.getElementById('toAmount').value='';return;}
+    const rate=getCalcRate(); if (!rate) return;
+    const t=document.getElementById('toCurrency').value;
+    document.getElementById('toAmount').value=(v*rate).toFixed(t==='BOB'?2:4);
   }
-
   function calculateReverse() {
-    const to = parseFloat(document.getElementById('toAmount').value);
-    if (isNaN(to) || to <= 0) { document.getElementById('fromAmount').value = ''; return; }
-    const rate = getCalcRate();
-    if (!rate) return;
-    const result = to / rate;
-    const from = document.getElementById('fromCurrency').value;
-    document.getElementById('fromAmount').value = from === 'BOB' ? result.toFixed(2) : result.toFixed(4);
+    const v=parseFloat(document.getElementById('toAmount').value);
+    if (isNaN(v)||v<=0){document.getElementById('fromAmount').value='';return;}
+    const rate=getCalcRate(); if (!rate) return;
+    const f=document.getElementById('fromCurrency').value;
+    document.getElementById('fromAmount').value=(v/rate).toFixed(f==='BOB'?2:4);
   }
-
-  function setQuick(val) {
-    document.getElementById('fromAmount').value = val;
-    calculate();
-  }
-
+  function setQuick(val){document.getElementById('fromAmount').value=val;calculate();}
   function doConvert() {
-    const fromVal = parseFloat(document.getElementById('fromAmount').value);
-    const toVal   = parseFloat(document.getElementById('toAmount').value);
-    if (isNaN(fromVal) || isNaN(toVal) || fromVal <= 0) return;
-    const from = document.getElementById('fromCurrency').value;
-    const to   = document.getElementById('toCurrency').value;
-    const rate = getCalcRate();
-    const now  = new Date();
-    const time = now.toLocaleTimeString('es-BO', {hour:'2-digit', minute:'2-digit', second:'2-digit'});
-
-    calcHistory.unshift({ from: fromVal, fromCur: from, to: toVal, toCur: to, rate, time });
-    if (calcHistory.length > 8) calcHistory.pop();
+    const fv=parseFloat(document.getElementById('fromAmount').value), tv=parseFloat(document.getElementById('toAmount').value);
+    if (isNaN(fv)||isNaN(tv)||fv<=0) return;
+    const f=document.getElementById('fromCurrency').value, t=document.getElementById('toCurrency').value;
+    const rate=getCalcRate(), time=new Date().toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    calcHistory.unshift({from:fv,fromCur:f,to:tv,toCur:t,rate,time});
+    if (calcHistory.length>8) calcHistory.pop();
     renderCalcHistory();
   }
-
   function renderCalcHistory() {
-    const el = document.getElementById('calcHistory');
-    if (!calcHistory.length) { el.innerHTML = '<div class="calc-empty">Aún no hay conversiones</div>'; return; }
-    el.innerHTML = calcHistory.map(h => `
+    const el=document.getElementById('calcHistory');
+    if (!calcHistory.length){el.innerHTML='<div class="calc-empty">Aún no hay conversiones</div>';return;}
+    el.innerHTML=calcHistory.map(h=>`
       <div class="calc-history-item">
         <div class="calc-history-conv">${h.from} ${h.fromCur} ⇄ ${h.to.toFixed(h.toCur==='BOB'?2:4)} ${h.toCur}</div>
         <div class="calc-history-meta">Tasa: ${h.rate?.toFixed(h.toCur==='BOB'?2:4)}<br>${h.time}</div>
       </div>`).join('');
-  }
-
-  function initCalc() {
-    updateCalcRateDisplay();
   }
 
   loadPrices();
