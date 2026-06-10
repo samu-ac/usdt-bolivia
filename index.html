@@ -319,6 +319,47 @@
     .footer-copy { font-size:12px; color:rgba(255,255,255,.35); }
     .footer-uni  { font-size:12px; color:var(--gold); font-weight:600; }
 
+    /* ══ BCB VRD SECTION ══ */
+    .bcb-vrd-section { margin-bottom:22px; }
+    .bcb-vrd-hero { background:linear-gradient(135deg,#0D3B6E 0%,#1565C0 60%,#0D47A1 100%); border-radius:20px; padding:28px 24px; color:#fff; margin-bottom:16px; position:relative; overflow:hidden; }
+    .bcb-vrd-hero::before { content:''; position:absolute; top:-50px; right:-50px; width:200px; height:200px; border-radius:50%; background:rgba(255,255,255,.05); }
+    .bcb-vrd-hero::after  { content:''; position:absolute; bottom:-60px; left:-40px; width:250px; height:250px; border-radius:50%; background:rgba(255,255,255,.04); }
+    .bcb-vrd-hero-inner { position:relative; z-index:1; }
+    .bcb-vrd-hero-top { display:flex; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; gap:16px; margin-bottom:20px; }
+    .bcb-vrd-hero-title { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:rgba(255,255,255,.6); margin-bottom:6px; }
+    .bcb-vrd-hero-name { font-size:clamp(18px,3vw,24px); font-weight:900; line-height:1.2; }
+    .bcb-vrd-hero-sub { font-size:12px; opacity:.65; margin-top:4px; }
+    .bcb-vrd-price-big { font-size:clamp(48px,8vw,72px); font-weight:900; line-height:1; }
+    .bcb-vrd-price-sub { font-size:12px; opacity:.6; margin-top:4px; }
+    .bcb-vrd-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    @media (max-width:480px) { .bcb-vrd-stats { grid-template-columns:1fr 1fr; } }
+    .bcb-vrd-stat { background:rgba(255,255,255,.1); border-radius:10px; padding:12px; }
+    .bcb-vrd-stat-label { font-size:10px; opacity:.6; font-weight:600; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+    .bcb-vrd-stat-val { font-size:18px; font-weight:800; }
+    /* Comparacion card */
+    .compare-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:16px; }
+    @media (max-width:600px) { .compare-grid { grid-template-columns:1fr; } }
+    .compare-card { background:var(--bg2); border:2px solid var(--border); border-radius:16px; padding:20px; }
+    .compare-card.winner { border-color:var(--gold); background:linear-gradient(135deg,#fffbea,#fff8d6); }
+    .compare-card-tag { font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.1em; margin-bottom:10px; display:flex; align-items:center; gap:6px; }
+    .compare-card-price { font-size:36px; font-weight:900; color:var(--navy); margin-bottom:4px; }
+    .compare-card-label { font-size:12px; color:var(--text2); margin-bottom:12px; }
+    .compare-card-detail { font-size:12px; color:var(--text2); line-height:1.7; }
+    .compare-card-detail strong { color:var(--text); }
+    /* Recomendacion */
+    .rec-box { border-radius:14px; padding:18px 20px; margin-bottom:16px; display:flex; align-items:flex-start; gap:14px; }
+    .rec-box.green  { background:#dcfce7; border:2px solid #86efac; }
+    .rec-box.yellow { background:#fef3c7; border:2px solid #fcd34d; }
+    .rec-box.red    { background:#fee2e2; border:2px solid #fca5a5; }
+    .rec-box-icon { font-size:28px; flex-shrink:0; }
+    .rec-box-title { font-size:15px; font-weight:800; margin-bottom:4px; }
+    .rec-box.green  .rec-box-title { color:#166534; }
+    .rec-box.yellow .rec-box-title { color:#92400e; }
+    .rec-box.red    .rec-box-title { color:#991b1b; }
+    .rec-box-desc { font-size:13px; color:var(--text2); line-height:1.6; }
+    /* VRD chart */
+    .vrd-chart-wrap { position:relative; height:220px; }
+    @media (max-width:480px) { .vrd-chart-wrap { height:160px; } }
     /* ══ UTILS ══ */
     @media (max-width:600px) { .hide-mobile { display:none !important; } }
   </style>
@@ -345,6 +386,7 @@
       <a href="#cotizacion">Tipo de Cambio</a>
       <a href="#calculator">Calculadora</a>
       <a href="#platforms">P2P</a>
+      <a href="#bcbvrd">BCB / VRD</a>
       <a href="#limits">Bancos</a>
       <a href="#chart">Gráfica</a>
     </nav>
@@ -361,6 +403,7 @@
     <a href="#cotizacion" onclick="closeMobileNav()">💱 Tipo de Cambio</a>
     <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
     <a href="#platforms"  onclick="closeMobileNav()">🏦 Plataformas P2P</a>
+    <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
     <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
     <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
   </div>
@@ -545,6 +588,106 @@
       </div>
     </div>
     <div class="bcb-date" id="bcbDate">Fuente: Banco Central de Bolivia</div>
+  </div>
+
+  <!-- BCB VRD SECTION -->
+  <div id="bcbvrd" class="bcb-vrd-section">
+    <div class="bcb-vrd-hero">
+      <div class="bcb-vrd-hero-inner">
+        <div class="bcb-vrd-hero-top">
+          <div>
+            <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
+            <div class="bcb-vrd-hero-name">Valor Referencial de Compra<br>del Dólar (VRD)</div>
+            <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">VRD HOY</div>
+            <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
+            <div class="bcb-vrd-price-sub">Bs por 1 USD</div>
+          </div>
+        </div>
+        <div class="bcb-vrd-stats">
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Mín del día</div>
+            <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
+          </div>
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Máx del día</div>
+            <div class="bcb-vrd-stat-val" id="vrdMax">—</div>
+          </div>
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Transacciones</div>
+            <div class="bcb-vrd-stat-val" id="vrdNTrans">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPARACIÓN USD FÍSICO vs USDT -->
+    <div class="card" style="margin-bottom:14px">
+      <div class="section-title"><span>⚖️</span> USD Físico vs USDT Digital — ¿Cuál conviene más?</div>
+      <div class="compare-grid">
+        <div class="compare-card" id="comparePhysCard">
+          <div class="compare-card-tag" style="color:var(--navy)">🏦 USD Físico (Librecambista)</div>
+          <div class="compare-card-price" id="comparePhysPrice">—</div>
+          <div class="compare-card-label">Bs por 1 USD · VRD BCB</div>
+          <div class="compare-card-detail">
+            Precio promedio ponderado de las operaciones reales entre bancos y librecambistas en Bolivia.<br><br>
+            <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
+            <strong>Riesgo:</strong> Variación en el mercado, requiere contacto físico.
+          </div>
+        </div>
+        <div class="compare-card" id="compareUsdtCard">
+          <div class="compare-card-tag" style="color:#7C3AED">🔷 USDT Digital (P2P)</div>
+          <div class="compare-card-price" style="color:#7C3AED" id="compareUsdtPrice">—</div>
+          <div class="compare-card-label">Bs por 1 USDT · Promedio P2P</div>
+          <div class="compare-card-detail">
+            Precio del mercado P2P de criptomonedas como Binance, El Dorado, Takenos, Wallbit.<br><br>
+            <strong>Ventajas:</strong> Transacciones digitales, disponible 24/7, envíos internacionales.<br>
+            <strong>Riesgo:</strong> Volatilidad crypto, requiere billetera digital.
+          </div>
+        </div>
+      </div>
+      <!-- RECOMENDACIÓN DINÁMICA -->
+      <div id="recBox" class="rec-box yellow">
+        <div class="rec-box-icon" id="recIcon">⏳</div>
+        <div>
+          <div class="rec-box-title" id="recTitle">Calculando recomendación...</div>
+          <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al VRD BCB del día vs precio P2P promedio (compra+venta)/2</div>
+    </div>
+
+    <!-- GRÁFICO VRD HISTÓRICO -->
+    <div class="card">
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px">
+        <div class="section-title" style="margin-bottom:0"><span>📊</span> Tendencia VRD BCB Histórico</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">VRD HOY</div><div style="font-size:14px;font-weight:800" id="vrdStatHoy">—</div></div>
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">CAMBIO</div><div style="font-size:14px;font-weight:800" id="vrdStatCambio">—</div></div>
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">MÁX</div><div style="font-size:14px;font-weight:800" id="vrdStatMax">—</div></div>
+          <div><div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3)">MÍN</div><div style="font-size:14px;font-weight:800" id="vrdStatMin">—</div></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px" id="vrdChartTabs">
+        <button class="chart-tab" onclick="setVrdRange('7D',this)">7D</button>
+        <button class="chart-tab active" onclick="setVrdRange('MAX',this)">TODO</button>
+      </div>
+      <div style="font-size:11px;color:var(--text3);margin-bottom:8px" id="vrdChartMeta"></div>
+      <div style="display:flex;gap:16px;margin-bottom:10px">
+        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
+          <div style="width:10px;height:10px;border-radius:50%;background:#1565C0"></div>VRD Compra
+        </div>
+        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
+          <div style="width:10px;height:10px;border-radius:50%;background:rgba(124,58,237,.5)"></div>USDT P2P
+        </div>
+      </div>
+      <div class="vrd-chart-wrap"><canvas id="vrdChart"></canvas></div>
+      <div style="font-size:11px;color:var(--text3);margin-top:10px;text-align:center">
+        Fuente: Banco Central de Bolivia — bcb.gob.bo · Actualizado diariamente (días hábiles)
+      </div>
+    </div>
   </div>
 
   <!-- LIMITS -->
@@ -960,6 +1103,8 @@
 
     renderChart(currentRange);
     initCalc();
+    // Actualizar comparación si el VRD ya cargó
+    if (vrdData?.vrd_today) renderComparison(vrdData.vrd_today);
   }
 
   // ── HERO MODE ──
@@ -1110,7 +1255,163 @@
       </div>`).join('');
   }
 
+  // ── BCB VRD ──
+  let vrdData = null;
+  let vrdChartInstance = null;
+  let vrdRange = 'MAX';
+
+  async function loadVRD() {
+    try {
+      const r = await fetch('data/bcb_vrd.json?v=' + Date.now());
+      vrdData = await r.json();
+      renderVRD();
+    } catch(e) { console.warn('BCB VRD no disponible:', e.message); }
+  }
+
+  function renderVRD() {
+    if (!vrdData) return;
+    const { vrd_today, vrd_min_today, vrd_max_today, n_trans_today, today, history } = vrdData;
+
+    // Hero
+    document.getElementById('vrdPriceBig').textContent = 'Bs ' + (vrd_today||'—');
+    document.getElementById('vrdMin').textContent = vrd_min_today ? 'Bs ' + vrd_min_today : '—';
+    document.getElementById('vrdMax').textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
+    document.getElementById('vrdNTrans').textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
+    const d = today ? new Date(today + 'T12:00:00') : new Date();
+    const meses = ['enero','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    document.getElementById('vrdDate').textContent = `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()} · Días hábiles bancarios`;
+
+    // Comparación
+    renderComparison(vrd_today);
+
+    // Gráfico
+    renderVrdChart(vrdRange);
+  }
+
+  function renderComparison(vrd) {
+    if (!pricesData?.binance || !vrd) return;
+    const usdt = (pricesData.binance.buy + pricesData.binance.sell) / 2;
+    const diff = usdt - vrd;
+    const pct  = ((diff / vrd) * 100).toFixed(2);
+
+    document.getElementById('comparePhysPrice').textContent = 'Bs ' + vrd.toFixed(4);
+    document.getElementById('compareUsdtPrice').textContent = 'Bs ' + usdt.toFixed(2);
+
+    const recBox   = document.getElementById('recBox');
+    const recIcon  = document.getElementById('recIcon');
+    const recTitle = document.getElementById('recTitle');
+    const recDesc  = document.getElementById('recDesc');
+    const physCard = document.getElementById('comparePhysCard');
+    const usdtCard = document.getElementById('compareUsdtCard');
+
+    physCard.classList.remove('winner');
+    usdtCard.classList.remove('winner');
+    recBox.className = 'rec-box';
+
+    if (diff > 0.15) {
+      // USDT más caro que físico → conviene USD físico
+      recBox.classList.add('green');
+      recIcon.textContent = '🏦';
+      recTitle.textContent = `Conviene el USD Físico — ${pct}% más barato`;
+      recDesc.textContent  = `El VRD BCB (Bs ${vrd.toFixed(4)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Si necesitas dólares físicos, los librecambistas ofrecen mejor precio hoy.`;
+      physCard.classList.add('winner');
+    } else if (diff < -0.15) {
+      // USDT más barato → conviene USDT
+      recBox.classList.add('green');
+      recIcon.textContent = '🔷';
+      recTitle.textContent = `Conviene el USDT Digital — ${Math.abs(pct)}% más barato`;
+      recDesc.textContent  = `El USDT P2P (Bs ${usdt.toFixed(2)}) está Bs ${Math.abs(diff).toFixed(2)} por debajo del dólar físico (VRD Bs ${vrd.toFixed(4)}). El mercado P2P ofrece mejor tipo de cambio hoy.`;
+      usdtCard.classList.add('winner');
+    } else {
+      // Precios similares
+      recBox.classList.add('yellow');
+      recIcon.textContent = '⚖️';
+      recTitle.textContent = `Precios Similares — Diferencia de solo Bs ${Math.abs(diff).toFixed(2)}`;
+      recDesc.textContent  = `El USD físico (VRD Bs ${vrd.toFixed(4)}) y el USDT digital (Bs ${usdt.toFixed(2)}) tienen precios muy similares hoy. Elige según tu necesidad: dólares físicos para efectivo, USDT para pagos digitales e internacionales.`;
+    }
+  }
+
+  function getVrdSlice(range) {
+    const all = vrdData?.history || [];
+    if (range === '7D') {
+      const cut = new Date(); cut.setDate(cut.getDate()-7);
+      const cutStr = cut.toISOString().slice(0,10);
+      return all.filter(h => h.date >= cutStr);
+    }
+    return all;
+  }
+
+  function renderVrdChart(range) {
+    if (!vrdData) return;
+    const slice = getVrdSlice(range);
+    if (!slice.length) return;
+
+    // Stats
+    const last = slice[slice.length-1], prev = slice[slice.length-2] || slice[0];
+    const vals = slice.map(h=>h.vrd);
+    const change = last.vrd - prev.vrd;
+    const pct = ((change/prev.vrd)*100).toFixed(2);
+    document.getElementById('vrdStatHoy').textContent = `Bs ${last.vrd.toFixed(4)}`;
+    const chEl = document.getElementById('vrdStatCambio');
+    chEl.textContent = `${change>=0?'+':''}${pct}%`;
+    chEl.style.color = change >= 0 ? 'var(--green)' : 'var(--red)';
+    document.getElementById('vrdStatMax').textContent = `Bs ${Math.max(...vals).toFixed(4)}`;
+    document.getElementById('vrdStatMin').textContent = `Bs ${Math.min(...vals).toFixed(4)}`;
+    document.getElementById('vrdChartMeta').textContent = `${slice.length} días hábiles · Fuente: BCB`;
+
+    const M = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    const labels = slice.map(h => { const [y,m,d]=h.date.split('-'); return `${d}-${M[+m-1]}`; });
+
+    // Overlay USDT history
+    const usdtMap = {};
+    (pricesData?.history||[]).forEach(h => usdtMap[h.date] = (h.buy+h.sell)/2);
+    const usdtOverlay = slice.map(h => usdtMap[h.date] || null);
+
+    if (vrdChartInstance) vrdChartInstance.destroy();
+    const ctx = document.getElementById('vrdChart').getContext('2d');
+    vrdChartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          { label:'VRD BCB', data:slice.map(h=>h.vrd),
+            borderColor:'#1565C0',
+            backgroundColor: c => { const g=c.chart.ctx.createLinearGradient(0,0,0,220); g.addColorStop(0,'rgba(21,101,192,.18)'); g.addColorStop(1,'rgba(21,101,192,0)'); return g; },
+            borderWidth:2.5, pointRadius:slice.length<=14?4:0, pointHoverRadius:5, fill:true, tension:0.3 },
+          { label:'USDT P2P', data:usdtOverlay,
+            borderColor:'rgba(124,58,237,.6)',
+            backgroundColor:'transparent',
+            borderWidth:2, borderDash:[5,4], pointRadius:0, pointHoverRadius:4, fill:false, tension:0.3, spanGaps:true }
+        ]
+      },
+      options: {
+        responsive:true, maintainAspectRatio:false,
+        interaction:{ mode:'index', intersect:false },
+        plugins:{
+          legend:{ display:false },
+          tooltip:{
+            backgroundColor:'#fff', borderColor:'#D6DFF0', borderWidth:1,
+            titleColor:'#0D1B3E', bodyColor:'#4A5573', padding:10,
+            callbacks:{ label: c => ` ${c.dataset.label}: Bs ${c.parsed.y?.toFixed(4)||'N/D'}` }
+          }
+        },
+        scales:{
+          x:{ ticks:{color:'#8A95B0',font:{size:11},maxTicksLimit:7,maxRotation:0}, grid:{color:'rgba(0,0,0,.04)'}, border:{color:'#D6DFF0'} },
+          y:{ position:'right', ticks:{color:'#8A95B0',font:{size:11},callback:v=>'Bs '+v.toFixed(2)}, grid:{color:'rgba(0,0,0,.04)'}, border:{color:'#D6DFF0'} }
+        }
+      }
+    });
+  }
+
+  function setVrdRange(range, el) {
+    vrdRange = range;
+    document.querySelectorAll('#vrdChartTabs .chart-tab').forEach(t=>t.classList.remove('active'));
+    el.classList.add('active');
+    renderVrdChart(range);
+  }
+
   loadPrices();
+  loadVRD();
 </script>
 </body>
 </html>
