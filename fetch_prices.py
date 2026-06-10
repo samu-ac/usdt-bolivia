@@ -232,9 +232,20 @@ else:
     if vrd_today:
         print(f"   BCB VRD (scraping directo): {vrd_today}")
 
+vrd_sell_today = float(d_bcb_vrd["sell"]) if d_bcb_vrd and d_bcb_vrd.get("sell") else None
+
 if vrd_today:
     vrd_history = [h for h in vrd_history if h["date"] != today_str]
-    vrd_history.append({"date": today_str, "vrd": vrd_today})
+    # Preservar min/max/n_trans si ya existen para hoy
+    prev_today = next((h for h in vrd_data.get("history", []) if h["date"] == today_str), {})
+    vrd_history.append({
+        "date": today_str,
+        "vrd": vrd_today,
+        "min":     prev_today.get("min"),
+        "max":     prev_today.get("max") or vrd_sell_today,
+        "monto":   prev_today.get("monto", 0),
+        "n_trans": prev_today.get("n_trans", 0),
+    })
     vrd_history = sorted(vrd_history, key=lambda x: x["date"])
 else:
     print("   BCB VRD no disponible -> usando dato guardado")
@@ -262,11 +273,16 @@ save_json("data/prices.json", {
 })
 print("\nprices.json guardado.")
 
+today_entry = next((h for h in vrd_history if h["date"] == today_str), {})
 save_json("data/bcb_vrd.json", {
-    "lastUpdated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    "today":     today_str,
-    "vrd_today": vrd_today,
-    "history":   vrd_history,
+    "lastUpdated":    datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "today":          today_str,
+    "vrd_today":      vrd_today,
+    "vrd_sell_today": vrd_sell_today,
+    "vrd_min_today":  today_entry.get("min"),
+    "vrd_max_today":  today_entry.get("max") or vrd_sell_today,
+    "n_trans_today":  today_entry.get("n_trans") or None,
+    "history":        vrd_history,
 })
 print("bcb_vrd.json guardado.")
 

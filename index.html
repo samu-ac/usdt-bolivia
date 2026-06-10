@@ -449,7 +449,7 @@
         </div>
         <div class="rates-divider"></div>
         <div class="rates-card-header" style="border-top:none;border-bottom:1px solid var(--border)">
-          <span class="rates-card-title">BCB OFICIAL (TIPO FIJO)</span>
+          <span class="rates-card-title">BCB VALOR REFERENCIAL</span>
           <span class="rates-card-badge" style="background:#fffbea;color:var(--gold2);border:1px solid #f5d87a">BCB</span>
         </div>
         <div class="rates-row">
@@ -924,7 +924,7 @@
 
     // 2. Llamar todos los endpoints en paralelo
     try {
-      const [official, eldorado, takenos, wallbit, airtm, bybit, saldoar] = await Promise.allSettled([
+      const [official, eldorado, takenos, wallbit, airtm, bybit, saldoar, bcbvrd] = await Promise.allSettled([
         dbbGet('/v1/officialRate'),
         dbbGet('/v1/eldorado'),
         dbbGet('/v1/takenos'),
@@ -932,6 +932,7 @@
         dbbGet('/v1/airtm'),
         dbbGet('/v1/p2p/bybit'),
         dbbGet('/v1/saldoar'),
+        dbbGet('/v1/referencial/bcb'),
       ]);
 
       const val = r => r.status === 'fulfilled' ? r.value : null;
@@ -942,6 +943,7 @@
       const dAir   = val(airtm);
       const dBybit = val(bybit);
       const dSaldo = val(saldoar);
+      const dVrd   = val(bcbvrd);
 
       // Binance P2P (blue = mercado paralelo)
       if (live?.blue) {
@@ -962,14 +964,20 @@
       if (dSaldo?.buy && dSaldo?.sell)
         base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true };
 
-      // BCB oficial
+      // BCB oficial + VRD
       if (live?.official) {
         base.bcb = {
           officialBuy:     live.official.buy,
           officialSell:    live.official.sell,
           referentialBuy:  live.blue?.buy  || base.bcb?.referentialBuy,
           referentialSell: live.blue?.sell || base.bcb?.referentialSell,
+          vrdBuy:  dVrd?.buy  || dVrd?.compra || base.bcb?.vrdBuy,
+          vrdSell: dVrd?.sell || dVrd?.venta  || base.bcb?.vrdSell,
         };
+      } else if (dVrd?.buy) {
+        base.bcb = base.bcb || {};
+        base.bcb.vrdBuy  = dVrd.buy;
+        base.bcb.vrdSell = dVrd.sell;
       }
 
       // Actualizar historial con precio del día
@@ -1073,8 +1081,8 @@
       document.getElementById('heroCardSell').textContent = 'Bs ' + binance.sell.toFixed(2);
     }
     if (bcb) {
-      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.officialBuy  || '6.86');
-      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + (bcb.officialSell || '6.96');
+      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.vrdBuy  || bcb.referentialBuy  || '9.79');
+      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + (bcb.vrdSell || bcb.referentialSell || '10.00');
     }
     const now = new Date();
     document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
