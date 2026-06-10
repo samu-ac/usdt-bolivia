@@ -449,7 +449,7 @@
         </div>
         <div class="rates-divider"></div>
         <div class="rates-card-header" style="border-top:none;border-bottom:1px solid var(--border)">
-          <span class="rates-card-title">BCB VALOR REFERENCIAL</span>
+          <span class="rates-card-title">BCB OFICIAL (TIPO FIJO)</span>
           <span class="rates-card-badge" style="background:#fffbea;color:var(--gold2);border:1px solid #f5d87a">BCB</span>
         </div>
         <div class="rates-row">
@@ -1022,8 +1022,8 @@
       document.getElementById('heroCardSell').textContent = 'Bs ' + binance.sell.toFixed(2);
     }
     if (bcb) {
-      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + bcb.referentialBuy;
-      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + bcb.referentialSell;
+      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.officialBuy  || '6.86');
+      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + (bcb.officialSell || '6.96');
     }
     const now = new Date();
     document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
