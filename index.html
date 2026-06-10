@@ -196,53 +196,89 @@
     .bcb-row span:last-child  { font-weight:800; }
     .bcb-date { font-size:11px; color:var(--text3); margin-top:12px; }
 
-    /* ══ LIMITS ══ */
-    .limits-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px; margin-top:14px; }
-    .limit-item { background:var(--bg3); border-radius:8px; padding:14px; border-left:4px solid var(--gold); }
-    .limit-bank   { font-size:12px; font-weight:700; margin-bottom:4px; }
-    .limit-amount { font-size:20px; font-weight:900; color:var(--gold2); margin-bottom:2px; }
-    .limit-period { font-size:11px; color:var(--text3); }
-    .limits-note  { margin-top:12px; font-size:12px; color:var(--text2); background:#fffbea; border:1px solid #f5d87a; border-radius:8px; padding:12px; }
+    /* ══ LIMITS NEW ══ */
+    .limits-section { background:var(--bg3); border-radius:20px; padding:32px 24px; margin-bottom:22px; }
+    .limits-hero { text-align:center; margin-bottom:24px; }
+    .limits-icon { width:52px; height:52px; background:var(--blue-lt); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:24px; margin:0 auto 12px; }
+    .limits-hero h2 { font-size:clamp(22px,4vw,30px); font-weight:900; color:var(--navy); margin-bottom:6px; }
+    .limits-hero p  { font-size:13px; color:var(--text2); }
+    .limits-legend { display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-bottom:16px; }
+    .limits-legend-item { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text2); font-weight:600; }
+    .limits-legend-dot { width:10px; height:10px; border-radius:50%; }
+    .limits-filters { display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-bottom:24px; }
+    .limits-filter-btn { padding:8px 20px; border-radius:50px; border:2px solid var(--border); background:var(--bg2); color:var(--text2); font-size:13px; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; }
+    .limits-filter-btn.active { background:var(--navy); border-color:var(--navy); color:#fff; }
+    .limits-filter-btn:hover:not(.active) { border-color:var(--navy); color:var(--navy); }
+    .limits-cards-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+    @media (max-width:900px) { .limits-cards-grid { grid-template-columns:1fr 1fr; } }
+    @media (max-width:480px) { .limits-cards-grid { grid-template-columns:1fr; } }
+    .limit-card { background:var(--bg2); border-radius:14px; padding:18px; border-left:4px solid #22c55e; box-shadow:var(--shadow); transition:transform .18s,box-shadow .18s; }
+    .limit-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-lg); }
+    .limit-card.mod  { border-left-color:#f59e0b; }
+    .limit-card.high { border-left-color:#ef4444; }
+    .limit-card-top  { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px; }
+    .limit-card-name { font-size:14px; font-weight:800; color:var(--text); }
+    .limit-card-badge { font-size:10px; font-weight:700; padding:3px 10px; border-radius:20px; white-space:nowrap; }
+    .limit-card-badge.ok   { background:#dcfce7; color:#166534; }
+    .limit-card-badge.mod  { background:#fef3c7; color:#92400e; }
+    .limit-card-badge.high { background:#fee2e2; color:#991b1b; }
+    .limit-card-amount-row { background:var(--bg3); border-radius:8px; padding:10px 12px; display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+    .limit-card-amount-label { font-size:12px; color:var(--text2); }
+    .limit-card-amount-val { font-size:18px; font-weight:900; color:var(--navy); }
+    .limit-card-note { font-size:11px; color:var(--text3); margin-bottom:12px; line-height:1.5; }
+    .limit-card-btn { display:block; width:100%; padding:9px; background:var(--navy); color:#fff; border:none; border-radius:8px; font-size:12px; font-weight:700; text-align:center; cursor:pointer; text-decoration:none; font-family:'Inter',sans-serif; transition:background .2s; }
+    .limit-card-btn:hover { background:var(--navy2); }
+    .limits-note { margin-top:18px; font-size:12px; color:var(--text2); background:#fffbea; border:1px solid #f5d87a; border-radius:10px; padding:12px 16px; text-align:center; }
 
     /* ══ PLATFORM CARDS NEW ══ */
-    .plat-cards-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:18px; }
-    @media (max-width:900px) { .plat-cards-grid { grid-template-columns:1fr 1fr; } }
-    @media (max-width:480px) { .plat-cards-grid { grid-template-columns:1fr; } }
-    .plat-card { background:var(--bg2); border:2px solid var(--border); border-radius:16px; overflow:hidden; transition:transform .2s,box-shadow .2s; }
-    .plat-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-lg); }
-    .plat-card-header { padding:14px 14px 10px; display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
-    .plat-card-logo { width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; flex-shrink:0; }
-    .plat-card-info { flex:1; min-width:0; }
-    .plat-card-name { font-size:15px; font-weight:800; color:var(--text); }
-    .plat-card-domain { font-size:11px; color:var(--text3); margin-top:1px; }
-    .plat-card-verified { display:flex; align-items:center; gap:4px; font-size:11px; color:var(--green); font-weight:600; margin-top:3px; }
-    .plat-card-badge { font-size:10px; font-weight:800; padding:3px 9px; border-radius:20px; white-space:nowrap; flex-shrink:0; }
-    .plat-card-avg { margin:0 14px 12px; padding:12px; border-radius:10px; }
-    .plat-card-avg-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px; display:flex; align-items:center; gap:4px; }
-    .plat-card-avg-price { font-size:28px; font-weight:900; line-height:1; }
-    .plat-card-avg-sub { font-size:11px; margin-top:2px; opacity:.7; }
-    .plat-card-buysell { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:0 14px 14px; }
-    .plat-card-bs { background:var(--bg3); border-radius:8px; padding:10px 12px; }
-    .plat-card-bs-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px; display:flex; align-items:center; gap:3px; }
-    .plat-card-bs-label.buy  { color:var(--green); }
-    .plat-card-bs-label.sell { color:var(--red); }
-    .plat-card-bs-val { font-size:16px; font-weight:800; }
-    .plat-card-bs-val.buy  { color:var(--green); }
-    .plat-card-bs-val.sell { color:var(--red); }
-    .plat-card-btn { display:block; margin:0 14px 14px; padding:11px; border-radius:10px; text-align:center; font-size:13px; font-weight:800; text-decoration:none; cursor:pointer; border:none; font-family:'Inter',sans-serif; transition:opacity .2s; }
-    .plat-card-btn:hover { opacity:.88; }
-    .plat-card-btn2 { display:block; margin:0 14px 14px; padding:10px; border-radius:10px; text-align:center; font-size:12px; font-weight:700; text-decoration:none; cursor:pointer; border:2px solid var(--border); background:transparent; color:var(--text2); font-family:'Inter',sans-serif; transition:border-color .2s,color .2s; margin-top:-6px; }
-    .plat-card-btn2:hover { border-color:var(--navy); color:var(--navy); }
-    .otras-title { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--text3); text-align:center; margin:20px 0 12px; display:flex; align-items:center; gap:10px; }
+    .plat-section-hero { text-align:center; margin-bottom:28px; }
+    .plat-section-icon { width:52px; height:52px; background:var(--blue-lt); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:24px; margin:0 auto 12px; }
+    .plat-section-hero h2 { font-size:clamp(22px,4vw,30px); font-weight:900; color:var(--navy); margin-bottom:6px; }
+    .plat-section-hero p  { font-size:13px; color:var(--text2); }
+    .plat-main-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px; }
+    @media (max-width:700px) { .plat-main-grid { grid-template-columns:1fr; } }
+    .plat-big-card { border-radius:20px; padding:22px; position:relative; overflow:hidden; color:#fff; transition:transform .2s,box-shadow .2s; }
+    .plat-big-card:hover { transform:translateY(-3px); box-shadow:0 16px 48px rgba(0,0,0,.25); }
+    .plat-big-card::before { content:''; position:absolute; top:-40px; right:-40px; width:180px; height:180px; border-radius:50%; background:rgba(255,255,255,.06); pointer-events:none; }
+    .plat-big-card::after  { content:''; position:absolute; bottom:-60px; left:-30px; width:220px; height:220px; border-radius:50%; background:rgba(255,255,255,.04); pointer-events:none; }
+    .plat-big-partner { position:absolute; top:16px; right:16px; background:var(--gold); color:#000; font-size:10px; font-weight:800; padding:4px 12px; border-radius:20px; }
+    .plat-big-header { display:flex; align-items:center; gap:12px; margin-bottom:16px; position:relative; z-index:1; }
+    .plat-big-logo { width:52px; height:52px; border-radius:14px; background:rgba(255,255,255,.15); display:flex; align-items:center; justify-content:center; font-size:26px; flex-shrink:0; }
+    .plat-big-name { font-size:22px; font-weight:900; }
+    .plat-big-stars { font-size:12px; opacity:.8; margin-top:2px; }
+    .plat-big-price-box { background:rgba(255,255,255,.12); border-radius:12px; padding:14px 16px; margin-bottom:14px; position:relative; z-index:1; }
+    .plat-big-price-label { font-size:11px; opacity:.75; font-weight:600; margin-bottom:4px; display:flex; justify-content:space-between; align-items:center; }
+    .plat-big-price-live { font-size:10px; font-weight:700; color:#4ade80; display:flex; align-items:center; gap:4px; }
+    .plat-big-price-live::before { content:''; width:6px; height:6px; border-radius:50%; background:#4ade80; animation:pulse 2s infinite; }
+    .plat-big-price-val { font-size:36px; font-weight:900; line-height:1.1; }
+    .plat-big-price-sub { font-size:11px; opacity:.65; margin-top:2px; display:flex; justify-content:space-between; }
+    .plat-big-desc { font-size:13px; opacity:.85; line-height:1.6; margin-bottom:12px; position:relative; z-index:1; }
+    .plat-big-features { list-style:none; margin-bottom:16px; display:flex; flex-direction:column; gap:5px; position:relative; z-index:1; }
+    .plat-big-features li { font-size:12px; opacity:.9; display:flex; align-items:center; gap:6px; }
+    .plat-big-features li::before { content:'✓'; font-weight:800; opacity:.8; }
+    .plat-big-btns { display:flex; gap:10px; position:relative; z-index:1; }
+    .plat-big-btn-sec { flex:1; padding:11px; border-radius:10px; border:2px solid rgba(255,255,255,.3); background:rgba(255,255,255,.1); color:#fff; font-size:12px; font-weight:700; text-align:center; text-decoration:none; display:flex; align-items:center; justify-content:center; gap:5px; transition:background .2s; cursor:pointer; font-family:'Inter',sans-serif; }
+    .plat-big-btn-sec:hover { background:rgba(255,255,255,.2); }
+    .plat-big-btn-main { flex:2; padding:11px; border-radius:10px; background:rgba(255,255,255,.92); font-size:13px; font-weight:800; text-align:center; text-decoration:none; display:flex; align-items:center; justify-content:center; gap:6px; transition:background .2s; cursor:pointer; }
+    .plat-big-btn-main:hover { background:#fff; }
+    /* Otras plataformas */
+    .otras-title { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--text3); text-align:center; margin:24px 0 14px; display:flex; align-items:center; gap:10px; }
     .otras-title::before,.otras-title::after { content:''; flex:1; height:1px; background:var(--border); }
-    .otras-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+    .otras-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
     @media (max-width:900px) { .otras-grid { grid-template-columns:1fr 1fr; } }
     @media (max-width:480px) { .otras-grid { grid-template-columns:1fr; } }
-    .otra-card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); padding:14px; }
-    .otra-card-name { font-size:14px; font-weight:800; color:var(--text); margin-bottom:2px; }
-    .otra-card-domain { font-size:11px; color:var(--text3); margin-bottom:10px; }
-    .otra-card-row { display:flex; justify-content:space-between; font-size:13px; margin-bottom:5px; }
-    .otra-card-row span:first-child { color:var(--text2); }
+    .otra-card { border-radius:16px; padding:18px; color:#fff; transition:transform .18s,box-shadow .18s; position:relative; overflow:hidden; }
+    .otra-card:hover { transform:translateY(-2px); box-shadow:0 10px 30px rgba(0,0,0,.2); }
+    .otra-card::after { content:''; position:absolute; bottom:-20px; right:-20px; width:80px; height:80px; border-radius:50%; background:rgba(255,255,255,.07); }
+    .otra-card-logo { font-size:28px; margin-bottom:8px; }
+    .otra-card-name { font-size:16px; font-weight:800; margin-bottom:2px; }
+    .otra-card-stars { font-size:11px; opacity:.7; margin-bottom:10px; }
+    .otra-card-desc { font-size:11px; opacity:.8; line-height:1.5; margin-bottom:12px; }
+    .otra-card-feats { list-style:none; margin-bottom:14px; display:flex; flex-direction:column; gap:4px; }
+    .otra-card-feats li { font-size:11px; opacity:.85; display:flex; align-items:center; gap:5px; }
+    .otra-card-feats li::before { content:'✓'; font-weight:800; }
+    .otra-card-btn { display:block; width:100%; padding:9px; border-radius:8px; background:rgba(255,255,255,.18); color:#fff; border:2px solid rgba(255,255,255,.3); font-size:12px; font-weight:700; text-align:center; text-decoration:none; font-family:'Inter',sans-serif; transition:background .2s; cursor:pointer; }
+    .otra-card-btn:hover { background:rgba(255,255,255,.28); }
 
     /* ══ MODAL ══ */
     .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:500; align-items:center; justify-content:center; padding:16px; }
@@ -400,13 +436,19 @@
   </div>
 
   <!-- PLATFORMS CARDS -->
-  <div id="platforms" class="section-title"><span>🏦</span> Plataformas P2P en Bolivia</div>
-  <div class="plat-cards-grid" id="platCardsGrid">
-    <div style="grid-column:1/-1;text-align:center;padding:28px;color:var(--text3)">Cargando cotizaciones...</div>
-  </div>
-  <div class="otras-title">OTRAS PLATAFORMAS</div>
-  <div class="otras-grid" id="otrasGrid">
-    <div style="grid-column:1/-1;text-align:center;padding:16px;color:var(--text3)">Cargando...</div>
+  <div id="platforms" style="margin-bottom:18px">
+    <div class="plat-section-hero">
+      <div class="plat-section-icon">💲</div>
+      <h2 style="font-size:clamp(22px,4vw,30px);font-weight:900;color:var(--navy);margin-bottom:6px">Plataformas Recomendadas</h2>
+      <p style="font-size:13px;color:var(--text2)">Las mejores plataformas para comprar y vender USDT/USDC de forma segura y confiable</p>
+    </div>
+    <div class="plat-main-grid" id="platCardsGrid">
+      <div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--text3)">Cargando cotizaciones...</div>
+    </div>
+    <div class="otras-title">OTRAS PLATAFORMAS</div>
+    <div class="otras-grid" id="otrasGrid">
+      <div style="grid-column:1/-1;text-align:center;padding:20px;color:var(--text3)">Cargando...</div>
+    </div>
   </div>
 
   <!-- CALCULATOR -->
@@ -506,16 +548,83 @@
   </div>
 
   <!-- LIMITS -->
-  <div id="limits" class="card">
-    <div class="section-title"><span>⚠️</span> Límites y Restricciones en Bolivia</div>
-    <p style="font-size:13px;color:var(--text2)">Información actualizada sobre límites de compra de USDT con tarjetas de débito — <strong style="color:var(--navy)">21/04/2026</strong></p>
-    <div class="limits-grid">
-      <div class="limit-item"><div class="limit-bank">Mercantil Santa Cruz</div><div class="limit-amount">$200/mes</div><div class="limit-period">Débito mensual</div></div>
-      <div class="limit-item"><div class="limit-bank">Nacional de Bolivia</div><div class="limit-amount">$300/mes</div><div class="limit-period">Débito mensual</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco BISA</div><div class="limit-amount">$200/mes</div><div class="limit-period">Débito mensual</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco Unión</div><div class="limit-amount">$100/mes</div><div class="limit-period">Débito mensual</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco Económico</div><div class="limit-amount">$200/mes</div><div class="limit-period">Débito mensual</div></div>
-      <div class="limit-item"><div class="limit-bank">Banco FIE</div><div class="limit-amount">$150/mes</div><div class="limit-period">Débito mensual</div></div>
+  <div id="limits" class="limits-section">
+    <div class="limits-hero">
+      <div class="limits-icon">⚖️</div>
+      <h2>Límites y Restricciones en Bolivia</h2>
+      <p>Información actualizada sobre límites de compra con tarjetas de débito al 21/04/2026</p>
+    </div>
+    <div class="limits-legend">
+      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#22c55e"></div>Sin restricciones</div>
+      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#f59e0b"></div>Moderadas</div>
+      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#ef4444"></div>Muy limitado</div>
+    </div>
+    <div class="limits-filters">
+      <button class="limits-filter-btn active" onclick="filterLimits('all',this)">Todos</button>
+      <button class="limits-filter-btn" onclick="filterLimits('ok',this)">Sin restricciones</button>
+      <button class="limits-filter-btn" onclick="filterLimits('mod',this)">Con restricciones</button>
+    </div>
+    <div class="limits-cards-grid" id="limitsGrid">
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Mercantil Santa Cruz</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$7500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bmsc.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco de Crédito de Bolivia</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$5000</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bcb.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Nacional de Bolivia</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bnb.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Sol</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancosol.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Económico</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancoeconomico.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Ganadero</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bg.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco FIE</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancofie.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Unión</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancounion.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">BISA</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bisa.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="ok">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Fortaleza</div><div class="limit-card-badge ok">Sin restricciones</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Por confirmar.</div>
+        <a class="limit-card-btn" href="https://www.fortaleza.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
     </div>
     <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
   </div>
@@ -718,48 +827,60 @@
     renderAll();
   }
 
-  function platCard({ name, domain, logo, logoBg, logoColor, badgeText, badgeBg, badgeColor, data, btnText, btnBg, btnColor, btn2Text, url, btn2Url }) {
+  // ── LÍMITES FILTER ──
+  function filterLimits(filter, btn) {
+    document.querySelectorAll('.limits-filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('#limitsGrid .limit-card').forEach(card => {
+      const s = card.dataset.status;
+      if (filter==='all') card.style.display='';
+      else if (filter==='ok') card.style.display = s==='ok' ? '' : 'none';
+      else card.style.display = s!=='ok' ? '' : 'none';
+    });
+  }
+
+  function platCard({ name, domain, logo, gradient, desc, features, data, btn1Text, btn2Text, btn2Color, url, time }) {
     if (!data?.available) return '';
     const avg = ((data.buy + data.sell) / 2).toFixed(2);
     return `
-    <div class="plat-card" style="border-color:${logoBg}44">
-      <div class="plat-card-header">
-        <div class="plat-card-logo" style="background:${logoBg};color:${logoColor}">${logo}</div>
-        <div class="plat-card-info">
-          <div class="plat-card-name">${name}</div>
-          <div class="plat-card-domain">${domain}</div>
-          <div class="plat-card-verified">✔ Verificado</div>
-        </div>
-        <div class="plat-card-badge" style="background:${badgeBg};color:${badgeColor}">★ ${badgeText}</div>
-      </div>
-      <div class="plat-card-avg" style="background:${logoBg}14;border:1px solid ${logoBg}33">
-        <div class="plat-card-avg-label" style="color:${logoBg}">↗ Cotización Promedio</div>
-        <div class="plat-card-avg-price" style="color:${logoBg}">Bs ${avg}</div>
-        <div class="plat-card-avg-sub" style="color:${logoBg}">BOB por USDT</div>
-      </div>
-      <div class="plat-card-buysell">
-        <div class="plat-card-bs">
-          <div class="plat-card-bs-label buy">↕ Compra</div>
-          <div class="plat-card-bs-val buy">Bs ${data.buy.toFixed(2)}</div>
-        </div>
-        <div class="plat-card-bs">
-          <div class="plat-card-bs-label sell">↕ Venta</div>
-          <div class="plat-card-bs-val sell">Bs ${data.sell.toFixed(2)}</div>
+    <div class="plat-big-card" style="background:${gradient}">
+      <div class="plat-big-partner">☆ Partner Verificado</div>
+      <div class="plat-big-header">
+        <div class="plat-big-logo">${logo}</div>
+        <div>
+          <div class="plat-big-name">${name}</div>
+          <div class="plat-big-stars">★★★★★ 5.0</div>
         </div>
       </div>
-      <a class="plat-card-btn" href="${url}" target="_blank" rel="noopener" style="background:${btnBg};color:${btnColor}">${btnText}</a>
-      ${btn2Text ? `<a class="plat-card-btn2" href="${btn2Url||url}" target="_blank" rel="noopener">${btn2Text}</a>` : ''}
+      <div class="plat-big-price-box">
+        <div class="plat-big-price-label">
+          <span>⬡ Cotización ${name}</span>
+          <span class="plat-big-price-live">En vivo</span>
+        </div>
+        <div class="plat-big-price-val">Bs ${avg}</div>
+        <div class="plat-big-price-sub">
+          <span>Promedio compra/venta</span>
+          <span style="font-weight:700">Actualizado: ${time}</span>
+        </div>
+      </div>
+      <div class="plat-big-desc">${desc}</div>
+      <ul class="plat-big-features">${features.map(f=>`<li>${f}</li>`).join('')}</ul>
+      <div class="plat-big-btns">
+        <a class="plat-big-btn-sec" href="${url}" target="_blank" rel="noopener">ⓘ Ver detalles<br><small>Cómo funciona</small></a>
+        <a class="plat-big-btn-main" href="${url}" target="_blank" rel="noopener" style="color:${btn2Color}">+ ${btn2Text} ›<br><small style="font-weight:600;opacity:.7">Protege tus ahorros</small></a>
+      </div>
     </div>`;
   }
 
-  function otraCard({ name, domain, data, url }) {
-    if (!data?.available) return '';
+  function otraCard({ name, logo, gradient, desc, features, url }) {
     return `
-    <div class="otra-card">
+    <div class="otra-card" style="background:${gradient}">
+      <div class="otra-card-logo">${logo}</div>
       <div class="otra-card-name">${name}</div>
-      <div class="otra-card-domain">${domain}</div>
-      <div class="otra-card-row"><span>Compra</span><span style="color:var(--green);font-weight:800">Bs ${data.buy.toFixed(2)}</span></div>
-      <div class="otra-card-row"><span>Venta</span><span style="color:var(--red);font-weight:800">Bs ${data.sell.toFixed(2)}</span></div>
+      <div class="otra-card-stars">★★★★★ 5.0</div>
+      <div class="otra-card-desc">${desc}</div>
+      <ul class="otra-card-feats">${features.map(f=>`<li>${f}</li>`).join('')}</ul>
+      <a class="otra-card-btn" href="${url}" target="_blank" rel="noopener">Abrir Plataforma ↗</a>
     </div>`;
   }
 
@@ -784,32 +905,44 @@
     const now = new Date();
     document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
 
-    // Platform cards principales
+    // Hora de actualización
+    const timeStr = now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'}) + ' p.m.';
+
+    // Platform big cards
     document.getElementById('platCardsGrid').innerHTML = [
-      platCard({ name:'El Dorado', domain:'eldorado.io', logo:'🏅', logoBg:'#F5A623', logoColor:'#fff',
-        badgeText:'RECOMENDADO', badgeBg:'#FFF3CD', badgeColor:'#B8860B',
-        data:eldorado, btnText:'Descargar App', btnBg:'#F5A623', btnColor:'#fff',
-        btn2Text:'Tu cuenta en dólares', url:'https://eldorado.io/' }),
-      platCard({ name:'Takenos', domain:'takenos.com', logo:'🟣', logoBg:'#7C3AED', logoColor:'#fff',
-        badgeText:'RECOMENDADO', badgeBg:'#EDE9FE', badgeColor:'#6D28D9',
-        data:takenos, btnText:'Conocer más', btnBg:'#7C3AED', btnColor:'#fff',
-        btn2Text:'Descargar App', url:'https://takenos.com/' }),
-      platCard({ name:'Wallbit', domain:'wallbit.io', logo:'🔷', logoBg:'#1E3A5F', logoColor:'#fff',
-        badgeText:'RECOMENDADO', badgeBg:'#DBEAFE', badgeColor:'#1E40AF',
-        data:wallbit, btnText:'Calcula tu ahorro', btnBg:'#1E3A5F', btnColor:'#fff',
-        btn2Text:'Crear cuenta USD', url:'https://wallbit.io/' }),
-      platCard({ name:'Airtm', domain:'airtm.com', logo:'💠', logoBg:'#0EA5E9', logoColor:'#fff',
-        badgeText:'RECOMENDADO', badgeBg:'#E0F2FE', badgeColor:'#0369A1',
-        data:airtm, btnText:'Conocer más', btnBg:'#0EA5E9', btnColor:'#fff',
-        btn2Text:'Crear cuenta', url:'https://www.airtm.com/' }),
+      platCard({ name:'Airtm', logo:'AIRTM', gradient:'linear-gradient(135deg,#1565C0 0%,#1976D2 60%,#0D47A1 100%)',
+        desc:'Plataforma global para intercambio de divisas y criptomonedas con alcance mundial.',
+        features:['Fácil de usar','Soporte 24/7','Múltiples métodos'],
+        data:airtm, btn1Text:'Ver detalles', btn2Text:'Crear cuenta', btn2Color:'#1565C0', url:'https://www.airtm.com/', time:timeStr }),
+      platCard({ name:'Eldorado', logo:'🏅', gradient:'linear-gradient(135deg,#E65100 0%,#F57C00 60%,#FF8F00 100%)',
+        desc:'La SuperApp de Stablecoins para Latinoamérica con +70 métodos de pago locales.',
+        features:['+70 métodos de pago','Sin comisiones','P2P Trading'],
+        data:eldorado, btn1Text:'Ver detalles', btn2Text:'Crear cuenta', btn2Color:'#E65100', url:'https://eldorado.io/', time:timeStr }),
+      platCard({ name:'Wallbit', logo:'🔷', gradient:'linear-gradient(135deg,#1A237E 0%,#283593 60%,#3949AB 100%)',
+        desc:'Exchange confiable de criptomonedas con las mejores tasas USDT/BOB en Bolivia.',
+        features:['Tasas competitivas','Verificado','Soporte local'],
+        data:wallbit, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#1A237E', url:'https://wallbit.io/', time:timeStr }),
+      platCard({ name:'Takenos', logo:'☁️', gradient:'linear-gradient(135deg,#4A148C 0%,#6A1B9A 60%,#7B1FA2 100%)',
+        desc:'Recibe pagos internacionales en dólares o criptomonedas al instante con Takenos.',
+        features:['Pagos instantáneos','Sin fronteras','Múltiples divisas'],
+        data:takenos, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#4A148C', url:'https://takenos.com/', time:timeStr }),
     ].join('');
 
-    // Otras plataformas
+    // Otras plataformas (coloridas)
     document.getElementById('otrasGrid').innerHTML = [
-      otraCard({ name:'Binance P2P', domain:'binance.com', data:binance, url:'https://p2p.binance.com/' }),
-      otraCard({ name:'Bybit P2P',   domain:'bybit.com',   data:bybit,   url:'https://www.bybit.com/' }),
-      otraCard({ name:'SaldoAr',     domain:'saldoar.com', data:saldoar, url:'https://saldoar.com/' }),
-    ].filter(Boolean).join('');
+      otraCard({ name:'SaldoAr',   logo:'💜', gradient:'linear-gradient(135deg,#6B21A8,#7C3AED)',
+        desc:'Plataforma argentina para comprar y vender USDT con pesos y otras divisas.',
+        features:['Interfaz simple','Transacciones rápidas','Soporte regional'], url:'https://saldoar.com/' }),
+      otraCard({ name:'Bitget P2P', logo:'🔵', gradient:'linear-gradient(135deg,#0284C7,#0EA5E9)',
+        desc:'Exchange global con servicio P2P para comprar USDT con moneda local.',
+        features:['Trading avanzado','P2P seguro','Alta liquidez'], url:'https://www.bitget.com/' }),
+      otraCard({ name:'Bybit P2P',  logo:'🟠', gradient:'linear-gradient(135deg,#C2410C,#EA580C)',
+        desc:'Plataforma de trading con P2P y amplia variedad de métodos de pago.',
+        features:['Opciones variadas','Trading profesional','Seguridad robusta'], url:'https://www.bybit.com/' }),
+      otraCard({ name:'Binance P2P',logo:'🟡', gradient:'linear-gradient(135deg,#B45309,#D97706)',
+        desc:'El exchange de criptomonedas más grande del mundo con servicio P2P.',
+        features:['Bajas comisiones','Alta liquidez','Seguridad avanzada'], url:'https://p2p.binance.com/' }),
+    ].join('');
 
     // BCB
     if (bcb) {
