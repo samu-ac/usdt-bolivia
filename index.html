@@ -922,6 +922,9 @@
     // 1. Cargar JSON guardado como base (historial + fallback)
     try { const r = await fetch('data/prices.json?v='+Date.now()); base = await r.json(); } catch(e) {}
 
+    // Renderizar inmediatamente con datos guardados para que el gráfico aparezca al instante
+    if (base.history?.length) { pricesData = base; renderAll(); }
+
     // 2. Llamar todos los endpoints en paralelo
     try {
       const [official, eldorado, takenos, wallbit, airtm, bybit, saldoar, bcbvrd] = await Promise.allSettled([
