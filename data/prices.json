@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T11:55:17Z",
+  "lastUpdated": "2026-06-12T12:39:54Z",
   "displayDate": "viernes 12 de junio, 2026",
   "binance": {
     "buy": 9.92,
@@ -20,13 +20,13 @@
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 10.02,
-    "sell": 9.78,
+    "buy": 10.01,
+    "sell": 9.77,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 10.13,
+    "buy": 10.12,
     "sell": 9.64,
     "available": true,
     "source": "api_dbb_airtm"
@@ -39,7 +39,7 @@
   },
   "saldoar": {
     "buy": 10.04,
-    "sell": 9.8,
+    "sell": 9.79,
     "available": true,
     "source": "api_dbb_saldoar"
   },
