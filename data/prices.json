@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T08:33:18Z",
+  "lastUpdated": "2026-06-13T10:14:14Z",
   "displayDate": "sabado 13 de junio, 2026",
   "binance": {
     "buy": 9.92,
@@ -9,7 +9,7 @@
   },
   "eldorado": {
     "buy": 9.98,
-    "sell": 9.81,
+    "sell": 9.82,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -27,7 +27,7 @@
   },
   "airtm": {
     "buy": 10.08,
-    "sell": 9.6,
+    "sell": 9.61,
     "available": true,
     "source": "api_dbb_airtm"
   },
@@ -38,8 +38,8 @@
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 10.02,
-    "sell": 9.75,
+    "buy": 10.01,
+    "sell": 9.77,
     "available": true,
     "source": "api_dbb_saldoar"
   },
