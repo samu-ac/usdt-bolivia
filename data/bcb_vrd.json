@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-18T20:41:51Z",
-  "today": "2026-06-18",
-  "vrd_today": 9.8,
-  "vrd_sell_today": 10.01,
+  "lastUpdated": "2026-06-19T12:37:29Z",
+  "today": "2026-06-19",
+  "vrd_today": 9.72,
+  "vrd_sell_today": 9.92,
   "vrd_min_today": null,
-  "vrd_max_today": 10.01,
+  "vrd_max_today": 9.92,
   "n_trans_today": null,
   "history": [
     {
@@ -276,6 +276,14 @@
       "vrd": 9.8,
       "min": null,
       "max": 10.01,
+      "monto": 0,
+      "n_trans": 0
+    },
+    {
+      "date": "2026-06-19",
+      "vrd": 9.72,
+      "min": null,
+      "max": 9.92,
       "monto": 0,
       "n_trans": 0
     }
