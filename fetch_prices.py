@@ -136,18 +136,27 @@ existing = load_json("data/prices.json")
 print(f"Fecha Bolivia: {display_date}")
 print()
 
-# ── Binance P2P (fuente primaria para precio base) ────────────────────────
-print("1. Binance P2P...")
-buy_price  = fetch_binance_p2p("BUY")
-sell_price = fetch_binance_p2p("SELL")
-if buy_price  is None: buy_price  = existing.get("binance", {}).get("buy",  9.93)
-if sell_price is None: sell_price = existing.get("binance", {}).get("sell", 9.97)
-print(f"   Compra: {buy_price} | Venta: {sell_price}  [binance_p2p]")
+# ── DolarBlueBolivia API — fuente principal ────────────────────────────────
+print("1. DolarBlueBolivia (fuente principal)...")
+d_official = api_get("/v1/officialRate")
+
+if d_official and d_official.get("blue"):
+    buy_price  = round(float(d_official["blue"]["buy"]),  2)
+    sell_price = round(float(d_official["blue"]["sell"]), 2)
+    print(f"   Compra: {buy_price} | Venta: {sell_price}  [dolarblue_api]")
+else:
+    # Fallback a Binance P2P solo si la API falla
+    print("   DolarBlueBolivia no disponible, usando Binance P2P como respaldo...")
+    buy_price  = fetch_binance_p2p("BUY")
+    sell_price = fetch_binance_p2p("SELL")
+    if buy_price  is None: buy_price  = existing.get("binance", {}).get("buy",  9.93)
+    if sell_price is None: sell_price = existing.get("binance", {}).get("sell", 9.97)
+    print(f"   Compra: {buy_price} | Venta: {sell_price}  [binance_p2p_fallback]")
 
 # ── Plataformas via DolarBlueBolivia API ──────────────────────────────────
 print("\n2. Plataformas (DolarBlueBolivia API)...")
 
-d_official = api_get("/v1/officialRate")
+# d_official ya fue obtenido arriba
 d_eldorado = api_get("/v1/eldorado")
 d_takenos  = api_get("/v1/takenos")
 d_wallbit  = api_get("/v1/wallbit")
