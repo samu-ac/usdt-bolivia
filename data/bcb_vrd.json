@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-21T23:49:38Z",
-  "today": "2026-06-21",
+  "lastUpdated": "2026-06-22T21:34:24Z",
+  "today": "2026-06-22",
   "vrd_today": 9.72,
   "vrd_sell_today": 9.92,
   "vrd_min_today": null,
@@ -297,6 +297,14 @@
     },
     {
       "date": "2026-06-21",
+      "vrd": 9.72,
+      "min": null,
+      "max": 9.92,
+      "monto": 0,
+      "n_trans": 0
+    },
+    {
+      "date": "2026-06-22",
       "vrd": 9.72,
       "min": null,
       "max": 9.92,
