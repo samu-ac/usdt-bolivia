@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-30T23:53:12Z",
-  "displayDate": "martes 30 de junio, 2026",
+  "lastUpdated": "2026-07-01T11:41:12Z",
+  "displayDate": "miercoles 1 de julio, 2026",
   "binance": {
     "buy": 9.93,
     "sell": 9.97,
@@ -9,37 +9,37 @@
   },
   "eldorado": {
     "buy": 10.0,
-    "sell": 9.85,
+    "sell": 9.87,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 10.21,
-    "sell": 9.83,
+    "buy": 10.22,
+    "sell": 9.84,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 10.05,
-    "sell": 9.81,
+    "buy": 10.06,
+    "sell": 9.82,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 10.14,
-    "sell": 9.73,
+    "buy": 10.16,
+    "sell": 9.66,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 9.94,
+    "buy": 9.95,
     "sell": 9.92,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 10.1,
-    "sell": 9.87,
+    "buy": 10.19,
+    "sell": 9.95,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -3589,6 +3589,11 @@
     },
     {
       "date": "2026-06-30",
+      "buy": 9.93,
+      "sell": 9.97
+    },
+    {
+      "date": "2026-07-01",
       "buy": 9.93,
       "sell": 9.97
     }
