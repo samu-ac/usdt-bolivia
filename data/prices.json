@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-14T15:16:39Z",
+  "lastUpdated": "2026-07-14T17:03:21Z",
   "displayDate": "martes 14 de julio, 2026",
   "binance": {
-    "buy": 10.51,
+    "buy": 10.52,
     "sell": 10.55,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 10.59,
-    "sell": 10.44,
+    "buy": 10.6,
+    "sell": 10.45,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -26,14 +26,14 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 10.75,
+    "buy": 10.74,
     "sell": 10.28,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
     "buy": 10.53,
-    "sell": 10.51,
+    "sell": 10.49,
     "available": true,
     "source": "api_dbb_bybit"
   },
@@ -46,7 +46,7 @@
   "bcb": {
     "officialBuy": 10.5,
     "officialSell": 10.5,
-    "referentialBuy": 10.51,
+    "referentialBuy": 10.52,
     "referentialSell": 10.55,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
@@ -3644,7 +3644,7 @@
     },
     {
       "date": "2026-07-14",
-      "buy": 10.51,
+      "buy": 10.52,
       "sell": 10.55
     }
   ]
