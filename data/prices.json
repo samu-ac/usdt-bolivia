@@ -1,44 +1,44 @@
 {
-  "lastUpdated": "2026-07-23T17:09:38Z",
+  "lastUpdated": "2026-07-23T18:59:25Z",
   "displayDate": "jueves 23 de julio, 2026",
   "binance": {
-    "buy": 11.51,
-    "sell": 11.56,
+    "buy": 11.59,
+    "sell": 11.63,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.68,
-    "sell": 11.37,
+    "buy": 11.69,
+    "sell": 11.4,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 11.81,
-    "sell": 11.41,
+    "buy": 11.92,
+    "sell": 11.47,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 11.67,
-    "sell": 11.38,
+    "buy": 11.74,
+    "sell": 11.45,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 11.77,
-    "sell": 11.27,
+    "buy": 11.81,
+    "sell": 11.3,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.52,
-    "sell": 11.47,
+    "buy": 11.6,
+    "sell": 11.54,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.59,
+    "buy": 11.64,
     "sell": 11.32,
     "available": true,
     "source": "api_dbb_saldoar"
@@ -46,8 +46,8 @@
   "bcb": {
     "officialBuy": 11.13,
     "officialSell": 11.13,
-    "referentialBuy": 11.51,
-    "referentialSell": 11.56,
+    "referentialBuy": 11.59,
+    "referentialSell": 11.63,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -3679,8 +3679,8 @@
     },
     {
       "date": "2026-07-23",
-      "buy": 11.51,
-      "sell": 11.56
+      "buy": 11.59,
+      "sell": 11.63
     }
   ]
 }
