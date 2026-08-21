@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T01:16:43Z",
+  "lastUpdated": "2026-08-21T03:02:13Z",
   "displayDate": "jueves 20 de agosto, 2026",
   "binance": {
     "buy": 11.62,
@@ -9,7 +9,7 @@
   },
   "eldorado": {
     "buy": 11.69,
-    "sell": 11.51,
+    "sell": 11.55,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -38,8 +38,8 @@
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.75,
-    "sell": 11.42,
+    "buy": 11.78,
+    "sell": 11.43,
     "available": true,
     "source": "api_dbb_saldoar"
   },
