@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T14:32:11Z",
+  "lastUpdated": "2026-08-24T16:23:47Z",
   "displayDate": "lunes 24 de agosto, 2026",
   "binance": {
     "buy": 11.63,
@@ -8,14 +8,14 @@
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.66,
+    "buy": 11.68,
     "sell": 11.54,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 11.96,
-    "sell": 11.52,
+    "sell": 11.51,
     "available": true,
     "source": "api_dbb_takenos"
   },
@@ -32,14 +32,14 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.63,
-    "sell": 11.63,
+    "buy": 11.65,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
     "buy": 11.83,
-    "sell": 11.48,
+    "sell": 11.49,
     "available": true,
     "source": "api_dbb_saldoar"
   },
