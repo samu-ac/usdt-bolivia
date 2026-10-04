@@ -296,6 +296,24 @@
     .project-box p { font-size:13px; color:var(--text2); }
     .project-box strong { color:var(--navy); }
 
+    /* ══ COMPARADOR BANCOS ══ */
+    .banks-toggle { display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap; }
+    .banks-toggle-btn { padding:9px 22px; border-radius:50px; border:2px solid var(--border); background:var(--bg3); color:var(--text2); font-size:13px; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; transition:all .2s; }
+    .banks-toggle-btn.active { background:var(--navy); border-color:var(--navy); color:#fff; }
+    .banks-table { width:100%; border-collapse:collapse; }
+    .banks-table th { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--text3); padding:8px 12px; border-bottom:2px solid var(--border); text-align:left; }
+    .banks-table td { padding:12px 12px; border-bottom:1px solid var(--border); font-size:14px; vertical-align:middle; }
+    .banks-table tr:last-child td { border-bottom:none; }
+    .banks-table tr:hover td { background:var(--blue-lt); }
+    .bank-rank { font-size:18px; width:32px; text-align:center; }
+    .bank-name { font-weight:700; color:var(--text); }
+    .bank-name small { display:block; font-size:11px; font-weight:400; color:var(--text3); }
+    .bank-rate-best { font-weight:900; font-size:16px; color:var(--navy); }
+    .bank-rate-other { font-weight:600; color:var(--text2); }
+    .bank-badge-best { display:inline-block; background:var(--blue-lt); color:var(--navy); font-size:10px; font-weight:700; padding:2px 8px; border-radius:10px; margin-top:2px; }
+    .bank-no-data { color:var(--text3); font-size:12px; font-style:italic; }
+    @media (max-width:600px) { .banks-table th:last-child, .banks-table td:last-child { display:none; } }
+
     /* ══ PREDICCIÓN ══ */
     .pred-card {
       background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
@@ -424,7 +442,7 @@
       <a href="#calculator">Calculadora</a>
       <a href="#platforms">P2P</a>
       <a href="#bcbvrd">BCB / VRD</a>
-      <a href="#limits">Bancos</a>
+      <a href="#bancos">Bancos</a>
       <a href="#chart">Gráfica</a>
       <a href="#prediccion">Predicción</a>
       <a href="#noticias">Noticias</a>
@@ -443,6 +461,7 @@
     <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
     <a href="#platforms"  onclick="closeMobileNav()">🏦 Plataformas P2P</a>
     <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
+    <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparador Bancos</a>
     <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
     <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
     <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
@@ -720,6 +739,33 @@
     <div class="otras-grid" id="otrasGrid">
       <div style="grid-column:1/-1;text-align:center;padding:20px;color:var(--text3)">Cargando...</div>
     </div>
+  </div>
+
+  <!-- COMPARADOR BANCOS -->
+  <div id="bancos" class="card" style="margin-top:22px">
+    <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:16px">Pizarras publicadas por cada banco en su web oficial · Actualizado cada hora</div>
+    <div class="banks-toggle">
+      <button class="banks-toggle-btn active" id="banksBtnSell" onclick="setBanksMode('sell')">💰 Quiero vender dólares</button>
+      <button class="banks-toggle-btn" id="banksBtnBuy" onclick="setBanksMode('buy')">🛒 Quiero comprar dólares</button>
+    </div>
+    <div id="banksModeNote" style="font-size:12px;color:var(--text3);margin-bottom:12px">Ordenado por mayor precio de compra — el banco que más te paga por tus dólares</div>
+    <div style="overflow-x:auto">
+      <table class="banks-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Banco</th>
+            <th>Compra</th>
+            <th>Venta</th>
+          </tr>
+        </thead>
+        <tbody id="banksTableBody">
+          <tr><td colspan="4" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos bancarios…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="font-size:11px;color:var(--text3);margin-top:12px">* Precios publicados por cada banco en su web oficial · Pueden variar en ventanilla</div>
   </div>
 
   <!-- LIMITS -->
@@ -1139,7 +1185,7 @@
     // El gráfico siempre se renderiza primero, de forma independiente
     try { renderChart(currentRange); } catch(e) { console.error('Chart error:', e); }
 
-    const { binance, airtm, eldorado, takenos, wallbit, bybit, saldoar, bcb, news, prediction, displayDate } = pricesData;
+    const { binance, airtm, eldorado, takenos, wallbit, bybit, saldoar, bcb, banks, news, prediction, displayDate } = pricesData;
 
     document.getElementById('headerDate').textContent = displayDate || '';
 
@@ -1215,8 +1261,64 @@
     initCalc();
     // Actualizar comparación si el VRD ya cargó
     if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12);
+    renderBanks(pricesData.banks);
     renderPrediction(prediction);
     renderNews(news);
+  }
+
+  // ── COMPARADOR BANCOS ──
+  let banksMode = 'sell'; // 'sell' = quiero vender, muestra compra; 'buy' = quiero comprar, muestra venta
+  let banksDataCache = [];
+
+  function setBanksMode(mode) {
+    banksMode = mode;
+    document.getElementById('banksBtnSell').classList.toggle('active', mode==='sell');
+    document.getElementById('banksBtnBuy').classList.toggle('active', mode==='buy');
+    document.getElementById('banksModeNote').textContent = mode==='sell'
+      ? 'Ordenado por mayor precio de compra — el banco que más te paga por tus dólares'
+      : 'Ordenado por menor precio de venta — el banco donde más barato compras dólares';
+    renderBanksTable(banksDataCache);
+  }
+
+  function renderBanks(banks) {
+    if (!banks || !banks.length) {
+      document.getElementById('banksTableBody').innerHTML =
+        '<tr><td colspan="4" style="color:var(--text3);font-size:13px;padding:20px 12px">Datos bancarios no disponibles por ahora.</td></tr>';
+      return;
+    }
+    banksDataCache = banks;
+    renderBanksTable(banks);
+  }
+
+  function renderBanksTable(banks) {
+    if (!banks || !banks.length) return;
+    const isSell = banksMode === 'sell';
+    const sorted = [...banks].sort((a, b) => {
+      if (isSell) {
+        // Mejor para vender = mayor compra
+        return (b.buy || 0) - (a.buy || 0);
+      } else {
+        // Mejor para comprar = menor venta
+        const av = a.sell || 999, bv = b.sell || 999;
+        return av - bv;
+      }
+    });
+    const medals = ['🥇','🥈','🥉'];
+    const rows = sorted.map((b, i) => {
+      const rank = medals[i] || `${i+1}`;
+      const isFirst = i === 0;
+      const buyStr  = b.buy  != null ? `Bs ${b.buy.toFixed(2)}`  : '<span class="bank-no-data">No publica</span>';
+      const sellStr = b.sell != null ? `Bs ${b.sell.toFixed(2)}` : '<span class="bank-no-data">No publica</span>';
+      const highlightBuy  = isSell && b.buy  != null;
+      const highlightSell = !isSell && b.sell != null;
+      return `<tr>
+        <td class="bank-rank">${rank}</td>
+        <td class="bank-name">${b.name}${isFirst ? '<br><span class="bank-badge-best">Mejor hoy</span>' : ''}</td>
+        <td class="${highlightBuy  ? 'bank-rate-best' : 'bank-rate-other'}">${buyStr}</td>
+        <td class="${highlightSell ? 'bank-rate-best' : 'bank-rate-other'}">${sellStr}</td>
+      </tr>`;
+    }).join('');
+    document.getElementById('banksTableBody').innerHTML = rows;
   }
 
   function renderPrediction(pred) {

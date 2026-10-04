@@ -209,6 +209,40 @@ else:
     saldoar_data = plat(round(buy_price*1.011,2), round(sell_price*0.988,2), "calculated")
 print(f"   SaldoAr    Compra: {saldoar_data['buy']} | Venta: {saldoar_data['sell']}  [{saldoar_data['source']}]")
 
+# ── Bancos Bolivia (pizarras) ──────────────────────────────────────────────
+print("\n2b. Bancos pizarras...")
+d_bancos = api_get("/v1/bancos")
+banks_data = []
+if d_bancos:
+    pizarras = d_bancos.get("pizarras") or d_bancos.get("bancos") or []
+    for b in pizarras:
+        name = b.get("nombre") or b.get("name") or b.get("banco") or ""
+        buy  = b.get("compra") or b.get("buy")
+        sell = b.get("venta")  or b.get("sell")
+        if name:
+            banks_data.append({
+                "name": str(name).strip(),
+                "buy":  round(float(buy),  2) if buy  and float(buy)  > 0 else None,
+                "sell": round(float(sell), 2) if sell and float(sell) > 0 else None,
+            })
+    banks_data.sort(key=lambda x: x["buy"] or 0, reverse=True)
+    print(f"   {len(banks_data)} bancos obtenidos")
+    for b in banks_data:
+        print(f"   {b['name']}: Compra {b['buy']} | Venta {b['sell']}")
+else:
+    print("   Bancos no disponibles — usando datos estáticos")
+    banks_data = [
+        {"name": "Banco FIE",            "buy": 11.50, "sell": 12.00},
+        {"name": "BCP",                  "buy": 11.50, "sell": 12.30},
+        {"name": "BNB",                  "buy": 11.50, "sell": 12.30},
+        {"name": "BISA",                 "buy": 11.30, "sell": 12.30},
+        {"name": "Banco Económico",      "buy": 11.30, "sell": 12.35},
+        {"name": "Banco Unión",          "buy": 11.00, "sell": 12.30},
+        {"name": "Mercantil Santa Cruz", "buy": 10.90, "sell": 12.30},
+        {"name": "BancoSol",             "buy": 10.80, "sell": 12.30},
+        {"name": "Banco Ganadero",       "buy": None,  "sell": 12.30},
+    ]
+
 # ── BCB Oficial ────────────────────────────────────────────────────────────
 print("\n3. BCB Oficial...")
 if d_official and d_official.get("official"):
@@ -397,6 +431,7 @@ save_json("data/prices.json", {
     "bybit":    bybit_data,
     "saldoar":  saldoar_data,
     "bcb":      bcb_data,
+    "banks":    banks_data,
     "news":       all_news,
     "prediction": prediction,
     "history":    history,

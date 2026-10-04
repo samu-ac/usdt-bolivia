@@ -51,6 +51,17 @@
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
+  "banks": [
+    {"name": "Banco FIE",            "buy": 11.50, "sell": 12.00},
+    {"name": "BCP",                  "buy": 11.50, "sell": 12.30},
+    {"name": "BNB",                  "buy": 11.50, "sell": 12.30},
+    {"name": "BISA",                 "buy": 11.30, "sell": 12.30},
+    {"name": "Banco Económico",      "buy": 11.30, "sell": 12.35},
+    {"name": "Banco Unión",          "buy": 11.00, "sell": 12.30},
+    {"name": "Mercantil Santa Cruz", "buy": 10.90, "sell": 12.30},
+    {"name": "BancoSol",             "buy": 10.80, "sell": 12.30},
+    {"name": "Banco Ganadero",       "buy": null,  "sell": 12.30}
+  ],
   "history": [
     {
       "date": "2024-07-21",
