@@ -1245,11 +1245,11 @@
 
     // BCB
     if (bcb) {
-      document.getElementById('bcbOfficialBuy').textContent   = bcb.officialBuy    + ' Bs';
-      document.getElementById('bcbOfficialSell').textContent  = bcb.officialSell   + ' Bs';
-      document.getElementById('bcbRefBuy').textContent        = (bcb.referentialSell || '—') + ' Bs';
-      document.getElementById('bcbRefSell').textContent       = (bcb.referentialBuy  || '—') + ' Bs';
-      document.getElementById('bcbDate').textContent = 'Cotización: '+(displayDate||'')+' · Fuente: Banco Central de Bolivia';
+      const _bcbOB = document.getElementById('bcbOfficialBuy');   if (_bcbOB)  _bcbOB.textContent  = bcb.officialBuy    + ' Bs';
+      const _bcbOS = document.getElementById('bcbOfficialSell');  if (_bcbOS)  _bcbOS.textContent  = bcb.officialSell   + ' Bs';
+      const _bcbRB = document.getElementById('bcbRefBuy');        if (_bcbRB)  _bcbRB.textContent  = (bcb.referentialSell || '—') + ' Bs';
+      const _bcbRS = document.getElementById('bcbRefSell');       if (_bcbRS)  _bcbRS.textContent  = (bcb.referentialBuy  || '—') + ' Bs';
+      const _bcbDt = document.getElementById('bcbDate');          if (_bcbDt)  _bcbDt.textContent  = 'Cotización: '+(displayDate||'')+' · Fuente: Banco Central de Bolivia';
       document.getElementById('footerBcbBuy').textContent     = bcb.officialBuy    + ' Bs';
       const _fBcbSell = document.getElementById('footerBcbSell'); if (_fBcbSell) _fBcbSell.textContent = bcb.officialSell + ' Bs';
       const _fBcbRB = document.getElementById('footerBcbRefBuy'); if (_fBcbRB) _fBcbRB.textContent = (bcb.referentialSell || '—') + ' Bs';
