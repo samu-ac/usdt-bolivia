@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>USDT Bolivia - Univalle</title>
-  <meta name="description" content="Cotización diaria del USDT en Bolivia. Precio de compra y venta en mercados P2P. Proyecto académico Universidad del Valle." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <title>Dólar Bolivia — Tipo de Cambio Hoy</title>
+  <meta name="description" content="Tipo de cambio del dólar en Bolivia. Cotización oficial BCB, mercado paralelo y pizarras de todos los bancos comparadas en un solo lugar." />
+  <style>
+    @import url('https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800,900&display=swap');
+  </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
@@ -295,6 +296,42 @@
     .project-box p { font-size:13px; color:var(--text2); }
     .project-box strong { color:var(--navy); }
 
+    /* ══ PREDICCIÓN ══ */
+    .pred-card {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+      border-radius: 16px; padding: 28px; color: #fff; margin-bottom: 28px;
+      display: flex; gap: 32px; flex-wrap: wrap; align-items: center;
+    }
+    .pred-card-left { flex: 1; min-width: 200px; }
+    .pred-label { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .7; margin-bottom: 6px; }
+    .pred-title { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
+    .pred-trend-badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; margin-top: 8px; background: rgba(255,255,255,.15); }
+    .pred-trend-badge.alza    { color: #7feba2; }
+    .pred-trend-badge.baja    { color: #ff8a80; }
+    .pred-trend-badge.estable { color: rgba(255,255,255,.85); }
+    .pred-rates { display: flex; gap: 24px; flex-wrap: wrap; }
+    .pred-rate { text-align: center; }
+    .pred-rate-label { font-size: 11px; opacity: .65; font-weight: 600; margin-bottom: 3px; }
+    .pred-rate-val { font-size: 28px; font-weight: 900; line-height: 1; }
+    .pred-rate-change { font-size: 12px; margin-top: 3px; }
+    .pred-rate-change.up   { color: #7feba2; }
+    .pred-rate-change.down { color: #ff8a80; }
+    .pred-rate-change.flat { color: rgba(255,255,255,.6); }
+    .pred-disclaimer { font-size: 11px; opacity: .5; margin-top: 14px; }
+
+    /* ══ NOTICIAS ══ */
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+    .news-card {
+      background: var(--bg2); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; display: flex; flex-direction: column; gap: 8px;
+      transition: box-shadow .2s, border-color .2s; text-decoration: none; color: inherit;
+    }
+    .news-card:hover { box-shadow: var(--shadow); border-color: #b0bcd8; }
+    .news-card-source { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); }
+    .news-card-title { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.4; }
+    .news-card-desc { font-size: 12px; color: var(--text2); line-height: 1.55; flex: 1; }
+    .news-card-date { font-size: 11px; color: var(--text3); }
+
     /* ══ FOOTER ══ */
     footer { background:var(--navy); color:rgba(255,255,255,.85); padding:40px 20px 24px; }
     .footer-inner { max-width:1100px; margin:0 auto; }
@@ -379,7 +416,7 @@
       <div class="logo-icon">₮</div>
       <div class="logo-text">
         <div class="main">USDT Bolivia</div>
-        <div class="sub">Univalle · Santa Cruz</div>
+        <div class="sub">Bolivia · Tipo de Cambio</div>
       </div>
     </a>
     <nav>
@@ -389,6 +426,8 @@
       <a href="#bcbvrd">BCB / VRD</a>
       <a href="#limits">Bancos</a>
       <a href="#chart">Gráfica</a>
+      <a href="#prediccion">Predicción</a>
+      <a href="#noticias">Noticias</a>
     </nav>
     <div class="header-date" id="headerDate">—</div>
     <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menú">
@@ -406,6 +445,8 @@
     <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
     <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
     <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
+    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
+    <a href="#noticias"   onclick="closeMobileNav()">📰 Noticias</a>
   </div>
 </div>
 
@@ -414,7 +455,7 @@
   <div class="hero-inner">
     <!-- Left -->
     <div class="hero-left">
-      <div class="hero-badge">📊 Proyecto Académico · Univalle Bolivia</div>
+      <div class="hero-badge">📊 Cotización en tiempo real · Bolivia</div>
       <div class="hero-title">Cotización<br><span>USDT / BOB</span></div>
       <div class="hero-toggle">
         <button class="hero-toggle-btn buy active" id="heroBtnBuy" onclick="setHeroMode('buy')">
@@ -622,7 +663,7 @@
   </div>
 
   <div class="alert-strip">
-    ℹ️ Los precios son referenciales del mercado P2P (Binance) via dolarbluebolivia.click. No constituyen asesoramiento financiero.
+    ℹ️ Los precios son referenciales del mercado P2P (Binance) No constituyen asesoramiento financiero.
   </div>
 
   <!-- CALCULATOR -->
@@ -775,6 +816,39 @@
     <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
   </div>
 
+  <!-- PREDICCIÓN -->
+  <div id="prediccion" style="margin-top:36px">
+    <div class="section-title" style="margin-bottom:16px"><span>🔮</span> Cotización Esperada — Mañana</div>
+    <div class="pred-card" id="predCard">
+      <div class="pred-card-left">
+        <div class="pred-label">Proyección basada en tendencia histórica</div>
+        <div class="pred-title">¿Cómo podría estar mañana?</div>
+        <div id="predTrendBadge" class="pred-trend-badge estable">Calculando…</div>
+        <div class="pred-disclaimer" id="predDisclaimer">Estimación estadística · No es asesoramiento financiero.</div>
+      </div>
+      <div class="pred-rates">
+        <div class="pred-rate">
+          <div class="pred-rate-label">Compra estimada</div>
+          <div class="pred-rate-val" id="predBuy">—</div>
+          <div class="pred-rate-change flat" id="predChangeBuy">—</div>
+        </div>
+        <div class="pred-rate">
+          <div class="pred-rate-label">Venta estimada</div>
+          <div class="pred-rate-val" id="predSell">—</div>
+          <div class="pred-rate-change flat" id="predChangeSell">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTICIAS -->
+  <div id="noticias" style="margin-top:36px;margin-bottom:36px">
+    <div class="section-title" style="margin-bottom:6px"><span>📰</span> Noticias Económicas Bolivia</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:16px">Noticias relevantes sobre economía, tipo de cambio y finanzas en Bolivia. Actualizado cada hora.</div>
+    <div class="news-grid" id="newsGrid">
+      <div style="color:var(--text3);font-size:13px;padding:16px 0">Cargando noticias…</div>
+    </div>
+  </div>
 
 </main>
 
@@ -794,8 +868,8 @@
     </div>
     <div class="footer-top">
       <div>
-        <span class="footer-logo-text">USDT <span>Bolivia</span> · Univalle</span>
-        <p class="footer-desc">Plataforma informativa de cotizaciones USDT/BOB basadas en mercados P2P. Proyecto académico de la Universidad del Valle, Santa Cruz.</p>
+        <span class="footer-logo-text">Dólar <span>Bolivia</span></span>
+        <p class="footer-desc">Plataforma informativa de cotizaciones del dólar en Bolivia. Tipo de cambio oficial, paralelo y pizarras bancarias en un solo lugar.</p>
       </div>
       <div class="footer-col">
         <div class="footer-col-title">Información</div>
@@ -823,10 +897,10 @@
         </ul>
       </div>
     </div>
-    <div class="footer-legal"><strong style="color:rgba(255,255,255,.8)">Aviso Legal:</strong> Las cotizaciones son precios referenciales de mercados P2P. No constituyen asesoramiento financiero. Proyecto académico sin fines de lucro.</div>
+    <div class="footer-legal"><strong style="color:rgba(255,255,255,.8)">Aviso Legal:</strong> Las cotizaciones son precios referenciales de mercados P2P. No constituyen asesoramiento financiero. </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 USDT Bolivia - Univalle. Todos los derechos reservados.</span>
-      <span class="footer-uni">Universidad del Valle · Santa Cruz, Bolivia</span>
+      <span class="footer-copy">© 2026 Dólar Bolivia. Todos los derechos reservados.</span>
+      <span class="footer-uni">Santa Cruz, Bolivia</span>
     </div>
   </div>
 </footer>
@@ -835,7 +909,7 @@
 <div class="modal-overlay" id="modalSobre" onclick="closeOnOverlay(event,'modalSobre')">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('modalSobre')">✕</button>
-    <div class="modal-badge">Proyecto Académico</div>
+    <div class="modal-badge">Sobre el sitio</div>
     <h2>Sobre Nosotros</h2>
     <p>Somos una plataforma informativa especializada en proporcionar datos precisos y en tiempo real del mercado cambiario boliviano. Creemos que la información económica confiable es la base para tomar decisiones financieras inteligentes.</p>
     <h3>Nuestra Misión</h3>
@@ -843,9 +917,7 @@
     <h3>Nuestra Visión</h3>
     <p>Ser la fuente más confiable y accesible de información económica en Bolivia en temas de cambio de divisas. Contribuir al desarrollo financiero de la comunidad mediante transparencia, objetividad y veracidad en todos nuestros contenidos.</p>
     <div class="project-box">
-      <p><strong>Proyecto Académico — Universidad del Valle (Univalle)</strong><br><br>
-      Este sitio es el resultado de un proyecto de investigación y desarrollo de un grupo de estudiantes de la <strong>Universidad del Valle, sede Santa Cruz de la Sierra</strong>, concebido como una herramienta educativa y de utilidad pública para la comunidad boliviana, bajo la guía y supervisión del docente <strong>Lic. Javier Prado</strong>.<br><br>
-      Nuestro objetivo fue aplicar conocimientos de tecnología, análisis de datos y desarrollo web para crear una solución real que responda a una necesidad informativa concreta de los bolivianos.</p>
+      <p>Este sitio nació de la necesidad de contar con una sola herramienta que muestre, de forma clara y sin demoras, el tipo de cambio del dólar en Bolivia: el oficial del BCB, el mercado paralelo y las pizarras de cada banco, todo actualizado automáticamente.</p>
     </div>
   </div>
 </div>
@@ -857,7 +929,7 @@
     <h2>Términos y Condiciones</h2>
     <p>Estos términos rigen el uso de nuestro sitio web y servicios.</p>
     <h3>Aceptación de Términos</h3>
-    <p>Al acceder y utilizar <strong>USDT Bolivia - Univalle</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
+    <p>Al acceder y utilizar <strong>Dólar Bolivia</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
     <h3>Lo que Ofrecemos</h3>
     <ul><li>Información referencial de cotizaciones</li><li>Datos del mercado paralelo de divisas</li><li>Herramientas de cálculo básicas</li><li>Análisis de tendencias históricas</li></ul>
     <h3>Lo que NO Hacemos</h3>
@@ -873,7 +945,7 @@
     <div class="modal-badge">Legal</div>
     <h2>Política de Privacidad</h2>
     <h3>Introducción</h3>
-    <p>En <strong>USDT Bolivia - Univalle</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
+    <p>En <strong>Dólar Bolivia</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
     <h3>Datos que Recopilamos</h3>
     <p>Este sitio es de carácter informativo y <strong>no recopila datos personales</strong>. No requerimos registro ni inicio de sesión.</p>
     <h3>Cookies y Analítica</h3>
@@ -887,7 +959,7 @@
     <div class="modal-badge">Legal</div>
     <h2>Aviso Legal</h2>
     <p>Las cotizaciones mostradas son precios referenciales de plataformas P2P de criptomonedas. <strong>No constituyen asesoramiento financiero.</strong></p>
-    <p>Este sitio es un proyecto académico de la Universidad del Valle sin fines de lucro. Los datos provienen de fuentes públicas y pueden variar. Siempre verifique con la plataforma de su preferencia antes de operar.</p>
+    <p>Este sitio es un  Los datos provienen de fuentes públicas y pueden variar. Siempre verifique con la plataforma de su preferencia antes de operar.</p>
   </div>
 </div>
 
@@ -1079,7 +1151,7 @@
     // El gráfico siempre se renderiza primero, de forma independiente
     try { renderChart(currentRange); } catch(e) { console.error('Chart error:', e); }
 
-    const { binance, airtm, eldorado, takenos, wallbit, bybit, saldoar, bcb, displayDate } = pricesData;
+    const { binance, airtm, eldorado, takenos, wallbit, bybit, saldoar, bcb, news, prediction, displayDate } = pricesData;
 
     document.getElementById('headerDate').textContent = displayDate || '';
 
@@ -1093,8 +1165,8 @@
       document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
     }
     if (bcb) {
-      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.vrdBuy  || bcb.referentialBuy  || '9.79');
-      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + (bcb.vrdSell || bcb.referentialSell || '10.00');
+      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.referentialSell || bcb.tco || '—');
+      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + (bcb.referentialBuy  || bcb.tco || '—');
     }
     const now = new Date();
     document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
@@ -1142,19 +1214,60 @@
     if (bcb) {
       document.getElementById('bcbOfficialBuy').textContent   = bcb.officialBuy    + ' Bs';
       document.getElementById('bcbOfficialSell').textContent  = bcb.officialSell   + ' Bs';
-      document.getElementById('bcbRefBuy').textContent        = bcb.referentialBuy + ' Bs';
-      document.getElementById('bcbRefSell').textContent       = bcb.referentialSell+ ' Bs';
+      document.getElementById('bcbRefBuy').textContent        = (bcb.referentialSell || '—') + ' Bs';
+      document.getElementById('bcbRefSell').textContent       = (bcb.referentialBuy  || '—') + ' Bs';
       document.getElementById('bcbDate').textContent = 'Cotización: '+(displayDate||'')+' · Fuente: Banco Central de Bolivia';
       document.getElementById('footerBcbBuy').textContent     = bcb.officialBuy    + ' Bs';
       document.getElementById('footerBcbSell').textContent    = bcb.officialSell   + ' Bs';
-      document.getElementById('footerBcbRefBuy').textContent  = bcb.referentialBuy + ' Bs';
-      document.getElementById('footerBcbRefSell').textContent = bcb.referentialSell+ ' Bs';
+      document.getElementById('footerBcbRefBuy').textContent  = (bcb.referentialSell || '—') + ' Bs';
+      document.getElementById('footerBcbRefSell').textContent = (bcb.referentialBuy  || '—') + ' Bs';
       document.getElementById('footerBcbDate').innerHTML = (displayDate||'')+'<br>Fuente: Banco Central de Bolivia';
     }
 
     initCalc();
     // Actualizar comparación si el VRD ya cargó
     if (vrdData?.vrd_today) renderComparison(vrdData.vrd_today);
+    renderPrediction(prediction);
+    renderNews(news);
+  }
+
+  function renderPrediction(pred) {
+    if (!pred) return;
+    const fmt = v => parseFloat(v).toFixed(2);
+    const sign = v => v > 0 ? '+' : '';
+    document.getElementById('predBuy').textContent  = 'Bs ' + fmt(pred.buyTomorrow);
+    document.getElementById('predSell').textContent = 'Bs ' + fmt(pred.sellTomorrow);
+    const cb = pred.changeBuy, cs = pred.changeSell;
+    const cbEl = document.getElementById('predChangeBuy');
+    const csEl = document.getElementById('predChangeSell');
+    cbEl.textContent = sign(cb) + fmt(cb) + ' Bs';
+    cbEl.className   = 'pred-rate-change ' + (cb > 0.005 ? 'up' : cb < -0.005 ? 'down' : 'flat');
+    csEl.textContent = sign(cs) + fmt(cs) + ' Bs';
+    csEl.className   = 'pred-rate-change ' + (cs > 0.005 ? 'up' : cs < -0.005 ? 'down' : 'flat');
+    const badge = document.getElementById('predTrendBadge');
+    const icons = { alza:'↗ Tendencia al alza', baja:'↘ Tendencia a la baja', estable:'→ Tendencia estable' };
+    badge.textContent = icons[pred.trend] || '— Sin datos suficientes';
+    badge.className   = 'pred-trend-badge ' + (pred.trend || 'estable');
+    document.getElementById('predDisclaimer').textContent =
+      `Proyección basada en los últimos ${pred.basedOnDays} días · Confianza ${pred.confidence} · No es asesoramiento financiero.`;
+  }
+
+  function renderNews(newsList) {
+    const grid = document.getElementById('newsGrid');
+    if (!newsList || !newsList.length) {
+      grid.innerHTML = '<div style="color:var(--text3);font-size:13px;padding:16px 0">No hay noticias disponibles. Se actualizan cada hora.</div>';
+      return;
+    }
+    grid.innerHTML = newsList.map(n => {
+      const d = new Date(n.date);
+      const dateStr = isNaN(d) ? '' : d.toLocaleDateString('es-BO', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+      return `<a class="news-card" href="${n.link||'#'}" target="_blank" rel="noopener noreferrer">
+        <div class="news-card-source">${n.source}</div>
+        <div class="news-card-title">${n.title}</div>
+        ${n.desc ? `<div class="news-card-desc">${n.desc}</div>` : ''}
+        <div class="news-card-date">${dateStr}</div>
+      </a>`;
+    }).join('');
   }
 
   // ── HERO MODE ──
@@ -1178,7 +1291,7 @@
   // ── SHARE ──
   function sharePrice() {
     if (!pricesData?.binance) return;
-    const text = `USDT en Bolivia hoy:\nCompra: Bs ${pricesData.binance.buy.toFixed(2)}\nVenta: Bs ${pricesData.binance.sell.toFixed(2)}\nFuente: USDT Bolivia - Univalle`;
+    const text = `Dólar en Bolivia hoy:\nCompra: Bs ${pricesData.binance.buy.toFixed(2)}\nVenta: Bs ${pricesData.binance.sell.toFixed(2)}\nFuente: DolarBolivia`;
     if (navigator.share) { navigator.share({ text }); }
     else if (navigator.clipboard) { navigator.clipboard.writeText(text).then(() => alert('¡Cotización copiada!')); }
   }
