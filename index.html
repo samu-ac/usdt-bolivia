@@ -312,7 +312,22 @@
     .bank-rate-other { font-weight:600; color:var(--text2); }
     .bank-badge-best { display:inline-block; background:var(--blue-lt); color:var(--navy); font-size:10px; font-weight:700; padding:2px 8px; border-radius:10px; margin-top:2px; }
     .bank-no-data { color:var(--text3); font-size:12px; font-style:italic; }
-    @media (max-width:600px) { .banks-table th:last-child, .banks-table td:last-child { display:none; } }
+    /* Banks mobile: hide table, show cards */
+    .banks-mobile-cards { display:none; }
+    @media (max-width:640px) {
+      .banks-table-wrap { display:none; }
+      .banks-mobile-cards { display:flex; flex-direction:column; gap:8px; }
+    }
+    .bank-mob-card { display:flex; align-items:center; gap:10px; background:var(--bg3); border-radius:10px; padding:12px 14px; border:1px solid var(--border); }
+    .bank-mob-rank { font-size:22px; flex-shrink:0; width:30px; text-align:center; }
+    .bank-mob-info { flex:1; min-width:0; }
+    .bank-mob-name { font-size:13px; font-weight:700; color:var(--text); line-height:1.3; }
+    .bank-mob-badge { display:inline-block; background:var(--blue-lt); color:var(--navy); font-size:10px; font-weight:700; padding:1px 7px; border-radius:8px; margin-left:4px; vertical-align:middle; }
+    .bank-mob-sub { font-size:11px; color:var(--text3); margin-top:2px; }
+    .bank-mob-rate { text-align:right; flex-shrink:0; }
+    .bank-mob-rate-main { font-size:20px; font-weight:900; color:var(--navy); line-height:1.1; }
+    .bank-mob-rate-main.best { color:var(--green); }
+    .bank-mob-rate-other { font-size:11px; color:var(--text3); margin-top:2px; }
 
     /* ══ PREDICCIÓN ══ */
     .pred-card {
@@ -420,14 +435,14 @@
 
     /* ══ SECTION ORDER ══ */
     main { display:flex; flex-direction:column; }
-    #platforms  { order:1; }
+    #bancos     { order:1; }
     #prediccion { order:2; }
-    #bancos     { order:3; }
+    #platforms  { order:3; }
     #calculator { order:4; }
-    #alertStrip { order:5; }
-    #bcbvrd     { order:6; }
-    #limits     { order:7; }
-    #chart      { order:8; }
+    #chart      { order:5; }
+    #alertStrip { order:6; }
+    #bcbvrd     { order:7; }
+    #limits     { order:8; }
     #noticias   { order:9; }
 
     /* ══ MOBILE IMPROVEMENTS ══ */
@@ -516,12 +531,12 @@
     </a>
     <nav>
       <a href="#cotizacion">Tipo de Cambio</a>
-      <a href="#platforms">P2P</a>
-      <a href="#prediccion">Predicción</a>
       <a href="#bancos">Bancos</a>
+      <a href="#prediccion">Predicción</a>
+      <a href="#platforms">P2P</a>
       <a href="#calculator">Calculadora</a>
-      <a href="#bcbvrd">BCB / VRD</a>
       <a href="#chart">Gráfica</a>
+      <a href="#bcbvrd">BCB / VRD</a>
       <a href="#noticias">Noticias</a>
     </nav>
     <div class="header-date" id="headerDate">—</div>
@@ -535,13 +550,13 @@
 <div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)">
   <div class="mobile-nav-inner">
     <a href="#cotizacion" onclick="closeMobileNav()">💱 Tipo de Cambio</a>
-    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas P2P</a>
-    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
     <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparador Bancos</a>
+    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
+    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas P2P</a>
     <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
+    <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
     <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
     <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
-    <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
     <a href="#noticias"   onclick="closeMobileNav()">📰 Noticias</a>
   </div>
 </div>
@@ -827,7 +842,7 @@
       <button class="banks-toggle-btn" id="banksBtnBuy" onclick="setBanksMode('buy')">🛒 Quiero comprar dólares</button>
     </div>
     <div id="banksModeNote" style="font-size:12px;color:var(--text3);margin-bottom:12px">Ordenado por mayor precio de compra — el banco que más te paga por tus dólares</div>
-    <div style="overflow-x:auto">
+    <div class="banks-table-wrap" style="overflow-x:auto">
       <table class="banks-table">
         <thead>
           <tr>
@@ -842,6 +857,7 @@
         </tbody>
       </table>
     </div>
+    <div class="banks-mobile-cards" id="banksMobileCards"></div>
     <div style="font-size:11px;color:var(--text3);margin-top:12px">* Precios publicados por cada banco en su web oficial · Pueden variar en ventanilla</div>
   </div>
 
@@ -1395,6 +1411,30 @@
       </tr>`;
     }).join('');
     document.getElementById('banksTableBody').innerHTML = rows;
+
+    // Mobile cards
+    const mobileCards = sorted.map((b, i) => {
+      const rank = medals[i] || `${i+1}`;
+      const isFirst = i === 0;
+      const mainRate  = isSell ? b.buy  : b.sell;
+      const otherRate = isSell ? b.sell : b.buy;
+      const mainLabel  = isSell ? 'Compra' : 'Venta';
+      const otherLabel = isSell ? 'Venta'  : 'Compra';
+      const mainStr  = mainRate  != null ? `Bs ${mainRate.toFixed(2)}`  : '—';
+      const otherStr = otherRate != null ? `Bs ${otherRate.toFixed(2)}` : '—';
+      return `<div class="bank-mob-card">
+        <div class="bank-mob-rank">${rank}</div>
+        <div class="bank-mob-info">
+          <div class="bank-mob-name">${b.name}${isFirst ? '<span class="bank-mob-badge">Mejor</span>' : ''}</div>
+          <div class="bank-mob-sub">${otherLabel}: ${otherStr}</div>
+        </div>
+        <div class="bank-mob-rate">
+          <div class="bank-mob-rate-main${isFirst ? ' best' : ''}">${mainStr}</div>
+          <div class="bank-mob-rate-other">${mainLabel}</div>
+        </div>
+      </div>`;
+    }).join('');
+    document.getElementById('banksMobileCards').innerHTML = mobileCards;
   }
 
   function renderPrediction(pred) {
