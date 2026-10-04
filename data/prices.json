@@ -55,7 +55,7 @@
     {"name": "Banco FIE",            "buy": 11.50, "sell": 12.00},
     {"name": "BCP",                  "buy": 11.50, "sell": 12.30},
     {"name": "BNB",                  "buy": 11.50, "sell": 12.30},
-    {"name": "BISA",                 "buy": 11.30, "sell": 12.30},
+    {"name": "Banco Bisa",           "buy": 11.30, "sell": 12.30},
     {"name": "Banco Económico",      "buy": 11.30, "sell": 12.35},
     {"name": "Banco Unión",          "buy": 11.00, "sell": 12.30},
     {"name": "Mercantil Santa Cruz", "buy": 10.90, "sell": 12.30},

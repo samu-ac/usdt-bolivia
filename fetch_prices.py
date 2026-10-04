@@ -213,20 +213,32 @@ print(f"   SaldoAr    Compra: {saldoar_data['buy']} | Venta: {saldoar_data['sell
 print("\n2b. Bancos pizarras...")
 d_bancos = api_get("/v1/bancos")
 banks_data = []
+# IDs de los 9 bancos que queremos mostrar (en orden de presentación)
+BANCOS_TARGET = ["fie","bcp","bnb","bisa","economico","union","mercantil","bancosol","ganadero"]
+BANCOS_NOMBRE = {
+    "fie": "Banco FIE", "bcp": "BCP", "bnb": "BNB", "bisa": "Banco Bisa",
+    "economico": "Banco Económico", "union": "Banco Unión",
+    "mercantil": "Mercantil Santa Cruz", "bancosol": "BancoSol",
+    "ganadero": "Banco Ganadero",
+}
 if d_bancos:
-    pizarras = d_bancos.get("pizarras") or d_bancos.get("bancos") or []
-    for b in pizarras:
-        name = b.get("nombre") or b.get("name") or b.get("banco") or ""
-        buy  = b.get("compra") or b.get("buy")
-        sell = b.get("venta")  or b.get("sell")
-        if name:
-            banks_data.append({
-                "name": str(name).strip(),
-                "buy":  round(float(buy),  2) if buy  and float(buy)  > 0 else None,
-                "sell": round(float(sell), 2) if sell and float(sell) > 0 else None,
-            })
+    # La API devuelve data.bancos[].pizarra.{compra,venta}
+    api_bancos = {b["id"]: b for b in d_bancos.get("bancos", [])}
+    for bid in BANCOS_TARGET:
+        b = api_bancos.get(bid)
+        if not b:
+            continue
+        piz  = b.get("pizarra") or {}
+        buy  = piz.get("compra")
+        sell = piz.get("venta")
+        name = b.get("nombre") or BANCOS_NOMBRE.get(bid, bid)
+        banks_data.append({
+            "name": str(name).strip(),
+            "buy":  round(float(buy),  2) if buy  is not None and float(buy)  > 0 else None,
+            "sell": round(float(sell), 2) if sell is not None and float(sell) > 0 else None,
+        })
     banks_data.sort(key=lambda x: x["buy"] or 0, reverse=True)
-    print(f"   {len(banks_data)} bancos obtenidos")
+    print(f"   {len(banks_data)} bancos obtenidos de la API")
     for b in banks_data:
         print(f"   {b['name']}: Compra {b['buy']} | Venta {b['sell']}")
 else:
@@ -235,7 +247,7 @@ else:
         {"name": "Banco FIE",            "buy": 11.50, "sell": 12.00},
         {"name": "BCP",                  "buy": 11.50, "sell": 12.30},
         {"name": "BNB",                  "buy": 11.50, "sell": 12.30},
-        {"name": "BISA",                 "buy": 11.30, "sell": 12.30},
+        {"name": "Banco Bisa",           "buy": 11.30, "sell": 12.30},
         {"name": "Banco Económico",      "buy": 11.30, "sell": 12.35},
         {"name": "Banco Unión",          "buy": 11.00, "sell": 12.30},
         {"name": "Mercantil Santa Cruz", "buy": 10.90, "sell": 12.30},
