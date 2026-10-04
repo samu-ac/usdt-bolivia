@@ -500,10 +500,6 @@
             <div class="rate-box-label buy-label">↓ Compra</div>
             <div class="rate-box-val" id="heroCardBcbBuy" style="color:var(--text)">—</div>
           </div>
-          <div class="rate-box">
-            <div class="rate-box-label sell-label">↑ Venta</div>
-            <div class="rate-box-val" id="heroCardBcbSell" style="color:var(--text)">—</div>
-          </div>
         </div>
         <div class="rates-footer">
           <span class="rates-footer-text" id="ratesTime">—</span>
@@ -555,7 +551,7 @@
             <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
           </div>
           <div style="text-align:right">
-            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">VRD HOY</div>
+            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">TCO HOY</div>
             <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
             <div class="bcb-vrd-price-sub">Bs por 1 USD · <span id="vrdRefreshLabel" style="color:rgba(255,255,255,.5)">—</span></div>
           </div>
@@ -564,14 +560,6 @@
           <div class="bcb-vrd-stat">
             <div class="bcb-vrd-stat-label">Cotización Oficial</div>
             <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
-          </div>
-          <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Máx del día</div>
-            <div class="bcb-vrd-stat-val" id="vrdMax">—</div>
-          </div>
-          <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Transacciones</div>
-            <div class="bcb-vrd-stat-val" id="vrdNTrans">—</div>
           </div>
         </div>
       </div>
@@ -584,7 +572,7 @@
         <div class="compare-card" id="comparePhysCard">
           <div class="compare-card-tag" style="color:var(--navy)">🏦 USD Físico (Librecambista)</div>
           <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · VRD BCB</div>
+          <div class="compare-card-label">Bs por 1 USD · TCO BCB</div>
           <div class="compare-card-detail">
             Precio promedio ponderado de las operaciones reales entre bancos y librecambistas en Bolivia.<br><br>
             <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
@@ -609,7 +597,7 @@
           <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
         </div>
       </div>
-      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al VRD BCB del día vs precio de compra Binance P2P (en vivo)</div>
+      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al TCO BCB (Bs 12) vs precio de compra Binance P2P (en vivo)</div>
     </div>
 
     <!-- GRÁFICO VRD HISTÓRICO -->
@@ -858,10 +846,10 @@
     <div class="footer-bcb">
       <div>
         <div class="footer-bcb-title">BCB Oficial</div>
-        <div class="footer-bcb-values">Compra: <strong id="footerBcbBuy">—</strong> · Venta: <strong id="footerBcbSell">—</strong></div>
+        <div class="footer-bcb-values">Compra: <strong id="footerBcbBuy">—</strong></div>
       </div>
       <div>
-        <div class="footer-bcb-title">Blue / Referencial</div>
+        <div class="footer-bcb-title">P2P Bolivia</div>
         <div class="footer-bcb-values">Compra: <strong id="footerBcbRefBuy">—</strong> · Venta: <strong id="footerBcbRefSell">—</strong></div>
       </div>
       <div class="footer-bcb-date" id="footerBcbDate">—<br>Fuente: Banco Central de Bolivia</div>
@@ -1161,8 +1149,8 @@
     // Hero rates card
     if (binance) {
       const bBuy  = parseFloat(binance.buy),  bSell = parseFloat(binance.sell);
-      document.getElementById('heroCardBuy').textContent  = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
-      document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
+      document.getElementById('heroCardBuy').textContent  = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
+      document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
     }
     if (bcb) {
       document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.referentialSell || bcb.tco || '—');
@@ -1226,13 +1214,40 @@
 
     initCalc();
     // Actualizar comparación si el VRD ya cargó
-    if (vrdData?.vrd_today) renderComparison(vrdData.vrd_today);
+    if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12);
     renderPrediction(prediction);
     renderNews(news);
   }
 
   function renderPrediction(pred) {
-    if (!pred) return;
+    if (!pred && pricesData?.history?.length >= 5) {
+      const hist = pricesData.history.slice(-14);
+      const n = hist.length;
+      const xs = hist.map((_, i) => i);
+      const linReg = (ys) => {
+        const mx = xs.reduce((a,b)=>a+b,0)/n, my = ys.reduce((a,b)=>a+b,0)/n;
+        const num = xs.reduce((s,x,i)=>s+(x-mx)*(ys[i]-my),0);
+        const den = xs.reduce((s,x)=>s+(x-mx)**2,0);
+        return my + (den ? num/den : 0) * n;
+      };
+      const last = hist[hist.length-1];
+      const buyTomorrow  = linReg(hist.map(h=>h.buy));
+      const sellTomorrow = linReg(hist.map(h=>h.sell));
+      const changeBuy  = buyTomorrow  - last.buy;
+      const changeSell = sellTomorrow - last.sell;
+      const trend = changeSell > 0.03 ? 'alza' : changeSell < -0.03 ? 'baja' : 'estable';
+      pred = { buyTomorrow, sellTomorrow, changeBuy, changeSell, trend, basedOnDays: n, confidence: 'Media' };
+    }
+    if (!pred) {
+      document.getElementById('predTrendBadge').textContent = '— Sin datos disponibles';
+      document.getElementById('predTrendBadge').className = 'pred-trend-badge estable';
+      document.getElementById('predBuy').textContent = '—';
+      document.getElementById('predSell').textContent = '—';
+      document.getElementById('predChangeBuy').textContent = '';
+      document.getElementById('predChangeSell').textContent = '';
+      document.getElementById('predDisclaimer').textContent = 'Se necesitan más días de datos para calcular la proyección.';
+      return;
+    }
     const fmt = v => parseFloat(v).toFixed(2);
     const sign = v => v > 0 ? '+' : '';
     document.getElementById('predBuy').textContent  = 'Bs ' + fmt(pred.buyTomorrow);
@@ -1281,7 +1296,7 @@
   }
   function updateHero() {
     if (!pricesData?.binance) return;
-    const price = heroMode==='buy' ? pricesData.binance.buy : pricesData.binance.sell;
+    const price = heroMode==='buy' ? pricesData.binance.sell : pricesData.binance.buy;
     const el = document.getElementById('heroBigPrice');
     el.textContent = 'Bs ' + price.toFixed(2);
     el.className = 'hero-big-price' + (heroMode==='sell' ? ' sell-mode' : '');
@@ -1444,8 +1459,8 @@
     const { vrd_today, vrd_min_today, vrd_max_today, n_trans_today, today, history } = vrdData;
 
     // Hero
-    document.getElementById('vrdPriceBig').textContent = 'Bs ' + (vrd_today||'—');
-    const oficialBuy = pricesData?.bcb?.officialBuy || 6.86;
+    const oficialBuy = pricesData?.bcb?.officialBuy || 12;
+    document.getElementById('vrdPriceBig').textContent = 'Bs ' + (oficialBuy || vrd_today||'—');
     document.getElementById('vrdMin').textContent = 'Bs ' + oficialBuy;
     document.getElementById('vrdMax').textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
     document.getElementById('vrdNTrans').textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
@@ -1457,8 +1472,8 @@
     if (label) label.textContent = 'act. ' + updTime.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
 
     // Comparación — si pricesData aún no cargó, reintenta en 1s
-    if (pricesData?.binance) renderComparison(vrd_today);
-    else setTimeout(() => { if (pricesData?.binance) renderComparison(vrd_today); }, 1200);
+    if (pricesData?.binance) renderComparison(oficialBuy);
+    else setTimeout(() => { if (pricesData?.binance) renderComparison(oficialBuy); }, 1200);
 
     // Gráfico
     renderVrdChart(vrdRange);
@@ -1466,12 +1481,12 @@
 
   function renderComparison(vrd) {
     if (!pricesData?.binance || !vrd) return;
-    // Usamos el precio de COMPRA de Binance P2P (lo que pagas para adquirir 1 USDT)
-    const usdt = pricesData.binance.buy;
+    // Precio de compra de USDT (lo que pagas para adquirir 1 USDT)
+    const usdt = pricesData.binance.sell;
     const diff = usdt - vrd;
     const pct  = ((diff / vrd) * 100).toFixed(2);
 
-    document.getElementById('comparePhysPrice').textContent = 'Bs ' + vrd.toFixed(4);
+    document.getElementById('comparePhysPrice').textContent = 'Bs ' + vrd.toFixed(2);
     document.getElementById('compareUsdtPrice').textContent = 'Bs ' + usdt.toFixed(2);
 
     const recBox   = document.getElementById('recBox');
@@ -1490,21 +1505,21 @@
       recBox.classList.add('green');
       recIcon.textContent = '🏦';
       recTitle.textContent = `Conviene el USD Físico — ${pct}% más barato`;
-      recDesc.textContent  = `El VRD BCB (Bs ${vrd.toFixed(4)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Si necesitas dólares físicos, los librecambistas ofrecen mejor precio hoy.`;
+      recDesc.textContent  = `El TCO BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Si necesitas dólares físicos, los librecambistas ofrecen mejor precio hoy.`;
       physCard.classList.add('winner');
     } else if (diff < -0.15) {
       // USDT más barato → conviene USDT
       recBox.classList.add('green');
       recIcon.textContent = '🔷';
       recTitle.textContent = `Conviene el USDT Digital — ${Math.abs(pct)}% más barato`;
-      recDesc.textContent  = `El USDT P2P (Bs ${usdt.toFixed(2)}) está Bs ${Math.abs(diff).toFixed(2)} por debajo del dólar físico (VRD Bs ${vrd.toFixed(4)}). El mercado P2P ofrece mejor tipo de cambio hoy.`;
+      recDesc.textContent  = `El USDT P2P (Bs ${usdt.toFixed(2)}) está Bs ${Math.abs(diff).toFixed(2)} por debajo del dólar físico (TCO Bs ${vrd.toFixed(2)}). El mercado P2P ofrece mejor tipo de cambio hoy.`;
       usdtCard.classList.add('winner');
     } else {
       // Precios similares
       recBox.classList.add('yellow');
       recIcon.textContent = '⚖️';
       recTitle.textContent = `Precios Similares — Diferencia de solo Bs ${Math.abs(diff).toFixed(2)}`;
-      recDesc.textContent  = `El USD físico (VRD Bs ${vrd.toFixed(4)}) y el USDT digital (Bs ${usdt.toFixed(2)}) tienen precios muy similares hoy. Elige según tu necesidad: dólares físicos para efectivo, USDT para pagos digitales e internacionales.`;
+      recDesc.textContent  = `El USD físico (TCO Bs ${vrd.toFixed(2)}) y el USDT digital (Bs ${usdt.toFixed(2)}) tienen precios muy similares hoy. Elige según tu necesidad: dólares físicos para efectivo, USDT para pagos digitales e internacionales.`;
     }
   }
 
