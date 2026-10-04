@@ -417,6 +417,83 @@
     @media (max-width:480px) { .vrd-chart-wrap { height:200px; } }
     /* ══ UTILS ══ */
     @media (max-width:600px) { .hide-mobile { display:none !important; } }
+
+    /* ══ SECTION ORDER ══ */
+    main { display:flex; flex-direction:column; }
+    #platforms  { order:1; }
+    #prediccion { order:2; }
+    #bancos     { order:3; }
+    #calculator { order:4; }
+    #alertStrip { order:5; }
+    #bcbvrd     { order:6; }
+    #limits     { order:7; }
+    #chart      { order:8; }
+    #noticias   { order:9; }
+
+    /* ══ MOBILE IMPROVEMENTS ══ */
+    @media (max-width:600px) {
+      /* General spacing */
+      main { padding:16px 12px 40px; }
+      .card { padding:16px; margin-bottom:16px; }
+
+      /* Hero */
+      .hero-section { padding:24px 16px 32px; }
+      .hero-toggle-btn { padding:11px 16px; font-size:15px; }
+      .hero-big-price { font-size: clamp(44px, 14vw, 72px); }
+      .rates-card { border-radius:12px; }
+      .rate-box-val { font-size:26px; }
+
+      /* Platforms */
+      .plat-big-price-val { font-size:28px; }
+      .plat-big-btns { flex-direction:column; }
+      .plat-big-btn-main, .plat-big-btn-sec { flex:unset; }
+
+      /* Predicción */
+      .pred-card { padding:20px 16px; gap:20px; }
+      .pred-rate-val { font-size:24px; }
+
+      /* Bancos */
+      .banks-toggle { gap:8px; }
+      .banks-toggle-btn { padding:10px 14px; font-size:13px; flex:1; text-align:center; }
+      .banks-table td, .banks-table th { padding:10px 8px; }
+
+      /* Calculator */
+      .calc-input { font-size:18px; }
+      .calc-quick-btn { padding:12px 4px; font-size:15px; }
+      .calc-convert-btn { padding:16px; font-size:16px; }
+
+      /* BCB VRD */
+      .bcb-vrd-hero { padding:20px 16px; }
+      .bcb-vrd-price-big { font-size:clamp(40px,12vw,60px); }
+      .bcb-vrd-stats { grid-template-columns:1fr 1fr; }
+      .compare-card-price { font-size:28px; }
+      .compare-card { padding:14px; }
+
+      /* Limits */
+      .limits-section { padding:20px 14px; border-radius:14px; }
+      .limits-filters { gap:6px; }
+      .limits-filter-btn { padding:8px 14px; font-size:12px; }
+
+      /* Chart */
+      .chart-stats { gap:10px; }
+      .chart-stat-value { font-size:13px; }
+      .chart-tabs { gap:3px; }
+      .chart-tab { padding:5px 9px; font-size:11px; }
+
+      /* News */
+      .news-grid { grid-template-columns:1fr; }
+
+      /* Section title */
+      .section-title { font-size:14px; }
+
+      /* Footer */
+      .footer-bcb { flex-direction:column; gap:10px; }
+    }
+
+    @media (max-width:400px) {
+      .hero-big-price { font-size:38px; }
+      .rates-card-header { flex-direction:column; gap:4px; align-items:flex-start; }
+    }
   </style>
 </head>
 <body>
@@ -439,12 +516,12 @@
     </a>
     <nav>
       <a href="#cotizacion">Tipo de Cambio</a>
-      <a href="#calculator">Calculadora</a>
       <a href="#platforms">P2P</a>
-      <a href="#bcbvrd">BCB / VRD</a>
-      <a href="#bancos">Bancos</a>
-      <a href="#chart">Gráfica</a>
       <a href="#prediccion">Predicción</a>
+      <a href="#bancos">Bancos</a>
+      <a href="#calculator">Calculadora</a>
+      <a href="#bcbvrd">BCB / VRD</a>
+      <a href="#chart">Gráfica</a>
       <a href="#noticias">Noticias</a>
     </nav>
     <div class="header-date" id="headerDate">—</div>
@@ -458,13 +535,13 @@
 <div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)">
   <div class="mobile-nav-inner">
     <a href="#cotizacion" onclick="closeMobileNav()">💱 Tipo de Cambio</a>
-    <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
-    <a href="#platforms"  onclick="closeMobileNav()">🏦 Plataformas P2P</a>
-    <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
+    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas P2P</a>
+    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
     <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparador Bancos</a>
+    <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
+    <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
     <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
     <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
-    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
     <a href="#noticias"   onclick="closeMobileNav()">📰 Noticias</a>
   </div>
 </div>
@@ -669,7 +746,7 @@
     </div>
   </div>
 
-  <div class="alert-strip">
+  <div id="alertStrip" class="alert-strip">
     ℹ️ Los precios son referenciales del mercado P2P (Binance) No constituyen asesoramiento financiero.
   </div>
 
