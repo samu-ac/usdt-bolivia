@@ -1199,8 +1199,7 @@
       document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
     }
     if (bcb) {
-      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.referentialSell || bcb.tco || '—');
-      document.getElementById('heroCardBcbSell').textContent = 'Bs ' + (bcb.referentialBuy  || bcb.tco || '—');
+      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.officialBuy || bcb.tco || '—');
     }
     const now = new Date();
     document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
@@ -1252,9 +1251,9 @@
       document.getElementById('bcbRefSell').textContent       = (bcb.referentialBuy  || '—') + ' Bs';
       document.getElementById('bcbDate').textContent = 'Cotización: '+(displayDate||'')+' · Fuente: Banco Central de Bolivia';
       document.getElementById('footerBcbBuy').textContent     = bcb.officialBuy    + ' Bs';
-      document.getElementById('footerBcbSell').textContent    = bcb.officialSell   + ' Bs';
-      document.getElementById('footerBcbRefBuy').textContent  = (bcb.referentialSell || '—') + ' Bs';
-      document.getElementById('footerBcbRefSell').textContent = (bcb.referentialBuy  || '—') + ' Bs';
+      const _fBcbSell = document.getElementById('footerBcbSell'); if (_fBcbSell) _fBcbSell.textContent = bcb.officialSell + ' Bs';
+      const _fBcbRB = document.getElementById('footerBcbRefBuy'); if (_fBcbRB) _fBcbRB.textContent = (bcb.referentialSell || '—') + ' Bs';
+      const _fBcbRS = document.getElementById('footerBcbRefSell'); if (_fBcbRS) _fBcbRS.textContent = (bcb.referentialBuy  || '—') + ' Bs';
       document.getElementById('footerBcbDate').innerHTML = (displayDate||'')+'<br>Fuente: Banco Central de Bolivia';
     }
 
@@ -1564,8 +1563,8 @@
     const oficialBuy = pricesData?.bcb?.officialBuy || 12;
     document.getElementById('vrdPriceBig').textContent = 'Bs ' + (oficialBuy || vrd_today||'—');
     document.getElementById('vrdMin').textContent = 'Bs ' + oficialBuy;
-    document.getElementById('vrdMax').textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
-    document.getElementById('vrdNTrans').textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
+    const _vMax = document.getElementById('vrdMax'); if (_vMax) _vMax.textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
+    const _vNT = document.getElementById('vrdNTrans'); if (_vNT) _vNT.textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
     const d = today ? new Date(today + 'T12:00:00') : new Date();
     const meses = ['enero','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
     document.getElementById('vrdDate').textContent = `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()} · Días hábiles bancarios`;
