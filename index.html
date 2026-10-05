@@ -836,7 +836,12 @@
   <!-- COMPARADOR BANCOS -->
   <div id="bancos" class="card" style="margin-top:22px">
     <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:16px">Pizarras publicadas por cada banco en su web oficial · Actualizado cada hora</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:10px">Pizarras publicadas por cada banco en su web oficial · Actualizado cada hora</div>
+    <div id="banksRangeStrip" style="display:none;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:14px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+      <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">Rango venta hoy</span><br><span id="banksRangeVal" style="font-size:20px;font-weight:900;color:var(--navy)">—</span></div>
+      <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">BCB Oficial</span><br><span id="banksBcbRef" style="font-size:20px;font-weight:900;color:var(--text)">—</span></div>
+      <div style="margin-left:auto;font-size:12px;color:var(--text3)" id="banksCount">— bancos con dato</div>
+    </div>
     <div class="banks-toggle">
       <button class="banks-toggle-btn active" id="banksBtnBuy" onclick="setBanksMode('buy')">🛒 Quiero comprar dólares</button>
       <button class="banks-toggle-btn" id="banksBtnSell" onclick="setBanksMode('sell')">💰 Quiero vender dólares</button>
@@ -850,6 +855,7 @@
             <th>Banco</th>
             <th>Compra</th>
             <th>Venta</th>
+            <th class="hide-mobile">Vs BCB</th>
           </tr>
         </thead>
         <tbody id="banksTableBody">
@@ -1385,16 +1391,25 @@
   function renderBanksTable(banks) {
     if (!banks || !banks.length) return;
     const isSell = banksMode === 'sell';
+    const bcbOfficial = pricesData?.bcb?.officialBuy || pricesData?.bcb?.officialSell || 12;
     const sorted = [...banks].sort((a, b) => {
-      if (isSell) {
-        // Mejor para vender = mayor compra
-        return (b.buy || 0) - (a.buy || 0);
-      } else {
-        // Mejor para comprar = menor venta
-        const av = a.sell || 999, bv = b.sell || 999;
-        return av - bv;
-      }
+      if (isSell) return (b.buy || 0) - (a.buy || 0);
+      else { const av = a.sell || 999, bv = b.sell || 999; return av - bv; }
     });
+
+    // Rango resumen
+    const sellRates = banks.map(b => b.sell).filter(v => v != null);
+    if (sellRates.length) {
+      const minSell = Math.min(...sellRates), maxSell = Math.max(...sellRates);
+      const rangeStr = minSell === maxSell ? `Bs ${minSell.toFixed(2)}` : `Bs ${minSell.toFixed(2)} – ${maxSell.toFixed(2)}`;
+      const strip = document.getElementById('banksRangeStrip');
+      if (strip) { strip.style.display = 'flex'; document.getElementById('banksRangeVal').textContent = rangeStr; }
+      const bcbEl = document.getElementById('banksBcbRef');
+      if (bcbEl) bcbEl.textContent = `Bs ${bcbOfficial.toFixed(2)}`;
+      const cntEl = document.getElementById('banksCount');
+      if (cntEl) cntEl.textContent = `${sellRates.length} bancos con dato`;
+    }
+
     const medals = ['🥇','🥈','🥉'];
     const rows = sorted.map((b, i) => {
       const rank = medals[i] || `${i+1}`;
@@ -1403,11 +1418,20 @@
       const sellStr = b.sell != null ? `Bs ${b.sell.toFixed(2)}` : '<span class="bank-no-data">No publica</span>';
       const highlightBuy  = isSell && b.buy  != null;
       const highlightSell = !isSell && b.sell != null;
+      // VS BCB: diferencia de venta vs oficial
+      let vsBcb = '—';
+      if (b.sell != null) {
+        const diff = b.sell - bcbOfficial;
+        const sign = diff >= 0 ? '+' : '';
+        const col  = diff > 0.1 ? 'color:var(--red)' : diff < -0.1 ? 'color:var(--green)' : 'color:var(--text3)';
+        vsBcb = `<span style="${col};font-weight:700">${sign}${diff.toFixed(2)}</span>`;
+      }
       return `<tr>
         <td class="bank-rank">${rank}</td>
         <td class="bank-name">${b.name}${isFirst ? '<br><span class="bank-badge-best">Mejor hoy</span>' : ''}</td>
         <td class="${highlightBuy  ? 'bank-rate-best' : 'bank-rate-other'}">${buyStr}</td>
         <td class="${highlightSell ? 'bank-rate-best' : 'bank-rate-other'}">${sellStr}</td>
+        <td class="hide-mobile" style="font-size:13px;vertical-align:middle">${vsBcb}</td>
       </tr>`;
     }).join('');
     document.getElementById('banksTableBody').innerHTML = rows;
@@ -1422,11 +1446,18 @@
       const otherLabel = isSell ? 'Venta'  : 'Compra';
       const mainStr  = mainRate  != null ? `Bs ${mainRate.toFixed(2)}`  : '—';
       const otherStr = otherRate != null ? `Bs ${otherRate.toFixed(2)}` : '—';
+      let vsBcbMob = '';
+      if (b.sell != null) {
+        const diff = b.sell - bcbOfficial;
+        const sign = diff >= 0 ? '+' : '';
+        const col = diff > 0.1 ? '#d32f2f' : '#4a5573';
+        vsBcbMob = ` · <span style="color:${col};font-weight:700">Vs BCB ${sign}${diff.toFixed(2)}</span>`;
+      }
       return `<div class="bank-mob-card">
         <div class="bank-mob-rank">${rank}</div>
         <div class="bank-mob-info">
           <div class="bank-mob-name">${b.name}${isFirst ? '<span class="bank-mob-badge">Mejor</span>' : ''}</div>
-          <div class="bank-mob-sub">${otherLabel}: ${otherStr}</div>
+          <div class="bank-mob-sub">${otherLabel}: ${otherStr}${vsBcbMob}</div>
         </div>
         <div class="bank-mob-rate">
           <div class="bank-mob-rate-main${isFirst ? ' best' : ''}">${mainStr}</div>

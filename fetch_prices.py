@@ -214,10 +214,10 @@ print("\n2b. Bancos pizarras...")
 d_bancos = api_get("/v1/bancos")
 banks_data = []
 # IDs de los 9 bancos que queremos mostrar (en orden de presentación)
-BANCOS_TARGET = ["fie","bcp","bnb","bisa","economico","union","mercantil","bancosol","ganadero"]
+BANCOS_TARGET = ["fie","bcp","bnb","fortaleza","bisa","economico","union","mercantil","bancosol","ganadero"]
 BANCOS_NOMBRE = {
-    "fie": "Banco FIE", "bcp": "BCP", "bnb": "BNB", "bisa": "Banco Bisa",
-    "economico": "Banco Económico", "union": "Banco Unión",
+    "fie": "Banco FIE", "bcp": "BCP", "bnb": "BNB", "fortaleza": "Banco Fortaleza",
+    "bisa": "Banco Bisa", "economico": "Banco Económico", "union": "Banco Unión",
     "mercantil": "Mercantil Santa Cruz", "bancosol": "BancoSol",
     "ganadero": "Banco Ganadero",
 }
