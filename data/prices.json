@@ -1,68 +1,224 @@
 {
-  "lastUpdated": "2026-10-03T04:04:50Z",
-  "displayDate": "sabado 3 de octubre, 2026",
+  "lastUpdated": "2026-10-05T04:29:21Z",
+  "displayDate": "lunes 5 de octubre, 2026",
   "binance": {
-    "buy": 11.94,
-    "sell": 12.0,
+    "buy": 11.97,
+    "sell": 12.02,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.02,
-    "sell": 11.89,
+    "sell": 11.94,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.23,
-    "sell": 11.83,
+    "buy": 12.25,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.15,
-    "sell": 11.8,
+    "buy": 12.18,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.19,
-    "sell": 11.67,
+    "buy": 12.23,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.97,
-    "sell": 11.94,
+    "buy": 12.0,
+    "sell": 11.99,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.06,
-    "sell": 11.72,
+    "buy": 12.14,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.0,
     "officialSell": 12.0,
-    "referentialBuy": 11.94,
-    "referentialSell": 12.0,
+    "referentialBuy": 11.97,
+    "referentialSell": 12.02,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
   "banks": [
-    {"name": "Banco FIE",            "buy": 11.50, "sell": 12.00},
-    {"name": "BCP",                  "buy": 11.50, "sell": 12.30},
-    {"name": "BNB",                  "buy": 11.50, "sell": 12.30},
-    {"name": "Banco Fortaleza",      "buy": 11.70, "sell": 12.30},
-    {"name": "Banco Bisa",           "buy": 11.30, "sell": 12.30},
-    {"name": "Banco Económico",      "buy": 11.30, "sell": 12.35},
-    {"name": "Banco Unión",          "buy": 11.00, "sell": 12.30},
-    {"name": "Mercantil Santa Cruz", "buy": 10.90, "sell": 12.30},
-    {"name": "BancoSol",             "buy": 10.80, "sell": 12.30},
-    {"name": "Banco Ganadero",       "buy": null,  "sell": 12.30}
+    {
+      "name": "Banco Fortaleza",
+      "buy": 11.7,
+      "sell": 12.3
+    },
+    {
+      "name": "Banco FIE",
+      "buy": 11.5,
+      "sell": 12.0
+    },
+    {
+      "name": "BCP",
+      "buy": 11.5,
+      "sell": 12.3
+    },
+    {
+      "name": "BNB",
+      "buy": 11.5,
+      "sell": 12.3
+    },
+    {
+      "name": "Banco Bisa",
+      "buy": 11.3,
+      "sell": 12.3
+    },
+    {
+      "name": "Banco Económico",
+      "buy": 11.3,
+      "sell": 12.35
+    },
+    {
+      "name": "Banco Unión",
+      "buy": 11.0,
+      "sell": 12.3
+    },
+    {
+      "name": "Mercantil Santa Cruz",
+      "buy": 10.9,
+      "sell": 12.3
+    },
+    {
+      "name": "BancoSol",
+      "buy": 10.8,
+      "sell": 12.3
+    },
+    {
+      "name": "Banco Ganadero",
+      "buy": null,
+      "sell": 12.3
+    }
   ],
+  "news": [
+    {
+      "source": "El Deber",
+      "title": "El ex fiscal general Róger Mariaca es trasladado al penal de Cantumarca, en Potosí",
+      "desc": "Mariaca enfrenta dos procesos y debe cumplir seis meses de detención preventiva, mientras continúan las investigaciones por presunta legitimación de ganancias ilícitas, organización criminal y tráfico…",
+      "link": "https://eldeber.com.bo/pais/ex-fiscal-general-roger-mariaca-trasladado-penal-cantumarca-potosi_1791169724",
+      "date": "2026-10-05T03:08:44Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Canciller Héctor Huanca viajará a Chile a reunirse con su par Francisco Pérez",
+      "desc": "Uno de los puntos de la agenda entre ambos cancilleres será el tema de la retención del cargamento de maderas de empresarios bolivianos en puertos de Arica",
+      "link": "https://eldeber.com.bo/pais/canciller-hector-huanca-viajara-chile-reunirse-par-francisco-perez_1791168296",
+      "date": "2026-10-05T02:44:56Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "YPFB continuará con bloqueo de placas por cargas repetitivas de gasolina y diésel",
+      "desc": "La estatal coordinará con la ANH, municipios y el RUAT para identificar vehículos que carguen de manera reiterada y evitar que el carburante subvencionado termine en el mercado ilegal.",
+      "link": "https://eldeber.com.bo/economia/ypfb-continuara-bloqueo-placas-cargas-repetitivas-gasolina-diesel_1791166718",
+      "date": "2026-10-05T02:18:38Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "“Mi vida está en manos del Órgano Judicial”: Mariaca alerta por su seguridad en la cárcel de Cantumarca",
+      "desc": "El ex fiscal general recordó que investigó casos cuyos acusados hoy están detenidos en el mismo penal al que fue enviado por seis meses.",
+      "link": "https://eldeber.com.bo/la-paz/vida-esta-manos-organo-judicial-mariaca-alerta-seguridad-carcel-cantumarca_1791157978",
+      "date": "2026-10-04T23:52:58Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Del Mérito Municipal a Cantumarca: Mariaca fue reconocido por su aporte a la Justicia y 10 días después terminó preso",
+      "desc": "El 23 de septiembre, el Concejo Municipal de Santa Cruz distinguió a Róger Mariaca con el Mérito Municipal en la categoría Profesional y el alcalde también le entregó un segundo reconocimiento. Diez d…",
+      "link": "https://eldeber.com.bo/santa-cruz/merito-municipal-cantumarca-mariaca-fue-reconocido-aporte-justicia-10-dias-despues-termino-preso_1791130108",
+      "date": "2026-10-04T16:08:28Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "Dólar, créditos y liquidez: ¿qué implican los nuevos cambios para la economía boliviana? - Red Uno",
+      "desc": "Dólar, créditos y liquidez: ¿qué implican los nuevos cambios para la economía boliviana?&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdDdJcVUxLTU5YzZmNE5CeEp6enpVZEd3SWJxc3NqQzNfOWc5LTg1azlzNF8yNlVLakhyTEFGNEZGOTE0MXBCdHpLbW9iR1B5SUU3VjNTY3FsRDJhd0NCc1N3TFJXaW1Qbk9kM001ODJIcG5pcUYxX1BVQkM4RkdZaU00Vk9Oa1NfSkg0OUNaVW9ZZXRKdkFQN0NpU3RuNmQyREctWGVzS0hqZV85RGt0TWFacnQxZGpmaFh2dEE3azBQMHhiU3ZqQkZjUTA?oc=5",
+      "date": "2026-09-28T17:59:05Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - criptonoticias.com",
+      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;criptonoticias.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
+      "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - thecoinrepublic.com",
+      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;thecoinrepublic.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
+      "date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "💰 Así se encuentra el precio del dólar este sábado 25 de julio https://mile.io/4fnqgBm - facebook.com",
+      "desc": "💰 Así se encuentra el precio del dólar este sábado 25 de julio https://mile.io/4fnqgBm&nbsp;&nbsp;facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSEJoeV95dGVnNi1uWDNuMEQ0ZGJfblhDSGlRMlZKanVUbGhoZ283RHNYaWZ0NVpxRmR1ZjFHa3g4VklUakgxSzhNMlRmSzVCMEFaR3RVSUNTNS1wV01EcWVrSnlXZldBOXBoOWZvelNvMjh1d3hEeS1ZdUZFZzNROWJ3YXRmYWJSX3lQQXM0OEpFQnhSZEpKNzI1N2d1M29kZjdwNEFnODRoOERHT0x3RDgySmZETDAxd1pFQ01nT3lhTXRVZ3A5RkVkYzJBSC1ETDI0cUdn?oc=5",
+      "date": "2026-07-25T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local - elpais.com",
+      "desc": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local&nbsp;&nbsp;elpais.com",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTy1XNTBIWndrUmpWdl9KTzJfaFJOX2tOZFpVeTd6bHBBYmgwUnN4bGl2MkNMU0hHbElfZlJLQW9PdlloOWczMU14U0UwOG54ZWwyc3czNFliNWhyQWZQcTJXRzFhcEE4UnRzM3l0ckdhV0tqa0ZlLTcxeVh3amF6QnE5NVhrdjBxMEUwYktpZ1dkaUNILUVvbXhlNTVENTRwNmMzblpWS2g3MkpYRVo1WVY3SzVYWTRsaW9vMU1DeWEteFVMX05GamVXMDN1d9IB4gFBVV95cUxOb0JfZ0hIM3NrV3JhNFlMZDBGSGtUd0hXZ3VVTXU0YmwwdlhRYUhPdEdtenJfOTdMRHY3R3BjMWRCNEVUTHFURGZ6SW56SDVZdVZCd2EtN0JodzBKTXk5MTF2VXc1WjBSRnd5RGl2a1l1aDBETXN5R3dCTUVwbm5fVTJnSEZ2ZUpicVRLZlYxMXFNTWFhakxuZHNKZGNpUHBSdUxISVJjNm5zODBROEpFWU45VDJ0M2VsYlVrZ1Ftcm1uTTBRSElHMUUya2NqQU9MX0JFMEM4dnhLU01Pck13Rk9n?oc=5",
+      "date": "2026-07-20T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "Expertos sugieren acompañar tipo de cambio flexible con más respaldo financiero en Bolivia - Yahoo Finanzas",
+      "desc": "Expertos sugieren acompañar tipo de cambio flexible con más respaldo financiero en Bolivia&nbsp;&nbsp;Yahoo Finanzas",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTEpHUnFTSmJBUFpQcDU3NHg5SHFZVVU4MWpObmVRbU9MWC04cXQ4X1pENU5sczUwY3ZLLVprRHFHUUVjc2xQT2tBU3JjZjlnWGJ6UU5zanFKZklQMU0tODdBX2RkUENyM002dVJSU0NEalhLa3VSV0ZIX2o1SFkxUVRrb0Q0REhqbk5WMHl6R1U1bW93d0dBNHhBN3dyNjQ?oc=5",
+      "date": "2026-07-10T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Gobierno analiza incluir criptomoneda USDT como forma de pago en el país - larazon.bo",
+      "desc": "Gobierno analiza incluir criptomoneda USDT como forma de pago en el país&nbsp;&nbsp;larazon.bo",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXY0OEw5dkxUQm10MUhfb3hBN0RuQnp1YmdYVFR4VE9PVW9OOWdWeno3b3pSZEVJdGpYeVBWQ1dXOXRLOWxaRlN0WUVnOHdtUGt6QVBhV2NzZk53SXlNeHdvYTRXNkJTOUdNejAtLTlxVGdfM1J1LXl3Vk1LajJBcUlmbnB3RGZiUmVmMEp4XzAwTmlvRi1kVWpUcGpwdDd4di1GSVg3VUFQRFVnLXVvVjFzNHhSMXlPSG1KTGt0NA?oc=5",
+      "date": "2026-07-10T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "Bolivia adopta un Régimen de Tipo de Cambio Flexible - Dentons",
+      "desc": "Bolivia adopta un Régimen de Tipo de Cambio Flexible&nbsp;&nbsp;Dentons",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMkpTd0ZpbFVNSDhsX1FsSmNjX0sxb19PM2NTTGhuT3ZPUm5veEJGUlBSWWdfUGxVM2I3OXd3OGdta1FuUy1Ec3RIZEUxMHZyRGNISXdLVWVXMUZEdjlIVk1iWFFRWjNTaThvQ0JMYXlqMFRmOXVOdjMzTWNqYV9nV1pFTHpwdzM0V0Zzc1NOdktSMWU2djk4eTBnV1Jicm91YVhJ?oc=5",
+      "date": "2026-07-01T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Bolivia se desprende del dólar estadounidense, Bitcoin se impone como alternativa - Cointribune",
+      "desc": "Bolivia se desprende del dólar estadounidense, Bitcoin se impone como alternativa&nbsp;&nbsp;Cointribune",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEpGVDhnenJUSjI2Ukwzb0Uwb3VUMTBtNU1zNkRuWEEzRkllR2oxdHhZWURMa2p5ME83LVFBUTBJNEtyeG92Q3dEckNwaHFFSWFCdGVtZ1hDOTk0b0Npem5EUE9VZGZXcWdUUkRveVZBcDJ1MDgyNUpJV3dxYlZidlZQQUwwY2FJMWFGYmFlc3JkVEJPTnV5QmFSdGpiVTdjd3l1SjhaQ2RodGM?oc=5",
+      "date": "2026-06-30T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia? - France 24",
+      "desc": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia?&nbsp;&nbsp;France 24",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTd3UFJaY1psUVVYdUlPRUtDX2dXckFEUFRIRFo5S3JZWWNBc3AxTmdid2ZlMXdsSUZpRDNYMHg4ZXIta0g3Y1Y2RkZpdDBhYWUtOXdmNG12OW43VThJNGo3X05oMl9HZzZwbnlxaWRNMEhSQVM3ZFhmY3NiSDNZOWdvQlh5X0ZSSDZtQ0hqVHFOaFZDUFhyeWd0N01JWlpFMS1pVkwwMW5MSzlGbWNRLV9xZmlwNHM?oc=5",
+      "date": "2026-06-29T07:00:00Z"
+    }
+  ],
+  "prediction": {
+    "buyTomorrow": 11.96,
+    "sellTomorrow": 12.02,
+    "changeBuy": -0.01,
+    "changeSell": 0.0,
+    "trend": "estable",
+    "confidence": "alta",
+    "basedOnDays": 7
+  },
   "history": [
     {
       "date": "2024-07-21",
@@ -3958,6 +4114,11 @@
       "date": "2026-10-03",
       "buy": 11.94,
       "sell": 12.0
+    },
+    {
+      "date": "2026-10-05",
+      "buy": 11.97,
+      "sell": 12.02
     }
   ]
 }

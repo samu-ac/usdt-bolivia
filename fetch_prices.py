@@ -326,10 +326,10 @@ NEWS_KEYWORDS = [
 ]
 
 RSS_SOURCES = [
-    {"name": "Los Tiempos",  "url": "https://www.lostiempos.com/rss.xml"},
-    {"name": "Página Siete", "url": "https://www.paginasiete.bo/rss"},
-    {"name": "El Deber",     "url": "https://eldeber.com.bo/rss.xml"},
-    {"name": "Urgente Bo",   "url": "https://urgente.bo/feed"},
+    {"name": "El Deber",      "url": "https://eldeber.com.bo/feed"},
+    {"name": "Página Siete",  "url": "https://www.paginasiete.bo/feed"},
+    {"name": "Google Noticias Bolivia", "url": "https://news.google.com/rss/search?q=economia+bolivia+dolar+tipo+cambio&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "Google Noticias USDT Bolivia", "url": "https://news.google.com/rss/search?q=USDT+Bolivia+criptomonedas&hl=es-419&gl=BO&ceid=BO:es-419"},
 ]
 
 def strip_html(txt):
