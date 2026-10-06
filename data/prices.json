@@ -1,61 +1,61 @@
 {
-  "lastUpdated": "2026-10-06T05:11:40Z",
+  "lastUpdated": "2026-10-06T17:36:46Z",
   "displayDate": "martes 6 de octubre, 2026",
   "binance": {
-    "buy": 11.93,
-    "sell": 12.0,
+    "buy": 11.87,
+    "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.01,
-    "sell": 11.91,
+    "buy": 11.95,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.23,
-    "sell": 11.83,
+    "buy": 12.15,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.15,
-    "sell": 11.8,
+    "buy": 12.08,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.21,
-    "sell": 11.69,
+    "buy": 12.11,
+    "sell": 11.59,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.97,
-    "sell": 11.95,
+    "buy": 11.9,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.11,
-    "sell": 11.85,
+    "buy": 12.0,
+    "sell": 11.66,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.97,
     "officialSell": 11.97,
-    "referentialBuy": 11.93,
-    "referentialSell": 12.0,
+    "referentialBuy": 11.87,
+    "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.7,
-      "sell": 12.3
+      "buy": 11.67,
+      "sell": 12.27
     },
     {
       "name": "BCP",
@@ -80,7 +80,7 @@
     {
       "name": "Banco FIE",
       "buy": 11.07,
-      "sell": 11.97
+      "sell": 12.17
     },
     {
       "name": "Banco Unión",
@@ -94,8 +94,8 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.8,
-      "sell": 12.3
+      "buy": 10.77,
+      "sell": 12.27
     },
     {
       "name": "Banco Ganadero",
@@ -106,45 +106,31 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "Urgen a Lara llamar a comisión mixta e iniciar selección del nuevo fiscal general",
-      "desc": "Róger Mariaca fue designado en un proceso que duró dos meses, aproximadamente. Pero en este caso, en noviembre debe haber cambio de directiva y presidentes de comisiones en el parlamento",
-      "link": "https://eldeber.com.bo/pais/urgen-lara-llamar-comision-mixta-iniciar-seleccion-nuevo-fiscal-general_1791255525",
-      "date": "2026-10-06T02:58:45Z"
+      "title": "Hallan una caja fuerte con una suma alta de dinero tras el allanamiento en la casa del exfiscal Mariaca",
+      "desc": "La comisión de fiscales, policías y un notario participan del operativo de allanamiento en el condominio que habitaba el exfiscal Mariaca, que hoy se encuentra detenido en Cantumarca (Potosí)",
+      "link": "https://eldeber.com.bo/santa-cruz/hallan-caja-fuerte-suma-alta-dinero-allanamiento-casa-exfiscal-mariaca_1791306110",
+      "date": "2026-10-06T17:01:50Z"
     },
     {
       "source": "El Deber",
-      "title": "Urioste pide a abogados \"no tener miedo\" y sumarse a la transformación de la Justicia",
-      "desc": "El fiscal general interino adelantó que se postulará cuando salga la convocatoria y esperará el voto de confianza de los legisladores que lo designaron en este cargo",
-      "link": "https://eldeber.com.bo/pais/urioste-pide-abogados-no-tener-miedo-sumarse-transformacion-justicia_1791251381",
-      "date": "2026-10-06T01:49:41Z"
+      "title": "¿Qué hacer con las decenas de toneladas de sargazo que invaden las playas mexicanas del Caribe?",
+      "desc": "Bajo el sol tropical, cuando el sargazo se pudre y emite gases tóxicos para la salud humana, asfixia la vida marina y ahuyenta el turismo. Este fenómeno natural que crece con los años pone en alerta a…",
+      "link": "https://eldeber.com.bo/rfi/-que-hacer-con-las-decenas-de-toneladas-de-sargazo-que-invaden-las-playas-mexicanas-del-caribe--202610613955",
+      "date": "2026-10-06T16:09:55Z"
     },
     {
       "source": "El Deber",
-      "title": "Lula y Bolsonaro inician los contactos para ampliar los apoyos de cara a la segunda vuelta",
-      "desc": "Bolsonaro obtuvo un 47,03 % de los votos y Lula un 45,16 %, un resultado que estuvo acompañado de un fuerte crecimiento del Partido Liberal (PL), formación del candidato opositor, en el Congreso Nacio…",
-      "link": "https://eldeber.com.bo/mundo/lula-bolsonaro-inician-contactos-ampliar-apoyos-cara-segunda-vuelta_1791247207",
-      "date": "2026-10-06T00:40:07Z"
+      "title": "Tuto anuncia juicio contra Evo y García Linera por el caso Hotel Las Américas",
+      "desc": "Libre alista una proposición acusatoria que prevé presentar esta semana. Quiroga sostiene que el nuevo fiscal debe activar el caso, mientras el expediente por el operativo de 2009 ya se encuentra ante…",
+      "link": "https://eldeber.com.bo/pais/tuto-anuncia-juicio-evo-garcia-linera-caso-hotel-americas_1791302548",
+      "date": "2026-10-06T16:02:28Z"
     },
     {
       "source": "El Deber",
-      "title": "Urioste: Tengo 30 años de experiencia en el ejercicio de la profesión y no lo voy a embarrar por 90 días",
-      "desc": "La nueva autoridad dijo que desde mañana ejercerá su cargo desde Sucre y se prevé la posesión de nuevos fiscales departamentales",
-      "link": "https://eldeber.com.bo/pais/urioste-tengo-30-anos-experiencia-ejercicio-profesion-no-voy-embarrar-90-dias_1791243911",
-      "date": "2026-10-05T23:45:11Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El vicepresidente felicita al nuevo fiscal General del Estado, José Armando Urioste",
-      "desc": "El vicepresidente Edmand Lara, al volver de España, anunció que no iba a posesionar a Urioste sin asesorarse o cerciorarse de la legalidad de su designación en la Asamblea Legislativa. Horas después c…",
-      "link": "https://eldeber.com.bo/pais/vicepresidente-felicita-nuevo-fiscal-general-estado-jose-armando-urioste_1791243910",
-      "date": "2026-10-05T23:45:10Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Procuraduría detecta irregularidades en proyecto de YLB por más de $us 24 millones",
-      "desc": "Un informe elaborado junto con Yacimientos de Litio Bolivianos identificó anomalías en el proceso de contratación, entre ellas cambios en criterios de evaluación, puntajes sin respaldo y falta de cert…",
-      "link": "https://eldeber.com.bo/economia/procuraduria-detecta-irregularidades-proyecto-ylb-us-24-millones_1791242502",
-      "date": "2026-10-05T23:21:42Z"
+      "title": "Cisterneros confirman demoras en descarga de gasolina y reportan mayor movimiento de cisternas",
+      "desc": "Sergio Kosky, presidente de la Federación de Cisterneros de Bolivia, afirmó que el transporte desde Argentina, Paraguay y la ruta del Pacífico continúa operando. El sector negocia además una revisión …",
+      "link": "https://eldeber.com.bo/economia/cisterneros-confirman-demoras-descarga-gasolina-reportan-mayor-movimiento-cisternas_1791300077",
+      "date": "2026-10-06T15:21:17Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -157,13 +143,13 @@
       "source": "Google Noticias USDT Bolivia",
       "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
       "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj?oc=5",
       "date": "2026-08-24T07:00:00Z"
     },
     {
       "source": "Google Noticias Bolivia",
-      "title": "💰 Así se encuentra el precio del dólar este sábado 25 de julio https://mile.io/4fnqgBm - facebook.com",
-      "desc": "💰 Así se encuentra el precio del dólar este sábado 25 de julio https://mile.io/4fnqgBm&nbsp;&nbsp;facebook.com",
+      "title": "💰 Así se encuentra el precio del dólar este sábado 25 de julio https://mile.io/4fnqgBm - Facebook",
+      "desc": "💰 Así se encuentra el precio del dólar este sábado 25 de julio https://mile.io/4fnqgBm&nbsp;&nbsp;Facebook",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSEJoeV95dGVnNi1uWDNuMEQ0ZGJfblhDSGlRMlZKanVUbGhoZ283RHNYaWZ0NVpxRmR1ZjFHa3g4VklUakgxSzhNMlRmSzVCMEFaR3RVSUNTNS1wV01EcWVrSnlXZldBOXBoOWZvelNvMjh1d3hEeS1ZdUZFZzNROWJ3YXRmYWJSX3lQQXM0OEpFQnhSZEpKNzI1N2d1M29kZjdwNEFnODRoOERHT0x3RDgySmZETDAxd1pFQ01nT3lhTXRVZ3A5RkVkYzJBSC1ETDI0cUdn?oc=5",
       "date": "2026-07-25T07:00:00Z"
     },
@@ -208,14 +194,28 @@
       "desc": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia?&nbsp;&nbsp;France 24",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTd3UFJaY1psUVVYdUlPRUtDX2dXckFEUFRIRFo5S3JZWWNBc3AxTmdid2ZlMXdsSUZpRDNYMHg4ZXIta0g3Y1Y2RkZpdDBhYWUtOXdmNG12OW43VThJNGo3X05oMl9HZzZwbnlxaWRNMEhSQVM3ZFhmY3NiSDNZOWdvQlh5X0ZSSDZtQ0hqVHFOaFZDUFhyeWd0N01JWlpFMS1pVkwwMW5MSzlGbWNRLV9xZmlwNHM?oc=5",
       "date": "2026-06-29T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "USDT es un 35% más caro que el dólar en Bolivia, ¿a qué se debe? - CriptoNoticias",
+      "desc": "USDT es un 35% más caro que el dólar en Bolivia, ¿a qué se debe?&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFZ0bm1LNW8zS0dxSEFWMm9oN2NQby13N2hsV0pObmc4T0JSeGlTVndSMTRpX3VFWmRQVEVyeEZ5SF9KRm1FcUtaTjJvb0ZiemNYZ08yRFB0Q3RKT254ejJCbWhVaWp4ems2Snpna2pWNTRYWndNRDhtcDhvQlgxaVlQRWRfWWVOTDZ4VWlQUlE?oc=5",
+      "date": "2026-03-23T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Bybit lanza \"BOB Advantage\": sin comisiones, un fondo de premios de 5.000 USDT y una nueva era para las criptomonedas en Bolivia - PR Newswire",
+      "desc": "Bybit lanza \"BOB Advantage\": sin comisiones, un fondo de premios de 5.000 USDT y una nueva era para las criptomonedas en Bolivia&nbsp;&nbsp;PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPQkhibjJNeDdmVlFLVUlDS2pYbHhQQnN0ZE85ellqTDRmM09DNGo0d2JtcDM0bF9oZ2VjSDdVNm5PRWU2Skc4X2JVLUVMU0lIUkRTazE2Qm54eEFhaXRfcDY1bkhid2o1UGw0RXZOeTF2dy1RTnlWWDVDYm1jaDBoNWZlVUhoZlVFWVI4anF1UDQyaWR2REl4Z3JZRXlPbHk4UkdLWkdqVXFsc2ZRX3BxY1FXYm81Rnc3cy1NSk5Uc0RCbTlTcTJhc0U3YWlVS1M2Zm1qRXRZRUlqN2VMQXZGcU9sRHRKTEdVUDJXUXdIbDhKYTBoTzlLcC03aWdoRXBNcXNwOXM0d1BRNEFfR0d1UVBVRTlKR1ZjNzlR?oc=5",
+      "date": "2026-03-04T08:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.93,
-    "sellTomorrow": 11.99,
-    "changeBuy": 0.0,
-    "changeSell": -0.01,
-    "trend": "estable",
+    "buyTomorrow": 11.89,
+    "sellTomorrow": 11.94,
+    "changeBuy": 0.02,
+    "changeSell": 0.02,
+    "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4122,8 +4122,8 @@
     },
     {
       "date": "2026-10-06",
-      "buy": 11.93,
-      "sell": 12.0
+      "buy": 11.87,
+      "sell": 11.92
     }
   ]
 }
