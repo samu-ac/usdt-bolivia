@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-10-06T17:36:46Z",
+  "lastUpdated": "2026-10-06T22:01:27Z",
   "displayDate": "martes 6 de octubre, 2026",
   "binance": {
-    "buy": 11.87,
-    "sell": 11.92,
+    "buy": 11.84,
+    "sell": 11.88,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.95,
-    "sell": 11.77,
+    "buy": 11.9,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.15,
-    "sell": 11.76,
+    "buy": 12.12,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.08,
-    "sell": 11.73,
+    "buy": 12.04,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.11,
-    "sell": 11.59,
+    "buy": 12.09,
+    "sell": 11.58,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.9,
+    "buy": 11.85,
     "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.0,
-    "sell": 11.66,
+    "buy": 11.98,
+    "sell": 11.63,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.97,
     "officialSell": 11.97,
-    "referentialBuy": 11.87,
-    "referentialSell": 11.92,
+    "referentialBuy": 11.84,
+    "referentialSell": 11.88,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -106,31 +106,45 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "Hallan una caja fuerte con una suma alta de dinero tras el allanamiento en la casa del exfiscal Mariaca",
-      "desc": "La comisión de fiscales, policías y un notario participan del operativo de allanamiento en el condominio que habitaba el exfiscal Mariaca, que hoy se encuentra detenido en Cantumarca (Potosí)",
-      "link": "https://eldeber.com.bo/santa-cruz/hallan-caja-fuerte-suma-alta-dinero-allanamiento-casa-exfiscal-mariaca_1791306110",
-      "date": "2026-10-06T17:01:50Z"
+      "title": "La ‘promesa’ que todavía no brilla: Máximo Mamani y su difícil presente en Oriente",
+      "desc": "El jugador que llegó al fútbol boliviano como una apuesta a futuro no consigue continuidad en sus clubes. Tras su paso por Always Ready, ahora en el refinero no tiene muchos minutos y no será tomado e…",
+      "link": "https://eldeber.com.bo/deportes/promesa-todavia-no-brilla-maximo-mamani-dificil-presente-oriente_1791320921",
+      "date": "2026-10-06T21:08:41Z"
     },
     {
       "source": "El Deber",
-      "title": "¿Qué hacer con las decenas de toneladas de sargazo que invaden las playas mexicanas del Caribe?",
-      "desc": "Bajo el sol tropical, cuando el sargazo se pudre y emite gases tóxicos para la salud humana, asfixia la vida marina y ahuyenta el turismo. Este fenómeno natural que crece con los años pone en alerta a…",
-      "link": "https://eldeber.com.bo/rfi/-que-hacer-con-las-decenas-de-toneladas-de-sargazo-que-invaden-las-playas-mexicanas-del-caribe--202610613955",
-      "date": "2026-10-06T16:09:55Z"
+      "title": "Feminicidio en El Alto: joven muere tras presunta agresión de su pareja",
+      "desc": "Con este nuevo hecho registrado en El Alto, la Fiscalía Departamental de La Paz informó que Bolivia suma 66 víctimas de feminicidio durante lo que va del año",
+      "link": "https://eldeber.com.bo/la-paz/feminicidio-alto-joven-muere-presunta-agresion-pareja_1791320088",
+      "date": "2026-10-06T20:54:48Z"
     },
     {
       "source": "El Deber",
-      "title": "Tuto anuncia juicio contra Evo y García Linera por el caso Hotel Las Américas",
-      "desc": "Libre alista una proposición acusatoria que prevé presentar esta semana. Quiroga sostiene que el nuevo fiscal debe activar el caso, mientras el expediente por el operativo de 2009 ya se encuentra ante…",
-      "link": "https://eldeber.com.bo/pais/tuto-anuncia-juicio-evo-garcia-linera-caso-hotel-americas_1791302548",
-      "date": "2026-10-06T16:02:28Z"
+      "title": "Allanan tres casas de Mariaca y secuestran expedientes fiscales, dinero y una caja fuerte",
+      "desc": "El operativo que concentró uno de los principales hallazgos se realizó en un condominio de la zona norte, que era habitado por Mariaca. Allí los investigadores encontraron y secuestraron una caja fuer…",
+      "link": "https://eldeber.com.bo/santa-cruz/allanan-tres-casas-mariaca-secuestran-expedientes-fiscales-dinero-caja-fuerte_1791318723",
+      "date": "2026-10-06T20:32:03Z"
     },
     {
       "source": "El Deber",
-      "title": "Cisterneros confirman demoras en descarga de gasolina y reportan mayor movimiento de cisternas",
-      "desc": "Sergio Kosky, presidente de la Federación de Cisterneros de Bolivia, afirmó que el transporte desde Argentina, Paraguay y la ruta del Pacífico continúa operando. El sector negocia además una revisión …",
-      "link": "https://eldeber.com.bo/economia/cisterneros-confirman-demoras-descarga-gasolina-reportan-mayor-movimiento-cisternas_1791300077",
-      "date": "2026-10-06T15:21:17Z"
+      "title": "Banco Central de Bolivia confirma primer desembolso de $us 211,3 millones del FMI",
+      "desc": "En un escueto comunicado de prensa, el BCB señaló que \"recibió el desembolso correspondiente al primer tramo del préstamo otorgado en el marco del Servicio Ampliado del Fondo Monetario Internacional (…",
+      "link": "https://eldeber.com.bo/economia/banco-central-bolivia-confirma-primer-desembolso-us-211-3-millones-fmi_1791317879",
+      "date": "2026-10-06T20:17:59Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Ministro Oviedo anticipa un nuevo proceso contra Mariaca",
+      "desc": "El ministro de Gobierno, Marco Antonio Oviedo, reveló que se incautaron dos armas largas sin registro en oficinas del ex fiscal general",
+      "link": "https://eldeber.com.bo/pais/ministro-oviedo-anticipa-nuevo-proceso-mariaca_1791317654",
+      "date": "2026-10-06T20:14:14Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La escasez de gasolina desespera a pobladores en Guarayos",
+      "desc": "Desde la ANH recalcaron la prohibición de venta de combustible a vehículos, tanto de dos como de cuatro ruedas, que no tengan la placa correspondiente",
+      "link": "https://eldeber.com.bo/santa-cruz/escasez-gasolina-desespera-pobladores-guarayos_1791316325",
+      "date": "2026-10-06T19:52:05Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -194,27 +208,13 @@
       "desc": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia?&nbsp;&nbsp;France 24",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTd3UFJaY1psUVVYdUlPRUtDX2dXckFEUFRIRFo5S3JZWWNBc3AxTmdid2ZlMXdsSUZpRDNYMHg4ZXIta0g3Y1Y2RkZpdDBhYWUtOXdmNG12OW43VThJNGo3X05oMl9HZzZwbnlxaWRNMEhSQVM3ZFhmY3NiSDNZOWdvQlh5X0ZSSDZtQ0hqVHFOaFZDUFhyeWd0N01JWlpFMS1pVkwwMW5MSzlGbWNRLV9xZmlwNHM?oc=5",
       "date": "2026-06-29T07:00:00Z"
-    },
-    {
-      "source": "Google Noticias USDT Bolivia",
-      "title": "USDT es un 35% más caro que el dólar en Bolivia, ¿a qué se debe? - CriptoNoticias",
-      "desc": "USDT es un 35% más caro que el dólar en Bolivia, ¿a qué se debe?&nbsp;&nbsp;CriptoNoticias",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFZ0bm1LNW8zS0dxSEFWMm9oN2NQby13N2hsV0pObmc4T0JSeGlTVndSMTRpX3VFWmRQVEVyeEZ5SF9KRm1FcUtaTjJvb0ZiemNYZ08yRFB0Q3RKT254ejJCbWhVaWp4ems2Snpna2pWNTRYWndNRDhtcDhvQlgxaVlQRWRfWWVOTDZ4VWlQUlE?oc=5",
-      "date": "2026-03-23T07:00:00Z"
-    },
-    {
-      "source": "Google Noticias USDT Bolivia",
-      "title": "Bybit lanza \"BOB Advantage\": sin comisiones, un fondo de premios de 5.000 USDT y una nueva era para las criptomonedas en Bolivia - PR Newswire",
-      "desc": "Bybit lanza \"BOB Advantage\": sin comisiones, un fondo de premios de 5.000 USDT y una nueva era para las criptomonedas en Bolivia&nbsp;&nbsp;PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPQkhibjJNeDdmVlFLVUlDS2pYbHhQQnN0ZE85ellqTDRmM09DNGo0d2JtcDM0bF9oZ2VjSDdVNm5PRWU2Skc4X2JVLUVMU0lIUkRTazE2Qm54eEFhaXRfcDY1bkhid2o1UGw0RXZOeTF2dy1RTnlWWDVDYm1jaDBoNWZlVUhoZlVFWVI4anF1UDQyaWR2REl4Z3JZRXlPbHk4UkdLWkdqVXFsc2ZRX3BxY1FXYm81Rnc3cy1NSk5Uc0RCbTlTcTJhc0U3YWlVS1M2Zm1qRXRZRUlqN2VMQXZGcU9sRHRKTEdVUDJXUXdIbDhKYTBoTzlLcC03aWdoRXBNcXNwOXM0d1BRNEFfR0d1UVBVRTlKR1ZjNzlR?oc=5",
-      "date": "2026-03-04T08:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.89,
-    "sellTomorrow": 11.94,
-    "changeBuy": 0.02,
-    "changeSell": 0.02,
+    "buyTomorrow": 11.88,
+    "sellTomorrow": 11.92,
+    "changeBuy": 0.04,
+    "changeSell": 0.04,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4122,8 +4122,8 @@
     },
     {
       "date": "2026-10-06",
-      "buy": 11.87,
-      "sell": 11.92
+      "buy": 11.84,
+      "sell": 11.88
     }
   ]
 }
