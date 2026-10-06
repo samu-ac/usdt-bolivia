@@ -205,13 +205,15 @@
     try {
       const r = await fetch(DATA_URL + '?t=' + Date.now());
       const d = await r.json();
-      buyRate  = d.binance?.buy  || d.buy  || 12;
-      sellRate = d.binance?.sell || d.sell || 11.95;
+      buyRate  = parseFloat(d.binance?.buy  ?? d.buy)  || 12;
+      sellRate = parseFloat(d.binance?.sell ?? d.sell) || 11.95;
     } catch(e) {
       buyRate = 12; sellRate = 11.95;
     }
     updateDisplay();
   }
+
+  setInterval(loadRates, 60000);
 
   function updateDisplay() {
     const rate = mode === 'buy' ? buyRate : sellRate;
