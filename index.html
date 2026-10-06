@@ -1344,6 +1344,13 @@
     base.displayDate = `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]}, ${d.getFullYear()}`;
     pricesData = base;
     renderAll();
+    // Fallback: si la predicción no se actualizó, reintentarla a los 1.5s
+    setTimeout(() => {
+      const badge = document.getElementById('predTrendBadge');
+      if (badge && (badge.textContent === 'Calculando…' || badge.textContent === '— Sin datos disponibles') && pricesData?.history?.length >= 5) {
+        try { renderPrediction(null); } catch(e) { console.error('Prediction retry error:', e); }
+      }
+    }, 1500);
   }
 
   // ── LÍMITES FILTER ──
@@ -1497,13 +1504,13 @@
 
     initCalc();
     // Actualizar comparación y gráfico BCB si vrdData ya cargó
-    if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12);
+    try { if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12); } catch(e) { console.error('Comparison error:', e); }
     // El gráfico BCB ahora usa pricesData.history, re-renderizar siempre
-    renderVrdChart(vrdRange);
-    renderExchanges();
-    renderBanks(pricesData.banks);
-    renderPrediction(prediction);
-    renderNews(news);
+    try { renderVrdChart(vrdRange); } catch(e) { console.error('VRD chart error:', e); }
+    try { renderExchanges(); } catch(e) { console.error('Exchanges error:', e); }
+    try { renderBanks(pricesData.banks); } catch(e) { console.error('Banks error:', e); }
+    try { renderPrediction(pricesData?.history?.length >= 5 ? null : prediction); } catch(e) { console.error('Prediction error:', e); }
+    try { renderNews(news); } catch(e) { console.error('News error:', e); }
   }
 
   // ── COMPARADOR EXCHANGES P2P ──
