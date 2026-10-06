@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-10-05T04:29:21Z",
+  "lastUpdated": "2026-10-06T01:04:01Z",
   "displayDate": "lunes 5 de octubre, 2026",
   "binance": {
-    "buy": 11.97,
-    "sell": 12.02,
+    "buy": 11.95,
+    "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.02,
-    "sell": 11.94,
+    "buy": 12.01,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.25,
-    "sell": 11.86,
+    "buy": 12.22,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.18,
-    "sell": 11.83,
+    "buy": 12.15,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.23,
-    "sell": 11.71,
+    "buy": 12.19,
+    "sell": 11.68,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.0,
-    "sell": 11.99,
+    "buy": 11.97,
+    "sell": 11.96,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.14,
-    "sell": 11.9,
+    "buy": 12.12,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.0,
     "officialSell": 12.0,
-    "referentialBuy": 11.97,
-    "referentialSell": 12.02,
+    "referentialBuy": 11.95,
+    "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -56,11 +56,6 @@
       "name": "Banco Fortaleza",
       "buy": 11.7,
       "sell": 12.3
-    },
-    {
-      "name": "Banco FIE",
-      "buy": 11.5,
-      "sell": 12.0
     },
     {
       "name": "BCP",
@@ -81,6 +76,11 @@
       "name": "Banco Económico",
       "buy": 11.3,
       "sell": 12.35
+    },
+    {
+      "name": "Banco FIE",
+      "buy": 11.1,
+      "sell": 12.0
     },
     {
       "name": "Banco Unión",
@@ -106,38 +106,45 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "El ex fiscal general Róger Mariaca es trasladado al penal de Cantumarca, en Potosí",
-      "desc": "Mariaca enfrenta dos procesos y debe cumplir seis meses de detención preventiva, mientras continúan las investigaciones por presunta legitimación de ganancias ilícitas, organización criminal y tráfico…",
-      "link": "https://eldeber.com.bo/pais/ex-fiscal-general-roger-mariaca-trasladado-penal-cantumarca-potosi_1791169724",
-      "date": "2026-10-05T03:08:44Z"
+      "title": "Lula y Bolsonaro inician los contactos para ampliar los apoyos de cara a la segunda vuelta",
+      "desc": "Bolsonaro obtuvo un 47,03 % de los votos y Lula un 45,16 %, un resultado que estuvo acompañado de un fuerte crecimiento del Partido Liberal (PL), formación del candidato opositor, en el Congreso Nacio…",
+      "link": "https://eldeber.com.bo/mundo/lula-bolsonaro-inician-contactos-ampliar-apoyos-cara-segunda-vuelta_1791247207",
+      "date": "2026-10-06T00:40:07Z"
     },
     {
       "source": "El Deber",
-      "title": "Canciller Héctor Huanca viajará a Chile a reunirse con su par Francisco Pérez",
-      "desc": "Uno de los puntos de la agenda entre ambos cancilleres será el tema de la retención del cargamento de maderas de empresarios bolivianos en puertos de Arica",
-      "link": "https://eldeber.com.bo/pais/canciller-hector-huanca-viajara-chile-reunirse-par-francisco-perez_1791168296",
-      "date": "2026-10-05T02:44:56Z"
+      "title": "Urioste: Tengo 30 años de experiencia en el ejercicio de la profesión y no lo voy a embarrar por 90 días",
+      "desc": "La nueva autoridad dijo que desde mañana ejercerá su cargo desde Sucre y se prevé la posesión de nuevos fiscales departamentales",
+      "link": "https://eldeber.com.bo/pais/urioste-tengo-30-anos-experiencia-ejercicio-profesion-no-voy-embarrar-90-dias_1791243911",
+      "date": "2026-10-05T23:45:11Z"
     },
     {
       "source": "El Deber",
-      "title": "YPFB continuará con bloqueo de placas por cargas repetitivas de gasolina y diésel",
-      "desc": "La estatal coordinará con la ANH, municipios y el RUAT para identificar vehículos que carguen de manera reiterada y evitar que el carburante subvencionado termine en el mercado ilegal.",
-      "link": "https://eldeber.com.bo/economia/ypfb-continuara-bloqueo-placas-cargas-repetitivas-gasolina-diesel_1791166718",
-      "date": "2026-10-05T02:18:38Z"
+      "title": "El vicepresidente felicita al nuevo fiscal General del Estado, José Armando Urioste",
+      "desc": "El vicepresidente Edmand Lara, al volver de España, anunció que no iba a posesionar a Urioste sin asesorarse o cerciorarse de la legalidad de su designación en la Asamblea Legislativa. Horas después c…",
+      "link": "https://eldeber.com.bo/pais/vicepresidente-felicita-nuevo-fiscal-general-estado-jose-armando-urioste_1791243910",
+      "date": "2026-10-05T23:45:10Z"
     },
     {
       "source": "El Deber",
-      "title": "“Mi vida está en manos del Órgano Judicial”: Mariaca alerta por su seguridad en la cárcel de Cantumarca",
-      "desc": "El ex fiscal general recordó que investigó casos cuyos acusados hoy están detenidos en el mismo penal al que fue enviado por seis meses.",
-      "link": "https://eldeber.com.bo/la-paz/vida-esta-manos-organo-judicial-mariaca-alerta-seguridad-carcel-cantumarca_1791157978",
-      "date": "2026-10-04T23:52:58Z"
+      "title": "Procuraduría detecta irregularidades en proyecto de YLB por más de $us 24 millones",
+      "desc": "Un informe elaborado junto con Yacimientos de Litio Bolivianos identificó anomalías en el proceso de contratación, entre ellas cambios en criterios de evaluación, puntajes sin respaldo y falta de cert…",
+      "link": "https://eldeber.com.bo/economia/procuraduria-detecta-irregularidades-proyecto-ylb-us-24-millones_1791242502",
+      "date": "2026-10-05T23:21:42Z"
     },
     {
       "source": "El Deber",
-      "title": "Del Mérito Municipal a Cantumarca: Mariaca fue reconocido por su aporte a la Justicia y 10 días después terminó preso",
-      "desc": "El 23 de septiembre, el Concejo Municipal de Santa Cruz distinguió a Róger Mariaca con el Mérito Municipal en la categoría Profesional y el alcalde también le entregó un segundo reconocimiento. Diez d…",
-      "link": "https://eldeber.com.bo/santa-cruz/merito-municipal-cantumarca-mariaca-fue-reconocido-aporte-justicia-10-dias-despues-termino-preso_1791130108",
-      "date": "2026-10-04T16:08:28Z"
+      "title": "El tomate sube 38% y empuja la inflación de septiembre al 0,85%",
+      "desc": "El costo de vida volvió a subir en septiembre. El tomate, la papa, el transporte público y las gaseosas presionaron los precios, mientras que el pollo cayó 19,21%. La inflación acumulada en 2026 llega…",
+      "link": "https://eldeber.com.bo/economia/tomate-sube-38-empuja-inflacion-septiembre-0-85_1791241603",
+      "date": "2026-10-05T23:06:43Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Urioste invita a renunciar a fiscales departamentales; la de Santa Cruz no asumió el cargo",
+      "desc": "Pese a sus renuncias, los fiscales seguían fungiendo este lunes porque no pueden hacer dejación del cargo, deben esperar al reemplazante, dijo el nuevo fiscal general",
+      "link": "https://eldeber.com.bo/pais/urioste-invita-renunciar-fiscales-departamentales-santa-cruz-no-asumio-cargo_1791239190",
+      "date": "2026-10-05T22:26:30Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -148,15 +155,8 @@
     },
     {
       "source": "Google Noticias USDT Bolivia",
-      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - criptonoticias.com",
-      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;criptonoticias.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
-      "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google Noticias USDT Bolivia",
-      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - thecoinrepublic.com",
-      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;thecoinrepublic.com",
+      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
+      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
       "date": "2026-08-24T07:00:00Z"
     },
@@ -169,10 +169,17 @@
     },
     {
       "source": "Google Noticias Bolivia",
-      "title": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local - elpais.com",
-      "desc": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local&nbsp;&nbsp;elpais.com",
+      "title": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local - EL PAÍS",
+      "desc": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local&nbsp;&nbsp;EL PAÍS",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTy1XNTBIWndrUmpWdl9KTzJfaFJOX2tOZFpVeTd6bHBBYmgwUnN4bGl2MkNMU0hHbElfZlJLQW9PdlloOWczMU14U0UwOG54ZWwyc3czNFliNWhyQWZQcTJXRzFhcEE4UnRzM3l0ckdhV0tqa0ZlLTcxeVh3amF6QnE5NVhrdjBxMEUwYktpZ1dkaUNILUVvbXhlNTVENTRwNmMzblpWS2g3MkpYRVo1WVY3SzVYWTRsaW9vMU1DeWEteFVMX05GamVXMDN1d9IB4gFBVV95cUxOb0JfZ0hIM3NrV3JhNFlMZDBGSGtUd0hXZ3VVTXU0YmwwdlhRYUhPdEdtenJfOTdMRHY3R3BjMWRCNEVUTHFURGZ6SW56SDVZdVZCd2EtN0JodzBKTXk5MTF2VXc1WjBSRnd5RGl2a1l1aDBETXN5R3dCTUVwbm5fVTJnSEZ2ZUpicVRLZlYxMXFNTWFhakxuZHNKZGNpUHBSdUxISVJjNm5zODBROEpFWU45VDJ0M2VsYlVrZ1Ftcm1uTTBRSElHMUUya2NqQU9MX0JFMEM4dnhLU01Pck13Rk9n?oc=5",
       "date": "2026-07-20T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Bolivia estudia permitir que el USDT circule junto con el boliviano y el dólar - Cryptopolitan",
+      "desc": "Bolivia estudia permitir que el USDT circule junto con el boliviano y el dólar&nbsp;&nbsp;Cryptopolitan",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0hUejNma1F4Tk5ReXJycHY3UzMwZkcxakhKeHNvTGpON0NiY0VBbFR2eFdDV2p2Q3NtR25CWnM5MllqdlByWFhjRUdOQm1IRGpzRkMtcTRycGtnZVlnRmcyZ0ZMYkZmUTFlWEkwazZwbnhSaFlPWDJmeEdvWVgzcC1kUQ?oc=5",
+      "date": "2026-07-13T07:00:00Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -201,20 +208,13 @@
       "desc": "Bolivia se desprende del dólar estadounidense, Bitcoin se impone como alternativa&nbsp;&nbsp;Cointribune",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEpGVDhnenJUSjI2Ukwzb0Uwb3VUMTBtNU1zNkRuWEEzRkllR2oxdHhZWURMa2p5ME83LVFBUTBJNEtyeG92Q3dEckNwaHFFSWFCdGVtZ1hDOTk0b0Npem5EUE9VZGZXcWdUUkRveVZBcDJ1MDgyNUpJV3dxYlZidlZQQUwwY2FJMWFGYmFlc3JkVEJPTnV5QmFSdGpiVTdjd3l1SjhaQ2RodGM?oc=5",
       "date": "2026-06-30T07:00:00Z"
-    },
-    {
-      "source": "Google Noticias Bolivia",
-      "title": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia? - France 24",
-      "desc": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia?&nbsp;&nbsp;France 24",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTd3UFJaY1psUVVYdUlPRUtDX2dXckFEUFRIRFo5S3JZWWNBc3AxTmdid2ZlMXdsSUZpRDNYMHg4ZXIta0g3Y1Y2RkZpdDBhYWUtOXdmNG12OW43VThJNGo3X05oMl9HZzZwbnlxaWRNMEhSQVM3ZFhmY3NiSDNZOWdvQlh5X0ZSSDZtQ0hqVHFOaFZDUFhyeWd0N01JWlpFMS1pVkwwMW5MSzlGbWNRLV9xZmlwNHM?oc=5",
-      "date": "2026-06-29T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.96,
-    "sellTomorrow": 12.02,
-    "changeBuy": -0.01,
-    "changeSell": 0.0,
+    "buyTomorrow": 11.95,
+    "sellTomorrow": 12.0,
+    "changeBuy": 0.0,
+    "changeSell": 0.01,
     "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4117,8 +4117,8 @@
     },
     {
       "date": "2026-10-05",
-      "buy": 11.97,
-      "sell": 12.02
+      "buy": 11.95,
+      "sell": 11.99
     }
   ]
 }
