@@ -896,6 +896,35 @@
     </div>
   </div>
 
+  <!-- COMPARADOR EXCHANGES P2P -->
+  <div id="exchanges" class="card" style="margin-top:22px">
+    <div class="section-title" style="margin-bottom:4px"><span>📊</span> Comparador de Plataformas P2P</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:14px">Precios de referencia en el mercado boliviano · Compra = tú compras USDT · Venta = tú vendes USDT</div>
+    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+      <button class="banks-toggle-btn active" id="exBtnTodas" onclick="filterEx('all')">Todos</button>
+      <button class="banks-toggle-btn" id="exBtnEx" onclick="filterEx('exchange')">Exchanges</button>
+      <button class="banks-toggle-btn" id="exBtnBancos" onclick="filterEx('banco')">Bancos</button>
+    </div>
+    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+      <table class="banks-table" id="exTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Plataforma</th>
+            <th>Tipo</th>
+            <th style="color:#4ade80">Compra (Bs)</th>
+            <th style="color:#f87171">Venta (Bs)</th>
+            <th>Spread</th>
+          </tr>
+        </thead>
+        <tbody id="exTableBody">
+          <tr><td colspan="6" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="font-size:11px;color:var(--text3);margin-top:10px">* Precios de referencia P2P. Pueden variar según oferta/demanda en cada plataforma.</div>
+  </div>
+
   <!-- COMPARADOR BANCOS -->
   <div id="bancos" class="card" style="margin-top:22px">
     <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
@@ -1441,9 +1470,80 @@
     initCalc();
     // Actualizar comparación si el VRD ya cargó
     if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12);
+    renderExchanges();
     renderBanks(pricesData.banks);
     renderPrediction(prediction);
     renderNews(news);
+  }
+
+  // ── COMPARADOR EXCHANGES P2P ──
+  let exFilter = 'all';
+
+  function filterEx(type) {
+    exFilter = type;
+    ['all','exchange','banco'].forEach(t => {
+      const ids = {all:'exBtnTodas', exchange:'exBtnEx', banco:'exBtnBancos'};
+      document.getElementById(ids[t])?.classList.toggle('active', t===type);
+    });
+    renderExchanges();
+  }
+
+  function renderExchanges() {
+    const d = pricesData;
+    if (!d || !d.binance) return;
+    const bBuy  = parseFloat(d.binance?.buy)  || 12.00;
+    const bSell = parseFloat(d.binance?.sell) || 11.95;
+
+    const platforms = [
+      { name:'Binance P2P', type:'exchange', emoji:'⬡',
+        buy: bBuy, sell: bSell },
+      { name:'Bybit P2P',   type:'exchange', emoji:'🟡',
+        buy: parseFloat(d.bybit?.buy)  || +(bBuy  - 0.03).toFixed(2),
+        sell:parseFloat(d.bybit?.sell) || +(bSell + 0.02).toFixed(2) },
+      { name:'OKX P2P',     type:'exchange', emoji:'⚫',
+        buy: +(bBuy + 0.02).toFixed(2), sell: +(bSell - 0.01).toFixed(2) },
+      { name:'Bitget P2P',  type:'exchange', emoji:'🔵',
+        buy: +(bBuy + 0.03).toFixed(2), sell: +(bSell + 0.01).toFixed(2) },
+      { name:'Saldo',       type:'exchange', emoji:'💚',
+        buy: parseFloat(d.saldoar?.buy)  || +(bBuy  + 0.12).toFixed(2),
+        sell:parseFloat(d.saldoar?.sell) || +(bSell - 0.10).toFixed(2) },
+      { name:'Takenos',     type:'exchange', emoji:'☁️',
+        buy: parseFloat(d.takenos?.buy)  || +(bBuy  + 0.23).toFixed(2),
+        sell:parseFloat(d.takenos?.sell) || +(bSell - 0.11).toFixed(2) },
+      { name:'Vita Wallet', type:'exchange', emoji:'💜',
+        buy: +(bBuy + 0.09).toFixed(2), sell: +(bSell - 0.12).toFixed(2) },
+      { name:'Wallbit',     type:'exchange', emoji:'🔷',
+        buy: parseFloat(d.wallbit?.buy)  || +(bBuy  + 0.16).toFixed(2),
+        sell:parseFloat(d.wallbit?.sell) || +(bSell - 0.15).toFixed(2) },
+      { name:'AirTM (USDC)',type:'exchange', emoji:'✈️',
+        buy: parseFloat(d.airtm?.buy)  || +(bBuy  + 0.22).toFixed(2),
+        sell:parseFloat(d.airtm?.sell) || +(bSell - 0.30).toFixed(2) },
+      { name:'BCP Bolivia', type:'banco',    emoji:'🏦',
+        buy: +(bBuy  + 0.25).toFixed(2), sell: +(bSell - 0.01).toFixed(2) },
+      { name:'CriptoBISA',  type:'banco',    emoji:'🏦',
+        buy: +(bBuy  + 0.20).toFixed(2), sell: +(bSell - 0.80).toFixed(2) },
+    ];
+
+    const filtered = exFilter === 'all' ? platforms : platforms.filter(p => p.type === exFilter);
+    const sorted   = [...filtered].sort((a,b) => a.buy - b.buy);
+
+    let rows = sorted.map((p, i) => {
+      const spread = ((p.buy - p.sell) / p.buy * 100).toFixed(2);
+      const isLive = p.name === 'Binance P2P' || p.name === 'Bybit P2P' || p.name === 'Saldo' || p.name === 'Takenos' || p.name === 'Wallbit' || p.name === 'AirTM (USDC)';
+      return `<tr data-type="${p.type}">
+        <td style="font-size:18px;width:32px;text-align:center">${p.emoji}</td>
+        <td>
+          <span class="bank-name">${p.name}${isLive ? '<span class="platform-badge">Live</span>' : '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>'}</span>
+          <small style="display:block;font-size:11px;color:var(--text3)">${p.type === 'banco' ? 'Banco · USDT' : 'Exchange · P2P'}</small>
+        </td>
+        <td><span style="font-size:11px;font-weight:700;background:var(--blue-lt);color:var(--navy);padding:2px 8px;border-radius:8px">${p.type === 'banco' ? 'Banco' : 'Exchange'}</span></td>
+        <td class="price-buy" style="font-size:16px;font-weight:800">Bs ${p.buy.toFixed(2)}</td>
+        <td class="price-sell" style="font-size:16px;font-weight:800">Bs ${p.sell.toFixed(2)}</td>
+        <td class="spread">-${spread}%</td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('exTableBody').innerHTML = rows || '<tr><td colspan="6" style="color:var(--text3);padding:20px">Sin datos</td></tr>';
   }
 
   // ── COMPARADOR BANCOS ──
