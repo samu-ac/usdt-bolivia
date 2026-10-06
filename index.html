@@ -1637,9 +1637,112 @@
   // ── SHARE ──
   function sharePrice() {
     if (!pricesData?.binance) return;
-    const text = `Dólar en Bolivia hoy:\nCompra: Bs ${pricesData.binance.buy.toFixed(2)}\nVenta: Bs ${pricesData.binance.sell.toFixed(2)}\nFuente: DolarBolivia`;
-    if (navigator.share) { navigator.share({ text }); }
-    else if (navigator.clipboard) { navigator.clipboard.writeText(text).then(() => alert('¡Cotización copiada!')); }
+    const buy  = pricesData.binance.buy.toFixed(2);
+    const sell = pricesData.binance.sell.toFixed(2);
+    const now  = new Date().toLocaleDateString('es-BO',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+
+    // Generar imagen con Canvas
+    const canvas = document.createElement('canvas');
+    canvas.width = 1080; canvas.height = 1080;
+    const ctx = canvas.getContext('2d');
+
+    // Fondo degradado
+    const grad = ctx.createLinearGradient(0,0,0,1080);
+    grad.addColorStop(0,'#003087'); grad.addColorStop(1,'#00236b');
+    ctx.fillStyle = grad; ctx.fillRect(0,0,1080,1080);
+
+    // Patrón de puntos decorativos
+    ctx.fillStyle = 'rgba(245,184,0,0.06)';
+    for(let i=0;i<20;i++) for(let j=0;j<20;j++) { ctx.beginPath(); ctx.arc(54*i,54*j,18,0,Math.PI*2); ctx.fill(); }
+
+    // Logo / ícono
+    ctx.fillStyle = '#F5B800';
+    ctx.font = 'bold 90px Arial'; ctx.textAlign = 'center';
+    ctx.fillText('₮', 540, 200);
+
+    // Título
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 56px Arial';
+    ctx.fillText('USDT Bolivia', 540, 290);
+
+    ctx.fillStyle = 'rgba(255,255,255,0.55)';
+    ctx.font = '32px Arial';
+    ctx.fillText(now, 540, 350);
+
+    // Separador
+    ctx.strokeStyle = 'rgba(245,184,0,0.4)';
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(140,390); ctx.lineTo(940,390); ctx.stroke();
+
+    // Precio compra
+    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    ctx.font = '34px Arial'; ctx.textAlign = 'center';
+    ctx.fillText('↓ COMPRA', 300, 470);
+    ctx.fillStyle = '#4ade80';
+    ctx.font = 'bold 100px Arial';
+    ctx.fillText(`Bs ${buy}`, 300, 580);
+
+    // Precio venta
+    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    ctx.font = '34px Arial';
+    ctx.fillText('↑ VENTA', 780, 470);
+    ctx.fillStyle = '#f87171';
+    ctx.font = 'bold 100px Arial';
+    ctx.fillText(`Bs ${sell}`, 780, 580);
+
+    // Línea central
+    ctx.strokeStyle = 'rgba(255,255,255,0.15)';
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(540,420); ctx.lineTo(540,620); ctx.stroke();
+
+    // Separador inferior
+    ctx.strokeStyle = 'rgba(245,184,0,0.4)';
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(140,660); ctx.lineTo(940,660); ctx.stroke();
+
+    // URL
+    ctx.fillStyle = '#F5B800';
+    ctx.font = 'bold 38px Arial';
+    ctx.fillText('usdt-bolivia.com', 540, 740);
+    ctx.fillStyle = 'rgba(255,255,255,0.45)';
+    ctx.font = '28px Arial';
+    ctx.fillText('Cotización en tiempo real · P2P Bolivia', 540, 800);
+
+    // Watermark
+    ctx.fillStyle = 'rgba(255,255,255,0.2)';
+    ctx.font = '22px Arial';
+    ctx.fillText('© Samuel Ampuero · usdt-bolivia.com', 540, 1020);
+
+    canvas.toBlob(async blob => {
+      const file = new File([blob], 'usdt-bolivia-cotizacion.png', {type:'image/png'});
+      if (navigator.share && navigator.canShare && navigator.canShare({files:[file]})) {
+        try {
+          await navigator.share({
+            title: `USDT Bolivia Hoy — Bs ${sell}`,
+            text: `💵 Cotización USDT en Bolivia hoy:\n↓ Compra: Bs ${buy}\n↑ Venta: Bs ${sell}\n\n📊 usdt-bolivia.com`,
+            files: [file]
+          });
+        } catch(e) { downloadCanvas(canvas); }
+      } else if (navigator.share) {
+        navigator.share({
+          title: `USDT Bolivia — Bs ${sell}`,
+          text: `💵 USDT Bolivia hoy:\n↓ Compra: Bs ${buy}\n↑ Venta: Bs ${sell}\n📊 usdt-bolivia.com`
+        });
+      } else {
+        downloadCanvas(canvas);
+      }
+    }, 'image/png');
+  }
+
+  function downloadCanvas(canvas) {
+    const a = document.createElement('a');
+    a.download = 'usdt-bolivia-cotizacion.png';
+    a.href = canvas.toDataURL('image/png');
+    a.click();
+    // También copia el texto
+    const buy  = pricesData?.binance?.buy?.toFixed(2) || '—';
+    const sell = pricesData?.binance?.sell?.toFixed(2) || '—';
+    if (navigator.clipboard) navigator.clipboard.writeText(`💵 USDT Bolivia hoy:\n↓ Compra: Bs ${buy}\n↑ Venta: Bs ${sell}\n📊 usdt-bolivia.com`);
   }
 
   // ── CHART ──
