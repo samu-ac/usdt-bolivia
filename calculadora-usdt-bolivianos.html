@@ -145,6 +145,33 @@
     </div>
   </div>
 
+  <!-- MULTI-MONEDA -->
+  <div style="margin-top:28px">
+    <h2 style="font-size:17px;font-weight:800;color:var(--navy);margin-bottom:6px">💱 Equivalencias en otras monedas</h2>
+    <p style="font-size:13px;color:var(--text2);margin-bottom:16px">¿Cuánto vale 1 USDT en otras monedas? Calculado con tasas de referencia internacionales.</p>
+    <div id="multiGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:12px"></div>
+    <p style="font-size:11px;color:var(--text3);margin-top:10px">* Tasas de referencia aproximadas. Para operaciones reales consultá tasas actualizadas.</p>
+  </div>
+
+  <!-- CONVERTIDOR BOB → OTRAS MONEDAS -->
+  <div style="margin-top:28px;background:#fff;border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:var(--shadow)">
+    <h2 style="font-size:17px;font-weight:800;color:var(--navy);margin-bottom:6px">🌎 ¿Cuánto valen tus bolivianos?</h2>
+    <p style="font-size:13px;color:var(--text2);margin-bottom:16px">Ingresá un monto en bolivianos y mirá cuánto recibirías en cada moneda vía USDT.</p>
+    <div style="display:flex;gap:10px;align-items:center;margin-bottom:16px">
+      <input type="number" id="bobInput" placeholder="1000" min="0" oninput="calcBob()"
+        style="flex:1;padding:14px 16px;border:2px solid var(--border);border-radius:10px;font-size:22px;font-weight:800;font-family:'Inter',sans-serif;outline:none;max-width:200px" />
+      <span style="font-size:16px;font-weight:700;color:var(--text2)">Bs =</span>
+      <span id="bobUsdt" style="font-size:22px;font-weight:900;color:var(--navy)">— USDT</span>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px">
+      <button onclick="setBob(100)"  style="padding:6px 14px;border:2px solid var(--border);border-radius:20px;background:var(--blue-lt);color:var(--blue);font-size:13px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif">Bs 100</button>
+      <button onclick="setBob(500)"  style="padding:6px 14px;border:2px solid var(--border);border-radius:20px;background:var(--blue-lt);color:var(--blue);font-size:13px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif">Bs 500</button>
+      <button onclick="setBob(1000)" style="padding:6px 14px;border:2px solid var(--border);border-radius:20px;background:var(--blue-lt);color:var(--blue);font-size:13px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif">Bs 1,000</button>
+      <button onclick="setBob(5000)" style="padding:6px 14px;border:2px solid var(--border);border-radius:20px;background:var(--blue-lt);color:var(--blue);font-size:13px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif">Bs 5,000</button>
+    </div>
+    <div id="bobResults" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px"></div>
+  </div>
+
   <div class="faq">
     <h2>Preguntas frecuentes</h2>
     <div class="faq-item">
@@ -235,6 +262,64 @@
     document.getElementById('inputTop').value = b;
     document.getElementById('inputBottom').value = t;
   }
+
+  // Tasas de referencia aproximadas vs USD (actualizadas manualmente periódicamente)
+  const FX = {
+    EUR: { flag:'🇪🇺', name:'Euro',             rate: 0.924, sym:'€'  },
+    ARS: { flag:'🇦🇷', name:'Peso argentino',   rate: 1062,  sym:'$'  },
+    CLP: { flag:'🇨🇱', name:'Peso chileno',     rate: 960,   sym:'$'  },
+    PEN: { flag:'🇵🇪', name:'Sol peruano',      rate: 3.74,  sym:'S/' },
+    BRL: { flag:'🇧🇷', name:'Real brasileño',   rate: 5.75,  sym:'R$' },
+    COP: { flag:'🇨🇴', name:'Peso colombiano',  rate: 4340,  sym:'$'  },
+    MXN: { flag:'🇲🇽', name:'Peso mexicano',    rate: 17.2,  sym:'$'  },
+    PYG: { flag:'🇵🇾', name:'Guaraní paraguayo',rate: 7900,  sym:'₲'  },
+  };
+
+  function renderMultiGrid() {
+    if (!buyRate) return;
+    // 1 USDT ≈ buyRate BOB, y 1 USD ≈ 1 USDT
+    const entries = Object.entries(FX);
+    document.getElementById('multiGrid').innerHTML = entries.map(([code, f]) => {
+      const val = f.rate;
+      const formatted = val >= 100 ? val.toLocaleString('es-BO',{maximumFractionDigits:0}) : val.toFixed(3);
+      return `<div style="background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center">
+        <div style="font-size:22px;margin-bottom:4px">${f.flag}</div>
+        <div style="font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">${code}</div>
+        <div style="font-size:18px;font-weight:900;color:var(--navy)">${f.sym} ${formatted}</div>
+        <div style="font-size:11px;color:var(--text3);margin-top:2px">por 1 USDT</div>
+      </div>`;
+    }).join('');
+  }
+
+  function calcBob() {
+    const bob = parseFloat(document.getElementById('bobInput').value);
+    if (isNaN(bob) || !buyRate) return;
+    const usdt = bob / buyRate;
+    document.getElementById('bobUsdt').textContent = usdt.toFixed(2) + ' USDT';
+    const results = Object.entries(FX).map(([code, f]) => {
+      const val = usdt * f.rate;
+      const formatted = val >= 100 ? val.toLocaleString('es-BO',{maximumFractionDigits:0}) : val.toFixed(2);
+      return `<div style="background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px;display:flex;align-items:center;gap:8px">
+        <span style="font-size:20px">${f.flag}</span>
+        <div>
+          <div style="font-size:11px;font-weight:700;color:var(--text3)">${code}</div>
+          <div style="font-size:16px;font-weight:900;color:var(--navy)">${f.sym} ${formatted}</div>
+        </div>
+      </div>`;
+    }).join('');
+    document.getElementById('bobResults').innerHTML = results;
+  }
+
+  function setBob(amount) {
+    document.getElementById('bobInput').value = amount;
+    calcBob();
+  }
+
+  const _origUpdate = updateDisplay;
+  updateDisplay = function() {
+    _origUpdate();
+    renderMultiGrid();
+  };
 
   loadRates();
   setInterval(loadRates, 60000);
