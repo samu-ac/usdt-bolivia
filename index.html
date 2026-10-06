@@ -899,35 +899,6 @@
     </div>
   </div>
 
-  <!-- COMPARADOR EXCHANGES P2P -->
-  <div id="exchanges" class="card" style="margin-top:22px">
-    <div class="section-title" style="margin-bottom:4px"><span>📊</span> Comparador de Plataformas P2P</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:14px">Precios de referencia en el mercado boliviano · Compra = tú compras USDT · Venta = tú vendes USDT</div>
-    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
-      <button class="banks-toggle-btn active" id="exBtnTodas" onclick="filterEx('all')">Todos</button>
-      <button class="banks-toggle-btn" id="exBtnEx" onclick="filterEx('exchange')">Exchanges</button>
-      <button class="banks-toggle-btn" id="exBtnBancos" onclick="filterEx('banco')">Bancos</button>
-    </div>
-    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
-      <table class="banks-table" id="exTable">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Plataforma</th>
-            <th>Tipo</th>
-            <th style="color:#4ade80">Compra (Bs)</th>
-            <th style="color:#f87171">Venta (Bs)</th>
-            <th>Spread</th>
-          </tr>
-        </thead>
-        <tbody id="exTableBody">
-          <tr><td colspan="6" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos…</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div style="font-size:11px;color:var(--text3);margin-top:10px">* Precios de referencia P2P. Pueden variar según oferta/demanda en cada plataforma.</div>
-  </div>
-
   <!-- COMPARADOR BANCOS -->
   <div id="bancos" class="card" style="margin-top:22px">
     <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
@@ -960,6 +931,35 @@
     </div>
     <div class="banks-mobile-cards" id="banksMobileCards"></div>
     <div style="font-size:11px;color:var(--text3);margin-top:12px">* Precios publicados por cada banco en su web oficial · Pueden variar en ventanilla</div>
+  </div>
+
+  <!-- COMPARADOR EXCHANGES P2P -->
+  <div id="exchanges" class="card" style="margin-top:22px">
+    <div class="section-title" style="margin-bottom:4px"><span>📊</span> Comparador de Plataformas P2P</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:14px">Precios de referencia en el mercado boliviano · Compra = tú compras USDT · Venta = tú vendes USDT</div>
+    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+      <button class="banks-toggle-btn active" id="exBtnTodas" onclick="filterEx('all')">Todos</button>
+      <button class="banks-toggle-btn" id="exBtnEx" onclick="filterEx('exchange')">Exchanges</button>
+      <button class="banks-toggle-btn" id="exBtnBancos" onclick="filterEx('banco')">Bancos</button>
+    </div>
+    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+      <table class="banks-table" id="exTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Plataforma</th>
+            <th>Tipo</th>
+            <th style="color:#4ade80">Compra (Bs)</th>
+            <th style="color:#f87171">Venta (Bs)</th>
+            <th>Spread</th>
+          </tr>
+        </thead>
+        <tbody id="exTableBody">
+          <tr><td colspan="6" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="font-size:11px;color:var(--text3);margin-top:10px">* Precios de referencia P2P. Pueden variar según oferta/demanda en cada plataforma.</div>
   </div>
 
   <!-- LIMITS -->
