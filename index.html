@@ -379,26 +379,30 @@
 
     /* ══ PREDICCIÓN ══ */
     .pred-card {
-      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
-      border-radius: 16px; padding: 28px; color: #fff; margin-bottom: 28px;
-      display: flex; gap: 32px; flex-wrap: wrap; align-items: center;
+      background: linear-gradient(135deg, var(--navy) 0%, #0a3d7a 100%);
+      border-radius: 16px; padding: 24px 28px; color: #fff; margin-bottom: 28px;
     }
-    .pred-card-left { flex: 1; min-width: 200px; }
-    .pred-label { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .7; margin-bottom: 6px; }
-    .pred-title { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
-    .pred-trend-badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; margin-top: 8px; background: rgba(255,255,255,.15); }
+    .pred-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:20px; }
+    .pred-label { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .7; margin-bottom: 4px; }
+    .pred-title { font-size: 18px; font-weight: 800; }
+    .pred-trend-badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; background: rgba(255,255,255,.15); }
     .pred-trend-badge.alza    { color: #7feba2; }
     .pred-trend-badge.baja    { color: #ff8a80; }
     .pred-trend-badge.estable { color: rgba(255,255,255,.85); }
-    .pred-rates { display: flex; gap: 24px; flex-wrap: wrap; }
-    .pred-rate { text-align: center; }
-    .pred-rate-label { font-size: 11px; opacity: .65; font-weight: 600; margin-bottom: 3px; }
-    .pred-rate-val { font-size: 28px; font-weight: 900; line-height: 1; }
-    .pred-rate-change { font-size: 12px; margin-top: 3px; }
-    .pred-rate-change.up   { color: #7feba2; }
-    .pred-rate-change.down { color: #ff8a80; }
-    .pred-rate-change.flat { color: rgba(255,255,255,.6); }
-    .pred-disclaimer { font-size: 11px; opacity: .5; margin-top: 14px; }
+    .pred-body { display:grid; grid-template-columns:1fr auto; gap:24px; align-items:start; }
+    @media(max-width:600px){ .pred-body { grid-template-columns:1fr; } }
+    .pred-chart-wrap { position:relative; height:100px; }
+    .pred-days { display:flex; gap:10px; flex-wrap:wrap; }
+    .pred-day { background:rgba(255,255,255,.1); border-radius:12px; padding:12px 16px; text-align:center; min-width:100px; flex:1; }
+    .pred-day.today { background:rgba(245,184,0,.18); border:1px solid rgba(245,184,0,.4); }
+    .pred-day-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.07em; opacity:.7; margin-bottom:4px; }
+    .pred-day-buy { font-size:18px; font-weight:900; color:#7feba2; line-height:1; }
+    .pred-day-sell { font-size:13px; color:rgba(255,255,255,.7); margin-top:2px; }
+    .pred-day-change { font-size:11px; margin-top:4px; }
+    .pred-day-change.up   { color: #7feba2; }
+    .pred-day-change.down { color: #ff8a80; }
+    .pred-day-change.flat { color: rgba(255,255,255,.5); }
+    .pred-disclaimer { font-size: 11px; opacity: .45; margin-top: 14px; }
 
     /* ══ NOTICIAS ══ */
     .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
@@ -1047,26 +1051,46 @@
 
   <!-- PREDICCIÓN -->
   <div id="prediccion" style="margin-top:36px">
-    <div class="section-title" style="margin-bottom:16px"><span>🔮</span> Cotización Esperada — Mañana</div>
+    <div class="section-title" style="margin-bottom:16px"><span>🔮</span> Proyección de Precio USDT</div>
     <div class="pred-card" id="predCard">
-      <div class="pred-card-left">
-        <div class="pred-label">Proyección basada en tendencia histórica</div>
-        <div class="pred-title">¿Cómo podría estar mañana?</div>
+      <div class="pred-header">
+        <div>
+          <div class="pred-label">Basado en tendencia histórica · últimos 14 días</div>
+          <div class="pred-title">¿Cómo podría estar el precio?</div>
+        </div>
         <div id="predTrendBadge" class="pred-trend-badge estable">Calculando…</div>
-        <div class="pred-disclaimer" id="predDisclaimer">Estimación estadística · No es asesoramiento financiero.</div>
       </div>
-      <div class="pred-rates">
-        <div class="pred-rate">
-          <div class="pred-rate-label">Compra estimada</div>
-          <div class="pred-rate-val" id="predBuy">—</div>
-          <div class="pred-rate-change flat" id="predChangeBuy">—</div>
+      <div class="pred-body">
+        <div>
+          <div class="pred-chart-wrap"><canvas id="predChart"></canvas></div>
         </div>
-        <div class="pred-rate">
-          <div class="pred-rate-label">Venta estimada</div>
-          <div class="pred-rate-val" id="predSell">—</div>
-          <div class="pred-rate-change flat" id="predChangeSell">—</div>
+        <div class="pred-days" id="predDays">
+          <div class="pred-day today">
+            <div class="pred-day-label">Hoy</div>
+            <div class="pred-day-buy" id="predTodayBuy">—</div>
+            <div class="pred-day-sell" id="predTodaySell">—</div>
+          </div>
+          <div class="pred-day">
+            <div class="pred-day-label">Mañana</div>
+            <div class="pred-day-buy" id="predD1Buy">—</div>
+            <div class="pred-day-sell" id="predD1Sell">—</div>
+            <div class="pred-day-change flat" id="predD1Change">—</div>
+          </div>
+          <div class="pred-day">
+            <div class="pred-day-label">Pasado</div>
+            <div class="pred-day-buy" id="predD2Buy">—</div>
+            <div class="pred-day-sell" id="predD2Sell">—</div>
+            <div class="pred-day-change flat" id="predD2Change">—</div>
+          </div>
+          <div class="pred-day">
+            <div class="pred-day-label">+3 días</div>
+            <div class="pred-day-buy" id="predD3Buy">—</div>
+            <div class="pred-day-sell" id="predD3Sell">—</div>
+            <div class="pred-day-change flat" id="predD3Change">—</div>
+          </div>
         </div>
       </div>
+      <div class="pred-disclaimer">Proyección estadística basada en regresión lineal de los últimos 14 días · No es asesoramiento financiero · Los precios pueden variar</div>
     </div>
   </div>
 
@@ -1656,52 +1680,93 @@
     document.getElementById('banksMobileCards').innerHTML = mobileCards;
   }
 
+  let predChartInst = null;
   function renderPrediction(pred) {
     if (!pred && pricesData?.history?.length >= 5) {
       const hist = pricesData.history.slice(-14);
       const n = hist.length;
       const xs = hist.map((_, i) => i);
-      const linReg = (ys) => {
+      const linRegSlope = (ys) => {
         const mx = xs.reduce((a,b)=>a+b,0)/n, my = ys.reduce((a,b)=>a+b,0)/n;
         const num = xs.reduce((s,x,i)=>s+(x-mx)*(ys[i]-my),0);
         const den = xs.reduce((s,x)=>s+(x-mx)**2,0);
-        return my + (den ? num/den : 0) * n;
+        return { slope: den ? num/den : 0, intercept: my - (den ? num/den : 0)*mx };
       };
+      const buyReg  = linRegSlope(hist.map(h=>+h.buy));
+      const sellReg = linRegSlope(hist.map(h=>+h.sell));
+      const project = (reg, day) => reg.slope * day + reg.intercept;
       const last = hist[hist.length-1];
-      const buyTomorrow  = linReg(hist.map(h=>h.buy));
-      const sellTomorrow = linReg(hist.map(h=>h.sell));
-      const changeBuy  = buyTomorrow  - last.buy;
-      const changeSell = sellTomorrow - last.sell;
-      const trend = changeSell > 0.03 ? 'alza' : changeSell < -0.03 ? 'baja' : 'estable';
-      pred = { buyTomorrow, sellTomorrow, changeBuy, changeSell, trend, basedOnDays: n, confidence: 'Media' };
+      const days = [1,2,3].map(d => ({
+        buy:  project(buyReg,  n-1+d),
+        sell: project(sellReg, n-1+d),
+      }));
+      const changeSell = days[0].sell - +last.sell;
+      const trend = changeSell > 0.05 ? 'alza' : changeSell < -0.05 ? 'baja' : 'estable';
+      pred = { days, last, hist, trend, buyReg, sellReg, n };
     }
     if (!pred) {
       document.getElementById('predTrendBadge').textContent = '— Sin datos disponibles';
       document.getElementById('predTrendBadge').className = 'pred-trend-badge estable';
-      document.getElementById('predBuy').textContent = '—';
-      document.getElementById('predSell').textContent = '—';
-      document.getElementById('predChangeBuy').textContent = '';
-      document.getElementById('predChangeSell').textContent = '';
-      document.getElementById('predDisclaimer').textContent = 'Se necesitan más días de datos para calcular la proyección.';
+      ['predTodayBuy','predTodaySell','predD1Buy','predD1Sell','predD2Buy','predD2Sell','predD3Buy','predD3Sell'].forEach(id => {
+        const el = document.getElementById(id); if(el) el.textContent = '—';
+      });
       return;
     }
-    const fmt = v => parseFloat(v).toFixed(2);
+    const fmt = v => 'Bs ' + parseFloat(v).toFixed(2);
     const sign = v => v > 0 ? '+' : '';
-    document.getElementById('predBuy').textContent  = 'Bs ' + fmt(pred.buyTomorrow);
-    document.getElementById('predSell').textContent = 'Bs ' + fmt(pred.sellTomorrow);
-    const cb = pred.changeBuy, cs = pred.changeSell;
-    const cbEl = document.getElementById('predChangeBuy');
-    const csEl = document.getElementById('predChangeSell');
-    cbEl.textContent = sign(cb) + fmt(cb) + ' Bs';
-    cbEl.className   = 'pred-rate-change ' + (cb > 0.005 ? 'up' : cb < -0.005 ? 'down' : 'flat');
-    csEl.textContent = sign(cs) + fmt(cs) + ' Bs';
-    csEl.className   = 'pred-rate-change ' + (cs > 0.005 ? 'up' : cs < -0.005 ? 'down' : 'flat');
+    const chgClass = v => v > 0.02 ? 'up' : v < -0.02 ? 'down' : 'flat';
+    const chgText  = v => (v > 0 ? '+' : '') + parseFloat(v).toFixed(2) + ' Bs';
+
+    // Today
+    document.getElementById('predTodayBuy').textContent  = fmt(pred.last.buy);
+    document.getElementById('predTodaySell').textContent = 'Venta ' + fmt(pred.last.sell);
+
+    // 3 projected days
+    const dayIds = [['predD1Buy','predD1Sell','predD1Change'],['predD2Buy','predD2Sell','predD2Change'],['predD3Buy','predD3Sell','predD3Change']];
+    pred.days.forEach((d, i) => {
+      const chg = d.buy - +pred.last.buy;
+      document.getElementById(dayIds[i][0]).textContent = fmt(d.buy);
+      document.getElementById(dayIds[i][1]).textContent = 'Venta ' + fmt(d.sell);
+      const chgEl = document.getElementById(dayIds[i][2]);
+      chgEl.textContent = chgText(chg);
+      chgEl.className = 'pred-day-change ' + chgClass(chg);
+    });
+
+    // Badge
     const badge = document.getElementById('predTrendBadge');
     const icons = { alza:'↗ Tendencia al alza', baja:'↘ Tendencia a la baja', estable:'→ Tendencia estable' };
-    badge.textContent = icons[pred.trend] || '— Sin datos suficientes';
+    badge.textContent = icons[pred.trend] || '→ Tendencia estable';
     badge.className   = 'pred-trend-badge ' + (pred.trend || 'estable');
-    document.getElementById('predDisclaimer').textContent =
-      `Proyección basada en los últimos ${pred.basedOnDays} días · Confianza ${pred.confidence} · No es asesoramiento financiero.`;
+
+    // Sparkline chart
+    const ctx = document.getElementById('predChart');
+    if (ctx && typeof Chart !== 'undefined') {
+      if (predChartInst) predChartInst.destroy();
+      const histBuy  = pred.hist.map(h => +h.buy);
+      const histDates = pred.hist.map(h => h.date ? h.date.slice(5) : '');
+      const projBuy  = pred.days.map(d => d.buy);
+      const allLabels = [...histDates, 'Mañana', 'Pasado', '+3d'];
+      const histLine  = [...histBuy, null, null, null];
+      const projLine  = [...Array(histBuy.length - 1).fill(null), histBuy[histBuy.length-1], ...projBuy];
+      predChartInst = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: allLabels,
+          datasets: [
+            { data: histLine, borderColor: 'rgba(100,180,255,0.9)', borderWidth: 2, pointRadius: 2, fill: false, tension: 0.3 },
+            { data: projLine, borderColor: '#F5B800', borderWidth: 2, borderDash: [5,4], pointRadius: 3, pointBackgroundColor:'#F5B800', fill: false, tension: 0.3 }
+          ]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => 'Bs ' + ctx.parsed.y?.toFixed(2) } } },
+          scales: {
+            x: { ticks: { color:'rgba(255,255,255,.5)', font:{size:9}, maxTicksLimit:6 }, grid:{ color:'rgba(255,255,255,.07)' } },
+            y: { ticks: { color:'rgba(255,255,255,.5)', font:{size:9}, callback: v => 'Bs '+v.toFixed(2) }, grid:{ color:'rgba(255,255,255,.07)' } }
+          }
+        }
+      });
+    }
   }
 
   function renderNews(newsList) {
