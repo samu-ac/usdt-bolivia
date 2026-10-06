@@ -711,7 +711,7 @@
         <div class="bcb-vrd-hero-top">
           <div>
             <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
-            <div class="bcb-vrd-hero-name">Valor Referencial de Compra<br>del Dólar (VRD)</div>
+            <div class="bcb-vrd-hero-name">Precio Referencial BCB<br>del Dólar / USDT</div>
             <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
           </div>
           <div style="text-align:right">
@@ -768,12 +768,12 @@
     <div class="card" style="padding:24px">
       <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:18px">
         <div>
-          <div class="section-title" style="margin-bottom:4px"><span>📊</span> Tendencia VRD BCB Histórico</div>
-          <div style="font-size:12px;color:var(--text3)">Valor Referencial de Compra · Fuente oficial: <strong style="color:var(--navy)">bcb.gob.bo</strong></div>
+          <div class="section-title" style="margin-bottom:4px"><span>📊</span> Tendencia Precio BCB Referencial — Histórico</div>
+          <div style="font-size:12px;color:var(--text3)">Precio referencial BCB (~Bs 11.97) vs USDT P2P · Fuente: <strong style="color:var(--navy)">bcb.gob.bo + Binance P2P</strong></div>
         </div>
         <div style="display:grid;grid-template-columns:repeat(4,auto);gap:20px;align-items:start">
           <div style="text-align:center">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">VRD HOY</div>
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">BCB HOY</div>
             <div style="font-size:16px;font-weight:900;color:var(--navy)" id="vrdStatHoy">—</div>
           </div>
           <div style="text-align:center">
@@ -799,7 +799,7 @@
         </div>
         <div style="display:flex;gap:16px">
           <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-            <div style="width:12px;height:3px;border-radius:2px;background:#1565C0"></div>VRD Compra BCB
+            <div style="width:12px;height:3px;border-radius:2px;background:#1a7f37"></div>BCB Referencial
           </div>
           <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
             <div style="width:12px;height:3px;border-radius:2px;background:rgba(124,58,237,.7);border-top:2px dashed rgba(124,58,237,.7)"></div>USDT P2P
@@ -1471,8 +1471,10 @@
     }
 
     initCalc();
-    // Actualizar comparación si el VRD ya cargó
+    // Actualizar comparación y gráfico BCB si vrdData ya cargó
     if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12);
+    // El gráfico BCB ahora usa pricesData.history, re-renderizar siempre
+    renderVrdChart(vrdRange);
     renderExchanges();
     renderBanks(pricesData.banks);
     renderPrediction(prediction);
@@ -1995,10 +1997,10 @@
     if (!vrdData) return;
     const { vrd_today, vrd_min_today, vrd_max_today, n_trans_today, today, history } = vrdData;
 
-    // Hero
-    const oficialBuy = pricesData?.bcb?.officialBuy || 12;
-    document.getElementById('vrdPriceBig').textContent = 'Bs ' + (oficialBuy || vrd_today||'—');
-    document.getElementById('vrdMin').textContent = 'Bs ' + oficialBuy;
+    // Hero — muestra precio BCB referencial (~11.97), no el VRD (~9.76)
+    const oficialBuy = pricesData?.bcb?.officialBuy || pricesData?.bcb?.tco || 11.97;
+    document.getElementById('vrdPriceBig').textContent = 'Bs ' + oficialBuy.toFixed(2);
+    document.getElementById('vrdMin').textContent = 'Bs ' + oficialBuy.toFixed(2);
     const _vMax = document.getElementById('vrdMax'); if (_vMax) _vMax.textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
     const _vNT = document.getElementById('vrdNTrans'); if (_vNT) _vNT.textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
     const d = today ? new Date(today + 'T12:00:00') : new Date();
@@ -2061,7 +2063,8 @@
   }
 
   function getVrdSlice(range) {
-    const all = vrdData?.history || [];
+    // Usa el historial USDT P2P que tiene precios en el rango ~11.97
+    const all = pricesData?.history || [];
     const cutDays = d => { const x=new Date(); x.setDate(x.getDate()-d); return x.toISOString().slice(0,10); };
     if (range === '7D')  return all.filter(h => h.date >= cutDays(7));
     if (range === '15D') return all.filter(h => h.date >= cutDays(15));
@@ -2070,34 +2073,33 @@
   }
 
   function renderVrdChart(range) {
-    if (!vrdData) return;
     const slice = getVrdSlice(range);
     if (!slice.length) return;
 
-    // Stats — use vrd_today from root for "HOY", slice stats for period
-    const todayVrd = vrdData.vrd_today || slice[slice.length-1].vrd;
-    const prev = slice[slice.length-2] || slice[0];
-    const last = slice[slice.length-1];
-    const vals = slice.map(h=>h.vrd);
-    const change = last.vrd - prev.vrd;
-    const pct = ((change/prev.vrd)*100).toFixed(2);
+    const bcbRef = pricesData?.bcb?.officialBuy || pricesData?.bcb?.tco || 11.97;
+    const last   = slice[slice.length-1];
+    const prev   = slice[slice.length-2] || slice[0];
+    // Precio promedio P2P por día
+    const avg = h => ((+h.buy + +h.sell) / 2);
+    const vals = slice.map(avg);
+    const todayVal = avg(last);
+    const change = todayVal - avg(prev);
+    const pct = ((change / avg(prev)) * 100).toFixed(2);
 
-    document.getElementById('vrdStatHoy').textContent = `Bs ${todayVrd.toFixed(4)}`;
+    document.getElementById('vrdStatHoy').textContent = `Bs ${bcbRef.toFixed(2)}`;
     const chEl = document.getElementById('vrdStatCambio');
     chEl.textContent = `${change>=0?'+':''}${pct}%`;
     chEl.style.color = change >= 0 ? 'var(--green)' : 'var(--red)';
-    document.getElementById('vrdStatMax').textContent = `Bs ${Math.max(...vals).toFixed(4)}`;
-    document.getElementById('vrdStatMin').textContent = `Bs ${Math.min(...vals).toFixed(4)}`;
-    const rangeLabel = range==='MAX' ? `${slice.length} días hábiles (histórico completo)` : `Últimos ${slice.length} días hábiles`;
-    document.getElementById('vrdChartMeta').textContent = `${rangeLabel} · Fuente: Banco Central de Bolivia`;
+    document.getElementById('vrdStatMax').textContent = `Bs ${Math.max(...vals).toFixed(2)}`;
+    document.getElementById('vrdStatMin').textContent = `Bs ${Math.min(...vals).toFixed(2)}`;
+    const rangeLabel = range==='MAX' ? `${slice.length} días de historial` : `Últimos ${slice.length} días`;
+    document.getElementById('vrdChartMeta').textContent = `${rangeLabel} · BCB referencial hoy: Bs ${bcbRef.toFixed(2)}`;
 
     const M = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
     const labels = slice.map(h => { const [y,mo,d]=h.date.split('-'); return `${d} ${M[+mo-1]}`; });
 
-    // Overlay USDT history
-    const usdtMap = {};
-    (pricesData?.history||[]).forEach(h => usdtMap[h.date] = (h.buy+h.sell)/2);
-    const usdtOverlay = slice.map(h => usdtMap[h.date] || null);
+    // Línea BCB referencial flat (valor de hoy como referencia)
+    const bcbFlat = slice.map(() => bcbRef);
 
     if (vrdChartInstance) vrdChartInstance.destroy();
     const ctx = document.getElementById('vrdChart').getContext('2d');
@@ -2106,33 +2108,33 @@
       data: {
         labels,
         datasets: [
-          { label:'VRD Compra BCB',
-            data: slice.map(h=>h.vrd),
-            borderColor:'#1565C0',
+          { label:'USDT P2P (Promedio)',
+            data: vals,
+            borderColor:'#1a7f37',
             backgroundColor: c => {
               const g = c.chart.ctx.createLinearGradient(0,0,0,260);
-              g.addColorStop(0,'rgba(21,101,192,0.22)');
-              g.addColorStop(0.6,'rgba(21,101,192,0.06)');
-              g.addColorStop(1,'rgba(21,101,192,0)');
+              g.addColorStop(0,'rgba(26,127,55,0.20)');
+              g.addColorStop(0.6,'rgba(26,127,55,0.05)');
+              g.addColorStop(1,'rgba(26,127,55,0)');
               return g;
             },
             borderWidth:2.5,
             pointRadius: slice.length<=10 ? 5 : slice.length<=20 ? 3 : 0,
             pointHoverRadius:6,
-            pointBackgroundColor:'#1565C0',
+            pointBackgroundColor:'#1a7f37',
             pointBorderColor:'#fff',
             pointBorderWidth:2,
             fill:true, tension:0.35 },
-          { label:'USDT P2P (Promedio)',
-            data: usdtOverlay,
-            borderColor:'rgba(124,58,237,0.75)',
+          { label:'BCB Referencial',
+            data: bcbFlat,
+            borderColor:'rgba(245,184,0,0.85)',
             backgroundColor:'transparent',
             borderWidth:2,
             borderDash:[6,4],
             pointRadius:0,
-            pointHoverRadius:5,
-            pointBackgroundColor:'rgba(124,58,237,0.75)',
-            fill:false, tension:0.35, spanGaps:true }
+            pointHoverRadius:4,
+            pointBackgroundColor:'rgba(245,184,0,0.85)',
+            fill:false, tension:0, spanGaps:true }
         ]
       },
       options: {
@@ -2154,8 +2156,8 @@
               label: c => {
                 const v = c.parsed.y;
                 if (v == null) return null;
-                const icon = c.datasetIndex === 0 ? '🏦' : '🔷';
-                return ` ${icon} ${c.dataset.label}: Bs ${v.toFixed(4)}`;
+                const icon = c.datasetIndex === 0 ? '📈' : '🏛️';
+                return ` ${icon} ${c.dataset.label}: Bs ${v.toFixed(2)}`;
               },
               afterBody: items => {
                 const vrd = slice[items[0].dataIndex].vrd;
