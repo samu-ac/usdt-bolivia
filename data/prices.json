@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-10-06T22:01:27Z",
-  "displayDate": "martes 6 de octubre, 2026",
+  "lastUpdated": "2026-10-07T04:39:08Z",
+  "displayDate": "miercoles 7 de octubre, 2026",
   "binance": {
     "buy": 11.84,
-    "sell": 11.88,
+    "sell": 11.94,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.9,
+    "buy": 11.85,
     "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.12,
+    "buy": 12.13,
     "sell": 11.72,
     "available": true,
     "source": "api_dbb_takenos"
@@ -26,20 +26,20 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.09,
-    "sell": 11.58,
+    "buy": 12.11,
+    "sell": 11.59,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.85,
-    "sell": 11.84,
+    "buy": 11.88,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
     "buy": 11.98,
-    "sell": 11.63,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -47,7 +47,7 @@
     "officialBuy": 11.97,
     "officialSell": 11.97,
     "referentialBuy": 11.84,
-    "referentialSell": 11.88,
+    "referentialSell": 11.94,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -73,14 +73,14 @@
       "sell": 12.27
     },
     {
-      "name": "Banco Económico",
-      "buy": 11.27,
-      "sell": 12.32
-    },
-    {
       "name": "Banco FIE",
       "buy": 11.07,
       "sell": 12.17
+    },
+    {
+      "name": "Banco Económico",
+      "buy": 11.07,
+      "sell": 12.32
     },
     {
       "name": "Banco Unión",
@@ -106,45 +106,38 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "La ‘promesa’ que todavía no brilla: Máximo Mamani y su difícil presente en Oriente",
-      "desc": "El jugador que llegó al fútbol boliviano como una apuesta a futuro no consigue continuidad en sus clubes. Tras su paso por Always Ready, ahora en el refinero no tiene muchos minutos y no será tomado e…",
-      "link": "https://eldeber.com.bo/deportes/promesa-todavia-no-brilla-maximo-mamani-dificil-presente-oriente_1791320921",
-      "date": "2026-10-06T21:08:41Z"
+      "title": "Dos exministros de Luis arce figuran como testigos de descargo de Zúñiga",
+      "desc": "La defensa de Zúñiga dice que la lista de 143 testigos que presentó la Fiscalía se redujo a cinco y todos ya declararon sin mayor incidencia en el proceso",
+      "link": "https://eldeber.com.bo/pais/novillo-prada-alvarez-delgadillo-figuran-testigos-descargo-zuniga_1791341626",
+      "date": "2026-10-07T02:53:46Z"
     },
     {
       "source": "El Deber",
-      "title": "Feminicidio en El Alto: joven muere tras presunta agresión de su pareja",
-      "desc": "Con este nuevo hecho registrado en El Alto, la Fiscalía Departamental de La Paz informó que Bolivia suma 66 víctimas de feminicidio durante lo que va del año",
-      "link": "https://eldeber.com.bo/la-paz/feminicidio-alto-joven-muere-presunta-agresion-pareja_1791320088",
-      "date": "2026-10-06T20:54:48Z"
+      "title": "Allanamientos a casas de Mariaca y Zeballos dejan más de $us 394.000 y Bs 588.000 en efectivo",
+      "desc": "La Fiscalía informó que, hasta el momento, no se acreditó el origen lícito del dinero y que los elementos secuestrados serán sometidos a una revisión dentro de la investigación",
+      "link": "https://eldeber.com.bo/santa-cruz/allanamientos-casas-mariaca-zeballos-dejan-us-394-000-bs-588-000-efectivo_1791340429",
+      "date": "2026-10-07T02:33:49Z"
     },
     {
       "source": "El Deber",
-      "title": "Allanan tres casas de Mariaca y secuestran expedientes fiscales, dinero y una caja fuerte",
-      "desc": "El operativo que concentró uno de los principales hallazgos se realizó en un condominio de la zona norte, que era habitado por Mariaca. Allí los investigadores encontraron y secuestraron una caja fuer…",
-      "link": "https://eldeber.com.bo/santa-cruz/allanan-tres-casas-mariaca-secuestran-expedientes-fiscales-dinero-caja-fuerte_1791318723",
-      "date": "2026-10-06T20:32:03Z"
+      "title": "¿Marset tenía acceso al sistema ROMA del Ministerio Público? El nuevo fiscal responde",
+      "desc": "El fiscal general del Estado, José Armando Urioste, informó detalles sobre la investigación del caso Mariaca. El Sistema informático que usaba la Fiscalía está en la mira de las pesquisas",
+      "link": "https://eldeber.com.bo/pais/marset-tenia-acceso-sistema-roma-ministerio-publico-nuevo-fiscal-responde_1791336553",
+      "date": "2026-10-07T01:29:13Z"
     },
     {
       "source": "El Deber",
-      "title": "Banco Central de Bolivia confirma primer desembolso de $us 211,3 millones del FMI",
-      "desc": "En un escueto comunicado de prensa, el BCB señaló que \"recibió el desembolso correspondiente al primer tramo del préstamo otorgado en el marco del Servicio Ampliado del Fondo Monetario Internacional (…",
-      "link": "https://eldeber.com.bo/economia/banco-central-bolivia-confirma-primer-desembolso-us-211-3-millones-fmi_1791317879",
-      "date": "2026-10-06T20:17:59Z"
+      "title": "Urioste revela que el Escudo de las Américas y  el Instituto Latinoamericano de Investigaciones Forenses cooperan en las investigaciones en la Fiscalía",
+      "desc": "El fiscal General del Estado aseveró que, por ahora, está ocupando una oficina pequeña dentro del edificio del Ministerio Público en la ciudad de Sucre, puesto que la de su antecesor está precintada",
+      "link": "https://eldeber.com.bo/pais/urioste-revela-escudo-americas-instituto-latinoamericano-investigaciones-forenses-cooperan-investigaciones-fiscalia_1791335153",
+      "date": "2026-10-07T01:05:53Z"
     },
     {
       "source": "El Deber",
-      "title": "Ministro Oviedo anticipa un nuevo proceso contra Mariaca",
-      "desc": "El ministro de Gobierno, Marco Antonio Oviedo, reveló que se incautaron dos armas largas sin registro en oficinas del ex fiscal general",
-      "link": "https://eldeber.com.bo/pais/ministro-oviedo-anticipa-nuevo-proceso-mariaca_1791317654",
-      "date": "2026-10-06T20:14:14Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La escasez de gasolina desespera a pobladores en Guarayos",
-      "desc": "Desde la ANH recalcaron la prohibición de venta de combustible a vehículos, tanto de dos como de cuatro ruedas, que no tengan la placa correspondiente",
-      "link": "https://eldeber.com.bo/santa-cruz/escasez-gasolina-desespera-pobladores-guarayos_1791316325",
-      "date": "2026-10-06T19:52:05Z"
+      "title": "Detienen al exjefe de inteligencia de Alemania por espionaje y traición",
+      "desc": "La fiscalía alega que utilizó información clasificada para elaborar un análisis para un servicio de inteligencia extranjero y que mantuvo contacto con el servicio de espionaje de otro país.",
+      "link": "https://eldeber.com.bo/bbc/detienen-al-exjefe-de-inteligencia-de-alemania-por-espionaje-y-traicion-202610613524",
+      "date": "2026-10-06T16:05:24Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -173,6 +166,13 @@
       "desc": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local&nbsp;&nbsp;EL PAÍS",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTy1XNTBIWndrUmpWdl9KTzJfaFJOX2tOZFpVeTd6bHBBYmgwUnN4bGl2MkNMU0hHbElfZlJLQW9PdlloOWczMU14U0UwOG54ZWwyc3czNFliNWhyQWZQcTJXRzFhcEE4UnRzM3l0ckdhV0tqa0ZlLTcxeVh3amF6QnE5NVhrdjBxMEUwYktpZ1dkaUNILUVvbXhlNTVENTRwNmMzblpWS2g3MkpYRVo1WVY3SzVYWTRsaW9vMU1DeWEteFVMX05GamVXMDN1d9IB4gFBVV95cUxOb0JfZ0hIM3NrV3JhNFlMZDBGSGtUd0hXZ3VVTXU0YmwwdlhRYUhPdEdtenJfOTdMRHY3R3BjMWRCNEVUTHFURGZ6SW56SDVZdVZCd2EtN0JodzBKTXk5MTF2VXc1WjBSRnd5RGl2a1l1aDBETXN5R3dCTUVwbm5fVTJnSEZ2ZUpicVRLZlYxMXFNTWFhakxuZHNKZGNpUHBSdUxISVJjNm5zODBROEpFWU45VDJ0M2VsYlVrZ1Ftcm1uTTBRSElHMUUya2NqQU9MX0JFMEM4dnhLU01Pck13Rk9n?oc=5",
       "date": "2026-07-20T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Bolivia avanza hacia el reconocimiento de USDT ante la escasez de dólares - Criptotendencias",
+      "desc": "Bolivia avanza hacia el reconocimiento de USDT ante la escasez de dólares&nbsp;&nbsp;Criptotendencias",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ1FvX1R3REdmNWlCNmRuTUhVV1hHMmg0RUg3Zzh4UFZLSUNaVUJMVkdmSDJLQTNYNkd0cGJiN0UzSXBfUjEtNkJtM3lOVzI2LUxLTUNlZ0pKUk1EdGlfNVRIMmxpQmFBMEJnSU9VY1M4dzZwUFZpdmtjRFJHXzNpdTJBMWxZRmdIVWNDUzF4YXBwZnBTMEl4dmxaZ2xOZXh3MWZNMjR6cno4VHZQYjJVNkxaVDNnUmdQc1lr?oc=5",
+      "date": "2026-07-17T07:00:00Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -211,11 +211,11 @@
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.88,
-    "sellTomorrow": 11.92,
-    "changeBuy": 0.04,
-    "changeSell": 0.04,
-    "trend": "alza",
+    "buyTomorrow": 11.81,
+    "sellTomorrow": 11.88,
+    "changeBuy": -0.03,
+    "changeSell": -0.06,
+    "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4124,6 +4124,11 @@
       "date": "2026-10-06",
       "buy": 11.84,
       "sell": 11.88
+    },
+    {
+      "date": "2026-10-07",
+      "buy": 11.84,
+      "sell": 11.94
     }
   ]
 }
