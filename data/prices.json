@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-10-07T04:39:08Z",
+  "lastUpdated": "2026-10-07T18:08:24Z",
   "displayDate": "miercoles 7 de octubre, 2026",
   "binance": {
-    "buy": 11.84,
-    "sell": 11.94,
+    "buy": 11.88,
+    "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.85,
-    "sell": 11.8,
+    "buy": 11.94,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.13,
-    "sell": 11.72,
+    "buy": 12.16,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.04,
-    "sell": 11.69,
+    "buy": 12.09,
+    "sell": 11.74,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.11,
-    "sell": 11.59,
+    "buy": 12.14,
+    "sell": 11.62,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.88,
-    "sell": 11.81,
+    "buy": 11.9,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.98,
-    "sell": 11.64,
+    "buy": 12.03,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.97,
     "officialSell": 11.97,
-    "referentialBuy": 11.84,
-    "referentialSell": 11.94,
+    "referentialBuy": 11.88,
+    "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -106,38 +106,17 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "Dos exministros de Luis arce figuran como testigos de descargo de Zúñiga",
-      "desc": "La defensa de Zúñiga dice que la lista de 143 testigos que presentó la Fiscalía se redujo a cinco y todos ya declararon sin mayor incidencia en el proceso",
-      "link": "https://eldeber.com.bo/pais/novillo-prada-alvarez-delgadillo-figuran-testigos-descargo-zuniga_1791341626",
-      "date": "2026-10-07T02:53:46Z"
+      "title": "Fiscalía General del Estado deja sin efecto el denominativo Ecosistema \"ROMA\" tras la detención del exfiscal Mariaca",
+      "desc": "La instructiva fue difundida por la institución luego de dar una nueva denominación al sistema como \"MP Integra\", además dejarán de utilizar como distintivo el color verde",
+      "link": "https://eldeber.com.bo/pais/fiscalia-general-estado-deja-efecto-denominativo-ecosistema-roma-detencion-exfiscal-mariaca_1791393462",
+      "date": "2026-10-07T17:17:42Z"
     },
     {
       "source": "El Deber",
-      "title": "Allanamientos a casas de Mariaca y Zeballos dejan más de $us 394.000 y Bs 588.000 en efectivo",
-      "desc": "La Fiscalía informó que, hasta el momento, no se acreditó el origen lícito del dinero y que los elementos secuestrados serán sometidos a una revisión dentro de la investigación",
-      "link": "https://eldeber.com.bo/santa-cruz/allanamientos-casas-mariaca-zeballos-dejan-us-394-000-bs-588-000-efectivo_1791340429",
-      "date": "2026-10-07T02:33:49Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿Marset tenía acceso al sistema ROMA del Ministerio Público? El nuevo fiscal responde",
-      "desc": "El fiscal general del Estado, José Armando Urioste, informó detalles sobre la investigación del caso Mariaca. El Sistema informático que usaba la Fiscalía está en la mira de las pesquisas",
-      "link": "https://eldeber.com.bo/pais/marset-tenia-acceso-sistema-roma-ministerio-publico-nuevo-fiscal-responde_1791336553",
-      "date": "2026-10-07T01:29:13Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Urioste revela que el Escudo de las Américas y  el Instituto Latinoamericano de Investigaciones Forenses cooperan en las investigaciones en la Fiscalía",
-      "desc": "El fiscal General del Estado aseveró que, por ahora, está ocupando una oficina pequeña dentro del edificio del Ministerio Público en la ciudad de Sucre, puesto que la de su antecesor está precintada",
-      "link": "https://eldeber.com.bo/pais/urioste-revela-escudo-americas-instituto-latinoamericano-investigaciones-forenses-cooperan-investigaciones-fiscalia_1791335153",
-      "date": "2026-10-07T01:05:53Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Detienen al exjefe de inteligencia de Alemania por espionaje y traición",
-      "desc": "La fiscalía alega que utilizó información clasificada para elaborar un análisis para un servicio de inteligencia extranjero y que mantuvo contacto con el servicio de espionaje de otro país.",
-      "link": "https://eldeber.com.bo/bbc/detienen-al-exjefe-de-inteligencia-de-alemania-por-espionaje-y-traicion-202610613524",
-      "date": "2026-10-06T16:05:24Z"
+      "title": "Paz denuncia que parlamentarios recibieron amenazas de muerte durante el cambio del Fiscal General",
+      "desc": "“Yo no le temo a la muerte por la patria, porque la muerte no puede ser más grande que la vida que la podamos dar a la construcción de una mejor Bolivia”, afirma el mandatario en un acto en Beni",
+      "link": "https://eldeber.com.bo/pais/paz-denuncia-parlamentarios-recibieron-amenazas-muerte-cambio-fiscal-general_1791391685",
+      "date": "2026-10-07T16:48:05Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -152,6 +131,13 @@
       "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj?oc=5",
       "date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias Bolivia",
+      "title": "El dólar en Bolivia tiende a la baja tras un mes de alza con la flexibilización del tipo de cambio - Infobae",
+      "desc": "El dólar en Bolivia tiende a la baja tras un mes de alza con la flexibilización del tipo de cambio&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNN3kza0pndWt6Z3VMMjhUS1dLS1dXVTFkRFBFZE5HQVpaN0xObW1wTXBuZ1gtWlIyZTJ5c2wtNzFKRU52U0paYlNub1hlcmczX0hsNXVNMzFIeWhKYXNKbEx6NndsX2Jyb0JSV0hBLVlOVEFzS2lrN0VibWVXTWZSRGhRQUZhSEtRTEZ6WnFDRDNaNGFLVERkTXlTZmZabllVSHh5ZFdJU1RZNy1YZjlmc3RNa3B4a3laUFlIZ0lIbzE5Y2lWSUFkTGZjUHNzMnBEVXBCMEdhZWIzUnZXanVESUJVbno2Y1g2RjJLWXF30gGIAkFVX3lxTE1SbzFuNi1ZTU9LVEJFX1VLQl9jdFp0U21NbkgzY2FrUTJMOGFPV3dJYnJDanpGNG0yRFNmc0pzUnVVeGRCUzRMVjZEbHZjNWdWUm1yRVZfUHRCTnpsS3JPQUxBaERIUGk4alp4U1pzMjQyQ3VyMDIycmVmTU9oZjktWDlhQi1pQllvX2VPOUlZRmJmWk04MG1aT1FwRlcxUTNweXgtbWUwZkRaOVhyQVZZaHdTc0xnVnUzTHFobU04WUtVam52aEhkUnU4dWc3MjBWVTlGeE1vZWU3MkwtVVZGbjJJODZVVkQ5emY4by1scUpzTUdmR0R3RWVlNXRIZG5XM2ZIRl9lSg?oc=5",
+      "date": "2026-08-12T07:00:00Z"
     },
     {
       "source": "Google Noticias Bolivia",
@@ -173,13 +159,6 @@
       "desc": "Bolivia avanza hacia el reconocimiento de USDT ante la escasez de dólares&nbsp;&nbsp;Criptotendencias",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ1FvX1R3REdmNWlCNmRuTUhVV1hHMmg0RUg3Zzh4UFZLSUNaVUJMVkdmSDJLQTNYNkd0cGJiN0UzSXBfUjEtNkJtM3lOVzI2LUxLTUNlZ0pKUk1EdGlfNVRIMmxpQmFBMEJnSU9VY1M4dzZwUFZpdmtjRFJHXzNpdTJBMWxZRmdIVWNDUzF4YXBwZnBTMEl4dmxaZ2xOZXh3MWZNMjR6cno4VHZQYjJVNkxaVDNnUmdQc1lr?oc=5",
       "date": "2026-07-17T07:00:00Z"
-    },
-    {
-      "source": "Google Noticias Bolivia",
-      "title": "Expertos sugieren acompañar tipo de cambio flexible con más respaldo financiero en Bolivia - Yahoo Finanzas",
-      "desc": "Expertos sugieren acompañar tipo de cambio flexible con más respaldo financiero en Bolivia&nbsp;&nbsp;Yahoo Finanzas",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTEpHUnFTSmJBUFpQcDU3NHg5SHFZVVU4MWpObmVRbU9MWC04cXQ4X1pENU5sczUwY3ZLLVprRHFHUUVjc2xQT2tBU3JjZjlnWGJ6UU5zanFKZklQMU0tODdBX2RkUENyM002dVJSU0NEalhLa3VSV0ZIX2o1SFkxUVRrb0Q0REhqbk5WMHl6R1U1bW93d0dBNHhBN3dyNjQ?oc=5",
-      "date": "2026-07-10T07:00:00Z"
     },
     {
       "source": "Google Noticias USDT Bolivia",
@@ -208,13 +187,27 @@
       "desc": "¿Qué implica el nuevo tipo de cambio para la economía en Bolivia?&nbsp;&nbsp;France 24",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTd3UFJaY1psUVVYdUlPRUtDX2dXckFEUFRIRFo5S3JZWWNBc3AxTmdid2ZlMXdsSUZpRDNYMHg4ZXIta0g3Y1Y2RkZpdDBhYWUtOXdmNG12OW43VThJNGo3X05oMl9HZzZwbnlxaWRNMEhSQVM3ZFhmY3NiSDNZOWdvQlh5X0ZSSDZtQ0hqVHFOaFZDUFhyeWd0N01JWlpFMS1pVkwwMW5MSzlGbWNRLV9xZmlwNHM?oc=5",
       "date": "2026-06-29T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "USDT es un 35% más caro que el dólar en Bolivia, ¿a qué se debe? - CriptoNoticias",
+      "desc": "USDT es un 35% más caro que el dólar en Bolivia, ¿a qué se debe?&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFZ0bm1LNW8zS0dxSEFWMm9oN2NQby13N2hsV0pObmc4T0JSeGlTVndSMTRpX3VFWmRQVEVyeEZ5SF9KRm1FcUtaTjJvb0ZiemNYZ08yRFB0Q3RKT254ejJCbWhVaWp4ems2Snpna2pWNTRYWndNRDhtcDhvQlgxaVlQRWRfWWVOTDZ4VWlQUlE?oc=5",
+      "date": "2026-03-23T07:00:00Z"
+    },
+    {
+      "source": "Google Noticias USDT Bolivia",
+      "title": "Bybit lanza \"BOB Advantage\": sin comisiones, un fondo de premios de 5.000 USDT y una nueva era para las criptomonedas en Bolivia - PR Newswire",
+      "desc": "Bybit lanza \"BOB Advantage\": sin comisiones, un fondo de premios de 5.000 USDT y una nueva era para las criptomonedas en Bolivia&nbsp;&nbsp;PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPQkhibjJNeDdmVlFLVUlDS2pYbHhQQnN0ZE85ellqTDRmM09DNGo0d2JtcDM0bF9oZ2VjSDdVNm5PRWU2Skc4X2JVLUVMU0lIUkRTazE2Qm54eEFhaXRfcDY1bkhid2o1UGw0RXZOeTF2dy1RTnlWWDVDYm1jaDBoNWZlVUhoZlVFWVI4anF1UDQyaWR2REl4Z3JZRXlPbHk4UkdLWkdqVXFsc2ZRX3BxY1FXYm81Rnc3cy1NSk5Uc0RCbTlTcTJhc0U3YWlVS1M2Zm1qRXRZRUlqN2VMQXZGcU9sRHRKTEdVUDJXUXdIbDhKYTBoTzlLcC03aWdoRXBNcXNwOXM0d1BRNEFfR0d1UVBVRTlKR1ZjNzlR?oc=5",
+      "date": "2026-03-04T08:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.81,
-    "sellTomorrow": 11.88,
-    "changeBuy": -0.03,
-    "changeSell": -0.06,
+    "buyTomorrow": 11.83,
+    "sellTomorrow": 11.87,
+    "changeBuy": -0.05,
+    "changeSell": -0.05,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4127,8 +4120,8 @@
     },
     {
       "date": "2026-10-07",
-      "buy": 11.84,
-      "sell": 11.94
+      "buy": 11.88,
+      "sell": 11.92
     }
   ]
 }
