@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-08T04:11:59Z",
+  "lastUpdated": "2026-10-08T04:49:45Z",
   "displayDate": "jueves 8 de octubre, 2026",
   "binance": {
-    "buy": 11.85,
+    "buy": 11.84,
     "sell": 11.91,
     "available": true,
     "source": "binance_p2p"
@@ -14,7 +14,7 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.15,
+    "buy": 12.14,
     "sell": 11.74,
     "available": true,
     "source": "api_dbb_takenos"
@@ -26,7 +26,7 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.12,
+    "buy": 12.11,
     "sell": 11.6,
     "available": true,
     "source": "api_dbb_airtm"
@@ -38,15 +38,15 @@
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.02,
-    "sell": 11.78,
+    "buy": 12.01,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.85,
     "officialSell": 11.85,
-    "referentialBuy": 11.85,
+    "referentialBuy": 11.84,
     "referentialSell": 11.91,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
@@ -126,6 +126,13 @@
       "date": "2026-10-08T02:36:55Z"
     },
     {
+      "source": "La Razón",
+      "title": "Prada reaparece y niega haber huido por el caso Zúñiga",
+      "desc": "La exministra negó haber abandonado el país y aseguró que acudirá ante la Fiscalía si es convocada formalmente dentro de la investigación.\nThe post Prada reaparece y niega haber huido por el caso Zúñi…",
+      "link": "https://larazon.bo/nacional/2026/10/07/prada-reaparece-y-niega-haber-huido-por-el-caso-zuniga/",
+      "date": "2026-10-08T01:03:13Z"
+    },
+    {
       "source": "El Deber",
       "title": "Una Fiscalía bajo control judicial: la reforma que propone el exfiscal Joadel Bravo",
       "desc": "Bravo sostiene que las investigaciones conocidas a raíz de los procesos contra Mariaca y otros funcionarios evidenciaron, en su criterio, la necesidad de modificar el funcionamiento del Ministerio Púb…",
@@ -145,13 +152,6 @@
       "desc": "La calificadora pone bajo observación la evolución de las reservas líquidas, el déficit fiscal y el cumplimiento del programa acordado con el FMI, entre otros aspectos.",
       "link": "https://eldeber.com.bo/economia/moody-s-observa-durabilidad-reformas-bolivia-suba-otro-escalon-calificacion-soberana_1791418247",
       "date": "2026-10-08T00:10:47Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Carangas destraba trámite en comisión y ahora busca dos tercios en Diputados",
-      "desc": "La comisión aprobó el proyecto de Ley de Necesidad Estatal y ahora la iniciativa llegará al pleno de Diputados\nThe post Carangas destraba trámite en comisión y ahora busca dos tercios en Diputados app…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/07/carangas-destraba-tramite-en-comision-y-ahora-busca-dos-tercios-en-diputados/",
-      "date": "2026-10-07T23:36:38Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -225,6 +225,13 @@
     },
     {
       "source": "Google — BCB reservas",
+      "title": "BCB confirma desembolso de $us 211,3 millones del FMI para “fortalecer las reservas internacionales” - unitel.bo",
+      "desc": "BCB confirma desembolso de $us 211,3 millones del FMI para “fortalecer las reservas internacionales”&nbsp;&nbsp;unitel.bo",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2djd2tsRmI3ekRQS0dLSVVqVE83YUZHa3NoT1BoOHUzRC1ZazJUUzhKd2ZaVHk5QWdYdkhfQlpSbmVDODgzU1JZTVlrci1GMlMyOWVhZ1h5TUtkSGNGNkJMeHljdDFXQzdrYW1rN1dLZ3djTnVMcWpEZDhhdV93TFVXZkg3TmpPX21tUVRFUFB4MzAwQUM2Ni1id1R2R2M3SzhEN1V6cDJ4TUYyRmJIeGhBZmhKLXRtWlRkNkJFY1h2QUxRb3pCczdoVDBsVkRLMlNmVnBZemxhMDQ?oc=5",
+      "date": "2026-10-06T18:36:35Z"
+    },
+    {
+      "source": "Google — BCB reservas",
       "title": "BCB confirma la recepción de $us 211,3 millones del FMI para fortalecer las reservas internacionales - Red PAT",
       "desc": "BCB confirma la recepción de $us 211,3 millones del FMI para fortalecer las reservas internacionales&nbsp;&nbsp;Red PAT",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYTZEOUQ0RXVnR3pUNkttVnl2Sk5TNktJaWlFUFdzTU1FLXNEZjdYWVZpQ3MyVUpGSHJWY2ZIZWhnVGhPX2RCSnN1NTE2MXFVbWxGVEltSUNoalU1YTV4ZVJHcDN3TUZNNzVNWjBlblBjY2NSUl9SX3Zsci0tci0tS3ZLVDhCWldUQkxOeEF6TTdZM1lQRGs5Z1Y3ZW5hUmZ5VGdMRW9HWTRSaVV2RHQ0aEpXb09CcWNkRE1ld1RfZGtITlkwdGpBLQ?oc=5",
@@ -271,19 +278,12 @@
       "desc": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia&nbsp;&nbsp;eju.tv",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeEEwczB2OVJpRm1DcWhfWGdrZnFfdlpkaUtUeEZ4MW5xVnlXQzMxRnBqTHFlSGRWOXlrQzNlVDBwZnNrUzNWNHhqcXpKYzRpWFFYczBldXItTm03ZnBObDA3OXNBZXQzZVhCTVZmakRNRmJpcFpia2NCWmExeW1yWUJaRTg5azdqUkxTRnMxSzBlWkV2Ql9vWTNIYkRkdVRIQWc4dEdkeUxaU3ZHUDhCV3F5ZmdiOXVtZW9rQVh5V0lzb0JJY3c?oc=5",
       "date": "2026-10-03T13:28:35Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Parlamento boliviano aprueba crédito del FMI que obliga a eliminar subsidios y otros recortes - The Edwardsville Intelligencer",
-      "desc": "Parlamento boliviano aprueba crédito del FMI que obliga a eliminar subsidios y otros recortes&nbsp;&nbsp;The Edwardsville Intelligencer",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSEdvTUFFNkEwS0dzdFZkVzVGREE1OHNjQjZIZWMwaGdBcGFUbWJCRTNXeXFBdnNMb21mWnNLXzFzeE44U1MtWWtTb2xpc1VONjRsV3hrUU9FVDJMWVdmaFJ4NTR0YTRoSzcydHdtYTJWMU9CZWlab2EwdHIxb3IyRk1SdGhtVks2T1BQQlQ3YjZVbWtKVEE0R0d6RlBoOU1YWVY2MXoyeFVoMW43S3ZKY3A2bw?oc=5",
-      "date": "2026-09-19T00:51:37Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.85,
     "sellTomorrow": 11.91,
-    "changeBuy": 0.0,
+    "changeBuy": 0.01,
     "changeSell": 0.0,
     "trend": "estable",
     "confidence": "alta",
@@ -4197,7 +4197,7 @@
     },
     {
       "date": "2026-10-08",
-      "buy": 11.85,
+      "buy": 11.84,
       "sell": 11.91
     }
   ]
