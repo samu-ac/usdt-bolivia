@@ -1,101 +1,101 @@
 {
-  "lastUpdated": "2026-10-08T04:49:45Z",
+  "lastUpdated": "2026-10-08T18:10:34Z",
   "displayDate": "jueves 8 de octubre, 2026",
   "binance": {
-    "buy": 11.84,
-    "sell": 11.91,
+    "buy": 11.89,
+    "sell": 11.93,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.9,
-    "sell": 11.82,
+    "buy": 11.95,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.14,
-    "sell": 11.74,
+    "buy": 12.16,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.06,
-    "sell": 11.71,
+    "buy": 12.09,
+    "sell": 11.74,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.11,
-    "sell": 11.6,
+    "buy": 12.14,
+    "sell": 11.62,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
     "buy": 11.89,
-    "sell": 11.87,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.01,
-    "sell": 11.77,
+    "buy": 12.03,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.85,
     "officialSell": 11.85,
-    "referentialBuy": 11.84,
-    "referentialSell": 11.91,
+    "referentialBuy": 11.89,
+    "referentialSell": 11.93,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.67,
-      "sell": 12.27
+      "buy": 11.55,
+      "sell": 12.15
     },
     {
       "name": "BCP",
-      "buy": 11.47,
-      "sell": 12.27
+      "buy": 11.35,
+      "sell": 12.15
     },
     {
       "name": "BNB",
-      "buy": 11.47,
-      "sell": 12.27
+      "buy": 11.35,
+      "sell": 12.15
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.27,
-      "sell": 12.27
+      "buy": 11.15,
+      "sell": 12.15
     },
     {
       "name": "Banco FIE",
-      "buy": 11.07,
-      "sell": 12.17
+      "buy": 10.95,
+      "sell": 12.05
     },
     {
       "name": "Banco Económico",
-      "buy": 11.07,
-      "sell": 12.32
+      "buy": 10.85,
+      "sell": 12.2
     },
     {
       "name": "Banco Unión",
-      "buy": 10.97,
-      "sell": 12.27
+      "buy": 10.85,
+      "sell": 12.05
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.87,
-      "sell": 12.27
+      "buy": 10.75,
+      "sell": 12.15
     },
     {
       "name": "BancoSol",
-      "buy": 10.77,
-      "sell": 12.27
+      "buy": 10.67,
+      "sell": 12.15
     },
     {
       "name": "Banco Ganadero",
@@ -105,53 +105,60 @@
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Oriente cumple, derrota a FC Universitario y sigue en carrera",
-      "desc": "El refinero se impuso 2-0 y aseguró su presencia en la siguiente fase de la Copa Bolivia, donde enfrentará a Nacional Potosí.",
-      "link": "https://eldeber.com.bo/deportes/oriente-cumple-derrota-fc-universitario-sigue-carrera_1791427912",
-      "date": "2026-10-08T02:51:52Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Apolo: frenan actividad minera en \"El Encuentro\" por falta de autorización y licencia ambiental",
-      "desc": "Durante la intervención, la comitiva tomó contacto con representantes de la comunidad y verificó la existencia de derechos preconstituidos que se encuentran en trámite ante la autoridad competente",
-      "link": "https://eldeber.com.bo/pais/apolo-frenan-actividad-minera-encuentro-falta-autorizacion-licencia-ambiental_1791427272",
-      "date": "2026-10-08T02:41:12Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Diputados plantean legislar elección de fiscales departamentales",
-      "desc": "El diputado Carlos Alarcón dijo que la comisión mixta de Justicia ya inició su trabajo en coordinación con la Vicepresidencia",
-      "link": "https://eldeber.com.bo/pais/diputados-plantean-legislar-eleccion-fiscales-departamentales_1791427015",
-      "date": "2026-10-08T02:36:55Z"
+      "source": "La Razón",
+      "title": "Reaparece el exministro Espinoza y defiende ‘reordenamiento económico’",
+      "desc": "Afirmó que la contracción de la economía boliviana responde al ajuste del gasto público\nThe post Reaparece el exministro Espinoza y defiende &#8216;reordenamiento económico&#8217; appeared first on La…",
+      "link": "https://larazon.bo/lr-article/2026/10/08/reaparece-el-exministro-espinoza-y-defiende-reordenamiento-economico/",
+      "date": "2026-10-08T18:05:36Z"
     },
     {
       "source": "La Razón",
-      "title": "Prada reaparece y niega haber huido por el caso Zúñiga",
-      "desc": "La exministra negó haber abandonado el país y aseguró que acudirá ante la Fiscalía si es convocada formalmente dentro de la investigación.\nThe post Prada reaparece y niega haber huido por el caso Zúñi…",
-      "link": "https://larazon.bo/nacional/2026/10/07/prada-reaparece-y-niega-haber-huido-por-el-caso-zuniga/",
-      "date": "2026-10-08T01:03:13Z"
+      "title": "Análisis realizado por la UMSA detecta metales pesados en aguas de Hampaturi",
+      "desc": "Las muestras fueron tomadas a finales de septiembre. Esta área es estratégica para el abastecimiento de agua potable a la ciudad de La Paz.\nThe post Análisis realizado por la UMSA detecta metales pesa…",
+      "link": "https://larazon.bo/sociedad/2026/10/08/analisis-realizado-por-la-umsa-detecta-metales-pesados-en-aguas-de-hampaturi/",
+      "date": "2026-10-08T16:59:29Z"
     },
     {
       "source": "El Deber",
-      "title": "Una Fiscalía bajo control judicial: la reforma que propone el exfiscal Joadel Bravo",
-      "desc": "Bravo sostiene que las investigaciones conocidas a raíz de los procesos contra Mariaca y otros funcionarios evidenciaron, en su criterio, la necesidad de modificar el funcionamiento del Ministerio Púb…",
-      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-control-judicial-reforma-propone-exfiscal-joadel-bravo_1791420703",
-      "date": "2026-10-08T00:51:43Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Fiscalía halla armas cargadas en un vehículo vinculado a Mariaca",
-      "desc": "El fiscal general interino anunció la revisión de todos los motorizados del Ministerio Público tras el hallazgo registrado en uno de ellos.\nThe post Fiscalía halla armas cargadas en un vehículo vincul…",
-      "link": "https://larazon.bo/nacional/2026/10/07/fiscalia-halla-armas-cargadas-en-un-vehiculo-vinculado-a-mariaca/",
-      "date": "2026-10-08T00:32:43Z"
+      "title": "Indignación por la muerte de Maricarmen, la anciana que fue desalojada en plena crisis de vivienda",
+      "desc": "El próximo 11 de noviembre se celebrará una huelga general por la vivienda en España",
+      "link": "https://eldeber.com.bo/mundo/indignacion-muerte-maricarmen-anciana-fue-desalojada-plena-crisis-vivienda_1791477315",
+      "date": "2026-10-08T16:35:53Z"
     },
     {
       "source": "El Deber",
-      "title": "Moody’s observa la durabilidad de las reformas para que Bolivia suba otro escalón en su calificación soberana",
-      "desc": "La calificadora pone bajo observación la evolución de las reservas líquidas, el déficit fiscal y el cumplimiento del programa acordado con el FMI, entre otros aspectos.",
-      "link": "https://eldeber.com.bo/economia/moody-s-observa-durabilidad-reformas-bolivia-suba-otro-escalon-calificacion-soberana_1791418247",
-      "date": "2026-10-08T00:10:47Z"
+      "title": "Festival de Teatro Pauro levanta el telón de su 43.ª edición",
+      "desc": "Del 8 al 19 de octubre, el Teatro del Colegio Marista será escenario de este importante evento teatral que reunirá a elencos escolares, universitarios e independientes",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/festival-teatro-pauro-levanta-telon-43-edicion_1791477326",
+      "date": "2026-10-08T16:35:26Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Qué reclaman los estudiantes que están participando en las violentas protestas que sacuden a Francia",
+      "desc": "Desde finales de septiembre, estudiantes de toda Francia han estado protestando contra la falta de financiación de la educación y han bloqueado el acceso a muchos institutos de secundaria.",
+      "link": "https://eldeber.com.bo/bbc/que-reclaman-los-estudiantes-que-estan-participando-en-las-violentas-protestas-que-sacuden-a-francia-2026108131611",
+      "date": "2026-10-08T16:16:11Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Alcaldía cruceña lanza nuevo plazo excepcional de perdonazo tributario",
+      "desc": "La medida está contemplada para este mes de octubre y dirigida a los contribuyentes con rebajas irregulares. El periodo arranca este jueves 8 y concluirá el viernes 16",
+      "link": "https://eldeber.com.bo/santa-cruz/alcaldia-crucena-lanza-nuevo-plazo-excepcional-perdonazo-tributario_1791474862",
+      "date": "2026-10-08T15:54:22Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Yapacaní: retienen a presuntos ladrones y queman su vehículo",
+      "desc": "El hecho se registró la mañana de este jueves 8 de octubre, lugar donde los dos sujetos fueron reducidos.",
+      "link": "https://eldeber.com.bo/santa-cruz/yapacani-retienen-presuntos-ladrones-queman-vehiculo_1791470498",
+      "date": "2026-10-08T14:41:38Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI ratifica que Bolivia eliminará los subsidios a combustibles a inicios de 2027 - Correo del Sur",
+      "desc": "FMI ratifica que Bolivia eliminará los subsidios a combustibles a inicios de 2027&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTHBOSExZV2JrN0ZWSmdveGlJYmpBaHB5X1FPRFk0WXRxSmRqbXV1Sk1nTm9sSVZycDNnSThoOFlyQ1hpY1BjeGthbHEtQXhLdnRmTVR2T2NieHUwVEJmaGI3OXNJaFZMUmZJUGtQZFRHZ2hKZlpNanlIS2Y2ZGJ2Q2JicjNYQnE4WC1pQTJ4TFlEZlNIRldJbENsZXd4Yi1vNnc3cEgxbFE5dlZPT3lhRjhtd0w2MmhxSVcyV0dWMDExRmVnWUl6Tg?oc=5",
+      "date": "2026-10-08T02:19:00Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -159,20 +166,6 @@
       "desc": "Así cierra el dólar paralelo este miércoles 7 de octubre en Bolivia&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdkxsMUozTWtId0p4a1RJNHpwR3lpeFR1Y1l4d0taSF82VFFMQXFWTlVmYTRoczNPMUhMZEVGWGU2bFpFRnpsdVZ4dzZ2NktLOXVxZ2xsWkQwRmstby02MlQxX0dNdXBBc19BMlN6S2RfTEtxRlE3Q0ZOZWZBMnJGUGtaU2VWbWItdHlkSEFqU3p0dkV3SVREWjFDLVdSY0JNR2RtblJpbnVja3dOeGdXeEt5VS1JNXc?oc=5",
       "date": "2026-10-07T22:19:54Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB ratifica una inflación de 9,2% para el cierre de 2026 - Red Uno",
-      "desc": "BCB ratifica una inflación de 9,2% para el cierre de 2026&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNmlVejJlbWNZbGJWaHFhbUZ6NzR5cjdBODhEeVhGcC1SS3hCX2xJTWpBaEt4bnBjUWZQVE0zZWFXSjkxaExEVXBRRlB0NWVUUHZpU1VVNmtPTHNXMUV1U3U2eDU1Xy1objUtYjlDYmcxQWpydklOTFJ0M29nYV83RGNzUmlGRGZGVnltY0tXNWtGbkJ5U2wwSllLQnl1NWZJTkhRenZQaHo?oc=5",
-      "date": "2026-10-07T21:04:54Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Gobierno de Bolivia confirma segundo desembolso del FMI - La Patria Bolivia",
-      "desc": "Gobierno de Bolivia confirma segundo desembolso del FMI&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOFFUUEhHS3RhMWRkRjhYaDlNNkhBVkV0bEJhM3lMNS1Dd1BaeUtPdExZLTNzWUZULXNWd1BQUFFuaFZXb3d0Rm5uSGZNeDU1X3JOSWFOdTg0cExNaXBDazROMFZSNnVDZ1Q5OElObnFVWUR5WS1HY0xEUzFVTnplbkpleEpCUzNoTnU1OFZlQXRkSy1leURGZXp3?oc=5",
-      "date": "2026-10-07T17:45:45Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -183,24 +176,10 @@
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "Gobierno anuncia segundo desembolso del FMI entre noviembre y diciembre - Correo del Sur",
-      "desc": "Gobierno anuncia segundo desembolso del FMI entre noviembre y diciembre&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVE1fLVJqMjJiM2s2bGRfYmNUcTdKdTZmYjktODd2eUNTSWJXUjBUWXlSMlg0cl9tNkhldTlrVkYzMi0wT3FIYlRrUDdleHMtNTJ4OUROWF9YaVBISEhhbU1OQ183SHZwOTR3d1dmUUxtbEpxeVJOYW0yQ29iX25tN1ByTXZheTBFczJEdnJYXzdWNkV0SmZ6WHVOUnFBdGpDMTExM2Fra3FJTG5nbzFOQzRHMkQ3MEsxSmh3?oc=5",
-      "date": "2026-10-07T15:51:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
       "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
       "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
       "date": "2026-10-07T14:58:45Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "¿Piensa cambiar dólares? Así se cotiza este miércoles en Bolivia - Red Uno",
-      "desc": "¿Piensa cambiar dólares? Así se cotiza este miércoles en Bolivia&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVEVlUHd5Zlp2N2dNY1FRaFNTemU0UnJwcndPeHlSX2tnY2VfeUYzay1YMy0zSUJSaGZrcWx0Ym1uMFRlMTRaazhGS0s1MG1XWE5pOUtLb1VRLVZ1VHlWMTJrd09zSzdqdVJaU2VZaGVmMmRXT1NiRnltTHRBV2lJNjJGZ0lTSEdjOTBZVjZoc3FlcEN4NGVlYVBWVTVUaUFRdGxIRXFlME10SExKUUJj?oc=5",
-      "date": "2026-10-07T10:54:42Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -229,6 +208,13 @@
       "desc": "BCB confirma desembolso de $us 211,3 millones del FMI para “fortalecer las reservas internacionales”&nbsp;&nbsp;unitel.bo",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2djd2tsRmI3ekRQS0dLSVVqVE83YUZHa3NoT1BoOHUzRC1ZazJUUzhKd2ZaVHk5QWdYdkhfQlpSbmVDODgzU1JZTVlrci1GMlMyOWVhZ1h5TUtkSGNGNkJMeHljdDFXQzdrYW1rN1dLZ3djTnVMcWpEZDhhdV93TFVXZkg3TmpPX21tUVRFUFB4MzAwQUM2Ni1id1R2R2M3SzhEN1V6cDJ4TUYyRmJIeGhBZmhKLXRtWlRkNkJFY1h2QUxRb3pCczdoVDBsVkRLMlNmVnBZemxhMDQ?oc=5",
       "date": "2026-10-06T18:36:35Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Bolivia recibe primer desembolso del FMI por $us 211,3 millones - Red Uno",
+      "desc": "Bolivia recibe primer desembolso del FMI por $us 211,3 millones&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZTZMMTNVaVZyMGhNVWdxYlFIOHZPOTJuVDRVZ0JJSzdTaFBuR0JTUm8tejYxOTJtNXdBazA3YnhKSlhmLUZXRzJfd242Tnk2QXZvak5XSVdQQ09pTFFfcGhFb3RPNnZLSFc2YTZpWHZNRF8xOTNNTm1XUEFEcU43UTk3enNsMHFBVzRBRmNiWE9LZktTbWszNXNLVktVNEQ0aVhCbzhvQXlrZlZ5eGh1Qm1qYVJ2UjZZNElCekptOWtUSXdZamtHYzVR?oc=5",
+      "date": "2026-10-06T17:04:34Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -273,17 +259,31 @@
       "date": "2026-10-05T19:01:55Z"
     },
     {
+      "source": "Google — FMI Bolivia",
+      "title": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles - Opinión Bolivia",
+      "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
+      "date": "2026-10-05T18:50:37Z"
+    },
+    {
       "source": "Google — Dólar Bolivia",
       "title": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia - eju.tv",
       "desc": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia&nbsp;&nbsp;eju.tv",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeEEwczB2OVJpRm1DcWhfWGdrZnFfdlpkaUtUeEZ4MW5xVnlXQzMxRnBqTHFlSGRWOXlrQzNlVDBwZnNrUzNWNHhqcXpKYzRpWFFYczBldXItTm03ZnBObDA3OXNBZXQzZVhCTVZmakRNRmJpcFpia2NCWmExeW1yWUJaRTg5azdqUkxTRnMxSzBlWkV2Ql9vWTNIYkRkdVRIQWc4dEdkeUxaU3ZHUDhCV3F5ZmdiOXVtZW9rQVh5V0lzb0JJY3c?oc=5",
       "date": "2026-10-03T13:28:35Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Parlamento boliviano aprueba crédito del FMI que obliga a eliminar subsidios y otros recortes - The Edwardsville Intelligencer",
+      "desc": "Parlamento boliviano aprueba crédito del FMI que obliga a eliminar subsidios y otros recortes&nbsp;&nbsp;The Edwardsville Intelligencer",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSEdvTUFFNkEwS0dzdFZkVzVGREE1OHNjQjZIZWMwaGdBcGFUbWJCRTNXeXFBdnNMb21mWnNLXzFzeE44U1MtWWtTb2xpc1VONjRsV3hrUU9FVDJMWVdmaFJ4NTR0YTRoSzcydHdtYTJWMU9CZWlab2EwdHIxb3IyRk1SdGhtVks2T1BQQlQ3YjZVbWtKVEE0R0d6RlBoOU1YWVY2MXoyeFVoMW43S3ZKY3A2bw?oc=5",
+      "date": "2026-09-19T00:51:37Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.85,
-    "sellTomorrow": 11.91,
-    "changeBuy": 0.01,
+    "buyTomorrow": 11.88,
+    "sellTomorrow": 11.93,
+    "changeBuy": -0.01,
     "changeSell": 0.0,
     "trend": "estable",
     "confidence": "alta",
@@ -4197,8 +4197,8 @@
     },
     {
       "date": "2026-10-08",
-      "buy": 11.84,
-      "sell": 11.91
+      "buy": 11.89,
+      "sell": 11.93
     }
   ]
 }
