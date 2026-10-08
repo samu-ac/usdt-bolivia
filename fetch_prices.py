@@ -323,13 +323,22 @@ NEWS_KEYWORDS = [
     "diésel","diesel","combustible","exportaciones","importaciones",
     "deuda","fiscal","tco","moneda","divisa","finanzas",
     "presupuesto","gas","litio","inversión","inversion","crecimiento",
+    "ine","índice de precios","ipc","fmi","fondo monetario","imf",
+    "devaluación","devaluacion","paridad","paralelo","mercado negro",
+    "reservas internacionales","dólares","usdt","cripto","criptomoneda",
+    "tasa","cambio oficial","bcb oficial","bolivianos","déficit","superávit",
+    "septiembre","octubre","noviembre","precio dólar",
 ]
 
 RSS_SOURCES = [
-    {"name": "El Deber",      "url": "https://eldeber.com.bo/feed"},
-    {"name": "Página Siete",  "url": "https://www.paginasiete.bo/feed"},
-    {"name": "Google Noticias Bolivia", "url": "https://news.google.com/rss/search?q=economia+bolivia+dolar+tipo+cambio&hl=es-419&gl=BO&ceid=BO:es-419"},
-    {"name": "Google Noticias USDT Bolivia", "url": "https://news.google.com/rss/search?q=USDT+Bolivia+criptomonedas&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "El Deber",         "url": "https://eldeber.com.bo/feed"},
+    {"name": "La Razón",         "url": "https://www.la-razon.com/feed/"},
+    {"name": "Google — Dólar Bolivia",    "url": "https://news.google.com/rss/search?q=dolar+tipo+cambio+Bolivia&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "Google — INE inflación",    "url": "https://news.google.com/rss/search?q=INE+Bolivia+inflacion+IPC&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "Google — FMI Bolivia",      "url": "https://news.google.com/rss/search?q=FMI+Fondo+Monetario+Bolivia+economia&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "Google — BCB reservas",     "url": "https://news.google.com/rss/search?q=BCB+Bolivia+reservas+internacionales&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "Google — USDT Bolivia",     "url": "https://news.google.com/rss/search?q=USDT+Bitcoin+cripto+Bolivia&hl=es-419&gl=BO&ceid=BO:es-419"},
+    {"name": "Google — Economía Bolivia", "url": "https://news.google.com/rss/search?q=economia+financiera+Bolivia+2026&hl=es-419&gl=BO&ceid=BO:es-419"},
 ]
 
 def strip_html(txt):
@@ -343,7 +352,7 @@ def rss_date_to_iso(raw):
             pass
     return None
 
-def fetch_rss(source, max_items=6):
+def fetch_rss(source, max_items=5):
     h = {"User-Agent": HEADERS["User-Agent"], "Accept": "application/rss+xml, application/xml, text/xml"}
     req = urllib.request.Request(source["url"], headers=h)
     items = []
@@ -380,7 +389,15 @@ for src in RSS_SOURCES:
     print(f"   {src['name']}: {len(items)} noticias")
 
 all_news.sort(key=lambda x: x["date"], reverse=True)
-all_news = all_news[:15]
+# Deduplicar por título similar
+seen_titles = set()
+deduped = []
+for n in all_news:
+    key = n["title"][:60].lower()
+    if key not in seen_titles:
+        seen_titles.add(key)
+        deduped.append(n)
+all_news = deduped[:25]
 print(f"   Total: {len(all_news)} noticias seleccionadas")
 
 # ── Predicción de tendencia ────────────────────────────────────────────────
