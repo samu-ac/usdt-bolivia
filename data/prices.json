@@ -1,39 +1,39 @@
 {
-  "lastUpdated": "2026-10-09T00:04:11Z",
-  "displayDate": "jueves 8 de octubre, 2026",
+  "lastUpdated": "2026-10-09T04:52:46Z",
+  "displayDate": "viernes 9 de octubre, 2026",
   "binance": {
-    "buy": 11.85,
-    "sell": 11.89,
+    "buy": 11.86,
+    "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.94,
-    "sell": 11.82,
+    "buy": 11.85,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.13,
-    "sell": 11.73,
+    "buy": 12.15,
+    "sell": 11.75,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.05,
-    "sell": 11.7,
+    "buy": 12.07,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.11,
-    "sell": 11.59,
+    "buy": 12.13,
+    "sell": 11.61,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.88,
-    "sell": 11.85,
+    "buy": 11.9,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_bybit"
   },
@@ -46,8 +46,8 @@
   "bcb": {
     "officialBuy": 11.85,
     "officialSell": 11.85,
-    "referentialBuy": 11.85,
-    "referentialSell": 11.89,
+    "referentialBuy": 11.86,
+    "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -105,74 +105,53 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Bolivia expresa preocupación a Chile por cargamentos de madera",
-      "desc": "Los cancilleres de ambos países abordaron el tema antes de la visita oficial del presidente chileno José Antonio Kast, prevista para el 16 de octubre.\nThe post Bolivia expresa preocupación a Chile por…",
-      "link": "https://larazon.bo/nacional/2026/10/08/bolivia-expresa-preocupacion-a-chile-por-cargamentos-de-madera/",
-      "date": "2026-10-08T23:42:03Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Activan comités de defensa para retiro de balsas mineras en Pando",
-      "desc": "El 13 de octubre se realizará una asamblea para definir las medidas para el desalojo\nThe post Activan comités de defensa para retiro de balsas mineras en Pando appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/08/activan-comites-de-defensa-para-retiro-de-balsas-mineras-en-pando/",
-      "date": "2026-10-08T23:37:43Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Urioste designa a nueve fiscales departamentales suplentes",
-      "desc": "El fiscal general interino anunció una reorganización institucional con énfasis en la transparencia y la lucha contra la corrupción.\nThe post Urioste designa a nueve fiscales departamentales suplentes…",
-      "link": "https://larazon.bo/nacional/2026/10/08/urioste-designa-a-nueve-fiscales-departamentales-suplentes/",
-      "date": "2026-10-08T23:31:04Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Verifican denuncias de minería ilegal y deforestación en Pando",
-      "desc": "Se identificaron 30 hectáreas de superficie intervenida con presencia de tala o deforestación\nThe post Verifican denuncias de minería ilegal y deforestación en Pando appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/08/verifican-denuncias-de-mineria-ilegal-y-deforestacion-en-pando/",
-      "date": "2026-10-08T23:29:27Z"
+      "source": "El Deber",
+      "title": "Atracadores ingresan a dos casas en Potosí y roban más de Bs 3,5 millones",
+      "desc": "Encapuchados armados irrumpieron en las viviendas de familias mineras en menos de 24 horas. En uno de los atracos, en la zona de Alto Potosí, maniataron a los ocupantes y golpearon al propietario, que…",
+      "link": "https://eldeber.com.bo/pais/atracadores-ingresan-dos-casas-potosi-roban-bs-3-5-millones_1791513863",
+      "date": "2026-10-09T02:44:23Z"
     },
     {
       "source": "El Deber",
-      "title": "Exministro recomienda mejorar red eléctrica antes de cambiar matriz energética",
-      "desc": "Mauricio Medinaceli también exhortó al Gobierno a mantener la eliminación de la subvención porque ese era el plan original y aseguró que el 25% del diésel se iba a Perú",
-      "link": "https://eldeber.com.bo/pais/exministro-recomienda-mejorar-red-electrica-antes-cambiar-matriz-energetica_1791502142",
-      "date": "2026-10-08T23:29:02Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Fiscalía General del Estado designa a nueve fiscales departamentales en suplencia",
-      "desc": "La resolución ratifica a Mabel Andrade como fiscal departamental de Santa Cruz. Los nueve fiscales son los decanos de la institución de cada departamento",
-      "link": "https://eldeber.com.bo/pais/fiscalia-general-estado-designa-nueve-fiscales-departamentales-suplencia_1791501178",
-      "date": "2026-10-08T23:12:58Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Bolsonaro lidera la primera encuesta previa a la segunda vuelta Presidencial de Brasil",
-      "desc": "La primera encuesta de intención de voto previa a la segunda vuelta el 25 de octubre, divulgada este jueves por Datafolha, indica una diferencia de solo 4 puntos porcentuales entre ambos candidatos, p…",
-      "link": "https://eldeber.com.bo/mundo/bolsonaro-lidera-primera-encuesta-previa-segunda-vuelta-presidencial-brasil_1791499480",
-      "date": "2026-10-08T22:44:47Z"
+      "title": "El presidente de Chile visitará Bolivia el 16 de octubre",
+      "desc": "La relación bilateral ha tenido altibajos en las últimas décadas y alcanzó uno de sus momentos más tensos en 2013, cuando durante el Gobierno de Evo Morales (2006-2019), Bolivia recurrió a la Corte In…",
+      "link": "https://eldeber.com.bo/mundo/presidente-chile-visitara-bolivia-16-octubre_1791513315",
+      "date": "2026-10-09T02:35:15Z"
     },
     {
       "source": "La Razón",
-      "title": "Medinaceli sugiere sustituir subvención por empleo y mejores servicios",
-      "desc": "Medinaceli afirmó que un estudio que elaboró recientemente identifica una importante salida ilegal de diésel hacia países vecinos\nThe post Medinaceli sugiere sustituir subvención por empleo y mejores …",
-      "link": "https://larazon.bo/lr-article/2026/10/08/medinaceli-sugiere-sustituir-subvencion-por-empleo-y-mejores-servicios/",
-      "date": "2026-10-08T22:37:30Z"
+      "title": "Cancillería confirma visita de Kast a Bolivia para el 16 de octubre",
+      "desc": "La agenda bilateral incluye cooperación contra el crimen organizado y el análisis de cargamentos de madera boliviana retenidos en puertos chilenos.\nThe post Cancillería confirma visita de Kast a Boliv…",
+      "link": "https://larazon.bo/nacional/2026/10/08/cancilleria-confirma-visita-de-kast-a-bolivia-para-el-16-de-octubre/",
+      "date": "2026-10-09T02:15:51Z"
     },
     {
       "source": "El Deber",
-      "title": "Se suspende el diálogo entre el gobierno y choferes hasta el martes",
-      "desc": "Desde el Ministerio de Obras Públicas indicaron que la mesa técnica instalada la tarde de este jueves se suspendió hasta el martes, 13 de octubre",
-      "link": "https://eldeber.com.bo/pais/suspende-dialogo-gobierno-choferes-martes_1791498181",
-      "date": "2026-10-08T22:23:01Z"
+      "title": "¿Qué reveló el senador Ormachea sobre la elección de Urioste como fiscal general?",
+      "desc": "En una entrevista con CNN, el nuevo fiscal Urioste reveló que un “amigo empresario” le pidió su hoja de vida días antes de su designación",
+      "link": "https://eldeber.com.bo/pais/revelo-senador-ormachea-eleccion-urioste-fiscal-general_1791511897",
+      "date": "2026-10-09T02:11:37Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Paz y el embajador de India acuerdan ampliar la cooperación bilateral",
+      "desc": "La agenda contempla comercio, inversión, tecnología, becas y proyectos de desarrollo. India también prevé nuevas iniciativas de cooperación con Bolivia durante 2026.\nThe post Paz y el embajador de Ind…",
+      "link": "https://larazon.bo/nacional/2026/10/08/paz-y-el-embajador-de-india-acuerdan-ampliar-la-cooperacion-bilateral/",
+      "date": "2026-10-09T00:31:35Z"
     },
     {
       "source": "El Deber",
-      "title": "¿Qué encontraron en la oficina del exfiscal Róger Mariaca en Sucre?",
-      "desc": "La comisión fiscal que investiga a Róger Mariaca desprecintó el despacho que ocupaba la exautoridad en la Fiscalía General del Estado, en Sucre",
-      "link": "https://eldeber.com.bo/pais/encontraron-oficina-exfiscal-roger-mariaca-sucre_1791497628",
-      "date": "2026-10-08T22:13:48Z"
+      "title": "Pedro Colanzi: “Se han quemado más de $us 15 millones en madera y se han perdido casi 20.000 empleos”",
+      "desc": "El presidente de la Cámara Forestal de Bolivia denuncia que la destrucción de cargamentos retenidos en Chile continúa pese a los reclamos del sector. Advierte sobre el daño a las exportaciones, la pér…",
+      "link": "https://eldeber.com.bo/economia/pedro-colanzi-han-quemado-us-15-millones-madera-han-perdido-casi-20-000-empleos_1791505814",
+      "date": "2026-10-09T00:30:14Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Jaime Aparicio: “Queremos abrirnos al mundo, pero no tenemos el instrumento más importante: la diplomacia”",
+      "desc": "El diplomático de carrera cuestiona la falta de embajadores, advierte que Bolivia pierde oportunidades de inversión y rechaza que la reducción del gasto justifique el debilitamiento del servicio exter…",
+      "link": "https://eldeber.com.bo/pais/jaime-aparicio-queremos-abrirnos-mundo-no-tenemos-instrumento-importante-diplomacia_1791505063",
+      "date": "2026-10-09T00:17:43Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -182,11 +161,11 @@
       "date": "2026-10-08T19:04:20Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "Acuerdo con FMI confirma ajuste del precio de gasolina para 2027 - Correo del Sur",
-      "desc": "Acuerdo con FMI confirma ajuste del precio de gasolina para 2027&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWNxWFdUTkVIM0tPU01LVGRHM2F5ZUZ5cnliTW5FNXh0V0JTYVdWZlBYRHBWYl94ZlpNaTZVUVg3d0M5djJGTGV4azJJaTBGa2toMFhWTlFoM3NBbWtfaGtieXd6M2VhYUdieU5qc2JJTTJJeW9uTnNSRWpialhZMHFZUzd6YjZDRE9wVTlUSXFlS04ySzY2M3dDdFZDbGV5ZWRseVlaYnRxRDFVU3p1eG9R?oc=5",
-      "date": "2026-10-08T06:27:00Z"
+      "source": "Google — BCB reservas",
+      "title": "El BCB proyecta que Bolivia cerrará el 2026 con una inflación del 9,2%; el acuerdo con el FMI habla de un 12,7% - Oxígeno Digital",
+      "desc": "El BCB proyecta que Bolivia cerrará el 2026 con una inflación del 9,2%; el acuerdo con el FMI habla de un 12,7%&nbsp;&nbsp;Oxígeno Digital",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXBxZWxiTV9RLXlGY0Ezbm8wdnphWGZZaVY4QUQyaHkwV2h5Z1Z5WlNPbVFiSjE3dTluaExuQ3JQVHFjakh0MmxPT2R5U2dGdHJDeXVwWTlreDJha1JyelJ3Vm9mMkUzWmVNc1o1WGtLdFJMQ3haMVpXUnpXaExtSE1qSWN1aS1hbEVVRE5SZVVmWFEyMGZYQjhkX1h2R0t2QUFtQWhfVS1rYWlvTC1aRVdxWk1fU095R2xDYllGXzk2U1Z3?oc=5",
+      "date": "2026-10-08T18:19:52Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -217,6 +196,13 @@
       "date": "2026-10-07T10:54:42Z"
     },
     {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia recibirá 214 millones de dólares del FMI para fortalecer sus reservas - sipse.com",
+      "desc": "Bolivia recibirá 214 millones de dólares del FMI para fortalecer sus reservas&nbsp;&nbsp;sipse.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbWZrVy0ydUtPZ3ZxR0c3aGZDTl92R0lqNllFbEc2NWFxV1ZudUItOUwtUUo2NmZiRDRHSHVhNzAtTEVTTWpxTXEyMFZVSFZ6QlIwNE1KMzg5blIwYXg5NllWSTQ5Z0NiY0dfajZ3cHV6ck9LS3BGN3RYQ0JlT1JUOWVEWWpKbEotOUdCdWdoT002cGRnczBCVWFidF9iUTM4Y1E?oc=5",
+      "date": "2026-10-07T04:00:50Z"
+    },
+    {
       "source": "Google — USDT Bolivia",
       "title": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos - Criptoinforme",
       "desc": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos&nbsp;&nbsp;Criptoinforme",
@@ -229,13 +215,6 @@
       "desc": "El BCB recibe $us 211,3 millones del FMI, primer desembolso para fortalecer las reservas y la balanza pagos&nbsp;&nbsp;Visión 360",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQXhjNDF2SFd3NjIybHhrWTB1amZHRFEtVXJhWWxqSjA5am4tRFBiNFpxSHhKRS1YYjd4V0FVam5JZnpwWnVEYkM1cm5iNllFajF1ZzF0YklUamY0VEk0X1dwZ3JicmdjZnVPODVwZWFnWDl6Q0hsMlNrdVAzaV96RXVxc1NIelVGY09LSTM3bkwxWkg1bllMQnNqdmw1bkkwZU8wenBkS0d6TXpSSEt4U0pwZUptQmdZbGlESUlES08xcktOVXVRVnNEU2NJdTA1MTQ4QUt6YlRRU0lMMGZVbjBfbFB2OFlZbnowS9IB8gFBVV95cUxNX2dmcDJrMDNpMTNxSjVVRlVFSlFyajV2Y3l1Y0tmYzM4a3pSLWJ6YWxfek9lN1dteFRXWThxdlBxa2p6WWtHNWk5NnEtY1IyTjU0WWVIcXB2WFlFeE83SjFfX2tiaGY3ME96c1JHZXBiZEl3M2QzWHlXbmFTLURVMHlaR1NuQlEzVzlkX1pHOHRlWkRGVE93bEJJdkwxZjhhSlNJNkVMejdvRy1MWTBmaGdTMHdFM0VIRFpvcHgxUkl4UFRqcUVmV2lKMFppNkkxWXB1NzZTeHI3U29rZ2ZXZjlLREZzdFpYNU84a09Lcl9XZw?oc=5",
       "date": "2026-10-06T19:23:46Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB confirma desembolso de $us 211,3 millones del FMI para “fortalecer las reservas internacionales” - unitel.bo",
-      "desc": "BCB confirma desembolso de $us 211,3 millones del FMI para “fortalecer las reservas internacionales”&nbsp;&nbsp;unitel.bo",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2djd2tsRmI3ekRQS0dLSVVqVE83YUZHa3NoT1BoOHUzRC1ZazJUUzhKd2ZaVHk5QWdYdkhfQlpSbmVDODgzU1JZTVlrci1GMlMyOWVhZ1h5TUtkSGNGNkJMeHljdDFXQzdrYW1rN1dLZ3djTnVMcWpEZDhhdV93TFVXZkg3TmpPX21tUVRFUFB4MzAwQUM2Ni1id1R2R2M3SzhEN1V6cDJ4TUYyRmJIeGhBZmhKLXRtWlRkNkJFY1h2QUxRb3pCczdoVDBsVkRLMlNmVnBZemxhMDQ?oc=5",
-      "date": "2026-10-06T18:36:35Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -259,6 +238,20 @@
       "date": "2026-10-06T14:52:54Z"
     },
     {
+      "source": "Google — INE inflación",
+      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
+      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
+      "date": "2026-10-06T14:33:17Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
+      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
+      "date": "2026-10-05T23:40:37Z"
+    },
+    {
       "source": "Google — Dólar Bolivia",
       "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
       "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
@@ -278,14 +271,21 @@
       "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
       "date": "2026-10-05T18:50:37Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia - eju.tv",
+      "desc": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia&nbsp;&nbsp;eju.tv",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeEEwczB2OVJpRm1DcWhfWGdrZnFfdlpkaUtUeEZ4MW5xVnlXQzMxRnBqTHFlSGRWOXlrQzNlVDBwZnNrUzNWNHhqcXpKYzRpWFFYczBldXItTm03ZnBObDA3OXNBZXQzZVhCTVZmakRNRmJpcFpia2NCWmExeW1yWUJaRTg5azdqUkxTRnMxSzBlWkV2Ql9vWTNIYkRkdVRIQWc4dEdkeUxaU3ZHUDhCV3F5ZmdiOXVtZW9rQVh5V0lzb0JJY3c?oc=5",
+      "date": "2026-10-03T13:28:35Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.85,
-    "sellTomorrow": 11.9,
-    "changeBuy": 0.0,
-    "changeSell": 0.01,
-    "trend": "estable",
+    "buyTomorrow": 11.83,
+    "sellTomorrow": 11.89,
+    "changeBuy": -0.03,
+    "changeSell": -0.03,
+    "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4199,6 +4199,11 @@
       "date": "2026-10-08",
       "buy": 11.85,
       "sell": 11.89
+    },
+    {
+      "date": "2026-10-09",
+      "buy": 11.86,
+      "sell": 11.92
     }
   ]
 }
