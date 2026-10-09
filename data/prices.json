@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-10-09T04:52:46Z",
+  "lastUpdated": "2026-10-09T17:43:46Z",
   "displayDate": "viernes 9 de octubre, 2026",
   "binance": {
-    "buy": 11.86,
-    "sell": 11.92,
+    "buy": 11.83,
+    "sell": 11.87,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.85,
-    "sell": 11.8,
+    "buy": 11.94,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.15,
-    "sell": 11.75,
+    "buy": 12.11,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.07,
-    "sell": 11.72,
+    "buy": 12.04,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.13,
-    "sell": 11.61,
+    "buy": 12.1,
+    "sell": 11.58,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.9,
-    "sell": 11.86,
+    "buy": 11.88,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.01,
-    "sell": 11.78,
+    "buy": 12.0,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.85,
     "officialSell": 11.85,
-    "referentialBuy": 11.86,
-    "referentialSell": 11.92,
+    "referentialBuy": 11.83,
+    "referentialSell": 11.87,
     "vrdBuy": 9.79,
     "vrdSell": 10.0
   },
@@ -75,7 +75,7 @@
     {
       "name": "Banco FIE",
       "buy": 10.95,
-      "sell": 12.05
+      "sell": 11.95
     },
     {
       "name": "Banco Económico",
@@ -85,7 +85,7 @@
     {
       "name": "Banco Unión",
       "buy": 10.85,
-      "sell": 12.05
+      "sell": 12.15
     },
     {
       "name": "Mercantil Santa Cruz",
@@ -106,66 +106,66 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "Atracadores ingresan a dos casas en Potosí y roban más de Bs 3,5 millones",
-      "desc": "Encapuchados armados irrumpieron en las viviendas de familias mineras en menos de 24 horas. En uno de los atracos, en la zona de Alto Potosí, maniataron a los ocupantes y golpearon al propietario, que…",
-      "link": "https://eldeber.com.bo/pais/atracadores-ingresan-dos-casas-potosi-roban-bs-3-5-millones_1791513863",
-      "date": "2026-10-09T02:44:23Z"
+      "title": "'Doc' convierte la pérdida de memoria en una segunda oportunidad en su nueva temporada",
+      "desc": "Parker, que interpreta a la doctora Amy Larsen, una brillante médica que tras un accidente pierde los recuerdos de ocho años de su vida, reconoció a preguntas de EFE en un encuentro con los medios en …",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/doc-convierte-perdida-memoria-segunda-oportunidad-nueva-temporada_1791565775",
+      "date": "2026-10-09T17:09:39Z"
     },
     {
       "source": "El Deber",
-      "title": "El presidente de Chile visitará Bolivia el 16 de octubre",
-      "desc": "La relación bilateral ha tenido altibajos en las últimas décadas y alcanzó uno de sus momentos más tensos en 2013, cuando durante el Gobierno de Evo Morales (2006-2019), Bolivia recurrió a la Corte In…",
-      "link": "https://eldeber.com.bo/mundo/presidente-chile-visitara-bolivia-16-octubre_1791513315",
-      "date": "2026-10-09T02:35:15Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Cancillería confirma visita de Kast a Bolivia para el 16 de octubre",
-      "desc": "La agenda bilateral incluye cooperación contra el crimen organizado y el análisis de cargamentos de madera boliviana retenidos en puertos chilenos.\nThe post Cancillería confirma visita de Kast a Boliv…",
-      "link": "https://larazon.bo/nacional/2026/10/08/cancilleria-confirma-visita-de-kast-a-bolivia-para-el-16-de-octubre/",
-      "date": "2026-10-09T02:15:51Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿Qué reveló el senador Ormachea sobre la elección de Urioste como fiscal general?",
-      "desc": "En una entrevista con CNN, el nuevo fiscal Urioste reveló que un “amigo empresario” le pidió su hoja de vida días antes de su designación",
-      "link": "https://eldeber.com.bo/pais/revelo-senador-ormachea-eleccion-urioste-fiscal-general_1791511897",
-      "date": "2026-10-09T02:11:37Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz y el embajador de India acuerdan ampliar la cooperación bilateral",
-      "desc": "La agenda contempla comercio, inversión, tecnología, becas y proyectos de desarrollo. India también prevé nuevas iniciativas de cooperación con Bolivia durante 2026.\nThe post Paz y el embajador de Ind…",
-      "link": "https://larazon.bo/nacional/2026/10/08/paz-y-el-embajador-de-india-acuerdan-ampliar-la-cooperacion-bilateral/",
-      "date": "2026-10-09T00:31:35Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Pedro Colanzi: “Se han quemado más de $us 15 millones en madera y se han perdido casi 20.000 empleos”",
-      "desc": "El presidente de la Cámara Forestal de Bolivia denuncia que la destrucción de cargamentos retenidos en Chile continúa pese a los reclamos del sector. Advierte sobre el daño a las exportaciones, la pér…",
-      "link": "https://eldeber.com.bo/economia/pedro-colanzi-han-quemado-us-15-millones-madera-han-perdido-casi-20-000-empleos_1791505814",
-      "date": "2026-10-09T00:30:14Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Jaime Aparicio: “Queremos abrirnos al mundo, pero no tenemos el instrumento más importante: la diplomacia”",
-      "desc": "El diplomático de carrera cuestiona la falta de embajadores, advierte que Bolivia pierde oportunidades de inversión y rechaza que la reducción del gasto justifique el debilitamiento del servicio exter…",
-      "link": "https://eldeber.com.bo/pais/jaime-aparicio-queremos-abrirnos-mundo-no-tenemos-instrumento-importante-diplomacia_1791505063",
-      "date": "2026-10-09T00:17:43Z"
+      "title": "Sucre: Justicia dispone detención preventiva por cuatro meses para edecán del exfiscal general Róger Mariaca",
+      "desc": "En la audiencia se volvió a contar el monto de 1.007.200 bolivianos secuestrado al oficial de la Policía. Dicho dinero, él voluntariamente entregó a la Policía cuando la Fiscalía llevaba adelante una …",
+      "link": "https://eldeber.com.bo/pais/sucre-justicia-dispone-detencion-preventiva-cuatro-meses-edecan-exfiscal-general-roger-mariaca_1791565500",
+      "date": "2026-10-09T17:05:33Z"
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Las agencias internacionales mejoraron la calificación de Bolivia en el tercer trimestre de 2026, destaca el BCB - eju.tv",
-      "desc": "Las agencias internacionales mejoraron la calificación de Bolivia en el tercer trimestre de 2026, destaca el BCB&nbsp;&nbsp;eju.tv",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXZrS0RQejFBckxxRGpuakxndkRGQXh6VXF1cUlOTDRPYkdEN21Vb1MtcEYxTUtQWEpjbmhNT0hrdUpTeUpNY1dCNXczT3I3dTdNYXBPVnpCSXViYmpWejlFekZoVk9yT1FwRmk1eDJDSFk3MDB5b1BpUzRyaGRKa3QzYlk4YjRSMTdjX1JabFkyVHpVUkR0QjJNd1BCX1JSb2hSakJsTXhrOTI1dmlWMFQ0bi1WX3Jua05tc0pDV1ZIZkxpZUhaOWxnbjBSWTZC?oc=5",
-      "date": "2026-10-08T19:04:20Z"
+      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Agencia Boliviana de Información",
+      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGt1MGZHTHhJZFdRS1BDZkwyQzJZUzJQVWNxV3VKZW93d1U4eU5YYXctRlNEbkloUDd0YmN3X1RCc2x5Q2VmZWxVOEVCZXlWUUo4bUFlRnFDYk52UDZseGY4eFZxWG5YZXZobm5sV1cxQVN6VzVYc0w3emw4ZXdvMzhPSlBZbF9nSjI2eGRpaFVIZklPak5OVU04WXI?oc=5",
+      "date": "2026-10-09T16:52:30Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Agrupación Libre presenta proposición acusatoria contra Evo y García Linera por el caso Hotel Las Américas",
+      "desc": "Con la denuncia presentada por el diputado Antonio Pino, en busca de un juicio de responsabilidades para el ex presidente y ex vicepresidente de Bolivia",
+      "link": "https://eldeber.com.bo/pais/agrupacion-libre-presenta-proposicion-acusatoria-evo-garcia-linera-caso-hotel-americas_1791563676",
+      "date": "2026-10-09T16:34:36Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Quién propuso a Urioste? Ávila dice que el presidente lo sugirió y que no conoce al “empresario”",
+      "desc": "Continúa la polémica sobre quién propuso el nombre de José Armando Urioste para el cargo de fiscal general interino",
+      "link": "https://eldeber.com.bo/pais/quien-propuso-urioste-avila-dice-presidente-sugirio-no-conoce-empresario_1791563618",
+      "date": "2026-10-09T16:33:38Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Todos Santos: Plazo para órdenes de pintado y mantenimiento de nichos y mausoleos vence el 27 de octubre",
+      "desc": "La Alcaldía cruceña coordina acciones con distintas reparticiones municipales para garantizar la limpieza de los cementerios y seguridad de los visitantes",
+      "link": "https://eldeber.com.bo/santa-cruz/todos-santos-plazo-ordenes-pintado-mantenimiento-nichos-mausoleos-vence-27-octubre_1791563163",
+      "date": "2026-10-09T16:26:03Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Más de 140 expertos ya trabajan en la redacción del nuevo Código Minero",
+      "desc": "El proceso contempla seis fases: diagnóstico, diálogo, encuentro de líderes, redacción, socialización y promulgación\nThe post Más de 140 expertos ya trabajan en la redacción del nuevo Código Minero ap…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/09/mas-de-140-expertos-ya-trabajan-en-la-redaccion-del-nuevo-codigo-minero/",
+      "date": "2026-10-09T16:25:28Z"
     },
     {
       "source": "Google — BCB reservas",
-      "title": "El BCB proyecta que Bolivia cerrará el 2026 con una inflación del 9,2%; el acuerdo con el FMI habla de un 12,7% - Oxígeno Digital",
-      "desc": "El BCB proyecta que Bolivia cerrará el 2026 con una inflación del 9,2%; el acuerdo con el FMI habla de un 12,7%&nbsp;&nbsp;Oxígeno Digital",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXBxZWxiTV9RLXlGY0Ezbm8wdnphWGZZaVY4QUQyaHkwV2h5Z1Z5WlNPbVFiSjE3dTluaExuQ3JQVHFjakh0MmxPT2R5U2dGdHJDeXVwWTlreDJha1JyelJ3Vm9mMkUzWmVNc1o1WGtLdFJMQ3haMVpXUnpXaExtSE1qSWN1aS1hbEVVRE5SZVVmWFEyMGZYQjhkX1h2R0t2QUFtQWhfVS1rYWlvTC1aRVdxWk1fU095R2xDYllGXzk2U1Z3?oc=5",
-      "date": "2026-10-08T18:19:52Z"
+      "title": "Las reservas internacional a septiembre se cifran en $us 3.932,8 millones, $us 357 menos que en agosto - unitel.bo",
+      "desc": "Las reservas internacional a septiembre se cifran en $us 3.932,8 millones, $us 357 menos que en agosto&nbsp;&nbsp;unitel.bo",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQczZxZG43MjQ4a3pxb1I1aGRsVlY3WmdWRzQtY0l0eTZqek5uR192S3FNQUV6YnlCNjRHd1docEZ6amVfajVOTDVPV2F4VldyQ2NnUU9EdjZ3SmFxQnIxcUNpLUZBNHplUU1BcXdyWVhoMTc2SFJfaVJuNWNXZUxfZnpNX3k5VnFzUEN1elhUWG1ZQjJELTJlSVUzNVB0M0YtdEh1cjhIUXIybDg5Q0FwTk1fM1lDLU5ia2hKR0VhMVd1Y19yY0o4ajJQNEZYNk16YlpMUDN5SDByQjRC?oc=5",
+      "date": "2026-10-09T13:29:21Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "¿Cambió o se mantiene el dólar? Revise la cotización de este viernes 9 de octubre en Bolivia - eju.tv",
+      "desc": "¿Cambió o se mantiene el dólar? Revise la cotización de este viernes 9 de octubre en Bolivia&nbsp;&nbsp;eju.tv",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMjlDel9aZ2JLTzNXVG9ISHVtbW9kR3N0M2VJNmpxamxTeHpWLXFuYXJ2ODU4ck5Uakw4QlZ6bE9JVkdWU0hZZXVuR1ZQaWNWT29sZnlFS213VHg1eDc4LVdlSnlBTGlqS2c0NWNQb0hTb1U4UmdXa1BRMndqQ2VSQTRKSlFFM1JCZDdBc1hsd0loSktyT1FNMEVvNDA5MjgyVVZacTI0U0tFSGFUbTRzLWxjMzY?oc=5",
+      "date": "2026-10-09T11:06:10Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -224,13 +224,6 @@
       "date": "2026-10-06T17:04:34Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB confirma la recepción de $us 211,3 millones del FMI para fortalecer las reservas internacionales - Red PAT",
-      "desc": "BCB confirma la recepción de $us 211,3 millones del FMI para fortalecer las reservas internacionales&nbsp;&nbsp;Red PAT",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYTZEOUQ0RXVnR3pUNkttVnl2Sk5TNktJaWlFUFdzTU1FLXNEZjdYWVZpQ3MyVUpGSHJWY2ZIZWhnVGhPX2RCSnN1NTE2MXFVbWxGVEltSUNoalU1YTV4ZVJHcDN3TUZNNzVNWjBlblBjY2NSUl9SX3Zsci0tci0tS3ZLVDhCWldUQkxOeEF6TTdZM1lQRGs5Z1Y3ZW5hUmZ5VGdMRW9HWTRSaVV2RHQ0aEpXb09CcWNkRE1ld1RfZGtITlkwdGpBLQ?oc=5",
-      "date": "2026-10-06T17:03:31Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
@@ -273,18 +266,25 @@
       "date": "2026-10-05T18:50:37Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia - eju.tv",
-      "desc": "Atención si compra o vende dólares: así está el tipo de cambio oficial y paralelo este sábado en Bolivia&nbsp;&nbsp;eju.tv",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeEEwczB2OVJpRm1DcWhfWGdrZnFfdlpkaUtUeEZ4MW5xVnlXQzMxRnBqTHFlSGRWOXlrQzNlVDBwZnNrUzNWNHhqcXpKYzRpWFFYczBldXItTm03ZnBObDA3OXNBZXQzZVhCTVZmakRNRmJpcFpia2NCWmExeW1yWUJaRTg5azdqUkxTRnMxSzBlWkV2Ql9vWTNIYkRkdVRIQWc4dEdkeUxaU3ZHUDhCV3F5ZmdiOXVtZW9rQVh5V0lzb0JJY3c?oc=5",
-      "date": "2026-10-03T13:28:35Z"
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Instituto Nacional de Estadística",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.83,
-    "sellTomorrow": 11.89,
-    "changeBuy": -0.03,
-    "changeSell": -0.03,
+    "buyTomorrow": 11.81,
+    "sellTomorrow": 11.86,
+    "changeBuy": -0.02,
+    "changeSell": -0.01,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4202,8 +4202,8 @@
     },
     {
       "date": "2026-10-09",
-      "buy": 11.86,
-      "sell": 11.92
+      "buy": 11.83,
+      "sell": 11.87
     }
   ]
 }
