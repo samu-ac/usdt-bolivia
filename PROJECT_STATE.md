@@ -232,3 +232,46 @@ Nota: el umbral es `changeSell > 0.05` (código fuente verificado). Con exactame
 - Confirmar convención Bybit y asset AirTM (heredado de Fase 1)
 - Badge "En vivo" para BCB VRD solo verificable en producción (CORS bloquea localhost)
 - Actualizar límites bancarios con fechas verificadas desde webs oficiales
+
+---
+
+## Publicación — 2026-10-11
+
+**Merge ejecutado:** `fase2-mejora-visual` → `main` mediante `--no-ff`
+
+| Referencia | SHA |
+|---|---|
+| SHA previo de producción (main antes del merge) | `a955add` |
+| SHA merge commit | `7d1b36e` |
+| Parent 1 (main) | `a955add` |
+| Parent 2 (punta fase2) | `4145031` |
+
+**Push:** `git push origin main` sin force — resultado: `a955add..7d1b36e main → main`
+
+**GitHub Pages:** `build_type: legacy`, rama `main:/`, estado `built` confirmado por API tras el push.
+
+**Workflow `update-prices.yml`:** activo en `main`, opera independientemente; no afectado por el merge.
+
+### Verificaciones post-publicación en usdt-bolivia.com
+
+| Verificación | Resultado |
+|---|---|
+| Nav 5 ítems (Cotizaciones / Comparadores / Calculadora / Histórico / Guías) | ✅ |
+| `htmlScrollW ≤ vw` a 375px | ✅ 410 ≤ 426 |
+| `htmlScrollW ≤ vw` a 1440px | ✅ 1425 ≤ 1440 |
+| `scroll-margin-top: 72px` en `#calculator` | ✅ |
+| Badges de procedencia (`Live`, `?`) presentes | ✅ |
+| Noticias: 6 iniciales + botón "Ver más" | ✅ |
+| Noticias expandidas: fuente visible, sin desbordamiento | ✅ |
+| Calculadora: `1 USDT = 11.82 BOB`, tasa P2P | ✅ |
+| Comparador de bancos: tabla con ranking y precios tabulares | ✅ |
+| BCB VRD en producción | **En vivo** — muestra Bs 11.97 (distinto del fallback 11.73 de localhost → CORS resuelto en producción) |
+
+### Reversión disponible (si fuera necesaria)
+
+```bash
+# Revertir el merge conservando historial
+git revert -m 1 7d1b36e   # -m 1 = parent main (a955add) es el mainline
+git push origin main
+```
+`-m 1` revierte todos los cambios incorporados por el merge (8 commits de Fase 1+2) sin reescribir el historial. Ejecutar solo ante regresión funcional confirmada.
