@@ -224,13 +224,13 @@ Nota: el umbral es `changeSell > 0.05` (código fuente verificado). Con exactame
 **Causa:** La API no envía cabecera `Access-Control-Allow-Origin` para origen `http://localhost:*`  
 **Función afectada:** actualización en vivo del tipo de cambio BCB VRD (tasa del Banco Central)  
 **Fallback activo:** la sección BCB VRD muestra el valor de `prices.json` (generado por GitHub Actions), que se actualiza cada ~2h en producción. Muestra "Bs 11.73" en localhost  
-**No verificado en localhost:** que el badge "En vivo" funcione para la cotización BCB VRD en producción — solo verificable desde el dominio `usdt-bolivia.com`  
+**CORRECCIÓN (comprobación posterior, 2026-10-11):** el mismo bloqueo CORS se reproduce también en producción, desde el origen `https://usdt-bolivia.com`. La afirmación anterior de que en producción quedaba resuelto era errónea. Ver sección "Corrección post-publicación" al final.  
 **Ninguno de estos errores es nuevo de Fase 2.**
 
 ### Pendientes / Limitaciones
 
 - Confirmar convención Bybit y asset AirTM (heredado de Fase 1)
-- Badge "En vivo" para BCB VRD solo verificable en producción (CORS bloquea localhost)
+- La consulta en vivo a `/v1/referencial/bcb` está bloqueada por CORS también en producción; el VRD usa el respaldo de `prices.json` (ver sección final)
 - Actualizar límites bancarios con fechas verificadas desde webs oficiales
 
 ---
@@ -265,7 +265,7 @@ Nota: el umbral es `changeSell > 0.05` (código fuente verificado). Con exactame
 | Noticias expandidas: fuente visible, sin desbordamiento | ✅ |
 | Calculadora: `1 USDT = 11.82 BOB`, tasa P2P | ✅ |
 | Comparador de bancos: tabla con ranking y precios tabulares | ✅ |
-| BCB VRD en producción | **En vivo** — muestra Bs 11.97 (distinto del fallback 11.73 de localhost → CORS resuelto en producción) |
+| BCB VRD en producción | **Afirmación retirada.** Se anotó "En vivo" y "CORS resuelto" sin evidencia suficiente: una comprobación posterior mostró el bloqueo CORS también desde `usdt-bolivia.com`. El valor mostrado proviene del respaldo `prices.json` (ver sección final) |
 
 ### Reversión disponible (si fuera necesaria)
 
@@ -275,3 +275,37 @@ git revert -m 1 7d1b36e   # -m 1 = parent main (a955add) es el mainline
 git push origin main
 ```
 `-m 1` revierte todos los cambios incorporados por el merge (8 commits de Fase 1+2) sin reescribir el historial. Ejecutar solo ante regresión funcional confirmada.
+
+---
+
+## Corrección post-publicación — 2026-10-11
+
+### 1. CORS en `/v1/referencial/bcb` (corrige afirmaciones previas de Fase 2)
+
+- **Comprobado:** cargando `https://usdt-bolivia.com/` (producción) en Chrome, la consola registra `Access to fetch at 'https://api.dolarbluebolivia.click/v1/referencial/bcb' from origin 'https://usdt-bolivia.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present`. Igual desde `localhost`.
+- **Efecto:** la actualización directa del VRD/BCB desde el navegador **no funciona**; el sitio usa el respaldo de `data/prices.json` (generado por GitHub Actions). Los demás endpoints consultados (`officialRate`, `eldorado`, `takenos`, `wallbit`, `airtm`, `bybit`, `saldoar`) sí respondieron en las pruebas de esta sesión.
+- **Se retiran** las notas previas "CORS resuelto en producción" y "BCB VRD en vivo". Sin cambios de código en esa consulta; pendiente: servir el VRD solo desde `fetch_prices.py` o usar un proxy propio.
+
+### 2. Textos de frecuencia de actualización
+
+Qué es cada cosa (ahora se distingue en la interfaz):
+- **Actualización programada:** GitHub Actions ejecuta `fetch_prices.py` y publica `data/prices.json` a las 12–22 UTC (L–V, cada 2 h) y 00 y 02 UTC (M–S). No hay garantía de ejecución puntual; GitHub puede retrasar los cron.
+- **Consulta exitosa por proveedor:** el navegador consulta cada endpoint al cargar la página. Solo si ese proveedor responde se guarda `fetchedAt`; si falla se conserva el dato del archivo, sin marca de hora propia.
+
+Cambios (index.html, calculadora, blog, página de cotización del 6-oct):
+- Eliminados "tiempo real", "En vivo", "Actualizado cada hora", "actualizada/o automáticamente" y "sin demoras".
+- Hero: la hora mostrada era la del reloj del visitante (`new Date()`), no la del dato. Ahora muestra "Última consulta exitosa: …" (hora Bolivia) o "Archivo programado generado: …" si ninguna consulta respondió.
+- Insignia de la tarjeta: `CONSULTA ACTUAL` / `ARCHIVO GUARDADO`. Tarjetas de plataforma: `Consulta exitosa` · `Consulta anterior` · `Archivo programado` · `Estimado`; cada una con su propia hora solo si hubo consulta ("consulta …"); si no, "archivo generado …", que es la fecha global de generación de `prices.json`, no la hora de esa cotización. Tabla: `Consulta` / `Ant.` / `Arch.` / `Est.`.
+- `base.lastUpdated` ya no se pone a "ahora" si todos los proveedores fallan.
+- Verificado en navegador local: con consulta exitosa y con las consultas bloqueadas (ambos caminos). Único error de consola: el CORS ya descrito.
+
+### 3. Limitaciones que siguen abiertas
+
+- `prices.json` no guarda marca de hora por proveedor, solo `lastUpdated` global; por tanto el dato de archivo no puede indicar su antigüedad individual.
+- Pizarras de bancos y noticias: solo existen en el archivo programado; no hay consulta directa. El texto "publicadas por cada banco en su web oficial" fue sustituido por "obtenidas vía API de terceros" porque `fetch_prices.py` las lee de `/v1/bancos` (DolarBlueBolivia), no de cada banco.
+- Pendientes heredados: convención de Bybit, activo de AirTM, límites bancarios con fechas verificadas.
+- Estos cambios están en el árbol de trabajo, sin commit ni push (rama `main`).
+
+### 4. Seguridad
+
+- La URL del remoto `origin` contenía un token en texto plano; se reemplazó por `https://github.com/samu-ac/usdt-bolivia.git` y se censuró una línea del reflog local. El token **sigue válido hasta revocarlo en GitHub** (Settings → Developer settings → Personal access tokens).

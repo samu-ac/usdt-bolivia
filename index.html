@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>USDT Bolivia Hoy — Precio USDT en Bolivianos, Dólar Paralelo y BCB</title>
-  <meta name="description" content="Precio del USDT en Bolivia hoy en tiempo real. Cotización BCB oficial, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P. Compra y venta de USDT en Santa Cruz, La Paz y todo Bolivia." />
+  <meta name="description" content="Precio referencial del USDT en Bolivia hoy. Tasa de referencia BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P. Compra y venta de USDT en Santa Cruz, La Paz y todo Bolivia." />
   <meta name="keywords" content="USDT Bolivia, precio USDT Bolivia, dólar Bolivia hoy, tipo de cambio Bolivia, dólar paralelo Bolivia, comprar USDT Bolivia, cotización BCB, dólar blue Bolivia, USDT bolivianos" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW9G81P0F3"></script>
@@ -20,7 +20,7 @@
   <link rel="canonical" href="https://usdt-bolivia.com/" />
   <!-- Open Graph -->
   <meta property="og:title" content="USDT Bolivia Hoy — Precio USDT en Bolivianos, Dólar Paralelo y BCB" />
-  <meta property="og:description" content="Precio del USDT en Bolivia hoy en tiempo real. Cotización BCB oficial, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P." />
+  <meta property="og:description" content="Precio referencial del USDT en Bolivia hoy. Tasa de referencia BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P." />
   <meta property="og:url" content="https://usdt-bolivia.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_BO" />
@@ -605,7 +605,7 @@
 <!-- TOP BAR -->
 <div class="topbar">
   <div class="live-dot"></div>
-  Cotización actualizada automáticamente · Datos P2P Bolivia
+  Precios referenciales · Archivo de datos actualizado de forma programada (cada 2 h en días hábiles) y, cuando está disponible, consulta directa a la API al cargar la página
 </div>
 
 <!-- HEADER -->
@@ -654,7 +654,7 @@
   <div class="hero-inner">
     <!-- Left -->
     <div class="hero-left">
-      <div class="hero-badge">📊 Cotización en tiempo real · Bolivia</div>
+      <div class="hero-badge">📊 Cotización referencial · Bolivia</div>
       <h1 class="hero-title" style="font-size:clamp(30px,6vw,52px)">Precio USDT<br><span>Bolivia Hoy</span></h1>
       <p style="font-size:13px;color:var(--text2);margin-bottom:4px">Tipo de cambio USDT a bolivianos · Dólar paralelo · BCB oficial</p>
       <div class="hero-toggle">
@@ -669,14 +669,14 @@
       <div class="hero-price-label">
         <span class="hero-price-pill" id="heroPriceLabel">Precio de Compra</span>
       </div>
-      <p class="hero-desc">Precio al que puedes operar USDT en plataformas P2P de criptomonedas en Bolivia, actualizado en tiempo real.</p>
+      <p class="hero-desc">Precio al que puedes operar USDT en plataformas P2P de criptomonedas en Bolivia, según los datos disponibles. La tarjeta indica la hora de la última consulta exitosa o la del archivo guardado.</p>
     </div>
     <!-- Right: Rates Card -->
     <div class="hero-right">
       <div class="rates-card">
         <div class="rates-card-header">
           <span class="rates-card-title">COTIZACIÓN P2P BOLIVIA</span>
-          <span class="rates-card-badge" id="ratesCardBadge">EN VIVO</span>
+          <span class="rates-card-badge" id="ratesCardBadge" title="Origen del dato mostrado">—</span>
         </div>
         <div class="rates-row">
           <div class="rate-box">
@@ -771,7 +771,7 @@
   <!-- COMPARADOR BANCOS -->
   <div id="bancos" class="card" style="margin-top:22px">
     <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:10px">Pizarras publicadas por cada banco en su web oficial · Actualizado cada hora</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:10px">Pizarras de bancos obtenidas vía API de terceros, desde el archivo de datos actualizado de forma programada (cada 2 h en días hábiles) · pueden diferir de la pizarra vigente</div>
     <div id="banksRangeStrip" style="display:none;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:14px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
       <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">Rango venta hoy</span><br><span id="banksRangeVal" style="font-size:20px;font-weight:900;color:var(--navy)">—</span></div>
       <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">BCB Oficial</span><br><span id="banksBcbRef" style="font-size:20px;font-weight:900;color:var(--text)">—</span></div>
@@ -912,7 +912,7 @@
         <div class="rec-box-icon" id="recIcon">⏳</div>
         <div>
           <div class="rec-box-title" id="recTitle">Calculando recomendación...</div>
-          <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
+          <div class="rec-box-desc" id="recDesc">Comparando precios de referencia.</div>
         </div>
       </div>
       <div style="font-size:11px;color:var(--text3);text-align:center" id="compareNote">* Diferencia entre el Tipo Oficial BCB y el precio USDT P2P en Binance · Ambos son precios de referencia; los precios reales de mercado pueden variar</div>
@@ -1133,7 +1133,7 @@
   <!-- NOTICIAS -->
   <div id="noticias" style="margin-top:36px;margin-bottom:36px">
     <div class="section-title" style="margin-bottom:6px"><span>📰</span> Noticias Económicas Bolivia</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:16px">Noticias relevantes sobre economía, tipo de cambio y finanzas en Bolivia. Actualizado cada hora.</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:16px">Noticias relevantes sobre economía, tipo de cambio y finanzas en Bolivia. Se actualizan con el archivo de datos programado (cada 2 h en días hábiles).</div>
     <div class="news-grid" id="newsGrid">
       <div style="color:var(--text3);font-size:13px;padding:16px 0">Cargando noticias…</div>
     </div>
@@ -1158,7 +1158,7 @@
     <div class="footer-top">
       <div>
         <span class="footer-logo-text">USDT <span>Bolivia</span></span>
-        <p class="footer-desc">Precio del USDT en Bolivia hoy en tiempo real. Consulta el tipo de cambio USDT a bolivianos (BOB), cotización oficial del BCB, dólar paralelo y compra-venta en plataformas P2P como Binance, Bitget y AirTM. La referencia más completa para comprar y vender USDT en Bolivia.</p>
+        <p class="footer-desc">Precio referencial del USDT en Bolivia hoy. Consulta el tipo de cambio USDT a bolivianos (BOB), cotización oficial del BCB, dólar paralelo y compra-venta en plataformas P2P como Binance, Bitget y AirTM. La referencia más completa para comprar y vender USDT en Bolivia.</p>
       </div>
       <div class="footer-col">
         <div class="footer-col-title">Información</div>
@@ -1217,13 +1217,13 @@
     <button class="modal-close" onclick="closeModal('modalSobre')">✕</button>
     <div class="modal-badge">Sobre el sitio</div>
     <h2>Sobre Nosotros</h2>
-    <p>Somos una plataforma informativa especializada en proporcionar datos precisos y en tiempo real del mercado cambiario boliviano. Creemos que la información económica confiable es la base para tomar decisiones financieras inteligentes.</p>
+    <p>Somos una plataforma informativa especializada en proporcionar datos referenciales del mercado cambiario boliviano. Creemos que la información económica confiable es la base para tomar decisiones financieras inteligentes.</p>
     <h3>Nuestra Misión</h3>
     <p>Proporcionar información precisa, actualizada y accesible sobre el mercado cambiario boliviano, especialmente del dólar paralelo o <em>"blue"</em>. Buscamos empoderar a los ciudadanos con conocimientos económicos que les permitan tomar decisiones financieras acertadas en su día a día.</p>
     <h3>Nuestra Visión</h3>
     <p>Ser la fuente más confiable y accesible de información económica en Bolivia en temas de cambio de divisas. Contribuir al desarrollo financiero de la comunidad mediante transparencia, objetividad y veracidad en todos nuestros contenidos.</p>
     <div class="project-box">
-      <p>Este sitio nació de la necesidad de contar con una sola herramienta que muestre, de forma clara y sin demoras, el tipo de cambio del dólar en Bolivia: el oficial del BCB, el mercado paralelo y las pizarras de cada banco, todo actualizado automáticamente.</p>
+      <p>Este sitio nació de la necesidad de contar con una sola herramienta que muestre, de forma clara, el tipo de cambio del dólar en Bolivia: el oficial del BCB, el mercado paralelo y las pizarras de cada banco. Los datos se actualizan de forma programada (cada 2 h en días hábiles) y, si la consulta directa del navegador funciona, al cargar la página; son referenciales y pueden tener retraso.</p>
       <p style="margin-top:12px"><strong>Creado por:</strong> Samuel Ampuero · Santa Cruz, Bolivia 🇧🇴<br>
       <strong>Contacto:</strong> <a href="mailto:moisesampuero50@gmail.com">moisesampuero50@gmail.com</a></p>
     </div>
@@ -1391,7 +1391,11 @@
         base.history.sort((a,b)=>a.date.localeCompare(b.date));
       }
       // Actualizar lastUpdated al momento de la consulta en vivo exitosa
-      base.lastUpdated = new Date().toISOString();
+      // Solo si al menos un proveedor respondió; si todos fallan, se conserva la fecha del archivo
+      if ([live, dEld, dTak, dWall, dAir, dBybit, dSaldo].some(Boolean)) {
+        base.lastUpdated = fetchedAt;
+        base._liveFetchedAt = fetchedAt;
+      }
     } catch(e) {
       console.warn('API en vivo no disponible:', e.message);
       // lastUpdated queda como el del archivo JSON — la antigüedad real del dato
@@ -1452,12 +1456,12 @@
       <div class="plat-big-price-box">
         <div class="plat-big-price-label">
           <span>⬡ Cotización ${name}</span>
-          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(data.fetchedAt, 180) ? 'En vivo' : data.fetchedAt ? 'Referencial' : 'No verificada'}</span>
+          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(data.fetchedAt, 180) ? 'Consulta exitosa' : data.fetchedAt ? 'Consulta anterior' : 'Archivo programado'}</span>
         </div>
         <div class="plat-big-price-val">Bs ${avg}</div>
         <div class="plat-big-price-sub">
           <span>Promedio compra/venta</span>
-          <span style="font-weight:700">Act: ${time}</span>
+          <span style="font-weight:700">${time}</span>
         </div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px">
           <div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px 10px;text-align:center">
@@ -1515,11 +1519,19 @@
     if (bcb) {
       document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.officialBuy || bcb.tco || '—');
     }
-    const now = new Date();
-    document.getElementById('ratesTime').textContent = now.toLocaleDateString('es-BO') + ', ' + now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
-
-    // Hora de actualización
-    const timeStr = now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'}) + ' p.m.';
+    // Procedencia del dato mostrado: consulta directa exitosa (navegador) o archivo programado (GitHub Actions)
+    const fmtBol = iso => new Date(iso).toLocaleString('es-BO',{timeZone:'America/La_Paz',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
+    const rtEl = document.getElementById('ratesTime'), rbEl = document.getElementById('ratesCardBadge');
+    if (pricesData._liveFetchedAt) {
+      rtEl.textContent = 'Última consulta exitosa: ' + fmtBol(pricesData._liveFetchedAt) + ' (hora Bolivia)';
+      rbEl.textContent = 'CONSULTA ACTUAL';
+    } else if (pricesData._jsonLastUpdated) {
+      rtEl.textContent = 'Archivo programado generado: ' + fmtBol(pricesData._jsonLastUpdated) + ' (hora Bolivia). Consulta directa no disponible.';
+      rbEl.textContent = 'ARCHIVO GUARDADO';
+    } else {
+      rtEl.textContent = '—'; rbEl.textContent = '—';
+    }
+    const timeFor = d => d?.fetchedAt ? 'consulta ' + fmtBol(d.fetchedAt) : (pricesData._jsonLastUpdated ? 'archivo generado ' + fmtBol(pricesData._jsonLastUpdated) : 'sin fecha');
 
     // Platform big cards (Eldorado, Wallbit, Takenos con datos verificados)
     // AirTM movido a "otras plataformas" — activo y convención sin confirmar
@@ -1527,15 +1539,15 @@
       platCard({ name:'Eldorado', logo:'🏅', gradient:'linear-gradient(135deg,#E65100 0%,#F57C00 60%,#FF8F00 100%)',
         desc:'La SuperApp de Stablecoins para Latinoamérica con +70 métodos de pago locales.',
         features:['+70 métodos de pago','Sin comisiones','P2P Trading'],
-        data:eldorado, btn1Text:'Ver detalles', btn2Text:'Crear cuenta', btn2Color:'#E65100', url:'https://eldorado.io/', time:timeStr }),
+        data:eldorado, btn1Text:'Ver detalles', btn2Text:'Crear cuenta', btn2Color:'#E65100', url:'https://eldorado.io/', time:timeFor(eldorado) }),
       platCard({ name:'Wallbit', logo:'🔷', gradient:'linear-gradient(135deg,#1A237E 0%,#283593 60%,#3949AB 100%)',
         desc:'Exchange confiable de criptomonedas con las mejores tasas USDT/BOB en Bolivia.',
         features:['Tasas competitivas','Verificado','Soporte local'],
-        data:wallbit, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#1A237E', url:'https://wallbit.io/', time:timeStr }),
+        data:wallbit, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#1A237E', url:'https://wallbit.io/', time:timeFor(wallbit) }),
       platCard({ name:'Takenos', logo:'☁️', gradient:'linear-gradient(135deg,#4A148C 0%,#6A1B9A 60%,#7B1FA2 100%)',
         desc:'Recibe pagos internacionales en dólares o criptomonedas al instante con Takenos.',
         features:['Pagos instantáneos','Sin fronteras','Múltiples divisas'],
-        data:takenos, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#4A148C', url:'https://takenos.com/', time:timeStr }),
+        data:takenos, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#4A148C', url:'https://takenos.com/', time:timeFor(takenos) }),
     ].join('');
 
     // Otras plataformas (coloridas) — incluye AirTM con nota de advertencia
@@ -1650,8 +1662,8 @@
       const badge  = p.source === 'calculated'
         ? '<span class="platform-badge" style="background:rgba(245,183,0,.15);color:#8a6200;border-color:rgba(245,183,0,.4)">Est.</span>'
         : liveOk
-          ? '<span class="platform-badge">Live</span>'
-          : p.fetchedAt ? '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>' : '<span class="platform-badge" style="background:rgba(180,83,9,.08);color:#92400e;border-color:rgba(180,83,9,.25)">?</span>';
+          ? '<span class="platform-badge" title="Consulta exitosa del navegador en esta carga">Consulta</span>'
+          : p.fetchedAt ? '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ant.</span>' : '<span class="platform-badge" style="background:rgba(180,83,9,.08);color:#92400e;border-color:rgba(180,83,9,.25)">Arch.</span>';
       const convNote = p.convNote ? `<small style="display:block;font-size:10px;color:#b45309">${p.convNote}</small>` : '';
       return `<tr data-type="${p.type}">
         <td style="font-size:18px;width:32px;text-align:center">${p.emoji}</td>
@@ -2054,7 +2066,7 @@
     ctx.fillText('usdt-bolivia.com', 540, 740);
     ctx.fillStyle = 'rgba(255,255,255,0.45)';
     ctx.font = '28px Arial';
-    ctx.fillText('Cotización en tiempo real · P2P Bolivia', 540, 800);
+    ctx.fillText('Cotización referencial · P2P Bolivia', 540, 800);
 
     // Watermark
     ctx.fillStyle = 'rgba(255,255,255,0.2)';
