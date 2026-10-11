@@ -666,12 +666,12 @@
           <div class="rate-box">
             <div class="rate-box-label buy-label">↓ Compra</div>
             <div class="rate-box-val buy-val" id="heroCardBuy">—</div>
-            <div style="font-size:10px;color:var(--text3);margin-top:3px">El mercado te compra USDT</div>
+            <div style="font-size:10px;color:var(--text3);margin-top:3px">Precio al que tú compras USDT</div>
           </div>
           <div class="rate-box">
             <div class="rate-box-label sell-label">↑ Venta</div>
             <div class="rate-box-val sell-val" id="heroCardSell">—</div>
-            <div style="font-size:10px;color:var(--text3);margin-top:3px">El mercado te vende USDT</div>
+            <div style="font-size:10px;color:var(--text3);margin-top:3px">Precio al que tú vendes USDT</div>
           </div>
         </div>
         <div class="rates-divider"></div>
@@ -1461,8 +1461,8 @@
     // Hero rates card
     if (binance) {
       const bBuy  = parseFloat(binance.buy),  bSell = parseFloat(binance.sell);
-      document.getElementById('heroCardBuy').textContent  = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
-      document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
+      document.getElementById('heroCardBuy').textContent  = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
+      document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
     }
     if (bcb) {
       document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.officialBuy || bcb.tco || '—');
