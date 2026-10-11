@@ -136,12 +136,12 @@
     <div class="info-card">
       <div class="label">Precio Compra</div>
       <div class="val" id="infoBuy" style="color:var(--green)">—</div>
-      <div class="sub">El mercado te compra</div>
+      <div class="sub">Precio al que tú compras USDT</div>
     </div>
     <div class="info-card">
       <div class="label">Precio Venta</div>
       <div class="val" id="infoSell" style="color:var(--red)">—</div>
-      <div class="sub">El mercado te vende</div>
+      <div class="sub">Precio al que tú vendes USDT</div>
     </div>
   </div>
 
@@ -219,8 +219,8 @@
     const rate = mode === 'buy' ? buyRate : sellRate;
     document.getElementById('rateDisplay').textContent = `Bs ${rate.toFixed(2)}`;
     document.getElementById('rateSub').textContent = `por 1 USDT · Mercado P2P Bolivia`;
-    document.getElementById('infoBuy').textContent  = `Bs ${buyRate.toFixed(2)}`;
-    document.getElementById('infoSell').textContent = `Bs ${sellRate.toFixed(2)}`;
+    document.getElementById('infoBuy').textContent  = `Bs ${sellRate.toFixed(2)}`;
+    document.getElementById('infoSell').textContent = `Bs ${buyRate.toFixed(2)}`;
     calcFromTop();
   }
 
