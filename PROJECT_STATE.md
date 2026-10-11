@@ -71,14 +71,28 @@
 
 ---
 
+| # | Síntoma | Causa | Corrección | Archivo |
+|---|---|---|---|---|
+| 17 | `source` undefined en todos los proveedores después de `loadPrices()` | La actualización en vivo sobreescribía el objeto sin incluir `source` | Añadido `source: 'live'` en cada asignación de proveedor en `loadPrices()` | index.html:1319-1335 |
+| 18 | Badge "En vivo" sin distinguir fallback estimado | `platCard()` sólo chequeaba `isDataFresh(lastUpdated)` global | Badge ahora muestra "Estimado" si `data.source === 'calculated'`; "En vivo" si fresco; "Referencial" si no | index.html:1412 |
+| 19 | Tarjetas bancarias "Sin restricciones" con límites mensuales visibles | Badge contradecía el monto mensual documentado | Cambiados todos los `data-status="ok"` y badge `ok` a `data-status="mod"` y badge "Con límite mensual"; Fortaleza → "Por confirmar" | index.html:1003-1062 |
+| 20 | Texto predicción "14 días" incorrecto (span 19 días calendario) | `slice(-14)` da 14 registros de días hábiles, no 14 días corridos | Texto aclarado: "últimos 14 registros históricos … días hábiles registrados, no necesariamente 14 días calendario" | index.html:1840 |
+| 21 | `calculadora-usdt-bolivianos.html` Bug C1: swap no recalcula | `swapInputs()` intercambiaba valores pero no llamaba `calcFromTop()` | Añadida llamada a `calcFromTop()` al final de `swapInputs()` | calculadora-usdt-bolivianos.html:261 |
+| 22 | `calculadora-usdt-bolivianos.html` Bug C2: etiquetas no cambian con modo | `setMode()` actualizaba tabs pero no `labelTop`/`labelBottom` | Añadidas actualizaciones de etiquetas según modo (comprar/vender) | calculadora-usdt-bolivianos.html:227 |
+| 23 | `calculadora-usdt-bolivianos.html` Bug C3: `calcBob()` usaba `buyRate` | BOB→USDT requiere pagar el precio de compra (`sellRate`=11.88), no `buyRate`=11.82 | Cambiado a `usdt = bob / sellRate` | calculadora-usdt-bolivianos.html:296 |
+
+---
+
 ## Pendientes / Bloqueados (requieren decisión o verificación externa)
 
 | Item | Descripción | Estado |
 |---|---|---|
-| F — Restricciones bancarias | Fecha 21/04/2026, etiqueta "Sin restricciones" con límites mensuales, "Por confirmar" | Requiere verificación manual en webs oficiales de cada banco |
-| G — Links bancarios | Algunos links pueden apuntar solo al home del banco, no al tarifario | Verificación manual por banco |
-| H — Footer links `#` (resuelto parcialmente) | "Fuentes de Datos" → `#platforms` (funciona). Sin pendientes críticos en footer | ✅ Footer links operativos; Blog links apuntan a `/blog/` existente |
-| K — `calculadora-usdt-bolivianos.html` | No auditada en Fase 1 | Pendiente Fase 2 |
+| F — Restricciones bancarias | Límites corregidos a "Con límite mensual"; fechas de revisión requieren verificación manual | Requiere actualización periódica con webs oficiales de cada banco |
+| G — Links bancarios | Links apuntan al home del banco; verificar si hay URL directa al tarifario de cada uno | Verificación manual por banco |
+| H — Footer links | Operativos. Blog apunta a `/blog/` existente | ✅ Sin pendientes críticos |
+| I — Bybit convención | Campo `buy/sell` de `/v1/p2p/bybit` no verificado independientemente de API DolarBlueBolivia | Marcado como convención observada, no documentada |
+| J — AirTM asset | `addValue`/`withdrawValue` sugieren USDT pero asset no confirmado (¿AirUSD vs USDT?) | Marcado como convención observada, no documentada |
+| K — BCB officialBuy cadena | `official.buy` de `/v1/officialRate` (DolarBlueBolivia), sin verificación directa del BCB | Label ya dice "referencia"; documentar cadena explícitamente |
 
 ---
 
@@ -92,18 +106,22 @@
 - ✅ `isDataFresh()` añadida: umbral 180 min, alineado con GitHub Actions (cada 2h en días hábiles)
 - ✅ Comparador BCB: etiquetas y textos corregidos para no afirmar precios de librecambistas
 
-### Pendiente de verificar en navegador
-- ⚠️ Verificación visual desktop + mobile no ejecutada (sin servidor local en esta sesión)
-- ⚠️ `calculadora-usdt-bolivianos.html` no auditada
-- ⚠️ Restricciones bancarias requieren verificación manual externa
+### Validado en navegador (http://localhost:8091) — 2026-10-11
+- ✅ `pricesData.*.source === 'live'` para todos los proveedores después de `loadPrices()`
+- ✅ Badges platCard: "En vivo" cuando data.source='live' y lastUpdated fresco; "Estimado" cuando 'calculated'
+- ✅ Tarjetas bancarias: badge "Con límite mensual" con `data-status="mod"` en todas
+- ✅ calcRatePill USDT→BOB: 11.83 (binance.buy) ✓; BOB→USDT: 11.88 (binance.sell) ✓
+- ✅ Comparador: "USD Físico más barato en referencia BCB — 1.28%" ✓
+- ✅ Proyección: tendencia estable, D+1 buy proyectado ✓
+- ✅ `isDataFresh(lastUpdated, 180)` = true con datos de ~49 min ✓
+- ✅ Tests de proyección: alza (+0.06/día), baja (-0.06/día), estable, borde exacto 0.05 → estable (umbral exclusivo)
+- ✅ `calculadora-usdt-bolivianos.html` bugs C1 (swap no recalcula), C2 (labels modo), C3 (calcBob rate) corregidos
 
 ---
 
-## Próximo paso: Fase 2 — Revisión visual y pendientes
+## Próximo paso: Fase 2
 
-- Verificar en navegador que la tabla comparadora muestra Compra > Venta en todas las filas
-- Verificar gráfico con etiquetas "Tú compras" / "Tú vendes" correctas
-- Revisar sección de restricciones bancarias con datos verificados
-- Crear página de metodología y fuentes
-- Implementar stale-check para badge "En vivo"
-- Corregir `calcRatePill` para mostrar la tasa correcta según dirección
+- Verificación visual mobile (pendiente — no ejecutada en esta sesión)
+- Actualizar límites bancarios con fechas verificadas desde webs oficiales
+- Documentar cadena de datos BCB explícitamente
+- Confirmar convención Bybit y AirTM con documentación externa

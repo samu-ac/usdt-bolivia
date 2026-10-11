@@ -228,6 +228,8 @@
     mode = m;
     document.getElementById('tabBuy').className  = 'calc-tab' + (m==='buy'  ? ' active-buy'  : '');
     document.getElementById('tabSell').className = 'calc-tab' + (m==='sell' ? ' active-sell' : '');
+    document.getElementById('labelTop').textContent    = m === 'buy' ? 'USDT que comprás'      : 'USDT que vendés';
+    document.getElementById('labelBottom').textContent = m === 'buy' ? 'Bolivianos que pagás'  : 'Bolivianos que recibís';
     updateDisplay();
   }
 
@@ -263,6 +265,7 @@
     const b = document.getElementById('inputBottom').value;
     document.getElementById('inputTop').value = b;
     document.getElementById('inputBottom').value = t;
+    calcFromTop();
   }
 
   // Tasas de referencia aproximadas vs USD (actualizadas manualmente periódicamente)
@@ -295,8 +298,8 @@
 
   function calcBob() {
     const bob = parseFloat(document.getElementById('bobInput').value);
-    if (isNaN(bob) || !buyRate) return;
-    const usdt = bob / buyRate;
+    if (isNaN(bob) || !sellRate) return;
+    const usdt = bob / sellRate;
     document.getElementById('bobUsdt').textContent = usdt.toFixed(2) + ' USDT';
     const results = Object.entries(FX).map(([code, f]) => {
       const val = usdt * f.rate;
