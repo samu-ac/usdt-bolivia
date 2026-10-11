@@ -73,13 +73,18 @@
 
 | # | Síntoma | Causa | Corrección | Archivo |
 |---|---|---|---|---|
-| 17 | `source` undefined en todos los proveedores después de `loadPrices()` | La actualización en vivo sobreescribía el objeto sin incluir `source` | Añadido `source: 'live'` en cada asignación de proveedor en `loadPrices()` | index.html:1319-1335 |
-| 18 | Badge "En vivo" sin distinguir fallback estimado | `platCard()` sólo chequeaba `isDataFresh(lastUpdated)` global | Badge ahora muestra "Estimado" si `data.source === 'calculated'`; "En vivo" si fresco; "Referencial" si no | index.html:1412 |
+| 17 | `source` undefined en todos los proveedores después de `loadPrices()` | La actualización en vivo sobreescribía el objeto sin incluir `source` | Asignados identificadores exactos de `fetch_prices.py` (`'binance_p2p'`, `'api_dbb_eldorado'`, etc.) en `loadPrices()` | index.html:1319-1335 |
+| 17b | `source: 'live'` genérico no distinguía `api_dbb_*` de `calculated` — podía etiquetar un estimado como "En vivo" | `loadPrices()` asignaba `source: 'live'` uniforme sin verificar procedencia | Reemplazado por identificadores específicos por proveedor (mismo esquema que `fetch_prices.py`) | index.html:1319-1335 |
+| 17c | `lastUpdated` no se actualizaba tras refresh exitoso del browser | `loadPrices()` conservaba el `lastUpdated` del JSON aunque los precios fueran recién obtenidos | Añadido `base.lastUpdated = new Date().toISOString()` dentro del bloque try tras actualizaciones exitosas | index.html:~1362 |
+| 18 | Badge "En vivo" sin distinción de procedencia | `platCard()` usaba `isDataFresh(lastUpdated)` global sin verificar que el source fuera observado | Añadida `isObservedSource(src)` (true si `api_dbb_*` o `binance_p2p`); badge: "Estimado" si calculated, "En vivo" si observed+fresco, "Referencial" si no | index.html:1393,1420 |
 | 19 | Tarjetas bancarias "Sin restricciones" con límites mensuales visibles | Badge contradecía el monto mensual documentado | Cambiados todos los `data-status="ok"` y badge `ok` a `data-status="mod"` y badge "Con límite mensual"; Fortaleza → "Por confirmar" | index.html:1003-1062 |
 | 20 | Texto predicción "14 días" incorrecto (span 19 días calendario) | `slice(-14)` da 14 registros de días hábiles, no 14 días corridos | Texto aclarado: "últimos 14 registros históricos … días hábiles registrados, no necesariamente 14 días calendario" | index.html:1840 |
-| 21 | `calculadora-usdt-bolivianos.html` Bug C1: swap no recalcula | `swapInputs()` intercambiaba valores pero no llamaba `calcFromTop()` | Añadida llamada a `calcFromTop()` al final de `swapInputs()` | calculadora-usdt-bolivianos.html:261 |
-| 22 | `calculadora-usdt-bolivianos.html` Bug C2: etiquetas no cambian con modo | `setMode()` actualizaba tabs pero no `labelTop`/`labelBottom` | Añadidas actualizaciones de etiquetas según modo (comprar/vender) | calculadora-usdt-bolivianos.html:227 |
-| 23 | `calculadora-usdt-bolivianos.html` Bug C3: `calcBob()` usaba `buyRate` | BOB→USDT requiere pagar el precio de compra (`sellRate`=11.88), no `buyRate`=11.82 | Cambiado a `usdt = bob / sellRate` | calculadora-usdt-bolivianos.html:296 |
+| 21 | Bug C1 en `calculadora-usdt-bolivianos.html`: swap no recalcula | `swapInputs()` intercambiaba valores pero no llamaba `calcFromTop()` | Añadida llamada a `calcFromTop()` al final de `swapInputs()` | **calculadora-usdt-bolivianos.html**:261 |
+| 22 | Bug C2 en `calculadora-usdt-bolivianos.html`: etiquetas no cambian con modo | `setMode()` actualizaba tabs pero no `labelTop`/`labelBottom` | Añadidas actualizaciones de etiquetas según modo (comprar/vender) | **calculadora-usdt-bolivianos.html**:227 |
+| 23 | Bug C3 en `calculadora-usdt-bolivianos.html`: `calcBob()` usaba `buyRate` | BOB→USDT requiere pagar el precio de compra (`sellRate`=11.88), no `buyRate`=11.82 | Cambiado a `usdt = bob / sellRate` | **calculadora-usdt-bolivianos.html**:296 |
+| 24 | `renderExchanges()` hardcodeaba "Live" por nombre de proveedor | Lista de strings `p.name === 'Bybit P2P' \|\| ...` no refleja source real | Badge derivado de `isObservedSource(p.source) && fresh`; OKX/Bitget/Vita/BCP/CriptoBISA muestran "Ref." | index.html:~1600 |
+| 25 | Bybit y AirTM sin caveat de convención en UI | Convención buy/sell de Bybit no verificada independientemente; AirTM — asset no confirmado (¿USDC? ¿USDT?) | Añadida nota "⚠ conv. no verificada" y "⚠ asset/conv. no verificado" en tabla de comparación | index.html:~1570 |
+| 26 | BCB label decía "Tipo Oficial BCB" sin aclarar intermediario | `officialBuy` viene de DolarBlueBolivia `/v1/officialRate`, no directamente del BCB | Cambiado a "Tasa de referencia BCB" con label "vía API DolarBlueBolivia"; nota de cadena de datos en card detail | index.html:757,759,761 |
 
 ---
 
@@ -107,21 +112,63 @@
 - ✅ Comparador BCB: etiquetas y textos corregidos para no afirmar precios de librecambistas
 
 ### Validado en navegador (http://localhost:8091) — 2026-10-11
-- ✅ `pricesData.*.source === 'live'` para todos los proveedores después de `loadPrices()`
-- ✅ Badges platCard: "En vivo" cuando data.source='live' y lastUpdated fresco; "Estimado" cuando 'calculated'
+
+#### Pruebas de badge de fuente (4 escenarios + caso regresión):
+| Escenario | source | lastUpdated | Badge esperado | Resultado |
+|---|---|---|---|---|
+| 1. Cotización observada y reciente | `api_dbb_eldorado` | ahora | En vivo | ✅ |
+| 2. Estimación recién generada | `calculated` | ahora | Estimado | ✅ |
+| 3. Cotización observada pero vieja (+5h) | `api_dbb_takenos` | hace 5h | Referencial | ✅ |
+| 4. Procedencia ausente | `undefined` | ahora | Referencial | ✅ |
+| 5. Source genérico 'live' (pre-4e13cd4) | `'live'` | ahora | Referencial | ✅ detecta el bug anterior |
+
+#### Fuentes actuales en `pricesData` tras reload:
+`binance_p2p` ✓ | `api_dbb_eldorado` ✓ | `api_dbb_airtm` ✓ | `api_dbb_bybit` ✓ | `api_dbb_wallbit` ✓
+
+#### Pruebas de proyección (contra `renderPrediction()` real):
+| Caso | Entrada | Badge | Correcto |
+|---|---|---|---|
+| Ascendente | +0.06/día × 14 registros | ↗ Tendencia al alza | ✅ |
+| Descendente | -0.06/día × 14 registros | ↘ Tendencia a la baja | ✅ |
+| Estable | 0.00/día × 14 registros | → Tendencia estable | ✅ |
+| Borde float | +0.05/día exacto | ↗ alza (imprecisión float, slope ≈ 0.0500...01) | documentado — umbral `> 0.05` estricto |
+
+Nota: el umbral es `changeSell > 0.05` (código fuente verificado). Con exactamente 0.05/día la aritmética de punto flotante produce un slope ≈ 0.05+ε, dando "alza". Comportamiento esperado, no un bug del algoritmo.
+
+#### Verificaciones visuales:
+- ✅ Bybit: badge "Live" (source=api_dbb_bybit) + nota "⚠ conv. no verificada"
+- ✅ AirTM: nota "⚠ asset/conv. no verificado"
+- ✅ BCB card: "Tasa de referencia BCB" · "vía API DolarBlueBolivia"
 - ✅ Tarjetas bancarias: badge "Con límite mensual" con `data-status="mod"` en todas
-- ✅ calcRatePill USDT→BOB: 11.83 (binance.buy) ✓; BOB→USDT: 11.88 (binance.sell) ✓
-- ✅ Comparador: "USD Físico más barato en referencia BCB — 1.28%" ✓
-- ✅ Proyección: tendencia estable, D+1 buy proyectado ✓
-- ✅ `isDataFresh(lastUpdated, 180)` = true con datos de ~49 min ✓
-- ✅ Tests de proyección: alza (+0.06/día), baja (-0.06/día), estable, borde exacto 0.05 → estable (umbral exclusivo)
-- ✅ `calculadora-usdt-bolivianos.html` bugs C1 (swap no recalcula), C2 (labels modo), C3 (calcBob rate) corregidos
+- ✅ Banco Fortaleza: badge "Por confirmar"
+- ✅ `calculadora-usdt-bolivianos.html` (nombre completo): bugs C1, C2, C3 corregidos
+
+---
+
+---
+
+## Tabla de procedencia por proveedor (estado 2026-10-11)
+
+| Proveedor | Endpoint (Python) | Source en JSON | Source en browser (tras fix) | Convención buy/sell | Estado verificación |
+|---|---|---|---|---|---|
+| **Binance** | `/v1/officialRate` → `blue.buy/sell` | `"binance_p2p"` (siempre, línea 455) | `'binance_p2p'` | buy < sell (market-centric): buy=usuario vende, sell=usuario compra | ✅ verificado desde `fetch_prices.py` |
+| **Eldorado** | `/v1/eldorado` → `buy/sell` | `"api_dbb_eldorado"` o `"calculated"` | preservado del JSON o `'api_dbb_eldorado'` si live OK | buy > sell (user-centric) | ✅ verificado por fallback `buy_price*1.0071 > sell_price*0.9880` |
+| **Takenos** | `/v1/takenos` → `buy/sell` | `"api_dbb_takenos"` o `"calculated"` | preservado o `'api_dbb_takenos'` | buy > sell (user-centric) | ✅ verificado por fallback `*1.0222`/`*0.9860` |
+| **Wallbit** | `/v1/wallbit` → `buy/sell` | `"api_dbb_wallbit"` o `"calculated"` | preservado o `'api_dbb_wallbit'` | buy > sell (user-centric) | ✅ verificado por fallback `*1.0121`/`*0.9840` |
+| **AirTM** | `/v1/airtm` → `addValue/withdrawValue` | `"api_dbb_airtm"` o `"calculated"` | preservado o `'api_dbb_airtm'` | `addValue`=compra (buy), `withdrawValue`=venta (sell) — nombres explícitos | ⚠ **Asset no confirmado** — ¿AirUSD, USDC o USDT? Fees desconocidas. Marcado en UI. |
+| **Bybit** | `/v1/p2p/bybit` → `buy/sell` | `"api_dbb_bybit"` o `"calculated"` | preservado o `'api_dbb_bybit'` | buy > sell (user-centric, asumido) | ⚠ **Convención no verificada** desde doc. API. Marcado en UI. Spread actual 0.01 (11.85/11.84). |
+| **SaldoAr** | `/v1/saldoar` → `buy/sell` | `"api_dbb_saldoar"` o `"calculated"` | preservado o `'api_dbb_saldoar'` | buy > sell (user-centric) | ✅ verificado por fallback `*1.011`/`*0.988` |
+| **BCB official** | `/v1/officialRate` → `official.buy/sell` | **sin campo source** en `bcb_data` | n/a (no en platCard) | n/a — tasa administrativa | ⚠ **Cadena no directa**: DolarBlueBolivia como intermediario. Aclarado en UI como "vía API DolarBlueBolivia". |
+| **BCB VRD** | `/v1/referencial/bcb` o scraping `bcb.gob.bo` | en `bcb.vrdBuy/vrdSell` | n/a | n/a | ✅ — doble fuente (API DBB + scraping directo BCB) |
+
+**Fecha del dato usado:** `prices.json.lastUpdated` es la fecha de generación del archivo por GitHub Actions. No hay timestamp por-proveedor. Cuando `loadPrices()` hace refresh exitoso, `base.lastUpdated` se actualiza al momento de la llamada del browser.
 
 ---
 
 ## Próximo paso: Fase 2
 
 - Verificación visual mobile (pendiente — no ejecutada en esta sesión)
-- Actualizar límites bancarios con fechas verificadas desde webs oficiales
-- Documentar cadena de datos BCB explícitamente
-- Confirmar convención Bybit y AirTM con documentación externa
+- Confirmar asset de AirTM (USDT vs AirUSD vs USDC) desde documentación oficial AirTM o DolarBlueBolivia
+- Confirmar convención Bybit desde documentación oficial o test empírico
+- Añadir campo `source` a `bcb_data` en `fetch_prices.py` para completar la cadena
+- Actualizar límites bancarios con fechas verificadas desde webs oficiales de cada banco

@@ -754,11 +754,11 @@
       <div class="section-title"><span>⚖️</span> Tipo Oficial BCB vs USDT Digital — Comparación de referencias</div>
       <div class="compare-grid">
         <div class="compare-card" id="comparePhysCard">
-          <div class="compare-card-tag" style="color:var(--navy)">🏦 Tipo Oficial BCB (referencia)</div>
+          <div class="compare-card-tag" style="color:var(--navy)">🏦 Tasa de referencia BCB</div>
           <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · Tipo de Cambio Oficial BCB</div>
+          <div class="compare-card-label">Bs por 1 USD · vía API DolarBlueBolivia</div>
           <div class="compare-card-detail">
-            Tipo de cambio oficial publicado por el Banco Central de Bolivia. Es una referencia administrativa; los precios que cobran los cambistas pueden diferir de este valor.<br><br>
+            Tasa reportada por la API de DolarBlueBolivia (<code style="font-size:10px">/v1/officialRate → official.buy</code>), que agrega datos del BCB. No verificada directamente desde bcb.gob.bo. Referencia administrativa; los precios reales de cambistas pueden diferir.<br><br>
             <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
             <strong>Riesgo:</strong> Acceso limitado al dólar físico en Bolivia.
           </div>
@@ -1316,23 +1316,25 @@
       const dVrd   = val(bcbvrd);
 
       // Binance P2P (blue = mercado paralelo)
+      // fetch_prices.py etiqueta este campo 'binance_p2p' independientemente de si llegó
+      // por d_official["blue"] (DolarBlueBolivia) o por fallback directo a Binance P2P
       if (live?.blue) {
-        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true, source: 'live' };
+        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true, source: 'binance_p2p' };
       }
 
-      // Plataformas con datos reales
+      // Plataformas con datos reales — misma lógica y mismos identificadores que fetch_prices.py
       if (dEld?.buy  && dEld?.sell)
-        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true, source: 'live' };
+        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true, source: 'api_dbb_eldorado' };
       if (dTak?.buy  && dTak?.sell)
-        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true, source: 'live' };
+        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true, source: 'api_dbb_takenos' };
       if (dWall?.buy && dWall?.sell)
-        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true, source: 'live' };
+        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true, source: 'api_dbb_wallbit' };
       if (dAir?.addValue && dAir?.withdrawValue)
-        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true, source: 'live' };
+        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true, source: 'api_dbb_airtm' };
       if (dBybit?.buy && parseFloat(dBybit.buy) > 1)
-        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true, source: 'live' };
+        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true, source: 'api_dbb_bybit' };
       if (dSaldo?.buy && dSaldo?.sell)
-        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true, source: 'live' };
+        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true, source: 'api_dbb_saldoar' };
 
       // BCB oficial + VRD
       if (live?.official) {
@@ -1357,7 +1359,12 @@
         base.history.push({ date:today, buy:live.blue.buy, sell:live.blue.sell });
         base.history.sort((a,b)=>a.date.localeCompare(b.date));
       }
-    } catch(e) { console.warn('API en vivo no disponible:', e.message); }
+      // Actualizar lastUpdated al momento de la consulta en vivo exitosa
+      base.lastUpdated = new Date().toISOString();
+    } catch(e) {
+      console.warn('API en vivo no disponible:', e.message);
+      // lastUpdated queda como el del archivo JSON — la antigüedad real del dato
+    }
 
     const d = new Date();
     const dias  = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
@@ -1392,6 +1399,11 @@
     return age >= 0 && age <= maxAgeMinutes;
   }
 
+  // Devuelve true solo para cotizaciones observadas desde una API (no estimadas por multiplicadores)
+  function isObservedSource(src) {
+    return typeof src === 'string' && (src.startsWith('api_dbb') || src === 'binance_p2p');
+  }
+
   function platCard({ name, domain, logo, gradient, desc, features, data, btn1Text, btn2Text, btn2Color, url, time }) {
     if (!data?.available) return '';
     const userBuy = parseFloat(data.buy), userSell = parseFloat(data.sell);
@@ -1409,7 +1421,7 @@
       <div class="plat-big-price-box">
         <div class="plat-big-price-label">
           <span>⬡ Cotización ${name}</span>
-          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : (isDataFresh(pricesData?.lastUpdated, 180) ? 'En vivo' : 'Referencial')}</span>
+          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(pricesData?.lastUpdated, 180) ? 'En vivo' : 'Referencial'}</span>
         </div>
         <div class="plat-big-price-val">Bs ${avg}</div>
         <div class="plat-big-price-sub">
@@ -1559,34 +1571,40 @@
     const uBuy  = parseFloat(d.binance?.sell) || 12.00;
     const uSell = parseFloat(d.binance?.buy)  || 11.95;
 
+    const fresh = isDataFresh(pricesData?.lastUpdated, 180);
     const platforms = [
       { name:'Binance P2P', type:'exchange', emoji:'⬡',
-        buy: uBuy, sell: uSell },
+        buy: uBuy, sell: uSell, source: d.binance?.source },
       { name:'Bybit P2P',   type:'exchange', emoji:'🟡',
         buy: parseFloat(d.bybit?.buy)  || +(uBuy  + 0.03).toFixed(2),
-        sell:parseFloat(d.bybit?.sell) || +(uSell - 0.02).toFixed(2) },
+        sell:parseFloat(d.bybit?.sell) || +(uSell - 0.02).toFixed(2),
+        source: d.bybit?.source, convNote: '⚠ conv. no verificada' },
       { name:'OKX P2P',     type:'exchange', emoji:'⚫',
-        buy: +(uBuy + 0.02).toFixed(2), sell: +(uSell - 0.01).toFixed(2) },
+        buy: +(uBuy + 0.02).toFixed(2), sell: +(uSell - 0.01).toFixed(2), source: null },
       { name:'Bitget P2P',  type:'exchange', emoji:'🔵',
-        buy: +(uBuy + 0.03).toFixed(2), sell: +(uSell + 0.01).toFixed(2) },
+        buy: +(uBuy + 0.03).toFixed(2), sell: +(uSell + 0.01).toFixed(2), source: null },
       { name:'Saldo',       type:'exchange', emoji:'💚',
         buy: parseFloat(d.saldoar?.buy)  || +(uBuy  + 0.12).toFixed(2),
-        sell:parseFloat(d.saldoar?.sell) || +(uSell - 0.10).toFixed(2) },
+        sell:parseFloat(d.saldoar?.sell) || +(uSell - 0.10).toFixed(2),
+        source: d.saldoar?.source },
       { name:'Takenos',     type:'exchange', emoji:'☁️',
         buy: parseFloat(d.takenos?.buy)  || +(uBuy  + 0.23).toFixed(2),
-        sell:parseFloat(d.takenos?.sell) || +(uSell - 0.11).toFixed(2) },
+        sell:parseFloat(d.takenos?.sell) || +(uSell - 0.11).toFixed(2),
+        source: d.takenos?.source },
       { name:'Vita Wallet', type:'exchange', emoji:'💜',
-        buy: +(uBuy + 0.09).toFixed(2), sell: +(uSell - 0.12).toFixed(2) },
+        buy: +(uBuy + 0.09).toFixed(2), sell: +(uSell - 0.12).toFixed(2), source: null },
       { name:'Wallbit',     type:'exchange', emoji:'🔷',
         buy: parseFloat(d.wallbit?.buy)  || +(uBuy  + 0.16).toFixed(2),
-        sell:parseFloat(d.wallbit?.sell) || +(uSell - 0.15).toFixed(2) },
-      { name:'AirTM (USDC)',type:'exchange', emoji:'✈️',
+        sell:parseFloat(d.wallbit?.sell) || +(uSell - 0.15).toFixed(2),
+        source: d.wallbit?.source },
+      { name:'AirTM',       type:'exchange', emoji:'✈️',
         buy: parseFloat(d.airtm?.buy)  || +(uBuy  + 0.22).toFixed(2),
-        sell:parseFloat(d.airtm?.sell) || +(uSell - 0.30).toFixed(2) },
+        sell:parseFloat(d.airtm?.sell) || +(uSell - 0.30).toFixed(2),
+        source: d.airtm?.source, convNote: '⚠ asset/conv. no verificado' },
       { name:'BCP Bolivia', type:'banco',    emoji:'🏦',
-        buy: +(uBuy  + 0.25).toFixed(2), sell: +(uSell - 0.01).toFixed(2) },
+        buy: +(uBuy  + 0.25).toFixed(2), sell: +(uSell - 0.01).toFixed(2), source: null },
       { name:'CriptoBISA',  type:'banco',    emoji:'🏦',
-        buy: +(uBuy  + 0.20).toFixed(2), sell: +(uSell - 0.80).toFixed(2) },
+        buy: +(uBuy  + 0.20).toFixed(2), sell: +(uSell - 0.80).toFixed(2), source: null },
     ];
 
     const filtered = exFilter === 'all' ? platforms : platforms.filter(p => p.type === exFilter);
@@ -1594,12 +1612,18 @@
 
     let rows = sorted.map((p, i) => {
       const spread = (p.sell > 0 && p.buy > 0) ? ((p.buy - p.sell) / p.sell * 100).toFixed(2) + '%' : '—';
-      const isLive = p.name === 'Binance P2P' || p.name === 'Bybit P2P' || p.name === 'Saldo' || p.name === 'Takenos' || p.name === 'Wallbit' || p.name === 'AirTM (USDC)';
+      const liveOk = isObservedSource(p.source) && fresh;
+      const badge  = p.source === 'calculated'
+        ? '<span class="platform-badge" style="background:rgba(245,183,0,.15);color:#8a6200;border-color:rgba(245,183,0,.4)">Est.</span>'
+        : liveOk
+          ? '<span class="platform-badge">Live</span>'
+          : '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>';
+      const convNote = p.convNote ? `<small style="display:block;font-size:10px;color:#b45309">${p.convNote}</small>` : '';
       return `<tr data-type="${p.type}">
         <td style="font-size:18px;width:32px;text-align:center">${p.emoji}</td>
         <td>
-          <span class="bank-name">${p.name}${isLive ? '<span class="platform-badge">Live</span>' : '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>'}</span>
-          <small style="display:block;font-size:11px;color:var(--text3)">${p.type === 'banco' ? 'Banco · USDT' : 'Exchange · P2P'}</small>
+          <span class="bank-name">${p.name}${badge}</span>
+          <small style="display:block;font-size:11px;color:var(--text3)">${p.type === 'banco' ? 'Banco · USDT' : 'Exchange · P2P'}</small>${convNote}
         </td>
         <td><span style="font-size:11px;font-weight:700;background:var(--blue-lt);color:var(--navy);padding:2px 8px;border-radius:8px">${p.type === 'banco' ? 'Banco' : 'Exchange'}</span></td>
         <td class="price-buy" style="font-size:16px;font-weight:800">Bs ${p.buy.toFixed(2)}</td>
@@ -2202,8 +2226,8 @@
       // USDT más caro que físico → conviene USD físico
       recBox.classList.add('green');
       recIcon.textContent = '🏦';
-      recTitle.textContent = `USD Físico más barato en referencia BCB — ${pct}%`;
-      recDesc.textContent  = `El tipo oficial BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Esta es una referencia administrativa; los precios reales de librecambistas pueden diferir.`;
+      recTitle.textContent = `Tasa BCB por debajo del USDT — ${pct}%`;
+      recDesc.textContent  = `La tasa de referencia BCB (Bs ${vrd.toFixed(2)}, vía DolarBlueBolivia) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Referencia administrativa; el precio real en librecambistas puede diferir.`;
       physCard.classList.add('winner');
     } else if (diff < -0.15) {
       // USDT más barato → conviene USDT
