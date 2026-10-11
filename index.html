@@ -1288,6 +1288,8 @@
     let base = {};
     // 1. Cargar JSON guardado como base (historial + fallback)
     try { const r = await fetch('data/prices.json?v='+Date.now()); base = await r.json(); } catch(e) {}
+    // Preservar fecha de generación del archivo para usarla como edad de datos no refrescados en vivo
+    base._jsonLastUpdated = base.lastUpdated || null;
 
     // Renderizar inmediatamente con datos guardados para que el gráfico aparezca al instante
     if (base.history?.length) { pricesData = base; renderAll(); }
@@ -1306,6 +1308,7 @@
       ]);
 
       const val = r => r.status === 'fulfilled' ? r.value : null;
+      const fetchedAt = new Date().toISOString(); // timestamp de esta consulta en vivo
       const live   = val(official);
       const dEld   = val(eldorado);
       const dTak   = val(takenos);
@@ -1319,24 +1322,26 @@
       // fetch_prices.py etiqueta este campo 'binance_p2p' independientemente de si llegó
       // por d_official["blue"] (DolarBlueBolivia) o por fallback directo a Binance P2P
       if (live?.blue) {
-        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true, source: 'binance_p2p' };
+        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true, source: 'binance_p2p', fetchedAt };
       }
 
       // Plataformas con datos reales — misma lógica y mismos identificadores que fetch_prices.py
+      // fetchedAt marca el momento exacto de esta consulta; si el proveedor no respondió,
+      // se conserva el valor del JSON y su antigüedad es base._jsonLastUpdated
       if (dEld?.buy  && dEld?.sell)
-        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true, source: 'api_dbb_eldorado' };
+        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true, source: 'api_dbb_eldorado', fetchedAt };
       if (dTak?.buy  && dTak?.sell)
-        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true, source: 'api_dbb_takenos' };
+        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true, source: 'api_dbb_takenos',  fetchedAt };
       if (dWall?.buy && dWall?.sell)
-        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true, source: 'api_dbb_wallbit' };
+        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true, source: 'api_dbb_wallbit',  fetchedAt };
       if (dAir?.addValue && dAir?.withdrawValue)
-        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true, source: 'api_dbb_airtm' };
+        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true, source: 'api_dbb_airtm',  fetchedAt };
       if (dBybit?.buy && parseFloat(dBybit.buy) > 1)
-        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true, source: 'api_dbb_bybit' };
+        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true, source: 'api_dbb_bybit',   fetchedAt };
       if (dSaldo?.buy && dSaldo?.sell)
-        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true, source: 'api_dbb_saldoar' };
+        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true, source: 'api_dbb_saldoar', fetchedAt };
 
-      // BCB oficial + VRD
+      // BCB oficial + VRD — source identifica el intermediario (DolarBlueBolivia /officialRate)
       if (live?.official) {
         base.bcb = {
           officialBuy:     live.official.buy,
@@ -1345,6 +1350,8 @@
           referentialSell: live.blue?.sell || base.bcb?.referentialSell,
           vrdBuy:  dVrd?.buy  || dVrd?.compra || base.bcb?.vrdBuy,
           vrdSell: dVrd?.sell || dVrd?.venta  || base.bcb?.vrdSell,
+          source: 'api_dbb_officialRate',
+          fetchedAt,
         };
       } else if (dVrd?.buy) {
         base.bcb = base.bcb || {};
@@ -1421,7 +1428,7 @@
       <div class="plat-big-price-box">
         <div class="plat-big-price-label">
           <span>⬡ Cotización ${name}</span>
-          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(pricesData?.lastUpdated, 180) ? 'En vivo' : 'Referencial'}</span>
+          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(data.fetchedAt || pricesData?._jsonLastUpdated, 180) ? 'En vivo' : 'Referencial'}</span>
         </div>
         <div class="plat-big-price-val">Bs ${avg}</div>
         <div class="plat-big-price-sub">
@@ -1490,12 +1497,9 @@
     // Hora de actualización
     const timeStr = now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'}) + ' p.m.';
 
-    // Platform big cards
+    // Platform big cards (Eldorado, Wallbit, Takenos con datos verificados)
+    // AirTM movido a "otras plataformas" — activo y convención sin confirmar
     document.getElementById('platCardsGrid').innerHTML = [
-      platCard({ name:'Airtm', logo:'AIRTM', gradient:'linear-gradient(135deg,#1565C0 0%,#1976D2 60%,#0D47A1 100%)',
-        desc:'Plataforma global para intercambio de divisas y criptomonedas con alcance mundial.',
-        features:['Fácil de usar','Soporte 24/7','Múltiples métodos'],
-        data:airtm, btn1Text:'Ver detalles', btn2Text:'Crear cuenta', btn2Color:'#1565C0', url:'https://www.airtm.com/', time:timeStr }),
       platCard({ name:'Eldorado', logo:'🏅', gradient:'linear-gradient(135deg,#E65100 0%,#F57C00 60%,#FF8F00 100%)',
         desc:'La SuperApp de Stablecoins para Latinoamérica con +70 métodos de pago locales.',
         features:['+70 métodos de pago','Sin comisiones','P2P Trading'],
@@ -1510,7 +1514,7 @@
         data:takenos, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#4A148C', url:'https://takenos.com/', time:timeStr }),
     ].join('');
 
-    // Otras plataformas (coloridas)
+    // Otras plataformas (coloridas) — incluye AirTM con nota de advertencia
     document.getElementById('otrasGrid').innerHTML = [
       otraCard({ name:'SaldoAr',   logo:'💜', gradient:'linear-gradient(135deg,#6B21A8,#7C3AED)',
         desc:'Plataforma argentina para comprar y vender USDT con pesos y otras divisas.',
@@ -1520,10 +1524,13 @@
         features:['Trading avanzado','P2P seguro','Alta liquidez'], url:'https://www.bitget.com/' }),
       otraCard({ name:'Bybit P2P',  logo:'🟠', gradient:'linear-gradient(135deg,#C2410C,#EA580C)',
         desc:'Plataforma de trading con P2P y amplia variedad de métodos de pago.',
-        features:['Opciones variadas','Trading profesional','Seguridad robusta'], url:'https://www.bybit.com/' }),
+        features:['Opciones variadas','Trading profesional','⚠ conv. no verificada'], url:'https://www.bybit.com/' }),
       otraCard({ name:'Binance P2P',logo:'🟡', gradient:'linear-gradient(135deg,#B45309,#D97706)',
         desc:'El exchange de criptomonedas más grande del mundo con servicio P2P.',
         features:['Bajas comisiones','Alta liquidez','Seguridad avanzada'], url:'https://p2p.binance.com/' }),
+      otraCard({ name:'AirTM',      logo:'✈️', gradient:'linear-gradient(135deg,#1565C0 0%,#1976D2 60%,#0D47A1 100%)',
+        desc:'Plataforma global para intercambio de divisas. ⚠ Activo y convención no verificados.',
+        features:['Múltiples métodos','Soporte 24/7','⚠ activo/conv. sin confirmar'], url:'https://www.airtm.com/' }),
     ].join('');
 
     // BCB
@@ -1571,14 +1578,14 @@
     const uBuy  = parseFloat(d.binance?.sell) || 12.00;
     const uSell = parseFloat(d.binance?.buy)  || 11.95;
 
-    const fresh = isDataFresh(pricesData?.lastUpdated, 180);
     const platforms = [
       { name:'Binance P2P', type:'exchange', emoji:'⬡',
-        buy: uBuy, sell: uSell, source: d.binance?.source },
+        buy: uBuy, sell: uSell, source: d.binance?.source, fetchedAt: d.binance?.fetchedAt },
       { name:'Bybit P2P',   type:'exchange', emoji:'🟡',
         buy: parseFloat(d.bybit?.buy)  || +(uBuy  + 0.03).toFixed(2),
         sell:parseFloat(d.bybit?.sell) || +(uSell - 0.02).toFixed(2),
-        source: d.bybit?.source, convNote: '⚠ conv. no verificada' },
+        source: d.bybit?.source, fetchedAt: d.bybit?.fetchedAt,
+        convNote: '⚠ conv. no verificada', excludeFromRank: true },
       { name:'OKX P2P',     type:'exchange', emoji:'⚫',
         buy: +(uBuy + 0.02).toFixed(2), sell: +(uSell - 0.01).toFixed(2), source: null },
       { name:'Bitget P2P',  type:'exchange', emoji:'🔵',
@@ -1586,21 +1593,22 @@
       { name:'Saldo',       type:'exchange', emoji:'💚',
         buy: parseFloat(d.saldoar?.buy)  || +(uBuy  + 0.12).toFixed(2),
         sell:parseFloat(d.saldoar?.sell) || +(uSell - 0.10).toFixed(2),
-        source: d.saldoar?.source },
+        source: d.saldoar?.source, fetchedAt: d.saldoar?.fetchedAt },
       { name:'Takenos',     type:'exchange', emoji:'☁️',
         buy: parseFloat(d.takenos?.buy)  || +(uBuy  + 0.23).toFixed(2),
         sell:parseFloat(d.takenos?.sell) || +(uSell - 0.11).toFixed(2),
-        source: d.takenos?.source },
+        source: d.takenos?.source, fetchedAt: d.takenos?.fetchedAt },
       { name:'Vita Wallet', type:'exchange', emoji:'💜',
         buy: +(uBuy + 0.09).toFixed(2), sell: +(uSell - 0.12).toFixed(2), source: null },
       { name:'Wallbit',     type:'exchange', emoji:'🔷',
         buy: parseFloat(d.wallbit?.buy)  || +(uBuy  + 0.16).toFixed(2),
         sell:parseFloat(d.wallbit?.sell) || +(uSell - 0.15).toFixed(2),
-        source: d.wallbit?.source },
+        source: d.wallbit?.source, fetchedAt: d.wallbit?.fetchedAt },
       { name:'AirTM',       type:'exchange', emoji:'✈️',
         buy: parseFloat(d.airtm?.buy)  || +(uBuy  + 0.22).toFixed(2),
         sell:parseFloat(d.airtm?.sell) || +(uSell - 0.30).toFixed(2),
-        source: d.airtm?.source, convNote: '⚠ asset/conv. no verificado' },
+        source: d.airtm?.source, fetchedAt: d.airtm?.fetchedAt,
+        convNote: '⚠ asset/conv. no verificado', excludeFromRank: true },
       { name:'BCP Bolivia', type:'banco',    emoji:'🏦',
         buy: +(uBuy  + 0.25).toFixed(2), sell: +(uSell - 0.01).toFixed(2), source: null },
       { name:'CriptoBISA',  type:'banco',    emoji:'🏦',
@@ -1608,11 +1616,13 @@
     ];
 
     const filtered = exFilter === 'all' ? platforms : platforms.filter(p => p.type === exFilter);
-    const sorted   = [...filtered].sort((a,b) => a.buy - b.buy);
+    // Bybit y AirTM tienen convención/activo no verificado — se excluyen del ranking principal
+    const ranked   = [...filtered].filter(p => !p.excludeFromRank).sort((a,b) => a.buy - b.buy);
+    const unranked = filtered.filter(p => p.excludeFromRank);
 
-    let rows = sorted.map((p, i) => {
+    const makeRow = (p) => {
       const spread = (p.sell > 0 && p.buy > 0) ? ((p.buy - p.sell) / p.sell * 100).toFixed(2) + '%' : '—';
-      const liveOk = isObservedSource(p.source) && fresh;
+      const liveOk = isObservedSource(p.source) && isDataFresh(p.fetchedAt || pricesData?._jsonLastUpdated, 180);
       const badge  = p.source === 'calculated'
         ? '<span class="platform-badge" style="background:rgba(245,183,0,.15);color:#8a6200;border-color:rgba(245,183,0,.4)">Est.</span>'
         : liveOk
@@ -1630,7 +1640,15 @@
         <td class="price-sell" style="font-size:16px;font-weight:800">Bs ${p.sell.toFixed(2)}</td>
         <td class="spread">${spread}</td>
       </tr>`;
-    }).join('');
+    };
+
+    let rows = ranked.map(makeRow).join('');
+    if (unranked.length) {
+      rows += `<tr><td colspan="6" style="padding:6px 8px;font-size:11px;color:#b45309;background:rgba(180,83,9,.06);border-top:1px dashed rgba(180,83,9,.3)">
+        ⚠ Las siguientes plataformas tienen convención o activo sin verificar — se excluyen del ranking de precios
+      </td></tr>`;
+      rows += unranked.map(makeRow).join('');
+    }
 
     document.getElementById('exTableBody').innerHTML = rows || '<tr><td colspan="6" style="color:var(--text3);padding:20px">Sin datos</td></tr>';
   }
@@ -1744,7 +1762,9 @@
     if (!pred && pricesData?.history?.length >= 5) {
       const hist = pricesData.history.slice(-14);
       const n = hist.length;
-      const xs = hist.map((_, i) => i);
+      // Usar días calendario desde el primer registro para que la pendiente sea Bs/día real
+      const t0 = new Date(hist[0].date).getTime();
+      const xs = hist.map(h => (new Date(h.date).getTime() - t0) / 86400000);
       const linRegSlope = (ys) => {
         const mx = xs.reduce((a,b)=>a+b,0)/n, my = ys.reduce((a,b)=>a+b,0)/n;
         const num = xs.reduce((s,x,i)=>s+(x-mx)*(ys[i]-my),0);
@@ -1753,15 +1773,19 @@
       };
       const buyReg  = linRegSlope(hist.map(h=>+h.buy));
       const sellReg = linRegSlope(hist.map(h=>+h.sell));
-      const project = (reg, day) => reg.slope * day + reg.intercept;
+      const project = (reg, x) => reg.slope * x + reg.intercept;
       const last = hist[hist.length-1];
+      const lastX = xs[xs.length - 1]; // días desde t0 hasta el último registro
       const days = [1,2,3].map(d => ({
-        buy:  project(buyReg,  n-1+d),
-        sell: project(sellReg, n-1+d),
+        buy:  project(buyReg,  lastX + d),
+        sell: project(sellReg, lastX + d),
       }));
       const changeSell = days[0].sell - +last.sell;
-      const trend = changeSell > 0.05 ? 'alza' : changeSell < -0.05 ? 'baja' : 'estable';
-      pred = { days, last, hist, trend, buyReg, sellReg, n };
+      // Tolerancia 1e-9 para evitar efectos de redondeo IEEE 754 en el umbral exacto de 0.05
+      const TREND_THRESHOLD = 0.05, TREND_EPS = 1e-9;
+      const trend = changeSell > TREND_THRESHOLD + TREND_EPS ? 'alza'
+                  : changeSell < -(TREND_THRESHOLD + TREND_EPS) ? 'baja' : 'estable';
+      pred = { days, last, hist, trend, buyReg, sellReg, n, lastX };
     }
     if (!pred) {
       document.getElementById('predTrendBadge').textContent = '— Sin datos disponibles';
@@ -1861,7 +1885,7 @@
       { tag: 'warn', label: 'Brecha cambiaria', text: `El tipo oficial del BCB (Bs ${(pricesData?.bcb?.officialBuy||'—')}) difiere del precio de mercado P2P (Bs ${currentBuy.toFixed(2)}). Mientras exista esta brecha, el mercado paralelo de USDT sigue siendo la principal vía de acceso a divisas.` },
       { tag: 'imf',  label: 'FMI', text: 'Bolivia mantiene negociaciones con el Fondo Monetario Internacional para un posible acuerdo de financiamiento. Un acuerdo formal podría aliviar la escasez de dólares y reducir la demanda de USDT en el mercado paralelo.' },
       { tag: 'info', label: 'Estacionalidad', text: seasonal },
-      { tag: 'info', label: 'Método estadístico', text: 'Esta proyección usa regresión lineal simple sobre los últimos 14 registros históricos de precios de Binance P2P Bolivia (días hábiles registrados, no necesariamente 14 días calendario). No incorpora eventos futuros ni política monetaria. Es referencial, no financiera.' },
+      { tag: 'info', label: 'Método estadístico', text: `Esta proyección usa regresión lineal simple sobre los últimos ${pred.n} registros históricos (${pred.lastX !== undefined ? Math.round(pred.lastX) : '~'} días calendario). El eje X son días calendario reales desde el primer registro del período, por lo que la pendiente mide Bs/día calendario. Umbral de tendencia: ±0.05 Bs/día (siguiente registro). No incorpora eventos futuros ni política monetaria. Es referencial, no financiera.` },
     ];
 
     factorsEl.innerHTML = factors.map(f =>
