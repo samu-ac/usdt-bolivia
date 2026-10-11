@@ -172,3 +172,50 @@ Nota: el umbral es `changeSell > 0.05` (código fuente verificado). Con exactame
 - Confirmar convención Bybit desde documentación oficial o test empírico
 - Añadir campo `source` a `bcb_data` en `fetch_prices.py` para completar la cadena
 - Actualizar límites bancarios con fechas verificadas desde webs oficiales de cada banco
+
+---
+
+## Fase 2 — Mejora Visual y Experiencia
+
+**Rama:** `fase2-mejora-visual`  
+**Fecha:** 2026-10-11  
+**Base:** `fase1-auditoria-coherencia` @ `b11c4b4`
+
+### Cambios aplicados
+
+| # | Área | Cambio |
+|---|---|---|
+| F2-1 | Antigüedad por proveedor | Badge usa `data.fetchedAt` individual, no `_jsonLastUpdated` global. Lógica: `'Estimado'` si calculated · `'En vivo'` si observed+fresco (<3h) · `'Referencial'` si observed+viejo · `'No verificada'` si sin `fetchedAt`. En `renderExchanges()`: badge `?` para proveedores sin `fetchedAt`. |
+| F2-2 | Navegación | Simplificada a 5 items: Cotizaciones · Comparadores · Calculadora · Histórico · Guías. Eliminado duplicado "Calculadora". Mobile nav: `role="dialog"`, `aria-modal`, botón con `aria-expanded`/`aria-controls`. |
+| F2-3 | Orden de contenido | DOM reordenado + CSS `flex order` actualizado: cotizaciones → calculadora → comparadores (bancos+exchanges) → histórico → BCB → proyección → plataformas → límites → noticias. |
+| F2-4 | Tarjetas plataforma | CSS neutralizante: `background: var(--bg2)`, bordes neutros, logos con `saturate(0.7)`. Verde/rojo solo en buy/sell price. |
+| F2-5 | Tablas | `font-variant-numeric: tabular-nums`. Precios alineados a la derecha. `overflow-x: auto` en `.ex-table-wrap` y `.banks-table-wrap`. |
+| F2-6 | Noticias | Máx. 6 iniciales + botón "Ver N más". Sin descripción duplicada si `desc === title`. Campo `source` visible en card. |
+| F2-7 | Footer | Autor "Samuel Ampuero" en `rgba(255,255,255,.85)`. Sin URL de portafolio inventada. |
+| F2-8 | Anclas | `scroll-margin-top: 72px` en todas las secciones anchor para compensar cabecera fija. |
+| F2-9 | Overflow | `overflow-x: hidden` en `html` y `body`. Bug corregido en "Ver más": usaba `.replace('<a ','')` dejando atributos sueltos como texto — causaba newsGrid de 6452px en mobile. Cambiado a `tmp.firstChild` approach. |
+
+### Archivos modificados
+
+- `index.html` — cambios de navegación, orden DOM, CSS, JavaScript (badges, noticias, overflow)
+- `PROJECT_STATE.md` — esta entrada
+
+### Validación ejecutada (2026-10-11)
+
+| Viewport | Overflow página | Overflow noticias "Ver más" | Calculadora | Orden secciones | Errores nuevos |
+|---|---|---|---|---|---|
+| 375px (mobile) | ✅ Sin scroll horizontal | ✅ 6→14 cards, sin overflow | ✅ 100 USDT = Bs 1182 | ✅ | Solo CORS pre-existente API BCB |
+| 768px (tablet) | ✅ | ✅ | ✅ | ✅ | — |
+| desktop (pane) | ✅ | ✅ | ✅ | ✅ | — |
+
+- ✅ Nav: 5 links, sin duplicado "Calculadora"
+- ✅ Anclas: `#cotizacion`, `#calculator`, `#bancos`, `#chart` existen
+- ✅ "Ver más" noticias: 6→14, botón desaparece, sin overflow
+- ✅ Badges: "Estimado"/"En vivo"/"Referencial"/"No verificada" según procedencia
+- ⚠ CORS errores en consola: pre-existentes (API BCB bloquea localhost) — no son nuevos de Fase 2
+
+### Pendientes / Limitaciones
+
+- Confirmar convención Bybit y asset AirTM (heredado de Fase 1)
+- `.plat-big-card` y `.calc-wrapper` tienen contenido interno > viewport en 375px, clipeado por `overflow-x: hidden` sin reflow — no causa scroll de página pero puede cortar contenido visualmente en pantallas muy estrechas
+- Actualizar límites bancarios con fechas verificadas

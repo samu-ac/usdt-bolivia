@@ -55,6 +55,36 @@
   </script>
   <style>
     @import url('https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800,900&display=swap');
+
+    /* Fase 2: tarjetas de plataforma con estilo neutro de marca */
+    .plat-big-card { background: var(--bg2) !important; border: 1.5px solid var(--border); box-shadow: var(--shadow-sm); }
+    .plat-big-header .plat-big-logo { filter: saturate(0.7); }
+    .plat-big-price-box { background: var(--bg3) !important; color: var(--text) !important; }
+    .plat-big-price { color: var(--navy) !important; }
+    .plat-big-price-buy { color: var(--green) !important; }
+    .plat-big-price-sell { color: var(--red) !important; }
+
+    /* Fase 2: cifras tabulares y alineación de importes */
+    .price-buy, .price-sell, .bank-rate-best, .bank-rate-other, .spread,
+    .rate-box-val, .chart-stat-value, .pred-day-buy, .pred-day-sell {
+      font-variant-numeric: tabular-nums; font-feature-settings: "tnum";
+    }
+    .price-buy, .price-sell, .bank-rate-best, .bank-rate-other, .spread { text-align: right; }
+    /* overflow en tablas para móvil sin romper page layout */
+    .ex-table-wrap, .banks-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .ex-table-wrap::after, .banks-table-wrap::after {
+      content: '← →'; display: block; text-align: center; font-size: 10px;
+      color: var(--text3); padding: 4px 0; display: none;
+    }
+    @media (max-width: 600px) {
+      .ex-table-wrap::after, .banks-table-wrap::after { display: block; }
+    }
+
+    /* Fase 2: compensar encabezado fijo al navegar con anclas */
+    #cotizacion, #calculator, #bancos, #exchanges, #chart, #bcbvrd,
+    #prediccion, #platforms, #limits, #noticias {
+      scroll-margin-top: 72px;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
@@ -79,8 +109,8 @@
       --shadow-lg: 0 8px 32px rgba(0,48,135,0.14);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; overflow-x: hidden; }
 
     /* ══ TOP BAR ══ */
     .topbar {
@@ -500,15 +530,15 @@
     /* ══ UTILS ══ */
     @media (max-width:600px) { .hide-mobile { display:none !important; } }
 
-    /* ══ SECTION ORDER ══ */
+    /* ══ SECTION ORDER — Fase 2: el orden se controla por DOM, no por flex order ══ */
     main { display:flex; flex-direction:column; }
-    #bancos     { order:1; }
-    #exchanges  { order:2; }
-    #prediccion { order:3; }
-    #calculator { order:4; }
+    #alertStrip { order:1; }
+    #calculator { order:2; }
+    #bancos     { order:3; }
+    #exchanges  { order:4; }
     #chart      { order:5; }
-    #alertStrip { order:6; }
-    #bcbvrd     { order:7; }
+    #bcbvrd     { order:6; }
+    #prediccion { order:7; }
     #platforms  { order:8; }
     #limits     { order:9; }
     #noticias   { order:10; }
@@ -598,38 +628,33 @@
       </div>
     </a>
     <nav>
-      <a href="#cotizacion">Tipo de Cambio</a>
-      <a href="#bancos">Bancos</a>
-      <a href="#prediccion">Predicción</a>
-      <a href="#platforms">P2P</a>
+      <a href="#cotizacion">Cotizaciones</a>
+      <a href="#bancos">Comparadores</a>
       <a href="#calculator">Calculadora</a>
-      <a href="#chart">Gráfica</a>
-      <a href="#bcbvrd">BCB / VRD</a>
-      <a href="#noticias">Noticias</a>
-      <a href="/calculadora-usdt-bolivianos.html" style="color:var(--gold);font-weight:800">Calculadora</a>
-      <a href="/blog/" style="color:var(--gold);font-weight:800">Blog</a>
+      <a href="#chart">Histórico</a>
+      <a href="/blog/" style="color:var(--gold);font-weight:800">Guías</a>
     </nav>
     <div class="header-date" id="headerDate">—</div>
-    <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menú">
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menú" aria-expanded="false" aria-controls="mobileNav">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
 <!-- MOBILE NAV -->
-<div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)">
+<div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)" role="dialog" aria-modal="true" aria-label="Menú de navegación">
   <div class="mobile-nav-inner">
-    <a href="#cotizacion" onclick="closeMobileNav()">💱 Tipo de Cambio</a>
-    <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparador Bancos</a>
-    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
-    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas P2P</a>
+    <a href="#cotizacion" onclick="closeMobileNav()">💱 Cotizaciones</a>
     <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
-    <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
+    <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparadores</a>
+    <a href="#chart"      onclick="closeMobileNav()">📈 Histórico</a>
     <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
-    <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
+    <a href="#prediccion" onclick="closeMobileNav()">🔮 Proyección</a>
+    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas</a>
+    <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites</a>
     <a href="#noticias"   onclick="closeMobileNav()">📰 Noticias</a>
-    <a href="/calculadora-usdt-bolivianos.html" style="color:var(--gold);font-weight:700">🧮 Calculadora</a>
-    <a href="/blog/" style="color:var(--gold);font-weight:700">✍️ Blog</a>
+    <a href="/calculadora-usdt-bolivianos.html" onclick="closeMobileNav()" style="color:var(--gold);font-weight:700">🧮 Calculadora avanzada</a>
+    <a href="/blog/" style="color:var(--gold);font-weight:700">✍️ Guías y Blog</a>
   </div>
 </div>
 
@@ -696,6 +721,124 @@
 
 <!-- MAIN -->
 <main>
+
+  <div id="alertStrip" class="alert-strip">
+    ℹ️ Los precios son referenciales del mercado P2P (Binance) No constituyen asesoramiento financiero.
+  </div>
+
+  <!-- CALCULATOR -->
+  <div id="calculator" class="card">
+    <div class="calc-header-row">
+      <div class="section-title" style="margin-bottom:0"><span>🧮</span> Calculadora de Divisas</div>
+      <div class="calc-rate-pill">Bs <span id="calcRatePill">—</span> · USDT P2P</div>
+    </div>
+    <div class="calc-wrapper" style="margin-top:16px">
+      <div class="calc-left">
+        <div>
+          <div class="calc-field-label">Desde</div>
+          <div class="calc-field-row">
+            <select class="calc-select" id="fromCurrency" onchange="onCurrencyChange()">
+              <option value="USDT">USDT</option>
+              <option value="BOB">BOB</option>
+            </select>
+            <input class="calc-input" type="number" id="fromAmount" placeholder="100" oninput="calculate()" />
+          </div>
+          <div class="calc-sublabel" id="fromSubLabel">Tether (USDT)</div>
+        </div>
+        <div class="calc-swap-wrap">
+          <button class="calc-swap" onclick="swapCurrencies()" title="Invertir">⇅</button>
+        </div>
+        <div>
+          <div class="calc-field-label">Hacia</div>
+          <div class="calc-field-row">
+            <select class="calc-select" id="toCurrency" onchange="onCurrencyChange()">
+              <option value="BOB">BOB</option>
+              <option value="USDT">USDT</option>
+            </select>
+            <input class="calc-input" type="number" id="toAmount" placeholder="0" oninput="calculateReverse()" />
+          </div>
+          <div class="calc-sublabel" id="toSubLabel">Boliviano</div>
+        </div>
+        <div class="calc-rate-note">1 USDT = <strong id="calcRateDisplay">—</strong></div>
+        <div class="calc-quick">
+          <button class="calc-quick-btn" onclick="setQuick(10)">10</button>
+          <button class="calc-quick-btn" onclick="setQuick(50)">50</button>
+          <button class="calc-quick-btn" onclick="setQuick(100)">100</button>
+          <button class="calc-quick-btn" onclick="setQuick(500)">500</button>
+        </div>
+        <button class="calc-convert-btn" onclick="doConvert()">Convertir</button>
+      </div>
+      <div class="calc-right">
+        <div class="calc-history-title">🕐 Historial de Conversiones</div>
+        <div class="calc-history-list" id="calcHistory">
+          <div class="calc-empty">Aún no hay conversiones</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARADOR BANCOS -->
+  <div id="bancos" class="card" style="margin-top:22px">
+    <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:10px">Pizarras publicadas por cada banco en su web oficial · Actualizado cada hora</div>
+    <div id="banksRangeStrip" style="display:none;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:14px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+      <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">Rango venta hoy</span><br><span id="banksRangeVal" style="font-size:20px;font-weight:900;color:var(--navy)">—</span></div>
+      <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">BCB Oficial</span><br><span id="banksBcbRef" style="font-size:20px;font-weight:900;color:var(--text)">—</span></div>
+      <div style="margin-left:auto;font-size:12px;color:var(--text3)" id="banksCount">— bancos con dato</div>
+    </div>
+    <div class="banks-toggle">
+      <button class="banks-toggle-btn active" id="banksBtnBuy" onclick="setBanksMode('buy')">🛒 Quiero comprar dólares</button>
+      <button class="banks-toggle-btn" id="banksBtnSell" onclick="setBanksMode('sell')">💰 Quiero vender dólares</button>
+    </div>
+    <div id="banksModeNote" style="font-size:12px;color:var(--text3);margin-bottom:12px">Ordenado por menor precio de venta — el banco donde más barato compras dólares</div>
+    <div class="banks-table-wrap" style="overflow-x:auto">
+      <table class="banks-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Banco</th>
+            <th>Compra</th>
+            <th>Venta</th>
+            <th class="hide-mobile">Vs BCB</th>
+          </tr>
+        </thead>
+        <tbody id="banksTableBody">
+          <tr><td colspan="4" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos bancarios…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="banks-mobile-cards" id="banksMobileCards"></div>
+    <div style="font-size:11px;color:var(--text3);margin-top:12px">* Precios publicados por cada banco en su web oficial · Pueden variar en ventanilla</div>
+  </div>
+
+  <!-- COMPARADOR EXCHANGES P2P -->
+  <div id="exchanges" class="card" style="margin-top:22px">
+    <div class="section-title" style="margin-bottom:4px"><span>📊</span> Comparador de Plataformas P2P</div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:14px">Precios de referencia en el mercado boliviano · Compra = tú compras USDT · Venta = tú vendes USDT</div>
+    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+      <button class="banks-toggle-btn active" id="exBtnTodas" onclick="filterEx('all')">Todos</button>
+      <button class="banks-toggle-btn" id="exBtnEx" onclick="filterEx('exchange')">Exchanges</button>
+      <button class="banks-toggle-btn" id="exBtnBancos" onclick="filterEx('banco')">Bancos</button>
+    </div>
+    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+      <table class="banks-table" id="exTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Plataforma</th>
+            <th>Tipo</th>
+            <th style="color:#4ade80">Compra (Bs)</th>
+            <th style="color:#f87171">Venta (Bs)</th>
+            <th>Spread</th>
+          </tr>
+        </thead>
+        <tbody id="exTableBody">
+          <tr><td colspan="6" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="font-size:11px;color:var(--text3);margin-top:10px">* Precios de referencia P2P. Pueden variar según oferta/demanda en cada plataforma.</div>
+  </div>
 
   <!-- CHART USDT -->
   <div id="chart" class="card">
@@ -834,73 +977,55 @@
     </div>
   </div>
 
-  <div id="alertStrip" class="alert-strip">
-    ℹ️ Los precios son referenciales del mercado P2P (Binance) No constituyen asesoramiento financiero.
-  </div>
-
-  <!-- CALCULATOR -->
-  <div id="calculator" class="card">
-    <div class="calc-header-row">
-      <div class="section-title" style="margin-bottom:0"><span>🧮</span> Calculadora de Divisas</div>
-      <div class="calc-rate-pill">Bs <span id="calcRatePill">—</span> · USDT P2P</div>
-    </div>
-    <div class="calc-wrapper" style="margin-top:16px">
-      <div class="calc-left">
+  <!-- PREDICCIÓN -->
+  <div id="prediccion" style="margin-top:36px">
+    <div class="section-title" style="margin-bottom:16px"><span>🔮</span> Proyección de Precio USDT</div>
+    <div class="pred-card" id="predCard">
+      <div class="pred-header">
         <div>
-          <div class="calc-field-label">Desde</div>
-          <div class="calc-field-row">
-            <select class="calc-select" id="fromCurrency" onchange="onCurrencyChange()">
-              <option value="USDT">USDT</option>
-              <option value="BOB">BOB</option>
-            </select>
-            <input class="calc-input" type="number" id="fromAmount" placeholder="100" oninput="calculate()" />
-          </div>
-          <div class="calc-sublabel" id="fromSubLabel">Tether (USDT)</div>
+          <div class="pred-label">Basado en tendencia histórica · últimos 14 días</div>
+          <div class="pred-title">¿Cómo podría estar el precio?</div>
         </div>
-        <div class="calc-swap-wrap">
-          <button class="calc-swap" onclick="swapCurrencies()" title="Invertir">⇅</button>
-        </div>
+        <div id="predTrendBadge" class="pred-trend-badge estable">Calculando…</div>
+      </div>
+      <div class="pred-body">
         <div>
-          <div class="calc-field-label">Hacia</div>
-          <div class="calc-field-row">
-            <select class="calc-select" id="toCurrency" onchange="onCurrencyChange()">
-              <option value="BOB">BOB</option>
-              <option value="USDT">USDT</option>
-            </select>
-            <input class="calc-input" type="number" id="toAmount" placeholder="0" oninput="calculateReverse()" />
+          <div class="pred-chart-wrap"><canvas id="predChart"></canvas></div>
+        </div>
+        <div class="pred-days" id="predDays">
+          <div class="pred-day today">
+            <div class="pred-day-label">Hoy</div>
+            <div class="pred-day-buy" id="predTodayBuy">—</div>
+            <div class="pred-day-sell" id="predTodaySell">—</div>
           </div>
-          <div class="calc-sublabel" id="toSubLabel">Boliviano</div>
+          <div class="pred-day">
+            <div class="pred-day-label">Mañana</div>
+            <div class="pred-day-buy" id="predD1Buy">—</div>
+            <div class="pred-day-sell" id="predD1Sell">—</div>
+            <div class="pred-day-change flat" id="predD1Change">—</div>
+          </div>
+          <div class="pred-day">
+            <div class="pred-day-label">Pasado</div>
+            <div class="pred-day-buy" id="predD2Buy">—</div>
+            <div class="pred-day-sell" id="predD2Sell">—</div>
+            <div class="pred-day-change flat" id="predD2Change">—</div>
+          </div>
+          <div class="pred-day">
+            <div class="pred-day-label">+3 días</div>
+            <div class="pred-day-buy" id="predD3Buy">—</div>
+            <div class="pred-day-sell" id="predD3Sell">—</div>
+            <div class="pred-day-change flat" id="predD3Change">—</div>
+          </div>
         </div>
-        <div class="calc-rate-note">1 USDT = <strong id="calcRateDisplay">—</strong></div>
-        <div class="calc-quick">
-          <button class="calc-quick-btn" onclick="setQuick(10)">10</button>
-          <button class="calc-quick-btn" onclick="setQuick(50)">50</button>
-          <button class="calc-quick-btn" onclick="setQuick(100)">100</button>
-          <button class="calc-quick-btn" onclick="setQuick(500)">500</button>
-        </div>
-        <button class="calc-convert-btn" onclick="doConvert()">Convertir</button>
       </div>
-      <div class="calc-right">
-        <div class="calc-history-title">🕐 Historial de Conversiones</div>
-        <div class="calc-history-list" id="calcHistory">
-          <div class="calc-empty">Aún no hay conversiones</div>
-        </div>
-      </div>
+      <div class="pred-disclaimer">Proyección estadística basada en regresión lineal de los últimos 14 días · No es asesoramiento financiero · Los precios pueden variar</div>
     </div>
-  </div>
-
-
-  <!-- BINANCE AFFILIATE BANNER -->
-  <div style="margin:0 0 18px 0;padding:0 16px">
-    <a href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_00VOVYBFHT" target="_blank" rel="noopener"
-       style="display:flex;align-items:center;gap:16px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);border-radius:14px;padding:18px 22px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,0.2);border:1px solid rgba(240,185,11,0.3)">
-      <div style="flex-shrink:0;width:48px;height:48px;background:#F0B90B;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:26px">⬡</div>
-      <div style="flex:1;min-width:0">
-        <div style="font-size:15px;font-weight:800;color:#F0B90B;margin-bottom:3px">Compra USDT en Binance</div>
-        <div style="font-size:12px;color:rgba(255,255,255,0.7)">El exchange más grande del mundo · Compra y vende USDT en el mercado P2P boliviano</div>
-      </div>
-      <div style="flex-shrink:0;background:#F0B90B;color:#000;font-size:12px;font-weight:800;padding:8px 16px;border-radius:8px;white-space:nowrap">Abrir cuenta →</div>
-    </a>
+    <!-- FUNDAMENTOS -->
+    <div class="pred-why" id="predWhy" style="display:none">
+      <div class="pred-why-title">📊 ¿Por qué creemos esto?</div>
+      <div class="pred-why-trend" id="predWhyTrend">—</div>
+      <ul class="pred-why-factors" id="predWhyFactors"></ul>
+    </div>
   </div>
 
   <!-- PLATFORMS CARDS -->
@@ -919,67 +1044,17 @@
     </div>
   </div>
 
-  <!-- COMPARADOR BANCOS -->
-  <div id="bancos" class="card" style="margin-top:22px">
-    <div class="section-title" style="margin-bottom:4px"><span>🏦</span> Comparador de Bancos</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:10px">Pizarras publicadas por cada banco en su web oficial · Actualizado cada hora</div>
-    <div id="banksRangeStrip" style="display:none;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:14px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
-      <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">Rango venta hoy</span><br><span id="banksRangeVal" style="font-size:20px;font-weight:900;color:var(--navy)">—</span></div>
-      <div><span style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.06em">BCB Oficial</span><br><span id="banksBcbRef" style="font-size:20px;font-weight:900;color:var(--text)">—</span></div>
-      <div style="margin-left:auto;font-size:12px;color:var(--text3)" id="banksCount">— bancos con dato</div>
-    </div>
-    <div class="banks-toggle">
-      <button class="banks-toggle-btn active" id="banksBtnBuy" onclick="setBanksMode('buy')">🛒 Quiero comprar dólares</button>
-      <button class="banks-toggle-btn" id="banksBtnSell" onclick="setBanksMode('sell')">💰 Quiero vender dólares</button>
-    </div>
-    <div id="banksModeNote" style="font-size:12px;color:var(--text3);margin-bottom:12px">Ordenado por menor precio de venta — el banco donde más barato compras dólares</div>
-    <div class="banks-table-wrap" style="overflow-x:auto">
-      <table class="banks-table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Banco</th>
-            <th>Compra</th>
-            <th>Venta</th>
-            <th class="hide-mobile">Vs BCB</th>
-          </tr>
-        </thead>
-        <tbody id="banksTableBody">
-          <tr><td colspan="4" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos bancarios…</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="banks-mobile-cards" id="banksMobileCards"></div>
-    <div style="font-size:11px;color:var(--text3);margin-top:12px">* Precios publicados por cada banco en su web oficial · Pueden variar en ventanilla</div>
-  </div>
-
-  <!-- COMPARADOR EXCHANGES P2P -->
-  <div id="exchanges" class="card" style="margin-top:22px">
-    <div class="section-title" style="margin-bottom:4px"><span>📊</span> Comparador de Plataformas P2P</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:14px">Precios de referencia en el mercado boliviano · Compra = tú compras USDT · Venta = tú vendes USDT</div>
-    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
-      <button class="banks-toggle-btn active" id="exBtnTodas" onclick="filterEx('all')">Todos</button>
-      <button class="banks-toggle-btn" id="exBtnEx" onclick="filterEx('exchange')">Exchanges</button>
-      <button class="banks-toggle-btn" id="exBtnBancos" onclick="filterEx('banco')">Bancos</button>
-    </div>
-    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
-      <table class="banks-table" id="exTable">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Plataforma</th>
-            <th>Tipo</th>
-            <th style="color:#4ade80">Compra (Bs)</th>
-            <th style="color:#f87171">Venta (Bs)</th>
-            <th>Spread</th>
-          </tr>
-        </thead>
-        <tbody id="exTableBody">
-          <tr><td colspan="6" style="color:var(--text3);font-size:13px;padding:20px 12px">Cargando datos…</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div style="font-size:11px;color:var(--text3);margin-top:10px">* Precios de referencia P2P. Pueden variar según oferta/demanda en cada plataforma.</div>
+  <!-- BINANCE AFFILIATE BANNER -->
+  <div style="margin:0 0 18px 0;padding:0 16px">
+    <a href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_00VOVYBFHT" target="_blank" rel="noopener"
+       style="display:flex;align-items:center;gap:16px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);border-radius:14px;padding:18px 22px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,0.2);border:1px solid rgba(240,185,11,0.3)">
+      <div style="flex-shrink:0;width:48px;height:48px;background:#F0B90B;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:26px">⬡</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:15px;font-weight:800;color:#F0B90B;margin-bottom:3px">Compra USDT en Binance</div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.7)">El exchange más grande del mundo · Compra y vende USDT en el mercado P2P boliviano</div>
+      </div>
+      <div style="flex-shrink:0;background:#F0B90B;color:#000;font-size:12px;font-weight:800;padding:8px 16px;border-radius:8px;white-space:nowrap">Abrir cuenta →</div>
+    </a>
   </div>
 
   <!-- LIMITS -->
@@ -1064,57 +1139,6 @@
     <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
   </div>
 
-  <!-- PREDICCIÓN -->
-  <div id="prediccion" style="margin-top:36px">
-    <div class="section-title" style="margin-bottom:16px"><span>🔮</span> Proyección de Precio USDT</div>
-    <div class="pred-card" id="predCard">
-      <div class="pred-header">
-        <div>
-          <div class="pred-label">Basado en tendencia histórica · últimos 14 días</div>
-          <div class="pred-title">¿Cómo podría estar el precio?</div>
-        </div>
-        <div id="predTrendBadge" class="pred-trend-badge estable">Calculando…</div>
-      </div>
-      <div class="pred-body">
-        <div>
-          <div class="pred-chart-wrap"><canvas id="predChart"></canvas></div>
-        </div>
-        <div class="pred-days" id="predDays">
-          <div class="pred-day today">
-            <div class="pred-day-label">Hoy</div>
-            <div class="pred-day-buy" id="predTodayBuy">—</div>
-            <div class="pred-day-sell" id="predTodaySell">—</div>
-          </div>
-          <div class="pred-day">
-            <div class="pred-day-label">Mañana</div>
-            <div class="pred-day-buy" id="predD1Buy">—</div>
-            <div class="pred-day-sell" id="predD1Sell">—</div>
-            <div class="pred-day-change flat" id="predD1Change">—</div>
-          </div>
-          <div class="pred-day">
-            <div class="pred-day-label">Pasado</div>
-            <div class="pred-day-buy" id="predD2Buy">—</div>
-            <div class="pred-day-sell" id="predD2Sell">—</div>
-            <div class="pred-day-change flat" id="predD2Change">—</div>
-          </div>
-          <div class="pred-day">
-            <div class="pred-day-label">+3 días</div>
-            <div class="pred-day-buy" id="predD3Buy">—</div>
-            <div class="pred-day-sell" id="predD3Sell">—</div>
-            <div class="pred-day-change flat" id="predD3Change">—</div>
-          </div>
-        </div>
-      </div>
-      <div class="pred-disclaimer">Proyección estadística basada en regresión lineal de los últimos 14 días · No es asesoramiento financiero · Los precios pueden variar</div>
-    </div>
-    <!-- FUNDAMENTOS -->
-    <div class="pred-why" id="predWhy" style="display:none">
-      <div class="pred-why-title">📊 ¿Por qué creemos esto?</div>
-      <div class="pred-why-trend" id="predWhyTrend">—</div>
-      <ul class="pred-why-factors" id="predWhyFactors"></ul>
-    </div>
-  </div>
-
   <!-- NOTICIAS -->
   <div id="noticias" style="margin-top:36px;margin-bottom:36px">
     <div class="section-title" style="margin-bottom:6px"><span>📰</span> Noticias Económicas Bolivia</div>
@@ -1190,7 +1214,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 <strong style="color:var(--gold)">USDT Bolivia</strong> · usdt-bolivia.com · Desarrollado por Samuel Ampuero · Santa Cruz, Bolivia 🇧🇴</span>
+      <span class="footer-copy">© 2026 <strong style="color:var(--gold)">USDT Bolivia</strong> · usdt-bolivia.com · Desarrollado por <strong style="color:rgba(255,255,255,.85)">Samuel Ampuero</strong> · Santa Cruz, Bolivia 🇧🇴</span>
       <span class="footer-uni" style="font-size:11px;opacity:.5">Todos los derechos reservados</span>
     </div>
   </div>
@@ -1428,7 +1452,7 @@
       <div class="plat-big-price-box">
         <div class="plat-big-price-label">
           <span>⬡ Cotización ${name}</span>
-          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(data.fetchedAt || pricesData?._jsonLastUpdated, 180) ? 'En vivo' : 'Referencial'}</span>
+          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(data.fetchedAt, 180) ? 'En vivo' : data.fetchedAt ? 'Referencial' : 'No verificada'}</span>
         </div>
         <div class="plat-big-price-val">Bs ${avg}</div>
         <div class="plat-big-price-sub">
@@ -1622,12 +1646,12 @@
 
     const makeRow = (p) => {
       const spread = (p.sell > 0 && p.buy > 0) ? ((p.buy - p.sell) / p.sell * 100).toFixed(2) + '%' : '—';
-      const liveOk = isObservedSource(p.source) && isDataFresh(p.fetchedAt || pricesData?._jsonLastUpdated, 180);
+      const liveOk = isObservedSource(p.source) && isDataFresh(p.fetchedAt, 180);
       const badge  = p.source === 'calculated'
         ? '<span class="platform-badge" style="background:rgba(245,183,0,.15);color:#8a6200;border-color:rgba(245,183,0,.4)">Est.</span>'
         : liveOk
           ? '<span class="platform-badge">Live</span>'
-          : '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>';
+          : p.fetchedAt ? '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>' : '<span class="platform-badge" style="background:rgba(180,83,9,.08);color:#92400e;border-color:rgba(180,83,9,.25)">?</span>';
       const convNote = p.convNote ? `<small style="display:block;font-size:10px;color:#b45309">${p.convNote}</small>` : '';
       return `<tr data-type="${p.type}">
         <td style="font-size:18px;width:32px;text-align:center">${p.emoji}</td>
@@ -1915,16 +1939,29 @@
     });
     const toShow = econNews.length >= 3 ? econNews : [...econNews, ...backupNews].slice(0, 6);
 
-    grid.innerHTML = toShow.map(n => {
+    const MAX_INITIAL_NEWS = 6;
+    const makeCard = n => {
       const d = new Date(n.date);
       const dateStr = isNaN(d) ? '' : d.toLocaleDateString('es-BO', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
-      return `<a class="news-card" href="${n.link||'#'}" target="_blank" rel="noopener noreferrer">
-        <div class="news-card-source">${n.source}</div>
-        <div class="news-card-title">${n.title}</div>
-        ${n.desc ? `<div class="news-card-desc">${n.desc}</div>` : ''}
-        <div class="news-card-date">${dateStr}</div>
-      </a>`;
-    }).join('');
+      const desc = n.desc && n.desc !== n.title ? `<div class="news-card-desc">${n.desc}</div>` : '';
+      const src = n.source ? `<div class="news-card-source">${n.source}</div>` : '';
+      return `<a class="news-card" href="${n.link||'#'}" target="_blank" rel="noopener noreferrer">${src}<div class="news-card-title">${n.title}</div>${desc}<div class="news-card-date">${dateStr}</div></a>`;
+    };
+    const shown = toShow.slice(0, MAX_INITIAL_NEWS);
+    const rest  = toShow.slice(MAX_INITIAL_NEWS);
+    grid.innerHTML = shown.map(makeCard).join('');
+    if (rest.length > 0) {
+      const moreBtn = document.createElement('button');
+      moreBtn.className = 'banks-toggle-btn';
+      moreBtn.style.cssText = 'margin-top:12px;grid-column:1/-1;justify-self:start';
+      moreBtn.textContent = `Ver ${rest.length} más`;
+      moreBtn.onclick = () => {
+        grid.querySelectorAll('.news-more-item').forEach(el => el.remove());
+        rest.forEach(n => { const tmp = document.createElement('div'); tmp.innerHTML = makeCard(n); const el = tmp.firstChild; el.classList.add('news-more-item'); grid.insertBefore(el, moreBtn); });
+        moreBtn.remove();
+      };
+      grid.appendChild(moreBtn);
+    }
   }
 
   // ── HERO MODE ──
