@@ -55,6 +55,36 @@
   </script>
   <style>
     @import url('https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800,900&display=swap');
+
+    /* Fase 2: tarjetas de plataforma con estilo neutro de marca */
+    .plat-big-card { background: var(--bg2) !important; border: 1.5px solid var(--border); box-shadow: var(--shadow-sm); }
+    .plat-big-header .plat-big-logo { filter: saturate(0.7); }
+    .plat-big-price-box { background: var(--bg3) !important; color: var(--text) !important; }
+    .plat-big-price { color: var(--navy) !important; }
+    .plat-big-price-buy { color: var(--green) !important; }
+    .plat-big-price-sell { color: var(--red) !important; }
+
+    /* Fase 2: cifras tabulares y alineación de importes */
+    .price-buy, .price-sell, .bank-rate-best, .bank-rate-other, .spread,
+    .rate-box-val, .chart-stat-value, .pred-day-buy, .pred-day-sell {
+      font-variant-numeric: tabular-nums; font-feature-settings: "tnum";
+    }
+    .price-buy, .price-sell, .bank-rate-best, .bank-rate-other, .spread { text-align: right; }
+    /* overflow en tablas para móvil sin romper page layout */
+    .ex-table-wrap, .banks-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .ex-table-wrap::after, .banks-table-wrap::after {
+      content: '← →'; display: block; text-align: center; font-size: 10px;
+      color: var(--text3); padding: 4px 0; display: none;
+    }
+    @media (max-width: 600px) {
+      .ex-table-wrap::after, .banks-table-wrap::after { display: block; }
+    }
+
+    /* Fase 2: compensar encabezado fijo al navegar con anclas */
+    #cotizacion, #calculator, #bancos, #exchanges, #chart, #bcbvrd,
+    #prediccion, #platforms, #limits, #noticias {
+      scroll-margin-top: 72px;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
@@ -185,7 +215,8 @@
 
     /* ══ CALCULATOR ══ */
     .calc-wrapper { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-    @media (max-width:640px) { .calc-wrapper { grid-template-columns:1fr; } }
+    @media (max-width:640px) { .calc-wrapper { grid-template-columns:minmax(0,1fr); } }
+    .calc-left, .calc-right { min-width: 0; }
     .calc-left { display:flex; flex-direction:column; gap:14px; }
     .calc-header-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:4px; }
     .calc-rate-pill { background:var(--blue-lt); color:var(--navy); font-size:13px; font-weight:800; padding:5px 14px; border-radius:20px; border:1px solid #c3d7f7; white-space:nowrap; }
@@ -500,18 +531,8 @@
     /* ══ UTILS ══ */
     @media (max-width:600px) { .hide-mobile { display:none !important; } }
 
-    /* ══ SECTION ORDER ══ */
+    /* ══ SECTION ORDER — DOM order is correct; no flex order overrides needed ══ */
     main { display:flex; flex-direction:column; }
-    #bancos     { order:1; }
-    #exchanges  { order:2; }
-    #prediccion { order:3; }
-    #calculator { order:4; }
-    #chart      { order:5; }
-    #alertStrip { order:6; }
-    #bcbvrd     { order:7; }
-    #platforms  { order:8; }
-    #limits     { order:9; }
-    #noticias   { order:10; }
 
     /* ══ MOBILE IMPROVEMENTS ══ */
     @media (max-width:600px) {
@@ -598,38 +619,33 @@
       </div>
     </a>
     <nav>
-      <a href="#cotizacion">Tipo de Cambio</a>
-      <a href="#bancos">Bancos</a>
-      <a href="#prediccion">Predicción</a>
-      <a href="#platforms">P2P</a>
+      <a href="#cotizacion">Cotizaciones</a>
+      <a href="#bancos">Comparadores</a>
       <a href="#calculator">Calculadora</a>
-      <a href="#chart">Gráfica</a>
-      <a href="#bcbvrd">BCB / VRD</a>
-      <a href="#noticias">Noticias</a>
-      <a href="/calculadora-usdt-bolivianos.html" style="color:var(--gold);font-weight:800">Calculadora</a>
-      <a href="/blog/" style="color:var(--gold);font-weight:800">Blog</a>
+      <a href="#chart">Histórico</a>
+      <a href="/blog/" style="color:var(--gold);font-weight:800">Guías</a>
     </nav>
     <div class="header-date" id="headerDate">—</div>
-    <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menú">
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menú" aria-expanded="false" aria-controls="mobileNav">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
 <!-- MOBILE NAV -->
-<div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)">
+<div class="mobile-nav" id="mobileNav" onclick="closeMenu(event)" role="dialog" aria-modal="true" aria-label="Menú de navegación">
   <div class="mobile-nav-inner">
-    <a href="#cotizacion" onclick="closeMobileNav()">💱 Tipo de Cambio</a>
-    <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparador Bancos</a>
-    <a href="#prediccion" onclick="closeMobileNav()">🔮 Predicción</a>
-    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas P2P</a>
+    <a href="#cotizacion" onclick="closeMobileNav()">💱 Cotizaciones</a>
     <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
-    <a href="#chart"      onclick="closeMobileNav()">📈 Gráfica</a>
+    <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparadores</a>
+    <a href="#chart"      onclick="closeMobileNav()">📈 Histórico</a>
     <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
-    <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites Bancarios</a>
+    <a href="#prediccion" onclick="closeMobileNav()">🔮 Proyección</a>
+    <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas</a>
+    <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites</a>
     <a href="#noticias"   onclick="closeMobileNav()">📰 Noticias</a>
-    <a href="/calculadora-usdt-bolivianos.html" style="color:var(--gold);font-weight:700">🧮 Calculadora</a>
-    <a href="/blog/" style="color:var(--gold);font-weight:700">✍️ Blog</a>
+    <a href="/calculadora-usdt-bolivianos.html" onclick="closeMobileNav()" style="color:var(--gold);font-weight:700">🧮 Calculadora avanzada</a>
+    <a href="/blog/" style="color:var(--gold);font-weight:700">✍️ Guías y Blog</a>
   </div>
 </div>
 
@@ -697,143 +713,6 @@
 <!-- MAIN -->
 <main>
 
-  <!-- CHART USDT -->
-  <div id="chart" class="card">
-    <div class="chart-header">
-      <div class="section-title" style="margin-bottom:0"><span>📈</span> Tendencia USDT/BOB</div>
-      <div class="chart-stats">
-        <div><div class="chart-stat-label">VENTA</div><div class="chart-stat-value" id="statVenta">—</div></div>
-        <div><div class="chart-stat-label">CAMBIO</div><div class="chart-stat-value" id="statCambio">—</div></div>
-        <div><div class="chart-stat-label">MÁX</div><div class="chart-stat-value" id="statMax">—</div></div>
-        <div><div class="chart-stat-label">MÍN</div><div class="chart-stat-value" id="statMin">—</div></div>
-      </div>
-    </div>
-    <div class="chart-tabs" style="margin-top:12px">
-      <button class="chart-tab" onclick="setChartRange('7D',this)">7D</button>
-      <button class="chart-tab active" onclick="setChartRange('30D',this)">30D</button>
-      <button class="chart-tab" onclick="setChartRange('90D',this)">90D</button>
-      <button class="chart-tab" onclick="setChartRange('180D',this)">180D</button>
-      <button class="chart-tab" onclick="setChartRange('1A',this)">1A</button>
-      <button class="chart-tab" onclick="setChartRange('MAX',this)">MAX</button>
-    </div>
-    <div class="chart-meta" id="chartMeta"></div>
-    <div class="chart-legend">
-      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--navy)"></div>Venta</div>
-      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(0,48,135,.3)"></div>Compra</div>
-    </div>
-    <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
-  </div>
-
-  <!-- BCB VRD SECTION -->
-  <div id="bcbvrd" class="bcb-vrd-section">
-    <div class="bcb-vrd-hero">
-      <div class="bcb-vrd-hero-inner">
-        <div class="bcb-vrd-hero-top">
-          <div>
-            <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
-            <div class="bcb-vrd-hero-name">Precio Referencial BCB<br>del Dólar / USDT</div>
-            <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
-          </div>
-          <div style="text-align:right">
-            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">TCO HOY</div>
-            <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
-            <div class="bcb-vrd-price-sub">Bs por 1 USD · <span id="vrdRefreshLabel" style="color:rgba(255,255,255,.5)">—</span></div>
-          </div>
-        </div>
-        <div class="bcb-vrd-stats">
-          <div class="bcb-vrd-stat">
-            <div class="bcb-vrd-stat-label">Cotización Oficial</div>
-            <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- COMPARACIÓN USD FÍSICO vs USDT -->
-    <div class="card" style="margin-bottom:14px">
-      <div class="section-title"><span>⚖️</span> USD Físico vs USDT Digital — ¿Cuál conviene más?</div>
-      <div class="compare-grid">
-        <div class="compare-card" id="comparePhysCard">
-          <div class="compare-card-tag" style="color:var(--navy)">🏦 USD Físico (Librecambista)</div>
-          <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · TCO BCB</div>
-          <div class="compare-card-detail">
-            Precio promedio ponderado de las operaciones reales entre bancos y librecambistas en Bolivia.<br><br>
-            <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
-            <strong>Riesgo:</strong> Variación en el mercado, requiere contacto físico.
-          </div>
-        </div>
-        <div class="compare-card" id="compareUsdtCard">
-          <div class="compare-card-tag" style="color:#7C3AED">🔷 USDT Digital (P2P)</div>
-          <div class="compare-card-price" style="color:#7C3AED" id="compareUsdtPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USDT · Precio Compra Binance P2P</div>
-          <div class="compare-card-detail">
-            Precio de compra en el mercado P2P de Binance — lo que pagas para adquirir 1 USDT con bolivianos.<br><br>
-            <strong>Ventajas:</strong> Transacciones digitales, disponible 24/7, envíos internacionales.<br>
-            <strong>Riesgo:</strong> Volatilidad crypto, requiere billetera digital.
-          </div>
-        </div>
-      </div>
-      <div id="recBox" class="rec-box yellow">
-        <div class="rec-box-icon" id="recIcon">⏳</div>
-        <div>
-          <div class="rec-box-title" id="recTitle">Calculando recomendación...</div>
-          <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
-        </div>
-      </div>
-      <div style="font-size:11px;color:var(--text3);text-align:center">* Diferencia calculada en base al TCO BCB (Bs 12) vs precio de compra Binance P2P (en vivo)</div>
-    </div>
-
-    <!-- GRÁFICO VRD HISTÓRICO -->
-    <div class="card" style="padding:24px">
-      <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:18px">
-        <div>
-          <div class="section-title" style="margin-bottom:4px"><span>📊</span> Tendencia Precio BCB Referencial — Histórico</div>
-          <div style="font-size:12px;color:var(--text3)">Precio referencial BCB (~Bs 11.97) vs USDT P2P · Fuente: <strong style="color:var(--navy)">bcb.gob.bo + Binance P2P</strong></div>
-        </div>
-        <div style="display:grid;grid-template-columns:repeat(4,auto);gap:20px;align-items:start">
-          <div style="text-align:center">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">BCB HOY</div>
-            <div style="font-size:16px;font-weight:900;color:var(--navy)" id="vrdStatHoy">—</div>
-          </div>
-          <div style="text-align:center">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">VARIACIÓN</div>
-            <div style="font-size:16px;font-weight:900" id="vrdStatCambio">—</div>
-          </div>
-          <div style="text-align:center">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">MÁX PERÍODO</div>
-            <div style="font-size:16px;font-weight:900;color:var(--green)" id="vrdStatMax">—</div>
-          </div>
-          <div style="text-align:center">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">MÍN PERÍODO</div>
-            <div style="font-size:16px;font-weight:900;color:var(--red)" id="vrdStatMin">—</div>
-          </div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:10px">
-        <div style="display:flex;gap:4px;flex-wrap:wrap" id="vrdChartTabs">
-          <button class="chart-tab" onclick="setVrdRange('7D',this)">7 días</button>
-          <button class="chart-tab" onclick="setVrdRange('15D',this)">15 días</button>
-          <button class="chart-tab" onclick="setVrdRange('30D',this)">30 días</button>
-          <button class="chart-tab active" onclick="setVrdRange('MAX',this)">Histórico</button>
-        </div>
-        <div style="display:flex;gap:16px">
-          <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-            <div style="width:12px;height:3px;border-radius:2px;background:#1a7f37"></div>BCB Referencial
-          </div>
-          <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-            <div style="width:12px;height:3px;border-radius:2px;background:rgba(124,58,237,.7);border-top:2px dashed rgba(124,58,237,.7)"></div>USDT P2P
-          </div>
-        </div>
-      </div>
-      <div style="font-size:11px;color:var(--text3);margin-bottom:10px" id="vrdChartMeta"></div>
-      <div class="vrd-chart-wrap" style="height:280px"><canvas id="vrdChart"></canvas></div>
-      <div style="font-size:11px;color:var(--text3);margin-top:12px;text-align:center;padding-top:12px;border-top:1px solid var(--border)">
-        📌 Dato oficial publicado por el Banco Central de Bolivia · bcb.gob.bo · Se actualiza cada día hábil
-      </div>
-    </div>
-  </div>
-
   <div id="alertStrip" class="alert-strip">
     ℹ️ Los precios son referenciales del mercado P2P (Binance) No constituyen asesoramiento financiero.
   </div>
@@ -886,36 +765,6 @@
           <div class="calc-empty">Aún no hay conversiones</div>
         </div>
       </div>
-    </div>
-  </div>
-
-
-  <!-- BINANCE AFFILIATE BANNER -->
-  <div style="margin:0 0 18px 0;padding:0 16px">
-    <a href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_00VOVYBFHT" target="_blank" rel="noopener"
-       style="display:flex;align-items:center;gap:16px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);border-radius:14px;padding:18px 22px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,0.2);border:1px solid rgba(240,185,11,0.3)">
-      <div style="flex-shrink:0;width:48px;height:48px;background:#F0B90B;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:26px">⬡</div>
-      <div style="flex:1;min-width:0">
-        <div style="font-size:15px;font-weight:800;color:#F0B90B;margin-bottom:3px">Compra USDT en Binance</div>
-        <div style="font-size:12px;color:rgba(255,255,255,0.7)">El exchange más grande del mundo · Regístrate y opera con 0% comisión</div>
-      </div>
-      <div style="flex-shrink:0;background:#F0B90B;color:#000;font-size:12px;font-weight:800;padding:8px 16px;border-radius:8px;white-space:nowrap">Abrir cuenta →</div>
-    </a>
-  </div>
-
-  <!-- PLATFORMS CARDS -->
-  <div id="platforms" style="margin-bottom:18px">
-    <div class="plat-section-hero">
-      <div class="plat-section-icon">💲</div>
-      <h2 style="font-size:clamp(22px,4vw,30px);font-weight:900;color:var(--navy);margin-bottom:6px">Plataformas Recomendadas</h2>
-      <p style="font-size:13px;color:var(--text2)">Las mejores plataformas para comprar y vender USDT/USDC de forma segura y confiable</p>
-    </div>
-    <div class="plat-main-grid" id="platCardsGrid">
-      <div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--text3)">Cargando cotizaciones...</div>
-    </div>
-    <div class="otras-title">OTRAS PLATAFORMAS</div>
-    <div class="otras-grid" id="otrasGrid">
-      <div style="grid-column:1/-1;text-align:center;padding:20px;color:var(--text3)">Cargando...</div>
     </div>
   </div>
 
@@ -982,86 +831,141 @@
     <div style="font-size:11px;color:var(--text3);margin-top:10px">* Precios de referencia P2P. Pueden variar según oferta/demanda en cada plataforma.</div>
   </div>
 
-  <!-- LIMITS -->
-  <div id="limits" class="limits-section">
-    <div class="limits-hero">
-      <div class="limits-icon">⚖️</div>
-      <h2>Límites y Restricciones en Bolivia</h2>
-      <p>Información actualizada sobre límites de compra con tarjetas de débito al 21/04/2026</p>
-    </div>
-    <div class="limits-legend">
-      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#22c55e"></div>Sin restricciones</div>
-      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#f59e0b"></div>Moderadas</div>
-      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#ef4444"></div>Muy limitado</div>
-    </div>
-    <div class="limits-filters">
-      <button class="limits-filter-btn active" onclick="filterLimits('all',this)">Todos</button>
-      <button class="limits-filter-btn" onclick="filterLimits('ok',this)">Sin restricciones</button>
-      <button class="limits-filter-btn" onclick="filterLimits('mod',this)">Con restricciones</button>
-    </div>
-    <div class="limits-cards-grid" id="limitsGrid">
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Mercantil Santa Cruz</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$7500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bmsc.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco de Crédito de Bolivia</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$5000</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bcb.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Nacional de Bolivia</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bnb.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Sol</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bancosol.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Económico</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bancoeconomico.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Ganadero</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bg.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco FIE</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bancofie.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Unión</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bancounion.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">BISA</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
-        <a class="limit-card-btn" href="https://www.bisa.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
-      </div>
-      <div class="limit-card" data-status="ok">
-        <div class="limit-card-top"><div class="limit-card-name">Banco Fortaleza</div><div class="limit-card-badge ok">Sin restricciones</div></div>
-        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
-        <div class="limit-card-note">Tarjeta débito. Por confirmar.</div>
-        <a class="limit-card-btn" href="https://www.fortaleza.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+  <!-- CHART USDT -->
+  <div id="chart" class="card">
+    <div class="chart-header">
+      <div class="section-title" style="margin-bottom:0"><span>📈</span> Tendencia USDT/BOB</div>
+      <div class="chart-stats">
+        <div><div class="chart-stat-label">TÚ COMPRAS</div><div class="chart-stat-value" id="statVenta">—</div></div>
+        <div><div class="chart-stat-label">CAMBIO</div><div class="chart-stat-value" id="statCambio">—</div></div>
+        <div><div class="chart-stat-label">MÁX</div><div class="chart-stat-value" id="statMax">—</div></div>
+        <div><div class="chart-stat-label">MÍN</div><div class="chart-stat-value" id="statMin">—</div></div>
       </div>
     </div>
-    <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
+    <div class="chart-tabs" style="margin-top:12px">
+      <button class="chart-tab" onclick="setChartRange('7D',this)">7D</button>
+      <button class="chart-tab active" onclick="setChartRange('30D',this)">30D</button>
+      <button class="chart-tab" onclick="setChartRange('90D',this)">90D</button>
+      <button class="chart-tab" onclick="setChartRange('180D',this)">180D</button>
+      <button class="chart-tab" onclick="setChartRange('1A',this)">1A</button>
+      <button class="chart-tab" onclick="setChartRange('MAX',this)">MAX</button>
+    </div>
+    <div class="chart-meta" id="chartMeta"></div>
+    <div class="chart-legend">
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--navy)"></div>Venta</div>
+      <div class="chart-legend-item"><div class="chart-legend-dot" style="background:rgba(0,48,135,.3)"></div>Compra</div>
+    </div>
+    <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+  </div>
+
+  <!-- BCB VRD SECTION -->
+  <div id="bcbvrd" class="bcb-vrd-section">
+    <div class="bcb-vrd-hero">
+      <div class="bcb-vrd-hero-inner">
+        <div class="bcb-vrd-hero-top">
+          <div>
+            <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
+            <div class="bcb-vrd-hero-name">Precio Referencial BCB<br>del Dólar / USDT</div>
+            <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">TCO HOY</div>
+            <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
+            <div class="bcb-vrd-price-sub">Bs por 1 USD · <span id="vrdRefreshLabel" style="color:rgba(255,255,255,.5)">—</span></div>
+          </div>
+        </div>
+        <div class="bcb-vrd-stats">
+          <div class="bcb-vrd-stat">
+            <div class="bcb-vrd-stat-label">Cotización Oficial</div>
+            <div class="bcb-vrd-stat-val" id="vrdMin">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPARACIÓN USD FÍSICO vs USDT -->
+    <div class="card" style="margin-bottom:14px">
+      <div class="section-title"><span>⚖️</span> Tipo Oficial BCB vs USDT Digital — Comparación de referencias</div>
+      <div class="compare-grid">
+        <div class="compare-card" id="comparePhysCard">
+          <div class="compare-card-tag" style="color:var(--navy)">🏦 Tasa de referencia BCB</div>
+          <div class="compare-card-price" id="comparePhysPrice">—</div>
+          <div class="compare-card-label">Bs por 1 USD · vía API DolarBlueBolivia</div>
+          <div class="compare-card-detail">
+            Tasa reportada por la API de DolarBlueBolivia (<code style="font-size:10px">/v1/officialRate → official.buy</code>), que agrega datos del BCB. No verificada directamente desde bcb.gob.bo. Referencia administrativa; los precios reales de cambistas pueden diferir.<br><br>
+            <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
+            <strong>Riesgo:</strong> Acceso limitado al dólar físico en Bolivia.
+          </div>
+        </div>
+        <div class="compare-card" id="compareUsdtCard">
+          <div class="compare-card-tag" style="color:#7C3AED">🔷 USDT Digital (P2P)</div>
+          <div class="compare-card-price" style="color:#7C3AED" id="compareUsdtPrice">—</div>
+          <div class="compare-card-label">Bs por 1 USDT · Precio Compra Binance P2P</div>
+          <div class="compare-card-detail">
+            Precio de compra en el mercado P2P de Binance — lo que pagas para adquirir 1 USDT con bolivianos.<br><br>
+            <strong>Ventajas:</strong> Transacciones digitales, disponible 24/7, envíos internacionales.<br>
+            <strong>Riesgo:</strong> Volatilidad crypto, requiere billetera digital.
+          </div>
+        </div>
+      </div>
+      <div id="recBox" class="rec-box yellow">
+        <div class="rec-box-icon" id="recIcon">⏳</div>
+        <div>
+          <div class="rec-box-title" id="recTitle">Calculando recomendación...</div>
+          <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--text3);text-align:center" id="compareNote">* Diferencia entre el Tipo Oficial BCB y el precio USDT P2P en Binance · Ambos son precios de referencia; los precios reales de mercado pueden variar</div>
+    </div>
+
+    <!-- GRÁFICO VRD HISTÓRICO -->
+    <div class="card" style="padding:24px">
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:18px">
+        <div>
+          <div class="section-title" style="margin-bottom:4px"><span>📊</span> Tendencia Precio BCB Referencial — Histórico</div>
+          <div style="font-size:12px;color:var(--text3)">Precio referencial BCB vs USDT P2P · Fuente: <strong style="color:var(--navy)">bcb.gob.bo + Binance P2P</strong></div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,auto);gap:20px;align-items:start">
+          <div style="text-align:center">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">BCB HOY</div>
+            <div style="font-size:16px;font-weight:900;color:var(--navy)" id="vrdStatHoy">—</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">VARIACIÓN</div>
+            <div style="font-size:16px;font-weight:900" id="vrdStatCambio">—</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">MÁX PERÍODO</div>
+            <div style="font-size:16px;font-weight:900;color:var(--green)" id="vrdStatMax">—</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;color:var(--text3);letter-spacing:.08em;margin-bottom:3px">MÍN PERÍODO</div>
+            <div style="font-size:16px;font-weight:900;color:var(--red)" id="vrdStatMin">—</div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:10px">
+        <div style="display:flex;gap:4px;flex-wrap:wrap" id="vrdChartTabs">
+          <button class="chart-tab" onclick="setVrdRange('7D',this)">7 días</button>
+          <button class="chart-tab" onclick="setVrdRange('15D',this)">15 días</button>
+          <button class="chart-tab" onclick="setVrdRange('30D',this)">30 días</button>
+          <button class="chart-tab active" onclick="setVrdRange('MAX',this)">Histórico</button>
+        </div>
+        <div style="display:flex;gap:16px">
+          <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
+            <div style="width:12px;height:3px;border-radius:2px;background:#1a7f37"></div>BCB Referencial
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
+            <div style="width:12px;height:3px;border-radius:2px;background:rgba(124,58,237,.7);border-top:2px dashed rgba(124,58,237,.7)"></div>USDT P2P
+          </div>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--text3);margin-bottom:10px" id="vrdChartMeta"></div>
+      <div class="vrd-chart-wrap" style="height:280px"><canvas id="vrdChart"></canvas></div>
+      <div style="font-size:11px;color:var(--text3);margin-top:12px;text-align:center;padding-top:12px;border-top:1px solid var(--border)">
+        📌 Dato oficial publicado por el Banco Central de Bolivia · bcb.gob.bo · Se actualiza cada día hábil
+      </div>
+    </div>
   </div>
 
   <!-- PREDICCIÓN -->
@@ -1113,6 +1017,117 @@
       <div class="pred-why-trend" id="predWhyTrend">—</div>
       <ul class="pred-why-factors" id="predWhyFactors"></ul>
     </div>
+  </div>
+
+  <!-- PLATFORMS CARDS -->
+  <div id="platforms" style="margin-bottom:18px">
+    <div class="plat-section-hero">
+      <div class="plat-section-icon">💲</div>
+      <h2 style="font-size:clamp(22px,4vw,30px);font-weight:900;color:var(--navy);margin-bottom:6px">Plataformas Recomendadas</h2>
+      <p style="font-size:13px;color:var(--text2)">Las mejores plataformas para comprar y vender USDT/USDC de forma segura y confiable</p>
+    </div>
+    <div class="plat-main-grid" id="platCardsGrid">
+      <div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--text3)">Cargando cotizaciones...</div>
+    </div>
+    <div class="otras-title">OTRAS PLATAFORMAS</div>
+    <div class="otras-grid" id="otrasGrid">
+      <div style="grid-column:1/-1;text-align:center;padding:20px;color:var(--text3)">Cargando...</div>
+    </div>
+  </div>
+
+  <!-- BINANCE AFFILIATE BANNER -->
+  <div style="margin:0 0 18px 0;padding:0 16px">
+    <a href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_00VOVYBFHT" target="_blank" rel="noopener"
+       style="display:flex;align-items:center;gap:16px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);border-radius:14px;padding:18px 22px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,0.2);border:1px solid rgba(240,185,11,0.3)">
+      <div style="flex-shrink:0;width:48px;height:48px;background:#F0B90B;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:26px">⬡</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:15px;font-weight:800;color:#F0B90B;margin-bottom:3px">Compra USDT en Binance</div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.7)">El exchange más grande del mundo · Compra y vende USDT en el mercado P2P boliviano</div>
+      </div>
+      <div style="flex-shrink:0;background:#F0B90B;color:#000;font-size:12px;font-weight:800;padding:8px 16px;border-radius:8px;white-space:nowrap">Abrir cuenta →</div>
+    </a>
+  </div>
+
+  <!-- LIMITS -->
+  <div id="limits" class="limits-section">
+    <div class="limits-hero">
+      <div class="limits-icon">⚖️</div>
+      <h2>Límites y Restricciones en Bolivia</h2>
+      <p>Información actualizada sobre límites de compra con tarjetas de débito al 21/04/2026</p>
+    </div>
+    <div class="limits-legend">
+      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#22c55e"></div>Sin restricciones</div>
+      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#f59e0b"></div>Moderadas</div>
+      <div class="limits-legend-item"><div class="limits-legend-dot" style="background:#ef4444"></div>Muy limitado</div>
+    </div>
+    <div class="limits-filters">
+      <button class="limits-filter-btn active" onclick="filterLimits('all',this)">Todos</button>
+      <button class="limits-filter-btn" onclick="filterLimits('ok',this)">Sin restricciones</button>
+      <button class="limits-filter-btn" onclick="filterLimits('mod',this)">Con restricciones</button>
+    </div>
+    <div class="limits-cards-grid" id="limitsGrid">
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Mercantil Santa Cruz</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$7500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bmsc.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco de Crédito de Bolivia</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$5000</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bcb.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Nacional de Bolivia</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bnb.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Sol</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancosol.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Económico</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancoeconomico.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Ganadero</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bg.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco FIE</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancofie.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Unión</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bancounion.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">BISA</div><div class="limit-card-badge mod">Con límite mensual</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Tipo de cambio referencial.</div>
+        <a class="limit-card-btn" href="https://www.bisa.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+      <div class="limit-card" data-status="mod">
+        <div class="limit-card-top"><div class="limit-card-name">Banco Fortaleza</div><div class="limit-card-badge mod">Por confirmar</div></div>
+        <div class="limit-card-amount-row"><span class="limit-card-amount-label">Mensual:</span><span class="limit-card-amount-val">$500</span></div>
+        <div class="limit-card-note">Tarjeta débito. Límite referencial, pendiente de verificación.</div>
+        <a class="limit-card-btn" href="https://www.fortaleza.com.bo" target="_blank" rel="noopener">Ver Tarifario →</a>
+      </div>
+    </div>
+    <div class="limits-note">⚠️ Estos límites son referenciales y pueden cambiar sin previo aviso. Verifica siempre con tu banco antes de operar.</div>
   </div>
 
   <!-- NOTICIAS -->
@@ -1190,7 +1205,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 <strong style="color:var(--gold)">USDT Bolivia</strong> · usdt-bolivia.com · Desarrollado por Samuel Ampuero · Santa Cruz, Bolivia 🇧🇴</span>
+      <span class="footer-copy">© 2026 <strong style="color:var(--gold)">USDT Bolivia</strong> · usdt-bolivia.com · Desarrollado por <strong style="color:rgba(255,255,255,.85)">Samuel Ampuero</strong> · Santa Cruz, Bolivia 🇧🇴</span>
       <span class="footer-uni" style="font-size:11px;opacity:.5">Todos los derechos reservados</span>
     </div>
   </div>
@@ -1222,7 +1237,7 @@
     <h2>Términos y Condiciones</h2>
     <p>Estos términos rigen el uso de nuestro sitio web y servicios.</p>
     <h3>Aceptación de Términos</h3>
-    <p>Al acceder y utilizar <strong>Dólar Bolivia</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
+    <p>Al acceder y utilizar <strong>USDT Bolivia</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
     <h3>Lo que Ofrecemos</h3>
     <ul><li>Información referencial de cotizaciones</li><li>Datos del mercado paralelo de divisas</li><li>Herramientas de cálculo básicas</li><li>Análisis de tendencias históricas</li></ul>
     <h3>Lo que NO Hacemos</h3>
@@ -1238,7 +1253,7 @@
     <div class="modal-badge">Legal</div>
     <h2>Política de Privacidad</h2>
     <h3>Introducción</h3>
-    <p>En <strong>Dólar Bolivia</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
+    <p>En <strong>USDT Bolivia</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
     <h3>Datos que Recopilamos</h3>
     <p>Este sitio es de carácter informativo y <strong>no recopila datos personales</strong>. No requerimos registro ni inicio de sesión.</p>
     <h3>Cookies y Analítica</h3>
@@ -1264,9 +1279,18 @@
   let calcHistory = [];
 
   // ── MENU MÓVIL ──
-  function toggleMenu() { document.getElementById('mobileNav').classList.toggle('open'); }
+  function toggleMenu() {
+    const nav = document.getElementById('mobileNav');
+    const btn = document.getElementById('hamburgerBtn');
+    const isOpen = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
   function closeMenu(e) { if (e.target === document.getElementById('mobileNav')) closeMobileNav(); }
-  function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
+  function closeMobileNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.getElementById('hamburgerBtn').setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.getElementById('mobileNav').classList.contains('open')) closeMobileNav(); });
 
   // ── MODALES ──
   function openModal(id)  { document.getElementById(id).classList.add('open'); document.body.style.overflow='hidden'; }
@@ -1288,6 +1312,8 @@
     let base = {};
     // 1. Cargar JSON guardado como base (historial + fallback)
     try { const r = await fetch('data/prices.json?v='+Date.now()); base = await r.json(); } catch(e) {}
+    // Preservar fecha de generación del archivo para usarla como edad de datos no refrescados en vivo
+    base._jsonLastUpdated = base.lastUpdated || null;
 
     // Renderizar inmediatamente con datos guardados para que el gráfico aparezca al instante
     if (base.history?.length) { pricesData = base; renderAll(); }
@@ -1306,6 +1332,7 @@
       ]);
 
       const val = r => r.status === 'fulfilled' ? r.value : null;
+      const fetchedAt = new Date().toISOString(); // timestamp de esta consulta en vivo
       const live   = val(official);
       const dEld   = val(eldorado);
       const dTak   = val(takenos);
@@ -1316,25 +1343,29 @@
       const dVrd   = val(bcbvrd);
 
       // Binance P2P (blue = mercado paralelo)
+      // fetch_prices.py etiqueta este campo 'binance_p2p' independientemente de si llegó
+      // por d_official["blue"] (DolarBlueBolivia) o por fallback directo a Binance P2P
       if (live?.blue) {
-        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true };
+        base.binance = { buy: live.blue.buy, sell: live.blue.sell, available: true, source: 'binance_p2p', fetchedAt };
       }
 
-      // Plataformas con datos reales
+      // Plataformas con datos reales — misma lógica y mismos identificadores que fetch_prices.py
+      // fetchedAt marca el momento exacto de esta consulta; si el proveedor no respondió,
+      // se conserva el valor del JSON y su antigüedad es base._jsonLastUpdated
       if (dEld?.buy  && dEld?.sell)
-        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true };
+        base.eldorado = { buy: dEld.buy,  sell: dEld.sell,  available: true, source: 'api_dbb_eldorado', fetchedAt };
       if (dTak?.buy  && dTak?.sell)
-        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true };
+        base.takenos  = { buy: dTak.buy,  sell: dTak.sell,  available: true, source: 'api_dbb_takenos',  fetchedAt };
       if (dWall?.buy && dWall?.sell)
-        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true };
+        base.wallbit  = { buy: dWall.buy, sell: dWall.sell, available: true, source: 'api_dbb_wallbit',  fetchedAt };
       if (dAir?.addValue && dAir?.withdrawValue)
-        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true };
+        base.airtm    = { buy: dAir.addValue, sell: dAir.withdrawValue, available: true, source: 'api_dbb_airtm',  fetchedAt };
       if (dBybit?.buy && parseFloat(dBybit.buy) > 1)
-        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true };
+        base.bybit    = { buy: dBybit.buy, sell: dBybit.sell, available: true, source: 'api_dbb_bybit',   fetchedAt };
       if (dSaldo?.buy && dSaldo?.sell)
-        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true };
+        base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true, source: 'api_dbb_saldoar', fetchedAt };
 
-      // BCB oficial + VRD
+      // BCB oficial + VRD — source identifica el intermediario (DolarBlueBolivia /officialRate)
       if (live?.official) {
         base.bcb = {
           officialBuy:     live.official.buy,
@@ -1343,6 +1374,8 @@
           referentialSell: live.blue?.sell || base.bcb?.referentialSell,
           vrdBuy:  dVrd?.buy  || dVrd?.compra || base.bcb?.vrdBuy,
           vrdSell: dVrd?.sell || dVrd?.venta  || base.bcb?.vrdSell,
+          source: 'api_dbb_officialRate',
+          fetchedAt,
         };
       } else if (dVrd?.buy) {
         base.bcb = base.bcb || {};
@@ -1357,7 +1390,12 @@
         base.history.push({ date:today, buy:live.blue.buy, sell:live.blue.sell });
         base.history.sort((a,b)=>a.date.localeCompare(b.date));
       }
-    } catch(e) { console.warn('API en vivo no disponible:', e.message); }
+      // Actualizar lastUpdated al momento de la consulta en vivo exitosa
+      base.lastUpdated = new Date().toISOString();
+    } catch(e) {
+      console.warn('API en vivo no disponible:', e.message);
+      // lastUpdated queda como el del archivo JSON — la antigüedad real del dato
+    }
 
     const d = new Date();
     const dias  = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
@@ -1386,25 +1424,35 @@
     });
   }
 
+  function isDataFresh(isoTimestamp, maxAgeMinutes) {
+    if (!isoTimestamp) return false;
+    const age = (Date.now() - new Date(isoTimestamp).getTime()) / 60000;
+    return age >= 0 && age <= maxAgeMinutes;
+  }
+
+  // Devuelve true solo para cotizaciones observadas desde una API (no estimadas por multiplicadores)
+  function isObservedSource(src) {
+    return typeof src === 'string' && (src.startsWith('api_dbb') || src === 'binance_p2p');
+  }
+
   function platCard({ name, domain, logo, gradient, desc, features, data, btn1Text, btn2Text, btn2Color, url, time }) {
     if (!data?.available) return '';
-    const buy = parseFloat(data.buy), sell = parseFloat(data.sell);
-    if (isNaN(buy) || isNaN(sell)) return '';
-    const avg = ((buy + sell) / 2).toFixed(2);
+    const userBuy = parseFloat(data.buy), userSell = parseFloat(data.sell);
+    if (isNaN(userBuy) || isNaN(userSell)) return '';
+    const avg = ((userBuy + userSell) / 2).toFixed(2);
     return `
     <div class="plat-big-card" style="background:${gradient}">
-      <div class="plat-big-partner">☆ Partner Verificado</div>
       <div class="plat-big-header">
         <div class="plat-big-logo">${logo}</div>
         <div>
           <div class="plat-big-name">${name}</div>
-          <div class="plat-big-stars">★★★★★ 5.0</div>
+          <div class="plat-big-stars" style="opacity:.6">${features[0]}</div>
         </div>
       </div>
       <div class="plat-big-price-box">
         <div class="plat-big-price-label">
           <span>⬡ Cotización ${name}</span>
-          <span class="plat-big-price-live">En vivo</span>
+          <span class="plat-big-price-live">${data.source === 'calculated' ? 'Estimado' : isObservedSource(data.source) && isDataFresh(data.fetchedAt, 180) ? 'En vivo' : data.fetchedAt ? 'Referencial' : 'No verificada'}</span>
         </div>
         <div class="plat-big-price-val">Bs ${avg}</div>
         <div class="plat-big-price-sub">
@@ -1414,12 +1462,12 @@
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px">
           <div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px 10px;text-align:center">
             <div style="font-size:10px;opacity:.7;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px">↓ Compra</div>
-            <div style="font-size:18px;font-weight:900">Bs ${buy.toFixed(2)}</div>
+            <div style="font-size:18px;font-weight:900">Bs ${userBuy.toFixed(2)}</div>
             <div style="font-size:10px;opacity:.6">Tú compras USDT</div>
           </div>
           <div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px 10px;text-align:center">
             <div style="font-size:10px;opacity:.7;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px">↑ Venta</div>
-            <div style="font-size:18px;font-weight:900">Bs ${sell.toFixed(2)}</div>
+            <div style="font-size:18px;font-weight:900">Bs ${userSell.toFixed(2)}</div>
             <div style="font-size:10px;opacity:.6">Tú vendes USDT</div>
           </div>
         </div>
@@ -1438,7 +1486,7 @@
     <div class="otra-card" style="background:${gradient}">
       <div class="otra-card-logo">${logo}</div>
       <div class="otra-card-name">${name}</div>
-      <div class="otra-card-stars">★★★★★ 5.0</div>
+      <div class="otra-card-stars">${features[0]||''}</div>
       <div class="otra-card-desc">${desc}</div>
       <ul class="otra-card-feats">${features.map(f=>`<li>${f}</li>`).join('')}</ul>
       <a class="otra-card-btn" href="${url}" target="_blank" rel="noopener">Abrir Plataforma ↗</a>
@@ -1473,12 +1521,9 @@
     // Hora de actualización
     const timeStr = now.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'}) + ' p.m.';
 
-    // Platform big cards
+    // Platform big cards (Eldorado, Wallbit, Takenos con datos verificados)
+    // AirTM movido a "otras plataformas" — activo y convención sin confirmar
     document.getElementById('platCardsGrid').innerHTML = [
-      platCard({ name:'Airtm', logo:'AIRTM', gradient:'linear-gradient(135deg,#1565C0 0%,#1976D2 60%,#0D47A1 100%)',
-        desc:'Plataforma global para intercambio de divisas y criptomonedas con alcance mundial.',
-        features:['Fácil de usar','Soporte 24/7','Múltiples métodos'],
-        data:airtm, btn1Text:'Ver detalles', btn2Text:'Crear cuenta', btn2Color:'#1565C0', url:'https://www.airtm.com/', time:timeStr }),
       platCard({ name:'Eldorado', logo:'🏅', gradient:'linear-gradient(135deg,#E65100 0%,#F57C00 60%,#FF8F00 100%)',
         desc:'La SuperApp de Stablecoins para Latinoamérica con +70 métodos de pago locales.',
         features:['+70 métodos de pago','Sin comisiones','P2P Trading'],
@@ -1493,7 +1538,7 @@
         data:takenos, btn1Text:'Ver detalles', btn2Text:'Crear Cuenta', btn2Color:'#4A148C', url:'https://takenos.com/', time:timeStr }),
     ].join('');
 
-    // Otras plataformas (coloridas)
+    // Otras plataformas (coloridas) — incluye AirTM con nota de advertencia
     document.getElementById('otrasGrid').innerHTML = [
       otraCard({ name:'SaldoAr',   logo:'💜', gradient:'linear-gradient(135deg,#6B21A8,#7C3AED)',
         desc:'Plataforma argentina para comprar y vender USDT con pesos y otras divisas.',
@@ -1503,10 +1548,13 @@
         features:['Trading avanzado','P2P seguro','Alta liquidez'], url:'https://www.bitget.com/' }),
       otraCard({ name:'Bybit P2P',  logo:'🟠', gradient:'linear-gradient(135deg,#C2410C,#EA580C)',
         desc:'Plataforma de trading con P2P y amplia variedad de métodos de pago.',
-        features:['Opciones variadas','Trading profesional','Seguridad robusta'], url:'https://www.bybit.com/' }),
+        features:['Opciones variadas','Trading profesional','⚠ conv. no verificada'], url:'https://www.bybit.com/' }),
       otraCard({ name:'Binance P2P',logo:'🟡', gradient:'linear-gradient(135deg,#B45309,#D97706)',
         desc:'El exchange de criptomonedas más grande del mundo con servicio P2P.',
         features:['Bajas comisiones','Alta liquidez','Seguridad avanzada'], url:'https://p2p.binance.com/' }),
+      otraCard({ name:'AirTM',      logo:'✈️', gradient:'linear-gradient(135deg,#1565C0 0%,#1976D2 60%,#0D47A1 100%)',
+        desc:'Plataforma global para intercambio de divisas. ⚠ Activo y convención no verificados.',
+        features:['Múltiples métodos','Soporte 24/7','⚠ activo/conv. sin confirmar'], url:'https://www.airtm.com/' }),
     ].join('');
 
     // BCB
@@ -1549,57 +1597,82 @@
   function renderExchanges() {
     const d = pricesData;
     if (!d || !d.binance) return;
-    const bBuy  = parseFloat(d.binance?.buy)  || 12.00;
-    const bSell = parseFloat(d.binance?.sell) || 11.95;
+    // uBuy = precio que el usuario PAGA para comprar USDT = market's sell (mayor)
+    // uSell = precio que el usuario RECIBE al vender USDT = market's buy (menor)
+    const uBuy  = parseFloat(d.binance?.sell) || 12.00;
+    const uSell = parseFloat(d.binance?.buy)  || 11.95;
 
     const platforms = [
       { name:'Binance P2P', type:'exchange', emoji:'⬡',
-        buy: bBuy, sell: bSell },
+        buy: uBuy, sell: uSell, source: d.binance?.source, fetchedAt: d.binance?.fetchedAt },
       { name:'Bybit P2P',   type:'exchange', emoji:'🟡',
-        buy: parseFloat(d.bybit?.buy)  || +(bBuy  - 0.03).toFixed(2),
-        sell:parseFloat(d.bybit?.sell) || +(bSell + 0.02).toFixed(2) },
+        buy: parseFloat(d.bybit?.buy)  || +(uBuy  + 0.03).toFixed(2),
+        sell:parseFloat(d.bybit?.sell) || +(uSell - 0.02).toFixed(2),
+        source: d.bybit?.source, fetchedAt: d.bybit?.fetchedAt,
+        convNote: '⚠ conv. no verificada', excludeFromRank: true },
       { name:'OKX P2P',     type:'exchange', emoji:'⚫',
-        buy: +(bBuy + 0.02).toFixed(2), sell: +(bSell - 0.01).toFixed(2) },
+        buy: +(uBuy + 0.02).toFixed(2), sell: +(uSell - 0.01).toFixed(2), source: null },
       { name:'Bitget P2P',  type:'exchange', emoji:'🔵',
-        buy: +(bBuy + 0.03).toFixed(2), sell: +(bSell + 0.01).toFixed(2) },
+        buy: +(uBuy + 0.03).toFixed(2), sell: +(uSell + 0.01).toFixed(2), source: null },
       { name:'Saldo',       type:'exchange', emoji:'💚',
-        buy: parseFloat(d.saldoar?.buy)  || +(bBuy  + 0.12).toFixed(2),
-        sell:parseFloat(d.saldoar?.sell) || +(bSell - 0.10).toFixed(2) },
+        buy: parseFloat(d.saldoar?.buy)  || +(uBuy  + 0.12).toFixed(2),
+        sell:parseFloat(d.saldoar?.sell) || +(uSell - 0.10).toFixed(2),
+        source: d.saldoar?.source, fetchedAt: d.saldoar?.fetchedAt },
       { name:'Takenos',     type:'exchange', emoji:'☁️',
-        buy: parseFloat(d.takenos?.buy)  || +(bBuy  + 0.23).toFixed(2),
-        sell:parseFloat(d.takenos?.sell) || +(bSell - 0.11).toFixed(2) },
+        buy: parseFloat(d.takenos?.buy)  || +(uBuy  + 0.23).toFixed(2),
+        sell:parseFloat(d.takenos?.sell) || +(uSell - 0.11).toFixed(2),
+        source: d.takenos?.source, fetchedAt: d.takenos?.fetchedAt },
       { name:'Vita Wallet', type:'exchange', emoji:'💜',
-        buy: +(bBuy + 0.09).toFixed(2), sell: +(bSell - 0.12).toFixed(2) },
+        buy: +(uBuy + 0.09).toFixed(2), sell: +(uSell - 0.12).toFixed(2), source: null },
       { name:'Wallbit',     type:'exchange', emoji:'🔷',
-        buy: parseFloat(d.wallbit?.buy)  || +(bBuy  + 0.16).toFixed(2),
-        sell:parseFloat(d.wallbit?.sell) || +(bSell - 0.15).toFixed(2) },
-      { name:'AirTM (USDC)',type:'exchange', emoji:'✈️',
-        buy: parseFloat(d.airtm?.buy)  || +(bBuy  + 0.22).toFixed(2),
-        sell:parseFloat(d.airtm?.sell) || +(bSell - 0.30).toFixed(2) },
+        buy: parseFloat(d.wallbit?.buy)  || +(uBuy  + 0.16).toFixed(2),
+        sell:parseFloat(d.wallbit?.sell) || +(uSell - 0.15).toFixed(2),
+        source: d.wallbit?.source, fetchedAt: d.wallbit?.fetchedAt },
+      { name:'AirTM',       type:'exchange', emoji:'✈️',
+        buy: parseFloat(d.airtm?.buy)  || +(uBuy  + 0.22).toFixed(2),
+        sell:parseFloat(d.airtm?.sell) || +(uSell - 0.30).toFixed(2),
+        source: d.airtm?.source, fetchedAt: d.airtm?.fetchedAt,
+        convNote: '⚠ asset/conv. no verificado', excludeFromRank: true },
       { name:'BCP Bolivia', type:'banco',    emoji:'🏦',
-        buy: +(bBuy  + 0.25).toFixed(2), sell: +(bSell - 0.01).toFixed(2) },
+        buy: +(uBuy  + 0.25).toFixed(2), sell: +(uSell - 0.01).toFixed(2), source: null },
       { name:'CriptoBISA',  type:'banco',    emoji:'🏦',
-        buy: +(bBuy  + 0.20).toFixed(2), sell: +(bSell - 0.80).toFixed(2) },
+        buy: +(uBuy  + 0.20).toFixed(2), sell: +(uSell - 0.80).toFixed(2), source: null },
     ];
 
     const filtered = exFilter === 'all' ? platforms : platforms.filter(p => p.type === exFilter);
-    const sorted   = [...filtered].sort((a,b) => a.buy - b.buy);
+    // Bybit y AirTM tienen convención/activo no verificado — se excluyen del ranking principal
+    const ranked   = [...filtered].filter(p => !p.excludeFromRank).sort((a,b) => a.buy - b.buy);
+    const unranked = filtered.filter(p => p.excludeFromRank);
 
-    let rows = sorted.map((p, i) => {
-      const spread = ((p.buy - p.sell) / p.buy * 100).toFixed(2);
-      const isLive = p.name === 'Binance P2P' || p.name === 'Bybit P2P' || p.name === 'Saldo' || p.name === 'Takenos' || p.name === 'Wallbit' || p.name === 'AirTM (USDC)';
+    const makeRow = (p) => {
+      const spread = (p.sell > 0 && p.buy > 0) ? ((p.buy - p.sell) / p.sell * 100).toFixed(2) + '%' : '—';
+      const liveOk = isObservedSource(p.source) && isDataFresh(p.fetchedAt, 180);
+      const badge  = p.source === 'calculated'
+        ? '<span class="platform-badge" style="background:rgba(245,183,0,.15);color:#8a6200;border-color:rgba(245,183,0,.4)">Est.</span>'
+        : liveOk
+          ? '<span class="platform-badge">Live</span>'
+          : p.fetchedAt ? '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>' : '<span class="platform-badge" style="background:rgba(180,83,9,.08);color:#92400e;border-color:rgba(180,83,9,.25)">?</span>';
+      const convNote = p.convNote ? `<small style="display:block;font-size:10px;color:#b45309">${p.convNote}</small>` : '';
       return `<tr data-type="${p.type}">
         <td style="font-size:18px;width:32px;text-align:center">${p.emoji}</td>
         <td>
-          <span class="bank-name">${p.name}${isLive ? '<span class="platform-badge">Live</span>' : '<span class="platform-badge" style="background:rgba(139,160,196,.12);color:var(--text3);border-color:rgba(139,160,196,.3)">Ref.</span>'}</span>
-          <small style="display:block;font-size:11px;color:var(--text3)">${p.type === 'banco' ? 'Banco · USDT' : 'Exchange · P2P'}</small>
+          <span class="bank-name">${p.name}${badge}</span>
+          <small style="display:block;font-size:11px;color:var(--text3)">${p.type === 'banco' ? 'Banco · USDT' : 'Exchange · P2P'}</small>${convNote}
         </td>
         <td><span style="font-size:11px;font-weight:700;background:var(--blue-lt);color:var(--navy);padding:2px 8px;border-radius:8px">${p.type === 'banco' ? 'Banco' : 'Exchange'}</span></td>
         <td class="price-buy" style="font-size:16px;font-weight:800">Bs ${p.buy.toFixed(2)}</td>
         <td class="price-sell" style="font-size:16px;font-weight:800">Bs ${p.sell.toFixed(2)}</td>
-        <td class="spread">-${spread}%</td>
+        <td class="spread">${spread}</td>
       </tr>`;
-    }).join('');
+    };
+
+    let rows = ranked.map(makeRow).join('');
+    if (unranked.length) {
+      rows += `<tr><td colspan="6" style="padding:6px 8px;font-size:11px;color:#b45309;background:rgba(180,83,9,.06);border-top:1px dashed rgba(180,83,9,.3)">
+        ⚠ Las siguientes plataformas tienen convención o activo sin verificar — se excluyen del ranking de precios
+      </td></tr>`;
+      rows += unranked.map(makeRow).join('');
+    }
 
     document.getElementById('exTableBody').innerHTML = rows || '<tr><td colspan="6" style="color:var(--text3);padding:20px">Sin datos</td></tr>';
   }
@@ -1713,7 +1786,9 @@
     if (!pred && pricesData?.history?.length >= 5) {
       const hist = pricesData.history.slice(-14);
       const n = hist.length;
-      const xs = hist.map((_, i) => i);
+      // Usar días calendario desde el primer registro para que la pendiente sea Bs/día real
+      const t0 = new Date(hist[0].date).getTime();
+      const xs = hist.map(h => (new Date(h.date).getTime() - t0) / 86400000);
       const linRegSlope = (ys) => {
         const mx = xs.reduce((a,b)=>a+b,0)/n, my = ys.reduce((a,b)=>a+b,0)/n;
         const num = xs.reduce((s,x,i)=>s+(x-mx)*(ys[i]-my),0);
@@ -1722,15 +1797,19 @@
       };
       const buyReg  = linRegSlope(hist.map(h=>+h.buy));
       const sellReg = linRegSlope(hist.map(h=>+h.sell));
-      const project = (reg, day) => reg.slope * day + reg.intercept;
+      const project = (reg, x) => reg.slope * x + reg.intercept;
       const last = hist[hist.length-1];
+      const lastX = xs[xs.length - 1]; // días desde t0 hasta el último registro
       const days = [1,2,3].map(d => ({
-        buy:  project(buyReg,  n-1+d),
-        sell: project(sellReg, n-1+d),
+        buy:  project(buyReg,  lastX + d),
+        sell: project(sellReg, lastX + d),
       }));
       const changeSell = days[0].sell - +last.sell;
-      const trend = changeSell > 0.05 ? 'alza' : changeSell < -0.05 ? 'baja' : 'estable';
-      pred = { days, last, hist, trend, buyReg, sellReg, n };
+      // Tolerancia 1e-9 para evitar efectos de redondeo IEEE 754 en el umbral exacto de 0.05
+      const TREND_THRESHOLD = 0.05, TREND_EPS = 1e-9;
+      const trend = changeSell > TREND_THRESHOLD + TREND_EPS ? 'alza'
+                  : changeSell < -(TREND_THRESHOLD + TREND_EPS) ? 'baja' : 'estable';
+      pred = { days, last, hist, trend, buyReg, sellReg, n, lastX };
     }
     if (!pred) {
       document.getElementById('predTrendBadge').textContent = '— Sin datos disponibles';
@@ -1827,10 +1906,10 @@
 
     const factors = [
       { tag: 'warn', label: 'Escasez de dólares BCB', text: 'El Banco Central de Bolivia mantiene reservas en mínimos históricos. La escasez de dólares físicos en el sistema bancario formal impulsa la demanda de USDT como alternativa.' },
-      { tag: 'warn', label: 'Brecha cambiaria', text: `El tipo oficial del BCB (Bs 6.96) dista del precio real del mercado (Bs ${currentBuy.toFixed(2)}). Mientras exista esta brecha, el mercado paralelo de USDT sigue siendo la principal vía de acceso a divisas.` },
+      { tag: 'warn', label: 'Brecha cambiaria', text: `El tipo oficial del BCB (Bs ${(pricesData?.bcb?.officialBuy||'—')}) difiere del precio de mercado P2P (Bs ${currentBuy.toFixed(2)}). Mientras exista esta brecha, el mercado paralelo de USDT sigue siendo la principal vía de acceso a divisas.` },
       { tag: 'imf',  label: 'FMI', text: 'Bolivia mantiene negociaciones con el Fondo Monetario Internacional para un posible acuerdo de financiamiento. Un acuerdo formal podría aliviar la escasez de dólares y reducir la demanda de USDT en el mercado paralelo.' },
       { tag: 'info', label: 'Estacionalidad', text: seasonal },
-      { tag: 'info', label: 'Método estadístico', text: 'Esta proyección usa regresión lineal simple sobre los últimos 14 días de precios de Binance P2P Bolivia. No incorpora eventos futuros ni política monetaria. Es referencial, no financiera.' },
+      { tag: 'info', label: 'Método estadístico', text: `Esta proyección usa regresión lineal simple sobre los últimos ${pred.n} registros históricos (${pred.lastX !== undefined ? Math.round(pred.lastX) : '~'} días calendario). El eje X son días calendario reales desde el primer registro del período, por lo que la pendiente mide Bs/día calendario. Umbral de tendencia: ±0.05 Bs/día (siguiente registro). No incorpora eventos futuros ni política monetaria. Es referencial, no financiera.` },
     ];
 
     factorsEl.innerHTML = factors.map(f =>
@@ -1860,16 +1939,29 @@
     });
     const toShow = econNews.length >= 3 ? econNews : [...econNews, ...backupNews].slice(0, 6);
 
-    grid.innerHTML = toShow.map(n => {
+    const MAX_INITIAL_NEWS = 6;
+    const makeCard = n => {
       const d = new Date(n.date);
       const dateStr = isNaN(d) ? '' : d.toLocaleDateString('es-BO', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
-      return `<a class="news-card" href="${n.link||'#'}" target="_blank" rel="noopener noreferrer">
-        <div class="news-card-source">${n.source}</div>
-        <div class="news-card-title">${n.title}</div>
-        ${n.desc ? `<div class="news-card-desc">${n.desc}</div>` : ''}
-        <div class="news-card-date">${dateStr}</div>
-      </a>`;
-    }).join('');
+      const desc = n.desc && n.desc !== n.title ? `<div class="news-card-desc">${n.desc}</div>` : '';
+      const src = n.source ? `<div class="news-card-source">${n.source}</div>` : '';
+      return `<a class="news-card" href="${n.link||'#'}" target="_blank" rel="noopener noreferrer">${src}<div class="news-card-title">${n.title}</div>${desc}<div class="news-card-date">${dateStr}</div></a>`;
+    };
+    const shown = toShow.slice(0, MAX_INITIAL_NEWS);
+    const rest  = toShow.slice(MAX_INITIAL_NEWS);
+    grid.innerHTML = shown.map(makeCard).join('');
+    if (rest.length > 0) {
+      const moreBtn = document.createElement('button');
+      moreBtn.className = 'banks-toggle-btn';
+      moreBtn.style.cssText = 'margin-top:12px;grid-column:1/-1;justify-self:start';
+      moreBtn.textContent = `Ver ${rest.length} más`;
+      moreBtn.onclick = () => {
+        grid.querySelectorAll('.news-more-item').forEach(el => el.remove());
+        rest.forEach(n => { const tmp = document.createElement('div'); tmp.innerHTML = makeCard(n); const el = tmp.firstChild; el.classList.add('news-more-item'); grid.insertBefore(el, moreBtn); });
+        moreBtn.remove();
+      };
+      grid.appendChild(moreBtn);
+    }
   }
 
   // ── HERO MODE ──
@@ -2035,10 +2127,10 @@
     chartInstance=new Chart(ctx,{
       type:'line',
       data:{ labels, datasets:[
-        { label:'Venta', data:s.map(h=>h.sell), borderColor:'#003087',
+        { label:'Tú compras', data:s.map(h=>h.sell), borderColor:'#003087',
           backgroundColor: c=>{const g=c.chart.ctx.createLinearGradient(0,0,0,260);g.addColorStop(0,'rgba(0,48,135,0.12)');g.addColorStop(1,'rgba(0,48,135,0)');return g;},
           borderWidth:2.5, pointRadius:s.length<=14?4:0, pointHoverRadius:5, fill:true, tension:0.3 },
-        { label:'Compra', data:s.map(h=>h.buy), borderColor:'rgba(0,48,135,0.3)',
+        { label:'Tú vendes', data:s.map(h=>h.buy), borderColor:'rgba(0,48,135,0.3)',
           backgroundColor:'transparent', borderWidth:1.5, pointRadius:0, pointHoverRadius:4, fill:false, tension:0.3 }
       ]},
       options:{ responsive:true, maintainAspectRatio:false, interaction:{mode:'index',intersect:false},
@@ -2070,7 +2162,7 @@
   function getCalcRate() {
     if (!pricesData?.binance) return null;
     const f=document.getElementById('fromCurrency').value, t=document.getElementById('toCurrency').value;
-    if (f==='USDT'&&t==='BOB') return pricesData.binance.sell;
+    if (f==='USDT'&&t==='BOB') return pricesData.binance.buy;
     if (f==='BOB'&&t==='USDT') return 1/pricesData.binance.sell;
     return 1;
   }
@@ -2081,7 +2173,8 @@
     const rate=getCalcRate();
     if (rate) {
       document.getElementById('calcRateDisplay').textContent = f==='USDT' ? `${rate.toFixed(2)} BOB` : `${(1/rate).toFixed(4)} USDT`;
-      document.getElementById('calcRatePill').textContent = pricesData?.binance?.sell?.toFixed(2)||'—';
+      const pillRate = f==='USDT' ? pricesData?.binance?.buy : pricesData?.binance?.sell;
+      document.getElementById('calcRatePill').textContent = pillRate?.toFixed(2) || '—';
     }
   }
   function initCalc() { updateCalcRateDisplay(); }
@@ -2194,8 +2287,8 @@
       // USDT más caro que físico → conviene USD físico
       recBox.classList.add('green');
       recIcon.textContent = '🏦';
-      recTitle.textContent = `Conviene el USD Físico — ${pct}% más barato`;
-      recDesc.textContent  = `El TCO BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Si necesitas dólares físicos, los librecambistas ofrecen mejor precio hoy.`;
+      recTitle.textContent = `Tasa BCB por debajo del USDT — ${pct}%`;
+      recDesc.textContent  = `La tasa de referencia BCB (Bs ${vrd.toFixed(2)}, vía DolarBlueBolivia) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Referencia administrativa; el precio real en librecambistas puede diferir.`;
       physCard.classList.add('winner');
     } else if (diff < -0.15) {
       // USDT más barato → conviene USDT
