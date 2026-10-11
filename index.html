@@ -1222,7 +1222,7 @@
     <h2>Términos y Condiciones</h2>
     <p>Estos términos rigen el uso de nuestro sitio web y servicios.</p>
     <h3>Aceptación de Términos</h3>
-    <p>Al acceder y utilizar <strong>Dólar Bolivia</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
+    <p>Al acceder y utilizar <strong>USDT Bolivia</strong>, usted acepta cumplir con estos términos. Si no está de acuerdo, le recomendamos no utilizar este sitio.</p>
     <h3>Lo que Ofrecemos</h3>
     <ul><li>Información referencial de cotizaciones</li><li>Datos del mercado paralelo de divisas</li><li>Herramientas de cálculo básicas</li><li>Análisis de tendencias históricas</li></ul>
     <h3>Lo que NO Hacemos</h3>
@@ -1238,7 +1238,7 @@
     <div class="modal-badge">Legal</div>
     <h2>Política de Privacidad</h2>
     <h3>Introducción</h3>
-    <p>En <strong>Dólar Bolivia</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
+    <p>En <strong>USDT Bolivia</strong>, respetamos tu privacidad. Esta política describe cómo tratamos la información cuando usas nuestro sitio.</p>
     <h3>Datos que Recopilamos</h3>
     <p>Este sitio es de carácter informativo y <strong>no recopila datos personales</strong>. No requerimos registro ni inicio de sesión.</p>
     <h3>Cookies y Analítica</h3>
@@ -1388,9 +1388,10 @@
 
   function platCard({ name, domain, logo, gradient, desc, features, data, btn1Text, btn2Text, btn2Color, url, time }) {
     if (!data?.available) return '';
-    // userBuy = precio que el usuario PAGA = data.sell (market's sell, mayor)
-    // userSell = precio que el usuario RECIBE = data.buy (market's buy, menor)
-    const userBuy = parseFloat(data.sell), userSell = parseFloat(data.buy);
+    // Todos los proveedores (airtm, eldorado, wallbit, takenos) usan convencion USER-CENTRIC:
+    // data.buy = precio que el usuario PAGA para comprar (mayor)
+    // data.sell = precio que el usuario RECIBE al vender (menor)
+    const userBuy = parseFloat(data.buy), userSell = parseFloat(data.sell);
     if (isNaN(userBuy) || isNaN(userSell)) return '';
     const avg = ((userBuy + userSell) / 2).toFixed(2);
     return `
@@ -1559,26 +1560,26 @@
       { name:'Binance P2P', type:'exchange', emoji:'⬡',
         buy: uBuy, sell: uSell },
       { name:'Bybit P2P',   type:'exchange', emoji:'🟡',
-        buy: parseFloat(d.bybit?.sell) || +(uBuy  + 0.03).toFixed(2),
-        sell:parseFloat(d.bybit?.buy)  || +(uSell - 0.02).toFixed(2) },
+        buy: parseFloat(d.bybit?.buy)  || +(uBuy  + 0.03).toFixed(2),
+        sell:parseFloat(d.bybit?.sell) || +(uSell - 0.02).toFixed(2) },
       { name:'OKX P2P',     type:'exchange', emoji:'⚫',
         buy: +(uBuy + 0.02).toFixed(2), sell: +(uSell - 0.01).toFixed(2) },
       { name:'Bitget P2P',  type:'exchange', emoji:'🔵',
         buy: +(uBuy + 0.03).toFixed(2), sell: +(uSell + 0.01).toFixed(2) },
       { name:'Saldo',       type:'exchange', emoji:'💚',
-        buy: parseFloat(d.saldoar?.sell) || +(uBuy  + 0.12).toFixed(2),
-        sell:parseFloat(d.saldoar?.buy)  || +(uSell - 0.10).toFixed(2) },
+        buy: parseFloat(d.saldoar?.buy)  || +(uBuy  + 0.12).toFixed(2),
+        sell:parseFloat(d.saldoar?.sell) || +(uSell - 0.10).toFixed(2) },
       { name:'Takenos',     type:'exchange', emoji:'☁️',
-        buy: parseFloat(d.takenos?.sell) || +(uBuy  + 0.23).toFixed(2),
-        sell:parseFloat(d.takenos?.buy)  || +(uSell - 0.11).toFixed(2) },
+        buy: parseFloat(d.takenos?.buy)  || +(uBuy  + 0.23).toFixed(2),
+        sell:parseFloat(d.takenos?.sell) || +(uSell - 0.11).toFixed(2) },
       { name:'Vita Wallet', type:'exchange', emoji:'💜',
         buy: +(uBuy + 0.09).toFixed(2), sell: +(uSell - 0.12).toFixed(2) },
       { name:'Wallbit',     type:'exchange', emoji:'🔷',
-        buy: parseFloat(d.wallbit?.sell) || +(uBuy  + 0.16).toFixed(2),
-        sell:parseFloat(d.wallbit?.buy)  || +(uSell - 0.15).toFixed(2) },
+        buy: parseFloat(d.wallbit?.buy)  || +(uBuy  + 0.16).toFixed(2),
+        sell:parseFloat(d.wallbit?.sell) || +(uSell - 0.15).toFixed(2) },
       { name:'AirTM (USDC)',type:'exchange', emoji:'✈️',
-        buy: parseFloat(d.airtm?.sell) || +(uBuy  + 0.22).toFixed(2),
-        sell:parseFloat(d.airtm?.buy)  || +(uSell - 0.30).toFixed(2) },
+        buy: parseFloat(d.airtm?.buy)  || +(uBuy  + 0.22).toFixed(2),
+        sell:parseFloat(d.airtm?.sell) || +(uSell - 0.30).toFixed(2) },
       { name:'BCP Bolivia', type:'banco',    emoji:'🏦',
         buy: +(uBuy  + 0.25).toFixed(2), sell: +(uSell - 0.01).toFixed(2) },
       { name:'CriptoBISA',  type:'banco',    emoji:'🏦',
@@ -1589,7 +1590,7 @@
     const sorted   = [...filtered].sort((a,b) => a.buy - b.buy);
 
     let rows = sorted.map((p, i) => {
-      const spread = ((p.buy - p.sell) / p.sell * 100).toFixed(2);
+      const spread = (p.sell > 0 && p.buy > 0) ? ((p.buy - p.sell) / p.sell * 100).toFixed(2) + '%' : '—';
       const isLive = p.name === 'Binance P2P' || p.name === 'Bybit P2P' || p.name === 'Saldo' || p.name === 'Takenos' || p.name === 'Wallbit' || p.name === 'AirTM (USDC)';
       return `<tr data-type="${p.type}">
         <td style="font-size:18px;width:32px;text-align:center">${p.emoji}</td>
@@ -1600,7 +1601,7 @@
         <td><span style="font-size:11px;font-weight:700;background:var(--blue-lt);color:var(--navy);padding:2px 8px;border-radius:8px">${p.type === 'banco' ? 'Banco' : 'Exchange'}</span></td>
         <td class="price-buy" style="font-size:16px;font-weight:800">Bs ${p.buy.toFixed(2)}</td>
         <td class="price-sell" style="font-size:16px;font-weight:800">Bs ${p.sell.toFixed(2)}</td>
-        <td class="spread">${spread}%</td>
+        <td class="spread">${spread}</td>
       </tr>`;
     }).join('');
 
