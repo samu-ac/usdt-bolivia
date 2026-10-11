@@ -109,8 +109,8 @@
       --shadow-lg: 0 8px 32px rgba(0,48,135,0.14);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; overflow-x: hidden; }
-    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
 
     /* ══ TOP BAR ══ */
     .topbar {
@@ -215,7 +215,8 @@
 
     /* ══ CALCULATOR ══ */
     .calc-wrapper { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-    @media (max-width:640px) { .calc-wrapper { grid-template-columns:1fr; } }
+    @media (max-width:640px) { .calc-wrapper { grid-template-columns:minmax(0,1fr); } }
+    .calc-left, .calc-right { min-width: 0; }
     .calc-left { display:flex; flex-direction:column; gap:14px; }
     .calc-header-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:4px; }
     .calc-rate-pill { background:var(--blue-lt); color:var(--navy); font-size:13px; font-weight:800; padding:5px 14px; border-radius:20px; border:1px solid #c3d7f7; white-space:nowrap; }
@@ -530,18 +531,8 @@
     /* ══ UTILS ══ */
     @media (max-width:600px) { .hide-mobile { display:none !important; } }
 
-    /* ══ SECTION ORDER — Fase 2: el orden se controla por DOM, no por flex order ══ */
+    /* ══ SECTION ORDER — DOM order is correct; no flex order overrides needed ══ */
     main { display:flex; flex-direction:column; }
-    #alertStrip { order:1; }
-    #calculator { order:2; }
-    #bancos     { order:3; }
-    #exchanges  { order:4; }
-    #chart      { order:5; }
-    #bcbvrd     { order:6; }
-    #prediccion { order:7; }
-    #platforms  { order:8; }
-    #limits     { order:9; }
-    #noticias   { order:10; }
 
     /* ══ MOBILE IMPROVEMENTS ══ */
     @media (max-width:600px) {
@@ -1288,9 +1279,18 @@
   let calcHistory = [];
 
   // ── MENU MÓVIL ──
-  function toggleMenu() { document.getElementById('mobileNav').classList.toggle('open'); }
+  function toggleMenu() {
+    const nav = document.getElementById('mobileNav');
+    const btn = document.getElementById('hamburgerBtn');
+    const isOpen = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
   function closeMenu(e) { if (e.target === document.getElementById('mobileNav')) closeMobileNav(); }
-  function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
+  function closeMobileNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.getElementById('hamburgerBtn').setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.getElementById('mobileNav').classList.contains('open')) closeMobileNav(); });
 
   // ── MODALES ──
   function openModal(id)  { document.getElementById(id).classList.add('open'); document.body.style.overflow='hidden'; }

@@ -193,29 +193,42 @@ Nota: el umbral es `changeSell > 0.05` (código fuente verificado). Con exactame
 | F2-6 | Noticias | Máx. 6 iniciales + botón "Ver N más". Sin descripción duplicada si `desc === title`. Campo `source` visible en card. |
 | F2-7 | Footer | Autor "Samuel Ampuero" en `rgba(255,255,255,.85)`. Sin URL de portafolio inventada. |
 | F2-8 | Anclas | `scroll-margin-top: 72px` en todas las secciones anchor para compensar cabecera fija. |
-| F2-9 | Overflow | `overflow-x: hidden` en `html` y `body`. Bug corregido en "Ver más": usaba `.replace('<a ','')` dejando atributos sueltos como texto — causaba newsGrid de 6452px en mobile. Cambiado a `tmp.firstChild` approach. |
+| F2-9 | Overflow (v2) | Causa raíz del overflow identificada y corregida: `grid-template-columns: 1fr` en `.calc-wrapper` resolvía a 366px por comportamiento `minmax(auto,1fr)` de CSS Grid. Fix: `minmax(0,1fr)` + `min-width:0` en `.calc-left/.calc-right`. CSS `order:` eliminadas (el DOM ya está en orden correcto; las reglas empujaban el banner Binance `order:0` a posición 1 visualmente). Bug "Ver más": corregido con `tmp.firstChild` (en vez de `.replace('<a ','')` que dejaba atributos sueltos — causaba newsGrid de 6452px). `overflow-x:hidden` eliminado de html/body (ya no necesario). |
+| F2-10 | Menú móvil | `toggleMenu()` ahora sincroniza `aria-expanded`. `closeMobileNav()` también resetea `aria-expanded`. Escape cierra el menú vía `document.addEventListener('keydown', …)`. |
 
 ### Archivos modificados
 
-- `index.html` — cambios de navegación, orden DOM, CSS, JavaScript (badges, noticias, overflow)
+- `index.html` — cambios de navegación, orden DOM, CSS, JavaScript (badges, noticias, overflow, aria, calc grid)
 - `PROJECT_STATE.md` — esta entrada
 
-### Validación ejecutada (2026-10-11)
+### Validación ejecutada (2026-10-11) — cierre de Fase 2
 
-| Viewport | Overflow página | Overflow noticias "Ver más" | Calculadora | Orden secciones | Errores nuevos |
-|---|---|---|---|---|---|
-| 375px (mobile) | ✅ Sin scroll horizontal | ✅ 6→14 cards, sin overflow | ✅ 100 USDT = Bs 1182 | ✅ | Solo CORS pre-existente API BCB |
-| 768px (tablet) | ✅ | ✅ | ✅ | ✅ | — |
-| desktop (pane) | ✅ | ✅ | ✅ | ✅ | — |
+| Viewport | `htmlScrollW` | Calc. OK | Orden visual | Nav/Aria | Noticias "Ver más" | Errores nuevos |
+|---|---|---|---|---|---|---|
+| 375px | 375px ✅ | 100 USDT→Bs 1182 ✅ | alertStrip→calculator→…→noticias ✅ | aria-expanded true/false, Escape cierra ✅ | 6→14 sin overflow ✅ | Ninguno |
+| 768px | 753px ✅ | calc 2 cols (323px×2) ✅ | ✅ | ✅ | ✅ | Ninguno |
+| 1440px | 1425px ✅ | ✅ | ✅ | ✅ | ✅ | Ninguno |
 
-- ✅ Nav: 5 links, sin duplicado "Calculadora"
-- ✅ Anclas: `#cotizacion`, `#calculator`, `#bancos`, `#chart` existen
-- ✅ "Ver más" noticias: 6→14, botón desaparece, sin overflow
-- ✅ Badges: "Estimado"/"En vivo"/"Referencial"/"No verificada" según procedencia
-- ⚠ CORS errores en consola: pre-existentes (API BCB bloquea localhost) — no son nuevos de Fase 2
+- ✅ Nav: 5 links, sin duplicado
+- ✅ `scroll-margin-top: 72px` en todas las 10 secciones anchor
+- ✅ Calculadora USDT→BOB: 100 × tasa_compra | BOB→USDT: usa tasa_venta (correcto desde Fase 1)
+- ✅ Chart tabs: 7D / 30D / 90D / 180D / 1A / MAX / 7d / 15d / 30d / Histórico presentes
+- ✅ Bancos toggle buy/sell funciona
+- ✅ BCB VRD: muestra datos de `prices.json` (fallback operativo cuando CORS bloquea la llamada en vivo)
+- ✅ Orden sin reglas CSS `order:` — DOM es el único origen de orden (consistente con tab/teclado)
+
+### CORS — registro preciso
+
+**Solicitud bloqueada:** `GET https://api.dolarbluebolivia.click/v1/referencial/bcb`  
+**Frecuencia:** ~10 intentos por sesión de carga (la función `loadPrices()` reintenta con interval)  
+**Causa:** La API no envía cabecera `Access-Control-Allow-Origin` para origen `http://localhost:*`  
+**Función afectada:** actualización en vivo del tipo de cambio BCB VRD (tasa del Banco Central)  
+**Fallback activo:** la sección BCB VRD muestra el valor de `prices.json` (generado por GitHub Actions), que se actualiza cada ~2h en producción. Muestra "Bs 11.73" en localhost  
+**No verificado en localhost:** que el badge "En vivo" funcione para la cotización BCB VRD en producción — solo verificable desde el dominio `usdt-bolivia.com`  
+**Ninguno de estos errores es nuevo de Fase 2.**
 
 ### Pendientes / Limitaciones
 
 - Confirmar convención Bybit y asset AirTM (heredado de Fase 1)
-- `.plat-big-card` y `.calc-wrapper` tienen contenido interno > viewport en 375px, clipeado por `overflow-x: hidden` sin reflow — no causa scroll de página pero puede cortar contenido visualmente en pantallas muy estrechas
-- Actualizar límites bancarios con fechas verificadas
+- Badge "En vivo" para BCB VRD solo verificable en producción (CORS bloquea localhost)
+- Actualizar límites bancarios con fechas verificadas desde webs oficiales
