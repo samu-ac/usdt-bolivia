@@ -309,3 +309,16 @@ Cambios (index.html, calculadora, blog, página de cotización del 6-oct):
 ### 4. Seguridad
 
 - La URL del remoto `origin` contenía un token en texto plano; se reemplazó por `https://github.com/samu-ac/usdt-bolivia.git` y se censuró una línea del reflog local. El token **sigue válido hasta revocarlo en GitHub** (Settings → Developer settings → Personal access tokens).
+
+### 5. Publicación de la corrección — 2026-10-11
+
+| Referencia | SHA |
+|---|---|
+| Previo (main) | `56058d0` |
+| Transparencia de textos | `94d891b` |
+| Nota al pie de bancos | `3fccdfa` |
+
+- `git fetch` previo: sin commits remotos nuevos; push sin force (avance simple).
+- GitHub Pages: `build_type legacy`, último build `built`. Verificado en `https://usdt-bolivia.com/`: sin "tiempo real", "cada hora" ni "En vivo" en el texto visible (solo quedan en comentarios de código); calculadora, blog y página del 6-oct sin "tiempo real"; nota al pie de bancos corregida.
+- Observación: el sitio hace auto-refresco cada 30 min con la página abierta (comentario en el código); el archivo programado sigue siendo cada 2 h en días hábiles.
+- Incidencia de push: `~/.gitconfig` fija `gh auth git-credential` como helper para github.com y `gh` solo tiene la cuenta `sammuxc`, que no tiene permiso en `samu-ac/usdt-bolivia` (403). Se publicó con el helper `manager` (Git Credential Manager) solo para ese comando y `credential.username=samu-ac`, sin cambiar la configuración.
