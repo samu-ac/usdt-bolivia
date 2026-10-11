@@ -751,16 +751,16 @@
 
     <!-- COMPARACIÓN USD FÍSICO vs USDT -->
     <div class="card" style="margin-bottom:14px">
-      <div class="section-title"><span>⚖️</span> USD Físico vs USDT Digital — ¿Cuál conviene más?</div>
+      <div class="section-title"><span>⚖️</span> Tipo Oficial BCB vs USDT Digital — Comparación de referencias</div>
       <div class="compare-grid">
         <div class="compare-card" id="comparePhysCard">
-          <div class="compare-card-tag" style="color:var(--navy)">🏦 USD Físico (Librecambista)</div>
+          <div class="compare-card-tag" style="color:var(--navy)">🏦 Tipo Oficial BCB (referencia)</div>
           <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · TCO BCB</div>
+          <div class="compare-card-label">Bs por 1 USD · Tipo de Cambio Oficial BCB</div>
           <div class="compare-card-detail">
-            Precio promedio ponderado de las operaciones reales entre bancos y librecambistas en Bolivia.<br><br>
+            Tipo de cambio oficial publicado por el Banco Central de Bolivia. Es una referencia administrativa; los precios que cobran los cambistas pueden diferir de este valor.<br><br>
             <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
-            <strong>Riesgo:</strong> Variación en el mercado, requiere contacto físico.
+            <strong>Riesgo:</strong> Acceso limitado al dólar físico en Bolivia.
           </div>
         </div>
         <div class="compare-card" id="compareUsdtCard">
@@ -781,7 +781,7 @@
           <div class="rec-box-desc" id="recDesc">Comparando precios del mercado en tiempo real.</div>
         </div>
       </div>
-      <div style="font-size:11px;color:var(--text3);text-align:center" id="compareNote">* Diferencia entre el VRD BCB (dólar físico referencial) y el precio USDT P2P en Binance · Los valores son referenciales</div>
+      <div style="font-size:11px;color:var(--text3);text-align:center" id="compareNote">* Diferencia entre el Tipo Oficial BCB y el precio USDT P2P en Binance · Ambos son precios de referencia; los precios reales de mercado pueden variar</div>
     </div>
 
     <!-- GRÁFICO VRD HISTÓRICO -->
@@ -1386,11 +1386,14 @@
     });
   }
 
+  function isDataFresh(isoTimestamp, maxAgeMinutes) {
+    if (!isoTimestamp) return false;
+    const age = (Date.now() - new Date(isoTimestamp).getTime()) / 60000;
+    return age >= 0 && age <= maxAgeMinutes;
+  }
+
   function platCard({ name, domain, logo, gradient, desc, features, data, btn1Text, btn2Text, btn2Color, url, time }) {
     if (!data?.available) return '';
-    // Todos los proveedores (airtm, eldorado, wallbit, takenos) usan convencion USER-CENTRIC:
-    // data.buy = precio que el usuario PAGA para comprar (mayor)
-    // data.sell = precio que el usuario RECIBE al vender (menor)
     const userBuy = parseFloat(data.buy), userSell = parseFloat(data.sell);
     if (isNaN(userBuy) || isNaN(userSell)) return '';
     const avg = ((userBuy + userSell) / 2).toFixed(2);
@@ -1406,7 +1409,7 @@
       <div class="plat-big-price-box">
         <div class="plat-big-price-label">
           <span>⬡ Cotización ${name}</span>
-          <span class="plat-big-price-live">En vivo</span>
+          <span class="plat-big-price-live">${isDataFresh(pricesData?.lastUpdated, 180) ? 'En vivo' : 'Referencial'}</span>
         </div>
         <div class="plat-big-price-val">Bs ${avg}</div>
         <div class="plat-big-price-sub">
@@ -1834,7 +1837,7 @@
       { tag: 'warn', label: 'Brecha cambiaria', text: `El tipo oficial del BCB (Bs ${(pricesData?.bcb?.officialBuy||'—')}) difiere del precio de mercado P2P (Bs ${currentBuy.toFixed(2)}). Mientras exista esta brecha, el mercado paralelo de USDT sigue siendo la principal vía de acceso a divisas.` },
       { tag: 'imf',  label: 'FMI', text: 'Bolivia mantiene negociaciones con el Fondo Monetario Internacional para un posible acuerdo de financiamiento. Un acuerdo formal podría aliviar la escasez de dólares y reducir la demanda de USDT en el mercado paralelo.' },
       { tag: 'info', label: 'Estacionalidad', text: seasonal },
-      { tag: 'info', label: 'Método estadístico', text: 'Esta proyección usa regresión lineal simple sobre los últimos 7 días de precios de Binance P2P Bolivia. No incorpora eventos futuros ni política monetaria. Es referencial, no financiera.' },
+      { tag: 'info', label: 'Método estadístico', text: 'Esta proyección usa regresión lineal simple sobre los últimos 14 días de precios de Binance P2P Bolivia. No incorpora eventos futuros ni política monetaria. Es referencial, no financiera.' },
     ];
 
     factorsEl.innerHTML = factors.map(f =>
@@ -2085,7 +2088,8 @@
     const rate=getCalcRate();
     if (rate) {
       document.getElementById('calcRateDisplay').textContent = f==='USDT' ? `${rate.toFixed(2)} BOB` : `${(1/rate).toFixed(4)} USDT`;
-      document.getElementById('calcRatePill').textContent = pricesData?.binance?.sell?.toFixed(2)||'—';
+      const pillRate = f==='USDT' ? pricesData?.binance?.buy : pricesData?.binance?.sell;
+      document.getElementById('calcRatePill').textContent = pillRate?.toFixed(2) || '—';
     }
   }
   function initCalc() { updateCalcRateDisplay(); }
@@ -2198,8 +2202,8 @@
       // USDT más caro que físico → conviene USD físico
       recBox.classList.add('green');
       recIcon.textContent = '🏦';
-      recTitle.textContent = `Conviene el USD Físico — ${pct}% más barato`;
-      recDesc.textContent  = `El TCO BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Si necesitas dólares físicos, los librecambistas ofrecen mejor precio hoy.`;
+      recTitle.textContent = `USD Físico más barato en referencia BCB — ${pct}%`;
+      recDesc.textContent  = `El tipo oficial BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Esta es una referencia administrativa; los precios reales de librecambistas pueden diferir.`;
       physCard.classList.add('winner');
     } else if (diff < -0.15) {
       // USDT más barato → conviene USDT
