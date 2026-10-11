@@ -216,7 +216,7 @@
   setInterval(loadRates, 60000);
 
   function updateDisplay() {
-    const rate = mode === 'buy' ? buyRate : sellRate;
+    const rate = mode === 'buy' ? sellRate : buyRate;
     document.getElementById('rateDisplay').textContent = `Bs ${rate.toFixed(2)}`;
     document.getElementById('rateSub').textContent = `por 1 USDT · Mercado P2P Bolivia`;
     document.getElementById('infoBuy').textContent  = `Bs ${sellRate.toFixed(2)}`;
@@ -231,7 +231,7 @@
     updateDisplay();
   }
 
-  function getRate() { return mode === 'buy' ? buyRate : sellRate; }
+  function getRate() { return mode === 'buy' ? sellRate : buyRate; }
 
   function calcFromTop() {
     const top = parseFloat(document.getElementById('inputTop').value);
