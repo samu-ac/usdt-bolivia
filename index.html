@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>USDT Bolivia Hoy — Precio USDT en Bolivianos, Dólar Paralelo y BCB</title>
-  <meta name="description" content="Precio referencial del USDT en Bolivia hoy. Tasa de referencia BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P. Compra y venta de USDT en Santa Cruz, La Paz y todo Bolivia." />
+  <meta name="description" content="Precio referencial del USDT en Bolivia hoy. Tipo de cambio oficial BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P. Compra y venta de USDT en Santa Cruz, La Paz y todo Bolivia." />
   <meta name="keywords" content="USDT Bolivia, precio USDT Bolivia, dólar Bolivia hoy, tipo de cambio Bolivia, dólar paralelo Bolivia, comprar USDT Bolivia, cotización BCB, dólar blue Bolivia, USDT bolivianos" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW9G81P0F3"></script>
@@ -20,7 +20,7 @@
   <link rel="canonical" href="https://usdt-bolivia.com/" />
   <!-- Open Graph -->
   <meta property="og:title" content="USDT Bolivia Hoy — Precio USDT en Bolivianos, Dólar Paralelo y BCB" />
-  <meta property="og:description" content="Precio referencial del USDT en Bolivia hoy. Tasa de referencia BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P." />
+  <meta property="og:description" content="Precio referencial del USDT en Bolivia hoy. Tipo de cambio oficial BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P." />
   <meta property="og:url" content="https://usdt-bolivia.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_BO" />
@@ -871,7 +871,7 @@
           <div style="text-align:right">
             <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">TIPO OFICIAL</div>
             <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
-            <div class="bcb-vrd-price-sub">Bs por 1 USD · vía API DolarBlueBolivia</div>
+            <div class="bcb-vrd-price-sub">Bs por 1 USD</div>
           </div>
         </div>
         <div class="bcb-vrd-stats">
@@ -890,7 +890,7 @@
         <div class="compare-card" id="comparePhysCard">
           <div class="compare-card-tag" style="color:var(--navy)">🏦 Tipo de cambio oficial BCB</div>
           <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · vía API DolarBlueBolivia</div>
+          <div class="compare-card-label">Bs por 1 USD</div>
           <div class="compare-card-detail">
             Tasa reportada por la API de DolarBlueBolivia (<code style="font-size:10px">/v1/officialRate → official.buy</code>), que agrega datos del BCB. No verificada directamente desde bcb.gob.bo. Referencia administrativa; los precios reales de cambistas pueden diferir.<br><br>
             <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
@@ -2279,7 +2279,7 @@
       recBox.classList.add('green');
       recIcon.textContent = '🏦';
       recTitle.textContent = `Tipo oficial BCB por debajo del USDT — ${pct}%`;
-      recDesc.textContent  = `El tipo oficial BCB (Bs ${vrd.toFixed(2)}, vía DolarBlueBolivia) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Referencia administrativa; el precio real en librecambistas puede diferir.`;
+      recDesc.textContent  = `El tipo oficial BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Referencia administrativa; el precio real en librecambistas puede diferir.`;
       physCard.classList.add('winner');
     } else if (diff < -0.15) {
       // USDT más barato → conviene USDT
@@ -2333,7 +2333,7 @@
     const M = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
     const labels = slice.map(h => { const [y,mo,d]=h.date.split('-'); return `${d} ${M[+mo-1]}`; });
 
-    // Línea BCB referencial flat (valor de hoy como referencia)
+    // Línea BCB oficial plana: repite el valor actual, no es serie histórica
     const bcbFlat = slice.map(() => bcbRef); // null si no hay dato válido: la línea no se dibuja
 
     if (vrdChartInstance) vrdChartInstance.destroy();
