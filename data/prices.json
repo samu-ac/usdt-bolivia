@@ -1,44 +1,44 @@
 {
-  "lastUpdated": "2026-10-13T05:44:33Z",
+  "lastUpdated": "2026-10-13T18:39:42Z",
   "displayDate": "martes 13 de octubre, 2026",
   "binance": {
     "buy": 11.85,
-    "sell": 11.93,
+    "sell": 11.88,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.97,
-    "sell": 11.82,
+    "buy": 11.9,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.16,
-    "sell": 11.74,
+    "buy": 12.11,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.06,
-    "sell": 11.71,
+    "buy": 12.05,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.13,
-    "sell": 11.61,
+    "buy": 12.09,
+    "sell": 11.58,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.92,
-    "sell": 11.8,
+    "buy": 11.86,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.95,
+    "buy": 11.93,
     "sell": 11.71,
     "available": true,
     "source": "api_dbb_saldoar"
@@ -47,17 +47,17 @@
     "officialBuy": 11.7,
     "officialSell": 11.7,
     "referentialBuy": 11.85,
-    "referentialSell": 11.93,
+    "referentialSell": 11.88,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-13T05:44:27Z"
+    "fetchedAt": "2026-10-13T18:39:34Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.43,
-      "sell": 12.03
+      "buy": 11.4,
+      "sell": 12.0
     },
     {
       "name": "BCP",
@@ -80,11 +80,6 @@
       "sell": 11.8
     },
     {
-      "name": "Banco Unión",
-      "buy": 10.73,
-      "sell": 12.03
-    },
-    {
       "name": "Banco Económico",
       "buy": 10.7,
       "sell": 12.05
@@ -96,8 +91,13 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.56,
-      "sell": 12.03
+      "buy": 10.53,
+      "sell": 12.0
+    },
+    {
+      "name": "Banco Unión",
+      "buy": 10.2,
+      "sell": 12.0
     },
     {
       "name": "Banco Ganadero",
@@ -108,66 +108,73 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Premio Nobel a la Nueva Síntesis Keynesiana",
-      "desc": "La economía no se estabiliza por decreto. Detrás de cada cifra de inflación, desempleo o crecimiento existen millones de decisiones de hogares y empresas que reaccionan a los precios, los [&#8230;]\nTh…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/10/13/premio-nobel-a-la-nueva-sintesis-keynesiana/",
-      "date": "2026-10-13T04:05:40Z"
+      "title": "Bolivia acumula un déficit comercial de casi $us 8.000 MM con Chile",
+      "desc": "El IBCE vinculó el conflicto relacionado con la madera retenida en Chile con el desequilibrio comercial entre ambos países\nThe post Bolivia acumula un déficit comercial de casi $us 8.000 MM con Chile …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/bolivia-acumula-un-deficit-comercial-de-casi-us-8-000-mm-con-chile/",
+      "date": "2026-10-13T18:21:01Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Conflicto minero deja un muerto y cinco aprehendidos en Tacacoma",
+      "desc": "La autopsia determinará si la causa de la muerte de la víctima es por proyectiles de arma de fuego",
+      "link": "https://eldeber.com.bo/pais/conflicto-minero-deja-muerto-cinco-aprehendidos-tacacoma_1791915371",
+      "date": "2026-10-13T18:16:11Z"
     },
     {
       "source": "La Razón",
-      "title": "Construyendo un camino hacia la sostenibilidad empresarial",
-      "desc": "Hace diecisiete años, hablar de medio ambiente en el ecosistema empresarial boliviano solía entenderse como un gesto de buena voluntad o, en el peor de los casos, como una obligación [&#8230;]\nThe pos…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/10/13/construyendo-un-camino-hacia-la-sostenibilidad-empresarial/",
-      "date": "2026-10-13T04:05:35Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "¿Reservas o descartes?",
-      "desc": "Corre en los pasillos de la Asamblea Legislativa Plurinacional un proyecto de ley por el cual se pretende monetizar los llamados desmontes\nThe post ¿Reservas o descartes? appeared first on La Razón.",
-      "link": "https://larazon.bo/opinion/columnistas/2026/10/13/reservas-o-descartes/",
-      "date": "2026-10-13T04:05:25Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Caso Terrorismo: Galván dice que actuó para preservar la unidad del país",
-      "desc": "El abogado Marcelo Galván pide considerar el contexto político de 2009, mientras la Fiscalía remite al TSJ la proposición acusatoria contra el expresidente y Álvaro García Linera.Mr\nThe post Caso Terr…",
-      "link": "https://larazon.bo/nacional/2026/10/12/caso-terrorismo-galvan-dice-que-actuo-para-preservar-la-unidad-del-pais/",
-      "date": "2026-10-13T03:26:57Z"
+      "title": "Cainco propone ley corta de inversiones y pide que se apruebe hasta diciembre",
+      "desc": "La organización considera que Bolivia necesita medidas urgentes para recuperar la confianza, reactivar la economía y atraer capitales\nThe post Cainco propone ley corta de inversiones y pide que se apr…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/cainco-propone-ley-corta-de-inversiones-y-pide-que-se-apruebe-hasta-diciembre/",
+      "date": "2026-10-13T17:51:38Z"
     },
     {
       "source": "El Deber",
-      "title": "Acuerdo con FMI incluye promulgación  de la Ley de Acceso a la Información",
-      "desc": "Un grupo de organizaciones de la sociedad civil, entre ellas la ANP-Diarios, impulsa desde hace 15 años la aprobación de la Ley de Acceso a la Información. En agosto se logró su aprobación en el Senad…",
-      "link": "https://eldeber.com.bo/pais/acuerdo-fmi-incluye-promulgacion-ley-acceso-informacion_1791858604",
-      "date": "2026-10-13T02:30:04Z"
+      "title": "Bolivia plantea compartir la riqueza de los océanos con los países sin litoral",
+      "desc": "El Gobierno impulsa desde Santa Cruz una hoja de ruta para intervenir en las decisiones sobre los fondos marinos y participar de los beneficios que puedan generar sus recursos minerales.",
+      "link": "https://eldeber.com.bo/pais/bolivia-plantea-compartir-riqueza-oceanos-paises-litoral_1791912959",
+      "date": "2026-10-13T17:35:59Z"
     },
     {
       "source": "El Deber",
-      "title": "El ministro Óscar Mario Justiniano lidera la representación de Bolivia en el Foro Mundial de la Alimentación de la FAO",
-      "desc": "El encuentro tiene como lema “Innovar hoy. Alimentar el mañana” y se desarrollará durante toda la semana. Tiene como objetivo impulsar año a año acciones que transformen los sistemas agroalimentarios …",
-      "link": "https://eldeber.com.bo/pais/ministro-oscar-mario-justiniano-lidera-representacion-bolivia-foro-mundial-alimentacion-fao_1791858079",
-      "date": "2026-10-13T02:21:19Z"
+      "title": "Las grabaciones que revelan la confusión en la prisión la ejecución fallida de Christa Pike",
+      "desc": "Pike, de 50 años, quien con su novio de la época asesinó a Colleen Slemmer en 1995, recibió dos dosis de inyección letal el 30 de septiembre. Una vez que quedó claro que no iba a morir a causa de la d…",
+      "link": "https://eldeber.com.bo/bbc/las-grabaciones-que-revelan-la-confusion-en-la-prision-la-fallida-ejecucion-fallida-de-christa-pike-20261013131358",
+      "date": "2026-10-13T16:13:58Z"
     },
     {
       "source": "El Deber",
-      "title": "Gobernaciones avanzan hacia un nuevo modelo de administración más autonómica",
-      "desc": "Las mesas técnicas integradas por los responsables de las nueve gobernaciones y del Gobierno ingresaron a la última fase de reuniones para concretar un anteproyecto de ley que será presentado por el G…",
-      "link": "https://eldeber.com.bo/pais/gobernaciones-avanzan-nuevo-modelo-administracion-autonomica_1791856926",
-      "date": "2026-10-13T02:02:06Z"
+      "title": "Estudio de fundación Milenio: El desafío empresarial ya no es tener reglas, sino demostrar resultados",
+      "desc": "Un estudio de la Fundación Milenio identificó avances en inversión, integridad e impacto, pero recomienda mejorar la supervisión, documentar procesos y medir la efectividad de los controles internos.",
+      "link": "https://eldeber.com.bo/economia/estudio-fundacion-milenio-desafio-empresarial-no-tener-reglas-sino-demostrar-resultados_1791905648",
+      "date": "2026-10-13T15:34:08Z"
     },
     {
       "source": "El Deber",
-      "title": "Envían a tres personas detenidas por atentado en San Ignacio a centros de rehabilitación",
-      "desc": "El fiscal Jorge Torrez informó que el mayor recibió detención preventiva en la cárcel de Palmasola, mientras que los dos menores de 17 años, una mujer y un varón, fueron enviados al centro para adoles…",
-      "link": "https://eldeber.com.bo/santa-cruz/envian-tres-personas-detenidas-atentado-san-ignacio-centros-rehabilitacion_1791856348",
-      "date": "2026-10-13T01:52:28Z"
+      "title": "Santa Cruz suma a sus municipios al Censo Agropecuario 2026",
+      "desc": "La coordinación entre los gobiernos municipales y el INE busca facilitar el trabajo de los empadronadores. La información recopilada servirá para orientar políticas públicas y proyectos productivos.",
+      "link": "https://eldeber.com.bo/economia/santa-cruz-suma-municipios-censo-agropecuario-2026_1791904673",
+      "date": "2026-10-13T15:17:53Z"
     },
     {
-      "source": "El Deber",
-      "title": "¿Por qué se celebra cada 13 de octubre el Día del Abogado en Bolivia?",
-      "desc": "La fecha conmemora la creación de la primera facultad de derecho en el continente americano. Fue en Sucre, en el año 1681",
-      "link": "https://eldeber.com.bo/pais/celebra-cada-13-octubre-dia-abogado-bolivia_1791850600",
-      "date": "2026-10-13T00:16:40Z"
+      "source": "Google — FMI Bolivia",
+      "title": "FMI proyecta que Bolivia será la única economía de Sudamérica en contracción en 2026 y 2027 - Oxígeno Digital",
+      "desc": "FMI proyecta que Bolivia será la única economía de Sudamérica en contracción en 2026 y 2027&nbsp;&nbsp;Oxígeno Digital",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMThvSm1xY1VONVNSOTZhbnVDQnpxZFZDNjIwVDZVYkNPa1pvY3lHNlVURTJtSk5rSjhudWc0c1RtOXlQTnVDUElNX3lRaGxrTjJnbnJVeXFPWlVoeWJoY3NQYVRxejk5N2hwWWFGZTB2WVNtWWNraFoyQTFkeDVlelVkME9acGhUdlR0eldjekRTcXFJaDRRb2xreHdSd05mUlN6Y0UxY0p5dTdldUpBdA?oc=5",
+      "date": "2026-10-13T14:31:34Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI recorta a 0,6% su proyección de crecimiento para Chile en 2026: solo Bolivia proyecta una cifra menor en Sudamérica - El Periodista",
+      "desc": "FMI recorta a 0,6% su proyección de crecimiento para Chile en 2026: solo Bolivia proyecta una cifra menor en Sudamérica&nbsp;&nbsp;El Periodista",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeU5iV1dfRUVHYlpUc0xtb1ZuQTR2ZHhaMXl2WWZLV0VGSGhzRVd2M0RDX2hhSFRaOVhzQ0VGZ3REMzR6Y0RoYi1ZTlpsbHhLcmhPWmZLQnM0NVZTd2xyZGc4djdyRUx6VEo2aEJwai0wQU1VeWNNMFBMdGFISWlfWDFyWWs2Q3Y5Ny1ld1k5UDlVUG02MGtSMGpfcDQzWEwwTU15bURVNU01OUkwT2g4QmF2bXczelFadlhGMGNrTXpSRUxDeGhjT3JGWkM3cjdxalIzZ1lWM2xfQzFvNzBSMk43ZTVhWUpa?oc=5",
+      "date": "2026-10-13T13:33:32Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia - Red Uno",
+      "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzFEZTlRNlJNR0xVTXRBTkFheWV5RFcyWlhUV25WZ2E3cmxGSmthOVFjaVF4VFVVdzVYUzNxNmRBc21WWXdFU2x2d2JTR1ItNXl5QnVHbk5ySDhjYXVveGo1SU1SLWNHQ3Y4VzdpZ2NpX1lkUW0yQ2dSeDlkWFA3MjBhMzhyVHdyaVdwYkVxOUx1TzFoZnh1ZjRuQ0Zka3htS09tRVBaMHRjQ3RndmJlOA?oc=5",
+      "date": "2026-10-13T11:12:51Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -177,11 +184,11 @@
       "date": "2026-10-12T16:40:00Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "¿Cambiará dólares este lunes? Revise la cotización oficial en Bolivia? - Red Uno",
-      "desc": "¿Cambiará dólares este lunes? Revise la cotización oficial en Bolivia?&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT2h3dExzSjJNampIZmphN0w2WFNhekxPcTBqWkNuX215aUVDWHYwN1dnYWRnNldVZEhyWlRIaTZScHk1WUdVV2NCNFo3Y1FBMFRneGFkT2ZyeGZRU2hjOVc1ZmdHM3RLT1hJbjExOURZV1QzN0VCOFZkWWEwdU92RWNQVi1vV25aTlNpSTVBcVE2TnFpcjlUYnNHVUNDMUo5ZG5TeWhmOWcyZEk0MGdJTjloV2FQMHM?oc=5",
-      "date": "2026-10-12T10:52:47Z"
+      "source": "Google — BCB reservas",
+      "title": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones - El Potosí",
+      "desc": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones&nbsp;&nbsp;El Potosí",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR1VDbVhraTdOUDhZWXJ0UlhPX0lFR1JoMkM2Y0V4MjN6M2o1RENWa1BKVHV0VzNWbERUU2RybGQ0cGlUVmJWYWlWSkFSRTZUb3ZubkxCVzZlYjJiSkxvcEloZm9Ua2diN2R0bVo5QW83OVpWbW5RZjFpb3lYdHpsVFhHSEs0ODJBT1I0OXhqOXN0aURQR2ZhMHFIajdjYjI5MUVhM1ItVXNmUXNTWG5oZFgyOWxTeC1QdEZhRW5Wakx3a3c?oc=5",
+      "date": "2026-10-10T15:31:22Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -206,13 +213,6 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Sigue la oscilación de las reservas de Bolivia: BCB reporta $us 3.933 millones hasta septiembre - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "Sigue la oscilación de las reservas de Bolivia: BCB reporta $us 3.933 millones hasta septiembre&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ2U3SGktVkVtdWd6REtlVEpNcVh2MkNGZ2VpYXdram8wbm1XcXlsemliRmpMVEZTaUk5R1VOSVVfNFVXNDlkaHlsN21qamMzLXhmSDlHMkhvZVhJMlh3TmRxN1Z0NEZfOWdSTnVEdkVKNlNwZzdINHhNeGNIZG05Tng4bnY2R0dLZ3AzQVpHUDFNQ00wYUhlS0tLUjBQbm02cUt6LXYwd0tTck1FRnBrR0tiTEU4aktpUk1fNDlDOG5GT3BQdV90SU1LNEo5U2hBdW05dA?oc=5",
-      "date": "2026-10-09T16:39:27Z"
-    },
-    {
-      "source": "Google — BCB reservas",
       "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
       "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
@@ -231,13 +231,6 @@
       "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
       "date": "2026-10-08T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Gobierno de Bolivia confirma segundo desembolso del FMI - La Patria Bolivia",
-      "desc": "Gobierno de Bolivia confirma segundo desembolso del FMI&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOFFUUEhHS3RhMWRkRjhYaDlNNkhBVkV0bEJhM3lMNS1Dd1BaeUtPdExZLTNzWUZULXNWd1BQUFFuaFZXb3d0Rm5uSGZNeDU1X3JOSWFOdTg0cExNaXBDazROMFZSNnVDZ1Q5OElObnFVWUR5WS1HY0xEUzFVTnplbkpleEpCUzNoTnU1OFZlQXRkSy1leURGZXp3?oc=5",
-      "date": "2026-10-07T17:52:19Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -280,13 +273,20 @@
       "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
       "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.81,
-    "sellTomorrow": 11.88,
+    "sellTomorrow": 11.85,
     "changeBuy": -0.04,
-    "changeSell": -0.05,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4215,7 +4215,7 @@
     {
       "date": "2026-10-13",
       "buy": 11.85,
-      "sell": 11.93
+      "sell": 11.88
     }
   ]
 }
