@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>USDT Bolivia Hoy — Precio USDT en Bolivianos, Dólar Paralelo y BCB</title>
-  <meta name="description" content="Precio referencial del USDT en Bolivia hoy. Tasa de referencia BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P. Compra y venta de USDT en Santa Cruz, La Paz y todo Bolivia." />
+  <meta name="description" content="Precio referencial del USDT en Bolivia hoy. Tipo de cambio oficial BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P. Compra y venta de USDT en Santa Cruz, La Paz y todo Bolivia." />
   <meta name="keywords" content="USDT Bolivia, precio USDT Bolivia, dólar Bolivia hoy, tipo de cambio Bolivia, dólar paralelo Bolivia, comprar USDT Bolivia, cotización BCB, dólar blue Bolivia, USDT bolivianos" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW9G81P0F3"></script>
@@ -20,7 +20,7 @@
   <link rel="canonical" href="https://usdt-bolivia.com/" />
   <!-- Open Graph -->
   <meta property="og:title" content="USDT Bolivia Hoy — Precio USDT en Bolivianos, Dólar Paralelo y BCB" />
-  <meta property="og:description" content="Precio referencial del USDT en Bolivia hoy. Tasa de referencia BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P." />
+  <meta property="og:description" content="Precio referencial del USDT en Bolivia hoy. Tipo de cambio oficial BCB, dólar paralelo, tipo de cambio en todos los bancos y plataformas P2P." />
   <meta property="og:url" content="https://usdt-bolivia.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_BO" />
@@ -639,7 +639,7 @@
     <a href="#calculator" onclick="closeMobileNav()">🧮 Calculadora</a>
     <a href="#bancos"     onclick="closeMobileNav()">🏦 Comparadores</a>
     <a href="#chart"      onclick="closeMobileNav()">📈 Histórico</a>
-    <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB / VRD</a>
+    <a href="#bcbvrd"     onclick="closeMobileNav()">🏛️ BCB oficial</a>
     <a href="#prediccion" onclick="closeMobileNav()">🔮 Proyección</a>
     <a href="#platforms"  onclick="closeMobileNav()">💲 Plataformas</a>
     <a href="#limits"     onclick="closeMobileNav()">⚠️ Límites</a>
@@ -692,12 +692,12 @@
         </div>
         <div class="rates-divider"></div>
         <div class="rates-card-header" style="border-top:none;border-bottom:1px solid var(--border)">
-          <span class="rates-card-title">BCB VALOR REFERENCIAL</span>
+          <span class="rates-card-title">BCB TIPO DE CAMBIO OFICIAL</span>
           <span class="rates-card-badge" style="background:#fffbea;color:var(--gold2);border:1px solid #f5d87a">BCB</span>
         </div>
         <div class="rates-row">
           <div class="rate-box">
-            <div class="rate-box-label buy-label">↓ Compra</div>
+            <div class="rate-box-label buy-label">Bs por 1 USD</div>
             <div class="rate-box-val" id="heroCardBcbBuy" style="color:var(--text)">—</div>
           </div>
         </div>
@@ -865,13 +865,13 @@
         <div class="bcb-vrd-hero-top">
           <div>
             <div class="bcb-vrd-hero-title">🏛️ Banco Central de Bolivia</div>
-            <div class="bcb-vrd-hero-name">Precio Referencial BCB<br>del Dólar / USDT</div>
-            <div class="bcb-vrd-hero-sub" id="vrdDate">Promedio ponderado del mercado bancario boliviano</div>
+            <div class="bcb-vrd-hero-name">Tipo de cambio oficial BCB<br>del Dólar</div>
+            <div class="bcb-vrd-hero-sub" id="vrdDate">—</div>
           </div>
           <div style="text-align:right">
-            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">TCO HOY</div>
+            <div style="font-size:11px;opacity:.55;margin-bottom:6px;font-weight:700;text-transform:uppercase;letter-spacing:.08em">TIPO OFICIAL</div>
             <div class="bcb-vrd-price-big" id="vrdPriceBig">—</div>
-            <div class="bcb-vrd-price-sub">Bs por 1 USD · <span id="vrdRefreshLabel" style="color:rgba(255,255,255,.5)">—</span></div>
+            <div class="bcb-vrd-price-sub">Bs por 1 USD</div>
           </div>
         </div>
         <div class="bcb-vrd-stats">
@@ -888,9 +888,9 @@
       <div class="section-title"><span>⚖️</span> Tipo Oficial BCB vs USDT Digital — Comparación de referencias</div>
       <div class="compare-grid">
         <div class="compare-card" id="comparePhysCard">
-          <div class="compare-card-tag" style="color:var(--navy)">🏦 Tasa de referencia BCB</div>
+          <div class="compare-card-tag" style="color:var(--navy)">🏦 Tipo de cambio oficial BCB</div>
           <div class="compare-card-price" id="comparePhysPrice">—</div>
-          <div class="compare-card-label">Bs por 1 USD · vía API DolarBlueBolivia</div>
+          <div class="compare-card-label">Bs por 1 USD</div>
           <div class="compare-card-detail">
             Tasa reportada por la API de DolarBlueBolivia (<code style="font-size:10px">/v1/officialRate → official.buy</code>), que agrega datos del BCB. No verificada directamente desde bcb.gob.bo. Referencia administrativa; los precios reales de cambistas pueden diferir.<br><br>
             <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
@@ -922,8 +922,8 @@
     <div class="card" style="padding:24px">
       <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:18px">
         <div>
-          <div class="section-title" style="margin-bottom:4px"><span>📊</span> Tendencia Precio BCB Referencial — Histórico</div>
-          <div style="font-size:12px;color:var(--text3)">Precio referencial BCB vs USDT P2P · Fuente: <strong style="color:var(--navy)">bcb.gob.bo + Binance P2P</strong></div>
+          <div class="section-title" style="margin-bottom:4px"><span>📊</span> USDT P2P — Histórico frente al tipo oficial BCB actual</div>
+          <div style="font-size:12px;color:var(--text3)">Promedio compra/venta USDT P2P vs tipo oficial BCB de hoy · Fuente: <strong style="color:var(--navy)">API DolarBlueBolivia</strong></div>
         </div>
         <div style="display:grid;grid-template-columns:repeat(4,auto);gap:20px;align-items:start">
           <div style="text-align:center">
@@ -953,17 +953,17 @@
         </div>
         <div style="display:flex;gap:16px">
           <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-            <div style="width:12px;height:3px;border-radius:2px;background:#1a7f37"></div>BCB Referencial
+            <div style="width:12px;height:3px;border-radius:2px;background:#1a7f37"></div>USDT P2P
           </div>
           <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);font-weight:600">
-            <div style="width:12px;height:3px;border-radius:2px;background:rgba(124,58,237,.7);border-top:2px dashed rgba(124,58,237,.7)"></div>USDT P2P
+            <div style="width:12px;height:0;border-top:2px dashed rgba(245,184,0,.85)"></div>BCB oficial (valor actual)
           </div>
         </div>
       </div>
       <div style="font-size:11px;color:var(--text3);margin-bottom:10px" id="vrdChartMeta"></div>
       <div class="vrd-chart-wrap" style="height:280px"><canvas id="vrdChart"></canvas></div>
       <div style="font-size:11px;color:var(--text3);margin-top:12px;text-align:center;padding-top:12px;border-top:1px solid var(--border)">
-        📌 Dato oficial publicado por el Banco Central de Bolivia · bcb.gob.bo · Se actualiza cada día hábil
+        📌 La línea BCB repite el tipo oficial actual; no es una serie histórica. Tipo oficial reportado por DolarBlueBolivia, no consultado directamente en bcb.gob.bo
       </div>
     </div>
   </div>
@@ -1153,7 +1153,7 @@
         <div class="footer-bcb-title">P2P Bolivia</div>
         <div class="footer-bcb-values">Compra: <strong id="footerBcbRefBuy">—</strong> · Venta: <strong id="footerBcbRefSell">—</strong></div>
       </div>
-      <div class="footer-bcb-date" id="footerBcbDate">—<br>Fuente: Banco Central de Bolivia</div>
+      <div class="footer-bcb-date" id="footerBcbDate">—</div>
     </div>
     <div class="footer-top">
       <div>
@@ -1320,7 +1320,7 @@
 
     // 2. Llamar todos los endpoints en paralelo
     try {
-      const [official, eldorado, takenos, wallbit, airtm, bybit, saldoar, bcbvrd] = await Promise.allSettled([
+      const [official, eldorado, takenos, wallbit, airtm, bybit, saldoar] = await Promise.allSettled([
         dbbGet('/v1/officialRate'),
         dbbGet('/v1/eldorado'),
         dbbGet('/v1/takenos'),
@@ -1328,7 +1328,6 @@
         dbbGet('/v1/airtm'),
         dbbGet('/v1/p2p/bybit'),
         dbbGet('/v1/saldoar'),
-        dbbGet('/v1/referencial/bcb'),
       ]);
 
       const val = r => r.status === 'fulfilled' ? r.value : null;
@@ -1340,7 +1339,6 @@
       const dAir   = val(airtm);
       const dBybit = val(bybit);
       const dSaldo = val(saldoar);
-      const dVrd   = val(bcbvrd);
 
       // Binance P2P (blue = mercado paralelo)
       // fetch_prices.py etiqueta este campo 'binance_p2p' independientemente de si llegó
@@ -1365,22 +1363,16 @@
       if (dSaldo?.buy && dSaldo?.sell)
         base.saldoar  = { buy: dSaldo.buy, sell: dSaldo.sell, available: true, source: 'api_dbb_saldoar', fetchedAt };
 
-      // BCB oficial + VRD — source identifica el intermediario (DolarBlueBolivia /officialRate)
-      if (live?.official) {
+      // BCB oficial — source identifica el intermediario (DolarBlueBolivia /officialRate)
+      if (parseFloat(live?.official?.buy) > 0) {
         base.bcb = {
           officialBuy:     live.official.buy,
           officialSell:    live.official.sell,
           referentialBuy:  live.blue?.buy  || base.bcb?.referentialBuy,
           referentialSell: live.blue?.sell || base.bcb?.referentialSell,
-          vrdBuy:  dVrd?.buy  || dVrd?.compra || base.bcb?.vrdBuy,
-          vrdSell: dVrd?.sell || dVrd?.venta  || base.bcb?.vrdSell,
           source: 'api_dbb_officialRate',
           fetchedAt,
         };
-      } else if (dVrd?.buy) {
-        base.bcb = base.bcb || {};
-        base.bcb.vrdBuy  = dVrd.buy;
-        base.bcb.vrdSell = dVrd.sell;
       }
 
       // Actualizar historial con precio del día
@@ -1497,6 +1489,25 @@
     </div>`;
   }
 
+  const fmtBol = iso => new Date(iso).toLocaleString('es-BO',{timeZone:'America/La_Paz',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
+
+  // Tipo de cambio oficial BCB (DolarBlueBolivia /officialRate → official.buy); null si no hay dato válido
+  function bcbOfficial() {
+    const v = parseFloat(pricesData?.bcb?.officialBuy);
+    return v > 0 ? v : null;
+  }
+  function bcbOfficialText() { const v = bcbOfficial(); return v ? 'Bs ' + v.toFixed(2) : '—'; }
+  // Procedencia y fecha del tipo oficial mostrado; nunca presenta un respaldo como consulta actual
+  function bcbOrigin() {
+    const b = pricesData?.bcb;
+    if (!bcbOfficial()) return 'Sin dato válido del tipo oficial BCB';
+    if (b.fetchedAt && b.fetchedAt === pricesData._liveFetchedAt)
+      return 'Consulta directa a DolarBlueBolivia: ' + fmtBol(b.fetchedAt) + ' (hora Bolivia)';
+    if (b.fetchedAt)
+      return 'Respaldo: archivo programado · dato obtenido de ' + (b.source === 'api_dbb_officialRate' ? 'DolarBlueBolivia' : 'origen desconocido') + ' el ' + fmtBol(b.fetchedAt) + ' (hora Bolivia)';
+    return 'Respaldo: archivo programado · fecha y procedencia del dato desconocidas';
+  }
+
   function renderAll() {
     if (!pricesData) return;
 
@@ -1516,11 +1527,14 @@
       document.getElementById('heroCardBuy').textContent  = 'Bs ' + (isNaN(bSell) ? binance.sell : bSell.toFixed(2));
       document.getElementById('heroCardSell').textContent = 'Bs ' + (isNaN(bBuy)  ? binance.buy  : bBuy.toFixed(2));
     }
-    if (bcb) {
-      document.getElementById('heroCardBcbBuy').textContent  = 'Bs ' + (bcb.officialBuy || bcb.tco || '—');
-    }
+    document.getElementById('heroCardBcbBuy').textContent = bcbOfficialText();
+    document.getElementById('heroCardBcbBuy').title = bcbOrigin();
+    document.getElementById('vrdPriceBig').textContent = bcbOfficialText();
+    document.getElementById('vrdMin').textContent = bcbOfficialText();
+    document.getElementById('vrdDate').textContent = bcbOrigin();
+    document.getElementById('footerBcbBuy').textContent = bcbOfficialText();
+    document.getElementById('footerBcbDate').textContent = bcbOrigin();
     // Procedencia del dato mostrado: consulta directa exitosa (navegador) o archivo programado (GitHub Actions)
-    const fmtBol = iso => new Date(iso).toLocaleString('es-BO',{timeZone:'America/La_Paz',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
     const rtEl = document.getElementById('ratesTime'), rbEl = document.getElementById('ratesCardBadge');
     if (pricesData._liveFetchedAt) {
       rtEl.textContent = 'Última consulta exitosa: ' + fmtBol(pricesData._liveFetchedAt) + ' (hora Bolivia)';
@@ -1571,21 +1585,12 @@
 
     // BCB
     if (bcb) {
-      const _bcbOB = document.getElementById('bcbOfficialBuy');   if (_bcbOB)  _bcbOB.textContent  = bcb.officialBuy    + ' Bs';
-      const _bcbOS = document.getElementById('bcbOfficialSell');  if (_bcbOS)  _bcbOS.textContent  = bcb.officialSell   + ' Bs';
-      const _bcbRB = document.getElementById('bcbRefBuy');        if (_bcbRB)  _bcbRB.textContent  = (bcb.referentialSell || '—') + ' Bs';
-      const _bcbRS = document.getElementById('bcbRefSell');       if (_bcbRS)  _bcbRS.textContent  = (bcb.referentialBuy  || '—') + ' Bs';
-      const _bcbDt = document.getElementById('bcbDate');          if (_bcbDt)  _bcbDt.textContent  = 'Cotización: '+(displayDate||'')+' · Fuente: Banco Central de Bolivia';
-      document.getElementById('footerBcbBuy').textContent     = bcb.officialBuy    + ' Bs';
-      const _fBcbSell = document.getElementById('footerBcbSell'); if (_fBcbSell) _fBcbSell.textContent = bcb.officialSell + ' Bs';
       const _fBcbRB = document.getElementById('footerBcbRefBuy'); if (_fBcbRB) _fBcbRB.textContent = (bcb.referentialSell || '—') + ' Bs';
       const _fBcbRS = document.getElementById('footerBcbRefSell'); if (_fBcbRS) _fBcbRS.textContent = (bcb.referentialBuy  || '—') + ' Bs';
-      document.getElementById('footerBcbDate').innerHTML = (displayDate||'')+'<br>Fuente: Banco Central de Bolivia';
     }
 
     initCalc();
-    // Actualizar comparación y gráfico BCB si vrdData ya cargó
-    try { if (vrdData) renderComparison(pricesData?.bcb?.officialBuy || 12); } catch(e) { console.error('Comparison error:', e); }
+    try { renderComparison(bcbOfficial()); } catch(e) { console.error('Comparison error:', e); }
     // El gráfico BCB ahora usa pricesData.history, re-renderizar siempre
     try { renderVrdChart(vrdRange); } catch(e) { console.error('VRD chart error:', e); }
     try { renderExchanges(); } catch(e) { console.error('Exchanges error:', e); }
@@ -1716,7 +1721,7 @@
   function renderBanksTable(banks) {
     if (!banks || !banks.length) return;
     const isSell = banksMode === 'sell';
-    const bcbOfficial = pricesData?.bcb?.officialBuy || pricesData?.bcb?.officialSell || 12;
+    const bcbRef = bcbOfficial();
     const sorted = [...banks].sort((a, b) => {
       if (isSell) return (b.buy || 0) - (a.buy || 0);
       else { const av = a.sell || 999, bv = b.sell || 999; return av - bv; }
@@ -1730,7 +1735,7 @@
       const strip = document.getElementById('banksRangeStrip');
       if (strip) { strip.style.display = 'flex'; document.getElementById('banksRangeVal').textContent = rangeStr; }
       const bcbEl = document.getElementById('banksBcbRef');
-      if (bcbEl) bcbEl.textContent = `Bs ${bcbOfficial.toFixed(2)}`;
+      if (bcbEl) bcbEl.textContent = bcbOfficialText();
       const cntEl = document.getElementById('banksCount');
       if (cntEl) cntEl.textContent = `${sellRates.length} bancos con dato`;
     }
@@ -1745,8 +1750,8 @@
       const highlightSell = !isSell && b.sell != null;
       // VS BCB: diferencia de venta vs oficial
       let vsBcb = '—';
-      if (b.sell != null) {
-        const diff = b.sell - bcbOfficial;
+      if (b.sell != null && bcbRef) {
+        const diff = b.sell - bcbRef;
         const sign = diff >= 0 ? '+' : '';
         const col  = diff > 0.1 ? 'color:var(--red)' : diff < -0.1 ? 'color:var(--green)' : 'color:var(--text3)';
         vsBcb = `<span style="${col};font-weight:700">${sign}${diff.toFixed(2)}</span>`;
@@ -1772,8 +1777,8 @@
       const mainStr  = mainRate  != null ? `Bs ${mainRate.toFixed(2)}`  : '—';
       const otherStr = otherRate != null ? `Bs ${otherRate.toFixed(2)}` : '—';
       let vsBcbMob = '';
-      if (b.sell != null) {
-        const diff = b.sell - bcbOfficial;
+      if (b.sell != null && bcbRef) {
+        const diff = b.sell - bcbRef;
         const sign = diff >= 0 ? '+' : '';
         const col = diff > 0.1 ? '#d32f2f' : '#4a5573';
         vsBcbMob = ` · <span style="color:${col};font-weight:700">Vs BCB ${sign}${diff.toFixed(2)}</span>`;
@@ -2236,46 +2241,20 @@
       </div>`).join('');
   }
 
-  // ── BCB VRD ──
-  let vrdData = null;
+  // ── BCB oficial: comparación y gráfico ──
   let vrdChartInstance = null;
   let vrdRange = 'MAX';
 
-  async function loadVRD() {
-    try {
-      const r = await fetch('data/bcb_vrd.json?v=' + Date.now());
-      vrdData = await r.json();
-      renderVRD();
-    } catch(e) { console.warn('BCB VRD no disponible:', e.message); }
-  }
-
-  function renderVRD() {
-    if (!vrdData) return;
-    const { vrd_today, vrd_min_today, vrd_max_today, n_trans_today, today, history } = vrdData;
-
-    // Hero — muestra precio BCB referencial (~11.97), no el VRD (~9.76)
-    const oficialBuy = pricesData?.bcb?.officialBuy || pricesData?.bcb?.tco || 11.97;
-    document.getElementById('vrdPriceBig').textContent = 'Bs ' + oficialBuy.toFixed(2);
-    document.getElementById('vrdMin').textContent = 'Bs ' + oficialBuy.toFixed(2);
-    const _vMax = document.getElementById('vrdMax'); if (_vMax) _vMax.textContent = vrd_max_today ? 'Bs ' + vrd_max_today : '—';
-    const _vNT = document.getElementById('vrdNTrans'); if (_vNT) _vNT.textContent = n_trans_today ? n_trans_today.toLocaleString() : '—';
-    const d = today ? new Date(today + 'T12:00:00') : new Date();
-    const meses = ['enero','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-    document.getElementById('vrdDate').textContent = `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()} · Días hábiles bancarios`;
-    const updTime = new Date(vrdData.lastUpdated);
-    const label = document.getElementById('vrdRefreshLabel');
-    if (label) label.textContent = 'act. ' + updTime.toLocaleTimeString('es-BO',{hour:'2-digit',minute:'2-digit'});
-
-    // Comparación — si pricesData aún no cargó, reintenta en 1s
-    if (pricesData?.binance) renderComparison(oficialBuy);
-    else setTimeout(() => { if (pricesData?.binance) renderComparison(oficialBuy); }, 1200);
-
-    // Gráfico
-    renderVrdChart(vrdRange);
-  }
-
   function renderComparison(vrd) {
-    if (!pricesData?.binance || !vrd) return;
+    if (!vrd) {
+      document.getElementById('comparePhysPrice').textContent = '—';
+      document.getElementById('recBox').className = 'rec-box yellow';
+      document.getElementById('recIcon').textContent = '⚠️';
+      document.getElementById('recTitle').textContent = 'Sin dato válido del tipo oficial BCB';
+      document.getElementById('recDesc').textContent = 'No se puede comparar hasta obtener el tipo oficial.';
+      return;
+    }
+    if (!pricesData?.binance) return;
     // Precio de compra de USDT (lo que pagas para adquirir 1 USDT)
     const usdt = pricesData.binance.sell;
     const diff = usdt - vrd;
@@ -2299,8 +2278,8 @@
       // USDT más caro que físico → conviene USD físico
       recBox.classList.add('green');
       recIcon.textContent = '🏦';
-      recTitle.textContent = `Tasa BCB por debajo del USDT — ${pct}%`;
-      recDesc.textContent  = `La tasa de referencia BCB (Bs ${vrd.toFixed(2)}, vía DolarBlueBolivia) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Referencia administrativa; el precio real en librecambistas puede diferir.`;
+      recTitle.textContent = `Tipo oficial BCB por debajo del USDT — ${pct}%`;
+      recDesc.textContent  = `El tipo oficial BCB (Bs ${vrd.toFixed(2)}) está Bs ${diff.toFixed(2)} por debajo del USDT P2P (Bs ${usdt.toFixed(2)}). Referencia administrativa; el precio real en librecambistas puede diferir.`;
       physCard.classList.add('winner');
     } else if (diff < -0.15) {
       // USDT más barato → conviene USDT
@@ -2319,7 +2298,7 @@
   }
 
   function getVrdSlice(range) {
-    // Usa el historial USDT P2P que tiene precios en el rango ~11.97
+    // Historial USDT P2P (promedio compra/venta); el BCB oficial no tiene serie histórica aquí
     const all = pricesData?.history || [];
     const cutDays = d => { const x=new Date(); x.setDate(x.getDate()-d); return x.toISOString().slice(0,10); };
     if (range === '7D')  return all.filter(h => h.date >= cutDays(7));
@@ -2332,7 +2311,7 @@
     const slice = getVrdSlice(range);
     if (!slice.length) return;
 
-    const bcbRef = pricesData?.bcb?.officialBuy || pricesData?.bcb?.tco || 11.97;
+    const bcbRef = bcbOfficial();
     const last   = slice[slice.length-1];
     const prev   = slice[slice.length-2] || slice[0];
     // Precio promedio P2P por día
@@ -2342,20 +2321,20 @@
     const change = todayVal - avg(prev);
     const pct = ((change / avg(prev)) * 100).toFixed(2);
 
-    document.getElementById('vrdStatHoy').textContent = `Bs ${bcbRef.toFixed(2)}`;
+    document.getElementById('vrdStatHoy').textContent = bcbOfficialText();
     const chEl = document.getElementById('vrdStatCambio');
     chEl.textContent = `${change>=0?'+':''}${pct}%`;
     chEl.style.color = change >= 0 ? 'var(--green)' : 'var(--red)';
     document.getElementById('vrdStatMax').textContent = `Bs ${Math.max(...vals).toFixed(2)}`;
     document.getElementById('vrdStatMin').textContent = `Bs ${Math.min(...vals).toFixed(2)}`;
     const rangeLabel = range==='MAX' ? `${slice.length} días de historial` : `Últimos ${slice.length} días`;
-    document.getElementById('vrdChartMeta').textContent = `${rangeLabel} · BCB referencial hoy: Bs ${bcbRef.toFixed(2)}`;
+    document.getElementById('vrdChartMeta').textContent = `${rangeLabel} · Tipo oficial BCB: ${bcbOfficialText()} · ${bcbOrigin()}`;
 
     const M = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
     const labels = slice.map(h => { const [y,mo,d]=h.date.split('-'); return `${d} ${M[+mo-1]}`; });
 
-    // Línea BCB referencial flat (valor de hoy como referencia)
-    const bcbFlat = slice.map(() => bcbRef);
+    // Línea BCB oficial plana: repite el valor actual, no es serie histórica
+    const bcbFlat = slice.map(() => bcbRef); // null si no hay dato válido: la línea no se dibuja
 
     if (vrdChartInstance) vrdChartInstance.destroy();
     const ctx = document.getElementById('vrdChart').getContext('2d');
@@ -2381,7 +2360,7 @@
             pointBorderColor:'#fff',
             pointBorderWidth:2,
             fill:true, tension:0.35 },
-          { label:'BCB Referencial',
+          { label:'BCB oficial (valor actual)',
             data: bcbFlat,
             borderColor:'rgba(245,184,0,0.85)',
             backgroundColor:'transparent',
@@ -2414,13 +2393,6 @@
                 if (v == null) return null;
                 const icon = c.datasetIndex === 0 ? '📈' : '🏛️';
                 return ` ${icon} ${c.dataset.label}: Bs ${v.toFixed(2)}`;
-              },
-              afterBody: items => {
-                const vrd = slice[items[0].dataIndex].vrd;
-                const usdt = usdtOverlay[items[0].dataIndex];
-                if (usdt == null) return [];
-                const diff = usdt - vrd;
-                return [``, ` Diferencia: ${diff>=0?'+':''}${diff.toFixed(4)} Bs/USD`];
               }
             }
           }
@@ -2455,13 +2427,11 @@
   }
 
   loadPrices();
-  loadVRD();
 
   // Auto-refresh cada 30 minutos (precios en vivo desde la API del navegador)
   // GitHub Actions actualiza el historial cada 2 horas en días hábiles
   setInterval(() => {
     loadPrices();
-    loadVRD();
   }, 30 * 60 * 1000);
 </script>
 </body>

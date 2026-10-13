@@ -257,27 +257,34 @@ else:
 
 # ── BCB Oficial ────────────────────────────────────────────────────────────
 print("\n3. BCB Oficial...")
-if d_official and d_official.get("official"):
-    off = d_official["official"]
+off = (d_official or {}).get("official") or {}
+prev_bcb = existing.get("bcb") or {}
+try:
+    off_ok = float(off.get("buy")) > 0
+except (TypeError, ValueError):
+    off_ok = False
+if off_ok:
     blue = d_official.get("blue", {})
     bcb_data = {
         "officialBuy":     off["buy"],
         "officialSell":    off["sell"],
         "referentialBuy":  blue.get("buy",  buy_price),
         "referentialSell": blue.get("sell", sell_price),
-        "vrdBuy":  float(d_bcb_vrd["buy"])  if d_bcb_vrd and d_bcb_vrd.get("buy")  else 9.79,
-        "vrdSell": float(d_bcb_vrd["sell"]) if d_bcb_vrd and d_bcb_vrd.get("sell") else 10.0,
+        "vrdBuy":  prev_bcb.get("vrdBuy"),
+        "vrdSell": prev_bcb.get("vrdSell"),
+        "source":    "api_dbb_officialRate",
+        "fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 else:
-    bcb_data = existing.get("bcb", {
-        "officialBuy": 6.86, "officialSell": 6.96,
-        "referentialBuy": 9.86, "referentialSell": 10.07
-    })
-    # Actualizar VRD si está disponible aunque officialRate haya fallado
-    if d_bcb_vrd and d_bcb_vrd.get("buy"):
-        bcb_data["vrdBuy"]  = float(d_bcb_vrd["buy"])
-        bcb_data["vrdSell"] = float(d_bcb_vrd["sell"])
-print(f"   Oficial  Compra: {bcb_data['officialBuy']} | Venta: {bcb_data['officialSell']}")
+    # Respaldo: se conserva el último dato con su source/fetchedAt originales (si no los tiene, el sitio
+    # muestra "fecha y procedencia desconocidas"); sin dato previo queda vacío, nunca una constante
+    bcb_data = dict(prev_bcb) or {"officialBuy": None, "officialSell": None}
+    print("   officialRate no disponible -> respaldo del archivo anterior")
+# Actualizar VRD solo con dato real (la API devuelve 404 desde oct-2026)
+if d_bcb_vrd and d_bcb_vrd.get("buy"):
+    bcb_data["vrdBuy"]  = float(d_bcb_vrd["buy"])
+    bcb_data["vrdSell"] = float(d_bcb_vrd["sell"]) if d_bcb_vrd.get("sell") else None
+print(f"   Oficial  Compra: {bcb_data['officialBuy']} | Venta: {bcb_data['officialSell']}  [{bcb_data.get('source', 'origen desconocido')} {bcb_data.get('fetchedAt', 's/f')}]")
 
 # ── BCB VRD ────────────────────────────────────────────────────────────────
 print("\n4. BCB VRD...")
