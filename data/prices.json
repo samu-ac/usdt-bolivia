@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-13T02:46:15Z",
-  "displayDate": "lunes 12 de octubre, 2026",
+  "lastUpdated": "2026-10-13T05:44:33Z",
+  "displayDate": "martes 13 de octubre, 2026",
   "binance": {
-    "buy": 11.87,
-    "sell": 11.91,
+    "buy": 11.85,
+    "sell": 11.93,
     "available": true,
     "source": "binance_p2p"
   },
@@ -14,44 +14,44 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.15,
-    "sell": 11.76,
+    "buy": 12.16,
+    "sell": 11.74,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.08,
-    "sell": 11.73,
+    "buy": 12.06,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.15,
-    "sell": 11.63,
+    "buy": 12.13,
+    "sell": 11.61,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.9,
-    "sell": 11.84,
+    "buy": 11.92,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.97,
-    "sell": 11.7,
+    "buy": 11.95,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.73,
-    "officialSell": 11.73,
-    "referentialBuy": 11.87,
-    "referentialSell": 11.91,
+    "officialBuy": 11.7,
+    "officialSell": 11.7,
+    "referentialBuy": 11.85,
+    "referentialSell": 11.93,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-13T02:46:09Z"
+    "fetchedAt": "2026-10-13T05:44:27Z"
   },
   "banks": [
     {
@@ -61,28 +61,23 @@
     },
     {
       "name": "BCP",
-      "buy": 11.23,
-      "sell": 12.03
+      "buy": 11.2,
+      "sell": 12.0
     },
     {
       "name": "BNB",
-      "buy": 11.23,
-      "sell": 12.03
+      "buy": 11.2,
+      "sell": 12.0
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.03,
-      "sell": 12.03
+      "buy": 11.0,
+      "sell": 12.0
     },
     {
       "name": "Banco FIE",
-      "buy": 10.83,
-      "sell": 11.83
-    },
-    {
-      "name": "Banco Económico",
-      "buy": 10.73,
-      "sell": 12.08
+      "buy": 10.8,
+      "sell": 11.8
     },
     {
       "name": "Banco Unión",
@@ -90,9 +85,14 @@
       "sell": 12.03
     },
     {
+      "name": "Banco Económico",
+      "buy": 10.7,
+      "sell": 12.05
+    },
+    {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.63,
-      "sell": 12.03
+      "buy": 10.6,
+      "sell": 12.0
     },
     {
       "name": "BancoSol",
@@ -102,10 +102,38 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.03
+      "sell": 12.0
     }
   ],
   "news": [
+    {
+      "source": "La Razón",
+      "title": "Premio Nobel a la Nueva Síntesis Keynesiana",
+      "desc": "La economía no se estabiliza por decreto. Detrás de cada cifra de inflación, desempleo o crecimiento existen millones de decisiones de hogares y empresas que reaccionan a los precios, los [&#8230;]\nTh…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/10/13/premio-nobel-a-la-nueva-sintesis-keynesiana/",
+      "date": "2026-10-13T04:05:40Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Construyendo un camino hacia la sostenibilidad empresarial",
+      "desc": "Hace diecisiete años, hablar de medio ambiente en el ecosistema empresarial boliviano solía entenderse como un gesto de buena voluntad o, en el peor de los casos, como una obligación [&#8230;]\nThe pos…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/10/13/construyendo-un-camino-hacia-la-sostenibilidad-empresarial/",
+      "date": "2026-10-13T04:05:35Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "¿Reservas o descartes?",
+      "desc": "Corre en los pasillos de la Asamblea Legislativa Plurinacional un proyecto de ley por el cual se pretende monetizar los llamados desmontes\nThe post ¿Reservas o descartes? appeared first on La Razón.",
+      "link": "https://larazon.bo/opinion/columnistas/2026/10/13/reservas-o-descartes/",
+      "date": "2026-10-13T04:05:25Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Caso Terrorismo: Galván dice que actuó para preservar la unidad del país",
+      "desc": "El abogado Marcelo Galván pide considerar el contexto político de 2009, mientras la Fiscalía remite al TSJ la proposición acusatoria contra el expresidente y Álvaro García Linera.Mr\nThe post Caso Terr…",
+      "link": "https://larazon.bo/nacional/2026/10/12/caso-terrorismo-galvan-dice-que-actuo-para-preservar-la-unidad-del-pais/",
+      "date": "2026-10-13T03:26:57Z"
+    },
     {
       "source": "El Deber",
       "title": "Acuerdo con FMI incluye promulgación  de la Ley de Acceso a la Información",
@@ -135,39 +163,11 @@
       "date": "2026-10-13T01:52:28Z"
     },
     {
-      "source": "La Razón",
-      "title": "Revilla fija el 30 de octubre para debatir la coparticipación tributaria",
-      "desc": "Luis Revilla anuncia que el proyecto de ley será remitido a la Asamblea Legislativa hasta el 6 de noviembre, con miras a aplicar el esquema desde 2027.\nThe post Revilla fija el 30 de octubre para deba…",
-      "link": "https://larazon.bo/nacional/2026/10/12/revilla-fija-el-30-de-octubre-para-debatir-la-coparticipacion-tributaria/",
-      "date": "2026-10-13T00:20:50Z"
-    },
-    {
       "source": "El Deber",
       "title": "¿Por qué se celebra cada 13 de octubre el Día del Abogado en Bolivia?",
       "desc": "La fecha conmemora la creación de la primera facultad de derecho en el continente americano. Fue en Sucre, en el año 1681",
       "link": "https://eldeber.com.bo/pais/celebra-cada-13-octubre-dia-abogado-bolivia_1791850600",
       "date": "2026-10-13T00:16:40Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Marcha evista hacia La Paz se posterga hasta el viernes 16 de octubre",
-      "desc": "Los sectores afines a Evo Morales prevén llegar el lunes 19 a la sede de Gobierno en rechazo al ajuste económico y al incremento del precio del diésel.\nThe post Marcha evista hacia La Paz se posterga …",
-      "link": "https://larazon.bo/nacional/2026/10/12/marcha-evista-hacia-la-paz-se-posterga-hasta-el-viernes-16-de-octubre/",
-      "date": "2026-10-12T23:57:50Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Policía indaga ‘pagos’ de Mariaca a periodistas a cambio de respaldo",
-      "desc": "Informes de Inteligencia señalan que comunicadores recibían pagos anticipados o mensuales para difundir actividades del exfiscal general.\nThe post Policía indaga &#8216;pagos&#8217; de Mariaca a perio…",
-      "link": "https://larazon.bo/nacional/2026/10/12/policia-indaga-pagos-de-mariaca-a-periodistas-a-cambio-de-respaldo/",
-      "date": "2026-10-12T23:40:09Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Fiscalía ejecuta 11 allanamientos en casos contra Mariaca y busca a Eduardo del Castillo",
-      "desc": "El fiscal señaló que las investigaciones continúan y que la Fiscalía informará sobre nuevos resultados a medida que avance el análisis de la evidencia recolectada\nThe post Fiscalía ejecuta 11 allanami…",
-      "link": "https://larazon.bo/nacional/2026/10/12/fiscalia-ejecuta-11-allanamientos-en-casos-contra-mariaca-y-busca-a-eduardo-del-castillo/",
-      "date": "2026-10-12T22:59:51Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -262,13 +262,6 @@
     },
     {
       "source": "Google — INE inflación",
-      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
-      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
-      "date": "2026-10-06T14:33:17Z"
-    },
-    {
-      "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Instituto Nacional de Estadística",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
@@ -280,13 +273,20 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.83,
+    "buyTomorrow": 11.81,
     "sellTomorrow": 11.88,
     "changeBuy": -0.04,
-    "changeSell": -0.03,
+    "changeSell": -0.05,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4211,6 +4211,11 @@
       "date": "2026-10-12",
       "buy": 11.87,
       "sell": 11.91
+    },
+    {
+      "date": "2026-10-13",
+      "buy": 11.85,
+      "sell": 11.93
     }
   ]
 }
