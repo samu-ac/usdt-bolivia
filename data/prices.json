@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-10-13T02:29:47Z",
+  "lastUpdated": "2026-10-13T02:46:15Z",
   "displayDate": "lunes 12 de octubre, 2026",
   "binance": {
-    "buy": 11.88,
-    "sell": 11.93,
+    "buy": 11.87,
+    "sell": 11.91,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.97,
-    "sell": 11.81,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.17,
+    "buy": 12.15,
     "sell": 11.76,
     "available": true,
     "source": "api_dbb_takenos"
@@ -26,32 +26,32 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.16,
-    "sell": 11.64,
+    "buy": 12.15,
+    "sell": 11.63,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.85,
+    "buy": 11.9,
     "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.98,
-    "sell": 11.71,
+    "buy": 11.97,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.73,
     "officialSell": 11.73,
-    "referentialBuy": 11.88,
-    "referentialSell": 11.93,
+    "referentialBuy": 11.87,
+    "referentialSell": 11.91,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-13T02:29:39Z"
+    "fetchedAt": "2026-10-13T02:46:09Z"
   },
   "banks": [
     {
@@ -108,6 +108,13 @@
   "news": [
     {
       "source": "El Deber",
+      "title": "Acuerdo con FMI incluye promulgación  de la Ley de Acceso a la Información",
+      "desc": "Un grupo de organizaciones de la sociedad civil, entre ellas la ANP-Diarios, impulsa desde hace 15 años la aprobación de la Ley de Acceso a la Información. En agosto se logró su aprobación en el Senad…",
+      "link": "https://eldeber.com.bo/pais/acuerdo-fmi-incluye-promulgacion-ley-acceso-informacion_1791858604",
+      "date": "2026-10-13T02:30:04Z"
+    },
+    {
+      "source": "El Deber",
       "title": "El ministro Óscar Mario Justiniano lidera la representación de Bolivia en el Foro Mundial de la Alimentación de la FAO",
       "desc": "El encuentro tiene como lema “Innovar hoy. Alimentar el mañana” y se desarrollará durante toda la semana. Tiene como objetivo impulsar año a año acciones que transformen los sistemas agroalimentarios …",
       "link": "https://eldeber.com.bo/pais/ministro-oscar-mario-justiniano-lidera-representacion-bolivia-foro-mundial-alimentacion-fao_1791858079",
@@ -126,13 +133,6 @@
       "desc": "El fiscal Jorge Torrez informó que el mayor recibió detención preventiva en la cárcel de Palmasola, mientras que los dos menores de 17 años, una mujer y un varón, fueron enviados al centro para adoles…",
       "link": "https://eldeber.com.bo/santa-cruz/envian-tres-personas-detenidas-atentado-san-ignacio-centros-rehabilitacion_1791856348",
       "date": "2026-10-13T01:52:28Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Solo la empleada de la joyería será imputada por el asalto",
-      "desc": "Durante la jornada se detuvo a dos ciudadanos colombianos. El fiscal Gerardo Balderas informó que no están relacionados con el asalto. Serán investigados por portación ilegal de armas",
-      "link": "https://eldeber.com.bo/santa-cruz/solo-empleada-joyeria-sera-imputada-asalto_1791855512",
-      "date": "2026-10-13T01:38:32Z"
     },
     {
       "source": "La Razón",
@@ -284,9 +284,9 @@
   ],
   "prediction": {
     "buyTomorrow": 11.83,
-    "sellTomorrow": 11.89,
-    "changeBuy": -0.05,
-    "changeSell": -0.04,
+    "sellTomorrow": 11.88,
+    "changeBuy": -0.04,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4209,8 +4209,8 @@
     },
     {
       "date": "2026-10-12",
-      "buy": 11.88,
-      "sell": 11.93
+      "buy": 11.87,
+      "sell": 11.91
     }
   ]
 }
