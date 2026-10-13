@@ -1,55 +1,57 @@
 {
-  "lastUpdated": "2026-10-12T20:35:58Z",
+  "lastUpdated": "2026-10-13T02:29:47Z",
   "displayDate": "lunes 12 de octubre, 2026",
   "binance": {
-    "buy": 11.83,
-    "sell": 11.87,
+    "buy": 11.88,
+    "sell": 11.93,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.86,
-    "sell": 11.76,
+    "buy": 11.97,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.11,
-    "sell": 11.71,
+    "buy": 12.17,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.03,
-    "sell": 11.68,
+    "buy": 12.08,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.08,
-    "sell": 11.57,
+    "buy": 12.16,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.84,
-    "sell": 11.82,
+    "buy": 11.85,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.92,
-    "sell": 11.67,
+    "buy": 11.98,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.73,
     "officialSell": 11.73,
-    "referentialBuy": 11.83,
-    "referentialSell": 11.87,
+    "referentialBuy": 11.88,
+    "referentialSell": 11.93,
     "vrdBuy": 9.79,
-    "vrdSell": 10.0
+    "vrdSell": 10.0,
+    "source": "api_dbb_officialRate",
+    "fetchedAt": "2026-10-13T02:29:39Z"
   },
   "banks": [
     {
@@ -105,67 +107,74 @@
   ],
   "news": [
     {
+      "source": "El Deber",
+      "title": "El ministro Óscar Mario Justiniano lidera la representación de Bolivia en el Foro Mundial de la Alimentación de la FAO",
+      "desc": "El encuentro tiene como lema “Innovar hoy. Alimentar el mañana” y se desarrollará durante toda la semana. Tiene como objetivo impulsar año a año acciones que transformen los sistemas agroalimentarios …",
+      "link": "https://eldeber.com.bo/pais/ministro-oscar-mario-justiniano-lidera-representacion-bolivia-foro-mundial-alimentacion-fao_1791858079",
+      "date": "2026-10-13T02:21:19Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobernaciones avanzan hacia un nuevo modelo de administración más autonómica",
+      "desc": "Las mesas técnicas integradas por los responsables de las nueve gobernaciones y del Gobierno ingresaron a la última fase de reuniones para concretar un anteproyecto de ley que será presentado por el G…",
+      "link": "https://eldeber.com.bo/pais/gobernaciones-avanzan-nuevo-modelo-administracion-autonomica_1791856926",
+      "date": "2026-10-13T02:02:06Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Envían a tres personas detenidas por atentado en San Ignacio a centros de rehabilitación",
+      "desc": "El fiscal Jorge Torrez informó que el mayor recibió detención preventiva en la cárcel de Palmasola, mientras que los dos menores de 17 años, una mujer y un varón, fueron enviados al centro para adoles…",
+      "link": "https://eldeber.com.bo/santa-cruz/envian-tres-personas-detenidas-atentado-san-ignacio-centros-rehabilitacion_1791856348",
+      "date": "2026-10-13T01:52:28Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Solo la empleada de la joyería será imputada por el asalto",
+      "desc": "Durante la jornada se detuvo a dos ciudadanos colombianos. El fiscal Gerardo Balderas informó que no están relacionados con el asalto. Serán investigados por portación ilegal de armas",
+      "link": "https://eldeber.com.bo/santa-cruz/solo-empleada-joyeria-sera-imputada-asalto_1791855512",
+      "date": "2026-10-13T01:38:32Z"
+    },
+    {
       "source": "La Razón",
-      "title": "Petróleo sube tras ataques hutíes a Arabia Saudita",
-      "desc": "El precio del barril de Brent del mar del Norte avanzó un 1,84% hasta los 106,65 dólares\nThe post Petróleo sube tras ataques hutíes a Arabia Saudita appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/12/petroleo-sube-tras-ataques-huties-a-arabia-saudita/",
-      "date": "2026-10-12T20:31:01Z"
+      "title": "Revilla fija el 30 de octubre para debatir la coparticipación tributaria",
+      "desc": "Luis Revilla anuncia que el proyecto de ley será remitido a la Asamblea Legislativa hasta el 6 de noviembre, con miras a aplicar el esquema desde 2027.\nThe post Revilla fija el 30 de octubre para deba…",
+      "link": "https://larazon.bo/nacional/2026/10/12/revilla-fija-el-30-de-octubre-para-debatir-la-coparticipacion-tributaria/",
+      "date": "2026-10-13T00:20:50Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Por qué se celebra cada 13 de octubre el Día del Abogado en Bolivia?",
+      "desc": "La fecha conmemora la creación de la primera facultad de derecho en el continente americano. Fue en Sucre, en el año 1681",
+      "link": "https://eldeber.com.bo/pais/celebra-cada-13-octubre-dia-abogado-bolivia_1791850600",
+      "date": "2026-10-13T00:16:40Z"
     },
     {
       "source": "La Razón",
-      "title": "Defensa advierte acciones legales ante bloqueos durante el estado de excepción",
-      "desc": "‘Todos los bolivianos tenemos derecho a protestar. Lo que no tenemos derecho es a bloquear y lastimar a otros bolivianos en su economía’, indicó Justiniano \nThe post Defensa advierte acciones legales …",
-      "link": "https://larazon.bo/nacional/2026/10/12/defensa-advierte-acciones-legales-ante-bloqueos-durante-el-estado-de-excepcion/",
-      "date": "2026-10-12T20:24:39Z"
+      "title": "Marcha evista hacia La Paz se posterga hasta el viernes 16 de octubre",
+      "desc": "Los sectores afines a Evo Morales prevén llegar el lunes 19 a la sede de Gobierno en rechazo al ajuste económico y al incremento del precio del diésel.\nThe post Marcha evista hacia La Paz se posterga …",
+      "link": "https://larazon.bo/nacional/2026/10/12/marcha-evista-hacia-la-paz-se-posterga-hasta-el-viernes-16-de-octubre/",
+      "date": "2026-10-12T23:57:50Z"
     },
     {
       "source": "La Razón",
-      "title": "Hallan tres armas, municiones y una antena Starlink en otro vehículo de Mariaca",
-      "desc": "El segundo motorizado del exfiscal general fue sometido a una requisa y a un microaspirado. Los resultados de este último procedimiento se conocerán en 10 días.\nThe post Hallan tres armas, municiones …",
-      "link": "https://larazon.bo/nacional/2026/10/12/hallan-tres-armas-municiones-y-una-antena-starlink-en-otro-vehiculo-de-mariaca/",
-      "date": "2026-10-12T20:22:42Z"
+      "title": "Policía indaga ‘pagos’ de Mariaca a periodistas a cambio de respaldo",
+      "desc": "Informes de Inteligencia señalan que comunicadores recibían pagos anticipados o mensuales para difundir actividades del exfiscal general.\nThe post Policía indaga &#8216;pagos&#8217; de Mariaca a perio…",
+      "link": "https://larazon.bo/nacional/2026/10/12/policia-indaga-pagos-de-mariaca-a-periodistas-a-cambio-de-respaldo/",
+      "date": "2026-10-12T23:40:09Z"
     },
     {
       "source": "La Razón",
-      "title": "Paz acusa a la Fiscalía de favorecer a sectores ‘ricos’ y denuncia extorsiones",
-      "desc": "El Presidente recordó su gestión como alcalde y relató que impulsó un servicio de asistencia legal para mujeres víctimas de violencia intrafamiliar\nThe post Paz acusa a la Fiscalía de favorecer a sect…",
-      "link": "https://larazon.bo/nacional/2026/10/12/paz-acusa-a-la-fiscalia-de-favorecer-a-sectores-ricos-y-denuncia-extorsiones/",
-      "date": "2026-10-12T20:18:55Z"
+      "title": "Fiscalía ejecuta 11 allanamientos en casos contra Mariaca y busca a Eduardo del Castillo",
+      "desc": "El fiscal señaló que las investigaciones continúan y que la Fiscalía informará sobre nuevos resultados a medida que avance el análisis de la evidencia recolectada\nThe post Fiscalía ejecuta 11 allanami…",
+      "link": "https://larazon.bo/nacional/2026/10/12/fiscalia-ejecuta-11-allanamientos-en-casos-contra-mariaca-y-busca-a-eduardo-del-castillo/",
+      "date": "2026-10-12T22:59:51Z"
     },
     {
-      "source": "El Deber",
-      "title": "Colpa Bélgica: empresa adjudicataria de los defensivos del puente inicia la obra",
-      "desc": "El proyecto contempla una inversión de Bs 1,1 millones y la construcción de aproximadamente 780 metros de defensivos con pilotes. La empresa adjudicataria ya ingresa materiales al lugar y el plazo de …",
-      "link": "https://eldeber.com.bo/santa-cruz/colpa-belgica-empresa-adjudicataria-defensivos-puente-inicia-obra_1791831401",
-      "date": "2026-10-12T18:56:41Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Gobierno no prevé alza de tarifas eléctricas, pero evita garantizarlo a futuro",
-      "desc": "El ministro de Hidrocarburos, Marcelo Blanco afirmó que actualmente no se contempla un incremento, aunque no aseguró que las tarifas se mantengan hasta el final de la gestión de Rodrigo Paz. El Gobier…",
-      "link": "https://eldeber.com.bo/economia/gobierno-no-preve-alza-tarifas-electricas-evita-garantizarlo-futuro_1791826523",
-      "date": "2026-10-12T17:35:23Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "\"Se quedaron sin efectivo tras detención de Mariaca\": Urioste vincula al PCC con el asalto a una joyería",
-      "desc": "El fiscal general advirtió que la investigación adquiere grandes dimensiones y anunció el refuerzo de los equipos técnicos. Sostuvo que la caída del exfiscal dejó sin efectivo a las mafias y las empuj…",
-      "link": "https://eldeber.com.bo/pais/quedaron-efectivo-detencion-mariaca-urioste-vincula-pcc-asalto-joyeria_1791826518",
-      "date": "2026-10-12T17:35:18Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Hallan tres armas de fuego y 26 municiones en un segundo vehículo que utilizaba Róger Mariaca",
-      "desc": "El vehículo, registrado como activo de la Fiscalía General del Estado, también contenía una antena Starlink, un celular y documentación. Se realizó una pericia para detectar posibles rastros de sustan…",
-      "link": "https://eldeber.com.bo/pais/hallan-tres-armas-fuego-26-municiones-segundo-vehiculo-utilizaba-roger-mariaca_1791825340",
-      "date": "2026-10-12T17:15:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Digger: la nueva película de Tom Cruise se proyecta como uno de los mayores fracasos en la historia de Hollywood",
-      "desc": "La recaudación total de Digger desde su estreno asciende a unos 35 millones de dólares a nivel mundial. Se estima que la producción y comercialización de la película le costó a su estudio, Warner Bros…",
-      "link": "https://eldeber.com.bo/bbc/digger-la-nueva-pelicula-de-tom-cruise-se-proyecta-como-uno-de-los-mayores-fracasos-en-la-historia-de-hollywood-2026101214838",
-      "date": "2026-10-12T17:08:38Z"
+      "source": "Google — FMI Bolivia",
+      "title": "La prioridad para los fondos del FMI será reforzar reservas y pagar la deuda externa, sostiene economista - Correo del Sur",
+      "desc": "La prioridad para los fondos del FMI será reforzar reservas y pagar la deuda externa, sostiene economista&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLV9kYjdlQVJ0enJ0bDAyYWpqQmlZZS1zdjM1SmVMNVdRWVdWRldITUpmM2pnLVA0bGNudU9MMG5jdG42Z0gybWNCTGlZVUJfeU8zMUV4WE9tb1BITnVYZkpWQ1BBOVJvTHRTQXhORDRTTktXa1JIWHp3dHM2WTRvQlVCMlFHOVo5WnFHTlA5a2FXVTJMNGdjck5GNGcydTlWNG1ZQ3FkVXFlejdDQUY4NXJTcnMwd3AxQW9rMU54TDVocDd0S285T2FJNXMtZU5RSUNHbGU5QXRnd2pxSmphT3RjS0RQbG8?oc=5",
+      "date": "2026-10-12T16:40:00Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -239,13 +248,6 @@
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "Gobierno anuncia segundo desembolso del FMI entre noviembre y diciembre - Correo del Sur",
-      "desc": "Gobierno anuncia segundo desembolso del FMI entre noviembre y diciembre&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVE1fLVJqMjJiM2s2bGRfYmNUcTdKdTZmYjktODd2eUNTSWJXUjBUWXlSMlg0cl9tNkhldTlrVkYzMi0wT3FIYlRrUDdleHMtNTJ4OUROWF9YaVBISEhhbU1OQ183SHZwOTR3d1dmUUxtbEpxeVJOYW0yQ29iX25tN1ByTXZheTBFczJEdnJYXzdWNkV0SmZ6WHVOUnFBdGpDMTExM2Fra3FJTG5nbzFOQzRHMkQ3MEsxSmh3?oc=5",
-      "date": "2026-10-07T15:51:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
       "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
       "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
@@ -267,24 +269,24 @@
     },
     {
       "source": "Google — INE inflación",
-      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
-      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
-      "date": "2026-10-05T23:40:37Z"
-    },
-    {
-      "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Instituto Nacional de Estadística",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
       "date": "2026-10-05T19:01:55Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Instituto Nacional de Estadística",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.8,
-    "sellTomorrow": 11.85,
-    "changeBuy": -0.03,
-    "changeSell": -0.02,
+    "buyTomorrow": 11.83,
+    "sellTomorrow": 11.89,
+    "changeBuy": -0.05,
+    "changeSell": -0.04,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4207,8 +4209,8 @@
     },
     {
       "date": "2026-10-12",
-      "buy": 11.83,
-      "sell": 11.87
+      "buy": 11.88,
+      "sell": 11.93
     }
   ]
 }
