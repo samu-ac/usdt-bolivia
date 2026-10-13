@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-13T18:39:42Z",
+  "lastUpdated": "2026-10-13T23:31:12Z",
   "displayDate": "martes 13 de octubre, 2026",
   "binance": {
-    "buy": 11.85,
+    "buy": 11.84,
     "sell": 11.88,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.9,
-    "sell": 11.8,
+    "buy": 11.95,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -26,32 +26,32 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.09,
+    "buy": 12.1,
     "sell": 11.58,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.86,
-    "sell": 11.86,
+    "buy": 11.87,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.93,
-    "sell": 11.71,
+    "buy": 11.94,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.85,
+    "referentialBuy": 11.84,
     "referentialSell": 11.88,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-13T18:39:34Z"
+    "fetchedAt": "2026-10-13T23:31:04Z"
   },
   "banks": [
     {
@@ -108,52 +108,101 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Bolivia acumula un déficit comercial de casi $us 8.000 MM con Chile",
-      "desc": "El IBCE vinculó el conflicto relacionado con la madera retenida en Chile con el desequilibrio comercial entre ambos países\nThe post Bolivia acumula un déficit comercial de casi $us 8.000 MM con Chile …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/bolivia-acumula-un-deficit-comercial-de-casi-us-8-000-mm-con-chile/",
-      "date": "2026-10-13T18:21:01Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Conflicto minero deja un muerto y cinco aprehendidos en Tacacoma",
-      "desc": "La autopsia determinará si la causa de la muerte de la víctima es por proyectiles de arma de fuego",
-      "link": "https://eldeber.com.bo/pais/conflicto-minero-deja-muerto-cinco-aprehendidos-tacacoma_1791915371",
-      "date": "2026-10-13T18:16:11Z"
+      "title": "Caso Terrorismo: Fiscalía inspecciona la escena del operativo en el Hotel Las Américas",
+      "desc": "Juan Carlos Guedes, privado de libertad11 años , pidió esclarecer los hechos. Exigió salud, disculpas públicas y compensación económica para las víctimas.\nThe post Caso Terrorismo: Fiscalía inspeccion…",
+      "link": "https://larazon.bo/nacional/2026/10/13/caso-terrorismo-fiscalia-inspecciona-la-escena-del-operativo-en-el-hotel-las-americas/",
+      "date": "2026-10-13T23:12:41Z"
     },
     {
       "source": "La Razón",
-      "title": "Cainco propone ley corta de inversiones y pide que se apruebe hasta diciembre",
-      "desc": "La organización considera que Bolivia necesita medidas urgentes para recuperar la confianza, reactivar la economía y atraer capitales\nThe post Cainco propone ley corta de inversiones y pide que se apr…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/cainco-propone-ley-corta-de-inversiones-y-pide-que-se-apruebe-hasta-diciembre/",
-      "date": "2026-10-13T17:51:38Z"
+      "title": "Fiscalía de La Paz no frenará investigaciones contra Cerimedo y Mariaca",
+      "desc": "Alfaro, anunció una evaluación institucional y afirmó que los procesos deben avanzar con responsabilidad y respeto al debido proceso.\nThe post Fiscalía de La Paz no frenará investigaciones contra Ceri…",
+      "link": "https://larazon.bo/nacional/2026/10/13/fiscalia-de-la-paz-descarta-frenar-investigaciones-contra-cerimedo/",
+      "date": "2026-10-13T22:43:35Z"
     },
     {
       "source": "El Deber",
-      "title": "Bolivia plantea compartir la riqueza de los océanos con los países sin litoral",
-      "desc": "El Gobierno impulsa desde Santa Cruz una hoja de ruta para intervenir en las decisiones sobre los fondos marinos y participar de los beneficios que puedan generar sus recursos minerales.",
-      "link": "https://eldeber.com.bo/pais/bolivia-plantea-compartir-riqueza-oceanos-paises-litoral_1791912959",
-      "date": "2026-10-13T17:35:59Z"
+      "title": "Fiscalía confirma que presunto piloto de Marset tenía cuatro orificios de disparos de arma de fuego",
+      "desc": "Se colectaron dos vainas servidas, además se precintó y secuestró un vehículo, de propiedad del hombre asesinado. El hecho violento se registró en un taller mecánico en la zona del Zoológico",
+      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-confirman-presunto-piloto-marset-tenia-cuatro-orificios-disparos-arma-fuego_1791930878",
+      "date": "2026-10-13T22:34:38Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Gobierno central asume la mayor parte de la deuda externa",
+      "desc": "El saldo de las obligaciones externas llegó a $us 14.117,2 millones a septiembre de 2026, según el Banco Central de Bolivia\nThe post Gobierno central asume la mayor parte de la deuda externa appeared …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/gobierno-central-asume-la-mayor-parte-de-la-deuda-externa/",
+      "date": "2026-10-13T22:28:18Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "BID concentra el 30,9% de la deuda externa pública de Bolivia",
+      "desc": "China es el principal acreedor bilateral del país, con $us 1.000,7 millones, según el informe del Banco Central de Bolivia al 30 de septiembre de 2026\nThe post BID concentra el 30,9% de la deuda exter…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/bid-concentra-el-309-de-la-deuda-externa-publica-de-bolivia/",
+      "date": "2026-10-13T22:20:46Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Zafra cañera llega al 60%, pero parte de la caña podría quedar en el campo",
+      "desc": "Las lluvias y los problemas con el combustible frenan la cosecha, el ingenio asegura que los excedentes de azúcar de la gestión pasada cubrirán la demanda nacional\nThe post Zafra cañera llega al 60%, …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/zafra-canera-llega-al-60-pero-parte-de-la-cana-podria-quedar-en-el-campo/",
+      "date": "2026-10-13T22:12:41Z"
     },
     {
       "source": "El Deber",
-      "title": "Las grabaciones que revelan la confusión en la prisión la ejecución fallida de Christa Pike",
-      "desc": "Pike, de 50 años, quien con su novio de la época asesinó a Colleen Slemmer en 1995, recibió dos dosis de inyección letal el 30 de septiembre. Una vez que quedó claro que no iba a morir a causa de la d…",
-      "link": "https://eldeber.com.bo/bbc/las-grabaciones-que-revelan-la-confusion-en-la-prision-la-fallida-ejecucion-fallida-de-christa-pike-20261013131358",
-      "date": "2026-10-13T16:13:58Z"
+      "title": "Abogado de hija de Maradona pide absolver a psicólogo e investigar a otras cuatro personas",
+      "desc": "Tanto el abogado demandante como la Fiscalía piden penas de tres años de prisión y seis de inhabilitación para el jefe de enfermeros Mariano Perroni y el enfermero Ricardo Almirón",
+      "link": "https://eldeber.com.bo/mundo/abogado-hija-maradona-pide-absolver-psicologo-investigar-otras-cuatro-personas_1791929384",
+      "date": "2026-10-13T22:09:44Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: En 2026 Bolivia tendrá el mayor decrecimiento en Latinoamérica - Urgentebo",
+      "desc": "FMI: En 2026 Bolivia tendrá el mayor decrecimiento en Latinoamérica&nbsp;&nbsp;Urgentebo",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDg3WUwxdlcxMm5OVU04aHVnLUhDaUdOX1QxUmdGQVNid3V5TEtEZnlJV3hrdFlOeFNGUmlJQnhOb1lqN2ZQSTg4MThzMTloUmljQVludkVxS0FwVFowdnlaYjFZWk5mT2F0UnRWUXZMdVczTy1lTXE1ZncxME5VWU5KdFlOeXZKU1FhbG0yd0JfYmxIMl9zWUNpSUxaUQ?oc=5",
+      "date": "2026-10-13T21:53:35Z"
     },
     {
       "source": "El Deber",
-      "title": "Estudio de fundación Milenio: El desafío empresarial ya no es tener reglas, sino demostrar resultados",
-      "desc": "Un estudio de la Fundación Milenio identificó avances en inversión, integridad e impacto, pero recomienda mejorar la supervisión, documentar procesos y medir la efectividad de los controles internos.",
-      "link": "https://eldeber.com.bo/economia/estudio-fundacion-milenio-desafio-empresarial-no-tener-reglas-sino-demostrar-resultados_1791905648",
-      "date": "2026-10-13T15:34:08Z"
+      "title": "Luis Suárez Zambrana conquista dos oros para Bolivia en el Panamericano de Kung Fu",
+      "desc": "El deportista boliviano ganó en las modalidades de Taolu y combate deportivo, en el estilo Wing Chun, durante el campeonato disputado en Buenos Aires. Además, los cuatro atletas bolivianos consiguiero…",
+      "link": "https://eldeber.com.bo/deportes/luis-suarez-zambrana-conquista-dos-oros-bolivia-panamericano-kung-fu_1791928147",
+      "date": "2026-10-13T21:49:07Z"
     },
     {
       "source": "El Deber",
-      "title": "Santa Cruz suma a sus municipios al Censo Agropecuario 2026",
-      "desc": "La coordinación entre los gobiernos municipales y el INE busca facilitar el trabajo de los empadronadores. La información recopilada servirá para orientar políticas públicas y proyectos productivos.",
-      "link": "https://eldeber.com.bo/economia/santa-cruz-suma-municipios-censo-agropecuario-2026_1791904673",
-      "date": "2026-10-13T15:17:53Z"
+      "title": "Cambian al subgobernador de la provincia Florida; Alejandro Pinto asume el cargo",
+      "desc": "Una denuncia sobre la relación de familiaridad entre la anterior autoridad y el exfiscal Róger Mariaca derivó en el cambio de subgobernador. Alejandro Pinto impulsó la campaña de Libre en la región",
+      "link": "https://eldeber.com.bo/santa-cruz/cambian-subgobernador-provincia-florida-alejandro-pinto-asume-cargo_1791927949",
+      "date": "2026-10-13T21:45:49Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia sufrirá una contracción económica en 2026 y 2027, según FMI - La Patria Bolivia",
+      "desc": "Bolivia sufrirá una contracción económica en 2026 y 2027, según FMI&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMUdxMlloRjJXT01CMGlQUDNnUEtCWEhqNGtyMlg4RFJyQlRLWFpyWFVVTUVyN2JmY09CQ3lPSWd4RGhKWFVKZXE5M3JaaWxJbjNWWHZKTkVGY3RLbC10YTkzejR1MjhqMC1zb1lXNDNGbHpnMWNscHoxNU12aXlZVzY3U3paUXJvM240?oc=5",
+      "date": "2026-10-13T20:24:39Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
+      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY0gHQAUFVX3lxTFA5Z1FqWXNXdDlwQzM2dGZ5QnQ5Z2ZPNzd4cVAwZi1Mc0cxUmpib2R3MjB1M3h6dlgzd0phelFUSXE0c2xPeXAwQy15aGN2ZU1qXzJkWUJORlpyMElTT3ZSYVNSS01KUHN0QU16Mnctd2EyUDlNYy14MXVWLWRzd2FIb2t2Ni1zUUpSaFYtZ2Yybmd6Mm5GcVVXejlTUEpMR04yTEZ2aFVTbENSSTN3cUFaOVZwYXE3bDIzZHFwdURXUVk4NE5CMnZzV1NDMjZvQlg?oc=5",
+      "date": "2026-10-13T20:18:20Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI proyecta una contracción económica de -3% para Bolivia - El Diario - Bolivia",
+      "desc": "FMI proyecta una contracción económica de -3% para Bolivia&nbsp;&nbsp;El Diario - Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenotLXFDU2xyM1FudnBpZ3J3X3o1cl9UVElzT053T19SWWFYbTJ2UW1oejZZMDFiSm03dTJSRjdmQlk5VkFUanhobU1qdUxINnY1SzNSbDR1RGJPNzRsYUk2WUxHbVgxUHdybzhybEpKekJmZVpBdHI2TzVzZnVaam16YXVwcmNtU0dLTFhNNG42LW9yTF9FZl9uNllaT1RpUlE?oc=5",
+      "date": "2026-10-13T20:18:02Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde - Red Uno",
+      "desc": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTBGM0VxTjg0ampMeG5fNnlCeWR3ZTMxMHVvaTVQdjVfb19qdzJXTWk1cS1rQTU3VlVKRjk3RnFfTDNwY0VrenlfSi1JbUxSNVNhNGtEdFN4RHJnbWw4MnZ2M2JUemRkbWk4QjRtdnJHSElDNHdZQllPZXgwdlpHNllYVXF4dzN6OVhEb3A4VTlkUVdhd2VtU2hxRUJ0LTZFQkhlanllczY2dDd1MlZfcEZwcFRPV0xfY3YxNHNpelRtaFVyaDB4Tg?oc=5",
+      "date": "2026-10-13T16:57:52Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -163,25 +212,11 @@
       "date": "2026-10-13T14:31:34Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI recorta a 0,6% su proyección de crecimiento para Chile en 2026: solo Bolivia proyecta una cifra menor en Sudamérica - El Periodista",
-      "desc": "FMI recorta a 0,6% su proyección de crecimiento para Chile en 2026: solo Bolivia proyecta una cifra menor en Sudamérica&nbsp;&nbsp;El Periodista",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeU5iV1dfRUVHYlpUc0xtb1ZuQTR2ZHhaMXl2WWZLV0VGSGhzRVd2M0RDX2hhSFRaOVhzQ0VGZ3REMzR6Y0RoYi1ZTlpsbHhLcmhPWmZLQnM0NVZTd2xyZGc4djdyRUx6VEo2aEJwai0wQU1VeWNNMFBMdGFISWlfWDFyWWs2Q3Y5Ny1ld1k5UDlVUG02MGtSMGpfcDQzWEwwTU15bURVNU01OUkwT2g4QmF2bXczelFadlhGMGNrTXpSRUxDeGhjT3JGWkM3cjdxalIzZ1lWM2xfQzFvNzBSMk43ZTVhWUpa?oc=5",
-      "date": "2026-10-13T13:33:32Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia - Red Uno",
       "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzFEZTlRNlJNR0xVTXRBTkFheWV5RFcyWlhUV25WZ2E3cmxGSmthOVFjaVF4VFVVdzVYUzNxNmRBc21WWXdFU2x2d2JTR1ItNXl5QnVHbk5ySDhjYXVveGo1SU1SLWNHQ3Y4VzdpZ2NpX1lkUW0yQ2dSeDlkWFA3MjBhMzhyVHdyaVdwYkVxOUx1TzFoZnh1ZjRuQ0Zka3htS09tRVBaMHRjQ3RndmJlOA?oc=5",
       "date": "2026-10-13T11:12:51Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "La prioridad para los fondos del FMI será reforzar reservas y pagar la deuda externa, sostiene economista - Correo del Sur",
-      "desc": "La prioridad para los fondos del FMI será reforzar reservas y pagar la deuda externa, sostiene economista&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLV9kYjdlQVJ0enJ0bDAyYWpqQmlZZS1zdjM1SmVMNVdRWVdWRldITUpmM2pnLVA0bGNudU9MMG5jdG42Z0gybWNCTGlZVUJfeU8zMUV4WE9tb1BITnVYZkpWQ1BBOVJvTHRTQXhORDRTTktXa1JIWHp3dHM2WTRvQlVCMlFHOVo5WnFHTlA5a2FXVTJMNGdjck5GNGcydTlWNG1ZQ3FkVXFlejdDQUY4NXJTcnMwd3AxQW9rMU54TDVocDd0S285T2FJNXMtZU5RSUNHbGU5QXRnd2pxSmphT3RjS0RQbG8?oc=5",
-      "date": "2026-10-12T16:40:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -219,13 +254,6 @@
       "date": "2026-10-09T15:12:39Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Precio del dólar hoy en Bolivia: cotización de apertura del 8 de octubre - Infobae",
-      "desc": "Precio del dólar hoy en Bolivia: cotización de apertura del 8 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPazNia21Mc0F3bllEWTdibkV0TktScnhJVXBWWmladEZxalF1WFlNN2gwYjNuVTlVcFRXUHF0a3lIeklwNG5uTHJUUGpZRU1zZEZmRzUxVFN2WkpheDRHeDNnYWVoZG1sdTlyaU1TYUFTVU5vRzhoWUJrWnNSZkRBV3A3Y0VkQm9rd0xyZGxlenItdGxtbGwwUGhrdGNoMElpQ25GdTNtdEFocjJoS0RlYTMzTVo5WlHSAdIBQVVfeXFMUGJueXJpMVRFa3lVQXY2bTFPOWNCYm9IYy1TSldoZGJCbXU1NGw0a3VqbTNqSmxfMkNXcm5jVmsxZFhwZGRIV2NwSS1Oc0RRcENkSlhjX0Y1NXNZS0VGZmJUa05xSFZ0YjdHV0x0WkdXNDVZSGZUeWpHMENuX1NtaWhkeWFIZGhtRjV0MXR0dE9BeWFqdl85YlczdDVzVlpJb0Z0ajBkejB2S3kzTGIzU2pOSlRwSk5PTXZVdXRvVEhKNVVRWU9uN2pUZnE0NElxUkZn?oc=5",
-      "date": "2026-10-08T13:01:00Z"
-    },
-    {
       "source": "Google — USDT Bolivia",
       "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
       "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
@@ -240,13 +268,6 @@
       "date": "2026-10-07T17:29:50Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
-      "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
-      "date": "2026-10-07T14:58:45Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
@@ -259,31 +280,10 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
       "date": "2026-10-05T19:01:55Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Instituto Nacional de Estadística",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
-      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.81,
+    "buyTomorrow": 11.8,
     "sellTomorrow": 11.85,
     "changeBuy": -0.04,
     "changeSell": -0.03,
@@ -4214,7 +4214,7 @@
     },
     {
       "date": "2026-10-13",
-      "buy": 11.85,
+      "buy": 11.84,
       "sell": 11.88
     }
   ]
