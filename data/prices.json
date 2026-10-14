@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-10-13T23:31:12Z",
+  "lastUpdated": "2026-10-14T03:48:03Z",
   "displayDate": "martes 13 de octubre, 2026",
   "binance": {
     "buy": 11.84,
-    "sell": 11.88,
+    "sell": 11.9,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.95,
-    "sell": 11.81,
+    "buy": 11.81,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.11,
+    "buy": 12.13,
     "sell": 11.73,
     "available": true,
     "source": "api_dbb_takenos"
@@ -26,20 +26,20 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.1,
-    "sell": 11.58,
+    "buy": 12.11,
+    "sell": 11.59,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
     "buy": 11.87,
-    "sell": 11.84,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.94,
-    "sell": 11.72,
+    "buy": 11.92,
+    "sell": 11.67,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -47,11 +47,11 @@
     "officialBuy": 11.7,
     "officialSell": 11.7,
     "referentialBuy": 11.84,
-    "referentialSell": 11.88,
+    "referentialSell": 11.9,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-13T23:31:04Z"
+    "fetchedAt": "2026-10-14T03:47:48Z"
   },
   "banks": [
     {
@@ -107,81 +107,109 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Caso Terrorismo: Fiscalía inspecciona la escena del operativo en el Hotel Las Américas",
-      "desc": "Juan Carlos Guedes, privado de libertad11 años , pidió esclarecer los hechos. Exigió salud, disculpas públicas y compensación económica para las víctimas.\nThe post Caso Terrorismo: Fiscalía inspeccion…",
-      "link": "https://larazon.bo/nacional/2026/10/13/caso-terrorismo-fiscalia-inspecciona-la-escena-del-operativo-en-el-hotel-las-americas/",
-      "date": "2026-10-13T23:12:41Z"
+      "source": "El Deber",
+      "title": "Caso Hotel Las Américas: citan a Rubén Costas y buscan esclarecer el papel de exautoridades del gobierno de Evo Morales",
+      "desc": "Alfredo Saucedo, uno de los denunciantes, reveló que la Fiscalía emitió las primeras citaciones para recibir declaraciones testificales y solicitará información sobre la participación de exfiscales, j…",
+      "link": "https://eldeber.com.bo/santa-cruz/caso-hotel-americas-citan-ruben-costas-buscan-esclarecer-papel-exautoridades-gobierno-evo-morales_1791947157",
+      "date": "2026-10-14T03:05:57Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía de La Paz no frenará investigaciones contra Cerimedo y Mariaca",
-      "desc": "Alfaro, anunció una evaluación institucional y afirmó que los procesos deben avanzar con responsabilidad y respeto al debido proceso.\nThe post Fiscalía de La Paz no frenará investigaciones contra Ceri…",
-      "link": "https://larazon.bo/nacional/2026/10/13/fiscalia-de-la-paz-descarta-frenar-investigaciones-contra-cerimedo/",
-      "date": "2026-10-13T22:43:35Z"
+      "title": "Aramayo afirma que no hay solicitud de extradición contra Mariaca",
+      "desc": "El exfiscal general cumple detención preventiva en Cantumarca, Potosí. Es investigado por presuntos delitos de narcotráfico y legitimación de ganancias ilícitas.\nThe post Aramayo afirma que no hay sol…",
+      "link": "https://larazon.bo/nacional/2026/10/13/aramayo-afirma-que-no-hay-solicitud-de-extradicion-contra-mariaca/",
+      "date": "2026-10-14T02:54:42Z"
     },
     {
       "source": "El Deber",
-      "title": "Fiscalía confirma que presunto piloto de Marset tenía cuatro orificios de disparos de arma de fuego",
-      "desc": "Se colectaron dos vainas servidas, además se precintó y secuestró un vehículo, de propiedad del hombre asesinado. El hecho violento se registró en un taller mecánico en la zona del Zoológico",
-      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-confirman-presunto-piloto-marset-tenia-cuatro-orificios-disparos-arma-fuego_1791930878",
-      "date": "2026-10-13T22:34:38Z"
+      "title": "Aprehenden a exfiscal coordinador de La Paz y es trasladado a la Felcn",
+      "desc": "El exfiscal no declaró y se acogió a su derecho a guardar silencio. La nueva fiscal departamental de La Paz, Tania Alfaro, afirmó en horas de la mañana que Rojas había solicitado vacaciones, razón por…",
+      "link": "https://eldeber.com.bo/pais/aprehenden-exfiscal-coordinador-paz-trasladado-felcn_1791946390",
+      "date": "2026-10-14T02:53:10Z"
     },
     {
       "source": "La Razón",
-      "title": "Gobierno central asume la mayor parte de la deuda externa",
-      "desc": "El saldo de las obligaciones externas llegó a $us 14.117,2 millones a septiembre de 2026, según el Banco Central de Bolivia\nThe post Gobierno central asume la mayor parte de la deuda externa appeared …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/gobierno-central-asume-la-mayor-parte-de-la-deuda-externa/",
-      "date": "2026-10-13T22:28:18Z"
+      "title": "Gabinete de Paz prioriza energía, hidrocarburos y economía",
+      "desc": "El ministro Erick Sanjinés informó que la reunión de este martes abordó tres áreas estratégicas. Aseguró que no se trataron proyectos de ley.\nThe post Gabinete de Paz prioriza energía, hidrocarburos y…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/gabinete-de-paz-prioriza-energia-hidrocarburos-y-economia/",
+      "date": "2026-10-14T02:50:36Z"
     },
     {
       "source": "La Razón",
-      "title": "BID concentra el 30,9% de la deuda externa pública de Bolivia",
-      "desc": "China es el principal acreedor bilateral del país, con $us 1.000,7 millones, según el informe del Banco Central de Bolivia al 30 de septiembre de 2026\nThe post BID concentra el 30,9% de la deuda exter…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/bid-concentra-el-309-de-la-deuda-externa-publica-de-bolivia/",
-      "date": "2026-10-13T22:20:46Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Zafra cañera llega al 60%, pero parte de la caña podría quedar en el campo",
-      "desc": "Las lluvias y los problemas con el combustible frenan la cosecha, el ingenio asegura que los excedentes de azúcar de la gestión pasada cubrirán la demanda nacional\nThe post Zafra cañera llega al 60%, …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/zafra-canera-llega-al-60-pero-parte-de-la-cana-podria-quedar-en-el-campo/",
-      "date": "2026-10-13T22:12:41Z"
+      "title": "Tóásó busca justicia para cerrar la ‘pesadilla’ del caso Terrorismo",
+      "desc": "El sobreviviente del operativo del Hotel Las Américas espera que avance el proceso contra Evo Morales y Álvaro García Linera, aunque expresó dudas sobre el procedimiento judicial.\nThe post Tóásó busca…",
+      "link": "https://larazon.bo/nacional/2026/10/13/toaso-busca-justicia-para-cerrar-la-pesadilla-del-caso-terrorismo/",
+      "date": "2026-10-14T02:30:37Z"
     },
     {
       "source": "El Deber",
-      "title": "Abogado de hija de Maradona pide absolver a psicólogo e investigar a otras cuatro personas",
-      "desc": "Tanto el abogado demandante como la Fiscalía piden penas de tres años de prisión y seis de inhabilitación para el jefe de enfermeros Mariano Perroni y el enfermero Ricardo Almirón",
-      "link": "https://eldeber.com.bo/mundo/abogado-hija-maradona-pide-absolver-psicologo-investigar-otras-cuatro-personas_1791929384",
-      "date": "2026-10-13T22:09:44Z"
+      "title": "Más allá del ajuste, se precisa una propuesta para que Bolivia vuelva a crecer",
+      "desc": "Ruta. La estabilización monetaria y fiscal no basta para recuperar el crecimiento. Carlos Aranda plantea una agenda de reformas institucionales, tributarias y laborales",
+      "link": "https://eldeber.com.bo/dinero/alla-ajuste-precisa-propuesta-bolivia-vuelva-crecer_1791944992",
+      "date": "2026-10-14T02:29:52Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Agro Vidas apuesta por la pitahaya y suma la ganadería a su propuesta productiva",
+      "desc": "Evento. La feria organizada por Fundacruz se llevará a cabo del 15 al 17 de octubre, en la carretera al Norte, Km 40, entre Warnes y Montero. Espera superar las 3.500 visitas",
+      "link": "https://eldeber.com.bo/dinero/agro-vidas-apuesta-pitahaya-suma-ganaderia-propuesta-productiva_1791944422",
+      "date": "2026-10-14T02:20:22Z"
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "FMI: En 2026 Bolivia tendrá el mayor decrecimiento en Latinoamérica - Urgentebo",
-      "desc": "FMI: En 2026 Bolivia tendrá el mayor decrecimiento en Latinoamérica&nbsp;&nbsp;Urgentebo",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDg3WUwxdlcxMm5OVU04aHVnLUhDaUdOX1QxUmdGQVNid3V5TEtEZnlJV3hrdFlOeFNGUmlJQnhOb1lqN2ZQSTg4MThzMTloUmljQVludkVxS0FwVFowdnlaYjFZWk5mT2F0UnRWUXZMdVczTy1lTXE1ZncxME5VWU5KdFlOeXZKU1FhbG0yd0JfYmxIMl9zWUNpSUxaUQ?oc=5",
-      "date": "2026-10-13T21:53:35Z"
+      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
+      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
+      "date": "2026-10-14T02:00:43Z"
     },
     {
       "source": "El Deber",
-      "title": "Luis Suárez Zambrana conquista dos oros para Bolivia en el Panamericano de Kung Fu",
-      "desc": "El deportista boliviano ganó en las modalidades de Taolu y combate deportivo, en el estilo Wing Chun, durante el campeonato disputado en Buenos Aires. Además, los cuatro atletas bolivianos consiguiero…",
-      "link": "https://eldeber.com.bo/deportes/luis-suarez-zambrana-conquista-dos-oros-bolivia-panamericano-kung-fu_1791928147",
-      "date": "2026-10-13T21:49:07Z"
+      "title": "Investigan posible ajuste de cuentas de hombre victimado en su vagoneta en Villa Tunari",
+      "desc": "Ahora la Fiscalía y la Policía busca identificar a los autores y determinar su grado de participación en el crimen del hombre que estaba desaparecido",
+      "link": "https://eldeber.com.bo/santa-cruz/investigan-posible-ajuste-cuentas-hombre-victimado-vagoneta-villa-tunari_1791941308",
+      "date": "2026-10-14T01:28:28Z"
     },
     {
-      "source": "El Deber",
-      "title": "Cambian al subgobernador de la provincia Florida; Alejandro Pinto asume el cargo",
-      "desc": "Una denuncia sobre la relación de familiaridad entre la anterior autoridad y el exfiscal Róger Mariaca derivó en el cambio de subgobernador. Alejandro Pinto impulsó la campaña de Libre en la región",
-      "link": "https://eldeber.com.bo/santa-cruz/cambian-subgobernador-provincia-florida-alejandro-pinto-asume-cargo_1791927949",
-      "date": "2026-10-13T21:45:49Z"
+      "source": "La Razón",
+      "title": "Cae un exgerente del BCB por supuesto daño de Bs 4,5 MM",
+      "desc": "La investigación apunta a un posible daño económico superior a Bs 4,5 millones. La adquisición fue autorizada en abril de 2024.\nThe post Cae un exgerente del BCB por supuesto daño de Bs 4,5 MM appeare…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/cae-un-exgerente-del-bcb-por-supuesto-dano-de-bs-45-mm/",
+      "date": "2026-10-14T01:07:26Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Waskiri-Sat, primer nanosatélite hecho en Bolivia será operado por la UCB y la ABE",
+      "desc": "Su lanzamiento está previsto para noviembre de 2028. La ABE aportará su infraestructura terrestre (estaciones).\nThe post Waskiri-Sat, primer nanosatélite hecho en Bolivia será operado por la UCB y la …",
+      "link": "https://larazon.bo/sociedad/2026/10/13/waskiri-sat-primer-nanosatelite-hecho-en-bolivia-sera-operado-por-la-ucb-y-la-abe/",
+      "date": "2026-10-14T00:05:43Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "El dólar en Bolivia cierra con leve repunte en el paralelo - La Patria Bolivia",
+      "desc": "El dólar en Bolivia cierra con leve repunte en el paralelo&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMEtrVUt2U0x2TWFfQWRRTDVNZVRDUklVazRhYkNzUHhyVHJNcG80RDd3MVoyVDh4ZXVjRVV0Vm9HU3h4SHlaaHZZY0hEMm5TcS1OcW96OUFnLTI0X1pNU0dWQkF1M2NNNXdydWZ3QUx5YzRZWXg3Tm5VT1RqaGxYVEFHQUtGODl3NG5WM2dqOVZfQQ?oc=5",
+      "date": "2026-10-13T23:55:39Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia registraría una caída de 3% en su economía durante 2026 - Rumbo Minero",
+      "desc": "Bolivia registraría una caída de 3% en su economía durante 2026&nbsp;&nbsp;Rumbo Minero",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT3JKSllZOVpBNEI3UjUyQUdNaTZFRVpwZVVieTlBUWdLTG1LSTRwTXpOTlZzU1RPS3BncExPZnB4NUY3Z0RkOU5hb01Yel9pYnV1VkVLcDYxUzQ5cVdUSkNNTFNIRDc0VmU2ZWJDVjZuczNBcVplaGN4MWszSlJ3S3VGcDBxdnNtSnE2M2pJY1FXUXFCWG5sU2xtLWhSdHhYSVpBcVlsSQ?oc=5",
+      "date": "2026-10-13T23:02:14Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia, la única economía de Sudamérica que decrecerá este año y el próximo, según el FMI - EL DÍA - Noticias de Bolivia para el mundo",
+      "desc": "Bolivia, la única economía de Sudamérica que decrecerá este año y el próximo, según el FMI&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQczgxM1JFbWk1cWlKY08tZGZtRUJ3QTY2aUo1WDVfa0dSRnIwZG1uSF9ScXh3bURyV1lkZnRJQXI0LUE1YmNuMmN0STFSVVV0ME9oeDkzdVNwWENrclRDVDJQczdxckdGSVlYOUx6WVQwSGU2Yy0xM2dZeDdMRnUtN1kyVkFSVzVQckJzcER4MUQ1QTFIQVBMRXMxdlVfRzdpOVlSbFpPRmdKVWdLMEdRdEUzdjhaOVQtS21ORTJ3ZERLTGE2X2l1UjBGRDgwMi0xS1BndQ?oc=5",
+      "date": "2026-10-13T21:16:09Z"
     },
     {
       "source": "Google — FMI Bolivia",
       "title": "Bolivia sufrirá una contracción económica en 2026 y 2027, según FMI - La Patria Bolivia",
       "desc": "Bolivia sufrirá una contracción económica en 2026 y 2027, según FMI&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMUdxMlloRjJXT01CMGlQUDNnUEtCWEhqNGtyMlg4RFJyQlRLWFpyWFVVTUVyN2JmY09CQ3lPSWd4RGhKWFVKZXE5M3JaaWxJbjNWWHZKTkVGY3RLbC10YTkzejR1MjhqMC1zb1lXNDNGbHpnMWNscHoxNU12aXlZVzY3U3paUXJvM240?oc=5",
-      "date": "2026-10-13T20:24:39Z"
+      "date": "2026-10-13T20:22:39Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -191,32 +219,11 @@
       "date": "2026-10-13T20:18:20Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI proyecta una contracción económica de -3% para Bolivia - El Diario - Bolivia",
-      "desc": "FMI proyecta una contracción económica de -3% para Bolivia&nbsp;&nbsp;El Diario - Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenotLXFDU2xyM1FudnBpZ3J3X3o1cl9UVElzT053T19SWWFYbTJ2UW1oejZZMDFiSm03dTJSRjdmQlk5VkFUanhobU1qdUxINnY1SzNSbDR1RGJPNzRsYUk2WUxHbVgxUHdybzhybEpKekJmZVpBdHI2TzVzZnVaam16YXVwcmNtU0dLTFhNNG42LW9yTF9FZl9uNllaT1RpUlE?oc=5",
-      "date": "2026-10-13T20:18:02Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde - Red Uno",
       "desc": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTBGM0VxTjg0ampMeG5fNnlCeWR3ZTMxMHVvaTVQdjVfb19qdzJXTWk1cS1rQTU3VlVKRjk3RnFfTDNwY0VrenlfSi1JbUxSNVNhNGtEdFN4RHJnbWw4MnZ2M2JUemRkbWk4QjRtdnJHSElDNHdZQllPZXgwdlpHNllYVXF4dzN6OVhEb3A4VTlkUVdhd2VtU2hxRUJ0LTZFQkhlanllczY2dDd1MlZfcEZwcFRPV0xfY3YxNHNpelRtaFVyaDB4Tg?oc=5",
       "date": "2026-10-13T16:57:52Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI proyecta que Bolivia será la única economía de Sudamérica en contracción en 2026 y 2027 - Oxígeno Digital",
-      "desc": "FMI proyecta que Bolivia será la única economía de Sudamérica en contracción en 2026 y 2027&nbsp;&nbsp;Oxígeno Digital",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMThvSm1xY1VONVNSOTZhbnVDQnpxZFZDNjIwVDZVYkNPa1pvY3lHNlVURTJtSk5rSjhudWc0c1RtOXlQTnVDUElNX3lRaGxrTjJnbnJVeXFPWlVoeWJoY3NQYVRxejk5N2hwWWFGZTB2WVNtWWNraFoyQTFkeDVlelVkME9acGhUdlR0eldjekRTcXFJaDRRb2xreHdSd05mUlN6Y0UxY0p5dTdldUpBdA?oc=5",
-      "date": "2026-10-13T14:31:34Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia - Red Uno",
-      "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzFEZTlRNlJNR0xVTXRBTkFheWV5RFcyWlhUV25WZ2E3cmxGSmthOVFjaVF4VFVVdzVYUzNxNmRBc21WWXdFU2x2d2JTR1ItNXl5QnVHbk5ySDhjYXVveGo1SU1SLWNHQ3Y4VzdpZ2NpX1lkUW0yQ2dSeDlkWFA3MjBhMzhyVHdyaVdwYkVxOUx1TzFoZnh1ZjRuQ0Zka3htS09tRVBaMHRjQ3RndmJlOA?oc=5",
-      "date": "2026-10-13T11:12:51Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -273,20 +280,13 @@
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
       "date": "2026-10-06T14:52:54Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Instituto Nacional de Estadística",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
-      "date": "2026-10-05T19:01:55Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.8,
-    "sellTomorrow": 11.85,
+    "sellTomorrow": 11.86,
     "changeBuy": -0.04,
-    "changeSell": -0.03,
+    "changeSell": -0.04,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4215,7 +4215,7 @@
     {
       "date": "2026-10-13",
       "buy": 11.84,
-      "sell": 11.88
+      "sell": 11.9
     }
   ]
 }
