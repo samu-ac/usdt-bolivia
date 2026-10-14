@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T16:11:04Z",
+  "lastUpdated": "2026-10-14T21:06:32Z",
   "displayDate": "miercoles 14 de octubre, 2026",
   "binance": {
     "buy": 11.83,
@@ -9,19 +9,19 @@
   },
   "eldorado": {
     "buy": 11.79,
-    "sell": 11.81,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.1,
-    "sell": 11.72,
+    "buy": 12.11,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.04,
-    "sell": 11.69,
+    "buy": 12.05,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -38,8 +38,8 @@
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.91,
-    "sell": 11.66,
+    "buy": 11.92,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -51,7 +51,7 @@
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-14T16:10:56Z"
+    "fetchedAt": "2026-10-14T21:06:26Z"
   },
   "banks": [
     {
@@ -108,73 +108,80 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Bolivia adecúa cálculo de tarifas eléctricas ante variaciones del tipo de cambio",
-      "desc": "La norma apunta a proteger los componentes de los costos frente a la volatilidad cambiaria\nThe post Bolivia adecúa cálculo de tarifas eléctricas ante variaciones del tipo de cambio appeared first on L…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/bolivia-adecua-calculo-de-tarifas-electricas-ante-variaciones-del-tipo-de-cambio/",
-      "date": "2026-10-14T16:03:09Z"
+      "title": "El índice de la inflación en EEUU vuelve a subir en septiembre",
+      "desc": "La inflación continuó por la senda alcista con una subida del 3,7% interanual\nThe post El índice de la inflación en EEUU vuelve a subir en septiembre appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/14/el-indice-de-la-inflacion-en-eeuu-vuelve-a-subir-en-septiembre/",
+      "date": "2026-10-14T20:38:17Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Especialista prevé ajustes más suaves en las tarifas eléctricas",
+      "desc": "El experto Sergio Arnes considera que el Decreto 5750 permitirá variaciones más estables en los precios de electricidad. Explica que las tarifas podrán subir o bajar y que el dólar y la inflación ya f…",
+      "link": "https://eldeber.com.bo/economia/especialista-preve-ajustes-suaves-tarifas-electricas_1792010134",
+      "date": "2026-10-14T20:35:34Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "'Caso maderas' golpea al sector forestal y amenaza con hundir las exportaciones bolivianas en 2026",
+      "desc": "La Cámara Forestal de Bolivia proyecta ventas externas por apenas $us 49,1 millones en 2026. La crisis por la madera retenida en Chile amenaza mercados externos y frena la recuperación forestal",
+      "link": "https://eldeber.com.bo/economia/caso-maderas-golpea-sector-forestal-amenaza-hundir-exportaciones-bolivianas-2026_1792009971",
+      "date": "2026-10-14T20:32:51Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno exige a exportadores de oro traer a Bolivia el 80% de sus divisas",
+      "desc": "El Decreto Supremo 5747 exige acreditar en el sistema financiero nacional divisas equivalentes al 80% del valor computable de las exportaciones anteriores. También elimina las obligaciones de compra y…",
+      "link": "https://eldeber.com.bo/economia/gobierno-exige-exportadores-oro-traer-bolivia-80-divisas_1792009100",
+      "date": "2026-10-14T20:18:20Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Itana, Inara y Aylana: una tierna historia que apela a la solidaridad",
+      "desc": "La abuela de las pequeñas, Luisa Aparicio, también compartió la felicidad que vive la familia y destacó que las trillizas son una bendición. Sin embargo, reconoció que los gastos en productos básicos …",
+      "link": "https://eldeber.com.bo/tarija/itana-inara-aylana-tierna-historia-apela-solidaridad_1792007834",
+      "date": "2026-10-14T19:57:14Z"
     },
     {
       "source": "La Razón",
-      "title": "Rusia espera firmar acuerdo sobre carburantes con EEUU",
-      "desc": "El acuerdo entre Estados Unidos y Rusia sobre el diésel fue criticado por los europeos\nThe post Rusia espera firmar acuerdo sobre carburantes con EEUU appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/14/rusia-espera-firmar-acuerdo-sobre-carburantes-con-eeuu/",
-      "date": "2026-10-14T16:00:22Z"
+      "title": "El petróleo sube por el aumento de las tensiones en Oriente Medio",
+      "desc": "El precio del barril de Brent del mar del Norte, ganó un 0,35% hasta 106,06 dólares.\nThe post El petróleo sube por el aumento de las tensiones en Oriente Medio appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/14/el-petroleo-sube-por-el-aumento-de-las-tensiones-en-oriente-medio/",
+      "date": "2026-10-14T19:56:24Z"
     },
     {
       "source": "La Razón",
-      "title": "Exportadores de oro deben ingresar al país el 80% de divisas por ventas, según decreto",
-      "desc": "El Decreto Supremo 5747 establece que este mecanismo no restringe la libertad de exportación\nThe post Exportadores de oro deben ingresar al país el 80% de divisas por ventas, según decreto appeared fi…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/exportadores-de-oro-deben-ingresar-al-pais-el-80-de-divisas-por-ventas-segun-decreto/",
-      "date": "2026-10-14T15:56:55Z"
+      "title": "Aeropuerto de Cochabamba suspenderá salidas del del 17 al 19 de noviembre",
+      "desc": "Naabol informó que dicha suspensión responde a la mejorar las condiciones del despegue y aterrizaje de las aeronaves.\nThe post Aeropuerto de Cochabamba suspenderá salidas del del 17 al 19 de noviembre…",
+      "link": "https://larazon.bo/ciudades/2026/10/14/aeropuerto-de-cochabamba-suspendera-salidas-del-del-17-al-19-de-noviembre/",
+      "date": "2026-10-14T19:56:16Z"
     },
     {
       "source": "La Razón",
-      "title": "BCB cierra tres operaciones forward de oro por $us 872,5 MM",
-      "desc": "Según el comunicado institucional, el ente emisor adquirió oro en el mercado interno para cumplir con las entregas comprometidas\nThe post BCB cierra tres operaciones forward de oro por $us 872,5 MM ap…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/bcb-cierra-tres-operaciones-forward-de-oro-por-us-8725-mm/",
-      "date": "2026-10-14T15:52:07Z"
+      "title": "Evismo convoca a protestas el 19 de octubre y reprograma la marcha para noviembre",
+      "desc": "El secretario ejecutivo de la confederación, Feliciano Vegamonte, informó que las acciones cuentan con la coordinación de organizaciones sociales y representantes del Pacto de Unidad\nThe post Evismo c…",
+      "link": "https://larazon.bo/nacional/2026/10/14/evismo-convoca-a-protestas-el-19-de-octubre-y-reprograma-la-marcha-para-noviembre/",
+      "date": "2026-10-14T19:50:18Z"
     },
     {
       "source": "La Razón",
-      "title": "Los hutíes atacan Arabia Saudita y el FMI teme impacto global",
-      "desc": "Se trata de una escalada en la guerra que los hutíes mantienen contra la coalición liderada por Riad\nThe post Los hutíes atacan Arabia Saudita y el FMI teme impacto global appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/14/los-huties-atacan-arabia-saudita-y-el-fmi-teme-impacto-global/",
-      "date": "2026-10-14T15:42:41Z"
+      "title": "Cainco plantea libre exportación e importación de bienes en su ley corta",
+      "desc": "La propuesta también incorpora un Régimen de Incentivo para Grandes Inversiones (RIGI) destinado a atraer capitales\nThe post Cainco plantea libre exportación e importación de bienes en su ley corta ap…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/cainco-plantea-libre-exportacion-e-importacion-de-bienes-en-su-ley-corta/",
+      "date": "2026-10-14T19:42:08Z"
     },
     {
       "source": "El Deber",
-      "title": "Fiscalía confirma que hombre asesinado en la zona del Zoológico fue abatido con tres disparos",
-      "desc": "La víctima de 26 años, se encontraba en un taller mecánico, donde un sujeto armado irrumpió el lugar caminando y arremetió contra la vida de Johan Guzmán Parada. El sicario escapó en una motocicleta j…",
-      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-confirma-hombre-asesinado-zona-zoologico-fue-abatido-tres-disparos_1791991275",
-      "date": "2026-10-14T15:21:15Z"
+      "title": "Hijos de Ramón lleva el diseño boliviano a República Dominicana",
+      "desc": "La firma cruceña, fundada por Carlos Arauz y Fernando Justiniano, presentará 30 outfits en una pasarela internacional",
+      "link": "https://eldeber.com.bo/sociales/hijos-ramon-lleva-diseno-boliviano-republica-dominicana_1792006532",
+      "date": "2026-10-14T19:35:32Z"
     },
     {
-      "source": "El Deber",
-      "title": "Tarifas eléctricas se ajustarán con el dólar promedio y la inflación",
-      "desc": "El Decreto Supremo 5750 modifica el cálculo de precios de generación, transmisión y distribución ante los cambios del régimen cambiario. La norma establece promedios del tipo de cambio oficial y no fi…",
-      "link": "https://eldeber.com.bo/economia/tarifas-electricas-ajustaran-dolar-promedio-inflacion_1791991232",
-      "date": "2026-10-14T15:20:32Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "FIFA propondrá una financiación de 6.350 millones para el desarrollo en ciclo 2027-2030",
-      "desc": "La FIFA propondrá este jueves en la reunión de su Consejo una financiación de 6.350 millones de dólares para el desarrollo del fútbol durante el ciclo de 2027 a 2030, ante los ingresos comerciales exc…",
-      "link": "https://eldeber.com.bo/deportes/fifa-propondra-financiacion-6-350-millones-desarrollo-ciclo-2027-2030_1791990914",
-      "date": "2026-10-14T15:15:14Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Alcaldía propone ley para liberar de deudas a quienes vendieron sus autos y siguen figurando como dueños",
-      "desc": "El proyecto de Ley de Desvinculación Tributaria busca que los antiguos propietarios dejen de acumular impuestos por vehículos que ya vendieron. También contempla bloquear el abastecimiento de combusti…",
-      "link": "https://eldeber.com.bo/santa-cruz/alcaldia-propone-ley-liberar-deudas-quienes-vendieron-autos-siguen-figurando-duenos_1791990156",
-      "date": "2026-10-14T15:02:36Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "“Ahí está su octubre señores”: Ministro Bascopé dice que el entorno de Evo “va siendo desolador”",
-      "desc": "El ministro Williams Bascopé considera que “el ambiente político ha frenado en su tenacidad y desenfreno”",
-      "link": "https://eldeber.com.bo/pais/ahi-esta-octubre-senores-ministro-bascope-dice-entorno-evo-va-siendo-desolador_1791989452",
-      "date": "2026-10-14T14:50:52Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre - Infobae",
+      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTk52WHhyWjVRS3RmQUI4aFFURmZkT0dCZ2RRZS1JNXVzTmNTajBQVDZUcmU5WTU1bk13Sjh4UG9qWkp4ZFFHZi0xNXA1NkpZS0ZOZmVzak1CZXFKbm8wbXYzZHdicFluTGxjdFFOQkJyUGdWcVNTUlFHS3ZrZGZ4VnFQN1BjZ0dEcHQ4RDNsWW1jdk1yVmh3NUt5X283YVZrRXNhb2hqZ2xhd1BTQ1ZIZnMzMUNHZ9IB0AFBVV95cUxOU1dyQjFzU01tOUFIQUJSOHVqbmd3RzdrS2t2LVZ3M0tySC12Yjc3ZGZsVlN4NmN0bGRRVEoxWEx3YzBRckZ1MF9ieUpLQzZoZV93MC0wel9ZdG9aRDdtNE4tXzVITlNZeDdvaW1VUmE5UjA2dHRMZ2hJNFdfQ3o3ZHZEbmxjaFFXTDFINFI2bkJpUy1RdndXZU9jVVVlbFRxR2EycnZ0MzJoSHVXOHJiRmlqc21nV2F5dGtreTA1VzdGZHNhTnh5THdLd0lXdVli?oc=5",
+      "date": "2026-10-14T19:21:15Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -185,10 +192,10 @@
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "Cainco dice que ley de inversiones puede generar recursos para pagar crédito del FMI y revertir proyección negativa de la economía - unitel.bo",
-      "desc": "Cainco dice que ley de inversiones puede generar recursos para pagar crédito del FMI y revertir proyección negativa de la economía&nbsp;&nbsp;unitel.bo",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcDdqTFNUTURvcGlrOGtqMkp5ZUNfTUJoTENWQi1TTFNBYU8wMmF1OFU2czloeWxKMFo3Rk0zeTFDb3ppbEpKREU3QU1hYll4YTM5NWhJZlpXZWQyNzFwRVdyNXBTdHhYOWJaeUlvRVJDUmtobXNjdG94alZ5aHFFLW10RUVqUkJCWElUbjFGR1lFRFdwRDhDUDBqLWlIaUFsZzcyNWZGRmtBTFhBTHRPUkVPSkQ4a1JuZmRabWVWbEp6aTRseDVhMFBsOWRfVWcxRlV4VVJTUFJiT1VXZmFTR2pBM1IycV9pWF9XME84aXVKazJVaGxFU05xYVpQR2hKOFY2NlU0TEc?oc=5",
-      "date": "2026-10-14T12:11:55Z"
+      "title": "FMI proyecta una contracción económica de -3% para Bolivia - El Diario - Bolivia",
+      "desc": "FMI proyecta una contracción económica de -3% para Bolivia&nbsp;&nbsp;El Diario - Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZklTVW1XbkxRV0oxcnpSWWh1RjNCNTBzQXcwZE5OMC1PbEJfVm85X0VJbzQyb1pQX0QwSTBRRlNNbElta05PbjB1TTdlMFhkYUowZGdUWjd0Q0hIV1dwSnJ3WnFKUnNKM3FJb2xfME9mZ2ZUeDBDSlBrV1VFNk5vTWsxdmI0Q2Q1LTVSdDluQ2Ztc2ZYaXdQWW1CRG4yYkxmdFl5Tg?oc=5",
+      "date": "2026-10-14T10:42:16Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -220,10 +227,10 @@
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde - Red Uno",
-      "desc": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTBGM0VxTjg0ampMeG5fNnlCeWR3ZTMxMHVvaTVQdjVfb19qdzJXTWk1cS1rQTU3VlVKRjk3RnFfTDNwY0VrenlfSi1JbUxSNVNhNGtEdFN4RHJnbWw4MnZ2M2JUemRkbWk4QjRtdnJHSElDNHdZQllPZXgwdlpHNllYVXF4dzN6OVhEb3A4VTlkUVdhd2VtU2hxRUJ0LTZFQkhlanllczY2dDd1MlZfcEZwcFRPV0xfY3YxNHNpelRtaFVyaDB4Tg?oc=5",
-      "date": "2026-10-13T16:57:52Z"
+      "title": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia - Red Uno",
+      "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzFEZTlRNlJNR0xVTXRBTkFheWV5RFcyWlhUV25WZ2E3cmxGSmthOVFjaVF4VFVVdzVYUzNxNmRBc21WWXdFU2x2d2JTR1ItNXl5QnVHbk5ySDhjYXVveGo1SU1SLWNHQ3Y4VzdpZ2NpX1lkUW0yQ2dSeDlkWFA3MjBhMzhyVHdyaVdwYkVxOUx1TzFoZnh1ZjRuQ0Zka3htS09tRVBaMHRjQ3RndmJlOA?oc=5",
+      "date": "2026-10-13T11:12:51Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -273,13 +280,6 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
       "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: cotización de cierre del 23 de septiembre - Infobae",
-      "desc": "Dólar hoy en Bolivia: cotización de cierre del 23 de septiembre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOelZzSjVlbWFOVC1CNEowSmswTlA2Vm1BQnpUS1dwX3AyYnFvbEtrREFMczBpWFFlQWRRaEpUdTJaYk5ndExuNloyb1hXOWRQMjI4Q3VHV1ZFaUtyczY3VHMxNlhsMXdXNzExcXk0NUVSc1Z6NVI0cUhJZlJUaUdJYVpXWEplM2F4QVh5emdiV3I1eFhGSVNEYjJjdG9tNEFiSzJEY0FVY3NaVTTSAcYBQVVfeXFMUHg4a25Ld0JidUUwN3F5RHo3bDFBMTd3ZnNIajE2aGdvNG44M1BHT0pJQi1YTmw5NVJvSU1fWURtbWFBVUR4NkFIV1ZCa1Zmb2VJbzVtSndKRnpiSlhITDBmRzlBdDdxZkFWcVZtUXVxS3lRTUhBbmJrUmpPeC00Q3dOME02OU9GeU8wM0Y5WlJmYnoxaGJhZUJpX3BhOHNfUGNsVVJhdVhEV0lsTzRsXzltVTFyT2Y4bkxUQ0pCUVF2aFM1ZHB3?oc=5",
-      "date": "2026-09-23T07:00:00Z"
     }
   ],
   "prediction": {
