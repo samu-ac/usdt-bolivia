@@ -1,57 +1,57 @@
 {
-  "lastUpdated": "2026-10-14T03:48:03Z",
-  "displayDate": "martes 13 de octubre, 2026",
+  "lastUpdated": "2026-10-14T16:11:04Z",
+  "displayDate": "miercoles 14 de octubre, 2026",
   "binance": {
-    "buy": 11.84,
-    "sell": 11.9,
+    "buy": 11.83,
+    "sell": 11.87,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.81,
-    "sell": 11.8,
+    "buy": 11.79,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.13,
-    "sell": 11.73,
+    "buy": 12.1,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.05,
-    "sell": 11.7,
+    "buy": 12.04,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.11,
-    "sell": 11.59,
+    "buy": 12.09,
+    "sell": 11.58,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.87,
-    "sell": 11.86,
+    "buy": 11.86,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.92,
-    "sell": 11.67,
+    "buy": 11.91,
+    "sell": 11.66,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.84,
-    "referentialSell": 11.9,
+    "referentialBuy": 11.83,
+    "referentialSell": 11.87,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-14T03:47:48Z"
+    "fetchedAt": "2026-10-14T16:10:56Z"
   },
   "banks": [
     {
@@ -107,53 +107,95 @@
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Caso Hotel Las Américas: citan a Rubén Costas y buscan esclarecer el papel de exautoridades del gobierno de Evo Morales",
-      "desc": "Alfredo Saucedo, uno de los denunciantes, reveló que la Fiscalía emitió las primeras citaciones para recibir declaraciones testificales y solicitará información sobre la participación de exfiscales, j…",
-      "link": "https://eldeber.com.bo/santa-cruz/caso-hotel-americas-citan-ruben-costas-buscan-esclarecer-papel-exautoridades-gobierno-evo-morales_1791947157",
-      "date": "2026-10-14T03:05:57Z"
+      "source": "La Razón",
+      "title": "Bolivia adecúa cálculo de tarifas eléctricas ante variaciones del tipo de cambio",
+      "desc": "La norma apunta a proteger los componentes de los costos frente a la volatilidad cambiaria\nThe post Bolivia adecúa cálculo de tarifas eléctricas ante variaciones del tipo de cambio appeared first on L…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/bolivia-adecua-calculo-de-tarifas-electricas-ante-variaciones-del-tipo-de-cambio/",
+      "date": "2026-10-14T16:03:09Z"
     },
     {
       "source": "La Razón",
-      "title": "Aramayo afirma que no hay solicitud de extradición contra Mariaca",
-      "desc": "El exfiscal general cumple detención preventiva en Cantumarca, Potosí. Es investigado por presuntos delitos de narcotráfico y legitimación de ganancias ilícitas.\nThe post Aramayo afirma que no hay sol…",
-      "link": "https://larazon.bo/nacional/2026/10/13/aramayo-afirma-que-no-hay-solicitud-de-extradicion-contra-mariaca/",
-      "date": "2026-10-14T02:54:42Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aprehenden a exfiscal coordinador de La Paz y es trasladado a la Felcn",
-      "desc": "El exfiscal no declaró y se acogió a su derecho a guardar silencio. La nueva fiscal departamental de La Paz, Tania Alfaro, afirmó en horas de la mañana que Rojas había solicitado vacaciones, razón por…",
-      "link": "https://eldeber.com.bo/pais/aprehenden-exfiscal-coordinador-paz-trasladado-felcn_1791946390",
-      "date": "2026-10-14T02:53:10Z"
+      "title": "Rusia espera firmar acuerdo sobre carburantes con EEUU",
+      "desc": "El acuerdo entre Estados Unidos y Rusia sobre el diésel fue criticado por los europeos\nThe post Rusia espera firmar acuerdo sobre carburantes con EEUU appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/14/rusia-espera-firmar-acuerdo-sobre-carburantes-con-eeuu/",
+      "date": "2026-10-14T16:00:22Z"
     },
     {
       "source": "La Razón",
-      "title": "Gabinete de Paz prioriza energía, hidrocarburos y economía",
-      "desc": "El ministro Erick Sanjinés informó que la reunión de este martes abordó tres áreas estratégicas. Aseguró que no se trataron proyectos de ley.\nThe post Gabinete de Paz prioriza energía, hidrocarburos y…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/gabinete-de-paz-prioriza-energia-hidrocarburos-y-economia/",
-      "date": "2026-10-14T02:50:36Z"
+      "title": "Exportadores de oro deben ingresar al país el 80% de divisas por ventas, según decreto",
+      "desc": "El Decreto Supremo 5747 establece que este mecanismo no restringe la libertad de exportación\nThe post Exportadores de oro deben ingresar al país el 80% de divisas por ventas, según decreto appeared fi…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/exportadores-de-oro-deben-ingresar-al-pais-el-80-de-divisas-por-ventas-segun-decreto/",
+      "date": "2026-10-14T15:56:55Z"
     },
     {
       "source": "La Razón",
-      "title": "Tóásó busca justicia para cerrar la ‘pesadilla’ del caso Terrorismo",
-      "desc": "El sobreviviente del operativo del Hotel Las Américas espera que avance el proceso contra Evo Morales y Álvaro García Linera, aunque expresó dudas sobre el procedimiento judicial.\nThe post Tóásó busca…",
-      "link": "https://larazon.bo/nacional/2026/10/13/toaso-busca-justicia-para-cerrar-la-pesadilla-del-caso-terrorismo/",
-      "date": "2026-10-14T02:30:37Z"
+      "title": "BCB cierra tres operaciones forward de oro por $us 872,5 MM",
+      "desc": "Según el comunicado institucional, el ente emisor adquirió oro en el mercado interno para cumplir con las entregas comprometidas\nThe post BCB cierra tres operaciones forward de oro por $us 872,5 MM ap…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/bcb-cierra-tres-operaciones-forward-de-oro-por-us-8725-mm/",
+      "date": "2026-10-14T15:52:07Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Los hutíes atacan Arabia Saudita y el FMI teme impacto global",
+      "desc": "Se trata de una escalada en la guerra que los hutíes mantienen contra la coalición liderada por Riad\nThe post Los hutíes atacan Arabia Saudita y el FMI teme impacto global appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/14/los-huties-atacan-arabia-saudita-y-el-fmi-teme-impacto-global/",
+      "date": "2026-10-14T15:42:41Z"
     },
     {
       "source": "El Deber",
-      "title": "Más allá del ajuste, se precisa una propuesta para que Bolivia vuelva a crecer",
-      "desc": "Ruta. La estabilización monetaria y fiscal no basta para recuperar el crecimiento. Carlos Aranda plantea una agenda de reformas institucionales, tributarias y laborales",
-      "link": "https://eldeber.com.bo/dinero/alla-ajuste-precisa-propuesta-bolivia-vuelva-crecer_1791944992",
-      "date": "2026-10-14T02:29:52Z"
+      "title": "Fiscalía confirma que hombre asesinado en la zona del Zoológico fue abatido con tres disparos",
+      "desc": "La víctima de 26 años, se encontraba en un taller mecánico, donde un sujeto armado irrumpió el lugar caminando y arremetió contra la vida de Johan Guzmán Parada. El sicario escapó en una motocicleta j…",
+      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-confirma-hombre-asesinado-zona-zoologico-fue-abatido-tres-disparos_1791991275",
+      "date": "2026-10-14T15:21:15Z"
     },
     {
       "source": "El Deber",
-      "title": "Agro Vidas apuesta por la pitahaya y suma la ganadería a su propuesta productiva",
-      "desc": "Evento. La feria organizada por Fundacruz se llevará a cabo del 15 al 17 de octubre, en la carretera al Norte, Km 40, entre Warnes y Montero. Espera superar las 3.500 visitas",
-      "link": "https://eldeber.com.bo/dinero/agro-vidas-apuesta-pitahaya-suma-ganaderia-propuesta-productiva_1791944422",
-      "date": "2026-10-14T02:20:22Z"
+      "title": "Tarifas eléctricas se ajustarán con el dólar promedio y la inflación",
+      "desc": "El Decreto Supremo 5750 modifica el cálculo de precios de generación, transmisión y distribución ante los cambios del régimen cambiario. La norma establece promedios del tipo de cambio oficial y no fi…",
+      "link": "https://eldeber.com.bo/economia/tarifas-electricas-ajustaran-dolar-promedio-inflacion_1791991232",
+      "date": "2026-10-14T15:20:32Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "FIFA propondrá una financiación de 6.350 millones para el desarrollo en ciclo 2027-2030",
+      "desc": "La FIFA propondrá este jueves en la reunión de su Consejo una financiación de 6.350 millones de dólares para el desarrollo del fútbol durante el ciclo de 2027 a 2030, ante los ingresos comerciales exc…",
+      "link": "https://eldeber.com.bo/deportes/fifa-propondra-financiacion-6-350-millones-desarrollo-ciclo-2027-2030_1791990914",
+      "date": "2026-10-14T15:15:14Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Alcaldía propone ley para liberar de deudas a quienes vendieron sus autos y siguen figurando como dueños",
+      "desc": "El proyecto de Ley de Desvinculación Tributaria busca que los antiguos propietarios dejen de acumular impuestos por vehículos que ya vendieron. También contempla bloquear el abastecimiento de combusti…",
+      "link": "https://eldeber.com.bo/santa-cruz/alcaldia-propone-ley-liberar-deudas-quienes-vendieron-autos-siguen-figurando-duenos_1791990156",
+      "date": "2026-10-14T15:02:36Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "“Ahí está su octubre señores”: Ministro Bascopé dice que el entorno de Evo “va siendo desolador”",
+      "desc": "El ministro Williams Bascopé considera que “el ambiente político ha frenado en su tenacidad y desenfreno”",
+      "link": "https://eldeber.com.bo/pais/ahi-esta-octubre-senores-ministro-bascope-dice-entorno-evo-va-siendo-desolador_1791989452",
+      "date": "2026-10-14T14:50:52Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
+      "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
+      "date": "2026-10-14T14:04:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Cainco dice que ley de inversiones puede generar recursos para pagar crédito del FMI y revertir proyección negativa de la economía - unitel.bo",
+      "desc": "Cainco dice que ley de inversiones puede generar recursos para pagar crédito del FMI y revertir proyección negativa de la economía&nbsp;&nbsp;unitel.bo",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcDdqTFNUTURvcGlrOGtqMkp5ZUNfTUJoTENWQi1TTFNBYU8wMmF1OFU2czloeWxKMFo3Rk0zeTFDb3ppbEpKREU3QU1hYll4YTM5NWhJZlpXZWQyNzFwRVdyNXBTdHhYOWJaeUlvRVJDUmtobXNjdG94alZ5aHFFLW10RUVqUkJCWElUbjFGR1lFRFdwRDhDUDBqLWlIaUFsZzcyNWZGRmtBTFhBTHRPUkVPSkQ4a1JuZmRabWVWbEp6aTRseDVhMFBsOWRfVWcxRlV4VVJTUFJiT1VXZmFTR2pBM1IycV9pWF9XME84aXVKazJVaGxFU05xYVpQR2hKOFY2NlU0TEc?oc=5",
+      "date": "2026-10-14T12:11:55Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: Bolivia decrecerá un 3% en 2026 y otro 1,5% en 2027 - Correo del Sur",
+      "desc": "FMI: Bolivia decrecerá un 3% en 2026 y otro 1,5% en 2027&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHk5TmdCTUtwc2FyRmNrcGN3WE5JTmlrcjZBQ2JYajNna0R6amg2VlZ3eHBsN3hxQkdGMDlzV2hsZDNQMUJ6T0NwbWgweWpaUnBVd0VRYlF2ZTVVZWhNMzM1Y0hDRV85U08xVjNwcFdIejhDWjg0a3hGQVRKcFA1SVlfWU5NOHlMdkxuckVtcHpjWXdzYkVrejFrV3gzSDdRcU13?oc=5",
+      "date": "2026-10-14T06:04:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -163,53 +205,11 @@
       "date": "2026-10-14T02:00:43Z"
     },
     {
-      "source": "El Deber",
-      "title": "Investigan posible ajuste de cuentas de hombre victimado en su vagoneta en Villa Tunari",
-      "desc": "Ahora la Fiscalía y la Policía busca identificar a los autores y determinar su grado de participación en el crimen del hombre que estaba desaparecido",
-      "link": "https://eldeber.com.bo/santa-cruz/investigan-posible-ajuste-cuentas-hombre-victimado-vagoneta-villa-tunari_1791941308",
-      "date": "2026-10-14T01:28:28Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Cae un exgerente del BCB por supuesto daño de Bs 4,5 MM",
-      "desc": "La investigación apunta a un posible daño económico superior a Bs 4,5 millones. La adquisición fue autorizada en abril de 2024.\nThe post Cae un exgerente del BCB por supuesto daño de Bs 4,5 MM appeare…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/13/cae-un-exgerente-del-bcb-por-supuesto-dano-de-bs-45-mm/",
-      "date": "2026-10-14T01:07:26Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Waskiri-Sat, primer nanosatélite hecho en Bolivia será operado por la UCB y la ABE",
-      "desc": "Su lanzamiento está previsto para noviembre de 2028. La ABE aportará su infraestructura terrestre (estaciones).\nThe post Waskiri-Sat, primer nanosatélite hecho en Bolivia será operado por la UCB y la …",
-      "link": "https://larazon.bo/sociedad/2026/10/13/waskiri-sat-primer-nanosatelite-hecho-en-bolivia-sera-operado-por-la-ucb-y-la-abe/",
-      "date": "2026-10-14T00:05:43Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "El dólar en Bolivia cierra con leve repunte en el paralelo - La Patria Bolivia",
       "desc": "El dólar en Bolivia cierra con leve repunte en el paralelo&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMEtrVUt2U0x2TWFfQWRRTDVNZVRDUklVazRhYkNzUHhyVHJNcG80RDd3MVoyVDh4ZXVjRVV0Vm9HU3h4SHlaaHZZY0hEMm5TcS1OcW96OUFnLTI0X1pNU0dWQkF1M2NNNXdydWZ3QUx5YzRZWXg3Tm5VT1RqaGxYVEFHQUtGODl3NG5WM2dqOVZfQQ?oc=5",
-      "date": "2026-10-13T23:55:39Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia registraría una caída de 3% en su economía durante 2026 - Rumbo Minero",
-      "desc": "Bolivia registraría una caída de 3% en su economía durante 2026&nbsp;&nbsp;Rumbo Minero",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT3JKSllZOVpBNEI3UjUyQUdNaTZFRVpwZVVieTlBUWdLTG1LSTRwTXpOTlZzU1RPS3BncExPZnB4NUY3Z0RkOU5hb01Yel9pYnV1VkVLcDYxUzQ5cVdUSkNNTFNIRDc0VmU2ZWJDVjZuczNBcVplaGN4MWszSlJ3S3VGcDBxdnNtSnE2M2pJY1FXUXFCWG5sU2xtLWhSdHhYSVpBcVlsSQ?oc=5",
-      "date": "2026-10-13T23:02:14Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia, la única economía de Sudamérica que decrecerá este año y el próximo, según el FMI - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "Bolivia, la única economía de Sudamérica que decrecerá este año y el próximo, según el FMI&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQczgxM1JFbWk1cWlKY08tZGZtRUJ3QTY2aUo1WDVfa0dSRnIwZG1uSF9ScXh3bURyV1lkZnRJQXI0LUE1YmNuMmN0STFSVVV0ME9oeDkzdVNwWENrclRDVDJQczdxckdGSVlYOUx6WVQwSGU2Yy0xM2dZeDdMRnUtN1kyVkFSVzVQckJzcER4MUQ1QTFIQVBMRXMxdlVfRzdpOVlSbFpPRmdKVWdLMEdRdEUzdjhaOVQtS21ORTJ3ZERLTGE2X2l1UjBGRDgwMi0xS1BndQ?oc=5",
-      "date": "2026-10-13T21:16:09Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia sufrirá una contracción económica en 2026 y 2027, según FMI - La Patria Bolivia",
-      "desc": "Bolivia sufrirá una contracción económica en 2026 y 2027, según FMI&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMUdxMlloRjJXT01CMGlQUDNnUEtCWEhqNGtyMlg4RFJyQlRLWFpyWFVVTUVyN2JmY09CQ3lPSWd4RGhKWFVKZXE5M3JaaWxJbjNWWHZKTkVGY3RLbC10YTkzejR1MjhqMC1zb1lXNDNGbHpnMWNscHoxNU12aXlZVzY3U3paUXJvM240?oc=5",
-      "date": "2026-10-13T20:22:39Z"
+      "date": "2026-10-13T23:58:29Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -224,13 +224,6 @@
       "desc": "Dólar paralelo en Bolivia: estas son las cotizaciones de este martes por la tarde&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTBGM0VxTjg0ampMeG5fNnlCeWR3ZTMxMHVvaTVQdjVfb19qdzJXTWk1cS1rQTU3VlVKRjk3RnFfTDNwY0VrenlfSi1JbUxSNVNhNGtEdFN4RHJnbWw4MnZ2M2JUemRkbWk4QjRtdnJHSElDNHdZQllPZXgwdlpHNllYVXF4dzN6OVhEb3A4VTlkUVdhd2VtU2hxRUJ0LTZFQkhlanllczY2dDd1MlZfcEZwcFRPV0xfY3YxNHNpelRtaFVyaDB4Tg?oc=5",
       "date": "2026-10-13T16:57:52Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones - El Potosí",
-      "desc": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones&nbsp;&nbsp;El Potosí",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR1VDbVhraTdOUDhZWXJ0UlhPX0lFR1JoMkM2Y0V4MjN6M2o1RENWa1BKVHV0VzNWbERUU2RybGQ0cGlUVmJWYWlWSkFSRTZUb3ZubkxCVzZlYjJiSkxvcEloZm9Ua2diN2R0bVo5QW83OVpWbW5RZjFpb3lYdHpsVFhHSEs0ODJBT1I0OXhqOXN0aURQR2ZhMHFIajdjYjI5MUVhM1ItVXNmUXNTWG5oZFgyOWxTeC1QdEZhRW5Wakx3a3c?oc=5",
-      "date": "2026-10-10T15:31:22Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -268,25 +261,32 @@
       "date": "2026-10-08T07:00:00Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "Estafas al comprar USDT en Bolivia: así operan los falsos vendedores y cómo evitarlos - Criptoinforme",
-      "desc": "Estafas al comprar USDT en Bolivia: así operan los falsos vendedores y cómo evitarlos&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyMTNWSkh6Sk5lVURFZHZEazdiUGp6Wmt2djVlQW1sWlpmM1Nrb2xnM3Q0SEhOdFlNRXU1RDM1cHJ0c2F2SUdsQ0JuNnp3MHhkMzZRaFk1bWZZUk05VkZjcU8zRWg2dw?oc=5",
-      "date": "2026-10-07T17:29:50Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
-      "date": "2026-10-06T14:52:54Z"
+      "date": "2026-10-06T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Instituto Nacional de Estadística",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: cotización de cierre del 23 de septiembre - Infobae",
+      "desc": "Dólar hoy en Bolivia: cotización de cierre del 23 de septiembre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOelZzSjVlbWFOVC1CNEowSmswTlA2Vm1BQnpUS1dwX3AyYnFvbEtrREFMczBpWFFlQWRRaEpUdTJaYk5ndExuNloyb1hXOWRQMjI4Q3VHV1ZFaUtyczY3VHMxNlhsMXdXNzExcXk0NUVSc1Z6NVI0cUhJZlJUaUdJYVpXWEplM2F4QVh5emdiV3I1eFhGSVNEYjJjdG9tNEFiSzJEY0FVY3NaVTTSAcYBQVVfeXFMUHg4a25Ld0JidUUwN3F5RHo3bDFBMTd3ZnNIajE2aGdvNG44M1BHT0pJQi1YTmw5NVJvSU1fWURtbWFBVUR4NkFIV1ZCa1Zmb2VJbzVtSndKRnpiSlhITDBmRzlBdDdxZkFWcVZtUXVxS3lRTUhBbmJrUmpPeC00Q3dOME02OU9GeU8wM0Y5WlJmYnoxaGJhZUJpX3BhOHNfUGNsVVJhdVhEV0lsTzRsXzltVTFyT2Y4bkxUQ0pCUVF2aFM1ZHB3?oc=5",
+      "date": "2026-09-23T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.8,
-    "sellTomorrow": 11.86,
-    "changeBuy": -0.04,
-    "changeSell": -0.04,
+    "sellTomorrow": 11.84,
+    "changeBuy": -0.03,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4216,6 +4216,11 @@
       "date": "2026-10-13",
       "buy": 11.84,
       "sell": 11.9
+    },
+    {
+      "date": "2026-10-14",
+      "buy": 11.83,
+      "sell": 11.87
     }
   ]
 }
