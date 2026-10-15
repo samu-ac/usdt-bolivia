@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-14T21:06:32Z",
+  "lastUpdated": "2026-10-15T00:11:21Z",
   "displayDate": "miercoles 14 de octubre, 2026",
   "binance": {
-    "buy": 11.83,
-    "sell": 11.87,
+    "buy": 11.84,
+    "sell": 11.88,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.79,
-    "sell": 11.8,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.11,
-    "sell": 11.73,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.05,
-    "sell": 11.7,
+    "buy": 12.04,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.86,
-    "sell": 11.84,
+    "buy": 11.84,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.92,
-    "sell": 11.7,
+    "buy": 11.99,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.83,
-    "referentialSell": 11.87,
+    "referentialBuy": 11.84,
+    "referentialSell": 11.88,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-14T21:06:26Z"
+    "fetchedAt": "2026-10-15T00:11:14Z"
   },
   "banks": [
     {
@@ -107,81 +107,81 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "El índice de la inflación en EEUU vuelve a subir en septiembre",
-      "desc": "La inflación continuó por la senda alcista con una subida del 3,7% interanual\nThe post El índice de la inflación en EEUU vuelve a subir en septiembre appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/14/el-indice-de-la-inflacion-en-eeuu-vuelve-a-subir-en-septiembre/",
-      "date": "2026-10-14T20:38:17Z"
+      "source": "El Deber",
+      "title": "“Me mantuve firme, confié y lo pude sacar adelante”: Dellien destaca su fortaleza mental",
+      "desc": "El tenista boliviano venció a Rodrigo Pacheco por 6-3 y 7-5 para avanzar a los cuartos de final del Bolivia Open. Reconoció que el viento y los nervios complicaron el partido y ya se prepara para enfr…",
+      "link": "https://eldeber.com.bo/deportes/me-mantuve-firme-confie-pude-sacar-adelante-dellien-destaca-fortaleza-mental_1792021617",
+      "date": "2026-10-14T23:46:57Z"
     },
     {
       "source": "El Deber",
-      "title": "Especialista prevé ajustes más suaves en las tarifas eléctricas",
-      "desc": "El experto Sergio Arnes considera que el Decreto 5750 permitirá variaciones más estables en los precios de electricidad. Explica que las tarifas podrán subir o bajar y que el dólar y la inflación ya f…",
-      "link": "https://eldeber.com.bo/economia/especialista-preve-ajustes-suaves-tarifas-electricas_1792010134",
-      "date": "2026-10-14T20:35:34Z"
+      "title": "Hugo Dellien vence a Rodrigo Pacheco y mantiene vivo el sueño de revalidar la corona",
+      "desc": "El boliviano venció al mexicano Rodrigo Pacheco por 6-3 y 7-5 y se enfrentará al brasileño Luis ‘Guto’ Miguel en los cuartos de final del Bolivia Open.",
+      "link": "https://eldeber.com.bo/deportes/hugo-dellien-vence-rodrigo-pacheco-mantiene-vivo-sueno-revalidar-corona_1792019631",
+      "date": "2026-10-14T23:13:51Z"
     },
     {
       "source": "El Deber",
-      "title": "'Caso maderas' golpea al sector forestal y amenaza con hundir las exportaciones bolivianas en 2026",
-      "desc": "La Cámara Forestal de Bolivia proyecta ventas externas por apenas $us 49,1 millones en 2026. La crisis por la madera retenida en Chile amenaza mercados externos y frena la recuperación forestal",
-      "link": "https://eldeber.com.bo/economia/caso-maderas-golpea-sector-forestal-amenaza-hundir-exportaciones-bolivianas-2026_1792009971",
-      "date": "2026-10-14T20:32:51Z"
+      "title": "Kylian Mbappé, jugador más joven de la historia en llegar a 100 partidos en Champions",
+      "desc": "El francés Kylian Mbappé (27 años y 298 días) se convirtió, al ser alineado en el encuentro del Real Madrid ante la Roma, en el jugador más joven de la historia en llegar a 100 partidos disputados en …",
+      "link": "https://eldeber.com.bo/deportes/kylian-mbappe-jugador-joven-historia-llegar-100-partidos-champions_1792019437",
+      "date": "2026-10-14T23:10:58Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial - eju.tv",
+      "desc": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial&nbsp;&nbsp;eju.tv",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXpZSXEtTUxvUFdYcWtiVW80N2ZidjFkelo4MWdiRUJvSC1GZVVEVFVvUU1yekJLcEVNc25NVnhQWWsxblRDU0ZpTGVRVE16OFR0VVZOSDRuSi1teDJwTDZ2V2tySXdubW1kOURCMTFfc1NaWFVUSDFfaHB6cEl5VFVKVE9lZEw1RnczXzYwQmJndXZEaFBnX2hsdjlkcnZ0U0lvUDNpYXBZOTdLU0ROTXM2VzRXOHY5VHBpUHpCSUhWaVpu?oc=5",
+      "date": "2026-10-14T23:10:16Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Industriales piden frenar cobro de Bs 744 MM a Soboce mientras se analiza el caso",
+      "desc": "La Cámara Nacional de Industrias y otros gremios empresariales advierten sobre los efectos del proceso en la seguridad jurídica, las inversiones y el empleo\nThe post Industriales piden frenar cobro de…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/industriales-piden-frenar-cobro-de-bs-744-mm-a-soboce-mientras-se-analiza-el-caso/",
+      "date": "2026-10-14T22:44:02Z"
     },
     {
       "source": "El Deber",
-      "title": "Gobierno exige a exportadores de oro traer a Bolivia el 80% de sus divisas",
-      "desc": "El Decreto Supremo 5747 exige acreditar en el sistema financiero nacional divisas equivalentes al 80% del valor computable de las exportaciones anteriores. También elimina las obligaciones de compra y…",
-      "link": "https://eldeber.com.bo/economia/gobierno-exige-exportadores-oro-traer-bolivia-80-divisas_1792009100",
-      "date": "2026-10-14T20:18:20Z"
+      "title": "Pacientes con cáncer invitan a la 'caminata por la vida' este domingo 18 de octubre",
+      "desc": "La caminata partirá del frontis del hospital Oncológico y concluirá en Manzana 40. Es una de las actividades que se realiza para tomar conciencia de la lucha contra el cáncer de mama",
+      "link": "https://eldeber.com.bo/santa-cruz/pacientes-cancer-invitan-caminata-vida-este-domingo-18-octubre_1792017497",
+      "date": "2026-10-14T22:38:17Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Senado sanciona proyecto de prescripción y consolidación de depósitos judiciales",
+      "desc": "La norma permitirá destinar depósitos judiciales no reclamados al equipamiento tecnológico, la contratación de personal de apoyo y la mejora de las casas judiciales.\nThe post Senado sanciona proyecto …",
+      "link": "https://larazon.bo/nacional/2026/10/14/senado-sanciona-proyecto-de-prescripcion-y-consolidacion-de-depositos-judiciales/",
+      "date": "2026-10-14T22:28:58Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Santa Cruz: Gobernación lanza campaña de prevención del cáncer de Mama",
+      "desc": "La iniciativa “Octubre Rosa” busca promover la detección temprana y los controles médicos para reducir las muertes por esta enfermedad.\nThe post Santa Cruz: Gobernación lanza campaña de prevención del…",
+      "link": "https://larazon.bo/sociedad/2026/10/14/santa-cruz-gobernacion-lanza-campana-de-prevencion-del-cancer-de-mama/",
+      "date": "2026-10-14T22:23:17Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Depósitos por QR en cajas llegan a 31 agencias de la banca pública",
+      "desc": "El servicio permite a los clientes transferir dinero desde una aplicación de banca móvil o billetera digital, sin necesidad de llevar efectivo a las sucursales\nThe post Depósitos por QR en cajas llega…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/depositos-por-qr-en-cajas-llegan-a-31-agencias-de-la-banca-publica/",
+      "date": "2026-10-14T22:20:37Z"
     },
     {
       "source": "El Deber",
-      "title": "Itana, Inara y Aylana: una tierna historia que apela a la solidaridad",
-      "desc": "La abuela de las pequeñas, Luisa Aparicio, también compartió la felicidad que vive la familia y destacó que las trillizas son una bendición. Sin embargo, reconoció que los gastos en productos básicos …",
-      "link": "https://eldeber.com.bo/tarija/itana-inara-aylana-tierna-historia-apela-solidaridad_1792007834",
-      "date": "2026-10-14T19:57:14Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "El petróleo sube por el aumento de las tensiones en Oriente Medio",
-      "desc": "El precio del barril de Brent del mar del Norte, ganó un 0,35% hasta 106,06 dólares.\nThe post El petróleo sube por el aumento de las tensiones en Oriente Medio appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/14/el-petroleo-sube-por-el-aumento-de-las-tensiones-en-oriente-medio/",
-      "date": "2026-10-14T19:56:24Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Aeropuerto de Cochabamba suspenderá salidas del del 17 al 19 de noviembre",
-      "desc": "Naabol informó que dicha suspensión responde a la mejorar las condiciones del despegue y aterrizaje de las aeronaves.\nThe post Aeropuerto de Cochabamba suspenderá salidas del del 17 al 19 de noviembre…",
-      "link": "https://larazon.bo/ciudades/2026/10/14/aeropuerto-de-cochabamba-suspendera-salidas-del-del-17-al-19-de-noviembre/",
-      "date": "2026-10-14T19:56:16Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Evismo convoca a protestas el 19 de octubre y reprograma la marcha para noviembre",
-      "desc": "El secretario ejecutivo de la confederación, Feliciano Vegamonte, informó que las acciones cuentan con la coordinación de organizaciones sociales y representantes del Pacto de Unidad\nThe post Evismo c…",
-      "link": "https://larazon.bo/nacional/2026/10/14/evismo-convoca-a-protestas-el-19-de-octubre-y-reprograma-la-marcha-para-noviembre/",
-      "date": "2026-10-14T19:50:18Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Cainco plantea libre exportación e importación de bienes en su ley corta",
-      "desc": "La propuesta también incorpora un Régimen de Incentivo para Grandes Inversiones (RIGI) destinado a atraer capitales\nThe post Cainco plantea libre exportación e importación de bienes en su ley corta ap…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/cainco-plantea-libre-exportacion-e-importacion-de-bienes-en-su-ley-corta/",
-      "date": "2026-10-14T19:42:08Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Hijos de Ramón lleva el diseño boliviano a República Dominicana",
-      "desc": "La firma cruceña, fundada por Carlos Arauz y Fernando Justiniano, presentará 30 outfits en una pasarela internacional",
-      "link": "https://eldeber.com.bo/sociales/hijos-ramon-lleva-diseno-boliviano-republica-dominicana_1792006532",
-      "date": "2026-10-14T19:35:32Z"
+      "title": "Fiscalía imputa a exgerente del BCB por dos delitos e irá a audiencia cautelar",
+      "desc": "En agosto de 2025 el Gobierno de entonces presentó los billetes y monedas del Bicentenario, todos coleccionables, excepto la moneda de Bs 2 que es de curso legal",
+      "link": "https://eldeber.com.bo/pais/fiscalia-imputa-exgerente-bcb-dos-delitos-ira-audiencia-cautelar_1792013999",
+      "date": "2026-10-14T21:39:59Z"
     },
     {
       "source": "Google — Dólar Bolivia",
       "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre - Infobae",
       "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTk52WHhyWjVRS3RmQUI4aFFURmZkT0dCZ2RRZS1JNXVzTmNTajBQVDZUcmU5WTU1bk13Sjh4UG9qWkp4ZFFHZi0xNXA1NkpZS0ZOZmVzak1CZXFKbm8wbXYzZHdicFluTGxjdFFOQkJyUGdWcVNTUlFHS3ZrZGZ4VnFQN1BjZ0dEcHQ4RDNsWW1jdk1yVmh3NUt5X283YVZrRXNhb2hqZ2xhd1BTQ1ZIZnMzMUNHZ9IB0AFBVV95cUxOU1dyQjFzU01tOUFIQUJSOHVqbmd3RzdrS2t2LVZ3M0tySC12Yjc3ZGZsVlN4NmN0bGRRVEoxWEx3YzBRckZ1MF9ieUpLQzZoZV93MC0wel9ZdG9aRDdtNE4tXzVITlNZeDdvaW1VUmE5UjA2dHRMZ2hJNFdfQ3o3ZHZEbmxjaFFXTDFINFI2bkJpUy1RdndXZU9jVVVlbFRxR2EycnZ0MzJoSHVXOHJiRmlqc21nV2F5dGtreTA1VzdGZHNhTnh5THdLd0lXdVli?oc=5",
-      "date": "2026-10-14T19:21:15Z"
+      "date": "2026-10-14T20:16:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -189,6 +189,13 @@
       "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
       "date": "2026-10-14T14:04:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI advierte que la economía de Bolivia será la única que se contraerá en un 3% este año - Los Tiempos",
+      "desc": "FMI advierte que la economía de Bolivia será la única que se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZjlLdUhzbmxsNzlRQ1B6dFZDMVEwM0lCWlJEZVdRSUhqR2xqUDFGU1ZMY3NweWN6eXdaY0RROTRJdzBzTHhNc0pEMkw1N0NnckFkdlZYWmtiVGhndEhOUlZnX3NRS3dHZDIwVWxFTnNzdXYwVi04UHkybjhoX0xTRVlDUkowSWJpRUdkWHdzYXFYakRBZjRWQjZwUVlCVTdxUEFHejN0TVdZcXNkMWlnaHdXSWl0WV9nLUJyMExOYjBpdw?oc=5",
+      "date": "2026-10-14T12:30:50Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -205,13 +212,6 @@
       "date": "2026-10-14T06:04:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
-      "date": "2026-10-14T02:00:43Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "El dólar en Bolivia cierra con leve repunte en el paralelo - La Patria Bolivia",
       "desc": "El dólar en Bolivia cierra con leve repunte en el paralelo&nbsp;&nbsp;La Patria Bolivia",
@@ -219,18 +219,18 @@
       "date": "2026-10-13T23:58:29Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
-      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY0gHQAUFVX3lxTFA5Z1FqWXNXdDlwQzM2dGZ5QnQ5Z2ZPNzd4cVAwZi1Mc0cxUmpib2R3MjB1M3h6dlgzd0phelFUSXE0c2xPeXAwQy15aGN2ZU1qXzJkWUJORlpyMElTT3ZSYVNSS01KUHN0QU16Mnctd2EyUDlNYy14MXVWLWRzd2FIb2t2Ni1zUUpSaFYtZ2Yybmd6Mm5GcVVXejlTUEpMR04yTEZ2aFVTbENSSTN3cUFaOVZwYXE3bDIzZHFwdURXUVk4NE5CMnZzV1NDMjZvQlg?oc=5",
-      "date": "2026-10-13T20:18:20Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia - Red Uno",
       "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzFEZTlRNlJNR0xVTXRBTkFheWV5RFcyWlhUV25WZ2E3cmxGSmthOVFjaVF4VFVVdzVYUzNxNmRBc21WWXdFU2x2d2JTR1ItNXl5QnVHbk5ySDhjYXVveGo1SU1SLWNHQ3Y4VzdpZ2NpX1lkUW0yQ2dSeDlkWFA3MjBhMzhyVHdyaVdwYkVxOUx1TzFoZnh1ZjRuQ0Zka3htS09tRVBaMHRjQ3RndmJlOA?oc=5",
       "date": "2026-10-13T11:12:51Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones - El Potosí",
+      "desc": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones&nbsp;&nbsp;El Potosí",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR1VDbVhraTdOUDhZWXJ0UlhPX0lFR1JoMkM2Y0V4MjN6M2o1RENWa1BKVHV0VzNWbERUU2RybGQ0cGlUVmJWYWlWSkFSRTZUb3ZubkxCVzZlYjJiSkxvcEloZm9Ua2diN2R0bVo5QW83OVpWbW5RZjFpb3lYdHpsVFhHSEs0ODJBT1I0OXhqOXN0aURQR2ZhMHFIajdjYjI5MUVhM1ItVXNmUXNTWG5oZFgyOWxTeC1QdEZhRW5Wakx3a3c?oc=5",
+      "date": "2026-10-10T15:31:22Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -284,8 +284,8 @@
   ],
   "prediction": {
     "buyTomorrow": 11.8,
-    "sellTomorrow": 11.84,
-    "changeBuy": -0.03,
+    "sellTomorrow": 11.85,
+    "changeBuy": -0.04,
     "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
@@ -4219,8 +4219,8 @@
     },
     {
       "date": "2026-10-14",
-      "buy": 11.83,
-      "sell": 11.87
+      "buy": 11.84,
+      "sell": 11.88
     }
   ]
 }
