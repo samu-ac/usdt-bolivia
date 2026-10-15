@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-15T00:11:21Z",
+  "lastUpdated": "2026-10-15T03:29:23Z",
   "displayDate": "miercoles 14 de octubre, 2026",
   "binance": {
     "buy": 11.84,
-    "sell": 11.88,
+    "sell": 11.89,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.79,
-    "sell": 11.81,
+    "buy": 11.88,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.11,
-    "sell": 11.72,
+    "buy": 12.13,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.04,
-    "sell": 11.69,
+    "buy": 12.05,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,8 +32,8 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.84,
-    "sell": 11.83,
+    "buy": 11.87,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_bybit"
   },
@@ -47,11 +47,11 @@
     "officialBuy": 11.7,
     "officialSell": 11.7,
     "referentialBuy": 11.84,
-    "referentialSell": 11.88,
+    "referentialSell": 11.89,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-15T00:11:14Z"
+    "fetchedAt": "2026-10-15T03:29:15Z"
   },
   "banks": [
     {
@@ -107,74 +107,74 @@
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "“Me mantuve firme, confié y lo pude sacar adelante”: Dellien destaca su fortaleza mental",
-      "desc": "El tenista boliviano venció a Rodrigo Pacheco por 6-3 y 7-5 para avanzar a los cuartos de final del Bolivia Open. Reconoció que el viento y los nervios complicaron el partido y ya se prepara para enfr…",
-      "link": "https://eldeber.com.bo/deportes/me-mantuve-firme-confie-pude-sacar-adelante-dellien-destaca-fortaleza-mental_1792021617",
-      "date": "2026-10-14T23:46:57Z"
+      "source": "La Razón",
+      "title": "Paz destaca decretos sobre exportaciones, gas, electricidad y anticorrupción",
+      "desc": "El paquete incluye los decretos supremos 5745, 5746, 5747, 5748, 5749 y 5750, con medidas en materia de protección social, hidrocarburos, comercio exterior, tributación, transparencia y electricidad.\n…",
+      "link": "https://larazon.bo/nacional/2026/10/14/paz-destaca-decretos-sobre-exportaciones-gas-electricidad-y-anticorrupcion/",
+      "date": "2026-10-15T03:16:31Z"
     },
     {
       "source": "El Deber",
-      "title": "Hugo Dellien vence a Rodrigo Pacheco y mantiene vivo el sueño de revalidar la corona",
-      "desc": "El boliviano venció al mexicano Rodrigo Pacheco por 6-3 y 7-5 y se enfrentará al brasileño Luis ‘Guto’ Miguel en los cuartos de final del Bolivia Open.",
-      "link": "https://eldeber.com.bo/deportes/hugo-dellien-vence-rodrigo-pacheco-mantiene-vivo-sueno-revalidar-corona_1792019631",
-      "date": "2026-10-14T23:13:51Z"
+      "title": "Imputan a exfiscal Israel Rojas y lo acusan de ser el recaudador de Mariaca",
+      "desc": "Israel Armando Rojas Toledo, excoordinador operativo de la Fiscalía de La Paz, es investigado por presuntos vínculos con una organización criminal que habría brindado protección al narcotráfico. La Fi…",
+      "link": "https://eldeber.com.bo/la-paz/imputan-exfiscal-israel-rojas-acusan-ser-recaudador-mariaca_1792034003",
+      "date": "2026-10-15T03:13:23Z"
     },
     {
       "source": "El Deber",
-      "title": "Kylian Mbappé, jugador más joven de la historia en llegar a 100 partidos en Champions",
-      "desc": "El francés Kylian Mbappé (27 años y 298 días) se convirtió, al ser alineado en el encuentro del Real Madrid ante la Roma, en el jugador más joven de la historia en llegar a 100 partidos disputados en …",
-      "link": "https://eldeber.com.bo/deportes/kylian-mbappe-jugador-joven-historia-llegar-100-partidos-champions_1792019437",
-      "date": "2026-10-14T23:10:58Z"
+      "title": "Minería, conexión y transporte de crudo entre los temas incluidos en la reunión Paz-Kast",
+      "desc": "Chile y Bolivia trabajaron al menos 30 puntos en la agenda bilateral, pero por el tiempo de trabajo se podría abordar 11 puntos",
+      "link": "https://eldeber.com.bo/pais/mineria-conexion-transporte-crudo-temas-incluidos-reunion-paz-kast_1792033315",
+      "date": "2026-10-15T03:01:55Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Urioste anuncia convocatoria para elegir a los nueve fiscales departamentales",
+      "desc": "El reglamento en elaboración definirá las condiciones para la selección y designación de las nuevas autoridades.\nThe post Urioste anuncia convocatoria para elegir a los nueve fiscales departamentales …",
+      "link": "https://larazon.bo/nacional/2026/10/14/urioste-anuncia-convocatoria-para-elegir-a-los-nueve-fiscales-departamentales/",
+      "date": "2026-10-15T02:51:28Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Palmeiras golpea en el Maracaná y queda cerca de otra final de Libertadores",
+      "desc": "El Verdao venció por 1-2 a Fluminense con goles de José Manuel ‘Flaco’ López y Marlon Freitas. Un empate en la revancha le bastará para avanzar a la definición continental.",
+      "link": "https://eldeber.com.bo/deportes/palmeiras-golpea-maracana-queda-cerca-otra-final-libertadores_1792032464",
+      "date": "2026-10-15T02:47:44Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Exportadores piden a Paz intervenir ante Chile por la quema de madera",
+      "desc": "La Caneb y la Cámara Forestal solicitaron una reunión con el presidente boliviano antes de la visita de José Antonio Kast\nThe post Exportadores piden a Paz intervenir ante Chile por la quema de madera…",
+      "link": "https://larazon.bo/nacional/2026/10/14/exportadores-piden-a-paz-intervenir-ante-chile-por-la-quema-de-madera/",
+      "date": "2026-10-15T01:27:06Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Condori invita a Evo y Lara a un ampliado para buscar la unidad",
+      "desc": "Nilton Condori convocó a ambos políticos a un encuentro previsto para el domingo 18 de octubre en El Alto\nThe post Condori invita a Evo y Lara a un ampliado para buscar la unidad appeared first on La …",
+      "link": "https://larazon.bo/nacional/2026/10/14/condori-invita-a-evo-y-lara-a-un-ampliado-para-buscar-la-unidad/",
+      "date": "2026-10-15T01:21:09Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Senado sanciona crédito de $us 200,5 millones del BM para Bolivia",
+      "desc": "La norma establece que el Ministerio de Economía deberá informar cada seis meses a la Asamblea sobre el uso y la ejecución de los recursos.\nThe post Senado sanciona crédito de $us 200,5 millones del B…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/senado-sanciona-credito-de-us-2005-millones-del-banco-mundial-para-bolivia/",
+      "date": "2026-10-15T01:02:48Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "En Perú y Ecuador anuncian amistosos con la Verde en noviembre",
+      "desc": "Ambos cotejos serían en condición de visitante, el primero en Lima y el otro en Guayaquil. La FBF todavía no emitió un pronunciamiento oficial.",
+      "link": "https://eldeber.com.bo/futbol/peru-ecuador-anuncian-amistosos-verde-noviembre_1792024480",
+      "date": "2026-10-15T00:34:40Z"
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial - eju.tv",
-      "desc": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial&nbsp;&nbsp;eju.tv",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXpZSXEtTUxvUFdYcWtiVW80N2ZidjFkelo4MWdiRUJvSC1GZVVEVFVvUU1yekJLcEVNc25NVnhQWWsxblRDU0ZpTGVRVE16OFR0VVZOSDRuSi1teDJwTDZ2V2tySXdubW1kOURCMTFfc1NaWFVUSDFfaHB6cEl5VFVKVE9lZEw1RnczXzYwQmJndXZEaFBnX2hsdjlkcnZ0U0lvUDNpYXBZOTdLU0ROTXM2VzRXOHY5VHBpUHpCSUhWaVpu?oc=5",
-      "date": "2026-10-14T23:10:16Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Industriales piden frenar cobro de Bs 744 MM a Soboce mientras se analiza el caso",
-      "desc": "La Cámara Nacional de Industrias y otros gremios empresariales advierten sobre los efectos del proceso en la seguridad jurídica, las inversiones y el empleo\nThe post Industriales piden frenar cobro de…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/industriales-piden-frenar-cobro-de-bs-744-mm-a-soboce-mientras-se-analiza-el-caso/",
-      "date": "2026-10-14T22:44:02Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Pacientes con cáncer invitan a la 'caminata por la vida' este domingo 18 de octubre",
-      "desc": "La caminata partirá del frontis del hospital Oncológico y concluirá en Manzana 40. Es una de las actividades que se realiza para tomar conciencia de la lucha contra el cáncer de mama",
-      "link": "https://eldeber.com.bo/santa-cruz/pacientes-cancer-invitan-caminata-vida-este-domingo-18-octubre_1792017497",
-      "date": "2026-10-14T22:38:17Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Senado sanciona proyecto de prescripción y consolidación de depósitos judiciales",
-      "desc": "La norma permitirá destinar depósitos judiciales no reclamados al equipamiento tecnológico, la contratación de personal de apoyo y la mejora de las casas judiciales.\nThe post Senado sanciona proyecto …",
-      "link": "https://larazon.bo/nacional/2026/10/14/senado-sanciona-proyecto-de-prescripcion-y-consolidacion-de-depositos-judiciales/",
-      "date": "2026-10-14T22:28:58Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Santa Cruz: Gobernación lanza campaña de prevención del cáncer de Mama",
-      "desc": "La iniciativa “Octubre Rosa” busca promover la detección temprana y los controles médicos para reducir las muertes por esta enfermedad.\nThe post Santa Cruz: Gobernación lanza campaña de prevención del…",
-      "link": "https://larazon.bo/sociedad/2026/10/14/santa-cruz-gobernacion-lanza-campana-de-prevencion-del-cancer-de-mama/",
-      "date": "2026-10-14T22:23:17Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Depósitos por QR en cajas llegan a 31 agencias de la banca pública",
-      "desc": "El servicio permite a los clientes transferir dinero desde una aplicación de banca móvil o billetera digital, sin necesidad de llevar efectivo a las sucursales\nThe post Depósitos por QR en cajas llega…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/14/depositos-por-qr-en-cajas-llegan-a-31-agencias-de-la-banca-publica/",
-      "date": "2026-10-14T22:20:37Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Fiscalía imputa a exgerente del BCB por dos delitos e irá a audiencia cautelar",
-      "desc": "En agosto de 2025 el Gobierno de entonces presentó los billetes y monedas del Bicentenario, todos coleccionables, excepto la moneda de Bs 2 que es de curso legal",
-      "link": "https://eldeber.com.bo/pais/fiscalia-imputa-exgerente-bcb-dos-delitos-ira-audiencia-cautelar_1792013999",
-      "date": "2026-10-14T21:39:59Z"
+      "title": "Ministro de Economía presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial - La Voz de Tarija",
+      "desc": "Ministro de Economía presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial&nbsp;&nbsp;La Voz de Tarija",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWVVaZ3NxVzItMjZ0Z1pHNDJQODN5QjBsWDNYaTlXMEUyU2pFQVdtMVF4SENpbFd1LTh6TTNWd1I5d1ZBNnJteUlfdDVLVUVFNEdoeG83T0FVOFp6NnNmbzlMSXVOSFl2QkZ0OVpZbDRQODNjNkRJcWJCY3VEalBGWE04bXZxWFhzX3p1NFBuYXo1Q01EOWwzZFpPdmlBTk1ReHU3V2FVYmpobUJTY3podWdGcjFxQVZzaS1fNzVNQ1AtT2xPVEN2aElKbGtIX2kxQl9PeG54VDdrVWRv?oc=5",
+      "date": "2026-10-14T23:07:31Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -182,6 +182,13 @@
       "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTk52WHhyWjVRS3RmQUI4aFFURmZkT0dCZ2RRZS1JNXVzTmNTajBQVDZUcmU5WTU1bk13Sjh4UG9qWkp4ZFFHZi0xNXA1NkpZS0ZOZmVzak1CZXFKbm8wbXYzZHdicFluTGxjdFFOQkJyUGdWcVNTUlFHS3ZrZGZ4VnFQN1BjZ0dEcHQ4RDNsWW1jdk1yVmh3NUt5X283YVZrRXNhb2hqZ2xhd1BTQ1ZIZnMzMUNHZ9IB0AFBVV95cUxOU1dyQjFzU01tOUFIQUJSOHVqbmd3RzdrS2t2LVZ3M0tySC12Yjc3ZGZsVlN4NmN0bGRRVEoxWEx3YzBRckZ1MF9ieUpLQzZoZV93MC0wel9ZdG9aRDdtNE4tXzVITlNZeDdvaW1VUmE5UjA2dHRMZ2hJNFdfQ3o3ZHZEbmxjaFFXTDFINFI2bkJpUy1RdndXZU9jVVVlbFRxR2EycnZ0MzJoSHVXOHJiRmlqc21nV2F5dGtreTA1VzdGZHNhTnh5THdLd0lXdVli?oc=5",
       "date": "2026-10-14T20:16:00Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La impactante foto de un migrante cubano sobre una pequeña balsa improvisada frente a la costa de Florida",
+      "desc": "Un hombre cubano fue hallado el lunes 12 de octubre flotando sobre una pequeña balsa de espuma y madera apenas más grande que su cuerpo frente a la costa de Florida, informó la Oficina de Aduanas y Pr…",
+      "link": "https://eldeber.com.bo/bbc/la-impactante-foto-de-un-migrante-cubano-sobre-una-pequena-balsa-improvisada-frente-a-la-costa-de-florida-20261014154724",
+      "date": "2026-10-14T18:47:24Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -205,18 +212,18 @@
       "date": "2026-10-14T10:42:16Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: Bolivia decrecerá un 3% en 2026 y otro 1,5% en 2027 - Correo del Sur",
-      "desc": "FMI: Bolivia decrecerá un 3% en 2026 y otro 1,5% en 2027&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHk5TmdCTUtwc2FyRmNrcGN3WE5JTmlrcjZBQ2JYajNna0R6amg2VlZ3eHBsN3hxQkdGMDlzV2hsZDNQMUJ6T0NwbWgweWpaUnBVd0VRYlF2ZTVVZWhNMzM1Y0hDRV85U08xVjNwcFdIejhDWjg0a3hGQVRKcFA1SVlfWU5NOHlMdkxuckVtcHpjWXdzYkVrejFrV3gzSDdRcU13?oc=5",
-      "date": "2026-10-14T06:04:00Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "El dólar en Bolivia cierra con leve repunte en el paralelo - La Patria Bolivia",
       "desc": "El dólar en Bolivia cierra con leve repunte en el paralelo&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMEtrVUt2U0x2TWFfQWRRTDVNZVRDUklVazRhYkNzUHhyVHJNcG80RDd3MVoyVDh4ZXVjRVV0Vm9HU3h4SHlaaHZZY0hEMm5TcS1OcW96OUFnLTI0X1pNU0dWQkF1M2NNNXdydWZ3QUx5YzRZWXg3Tm5VT1RqaGxYVEFHQUtGODl3NG5WM2dqOVZfQQ?oc=5",
       "date": "2026-10-13T23:58:29Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
+      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY0gHQAUFVX3lxTFA5Z1FqWXNXdDlwQzM2dGZ5QnQ5Z2ZPNzd4cVAwZi1Mc0cxUmpib2R3MjB1M3h6dlgzd0phelFUSXE0c2xPeXAwQy15aGN2ZU1qXzJkWUJORlpyMElTT3ZSYVNSS01KUHN0QU16Mnctd2EyUDlNYy14MXVWLWRzd2FIb2t2Ni1zUUpSaFYtZ2Yybmd6Mm5GcVVXejlTUEpMR04yTEZ2aFVTbENSSTN3cUFaOVZwYXE3bDIzZHFwdURXUVk4NE5CMnZzV1NDMjZvQlg?oc=5",
+      "date": "2026-10-13T20:18:20Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -238,13 +245,6 @@
       "desc": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales&nbsp;&nbsp;La Razón Digital Bolivia",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3EzUkFBWHpuV3pmQm5NbEktNE91RjhXSHA5a1BRRWhBcUtqUGl4ODZfY0NMN0NybmhBSXduMHViWHpmNGpSOGdLakJfbkhTRHlRNl8tcmxhck8tS1o1TjByblhXMU1IaFlsTXNGanY0XzFIUi1jV25rNElxZzZ4TVhHSGpQWVU2Ymh5QVVkRW0wamdfdDVuYUpGY1hNVXRxSWpMbVctUmoySUxuZy1JTGs2Nm1zV1VFQmtiQ2g0aGRZNFBmazc4ZU1rb3ItUk1HbTctMzNR?oc=5",
       "date": "2026-10-09T22:17:36Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas internacionales a septiembre se cifran en $us 3.932,8 millones, $us 357 menos que en agosto - unitel.bo",
-      "desc": "Reservas internacionales a septiembre se cifran en $us 3.932,8 millones, $us 357 menos que en agosto&nbsp;&nbsp;unitel.bo",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdDFleW9CWXVmMzVnLTBVNDNiMmViaWFSRHgtdDhNbTI1dnYzdEhPYWZYeFFvbHV6Y2FvMU9ZZlpGUFA0TjczaVZBYnRhWUkzc21Jd1QtdjhNZXR4Zll1aUdQUjQ5bEpQNFF5dzNfRXU0Z0pwcmdwSnJYNGlLdjkyT2lLc0RoU081RW1yYjVQSGZlSDlRZ3ZDbk1pLTJpRDNWNTNXQkpPXzlqLXl6N1dRUkd3QkwwWGpjeVRqWWNIUVExa21GaGhvNHZQZkxmZU1YRkVLY1liaGpxZw?oc=5",
-      "date": "2026-10-09T21:33:32Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -286,7 +286,7 @@
     "buyTomorrow": 11.8,
     "sellTomorrow": 11.85,
     "changeBuy": -0.04,
-    "changeSell": -0.03,
+    "changeSell": -0.04,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4220,7 +4220,7 @@
     {
       "date": "2026-10-14",
       "buy": 11.84,
-      "sell": 11.88
+      "sell": 11.89
     }
   ]
 }
