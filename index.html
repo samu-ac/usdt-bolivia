@@ -892,7 +892,7 @@
           <div class="compare-card-price" id="comparePhysPrice">—</div>
           <div class="compare-card-label">Bs por 1 USD</div>
           <div class="compare-card-detail">
-            Tasa reportada por la API de DolarBlueBolivia (<code style="font-size:10px">/v1/officialRate → official.buy</code>), que agrega datos del BCB. No verificada directamente desde bcb.gob.bo. Referencia administrativa; los precios reales de cambistas pueden diferir.<br><br>
+            Tasa oficial del Banco Central de Bolivia (BCB). Referencia administrativa; los precios reales de cambistas pueden diferir.<br><br>
             <strong>Ventajas:</strong> Efectivo en mano, sin apps, sin cuentas.<br>
             <strong>Riesgo:</strong> Acceso limitado al dólar físico en Bolivia.
           </div>
@@ -923,7 +923,7 @@
       <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:18px">
         <div>
           <div class="section-title" style="margin-bottom:4px"><span>📊</span> USDT P2P — Histórico frente al tipo oficial BCB actual</div>
-          <div style="font-size:12px;color:var(--text3)">Promedio compra/venta USDT P2P vs tipo oficial BCB de hoy · Fuente: <strong style="color:var(--navy)">API DolarBlueBolivia</strong></div>
+          <div style="font-size:12px;color:var(--text3)">Promedio compra/venta USDT P2P vs tipo oficial BCB de hoy</div>
         </div>
         <div style="display:grid;grid-template-columns:repeat(4,auto);gap:20px;align-items:start">
           <div style="text-align:center">
@@ -963,7 +963,7 @@
       <div style="font-size:11px;color:var(--text3);margin-bottom:10px" id="vrdChartMeta"></div>
       <div class="vrd-chart-wrap" style="height:280px"><canvas id="vrdChart"></canvas></div>
       <div style="font-size:11px;color:var(--text3);margin-top:12px;text-align:center;padding-top:12px;border-top:1px solid var(--border)">
-        📌 La línea BCB repite el tipo oficial actual; no es una serie histórica. Tipo oficial reportado por DolarBlueBolivia, no consultado directamente en bcb.gob.bo
+        📌 La línea BCB repite el tipo oficial actual; no es una serie histórica.
       </div>
     </div>
   </div>
@@ -1502,9 +1502,9 @@
     const b = pricesData?.bcb;
     if (!bcbOfficial()) return 'Sin dato válido del tipo oficial BCB';
     if (b.fetchedAt && b.fetchedAt === pricesData._liveFetchedAt)
-      return 'Consulta directa a DolarBlueBolivia: ' + fmtBol(b.fetchedAt) + ' (hora Bolivia)';
+      return 'Actualizado: ' + fmtBol(b.fetchedAt) + ' (hora Bolivia)';
     if (b.fetchedAt)
-      return 'Respaldo: archivo programado · dato obtenido de ' + (b.source === 'api_dbb_officialRate' ? 'DolarBlueBolivia' : 'origen desconocido') + ' el ' + fmtBol(b.fetchedAt) + ' (hora Bolivia)';
+      return 'Respaldo programado · ' + fmtBol(b.fetchedAt) + ' (hora Bolivia)';
     return 'Respaldo: archivo programado · fecha y procedencia del dato desconocidas';
   }
 
