@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-15T22:46:42Z",
+  "lastUpdated": "2026-10-16T03:25:14Z",
   "displayDate": "jueves 15 de octubre, 2026",
   "binance": {
-    "buy": 11.8,
-    "sell": 11.85,
+    "buy": 11.79,
+    "sell": 11.84,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.84,
-    "sell": 11.78,
+    "buy": 11.89,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.09,
-    "sell": 11.69,
+    "buy": 12.08,
+    "sell": 11.68,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.01,
-    "sell": 11.66,
+    "buy": 12.0,
+    "sell": 11.65,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,13 +32,13 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.83,
+    "buy": 11.8,
     "sell": 11.81,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.88,
+    "buy": 11.89,
     "sell": 11.65,
     "available": true,
     "source": "api_dbb_saldoar"
@@ -46,12 +46,12 @@
   "bcb": {
     "officialBuy": 11.68,
     "officialSell": 11.68,
-    "referentialBuy": 11.8,
-    "referentialSell": 11.85,
+    "referentialBuy": 11.79,
+    "referentialSell": 11.84,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-15T22:46:34Z"
+    "fetchedAt": "2026-10-16T03:25:05Z"
   },
   "banks": [
     {
@@ -108,52 +108,45 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Paz y Kast alistan acuerdos para conexión al cable Humboldt, minería y energética",
-      "desc": "La agenda también contempla una declaración sobre interconexión eléctrica para avanzar en la conexión energética entre Bolivia y Chile\nThe post Paz y Kast alistan acuerdos para conexión al cable Humbo…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/15/paz-y-kast-alistan-acuerdos-para-conexion-al-cable-humboldt-mineria-y-energetica/",
-      "date": "2026-10-15T22:43:16Z"
+      "title": "Aprehenden al exfiscal departamental de La Paz Luis Carlos Torrez",
+      "desc": "Hasta el momento, no se brindaron detalles sobre las circunstancias de su aprehensión ni los motivos de la medida.\nThe post Aprehenden al exfiscal departamental de La Paz Luis Carlos Torrez appeared f…",
+      "link": "https://larazon.bo/nacional/2026/10/15/aprehenden-al-exfiscal-departamental-de-la-paz-luis-carlos-torrez/",
+      "date": "2026-10-16T03:05:32Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno confirma aprehensión del exfiscal departamental de La Paz",
+      "desc": "La fiscalía y policías allanaron dos de sus domicilios y el mandamiento facultaba a la Policía a aprehender personas, no identificaba a quién",
+      "link": "https://eldeber.com.bo/pais/gobierno-confirma-aprehension-exfiscal-departamental-paz_1792119741",
+      "date": "2026-10-16T03:02:21Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Caso radares: \"Se pagaron 191 millones de euros y no hemos recibido lo que corresponde\", advierte el ministro Justiniano",
+      "desc": "El Ministerio de Defensa presentó este jueves ante la Fiscalía una querella penal contra cuatro exministros y otras 15 personas por el caso Sidacta. Se pagó casi la totalidad del contrato, pero no se …",
+      "link": "https://eldeber.com.bo/pais/caso-radares-pagaron-191-millones-euros-no-hemos-recibido-corresponde-advierte-ministro-justiniano_1792117606",
+      "date": "2026-10-16T02:26:46Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno atrapa a uno de los cuatro asaltantes de El Alto y no recupera el dinero",
+      "desc": "Los investigadores dieron con el cabecilla de la banda y su guarida 15 días después del asalto. Los cómplices huyeron a Perú con el botín",
+      "link": "https://eldeber.com.bo/pais/gobierno-atrapa-uno-cuatro-asaltantes-alto-no-recupera-dinero_1792111525",
+      "date": "2026-10-16T00:45:25Z"
     },
     {
       "source": "La Razón",
-      "title": "Vuelve la Feria Itinerante a El Alto con ofertas del productor al consumidor",
-      "desc": "La segunda versión de la actividad se realizará el sábado 17 de octubre en la Terminal Metropolitana desde las 08.00. \nThe post Vuelve la Feria Itinerante a El Alto con ofertas del productor al consum…",
-      "link": "https://larazon.bo/ciudades/2026/10/15/vuelve-la-feria-itinerante-a-el-alto-con-ofertas-del-productor-al-consumidor/",
-      "date": "2026-10-15T22:09:42Z"
+      "title": "Jukus chocan al huir luego de robar mineral en Oruro",
+      "desc": "La Policía reportó que ocho personas fueron aprehendidas\nThe post Jukus chocan al huir luego de robar mineral en Oruro appeared first on La Razón.",
+      "link": "https://larazon.bo/ciudades/2026/10/15/jukus-chocan-al-huir-luego-de-robar-mineral-en-oruro/",
+      "date": "2026-10-15T22:53:00Z"
     },
     {
       "source": "El Deber",
-      "title": "El Gobierno de Bolivia confirma la asistencia de Paz a la Cumbre Iberoamericana",
-      "desc": "El próximo 9 de noviembre, un día después de que se cumpla el primer año de Gobierno de Paz, está prevista una visita de este a Francia.",
-      "link": "https://eldeber.com.bo/pais/gobierno-bolivia-confirma-asistencia-paz-cumbre-iberoamericana_1792100413",
-      "date": "2026-10-15T21:40:49Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Tras realizar disparos, sujetos armados roban más de Bs 70 mil a adulto mayor",
-      "desc": "De acuerdo con la información inicial, los cuatro sospechosos llegaron a bordo de dos motocicletas y abordaron a la víctima cuando transportaba una importante cantidad de dinero en la carretera Oruro–…",
-      "link": "https://eldeber.com.bo/oruro/realizar-disparos-sujetos-armados-roban-bs-70-mil-adulto-mayor_1792098517",
-      "date": "2026-10-15T21:08:37Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Este es el itinerario del presidente chileno en Bolivia",
-      "desc": "El presidente de Bolivia, Rodrigo Paz, recibirá este viernes a su homólogo de Chile, José Antonio Kast, en lo que será la primera visita de Estado de un mandatario chileno al país boliviano después de…",
-      "link": "https://eldeber.com.bo/pais/este-itinerario-presidente-chileno-bolivia_1792094680",
-      "date": "2026-10-15T20:04:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "YPFB y cisterneros logran un acuerdo para ajustar los fletes y se garantiza el abastecimiento de combustibles",
-      "desc": "El acuerdo también incluye la ejecución de un Estudio de la estructura de costos de transporte, que permitirá determinar los nuevos costos por tramo",
-      "link": "https://eldeber.com.bo/economia/ypfb-cisterneros-logran-acuerdo-ajustar-fletes-garantiza-abastecimiento-combustibles_1792093125",
-      "date": "2026-10-15T19:38:45Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Acuerdo entre las contralorías de Bolivia y Ecuador fortalece la lucha contra la  corrupción",
-      "desc": "El acuerdo contempla la realización de programas de capacitación, seminarios, talleres y cursos dirigidos al fortalecimiento de las competencias de los servidores públicos de ambas instituciones, espe…",
-      "link": "https://eldeber.com.bo/pais/acuerdo-contralorias-bolivia-ecuador-fortalece-lucha-corrupcion_1792092433",
-      "date": "2026-10-15T19:27:13Z"
+      "title": "\"Soy completamente inocente\": Nicolás Maduro y Cilia Flores se declaran no culpables de los nuevos cargos de tortura",
+      "desc": "El gobierno de Estados Unidos acusó inicialmente a Maduro de narcoterrorismo, tráfico de drogas y delitos relacionados con armas, antes de añadir nuevos cargos contra él y Flores la semana pasada.",
+      "link": "https://eldeber.com.bo/bbc/-soy-completamente-inocente-nicolas-maduro-y-cilia-flores-se-declaran-no-culpables-de-los-nuevos-cargos-de-tortura-20261015144127",
+      "date": "2026-10-15T17:41:27Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -168,6 +161,13 @@
       "desc": "Tether invierte en EFY, la fintech detrás del USDT del Banco Unión de Bolivia&nbsp;&nbsp;Criptoinforme",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm85a3pQQTVYN25WSlZsc2lZTGJwZXpqQ1hpc0ZLbmMtMnpSVmR3cjdGeGxOV28wZVhIeXdYWUw4akNmSDJoN29VWFZlQ3lYYlZaZ0tZTXpLVnprcE96Z0dNdk4xczRGN1ZET3FJTWJQTFBXa2NueGVOWFpjUWJyQ254TG40WE1KTmZaVXZvYlE?oc=5",
       "date": "2026-10-15T13:55:07Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Quién es Katie Zacharia y por qué su designación como secretaria de prensa de Trump ha generado controversia",
+      "desc": "Así se define Katie Zacharia, la novel portavoz de la Casa Blanca, quien fue nombrada por el presidente Donald Trump el pasado 9 de octubre.",
+      "link": "https://eldeber.com.bo/bbc/quien-es-katie-zacharia-y-por-que-su-designacion-como-secretaria-de-prensa-de-trump-ha-generado-controversia-2026101585346",
+      "date": "2026-10-15T11:53:46Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -191,6 +191,13 @@
       "date": "2026-10-14T12:30:50Z"
     },
     {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: Bolivia decrecerá un 3% en 2026 y otro 1,5% en 2027 - Correo del Sur",
+      "desc": "FMI: Bolivia decrecerá un 3% en 2026 y otro 1,5% en 2027&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHk5TmdCTUtwc2FyRmNrcGN3WE5JTmlrcjZBQ2JYajNna0R6amg2VlZ3eHBsN3hxQkdGMDlzV2hsZDNQMUJ6T0NwbWgweWpaUnBVd0VRYlF2ZTVVZWhNMzM1Y0hDRV85U08xVjNwcFdIejhDWjg0a3hGQVRKcFA1SVlfWU5NOHlMdkxuckVtcHpjWXdzYkVrejFrV3gzSDdRcU13?oc=5",
+      "date": "2026-10-14T06:04:00Z"
+    },
+    {
       "source": "Google — Dólar Bolivia",
       "title": "El dólar en Bolivia cierra con leve repunte en el paralelo - La Patria Bolivia",
       "desc": "El dólar en Bolivia cierra con leve repunte en el paralelo&nbsp;&nbsp;La Patria Bolivia",
@@ -205,13 +212,6 @@
       "date": "2026-10-13T20:18:20Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia, la única economía de la región que se contraerá en 2026 y 2027, según el FMI - La Razón Digital Bolivia",
-      "desc": "Bolivia, la única economía de la región que se contraerá en 2026 y 2027, según el FMI&nbsp;&nbsp;La Razón Digital Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUFU1VUJod2ZhcHBBbTEySHBSR2FZRDBBSXBrLVpwdHBaWnRfV0xkSnF3MW9MR3lYMzMxTzRvelotdXhoWndGZWVHUzVTWm1KNy1rRE9rU1BTTGpKQ1FZNXllY3k2QlM5b1FCS2JXYmQyMC1FSUpYdzNSNU1JMXM0Z1hlNm14N1F2Z2g1OGVEMzdqeUVYeU41elE5eVhTLTN4SG1yWVhkeEo2Q1hkcm03a1FqMi1reHI0WjJvRG01RDUweDgyb2ZMS3N4UEx2Zw?oc=5",
-      "date": "2026-10-13T17:36:29Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia - Red Uno",
       "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
@@ -219,18 +219,18 @@
       "date": "2026-10-13T11:12:51Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene - CriptoNoticias",
-      "desc": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene&nbsp;&nbsp;CriptoNoticias",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZjJRdVZXQmRFZ2hpUGhGdlNZa1J6aEZYYkJCMkhBQmpuMTI5d2FmaHA5bXZiWkRfUWZoZWcxb01VM3NDR0hsQ0ljbkF0S1ZfTWNEYzVONmNZV0l3XzFjUVl6b1B2OGxJVVdNVFlmX1VTdGN4UWM5dHVwZ1U3a21ObTJLbmhKRHVv?oc=5",
-      "date": "2026-10-12T18:50:00Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones - El Potosí",
       "desc": "Reportan que las reservas internacionales de Bolivia aumentaron $us 315,5 millones&nbsp;&nbsp;El Potosí",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR1VDbVhraTdOUDhZWXJ0UlhPX0lFR1JoMkM2Y0V4MjN6M2o1RENWa1BKVHV0VzNWbERUU2RybGQ0cGlUVmJWYWlWSkFSRTZUb3ZubkxCVzZlYjJiSkxvcEloZm9Ua2diN2R0bVo5QW83OVpWbW5RZjFpb3lYdHpsVFhHSEs0ODJBT1I0OXhqOXN0aURQR2ZhMHFIajdjYjI5MUVhM1ItVXNmUXNTWG5oZFgyOWxTeC1QdEZhRW5Wakx3a3c?oc=5",
       "date": "2026-10-10T15:31:22Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reservas internacionales alcanzan $us 3.932,8 millones a septiembre - El Diario - Bolivia",
+      "desc": "Reservas internacionales alcanzan $us 3.932,8 millones a septiembre&nbsp;&nbsp;El Diario - Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUlxZGliTnhrZUN5MU5sRGxLWDJnX1VjcFV3U1lOX2ZKY3hpcVlTRFY3WUYyZzRxalJNVE1ndTVqd3Ezdk9YMWxDQ0tZeVpydGJjazY4NE5kWmNfYlVqU1hUNEZVSVpSaUxNcUloeTljLWVQLTBfUWVCRjdJcjlYYUxWY1V4Ni1jT2tYVkdDZW1QRTYwSEdocnlVQkplTUt6d1o0WXhwVlNJRElIc2c?oc=5",
+      "date": "2026-10-10T11:16:51Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -254,13 +254,6 @@
       "date": "2026-10-09T16:39:27Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
-      "date": "2026-10-09T15:12:39Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
@@ -280,14 +273,21 @@
       "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
       "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Instituto Nacional de Estadística",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.79,
-    "sellTomorrow": 11.84,
-    "changeBuy": -0.01,
+    "sellTomorrow": 11.83,
+    "changeBuy": 0.0,
     "changeSell": -0.01,
-    "trend": "baja",
+    "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4224,8 +4224,8 @@
     },
     {
       "date": "2026-10-15",
-      "buy": 11.8,
-      "sell": 11.85
+      "buy": 11.79,
+      "sell": 11.84
     }
   ]
 }
