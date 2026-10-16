@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-16T19:08:00Z",
+  "lastUpdated": "2026-10-16T22:19:48Z",
   "displayDate": "viernes 16 de octubre, 2026",
   "binance": {
-    "buy": 11.78,
-    "sell": 11.82,
+    "buy": 11.8,
+    "sell": 11.84,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.84,
-    "sell": 11.72,
+    "buy": 11.83,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.06,
-    "sell": 11.66,
+    "buy": 12.08,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 11.98,
-    "sell": 11.63,
+    "buy": 12.01,
+    "sell": 11.66,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.8,
-    "sell": 11.79,
+    "buy": 11.82,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
     "buy": 11.87,
-    "sell": 11.63,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.68,
     "officialSell": 11.68,
-    "referentialBuy": 11.78,
-    "referentialSell": 11.82,
+    "referentialBuy": 11.8,
+    "referentialSell": 11.84,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-16T19:07:54Z"
+    "fetchedAt": "2026-10-16T22:19:40Z"
   },
   "banks": [
     {
@@ -108,24 +108,66 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "El exfiscal de La Paz será imputado por tráfico y organización criminal",
-      "desc": "En allanamientos, uno en la zona Sur y otro en el centro de La Paz se logró aprehender al exfiscal departamental de La Paz, Luis C.T. \nThe post El exfiscal de La Paz será imputado por tráfico y organi…",
-      "link": "https://larazon.bo/nacional/2026/10/16/el-exfiscal-de-la-paz-sera-imputado-por-trafico-y-organizacion-criminal/",
-      "date": "2026-10-16T18:58:55Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Dictan detención preventiva por seis meses para el ex coordinador de la Fiscalía de La Paz",
-      "desc": "El exfuncionario fue enviado al penal de San Pedro de Oruro por presuntos delitos de tráfico de sustancias controladas y organización criminal, dentro de la investigación del caso Mariaca.",
-      "link": "https://eldeber.com.bo/pais/dictan-detencion-preventiva-seis-meses-ex-coordinador-fiscalia-paz_1792173903",
-      "date": "2026-10-16T18:05:03Z"
+      "title": "Aduana habilita gestión digital de trámites para importación de gasolinas",
+      "desc": "La normativa apunta a \"facilitar y garantizar el abastecimiento de combustibles en el mercado interno\"\nThe post Aduana habilita gestión digital de trámites para importación de gasolinas appeared first…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/16/aduana-habilita-gestion-digital-de-tramites-para-importacion-de-gasolinas/",
+      "date": "2026-10-16T22:15:08Z"
     },
     {
       "source": "La Razón",
-      "title": "Economía apunta a atraer capital para impulsar su potencial en minería y litio",
-      "desc": "El ministro de Economía, Christian Andrés Morales, expuso esta perspectiva durante su participación en las Reuniones Anuales 2026 del FMI\nThe post Economía apunta a atraer capital para impulsar su pot…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/16/economia-apunta-a-atraer-capital-para-impulsar-su-potencial-en-mineria-y-litio/",
-      "date": "2026-10-16T17:58:47Z"
+      "title": "La Paz y Santiago pactan exploración, tecnología e inversión minera",
+      "desc": "Entre los ejes del acuerdo figura el intercambio de tecnologías para mejorar la eficiencia de las operaciones y reducir sus efectos sobre el medioambiente\nThe post La Paz y Santiago pactan exploración…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/16/la-paz-y-santiago-pactan-exploracion-tecnologia-e-inversion-minera/",
+      "date": "2026-10-16T22:07:52Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Bolivia y Chile firman cuatro acuerdos para impulsar comercio, minería, fibra óptica y energía",
+      "desc": "Kast sostuvo que “las diferencias no pueden ser excusas para estar paralizados”, en referencia a la necesidad de avanzar en iniciativas de cooperación\nThe post Bolivia y Chile firman cuatro acuerdos p…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/16/bolivia-y-chile-firman-cuatro-acuerdos-para-impulsar-comercio-mineria-fibra-optica-y-energia/",
+      "date": "2026-10-16T21:52:41Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Potosí, suman 126 muertes en minas y la Fiscalía abre investigación",
+      "desc": "El último fallecido es un joven que inhaló gases tóxicos en la sección Esperanza de la Cooperativa Minera Reserva Fiscal. El Ministerio Público anunció pesquisas por presunto homicidio culposo para id…",
+      "link": "https://eldeber.com.bo/potosi/potosi-suman-126-muertes-minas-fiscalia-abre-investigacion_1792187455",
+      "date": "2026-10-16T21:50:55Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Virginia USC avanza a cuartos de final y los otros cruceños van por su clasificación",
+      "desc": "El equipo cruceño venció 2-0 a 10 de Noviembre WC y selló su pase a los cuartos de final de la Copa Simón Bolívar con un global de 4-2. San Juan buscará defender su ventaja de 4-0, mientras que CNSC A…",
+      "link": "https://eldeber.com.bo/deportes/virginia-usc-avanza-cuartos-final-otros-crucenos-van-clasificacion_1792187397",
+      "date": "2026-10-16T21:49:57Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Contraloría ratifica facultad de la Magistratura para auditar las finanzas del Órgano Judicial",
+      "desc": "La actualización reglamentaria busca establecer procedimientos compatibles con la legislación vigente y fortalecer las auditorías jurídicas y financieras dentro del Órgano Judicial\nThe post Contralorí…",
+      "link": "https://larazon.bo/nacional/2026/10/16/contraloria-ratifica-facultad-de-la-magistratura-para-auditar-las-finanzas-del-organo-judicial/",
+      "date": "2026-10-16T21:47:43Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Cotizaciones: Oro supera $us 4.159 la onza y la plata cotiza en $us 60",
+      "desc": "En el grupo de los minerales industriales, el estaño alcanza los $us 24,09 por libra fina (LF), el zinc se cotiza en $us 1,72 y el plomo en $us 0,84 por libra fina\nThe post Cotizaciones: Oro supera $u…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/16/cotizaciones-oro-supera-us-4-159-la-onza-y-la-plata-cotiza-en-us-60/",
+      "date": "2026-10-16T21:39:26Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Centro Especial IDAE - Aprondi corona a Tatiana I por el Día Nacional de las Personas con Discapacidad",
+      "desc": "Los estudiantes Tatiana Villegas y Rony Cuéllar son los soberanos del centro de educación especial que tiene 46 años de trayectoria",
+      "link": "https://eldeber.com.bo/santa-cruz/centro-especial-idae-aprondi-corona-tatiana-i-dia-nacional-personas-discapacidad_1792184197",
+      "date": "2026-10-16T20:56:37Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Suspenden  inspección ocular en el lugar del atentado a Nadia Beller",
+      "desc": "La fiscal Yolanda Aguilera informó que la audiencia fue suspendida por que no se logró notificar a uno de los imputados. Además de que no asistió la víctima Nadia Beller ni su abogado",
+      "link": "https://eldeber.com.bo/santa-cruz/suspenden-inspeccion-ocular-lugar-atentado-nadia-beller_1792182991",
+      "date": "2026-10-16T20:36:31Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -135,46 +177,18 @@
       "date": "2026-10-16T17:53:05Z"
     },
     {
-      "source": "La Razón",
-      "title": "CAF reunirá a líderes empresariales en su foro internacional durante enero",
-      "desc": "La agenda concentrará la atracción de inversiones, cooperación regional y los desafíos globales\nThe post CAF reunirá a líderes empresariales en su foro internacional durante enero appeared first on La…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/16/caf-reunira-a-lideres-empresariales-en-su-foro-internacional-durante-enero/",
-      "date": "2026-10-16T17:44:52Z"
-    },
-    {
       "source": "El Deber",
-      "title": "Bolivia y Chile suscriben acuerdos en una nueva etapa de diálogo bilateral",
-      "desc": "La visita de Kast “marca un antes y un después: diálogo franco, respeto mutuo y una agenda de trabajo que se traduce en oportunidades para ciudadanos bolivianos y chilenos”, asegura el presidente Paz",
-      "link": "https://eldeber.com.bo/pais/bolivia-chile-suscriben-acuerdos-nueva-etapa-dialogo-bilateral_1792171320",
-      "date": "2026-10-16T17:22:00Z"
+      "title": "Se aclara el futuro de Paniagua: Wydad confirma el acuerdo hasta 2030",
+      "desc": "El club marroquí llegó a un acuerdo con Always Ready para cancelar cerca de 2,3 millones de dólares por el atacante nacional, según confirmó a DIEZ su representante, Silvio Fontana.",
+      "link": "https://eldeber.com.bo/deportes/aclara-futuro-paniagua-wydad-confirma-acuerdo-2030_1792165160",
+      "date": "2026-10-16T15:39:20Z"
     },
     {
-      "source": "El Deber",
-      "title": "Allanan un inmueble en el barrio Héroes del Chaco dentro de un caso por tráfico de armas",
-      "desc": "El grupo de Inteligencia de la Policía y la fiscalía anticorrupción precintó el inmueble ubicado en la zona del a avenida Tres Pasos al Frente, entre cuarto y quinto anillo",
-      "link": "https://eldeber.com.bo/santa-cruz/allanan-inmueble-barrio-heroes-chaco-dentro-caso-trafico-armas_1792168234",
-      "date": "2026-10-16T16:30:34Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La Procuraduría deja en manos de la Fiscalía investigar a firma francesa por el caso radares",
-      "desc": "Hugo César León explicó a EL DEBER que la denuncia por un presunto daño de Bs 1.478 millones busca establecer responsabilidades por el proyecto Sidacta. La querella alcanza a cuatro exministros y otra…",
-      "link": "https://eldeber.com.bo/pais/procuraduria-deja-manos-fiscalia-investigar-firma-francesa-caso-radares_1792165273",
-      "date": "2026-10-16T15:41:13Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Bolivia confirma amistosos ante Perú y Ecuador para noviembre",
-      "desc": "La Federación Boliviana de Fútbol oficializó los dos encuentros internacionales que disputará la selección boliviana durante la fecha FIFA de noviembre.",
-      "link": "https://eldeber.com.bo/deportes/bolivia-confirma-amistosos-peru-ecuador-noviembre_1792164799",
-      "date": "2026-10-16T15:33:19Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Se mantiene en Bs 11,68 el tipo de cambio oficial del dólar este viernes - T Informas Bolivia",
-      "desc": "Se mantiene en Bs 11,68 el tipo de cambio oficial del dólar este viernes&nbsp;&nbsp;T Informas Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR0IxeXM1NnZxdXFkMzB3NGpIZXE5bkxtYTY3cEdhMmotQXhQRzB1emtRZFFZcVF0akhrTnpBRDVwdVZtOGk1TFhodmw0cE1VeWNSajdGcW5lZDAtRVRzMTNyemJxYXZkSldCM0h5ZW5Ka2FldU1IT3V6Q1ozamRBZ21Sb2gzcjJYYkZjLW5td2FUV0NzUGxyZUdn?oc=5",
-      "date": "2026-10-16T14:57:44Z"
+      "source": "Google — FMI Bolivia",
+      "title": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial - Economy",
+      "desc": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial&nbsp;&nbsp;Economy",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY3pNV0M5Y3Voa2R3TnRpWHZEUC1TMXRTeEM0LTFsWkpMYmtvVlJxSmVHLWo5cVhZRnZQQ245aU96SkZEb1V6UEh3amdxZjdTbXREYXBPWEJpZU9GWlIzaTB2RFhIR1J4bGRER1pVVkIydW5DY3pJNnVfY1paMjFmc1REOWJjSDNlLUJFTWxzS3FIUVNoemlxbHBOYXRFeE90TTFDUGo2Rko2THZjeVFzMGkzcW9YOGNQbWNrZjkzN0VTLVFNVUFZOFNpaWQ0WEJYemRWU3dwT2tlOEhPanZaWlVta9IB6AFBVV95cUxNZ1VjOXVwRzNhUE9oWUtHelpia0xWMDk5RWtZM2hJNnljdmpvN0taUldjVFpzeURCcVVTQ0hzeVdyMzE0dDQxWXlwUXlpQmlUeVRiVWkyUmwycFdIbnY5anZOWnluaTUxOTZKMmFhZUNwcERSVmU4VjlaRzFyS3l2YkEwNGtnWEVZbVp6UEd6Y0ZQeWN6TU00S2dTdmFJQVhBcUhWbkJFWkk1UmY2NTdlNHp6ZC1qOVVjX0tHTW01S2c4WVNuazBpMXBRQmVzaFRYbjdISHZDLThiZXQwRlpyWjBZUlVTV2g4?oc=5",
+      "date": "2026-10-15T17:02:09Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -226,13 +240,6 @@
       "date": "2026-10-13T20:18:20Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI proyecta que Bolivia será la única economía de Sudamérica en contracción en 2026 y 2027 - Oxígeno Digital",
-      "desc": "FMI proyecta que Bolivia será la única economía de Sudamérica en contracción en 2026 y 2027&nbsp;&nbsp;Oxígeno Digital",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMThvSm1xY1VONVNSOTZhbnVDQnpxZFZDNjIwVDZVYkNPa1pvY3lHNlVURTJtSk5rSjhudWc0c1RtOXlQTnVDUElNX3lRaGxrTjJnbnJVeXFPWlVoeWJoY3NQYVRxejk5N2hwWWFGZTB2WVNtWWNraFoyQTFkeDVlelVkME9acGhUdlR0eldjekRTcXFJaDRRb2xreHdSd05mUlN6Y0UxY0p5dTdldUpBdA?oc=5",
-      "date": "2026-10-13T15:00:58Z"
-    },
-    {
       "source": "Google — USDT Bolivia",
       "title": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene - CriptoNoticias",
       "desc": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene&nbsp;&nbsp;CriptoNoticias",
@@ -262,17 +269,10 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales - La Razón Digital Bolivia",
-      "desc": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales&nbsp;&nbsp;La Razón Digital Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3EzUkFBWHpuV3pmQm5NbEktNE91RjhXSHA5a1BRRWhBcUtqUGl4ODZfY0NMN0NybmhBSXduMHViWHpmNGpSOGdLakJfbkhTRHlRNl8tcmxhck8tS1o1TjByblhXMU1IaFlsTXNGanY0XzFIUi1jV25rNElxZzZ4TVhHSGpQWVU2Ymh5QVVkRW0wamdfdDVuYUpGY1hNVXRxSWpMbVctUmoySUxuZy1JTGs2Nm1zV1VFQmtiQ2g0aGRZNFBmazc4ZU1rb3ItUk1HbTctMzNR?oc=5",
-      "date": "2026-10-09T22:17:36Z"
-    },
-    {
-      "source": "Google — BCB reservas",
       "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
-      "date": "2026-10-09T18:07:39Z"
+      "date": "2026-10-09T18:43:06Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -283,10 +283,10 @@
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.78,
-    "sellTomorrow": 11.83,
+    "buyTomorrow": 11.8,
+    "sellTomorrow": 11.84,
     "changeBuy": 0.0,
-    "changeSell": 0.01,
+    "changeSell": 0.0,
     "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4229,8 +4229,8 @@
     },
     {
       "date": "2026-10-16",
-      "buy": 11.78,
-      "sell": 11.82
+      "buy": 11.8,
+      "sell": 11.84
     }
   ]
 }
