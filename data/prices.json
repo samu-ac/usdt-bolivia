@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-16T03:25:14Z",
-  "displayDate": "jueves 15 de octubre, 2026",
+  "lastUpdated": "2026-10-16T15:46:52Z",
+  "displayDate": "viernes 16 de octubre, 2026",
   "binance": {
-    "buy": 11.79,
+    "buy": 11.8,
     "sell": 11.84,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.89,
+    "buy": 11.86,
     "sell": 11.76,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.08,
-    "sell": 11.68,
+    "buy": 12.07,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.0,
-    "sell": 11.65,
+    "buy": 12.01,
+    "sell": 11.66,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.8,
-    "sell": 11.81,
+    "buy": 11.82,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.89,
-    "sell": 11.65,
+    "buy": 11.87,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.68,
     "officialSell": 11.68,
-    "referentialBuy": 11.79,
+    "referentialBuy": 11.8,
     "referentialSell": 11.84,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-16T03:25:05Z"
+    "fetchedAt": "2026-10-16T15:46:46Z"
   },
   "banks": [
     {
@@ -97,7 +97,7 @@
     {
       "name": "Banco Unión",
       "buy": 10.18,
-      "sell": 11.98
+      "sell": 11.83
     },
     {
       "name": "Banco Ganadero",
@@ -107,46 +107,46 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Aprehenden al exfiscal departamental de La Paz Luis Carlos Torrez",
-      "desc": "Hasta el momento, no se brindaron detalles sobre las circunstancias de su aprehensión ni los motivos de la medida.\nThe post Aprehenden al exfiscal departamental de La Paz Luis Carlos Torrez appeared f…",
-      "link": "https://larazon.bo/nacional/2026/10/15/aprehenden-al-exfiscal-departamental-de-la-paz-luis-carlos-torrez/",
-      "date": "2026-10-16T03:05:32Z"
-    },
-    {
       "source": "El Deber",
-      "title": "Gobierno confirma aprehensión del exfiscal departamental de La Paz",
-      "desc": "La fiscalía y policías allanaron dos de sus domicilios y el mandamiento facultaba a la Policía a aprehender personas, no identificaba a quién",
-      "link": "https://eldeber.com.bo/pais/gobierno-confirma-aprehension-exfiscal-departamental-paz_1792119741",
-      "date": "2026-10-16T03:02:21Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Caso radares: \"Se pagaron 191 millones de euros y no hemos recibido lo que corresponde\", advierte el ministro Justiniano",
-      "desc": "El Ministerio de Defensa presentó este jueves ante la Fiscalía una querella penal contra cuatro exministros y otras 15 personas por el caso Sidacta. Se pagó casi la totalidad del contrato, pero no se …",
-      "link": "https://eldeber.com.bo/pais/caso-radares-pagaron-191-millones-euros-no-hemos-recibido-corresponde-advierte-ministro-justiniano_1792117606",
-      "date": "2026-10-16T02:26:46Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Gobierno atrapa a uno de los cuatro asaltantes de El Alto y no recupera el dinero",
-      "desc": "Los investigadores dieron con el cabecilla de la banda y su guarida 15 días después del asalto. Los cómplices huyeron a Perú con el botín",
-      "link": "https://eldeber.com.bo/pais/gobierno-atrapa-uno-cuatro-asaltantes-alto-no-recupera-dinero_1792111525",
-      "date": "2026-10-16T00:45:25Z"
+      "title": "Bolivia confirma amistosos ante Perú y Ecuador para noviembre",
+      "desc": "La Federación Boliviana de Fútbol oficializó los dos encuentros internacionales que disputará la selección boliviana durante la fecha FIFA de noviembre.",
+      "link": "https://eldeber.com.bo/deportes/bolivia-confirma-amistosos-peru-ecuador-noviembre_1792164799",
+      "date": "2026-10-16T15:33:19Z"
     },
     {
       "source": "La Razón",
-      "title": "Jukus chocan al huir luego de robar mineral en Oruro",
-      "desc": "La Policía reportó que ocho personas fueron aprehendidas\nThe post Jukus chocan al huir luego de robar mineral en Oruro appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/15/jukus-chocan-al-huir-luego-de-robar-mineral-en-oruro/",
-      "date": "2026-10-15T22:53:00Z"
+      "title": "Defensa de Cerimedo acusa a Velasco de pagar una campaña contra Doria Medina",
+      "desc": "Arce aseguró que Velasco llamó a Cerimedo para contratar una campaña contra Doria Medina y que el pago se realizó con criptomonedas a Javier Negre y al medio La Derecha Diario\nThe post Defensa de Ceri…",
+      "link": "https://larazon.bo/nacional/2026/10/16/defensa-de-cerimedo-acusa-a-velasco-de-pagar-una-campana-contra-doria-medina/",
+      "date": "2026-10-16T15:30:35Z"
     },
     {
       "source": "El Deber",
-      "title": "\"Soy completamente inocente\": Nicolás Maduro y Cilia Flores se declaran no culpables de los nuevos cargos de tortura",
-      "desc": "El gobierno de Estados Unidos acusó inicialmente a Maduro de narcoterrorismo, tráfico de drogas y delitos relacionados con armas, antes de añadir nuevos cargos contra él y Flores la semana pasada.",
-      "link": "https://eldeber.com.bo/bbc/-soy-completamente-inocente-nicolas-maduro-y-cilia-flores-se-declaran-no-culpables-de-los-nuevos-cargos-de-tortura-20261015144127",
-      "date": "2026-10-15T17:41:27Z"
+      "title": "El Concejo Municipal deja sin efecto la distinción que le otorgó al exfiscal Róger Mariaca",
+      "desc": "El Concejo Municipal de Santa Cruz de la Sierra señaló que los homenajes de la ciudad deben \"distinguir a personas cuya conducta sea coherente con valores de integridad y responsabilidad\".",
+      "link": "https://eldeber.com.bo/santa-cruz/concejo-municipal-deja-efecto-distincion-le-otorgo-exfiscal-roger-mariaca_1792164212",
+      "date": "2026-10-16T15:23:32Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "“No nos han escuchado”: Ruiz cierra dos años de gestión con un TSJ que reclama recursos",
+      "desc": "La decana saliente del Tribunal Supremo de Justicia afirma que el presupuesto sigue siendo insuficiente. Pide financiamiento garantizado en la Constitución, explica por qué dejará la representación in…",
+      "link": "https://eldeber.com.bo/pais/no-nos-han-escuchado-ruiz-cierra-dos-anos-gestion-tsj-reclama-recursos_1792162956",
+      "date": "2026-10-16T15:02:36Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Se mantiene en Bs 11,68 el tipo de cambio oficial del dólar este viernes - T Informas Bolivia",
+      "desc": "Se mantiene en Bs 11,68 el tipo de cambio oficial del dólar este viernes&nbsp;&nbsp;T Informas Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR0IxeXM1NnZxdXFkMzB3NGpIZXE5bkxtYTY3cEdhMmotQXhQRzB1emtRZFFZcVF0akhrTnpBRDVwdVZtOGk1TFhodmw0cE1VeWNSajdGcW5lZDAtRVRzMTNyemJxYXZkSldCM0h5ZW5Ka2FldU1IT3V6Q1ozamRBZ21Sb2gzcjJYYkZjLW5td2FUV0NzUGxyZUdn?oc=5",
+      "date": "2026-10-16T14:57:44Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Lamine Yamal acapara todos los focos antes del desafío del Betis",
+      "desc": "El joven extremo exhibió su mejor versión en la goleada del Barcelona en casa del Galatasaray el martes en la Liga de Campeones 4-1\nThe post Lamine Yamal acapara todos los focos antes del desafío del …",
+      "link": "https://larazon.bo/marcas/2026/10/16/lamine-yamal-acapara-todos-los-focos-antes-del-desafio-del-betis/",
+      "date": "2026-10-16T14:26:41Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -161,13 +161,6 @@
       "desc": "Tether invierte en EFY, la fintech detrás del USDT del Banco Unión de Bolivia&nbsp;&nbsp;Criptoinforme",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm85a3pQQTVYN25WSlZsc2lZTGJwZXpqQ1hpc0ZLbmMtMnpSVmR3cjdGeGxOV28wZVhIeXdYWUw4akNmSDJoN29VWFZlQ3lYYlZaZ0tZTXpLVnprcE96Z0dNdk4xczRGN1ZET3FJTWJQTFBXa2NueGVOWFpjUWJyQ254TG40WE1KTmZaVXZvYlE?oc=5",
       "date": "2026-10-15T13:55:07Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Quién es Katie Zacharia y por qué su designación como secretaria de prensa de Trump ha generado controversia",
-      "desc": "Así se define Katie Zacharia, la novel portavoz de la Casa Blanca, quien fue nombrada por el presidente Donald Trump el pasado 9 de octubre.",
-      "link": "https://eldeber.com.bo/bbc/quien-es-katie-zacharia-y-por-que-su-designacion-como-secretaria-de-prensa-de-trump-ha-generado-controversia-2026101585346",
-      "date": "2026-10-15T11:53:46Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -208,7 +201,7 @@
       "source": "Google — FMI Bolivia",
       "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
       "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY0gHQAUFVX3lxTFA5Z1FqWXNXdDlwQzM2dGZ5QnQ5Z2ZPNzd4cVAwZi1Mc0cxUmpib2R3MjB1M3h6dlgzd0phelFUSXE0c2xPeXAwQy15aGN2ZU1qXzJkWUJORlpyMElTT3ZSYVNSS01KUHN0QU16Mnctd2EyUDlNYy14MXVWLWRzd2FIb2t2Ni1zUUpSaFYtZ2Yybmd6Mm5GcVVXejlTUEpMR04yTEZ2aFVTbENSSTN3cUFaOVZwYXE3bDIzZHFwdURXUVk4NE5CMnZzV1NDMjZvQlg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
       "date": "2026-10-13T20:18:20Z"
     },
     {
@@ -217,6 +210,13 @@
       "desc": "¿Nueva variación del dólar? Así se cotiza este martes en Bolivia&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzFEZTlRNlJNR0xVTXRBTkFheWV5RFcyWlhUV25WZ2E3cmxGSmthOVFjaVF4VFVVdzVYUzNxNmRBc21WWXdFU2x2d2JTR1ItNXl5QnVHbk5ySDhjYXVveGo1SU1SLWNHQ3Y4VzdpZ2NpX1lkUW0yQ2dSeDlkWFA3MjBhMzhyVHdyaVdwYkVxOUx1TzFoZnh1ZjRuQ0Zka3htS09tRVBaMHRjQ3RndmJlOA?oc=5",
       "date": "2026-10-13T11:12:51Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Las reservas internacionales crecen un 8,7% en tres meses - El Deber",
+      "desc": "Las reservas internacionales crecen un 8,7% en tres meses&nbsp;&nbsp;El Deber",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDIyaUpzZ25qZ01kajFXemwydUNpZlNBRkMzc0h4WURnSGlFTTlCZEowMXQtX1JKZERfNFBpRGxNaFdNNldMMG41NDhkdWZuRzdhZEpYWjVDcGotTDFzUWo4REEyN3otczlZemV6RlhobkRMbWdJalNJSTFaZXZRdmJTS0h1bXlnZ09JZU9wemViVXM?oc=5",
+      "date": "2026-10-11T00:11:50Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -234,10 +234,10 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Reservas internacionales a septiembre se cifran en $us 3.932,8 millones, $us 357 menos que en agosto - unitel.bo",
-      "desc": "Reservas internacionales a septiembre se cifran en $us 3.932,8 millones, $us 357 menos que en agosto&nbsp;&nbsp;unitel.bo",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdDFleW9CWXVmMzVnLTBVNDNiMmViaWFSRHgtdDhNbTI1dnYzdEhPYWZYeFFvbHV6Y2FvMU9ZZlpGUFA0TjczaVZBYnRhWUkzc21Jd1QtdjhNZXR4Zll1aUdQUjQ5bEpQNFF5dzNfRXU0Z0pwcmdwSnJYNGlLdjkyT2lLc0RoU081RW1yYjVQSGZlSDlRZ3ZDbk1pLTJpRDNWNTNXQkpPXzlqLXl6N1dRUkd3QkwwWGpjeVRqWWNIUVExa21GaGhvNHZQZkxmZU1YRkVLY1liaGpxZw?oc=5",
-      "date": "2026-10-09T21:33:32Z"
+      "title": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales - La Razón Digital Bolivia",
+      "desc": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales&nbsp;&nbsp;La Razón Digital Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3EzUkFBWHpuV3pmQm5NbEktNE91RjhXSHA5a1BRRWhBcUtqUGl4ODZfY0NMN0NybmhBSXduMHViWHpmNGpSOGdLakJfbkhTRHlRNl8tcmxhck8tS1o1TjByblhXMU1IaFlsTXNGanY0XzFIUi1jV25rNElxZzZ4TVhHSGpQWVU2Ymh5QVVkRW0wamdfdDVuYUpGY1hNVXRxSWpMbVctUmoySUxuZy1JTGs2Nm1zV1VFQmtiQ2g0aGRZNFBmazc4ZU1rb3ItUk1HbTctMzNR?oc=5",
+      "date": "2026-10-09T22:17:36Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -245,13 +245,6 @@
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T18:07:39Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Sigue la oscilación de las reservas de Bolivia: BCB reporta $us 3.933 millones hasta septiembre - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "Sigue la oscilación de las reservas de Bolivia: BCB reporta $us 3.933 millones hasta septiembre&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ2U3SGktVkVtdWd6REtlVEpNcVh2MkNGZ2VpYXdram8wbm1XcXlsemliRmpMVEZTaUk5R1VOSVVfNFVXNDlkaHlsN21qamMzLXhmSDlHMkhvZVhJMlh3TmRxN1Z0NEZfOWdSTnVEdkVKNlNwZzdINHhNeGNIZG05Tng4bnY2R0dLZ3AzQVpHUDFNQ00wYUhlS0tLUjBQbm02cUt6LXYwd0tTck1FRnBrR0tiTEU4aktpUk1fNDlDOG5GT3BQdV90SU1LNEo5U2hBdW05dA?oc=5",
-      "date": "2026-10-09T16:39:27Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -280,13 +273,20 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Instituto Nacional de Estadística",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.79,
-    "sellTomorrow": 11.83,
+    "buyTomorrow": 11.8,
+    "sellTomorrow": 11.84,
     "changeBuy": 0.0,
-    "changeSell": -0.01,
+    "changeSell": 0.0,
     "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4225,6 +4225,11 @@
     {
       "date": "2026-10-15",
       "buy": 11.79,
+      "sell": 11.84
+    },
+    {
+      "date": "2026-10-16",
+      "buy": 11.8,
       "sell": 11.84
     }
   ]
