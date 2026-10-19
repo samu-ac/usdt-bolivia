@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-10-19T17:57:58Z",
+  "lastUpdated": "2026-10-19T21:59:23Z",
   "displayDate": "lunes 19 de octubre, 2026",
   "binance": {
-    "buy": 11.8,
-    "sell": 11.84,
+    "buy": 11.81,
+    "sell": 11.85,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.79,
-    "sell": 11.77,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.07,
-    "sell": 11.69,
+    "buy": 12.08,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_takenos"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.82,
+    "buy": 11.83,
     "sell": 11.82,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.95,
-    "sell": 11.64,
+    "buy": 11.96,
+    "sell": 11.65,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.69,
     "officialSell": 11.69,
-    "referentialBuy": 11.8,
-    "referentialSell": 11.84,
+    "referentialBuy": 11.81,
+    "referentialSell": 11.85,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-19T17:57:51Z"
+    "fetchedAt": "2026-10-19T21:59:14Z"
   },
   "banks": [
     {
@@ -107,60 +107,60 @@
   ],
   "news": [
     {
+      "source": "El Deber",
+      "title": "Trump está dispuesto a reunirse con Putin y Xi para negociar fin de la guerra de Ucrania",
+      "desc": "El portavoz del Kremlin, Dmitri Peskov, admitió este lunes que la cuestión se abordó durante la conversación telefónica que Putin mantuvo con Trump el pasado 9 de octubre, pero negó que exista un acue…",
+      "link": "https://eldeber.com.bo/mundo/trump-esta-dispuesto-reunirse-putin-xi-negociar-fin-guerra-ucrania_1792446414",
+      "date": "2026-10-19T21:46:54Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Cinco partidos sin jugar: el complicado presente de Miguel Terceros en Santos",
+      "desc": "El boliviano quedó relegado en los planes del DT Cuca y no juega desde el 13 de septiembre, cuando disputó apenas seis minutos ante Cruzeiro.",
+      "link": "https://eldeber.com.bo/deportes/cinco-partidos-jugar-complicado-presente-miguel-terceros-santos_1792446168",
+      "date": "2026-10-19T21:44:24Z"
+    },
+    {
       "source": "La Razón",
-      "title": "Paz aspira a multiplicar los ingresos mineros hasta $us 45.000 MM",
-      "desc": "El Presidente proyectó esa cifra, al señalar que los progresos se darán si una nueva ley del sector impulsa las inversiones y brinda seguridad jurídica\nThe post Paz aspira a multiplicar los ingresos m…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/19/paz-aspira-a-multiplicar-los-ingresos-mineros-hasta-us-45-000-mm/",
-      "date": "2026-10-19T17:38:32Z"
+      "title": "Cinco actividades ‘clave’ marcarán la primera fase del Carnaval de Oruro 2027",
+      "desc": "Las actividades se realizarán antes del Primer Convite, previsto para el 8 de noviembre, con lo que se da inicio oficial al Carnaval 2027.\nThe post Cinco actividades ‘clave’ marcarán la primera fase d…",
+      "link": "https://larazon.bo/la-revista/2026/10/19/cinco-actividades-clave-marcaran-la-primera-fase-del-carnaval-de-oruro-2027/",
+      "date": "2026-10-19T21:29:20Z"
     },
     {
       "source": "La Razón",
-      "title": "Dockweiler denuncia freno a procesos de la Alcaldía y pide justicia a nuevos fiscales",
-      "desc": "El Gobierno Municipal tiene actualmente 59 procesos en curso. De ellos, 31 son de penales y se presentaron ante el Ministerio Público.\nThe post Dockweiler denuncia freno a procesos de la Alcaldía y pi…",
-      "link": "https://larazon.bo/ciudades/2026/10/19/dockweiler-denuncia-freno-a-procesos-de-la-alcaldia-y-pide-justicia-a-nuevos-fiscales/",
-      "date": "2026-10-19T17:28:44Z"
+      "title": "Se instala audiencia definirá si Tatiana Marset vuelve a Palmasola",
+      "desc": "La Fiscalía solicitó la revocatoria de las medidas sustitutivas debido a un presunto incumplimiento registrado en septiembre\nThe post Se instala audiencia definirá si Tatiana Marset vuelve a Palmasola…",
+      "link": "https://larazon.bo/nacional/2026/10/19/se-instala-audiencia-definira-si-tatiana-marset-vuelve-a-palmasola/",
+      "date": "2026-10-19T21:14:20Z"
     },
     {
       "source": "La Razón",
-      "title": "Lara a nuevos fiscales: ‘Ustedes no están aquí para perseguir a la gente que piensa diferente’",
-      "desc": "‘Sean valientes para rechazar la orden de armar un caso sin pruebas, para no prestarse a la injusticia’, instó el vicepresidente \nThe post Lara a nuevos fiscales: ‘Ustedes no están aquí para perseguir…",
-      "link": "https://larazon.bo/nacional/2026/10/19/lara-a-nuevos-fiscales-ustedes-no-estan-aqui-para-perseguir-a-la-gente-que-piensa-diferente/",
-      "date": "2026-10-19T17:10:59Z"
+      "title": "SAR-FAB se suma a la búsqueda del hombre desaparecido hace nueve días en el río Yapacaní",
+      "desc": "Mario Roda Durán, de 32 años, desapareció el pasado 10 de octubre, en inmediaciones del río Yapacaní, departamento de Santa Cruz.\nThe post SAR-FAB se suma a la búsqueda del hombre desaparecido hace nu…",
+      "link": "https://larazon.bo/ciudades/2026/10/19/sar-fab-se-suma-a-la-busqueda-del-hombre-desaparecido-hace-nueve-dias-en-el-rio-yapacani/",
+      "date": "2026-10-19T21:12:33Z"
     },
     {
       "source": "El Deber",
-      "title": "Paz pregunta “¿en qué manos estábamos?” tras valorar el secuestro de 43 vehículos de alta gama en Santa Cruz",
-      "desc": "El presidente denuncia amenazas mafiosas contra jueces. La Policía investiga la procedencia de los vehículos y sus eventuales nexos con exfiscales.",
-      "link": "https://eldeber.com.bo/pais/paz-pregunta-manos-estabamos-valorar-secuestro-43-vehiculos-alta-gama-santa-cruz_1792428217",
-      "date": "2026-10-19T16:43:37Z"
+      "title": "Potosí: un minero y dos niños mueren por la detonación de dinamita en Colquechaca",
+      "desc": "El hecho fue reportado la mañana del domingo 18 de octubre, alrededor de las 09:30, luego de que comunarios alertaran sobre la presencia de una persona aparentemente fallecida dentro de un vehículo",
+      "link": "https://eldeber.com.bo/pais/potosi-minero-dos-ninos-mueren-detonacion-dinamita-colquechaca_1792442677",
+      "date": "2026-10-19T20:44:37Z"
     },
     {
       "source": "El Deber",
-      "title": "El TAS anunciará en noviembre si Senegal recupera la corona africana",
-      "desc": "El Tribunal de Arbitraje Deportivo (TAS) comunicó este lunes que el panel que estudia el recurso de Senegal contra la victoria de Marruecos en la final de la Copa de África de Naciones continúa sus de…",
-      "link": "https://eldeber.com.bo/deportes/tas-anunciara-noviembre-si-senegal-recupera-corona-africana_1792426313",
-      "date": "2026-10-19T16:11:53Z"
+      "title": "La Aduana y el FMI revisarán la valoración de mercancías y los tiempos de atención",
+      "desc": "Una misión técnica trabajará hasta el 30 de octubre para evaluar procesos, normativa y operaciones. La revisión incluye mecanismos que han generado una elevada carga procesal y observaciones de los op…",
+      "link": "https://eldeber.com.bo/economia/aduana-fmi-revisaran-valoracion-mercancias-tiempos-atencion_1792441392",
+      "date": "2026-10-19T20:23:12Z"
     },
     {
       "source": "El Deber",
-      "title": "Anuncian vuelo exploratorio de Ecojet a Potosí para el 10 de noviembre",
-      "desc": "La prueba permitirá evaluar las condiciones de operación antes de habilitar servicios regulares. El ministro Mauricio Zamora anunció una inspección para el 30 de octubre y proyectó una conexión con Vi…",
-      "link": "https://eldeber.com.bo/economia/anuncian-vuelo-exploratorio-ecojet-potosi-10-noviembre_1792426032",
-      "date": "2026-10-19T16:07:12Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Dellien escaló 10 posiciones en el ranking ATP y se acerca al top 100",
-      "desc": "El tenista boliviano subió al puesto 118 del mundo tras alcanzar la final del Bolivia Open, en Santa Cruz.",
-      "link": "https://eldeber.com.bo/deportes/dellien-escalo-10-posiciones-ranking-atp-acerca-top-100_1792425954",
-      "date": "2026-10-19T16:06:10Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La mezcla de etanol en la gasolina subirá al 15% en noviembre y llegará al 18% hasta abril",
-      "desc": "El ministro Marcelo Blanco anunció el incremento desde el 1 de noviembre. Los productores y la agroindustria esperan ampliar sus inversiones y reducir la dependencia de gasolina importada. Los volúmen…",
-      "link": "https://eldeber.com.bo/economia/mezcla-etanol-gasolina-subira-15-noviembre-llegara-18-abril_1792425524",
-      "date": "2026-10-19T15:58:44Z"
+      "title": "El presidente Paz revela que su familia corre riesgo por amenazas del crimen organizado",
+      "desc": "Las declaraciones del presidente se conocieron en la promulgación de la Ley de Prescripción y Consolidación de Depósitos Judiciales, normativa que permitirá transferir al Órgano Judicial los fondos ju…",
+      "link": "https://eldeber.com.bo/pais/presidente-paz-revela-familia-corre-riesgo-amenazas-crimen-organizado_1792441278",
+      "date": "2026-10-19T20:21:18Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -196,13 +196,6 @@
       "desc": "Así amanece el dólar este sábado 17 de octubre en Bolivia: revise el tipo de cambio oficial y el paralelo&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDFTQ1dJY083YXRoSF9iZUFsYkNjaFVLTWhyYVFrT1lDczJQMFNhNlVkLTZncURIZkRaYzZyTGQzdllBejkxLUNLYlJtMkx1REVhNUVHbTUxNURzMnhrM09HZXNaVm94aGRKbktySmtDOVZucHR5XzBtVXdDUlJmMDctcjBXR0R0TldkWWdieVFDOTl6TXVfbnR3VjlXdGdRS2d4ako4TGl5bS1EaVdmUWk3RC0ycUhkSGxkNkgzMFVGUGtRYmJzWHJyQzZXUUZuQ3RYa1FHLTZHNVlNYWNTdllLTW5wMThv?oc=5",
       "date": "2026-10-17T11:22:54Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial - Economy",
-      "desc": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial&nbsp;&nbsp;Economy",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY3pNV0M5Y3Voa2R3TnRpWHZEUC1TMXRTeEM0LTFsWkpMYmtvVlJxSmVHLWo5cVhZRnZQQ245aU96SkZEb1V6UEh3amdxZjdTbXREYXBPWEJpZU9GWlIzaTB2RFhIR1J4bGRER1pVVkIydW5DY3pJNnVfY1paMjFmc1REOWJjSDNlLUJFTWxzS3FIUVNoemlxbHBOYXRFeE90TTFDUGo2Rko2THZjeVFzMGkzcW9YOGNQbWNrZjkzN0VTLVFNVUFZOFNpaWQ0WEJYemRWU3dwT2tlOEhPanZaWlVta9IB6AFBVV95cUxNZ1VjOXVwRzNhUE9oWUtHelpia0xWMDk5RWtZM2hJNnljdmpvN0taUldjVFpzeURCcVVTQ0hzeVdyMzE0dDQxWXlwUXlpQmlUeVRiVWkyUmwycFdIbnY5anZOWnluaTUxOTZKMmFhZUNwcERSVmU4VjlaRzFyS3l2YkEwNGtnWEVZbVp6UEd6Y0ZQeWN6TU00S2dTdmFJQVhBcUhWbkJFWkk1UmY2NTdlNHp6ZC1qOVVjX0tHTW01S2c4WVNuazBpMXBRQmVzaFRYbjdISHZDLThiZXQwRlpyWjBZUlVTV2g4?oc=5",
-      "date": "2026-10-15T17:02:09Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -268,6 +261,13 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
+      "source": "Google — Economía Bolivia",
+      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
+      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
+      "date": "2026-10-06T07:00:00Z"
+    },
+    {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
@@ -283,10 +283,10 @@
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.78,
+    "buyTomorrow": 11.79,
     "sellTomorrow": 11.83,
     "changeBuy": -0.02,
-    "changeSell": -0.01,
+    "changeSell": -0.02,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4234,8 +4234,8 @@
     },
     {
       "date": "2026-10-19",
-      "buy": 11.8,
-      "sell": 11.84
+      "buy": 11.81,
+      "sell": 11.85
     }
   ]
 }
