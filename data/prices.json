@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-20T03:42:13Z",
-  "displayDate": "lunes 19 de octubre, 2026",
+  "lastUpdated": "2026-10-20T16:01:53Z",
+  "displayDate": "martes 20 de octubre, 2026",
   "binance": {
-    "buy": 11.82,
-    "sell": 11.86,
+    "buy": 11.85,
+    "sell": 11.89,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.79,
-    "sell": 11.78,
+    "buy": 11.87,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.09,
-    "sell": 11.71,
+    "buy": 12.12,
+    "sell": 11.74,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.03,
-    "sell": 11.68,
+    "buy": 12.06,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,135 +32,128 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.84,
-    "sell": 11.82,
+    "buy": 11.87,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.88,
-    "sell": 11.62,
+    "buy": 11.93,
+    "sell": 11.63,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.69,
-    "officialSell": 11.69,
-    "referentialBuy": 11.82,
-    "referentialSell": 11.86,
+    "officialBuy": 11.7,
+    "officialSell": 11.7,
+    "referentialBuy": 11.85,
+    "referentialSell": 11.89,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-20T03:42:07Z"
+    "fetchedAt": "2026-10-20T16:01:46Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.39,
-      "sell": 11.99
+      "buy": 11.4,
+      "sell": 12.0
     },
     {
       "name": "BCP",
-      "buy": 11.19,
-      "sell": 11.99
+      "buy": 11.2,
+      "sell": 12.0
     },
     {
       "name": "BNB",
-      "buy": 11.19,
-      "sell": 11.99
+      "buy": 11.2,
+      "sell": 12.0
     },
     {
       "name": "Banco Bisa",
-      "buy": 10.99,
-      "sell": 11.9
+      "buy": 11.0,
+      "sell": 11.92
     },
     {
       "name": "Banco FIE",
-      "buy": 10.79,
-      "sell": 11.79
+      "buy": 10.8,
+      "sell": 11.8
     },
     {
       "name": "Banco Económico",
-      "buy": 10.69,
-      "sell": 12.04
+      "buy": 10.7,
+      "sell": 12.05
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.59,
-      "sell": 11.99
+      "buy": 10.6,
+      "sell": 12.0
     },
     {
       "name": "BancoSol",
-      "buy": 10.52,
-      "sell": 11.99
+      "buy": 10.53,
+      "sell": 12.0
     },
     {
       "name": "Banco Unión",
-      "buy": 10.19,
-      "sell": 11.84
+      "buy": 10.2,
+      "sell": 11.85
     },
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 11.99
+      "sell": 12.0
     }
   ],
   "news": [
     {
       "source": "La Razón",
-      "title": "Urioste encara reformas en la Fiscalía con selección por méritos",
-      "desc": "La reestructuración se desarrolla mientras la Asamblea Legislativa Plurinacional debe avanzar en la convocatoria para elegir al nuevo fiscal general del Estado.\nThe post Urioste encara reformas en la …",
-      "link": "https://larazon.bo/nacional/2026/10/19/urioste-encara-reformas-en-la-fiscalia-con-seleccion-por-meritos/",
-      "date": "2026-10-20T03:05:10Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Abogado de senador Condori afirma que imputación se basa en enlaces de redes sociales",
-      "desc": "El abogado Ángel Martan afirma que las palabras que viralizó el senador suplente fueron sacadas de contexto y que la Fiscalía lo imputó por una oración mal lanzada",
-      "link": "https://eldeber.com.bo/pais/abogado-senador-condori-afirma-imputacion-basa-enlaces-redes-sociales_1792463166",
-      "date": "2026-10-20T02:26:06Z"
+      "title": "Justicia ordena revisar la aprehensión de Mariaca y emitir un nuevo fallo en 72 horas",
+      "desc": "Jerjes Justiniano advierte que un dictamen de ilegalidad evidenciará el accionar irregular de la Policía. La decisión no altera la reclusión preventiva del exfiscal en Cantumarca\nThe post Justicia ord…",
+      "link": "https://larazon.bo/nacional/2026/10/20/justicia-ordena-revisar-la-aprehension-de-mariaca-y-emitir-un-nuevo-fallo-en-72-horas/",
+      "date": "2026-10-20T16:01:37Z"
     },
     {
       "source": "La Razón",
-      "title": "Roban equipos del Instituto de Gastroenterología y la Policía investiga",
-      "desc": "De manera preliminar, los investigadores establecieron que el rovo que pudo ocurrir entre las 23.00 del domingo y la 01.00 de este lunes\nThe post Roban equipos del Instituto de Gastroenterología y la …",
-      "link": "https://larazon.bo/sociedad/2026/10/19/roban-equipos-del-instituto-de-gastroenterologia-y-la-policia-investiga/",
-      "date": "2026-10-20T01:35:37Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Jimmy López promete acelerar los casos de alto impacto y anuncia una evaluación en la Fiscalía de Santa Cruz",
-      "desc": "El nuevo fiscal departamental aseguró que las investigaciones continuarán con respeto al debido proceso. También anticipó que podrían producirse cambios y reasignaciones de fiscales, una vez que conoz…",
-      "link": "https://eldeber.com.bo/santa-cruz/jimmy-lopez-promete-acelerar-casos-alto-impacto-anuncia-evaluacion-fiscalia-santa-cruz_1792457745",
-      "date": "2026-10-20T00:55:45Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Una marea rosa busca concienciar sobre el cáncer de mama en Santa Cruz de la Sierra",
-      "desc": "Cada 19 de octubre se conmemora el Día Internacional de la lucha contra el cáncer de mama, una fecha promovida por la Organización Mundial de la Salud (OMS) para sensibilizar y concienciar a la poblac…",
-      "link": "https://eldeber.com.bo/santa-cruz/marea-rosa-busca-concienciar-cancer-mama-santa-cruz-sierra_1792455153",
-      "date": "2026-10-20T00:12:33Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Denuncian el robo de equipos del Instituto de Gastroenterología",
-      "desc": "Se trata de un proyector (data show) y dos unidades centrales de procesamiento (CPU), una de las cuales contiene un software especializado de última generación para el funcionamiento del tomógrafo",
-      "link": "https://eldeber.com.bo/pais/denuncian-robo-equipos-instituto-gastroenterologia_1792453164",
-      "date": "2026-10-19T23:39:24Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "“Hay blanqueo de activos en autoventas”, afirma Oviedo sobre secuestro de 43 vehículos vinculados a Mariaca",
-      "desc": "El ministro de Gobierno afirmó que la investigación sobre los 43 vehículos secuestrados en Santa Cruz continúa en coordinación con el Ministerio Público y la Justicia. También señaló que se indaga el …",
-      "link": "https://eldeber.com.bo/pais/hay-blanqueo-activos-autoventas-afirma-oviedo-secuestro-43-vehiculos-vinculados-mariaca_1792452444",
-      "date": "2026-10-19T23:27:24Z"
+      "title": "Complejo Portuario Mejillones proyecta nuevas oportunidades para el comercio exterior boliviano",
+      "desc": "La Bahía cuenta con un ecosistema portuario y logístico consolidado, con infraestructura para mover carga, conectividad vial y ferroviaria y  espacios para nuevos proyectos\nThe post Complejo Portuario…",
+      "link": "https://larazon.bo/espacio-empresarial/2026/10/20/complejo-portuario-mejillones-proyecta-nuevas-oportunidades-para-el-comercio-exterior-boliviano/",
+      "date": "2026-10-20T15:49:35Z"
     },
     {
       "source": "La Razón",
-      "title": "Cochabamba: Sedes activa campaña para completar el esquema de vacunación infantil",
-      "desc": "Del 20 al 30 de octubre se realizará la inmunización a niños y niñas en todos los centros de salud del departamento. \nThe post Cochabamba: Sedes activa campaña para completar el esquema de vacunación …",
-      "link": "https://larazon.bo/sociedad/2026/10/19/cochabamba-sedes-activa-campana-para-completar-el-esquema-de-vacunacion-infantil/",
-      "date": "2026-10-19T23:23:44Z"
+      "title": "Alcaldía de Cochabamba propone que las placas de autos pertenezcan a las personas",
+      "desc": "Manfred Reyes Villa explicó que cada persona podría tramitar su propia placa y al momento de vender el automóvil, retirarla, para así evitar deudas.\nThe post Alcaldía de Cochabamba propone que las pla…",
+      "link": "https://larazon.bo/sociedad/2026/10/20/alcaldia-de-cochabamba-propone-que-las-placas-de-autos-pertenezcan-a-las-personas/",
+      "date": "2026-10-20T15:39:56Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El príncipe Enrique dice que desea reconciliarse con su familia, pero algunos \"no quieren\"",
+      "desc": "Después de seis años viviendo en California (EE.UU), el príncipe inglés (cuyo nombre en inglés es Harry) volvió junto a Meghan Markle y sus dos hijos al Reino Unido en septiembre de este año, donde es…",
+      "link": "https://eldeber.com.bo/sociales/principe-enrique-dice-desea-reconciliarse-familia-algunos-no-quieren_1792510558",
+      "date": "2026-10-20T15:36:02Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Urioste posesiona a dos fiscales departamentales que no llegaron al acto del lunes",
+      "desc": "Gabriel Quiroga y Adriana Rodríguez asumen de manera oficial sus cargos como fiscales departamentales de La Paz y Pando",
+      "link": "https://eldeber.com.bo/pais/urioste-posesiona-dos-fiscales-departamentales-no-llegaron-acto-lunes_1792508229",
+      "date": "2026-10-20T14:57:09Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "“De la importación de gas ya no nos salvamos”, alerta experto en energía",
+      "desc": "El experto Sergio Arnés advierte que, comprar gas del exterior elevaría los costos de generación eléctrica. Propone abrir paso a inversiones privadas, subastas de suministro y contratos de largo plazo…",
+      "link": "https://eldeber.com.bo/economia/importacion-gas-no-nos-salvamos-alerta-experto-energia_1792507541",
+      "date": "2026-10-20T14:45:41Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Oriente Petrolero suma nuevas deudas ante la FIFA por más de 110.000 dólares",
+      "desc": "El club albiverde fue notificado por los casos de Jordan Santacruz y Joel Contreras. La FIFA ordenó el pago de 77.773 dólares al paraguayo y falló parcialmente a favor del colombiano, al que deberá ca…",
+      "link": "https://eldeber.com.bo/oriente-petrolero/oriente-petrolero-suma-nuevas-deudas-fifa-110-000-dolares_1792506500",
+      "date": "2026-10-20T14:28:20Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -181,14 +174,7 @@
       "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
-      "date": "2026-10-17T13:09:23Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reconstruir reservas internacionales: el corazón del acuerdo con el FMI - El Diario - Bolivia",
-      "desc": "Reconstruir reservas internacionales: el corazón del acuerdo con el FMI&nbsp;&nbsp;El Diario - Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXVUaVczd2QyOXFlakdIbVdPX013NGJLeEhqRVBjczM1Wk1DSnR2d3FtZldScExYSUJJQjdFLVhPQzFmNFpZYWhtLUxyZ3FyNl9nWk1RcW50cWEwUG5ZMHVkZjJhSW45cXo4Vm9TZ0hVSVhvVWhJY1FXbG5xVTNZOERITnhmZ2VIVG9vaExic0tMVDIxU2QyVVhqdnlMWXJNaXJzMm9lWGE1bWxHNHZYMHIxQmk?oc=5",
-      "date": "2026-10-17T11:23:37Z"
+      "date": "2026-10-17T13:09:20Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -196,6 +182,20 @@
       "desc": "Así amanece el dólar este sábado 17 de octubre en Bolivia: revise el tipo de cambio oficial y el paralelo&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDFTQ1dJY083YXRoSF9iZUFsYkNjaFVLTWhyYVFrT1lDczJQMFNhNlVkLTZncURIZkRaYzZyTGQzdllBejkxLUNLYlJtMkx1REVhNUVHbTUxNURzMnhrM09HZXNaVm94aGRKbktySmtDOVZucHR5XzBtVXdDUlJmMDctcjBXR0R0TldkWWdieVFDOTl6TXVfbnR3VjlXdGdRS2d4ako4TGl5bS1EaVdmUWk3RC0ycUhkSGxkNkgzMFVGUGtRYmJzWHJyQzZXUUZuQ3RYa1FHLTZHNVlNYWNTdllLTW5wMThv?oc=5",
       "date": "2026-10-17T11:22:54Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: cotización de apertura del 16 de octubre - Infobae",
+      "desc": "Dólar hoy en Bolivia: cotización de apertura del 16 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnFtVkxSemc1Y0syRHRfa2RsX0h4c1FhdmcyTFdfYzVFZnNZX1VKc0Jjdm5WOFFCSTFMdkw0dDQzWnc5djdkT1p2MExIZ2dhd2tFeW1yTllZdnNfQmxGNmhMTU5MXzhmUlZmZUpnZ2UxdWoyd0ZsN1o3TDhBM093VVB0RUwzeS1FTjJkYUVrNjJvNnEzR1ZrMEkxYUtrUXpuZkI5djNOblI2Z9IBxAFBVV95cUxNaFJxM3ZQTWx5azJHSlJsVWdNYnNMOGVWbVRwbS1hUGk3Y21VOERtZWVEclVZV2w1UEVVdU1Ha0FubmpsOC04LUZtMHFQTS13UUpha2ZnaEZ4SFlMcVV2VnVmb01WRHV0a0ZyaWtpZjJ2T2s1NUJTekVzX2RwdWxnckRHd0wybWQ1dlZGQzV1SDg5VnhWaXVFUEtYRUJCS29idFViejhDcjhuSjdSOTRpbDFrWGtHczh1TVdSaF96ajZ2X25B?oc=5",
+      "date": "2026-10-16T13:16:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial - Economy",
+      "desc": "Ministro Morales presenta el potencial y la visión económica de Bolivia ante el FMI y el Banco Mundial&nbsp;&nbsp;Economy",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY3pNV0M5Y3Voa2R3TnRpWHZEUC1TMXRTeEM0LTFsWkpMYmtvVlJxSmVHLWo5cVhZRnZQQ245aU96SkZEb1V6UEh3amdxZjdTbXREYXBPWEJpZU9GWlIzaTB2RFhIR1J4bGRER1pVVkIydW5DY3pJNnVfY1paMjFmc1REOWJjSDNlLUJFTWxzS3FIUVNoemlxbHBOYXRFeE90TTFDUGo2Rko2THZjeVFzMGkzcW9YOGNQbWNrZjkzN0VTLVFNVUFZOFNpaWQ0WEJYemRWU3dwT2tlOEhPanZaWlVta9IB6AFBVV95cUxNZ1VjOXVwRzNhUE9oWUtHelpia0xWMDk5RWtZM2hJNnljdmpvN0taUldjVFpzeURCcVVTQ0hzeVdyMzE0dDQxWXlwUXlpQmlUeVRiVWkyUmwycFdIbnY5anZOWnluaTUxOTZKMmFhZUNwcERSVmU4VjlaRzFyS3l2YkEwNGtnWEVZbVp6UEd6Y0ZQeWN6TU00S2dTdmFJQVhBcUhWbkJFWkk1UmY2NTdlNHp6ZC1qOVVjX0tHTW01S2c4WVNuazBpMXBRQmVzaFRYbjdISHZDLThiZXQwRlpyWjBZUlVTV2g4?oc=5",
+      "date": "2026-10-15T17:02:09Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -212,25 +212,11 @@
       "date": "2026-10-15T13:55:07Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre - Infobae",
-      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 14 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTk52WHhyWjVRS3RmQUI4aFFURmZkT0dCZ2RRZS1JNXVzTmNTajBQVDZUcmU5WTU1bk13Sjh4UG9qWkp4ZFFHZi0xNXA1NkpZS0ZOZmVzak1CZXFKbm8wbXYzZHdicFluTGxjdFFOQkJyUGdWcVNTUlFHS3ZrZGZ4VnFQN1BjZ0dEcHQ4RDNsWW1jdk1yVmh3NUt5X283YVZrRXNhb2hqZ2xhd1BTQ1ZIZnMzMUNHZ9IB0AFBVV95cUxOU1dyQjFzU01tOUFIQUJSOHVqbmd3RzdrS2t2LVZ3M0tySC12Yjc3ZGZsVlN4NmN0bGRRVEoxWEx3YzBRckZ1MF9ieUpLQzZoZV93MC0wel9ZdG9aRDdtNE4tXzVITlNZeDdvaW1VUmE5UjA2dHRMZ2hJNFdfQ3o3ZHZEbmxjaFFXTDFINFI2bkJpUy1RdndXZU9jVVVlbFRxR2EycnZ0MzJoSHVXOHJiRmlqc21nV2F5dGtreTA1VzdGZHNhTnh5THdLd0lXdVli?oc=5",
-      "date": "2026-10-14T20:16:00Z"
-    },
-    {
       "source": "Google — FMI Bolivia",
       "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
       "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
       "date": "2026-10-14T14:04:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
-      "date": "2026-10-14T02:00:43Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -280,13 +266,27 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.79,
-    "sellTomorrow": 11.84,
-    "changeBuy": -0.03,
-    "changeSell": -0.02,
+    "buyTomorrow": 11.81,
+    "sellTomorrow": 11.85,
+    "changeBuy": -0.04,
+    "changeSell": -0.04,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4236,6 +4236,11 @@
       "date": "2026-10-19",
       "buy": 11.82,
       "sell": 11.86
+    },
+    {
+      "date": "2026-10-20",
+      "buy": 11.85,
+      "sell": 11.89
     }
   ]
 }
