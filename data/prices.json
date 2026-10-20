@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-20T16:01:53Z",
+  "lastUpdated": "2026-10-20T21:00:16Z",
   "displayDate": "martes 20 de octubre, 2026",
   "binance": {
-    "buy": 11.85,
-    "sell": 11.89,
+    "buy": 11.89,
+    "sell": 11.93,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.87,
-    "sell": 11.79,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.12,
-    "sell": 11.74,
+    "buy": 12.17,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.06,
-    "sell": 11.71,
+    "buy": 12.11,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.87,
-    "sell": 11.85,
+    "buy": 11.92,
+    "sell": 11.91,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.93,
-    "sell": 11.63,
+    "buy": 11.96,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.85,
-    "referentialSell": 11.89,
+    "referentialBuy": 11.89,
+    "referentialSell": 11.93,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-20T16:01:46Z"
+    "fetchedAt": "2026-10-20T21:00:08Z"
   },
   "banks": [
     {
@@ -107,53 +107,74 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Justicia ordena revisar la aprehensión de Mariaca y emitir un nuevo fallo en 72 horas",
-      "desc": "Jerjes Justiniano advierte que un dictamen de ilegalidad evidenciará el accionar irregular de la Policía. La decisión no altera la reclusión preventiva del exfiscal en Cantumarca\nThe post Justicia ord…",
-      "link": "https://larazon.bo/nacional/2026/10/20/justicia-ordena-revisar-la-aprehension-de-mariaca-y-emitir-un-nuevo-fallo-en-72-horas/",
-      "date": "2026-10-20T16:01:37Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Complejo Portuario Mejillones proyecta nuevas oportunidades para el comercio exterior boliviano",
-      "desc": "La Bahía cuenta con un ecosistema portuario y logístico consolidado, con infraestructura para mover carga, conectividad vial y ferroviaria y  espacios para nuevos proyectos\nThe post Complejo Portuario…",
-      "link": "https://larazon.bo/espacio-empresarial/2026/10/20/complejo-portuario-mejillones-proyecta-nuevas-oportunidades-para-el-comercio-exterior-boliviano/",
-      "date": "2026-10-20T15:49:35Z"
+      "source": "El Deber",
+      "title": "Los presidentes de Bolivia y Perú se reunirán en noviembre",
+      "desc": "La reunión forma parte de una agenda de cooperación regional que busca facilitar el movimiento de mercancías y promover oportunidades económicas",
+      "link": "https://eldeber.com.bo/pais/presidentes-bolivia-peru-reuniran-noviembre_1792529067",
+      "date": "2026-10-20T20:44:27Z"
     },
     {
       "source": "La Razón",
-      "title": "Alcaldía de Cochabamba propone que las placas de autos pertenezcan a las personas",
-      "desc": "Manfred Reyes Villa explicó que cada persona podría tramitar su propia placa y al momento de vender el automóvil, retirarla, para así evitar deudas.\nThe post Alcaldía de Cochabamba propone que las pla…",
-      "link": "https://larazon.bo/sociedad/2026/10/20/alcaldia-de-cochabamba-propone-que-las-placas-de-autos-pertenezcan-a-las-personas/",
-      "date": "2026-10-20T15:39:56Z"
+      "title": "Banco unión innova con depósitos por qr en cajas y facilita las transacciones de sus clientes",
+      "desc": "La entidad financiera habilita esta alternativa, que permite realizar depósitos sin necesidad de acudir a las agencias con dinero en efectivo, respondiendo a los nuevos hábitos digitales de los usuari…",
+      "link": "https://larazon.bo/espacio-empresarial/2026/10/20/banco-union-innova-con-depositos-por-qr-en-cajas-y-facilita-las-transacciones-de-sus-clientes/",
+      "date": "2026-10-20T20:43:45Z"
     },
     {
       "source": "El Deber",
-      "title": "El príncipe Enrique dice que desea reconciliarse con su familia, pero algunos \"no quieren\"",
-      "desc": "Después de seis años viviendo en California (EE.UU), el príncipe inglés (cuyo nombre en inglés es Harry) volvió junto a Meghan Markle y sus dos hijos al Reino Unido en septiembre de este año, donde es…",
-      "link": "https://eldeber.com.bo/sociales/principe-enrique-dice-desea-reconciliarse-familia-algunos-no-quieren_1792510558",
-      "date": "2026-10-20T15:36:02Z"
+      "title": "El papa tendrá en Perú un helicóptero ambulancia para eventuales emergencias en su visita",
+      "desc": "La estancia en Perú será la más larga, con seis días desde el 11 al 16 de noviembre en los que prevé visitar cuatro ciudades (Lima, Chiclayo, Cusco y Pucallpa), además de la localidad de Santa Cruz.",
+      "link": "https://eldeber.com.bo/mundo/papa-tendra-peru-helicoptero-ambulancia-eventuales-emergencias-visita_1792529000",
+      "date": "2026-10-20T20:43:26Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Petróleo cierra a la baja tras señales de diálogo EEUU-Irán",
+      "desc": "El barril de Brent del mar del Norte  cayó un 0,69%, hasta 108,79 dólares\nThe post Petróleo cierra a la baja tras señales de diálogo EEUU-Irán appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/20/petroleo-cierra-a-la-baja-tras-senales-de-dialogo-eeuu-iran/",
+      "date": "2026-10-20T20:43:24Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Trump dice que Zelenski ‘tiene que llegar a un acuerdo’ con Rusia",
+      "desc": "Las relaciones entre Kiev y Washington se han deteriorado por el acuerdo del diésel con Rusia\nThe post Trump dice que Zelenski &#8216;tiene que llegar a un acuerdo&#8217; con Rusia appeared first on L…",
+      "link": "https://larazon.bo/mundo/2026/10/20/trump-dice-que-zelenski-tiene-que-llegar-a-un-acuerdo-con-rusia/",
+      "date": "2026-10-20T20:37:41Z"
     },
     {
       "source": "El Deber",
-      "title": "Urioste posesiona a dos fiscales departamentales que no llegaron al acto del lunes",
-      "desc": "Gabriel Quiroga y Adriana Rodríguez asumen de manera oficial sus cargos como fiscales departamentales de La Paz y Pando",
-      "link": "https://eldeber.com.bo/pais/urioste-posesiona-dos-fiscales-departamentales-no-llegaron-acto-lunes_1792508229",
-      "date": "2026-10-20T14:57:09Z"
+      "title": "Brasil, partido en dos: dónde puede remontar Lula y qué le falta a Flávio Bolsonaro",
+      "desc": "El 4 de octubre, el primogénito del exmandatario Jair Bolsonaro obtuvo el 47,03 % de los votos, frente al 45,16 % de Lula. Desde entonces, cientos de miles de simpatizantes de ambos candidatos han sal…",
+      "link": "https://eldeber.com.bo/mundo/brasil-partido-dos-donde-puede-remontar-lula-le-falta-flavio-bolsonaro_1792528641",
+      "date": "2026-10-20T20:37:27Z"
     },
     {
       "source": "El Deber",
-      "title": "“De la importación de gas ya no nos salvamos”, alerta experto en energía",
-      "desc": "El experto Sergio Arnés advierte que, comprar gas del exterior elevaría los costos de generación eléctrica. Propone abrir paso a inversiones privadas, subastas de suministro y contratos de largo plazo…",
-      "link": "https://eldeber.com.bo/economia/importacion-gas-no-nos-salvamos-alerta-experto-energia_1792507541",
-      "date": "2026-10-20T14:45:41Z"
+      "title": "Incendios forestales: no hay fuegos activos pero se han afectado 42.337 hectáreas",
+      "desc": "Según el reporte de este martes de la Gobernación, desde el 5 de octubre no se registran incendios forestales en el departamento cruceño",
+      "link": "https://eldeber.com.bo/santa-cruz/incendios-forestales-no-hay-fuegos-activos-han-afectado-42-337-hectareas_1792528302",
+      "date": "2026-10-20T20:31:42Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Paz sobre la demanda marítima: ‘Podemos reclamar el pasado, pero también comercializar’",
+      "desc": "El mandatario justificó los recientes acuerdos con su homólogo chileno, José Antonio Kast. La autoridad prioriza la economía y el comercio exterior frente a las tensiones históricas\nThe post Paz sobre…",
+      "link": "https://larazon.bo/nacional/2026/10/20/paz-sobre-la-demanda-maritima-podemos-reclamar-el-pasado-pero-tambien-comercializar/",
+      "date": "2026-10-20T20:29:37Z"
     },
     {
       "source": "El Deber",
-      "title": "Oriente Petrolero suma nuevas deudas ante la FIFA por más de 110.000 dólares",
-      "desc": "El club albiverde fue notificado por los casos de Jordan Santacruz y Joel Contreras. La FIFA ordenó el pago de 77.773 dólares al paraguayo y falló parcialmente a favor del colombiano, al que deberá ca…",
-      "link": "https://eldeber.com.bo/oriente-petrolero/oriente-petrolero-suma-nuevas-deudas-fifa-110-000-dolares_1792506500",
-      "date": "2026-10-20T14:28:20Z"
+      "title": "Formalizan denuncia ante la Fiscalía tras amenazas contra la familia del presidente Paz",
+      "desc": "El viceministro de Transparencia Seguridad Jurídica y Derechos Humanos, Marcelo Yamil García, calificó las amenazas como una reacción violenta de estructuras que históricamente abusaron del poder",
+      "link": "https://eldeber.com.bo/pais/formalizan-denuncia-fiscalia-amenazas-familia-presidente-paz_1792527807",
+      "date": "2026-10-20T20:23:27Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "¿Necesita cambiar dólares? Conozca cómo está la cotización - Red Uno",
+      "desc": "¿Necesita cambiar dólares? Conozca cómo está la cotización&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ0lib1ppVzVUN3NjbDFsRld2bnV2TmlTS2FQcjRFcWJsOWJweGRFN1BxaFAtRXg0b1Q3dURRNDlRTmlpN2NlSEstWmhrYURSZ05DYVZNTmt2ZS1Qc0dVbHE4SlRaRkRoSEItd3c4VDhQTXJIeW9yUUtWTXRnc2JUNThhZFhWby02aWlORmhkQlBmSEE2a2Q1R2d5MjZJZ0k3cUdXTTdyZi03dHJDa3Q0N1h3WWJOX3ZQYmNTVU1HWWRnajJmUDNleVdJenExT20wXzBHZVR0OFlkeTRWVzBkcE9wODdfdElQeF80?oc=5",
+      "date": "2026-10-20T16:58:29Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -175,13 +196,6 @@
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
       "date": "2026-10-17T13:09:20Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Así amanece el dólar este sábado 17 de octubre en Bolivia: revise el tipo de cambio oficial y el paralelo - Red Uno",
-      "desc": "Así amanece el dólar este sábado 17 de octubre en Bolivia: revise el tipo de cambio oficial y el paralelo&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDFTQ1dJY083YXRoSF9iZUFsYkNjaFVLTWhyYVFrT1lDczJQMFNhNlVkLTZncURIZkRaYzZyTGQzdllBejkxLUNLYlJtMkx1REVhNUVHbTUxNURzMnhrM09HZXNaVm94aGRKbktySmtDOVZucHR5XzBtVXdDUlJmMDctcjBXR0R0TldkWWdieVFDOTl6TXVfbnR3VjlXdGdRS2d4ako4TGl5bS1EaVdmUWk3RC0ycUhkSGxkNkgzMFVGUGtRYmJzWHJyQzZXUUZuQ3RYa1FHLTZHNVlNYWNTdllLTW5wMThv?oc=5",
-      "date": "2026-10-17T11:22:54Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -266,27 +280,13 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
-      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.81,
-    "sellTomorrow": 11.85,
-    "changeBuy": -0.04,
-    "changeSell": -0.04,
+    "buyTomorrow": 11.83,
+    "sellTomorrow": 11.87,
+    "changeBuy": -0.06,
+    "changeSell": -0.06,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4239,8 +4239,8 @@
     },
     {
       "date": "2026-10-20",
-      "buy": 11.85,
-      "sell": 11.89
+      "buy": 11.89,
+      "sell": 11.93
     }
   ]
 }
