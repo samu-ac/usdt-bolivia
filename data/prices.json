@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-20T21:00:16Z",
+  "lastUpdated": "2026-10-21T00:13:54Z",
   "displayDate": "martes 20 de octubre, 2026",
   "binance": {
-    "buy": 11.89,
-    "sell": 11.93,
+    "buy": 11.86,
+    "sell": 11.9,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.87,
-    "sell": 11.84,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.17,
-    "sell": 11.78,
+    "buy": 12.14,
+    "sell": 11.75,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.11,
-    "sell": 11.76,
+    "buy": 12.06,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.92,
-    "sell": 11.91,
+    "buy": 11.88,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.96,
-    "sell": 11.64,
+    "buy": 11.92,
+    "sell": 11.65,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.89,
-    "referentialSell": 11.93,
+    "referentialBuy": 11.86,
+    "referentialSell": 11.9,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-20T21:00:08Z"
+    "fetchedAt": "2026-10-21T00:13:46Z"
   },
   "banks": [
     {
@@ -108,73 +108,66 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "Los presidentes de Bolivia y Perú se reunirán en noviembre",
-      "desc": "La reunión forma parte de una agenda de cooperación regional que busca facilitar el movimiento de mercancías y promover oportunidades económicas",
-      "link": "https://eldeber.com.bo/pais/presidentes-bolivia-peru-reuniran-noviembre_1792529067",
-      "date": "2026-10-20T20:44:27Z"
+      "title": "La ALD aprueba la ley de promoción de desarrollo de la provincia Germán Busch",
+      "desc": "La propuesta abre el debate sobre la necesidad de establecer Zonas Económicas Especiales como instrumentos para atraer inversiones, dinamizar el comercio, fortalecer la industria y generar empleos de …",
+      "link": "https://eldeber.com.bo/santa-cruz/ald-aprueba-ley-promocion-desarrollo-provincia-german-busch_1792540312",
+      "date": "2026-10-20T23:51:52Z"
     },
     {
       "source": "La Razón",
-      "title": "Banco unión innova con depósitos por qr en cajas y facilita las transacciones de sus clientes",
-      "desc": "La entidad financiera habilita esta alternativa, que permite realizar depósitos sin necesidad de acudir a las agencias con dinero en efectivo, respondiendo a los nuevos hábitos digitales de los usuari…",
-      "link": "https://larazon.bo/espacio-empresarial/2026/10/20/banco-union-innova-con-depositos-por-qr-en-cajas-y-facilita-las-transacciones-de-sus-clientes/",
-      "date": "2026-10-20T20:43:45Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El papa tendrá en Perú un helicóptero ambulancia para eventuales emergencias en su visita",
-      "desc": "La estancia en Perú será la más larga, con seis días desde el 11 al 16 de noviembre en los que prevé visitar cuatro ciudades (Lima, Chiclayo, Cusco y Pucallpa), además de la localidad de Santa Cruz.",
-      "link": "https://eldeber.com.bo/mundo/papa-tendra-peru-helicoptero-ambulancia-eventuales-emergencias-visita_1792529000",
-      "date": "2026-10-20T20:43:26Z"
+      "title": "Nuevo fiscal de Tarija defendió al padre de la presunta víctima de Evo",
+      "desc": "En 2024, Cabezas representó a Vargas cuando este cumplía detención preventiva en el penal de Morros Blancos.\nThe post Nuevo fiscal de Tarija defendió al padre de la presunta víctima de Evo appeared fi…",
+      "link": "https://larazon.bo/nacional/2026/10/20/nuevo-fiscal-de-tarija-defendio-al-padre-de-la-presunta-victima-de-evo/",
+      "date": "2026-10-20T23:40:49Z"
     },
     {
       "source": "La Razón",
-      "title": "Petróleo cierra a la baja tras señales de diálogo EEUU-Irán",
-      "desc": "El barril de Brent del mar del Norte  cayó un 0,69%, hasta 108,79 dólares\nThe post Petróleo cierra a la baja tras señales de diálogo EEUU-Irán appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/20/petroleo-cierra-a-la-baja-tras-senales-de-dialogo-eeuu-iran/",
-      "date": "2026-10-20T20:43:24Z"
+      "title": "Bolivia integra el grupo de 8 países que impulsan pactos mineros con el Banco Mundial",
+      "desc": "La entidad internacional apunta a convertir el potencial geológico de los países participantes en empleos, mayores exportaciones y desarrollo\nThe post Bolivia integra el grupo de 8 países que impulsan…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/20/bolivia-integra-el-grupo-de-8-paises-que-impulsan-pactos-mineros-con-el-banco-mundial/",
+      "date": "2026-10-20T22:54:12Z"
     },
     {
       "source": "La Razón",
-      "title": "Trump dice que Zelenski ‘tiene que llegar a un acuerdo’ con Rusia",
-      "desc": "Las relaciones entre Kiev y Washington se han deteriorado por el acuerdo del diésel con Rusia\nThe post Trump dice que Zelenski &#8216;tiene que llegar a un acuerdo&#8217; con Rusia appeared first on L…",
-      "link": "https://larazon.bo/mundo/2026/10/20/trump-dice-que-zelenski-tiene-que-llegar-a-un-acuerdo-con-rusia/",
-      "date": "2026-10-20T20:37:41Z"
+      "title": "ABC inspecciona obras para reactivar la carretera de 8 carriles Senkata–Apacheta",
+      "desc": "El Gobierno anunció una inversión adicional de Bs 75 millones para reinstalar los trabajos correspondientes\nThe post ABC inspecciona obras para reactivar la carretera de 8 carriles Senkata–Apacheta ap…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/20/abc-inspecciona-obras-para-reactivar-la-carretera-de-8-carriles-senkata-apacheta/",
+      "date": "2026-10-20T22:35:07Z"
     },
     {
       "source": "El Deber",
-      "title": "Brasil, partido en dos: dónde puede remontar Lula y qué le falta a Flávio Bolsonaro",
-      "desc": "El 4 de octubre, el primogénito del exmandatario Jair Bolsonaro obtuvo el 47,03 % de los votos, frente al 45,16 % de Lula. Desde entonces, cientos de miles de simpatizantes de ambos candidatos han sal…",
-      "link": "https://eldeber.com.bo/mundo/brasil-partido-dos-donde-puede-remontar-lula-le-falta-flavio-bolsonaro_1792528641",
-      "date": "2026-10-20T20:37:27Z"
+      "title": "Hugo Dellien no pudo terminar su partido y quedó fuera del Challenger de Cali",
+      "desc": "El tenista boliviano abandonó por molestias físicas cuando perdía por 6-3 y 2-0 ante el argentino Juan Manuel La Serna, que avanzó a los octavos de final. Federico Zeballos y Boris Arias tendrán acció…",
+      "link": "https://eldeber.com.bo/deportes/hugo-dellien-no-pudo-terminar-partido-quedo-fuera-challenger-cali_1792535441",
+      "date": "2026-10-20T22:30:41Z"
     },
     {
       "source": "El Deber",
-      "title": "Incendios forestales: no hay fuegos activos pero se han afectado 42.337 hectáreas",
-      "desc": "Según el reporte de este martes de la Gobernación, desde el 5 de octubre no se registran incendios forestales en el departamento cruceño",
-      "link": "https://eldeber.com.bo/santa-cruz/incendios-forestales-no-hay-fuegos-activos-han-afectado-42-337-hectareas_1792528302",
-      "date": "2026-10-20T20:31:42Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz sobre la demanda marítima: ‘Podemos reclamar el pasado, pero también comercializar’",
-      "desc": "El mandatario justificó los recientes acuerdos con su homólogo chileno, José Antonio Kast. La autoridad prioriza la economía y el comercio exterior frente a las tensiones históricas\nThe post Paz sobre…",
-      "link": "https://larazon.bo/nacional/2026/10/20/paz-sobre-la-demanda-maritima-podemos-reclamar-el-pasado-pero-tambien-comercializar/",
-      "date": "2026-10-20T20:29:37Z"
+      "title": "Temporada 2027: FBF cita a clubes a Consejo para definir calendario y formatos",
+      "desc": "La convocatoria es para sesión presencial el lunes 26 de octubre (16.00) en La Paz. Se prevé aprobar dos torneos, uno todos contra todos.",
+      "link": "https://eldeber.com.bo/futbol/temporada-2027-fbf-cita-clubes-consejo-definir-calendario-formatos_1792534878",
+      "date": "2026-10-20T22:21:18Z"
     },
     {
       "source": "El Deber",
-      "title": "Formalizan denuncia ante la Fiscalía tras amenazas contra la familia del presidente Paz",
-      "desc": "El viceministro de Transparencia Seguridad Jurídica y Derechos Humanos, Marcelo Yamil García, calificó las amenazas como una reacción violenta de estructuras que históricamente abusaron del poder",
-      "link": "https://eldeber.com.bo/pais/formalizan-denuncia-fiscalia-amenazas-familia-presidente-paz_1792527807",
-      "date": "2026-10-20T20:23:27Z"
+      "title": "Denuncian violento atraco de jukus en empresa minera",
+      "desc": "De acuerdo con el relato de los trabajadores, se trataba de un grupo de unas 25 personas que irrumpieron en la empresa minera de manera violenta",
+      "link": "https://eldeber.com.bo/pais/denuncian-violento-atraco-jukus-empresa-minera_1792534120",
+      "date": "2026-10-20T22:08:40Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Argentina logra récord de producción de petróleo en septiembre gracias a Vaca Muerta",
+      "desc": "Vaca Muerta es la segunda mayor reserva mundial de gas no convencional y la cuarta de petróleo de este tipo, y allí operan compañías como YPF, Vista, Chevron, Total, Continental, GeoPark y PAE, entre …",
+      "link": "https://eldeber.com.bo/mundo/argentina-logra-record-produccion-petroleo-septiembre-gracias-vaca-muerta_1792533678",
+      "date": "2026-10-20T22:01:18Z"
     },
     {
       "source": "Google — Dólar Bolivia",
       "title": "¿Necesita cambiar dólares? Conozca cómo está la cotización - Red Uno",
       "desc": "¿Necesita cambiar dólares? Conozca cómo está la cotización&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ0lib1ppVzVUN3NjbDFsRld2bnV2TmlTS2FQcjRFcWJsOWJweGRFN1BxaFAtRXg0b1Q3dURRNDlRTmlpN2NlSEstWmhrYURSZ05DYVZNTmt2ZS1Qc0dVbHE4SlRaRkRoSEItd3c4VDhQTXJIeW9yUUtWTXRnc2JUNThhZFhWby02aWlORmhkQlBmSEE2a2Q1R2d5MjZJZ0k3cUdXTTdyZi03dHJDa3Q0N1h3WWJOX3ZQYmNTVU1HWWRnajJmUDNleVdJenExT20wXzBHZVR0OFlkeTRWVzBkcE9wODdfdElQeF80?oc=5",
-      "date": "2026-10-20T16:58:29Z"
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZmVSRmk4QWdscERKZE9LWjJBZlp1UjBCelBVVEpwc09ZbnhXMnp1S2JRdEluRFZCWUNaaGlReWRHNXgtSG95MkJRRjNXc0ZoQWxDNHFoMzBnWFBSZWlwVXAteXBZSGxZSUZ1VXZDamgxaGVaWk5uWnZjYzNVaFI0dXFQQmdmbWYzOU1yTjJtOURmZ005cG5RMFNtb3UzY1BHQUlvWkZjZnFMbVA2X0I1ZjNQd045ZGtQN3NDeXFUa3hTZjhhYTVfTDJGR3RUNmdfN1NaNGQyaVF5cFR1QmRGZUFXQ05IaDdBa2pr?oc=5",
+      "date": "2026-10-20T17:03:16Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -280,13 +273,20 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.83,
-    "sellTomorrow": 11.87,
-    "changeBuy": -0.06,
-    "changeSell": -0.06,
+    "buyTomorrow": 11.81,
+    "sellTomorrow": 11.85,
+    "changeBuy": -0.05,
+    "changeSell": -0.05,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4239,8 +4239,8 @@
     },
     {
       "date": "2026-10-20",
-      "buy": 11.89,
-      "sell": 11.93
+      "buy": 11.86,
+      "sell": 11.9
     }
   ]
 }
