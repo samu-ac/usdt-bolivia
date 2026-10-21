@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-21T03:33:50Z",
-  "displayDate": "martes 20 de octubre, 2026",
+  "lastUpdated": "2026-10-21T16:18:58Z",
+  "displayDate": "miercoles 21 de octubre, 2026",
   "binance": {
     "buy": 11.88,
-    "sell": 11.93,
+    "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.95,
-    "sell": 11.83,
+    "buy": 11.97,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.17,
-    "sell": 11.77,
+    "buy": 12.16,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.09,
-    "sell": 11.74,
+    "buy": 12.08,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,148 +33,134 @@
   },
   "bybit": {
     "buy": 11.9,
-    "sell": 11.87,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.02,
-    "sell": 11.68,
+    "buy": 12.03,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.7,
-    "officialSell": 11.7,
+    "officialBuy": 11.73,
+    "officialSell": 11.73,
     "referentialBuy": 11.88,
-    "referentialSell": 11.93,
+    "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-21T03:33:43Z"
+    "fetchedAt": "2026-10-21T16:18:49Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.4,
-      "sell": 12.0
+      "buy": 11.43,
+      "sell": 12.03
     },
     {
       "name": "BCP",
-      "buy": 11.2,
-      "sell": 12.0
+      "buy": 11.23,
+      "sell": 12.03
     },
     {
       "name": "BNB",
-      "buy": 11.2,
-      "sell": 12.0
+      "buy": 11.23,
+      "sell": 12.03
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.0,
-      "sell": 11.92
+      "buy": 11.03,
+      "sell": 11.98
     },
     {
       "name": "Banco FIE",
-      "buy": 10.8,
-      "sell": 11.8
+      "buy": 10.83,
+      "sell": 11.83
     },
     {
       "name": "Banco Económico",
-      "buy": 10.7,
-      "sell": 12.05
+      "buy": 10.73,
+      "sell": 12.08
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.6,
-      "sell": 12.0
+      "buy": 10.63,
+      "sell": 12.03
     },
     {
       "name": "BancoSol",
-      "buy": 10.53,
-      "sell": 12.0
+      "buy": 10.56,
+      "sell": 12.03
     },
     {
       "name": "Banco Unión",
-      "buy": 10.2,
-      "sell": 11.85
+      "buy": 10.23,
+      "sell": 11.88
     },
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.0
+      "sell": 12.03
     }
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Boca Juniors remonta la serie ante Vasco da Gama y es finalista de la Sudamericana",
-      "desc": "El equipo argentino ganó por 1-3 en el Maracaná y selló su clasificación con un gol de Leandro Paredes a los 88 minutos. En la final, enfrentará a Atlético Mineiro o Montevideo City Torque.",
-      "link": "https://eldeber.com.bo/deportes/boca-juniors-remonta-serie-vasco-da-gama-finalista-sudamericana_1792550879",
-      "date": "2026-10-21T02:48:00Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Sector forestal boliviano reporta pérdidas de $us 100 millones por madera retenida en Chile",
-      "desc": "La Cámara Forestal de Bolivia indicó que de atender a 33 mercados ahora operan únicamente con 10",
-      "link": "https://eldeber.com.bo/pais/sector-forestal-boliviano-reporta-perdidas-us-100-millones-madera-retenida-chile_1792550401",
-      "date": "2026-10-21T02:40:01Z"
-    },
-    {
       "source": "La Razón",
-      "title": "Reforma electoral avanza con seis ejes para modificar leyes",
-      "desc": "Los seis ejes identificados orientarán la elaboración de los proyectos de reforma que el TSE prevé presentar al Legislativo en noviembre.\nThe post Reforma electoral avanza con seis ejes para modificar…",
-      "link": "https://larazon.bo/nacional/2026/10/20/reforma-electoral-avanza-con-seis-ejes-para-modificar-leyes/",
-      "date": "2026-10-21T02:35:28Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Ávila denuncia intentos de desacreditar la reforma electoral",
-      "desc": "El TSE prevé entregar el anteproyecto de ley de reforma electoral a la Asamblea Legislativa el 25 de noviembre\nThe post Ávila denuncia intentos de desacreditar la reforma electoral appeared first on L…",
-      "link": "https://larazon.bo/nacional/2026/10/20/avila-denuncia-intentos-de-desacreditar-la-reforma-electoral/",
-      "date": "2026-10-21T02:11:44Z"
+      "title": "Macron: Arabia Saudita se compromete a más suministro de diésel",
+      "desc": "Las cantidades comprometidas ascienden a las 95.000 toneladas para octubre y noviembre.\nThe post Macron: Arabia Saudita se compromete a más suministro de diésel appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/21/macron-arabia-saudita-se-compromete-a-mas-suministro-de-diesel/",
+      "date": "2026-10-21T16:12:13Z"
     },
     {
       "source": "El Deber",
-      "title": "Sugieren supuesto \"volteo\" como el móvil del doble crimen en Valle Sánchez",
-      "desc": "Los dos ciudadanos brasileños que fueron asesinados en la zona de Valle Sánchez ya fueron identificados. La Fiscalía confirmó que se trata de Wendeles A. E. y Jefferson P. P.",
-      "link": "https://eldeber.com.bo/santa-cruz/sugieren-supuesto-volteo-movil-doble-crimen-valle-sanchez_1792548672",
-      "date": "2026-10-21T02:11:12Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Procuraduría impulsa acuerdos para reactivar el Mutún y reparar el Gastroenterológico",
-      "desc": "Ambos acuerdos buscan encaminar la solución de conflictos que afectan a dos proyectos de infraestructura pública.\nThe post Procuraduría impulsa acuerdos para reactivar el Mutún y reparar el Gastroente…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/20/procuraduria-impulsa-acuerdos-para-reactivar-el-mutun-y-reparar-el-gastroenterologico/",
-      "date": "2026-10-21T02:00:13Z"
+      "title": "La cara oculta de las redes sociales llega al cine con “El Poder de la Red”",
+      "desc": "Más de dos décadas después de la creación de Facebook, la plataforma se ha convertido en un fenómeno global capaz de influir en la forma en que miles de millones de personas consumen información, inte…",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/cara-oculta-redes-sociales-llega-cine-poder-red_1792598488",
+      "date": "2026-10-21T16:01:28Z"
     },
     {
       "source": "El Deber",
-      "title": "Independiente golea a Aurora y da un paso gigante hacia las semifinales",
-      "desc": "El Matador se impuso por 4-0 en el estadio Patria de Sucre, en el partido de ida de los cuartos de final de la Copa Bolivia. La revancha se disputará el 2 de noviembre en Cochabamba, donde el equipo c…",
-      "link": "https://eldeber.com.bo/deportes/independiente-golea-aurora-da-paso-gigante-semifinales_1792547706",
-      "date": "2026-10-21T01:55:06Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz anuncia conexión a internet satelital para escuelas fiscales con 4.500 antenas Starlink",
-      "desc": "La cobertura efectiva dependerá de la instalación de los equipos y de las condiciones técnicas necesarias para su funcionamiento en cada establecimiento.\nThe post Paz anuncia conexión a internet satel…",
-      "link": "https://larazon.bo/nacional/2026/10/20/paz-anuncia-conexion-a-internet-satelital-para-escuelas-fiscales-con-4-500-antenas-starlink/",
-      "date": "2026-10-21T01:35:23Z"
+      "title": "“Llevan droga y les pagan con autos”: la alerta de la Cámara Automotor por el lavado de dinero",
+      "desc": "La Cámara Automotor Boliviana (CAB) denuncia que redes criminales utilizan vehículos para lavar dinero y pide investigar las autoventas. La Policía busca establecer el origen de 43 motorizados secuest…",
+      "link": "https://eldeber.com.bo/pais/llevan-droga-les-pagan-autos-alerta-camara-automotor-lavado-dinero_1792596888",
+      "date": "2026-10-21T15:34:48Z"
     },
     {
       "source": "El Deber",
-      "title": "Proponen que La Paz deje de ser sede de Gobierno y se convierta en \"un centro de negocios\"",
-      "desc": "El presidente de los empresarios paceños plantea transformar la economía departamental mediante inversiones privadas, industria, tecnología, turismo y una mayor integración comercial con el Pacífico.",
-      "link": "https://eldeber.com.bo/pais/proponen-paz-deje-ser-sede-gobierno-convierta-centro-negocios_1792544822",
-      "date": "2026-10-21T01:07:02Z"
+      "title": "Vladimir Suárez busca otro Grammy",
+      "desc": "El compositor boliviano tiene dos nuevas producciones que están siendo consideradas para los próximos galardones internacionales",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/vladimir-suarez-busca-otro-grammy_1792596500",
+      "date": "2026-10-21T15:28:20Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El Metropolitano de Barranquilla se renueva para recibir la final de la Copa Sudamericana",
+      "desc": "El estadio Metropolitano Roberto Meléndez de la ciudad colombiana de Barranquilla afronta la recta final de una profunda remodelación que ampliará su capacidad de 43.000 a 65.000 espectadores, antes a…",
+      "link": "https://eldeber.com.bo/deportes/metropolitano-barranquilla-renueva-recibir-final-copa-sudamericana_1792596445",
+      "date": "2026-10-21T15:27:25Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Bolivia identifica 154 startups con retos para vender y financiarse",
+      "desc": "El octavo Mapeo TIC señala dificultades para conectar los emprendimientos tecnológicos con grandes empresas y acceder a inversiones que permitan ampliar sus operaciones, explicó Allison Silva, directo…",
+      "link": "https://eldeber.com.bo/economia/bolivia-identifica-154-startups-retos-vender-financiarse_1792594478",
+      "date": "2026-10-21T14:54:38Z"
     },
     {
       "source": "La Razón",
-      "title": "Nuevo fiscal de Tarija defendió al padre de la presunta víctima de Evo",
-      "desc": "En 2024, Cabezas representó a Vargas cuando este cumplía detención preventiva en el penal de Morros Blancos.\nThe post Nuevo fiscal de Tarija defendió al padre de la presunta víctima de Evo appeared fi…",
-      "link": "https://larazon.bo/nacional/2026/10/20/nuevo-fiscal-de-tarija-defendio-al-padre-de-la-presunta-victima-de-evo/",
-      "date": "2026-10-20T23:40:49Z"
+      "title": "Municipios reclaman al BCB devolución de $us 701 MM",
+      "desc": "Según el presidente de la FAM, son los aportes de los municipios desde hace 10 años al Fondo de Promoción a la Inversión en Exploración y Explotación Hidrocarburífera\nThe post Municipios reclaman al B…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/21/municipios-reclaman-al-bcb-devolucion-de-us-701-mm/",
+      "date": "2026-10-21T14:50:24Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Ticona brilla en Brasil y es comparado con Faustino Oro, GM argentino",
+      "desc": "El MI boliviano ganó bronce en el Manaus Chess Open 2026 de Brasil al vencer y empatar. El MI Jonny Cueto también destacó en el certamen\nThe post Ticona brilla en Brasil y es comparado con Faustino Or…",
+      "link": "https://larazon.bo/marcas/2026/10/21/ticona-brilla-en-brasil-y-es-comparado-con-faustino-oro-gm-argentino/",
+      "date": "2026-10-21T14:37:59Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -261,6 +247,20 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
+      "source": "Google — BCB reservas",
+      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
+      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
+      "date": "2026-10-09T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
+      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
+      "date": "2026-10-07T07:00:00Z"
+    },
+    {
       "source": "Google — Economía Bolivia",
       "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
@@ -276,17 +276,17 @@
     },
     {
       "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
+      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
+      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.82,
-    "sellTomorrow": 11.87,
-    "changeBuy": -0.06,
-    "changeSell": -0.06,
+    "buyTomorrow": 11.87,
+    "sellTomorrow": 11.91,
+    "changeBuy": -0.01,
+    "changeSell": -0.01,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4241,6 +4241,11 @@
       "date": "2026-10-20",
       "buy": 11.88,
       "sell": 11.93
+    },
+    {
+      "date": "2026-10-21",
+      "buy": 11.88,
+      "sell": 11.92
     }
   ]
 }
