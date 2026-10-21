@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-21T00:13:54Z",
+  "lastUpdated": "2026-10-21T03:33:50Z",
   "displayDate": "martes 20 de octubre, 2026",
   "binance": {
-    "buy": 11.86,
-    "sell": 11.9,
+    "buy": 11.88,
+    "sell": 11.93,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.87,
+    "buy": 11.95,
     "sell": 11.83,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.14,
-    "sell": 11.75,
+    "buy": 12.17,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.06,
-    "sell": 11.71,
+    "buy": 12.09,
+    "sell": 11.74,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.88,
+    "buy": 11.9,
     "sell": 11.87,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.92,
-    "sell": 11.65,
+    "buy": 12.02,
+    "sell": 11.68,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.86,
-    "referentialSell": 11.9,
+    "referentialBuy": 11.88,
+    "referentialSell": 11.93,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-21T00:13:46Z"
+    "fetchedAt": "2026-10-21T03:33:43Z"
   },
   "banks": [
     {
@@ -108,10 +108,66 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "La ALD aprueba la ley de promoción de desarrollo de la provincia Germán Busch",
-      "desc": "La propuesta abre el debate sobre la necesidad de establecer Zonas Económicas Especiales como instrumentos para atraer inversiones, dinamizar el comercio, fortalecer la industria y generar empleos de …",
-      "link": "https://eldeber.com.bo/santa-cruz/ald-aprueba-ley-promocion-desarrollo-provincia-german-busch_1792540312",
-      "date": "2026-10-20T23:51:52Z"
+      "title": "Boca Juniors remonta la serie ante Vasco da Gama y es finalista de la Sudamericana",
+      "desc": "El equipo argentino ganó por 1-3 en el Maracaná y selló su clasificación con un gol de Leandro Paredes a los 88 minutos. En la final, enfrentará a Atlético Mineiro o Montevideo City Torque.",
+      "link": "https://eldeber.com.bo/deportes/boca-juniors-remonta-serie-vasco-da-gama-finalista-sudamericana_1792550879",
+      "date": "2026-10-21T02:48:00Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Sector forestal boliviano reporta pérdidas de $us 100 millones por madera retenida en Chile",
+      "desc": "La Cámara Forestal de Bolivia indicó que de atender a 33 mercados ahora operan únicamente con 10",
+      "link": "https://eldeber.com.bo/pais/sector-forestal-boliviano-reporta-perdidas-us-100-millones-madera-retenida-chile_1792550401",
+      "date": "2026-10-21T02:40:01Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Reforma electoral avanza con seis ejes para modificar leyes",
+      "desc": "Los seis ejes identificados orientarán la elaboración de los proyectos de reforma que el TSE prevé presentar al Legislativo en noviembre.\nThe post Reforma electoral avanza con seis ejes para modificar…",
+      "link": "https://larazon.bo/nacional/2026/10/20/reforma-electoral-avanza-con-seis-ejes-para-modificar-leyes/",
+      "date": "2026-10-21T02:35:28Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Ávila denuncia intentos de desacreditar la reforma electoral",
+      "desc": "El TSE prevé entregar el anteproyecto de ley de reforma electoral a la Asamblea Legislativa el 25 de noviembre\nThe post Ávila denuncia intentos de desacreditar la reforma electoral appeared first on L…",
+      "link": "https://larazon.bo/nacional/2026/10/20/avila-denuncia-intentos-de-desacreditar-la-reforma-electoral/",
+      "date": "2026-10-21T02:11:44Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Sugieren supuesto \"volteo\" como el móvil del doble crimen en Valle Sánchez",
+      "desc": "Los dos ciudadanos brasileños que fueron asesinados en la zona de Valle Sánchez ya fueron identificados. La Fiscalía confirmó que se trata de Wendeles A. E. y Jefferson P. P.",
+      "link": "https://eldeber.com.bo/santa-cruz/sugieren-supuesto-volteo-movil-doble-crimen-valle-sanchez_1792548672",
+      "date": "2026-10-21T02:11:12Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Procuraduría impulsa acuerdos para reactivar el Mutún y reparar el Gastroenterológico",
+      "desc": "Ambos acuerdos buscan encaminar la solución de conflictos que afectan a dos proyectos de infraestructura pública.\nThe post Procuraduría impulsa acuerdos para reactivar el Mutún y reparar el Gastroente…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/20/procuraduria-impulsa-acuerdos-para-reactivar-el-mutun-y-reparar-el-gastroenterologico/",
+      "date": "2026-10-21T02:00:13Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Independiente golea a Aurora y da un paso gigante hacia las semifinales",
+      "desc": "El Matador se impuso por 4-0 en el estadio Patria de Sucre, en el partido de ida de los cuartos de final de la Copa Bolivia. La revancha se disputará el 2 de noviembre en Cochabamba, donde el equipo c…",
+      "link": "https://eldeber.com.bo/deportes/independiente-golea-aurora-da-paso-gigante-semifinales_1792547706",
+      "date": "2026-10-21T01:55:06Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Paz anuncia conexión a internet satelital para escuelas fiscales con 4.500 antenas Starlink",
+      "desc": "La cobertura efectiva dependerá de la instalación de los equipos y de las condiciones técnicas necesarias para su funcionamiento en cada establecimiento.\nThe post Paz anuncia conexión a internet satel…",
+      "link": "https://larazon.bo/nacional/2026/10/20/paz-anuncia-conexion-a-internet-satelital-para-escuelas-fiscales-con-4-500-antenas-starlink/",
+      "date": "2026-10-21T01:35:23Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Proponen que La Paz deje de ser sede de Gobierno y se convierta en \"un centro de negocios\"",
+      "desc": "El presidente de los empresarios paceños plantea transformar la economía departamental mediante inversiones privadas, industria, tecnología, turismo y una mayor integración comercial con el Pacífico.",
+      "link": "https://eldeber.com.bo/pais/proponen-paz-deje-ser-sede-gobierno-convierta-centro-negocios_1792544822",
+      "date": "2026-10-21T01:07:02Z"
     },
     {
       "source": "La Razón",
@@ -121,46 +177,11 @@
       "date": "2026-10-20T23:40:49Z"
     },
     {
-      "source": "La Razón",
-      "title": "Bolivia integra el grupo de 8 países que impulsan pactos mineros con el Banco Mundial",
-      "desc": "La entidad internacional apunta a convertir el potencial geológico de los países participantes en empleos, mayores exportaciones y desarrollo\nThe post Bolivia integra el grupo de 8 países que impulsan…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/20/bolivia-integra-el-grupo-de-8-paises-que-impulsan-pactos-mineros-con-el-banco-mundial/",
-      "date": "2026-10-20T22:54:12Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "ABC inspecciona obras para reactivar la carretera de 8 carriles Senkata–Apacheta",
-      "desc": "El Gobierno anunció una inversión adicional de Bs 75 millones para reinstalar los trabajos correspondientes\nThe post ABC inspecciona obras para reactivar la carretera de 8 carriles Senkata–Apacheta ap…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/20/abc-inspecciona-obras-para-reactivar-la-carretera-de-8-carriles-senkata-apacheta/",
-      "date": "2026-10-20T22:35:07Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Hugo Dellien no pudo terminar su partido y quedó fuera del Challenger de Cali",
-      "desc": "El tenista boliviano abandonó por molestias físicas cuando perdía por 6-3 y 2-0 ante el argentino Juan Manuel La Serna, que avanzó a los octavos de final. Federico Zeballos y Boris Arias tendrán acció…",
-      "link": "https://eldeber.com.bo/deportes/hugo-dellien-no-pudo-terminar-partido-quedo-fuera-challenger-cali_1792535441",
-      "date": "2026-10-20T22:30:41Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Temporada 2027: FBF cita a clubes a Consejo para definir calendario y formatos",
-      "desc": "La convocatoria es para sesión presencial el lunes 26 de octubre (16.00) en La Paz. Se prevé aprobar dos torneos, uno todos contra todos.",
-      "link": "https://eldeber.com.bo/futbol/temporada-2027-fbf-cita-clubes-consejo-definir-calendario-formatos_1792534878",
-      "date": "2026-10-20T22:21:18Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Denuncian violento atraco de jukus en empresa minera",
-      "desc": "De acuerdo con el relato de los trabajadores, se trataba de un grupo de unas 25 personas que irrumpieron en la empresa minera de manera violenta",
-      "link": "https://eldeber.com.bo/pais/denuncian-violento-atraco-jukus-empresa-minera_1792534120",
-      "date": "2026-10-20T22:08:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Argentina logra récord de producción de petróleo en septiembre gracias a Vaca Muerta",
-      "desc": "Vaca Muerta es la segunda mayor reserva mundial de gas no convencional y la cuarta de petróleo de este tipo, y allí operan compañías como YPF, Vista, Chevron, Total, Continental, GeoPark y PAE, entre …",
-      "link": "https://eldeber.com.bo/mundo/argentina-logra-record-produccion-petroleo-septiembre-gracias-vaca-muerta_1792533678",
-      "date": "2026-10-20T22:01:18Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: cotización de cierre del 20 de octubre - Infobae",
+      "desc": "Dólar hoy en Bolivia: cotización de cierre del 20 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNFY3U3UzZUhVSjQ3RnNwa1dUM0ZIM2t1dlpPQ2dxTG9NbUJWOFpONkFzelgyUmRndDZCTlN5UnBCNmdpN3F6cE9fUE83SGNQWUdyYW5JUV8zbkg5cnhZaDRYZUxYSjJKUWphZ2lVUzA1ay1IVXZmMHlSNU1iNlJsajhEd2t6WHpYaUVncDZNWUFlVTJ1WV9FMmRtdDU1ZXpFMUtUV0xKTdIBwgFBVV95cUxQcy1wR1JfWnJJXzFrLU05TmRhTnJMSGpUamg5QUJ4Rl9pRXlvbkZEWG9LQUptX1l5Ni1la3hXbXl5M2dSZlEwSEFqcUJKTHFsS2FmSUxIeGtocmxzOFVkS0JCWmpsVkIxYWJGM0luZDBUelZPNG53XzhxQ0lkYXl5WXFEWkhfeUN3YmE0c3YyQ2R2UzRndTZfam1RQ05WNkJka1RYRzVlX3F5S1RIWHpVc0p3Q2VnZDYwQ3BnNjJwcXp4Zw?oc=5",
+      "date": "2026-10-20T20:16:00Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -191,11 +212,11 @@
       "date": "2026-10-17T13:09:20Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: cotización de apertura del 16 de octubre - Infobae",
-      "desc": "Dólar hoy en Bolivia: cotización de apertura del 16 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnFtVkxSemc1Y0syRHRfa2RsX0h4c1FhdmcyTFdfYzVFZnNZX1VKc0Jjdm5WOFFCSTFMdkw0dDQzWnc5djdkT1p2MExIZ2dhd2tFeW1yTllZdnNfQmxGNmhMTU5MXzhmUlZmZUpnZ2UxdWoyd0ZsN1o3TDhBM093VVB0RUwzeS1FTjJkYUVrNjJvNnEzR1ZrMEkxYUtrUXpuZkI5djNOblI2Z9IBxAFBVV95cUxNaFJxM3ZQTWx5azJHSlJsVWdNYnNMOGVWbVRwbS1hUGk3Y21VOERtZWVEclVZV2w1UEVVdU1Ha0FubmpsOC04LUZtMHFQTS13UUpha2ZnaEZ4SFlMcVV2VnVmb01WRHV0a0ZyaWtpZjJ2T2s1NUJTekVzX2RwdWxnckRHd0wybWQ1dlZGQzV1SDg5VnhWaXVFUEtYRUJCS29idFViejhDcjhuSjdSOTRpbDFrWGtHczh1TVdSaF96ajZ2X25B?oc=5",
-      "date": "2026-10-16T13:16:00Z"
+      "source": "Google — BCB reservas",
+      "title": "Reconstruir reservas internacionales: el corazón del acuerdo con el FMI - El Diario - Bolivia",
+      "desc": "Reconstruir reservas internacionales: el corazón del acuerdo con el FMI&nbsp;&nbsp;El Diario - Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXVUaVczd2QyOXFlakdIbVdPX013NGJLeEhqRVBjczM1Wk1DSnR2d3FtZldScExYSUJJQjdFLVhPQzFmNFpZYWhtLUxyZ3FyNl9nWk1RcW50cWEwUG5ZMHVkZjJhSW45cXo4Vm9TZ0hVSVhvVWhJY1FXbG5xVTNZOERITnhmZ2VIVG9vaExic0tMVDIxU2QyVVhqdnlMWXJNaXJzMm9lWGE1bWxHNHZYMHIxQmk?oc=5",
+      "date": "2026-10-17T11:23:37Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -210,13 +231,6 @@
       "desc": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos&nbsp;&nbsp;Criptoinforme",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSGRNWXFwdUppUmpOemlpM2ozTGNtdGZIVHBfTUd3bkpHY19fZ1hyZkVSSFV3UUs2V1ZCWDFpTlFGNFZXM1BHX2xrUm1uOGd0YUxUdV95RGlzMUFYMG1WaTNneXNSWHJXOUE?oc=5",
       "date": "2026-10-15T13:56:41Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Tether invierte en EFY, la fintech detrás del USDT del Banco Unión de Bolivia - Criptoinforme",
-      "desc": "Tether invierte en EFY, la fintech detrás del USDT del Banco Unión de Bolivia&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm85a3pQQTVYN25WSlZsc2lZTGJwZXpqQ1hpc0ZLbmMtMnpSVmR3cjdGeGxOV28wZVhIeXdYWUw4akNmSDJoN29VWFZlQ3lYYlZaZ0tZTXpLVnprcE96Z0dNdk4xczRGN1ZET3FJTWJQTFBXa2NueGVOWFpjUWJyQ254TG40WE1KTmZaVXZvYlE?oc=5",
-      "date": "2026-10-15T13:55:07Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -238,13 +252,6 @@
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T18:43:06Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
-      "date": "2026-10-09T15:12:39Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -273,20 +280,13 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.81,
-    "sellTomorrow": 11.85,
-    "changeBuy": -0.05,
-    "changeSell": -0.05,
+    "buyTomorrow": 11.82,
+    "sellTomorrow": 11.87,
+    "changeBuy": -0.06,
+    "changeSell": -0.06,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4239,8 +4239,8 @@
     },
     {
       "date": "2026-10-20",
-      "buy": 11.86,
-      "sell": 11.9
+      "buy": 11.88,
+      "sell": 11.93
     }
   ]
 }
