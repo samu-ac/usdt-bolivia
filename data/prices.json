@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-21T21:02:22Z",
+  "lastUpdated": "2026-10-22T00:19:12Z",
   "displayDate": "miercoles 21 de octubre, 2026",
   "binance": {
-    "buy": 11.87,
+    "buy": 11.88,
     "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.94,
-    "sell": 11.82,
+    "buy": 11.93,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.15,
-    "sell": 11.76,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.08,
-    "sell": 11.73,
+    "buy": 12.09,
+    "sell": 11.74,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.9,
-    "sell": 11.89,
+    "buy": 11.89,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.0,
-    "sell": 11.7,
+    "buy": 11.98,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.73,
     "officialSell": 11.73,
-    "referentialBuy": 11.87,
+    "referentialBuy": 11.88,
     "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-21T21:02:16Z"
+    "fetchedAt": "2026-10-22T00:19:04Z"
   },
   "banks": [
     {
@@ -107,46 +107,39 @@
   ],
   "news": [
     {
+      "source": "La Razón",
+      "title": "Diputados remite a comisión el proyecto para elegir al Fiscal General",
+      "desc": "La iniciativa plantea agilizar la convocatoria para designar al titular del Ministerio Público, debido al plazo de 90 días establecido para el interinato.\nThe post Diputados remite a comisión el proye…",
+      "link": "https://larazon.bo/nacional/2026/10/21/diputados-remite-a-comision-el-proyecto-para-elegir-al-fiscal-general/",
+      "date": "2026-10-21T23:51:30Z"
+    },
+    {
       "source": "El Deber",
-      "title": "Cuatro Cañadas: alcalde prevé que la refinería inicie operaciones en los próximos días",
-      "desc": "",
-      "link": "https://eldeber.com.bo/santa-cruz/cuatro-canadas-alcalde-preve-refineria-inicie-operaciones-proximos-dias_1792615945",
-      "date": "2026-10-21T20:52:25Z"
+      "title": "Buscan rastros de droga en vehículos que eran usados por Mariaca",
+      "desc": "La Fiscalía realizó el microaspirado de una Toyota Land Cruiser negra y un BMW blanco. También prevé someter el armamento secuestrado a pericias balísticas para establecer su procedencia y determinar …",
+      "link": "https://eldeber.com.bo/pais/buscan-rastros-droga-vehiculos-eran-usados-mariaca_1792625220",
+      "date": "2026-10-21T23:27:00Z"
     },
     {
       "source": "La Razón",
-      "title": "Paz visitará Chile el primer trimestre de 2027 para consolidar convenios bilaterales",
-      "desc": "El cónsul Flavio Escobar confirmó la cita en Santiago con el propósito de operativizar acuerdos sobre energía, minería, comercio y telecomunicaciones\nThe post Paz visitará Chile el primer trimestre de…",
-      "link": "https://larazon.bo/nacional/2026/10/21/paz-visitara-chile-el-primer-trimestre-de-2027-para-consolidar-convenios-bilaterales/",
-      "date": "2026-10-21T20:42:34Z"
+      "title": "Paz coordina con alcaldes paceños proyectos viales, productivos y de salud",
+      "desc": "Las reuniones forman parte de las gestiones del Ejecutivo para coordinar inversiones con los gobiernos municipales.\nThe post Paz coordina con alcaldes paceños proyectos viales, productivos y de salud …",
+      "link": "https://larazon.bo/ciudades/2026/10/21/paz-coordina-con-alcaldes-pacenos-proyectos-viales-productivos-y-de-salud/",
+      "date": "2026-10-21T23:16:49Z"
     },
     {
       "source": "El Deber",
-      "title": "Gobierno se reúne con vecinos de Viacha para consensuar plan de renovación de viviendas afectadas por explosión",
-      "desc": "El proyecto de Decreto Supremo contempla Bs 5,5 millones destinados exclusivamente a la refacción y reconstrucción de las viviendas dañadas. Su remisión al Ministerio de la Presidencia está prevista p…",
-      "link": "https://eldeber.com.bo/pais/gobierno-reune-vecinos-viacha-consensuar-plan-renovacion-viviendas-afectadas-explosion_1792613271",
-      "date": "2026-10-21T20:07:51Z"
+      "title": "Comisión de Justicia de Diputados analizará proyecto para elección del nuevo fiscal general",
+      "desc": "Ya pasaron tres semanas desde que fue designado José Urioste, quien tiene un mandato de 90 días para desempeñar el cargo de fiscal general interino",
+      "link": "https://eldeber.com.bo/pais/comision-justicia-diputados-analizara-proyecto-eleccion-nuevo-fiscal-general_1792622248",
+      "date": "2026-10-21T22:37:28Z"
     },
     {
       "source": "El Deber",
-      "title": "Recuperan en Yapacaní un tractor robado que era ofrecido en venta por redes sociales",
-      "desc": "La maquinaria fue sustraída el 5 de octubre en el municipio de San Juan, luego de que su propietario la dejara a un costado de la carretera por falta de combustible",
-      "link": "https://eldeber.com.bo/santa-cruz/recuperan-yapacani-tractor-robado-era-ofrecido-venta-redes-sociales_1792613160",
-      "date": "2026-10-21T20:06:00Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Concejo fiscaliza problemas de drenaje y agua potable en el Distrito 6",
-      "desc": "Tres inspecciones permitieron verificar denuncias vecinales en esta zona de la capital cruceña y establecer coordinaciones con las instituciones competentes para atender las demandas",
-      "link": "https://eldeber.com.bo/santa-cruz/concejo-fiscaliza-problemas-drenaje-agua-potable-distrito-6_1792611504",
-      "date": "2026-10-21T19:38:24Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El Como aplasta al Manchester United con una goleada",
-      "desc": "Nico Paz convirtió el duelo ante el Manchester United, que no levanta cabeza, en una nueva demostración de su talento, y lideró la goleada del Como (4-1) de Cesc Fàbregas con dos goles y una asistenci…",
-      "link": "https://eldeber.com.bo/deportes/aplasta-manchester-united-goleada_1792610771",
-      "date": "2026-10-21T19:26:11Z"
+      "title": "EFY reporta pagos por más de $us 1,5 millones mensuales en Bolivia",
+      "desc": "La plataforma utiliza activos digitales para facilitar operaciones con proveedores del exterior. Con la incorporación de Tether como inversionista, la compañía prevé fortalecer sus servicios y señala …",
+      "link": "https://eldeber.com.bo/economia/efy-reporta-pagos-us-1-5-millones-mensuales-bolivia_1792619100",
+      "date": "2026-10-21T21:45:00Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -233,11 +226,11 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
-      "date": "2026-10-09T07:00:00Z"
+      "source": "Google — INE inflación",
+      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
+      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
+      "date": "2026-10-07T07:00:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -251,6 +244,13 @@
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
+      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
       "date": "2026-10-05T07:00:00Z"
     },
     {
@@ -283,7 +283,7 @@
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.86,
+    "buyTomorrow": 11.87,
     "sellTomorrow": 11.91,
     "changeBuy": -0.01,
     "changeSell": -0.01,
@@ -4244,7 +4244,7 @@
     },
     {
       "date": "2026-10-21",
-      "buy": 11.87,
+      "buy": 11.88,
       "sell": 11.92
     }
   ]
