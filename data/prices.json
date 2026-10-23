@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T20:58:52Z",
+  "lastUpdated": "2026-10-23T00:14:52Z",
   "displayDate": "jueves 22 de octubre, 2026",
   "binance": {
     "buy": 11.9,
@@ -8,20 +8,20 @@
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.93,
-    "sell": 11.86,
+    "buy": 11.94,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.17,
-    "sell": 11.79,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.11,
-    "sell": 11.76,
+    "buy": 12.1,
+    "sell": 11.75,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,13 +33,13 @@
   },
   "bybit": {
     "buy": 11.93,
-    "sell": 11.9,
+    "sell": 11.92,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.96,
-    "sell": 11.67,
+    "buy": 11.94,
+    "sell": 11.68,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -51,7 +51,7 @@
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-22T20:58:45Z"
+    "fetchedAt": "2026-10-23T00:14:45Z"
   },
   "banks": [
     {
@@ -108,45 +108,59 @@
   "news": [
     {
       "source": "El Deber",
-      "title": "Saucedo pide la renuncia del presidente del Tribunal Departamental de Justicia",
-      "desc": "El Gobierno de Estados Unidos anunció este jueves 22 de octubre nuevas restricciones de visas contra 40 personas en Bolivia, entre ellos está el presidente del Tribunal Departamental de Justicia de Sa…",
-      "link": "https://eldeber.com.bo/pais/saucedo-pide-presidente-tribunal-departamental-justicia-presente-renuncia_1792701845",
-      "date": "2026-10-22T20:44:05Z"
+      "title": "Indígenas piden al Gobierno de Bolivia restringir la minería en el acceso al parque Madidi",
+      "desc": "El pedido fue planteado ante la estatal Autoridad Jurisdiccional Administrativa Minera (AJAM) por el presidente del Consejo Indígena del Pueblo Tacana (Cipta), Jorge Canamari; el alcalde del municipio…",
+      "link": "https://eldeber.com.bo/pais/indigenas-piden-gobierno-bolivia-restringir-mineria-acceso-parque-madidi_1792711963",
+      "date": "2026-10-22T23:32:43Z"
     },
     {
       "source": "El Deber",
-      "title": "¿Quiénes son las nuevas autoridades bolivianas a las que EEUU les restringió la visa?",
-      "desc": "El Departamento de Estado identificó a 15 ciudadanos bolivianos a quienes impuso restricciones migratorias por presuntos vínculos con corrupción o narcotráfico. La nómina incluye al exfiscal general J…",
-      "link": "https://eldeber.com.bo/pais/quienes-nuevas-autoridades-bolivianas-eeuu-les-restringio-visa_1792701789",
-      "date": "2026-10-22T20:43:09Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aprueban ley que libera de deudas tributarias a quienes vendieron sus vehículos y no concretaron la transferencia",
-      "desc": "La medida apunta a liberar de responsabilidades tributarias a los antiguos propietarios y evitar perjuicios como el congelamiento de cuentas bancarias",
-      "link": "https://eldeber.com.bo/santa-cruz/aprueban-ley-libera-deudas-tributarias-quienes-vendieron-vehiculos-no-concretaron-transferencia_1792701453",
-      "date": "2026-10-22T20:37:33Z"
+      "title": "Oriente respira por Herrera y recupera a tres jugadores",
+      "desc": "El volante se sometió a exámenes médicos el jueves por la tarde. Desde la interna refinera informaron a DIEZ que se descartó un desgarro y que el cuerpo médico trabaja para que pueda llegar al partido…",
+      "link": "https://eldeber.com.bo/oriente-petrolero/oriente-respira-herrera-recupera-tres-jugadores_1792711642",
+      "date": "2026-10-22T23:27:22Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía prohíbe cobros y aportes irregulares bajo advertencia de procesos penales",
-      "desc": "El documento establece sanciones disciplinarias y penales directas contra los infractores \nThe post Fiscalía prohíbe cobros y aportes irregulares bajo advertencia de procesos penales appeared first on…",
-      "link": "https://larazon.bo/nacional/2026/10/22/fiscalia-prohibe-cobros-y-aportes-irregulares-bajo-advertencia-de-procesos-penales/",
-      "date": "2026-10-22T20:29:52Z"
+      "title": "La Línea Azul del teleférico reinicia operaciones desde este viernes",
+      "desc": "Las tareas de mantenimiento concluyeron antes del plazo previsto, el cual fijaba la reanudación del servicio para el domingo 25 de octubre.\nThe post La Línea Azul del teleférico reinicia operaciones d…",
+      "link": "https://larazon.bo/ciudades/2026/10/22/la-linea-azul-del-teleferico-reinicia-operaciones-desde-este-viernes/",
+      "date": "2026-10-22T22:58:16Z"
     },
     {
       "source": "La Razón",
-      "title": "Hidrovía: dragado y lluvias mejoran condiciones de navegación para Bolivia y Brasil",
-      "desc": "El mayor caudal, sumado a los trabajos de dragado, favorece el traslado de cargas procedentes de Brasil y Bolivia, según la Comisión de Transporte de la Cuenca del Plata\nThe post Hidrovía: dragado y l…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/22/hidrovia-dragado-y-lluvias-mejoran-condiciones-de-navegacion-para-bolivia-y-brasil/",
-      "date": "2026-10-22T20:11:25Z"
+      "title": "Bolivia proyecta más de 500 encuentros empresariales y ampliar comercio con Chile",
+      "desc": "El viceministro de Comercio Exterior sostuvo que el país necesita incrementar sus ventas al exterior no solo para generar divisas, sino también para impulsar el empleo\nThe post Bolivia proyecta más de…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/22/bolivia-proyecta-mas-de-500-encuentros-empresariales-y-ampliar-comercio-con-chile/",
+      "date": "2026-10-22T22:40:40Z"
     },
     {
       "source": "El Deber",
-      "title": "La Verde se alista para la fecha FIFA y espera que sus legionarios sumen rodaje",
-      "desc": "El equipo de Óscar Villegas se alista para disputar sus últimos amistosos del año ante Perú y Ecuador, por la fecha FIFA de noviembre. El cuerpo técnico también expresó su preocupación por la falta de…",
-      "link": "https://eldeber.com.bo/deportes/verde-alista-fecha-fifa-espera-legionarios-sumen-rodaje_1792698985",
-      "date": "2026-10-22T19:56:25Z"
+      "title": "Dos pilotos bolivianos son condenados a 10 años de prisión en Argentina",
+      "desc": "Juan Pablo Quinteros Peredo y Henry Álvaro Mercado Cuajera, acusados por delito de contrabando de importación de estupefacientes destinados a su comercialización traficaron la droga desde Bolivia hast…",
+      "link": "https://eldeber.com.bo/pais/dos-pilotos-bolivianos-condenados-10-anos-prision-argentina_1792708325",
+      "date": "2026-10-22T22:32:05Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Asamblea aprueba crédito de $us 30 MM del BID para alumbrado público en el país",
+      "desc": "Según el Ministerio de Economía y Finanzas Públicas (MEFP), estas medidas permitirán avanzar hacia sistemas de iluminación más eficientes y reducir el consumo de electricidad\nThe post Asamblea aprueba…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/22/asamblea-aprueba-credito-de-us-30-mm-del-bid-para-alumbrado-publico-en-el-pais/",
+      "date": "2026-10-22T22:29:51Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Aprueban crédito de $us 30,2 millones del BID para alumbrado público en el país",
+      "desc": "Buscan incorporar tecnología LED, reducir el consumo de electricidad y mejorar la eficiencia de los servicios públicos, a través de la inversión de este crédito del BID",
+      "link": "https://eldeber.com.bo/pais/aprueban-credito-us-30-2-millones-bid-alumbrado-publico-pais_1792708047",
+      "date": "2026-10-22T22:27:27Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Cívicos piden que la Cancillería exija Estados Unidos las pruebas para la restricción de los visados",
+      "desc": "El Departamento de Estado de los Estados Unidos identificó públicamente a 15 ciudadanos bolivianos, entre ellos dos diputados nacionales, un exfiscal general, fiscales, jueces y exautoridades policial…",
+      "link": "https://eldeber.com.bo/santa-cruz/civicos-piden-cancilleria-exija-estados-unidos-pruebas-restriccion-visados_1792707040",
+      "date": "2026-10-22T22:10:40Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -156,18 +170,11 @@
       "date": "2026-10-22T19:41:51Z"
     },
     {
-      "source": "El Deber",
-      "title": "Tuto y JP Velasco piden que se \"retire\" a Rafael López de la Cámara de Diputados",
-      "desc": "El Gobierno de Estados Unidos anunció este jueves, 22 de octubre, nuevas restricciones de visas contra 40 personas en Bolivia, entre ellos está el diputado de Alianza Libre Rafael Darío López Mercado",
-      "link": "https://eldeber.com.bo/pais/tuto-jp-velasco-piden-retire-rafael-lopez-camara-diputados_1792697444",
-      "date": "2026-10-22T19:30:44Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
-      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
-      "date": "2026-10-21T04:53:14Z"
+      "source": "Google — Economía Bolivia",
+      "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
+      "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
+      "date": "2026-10-20T20:16:41Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -189,13 +196,6 @@
       "desc": "BCB asegura que no se repetirán los “corralitos” en dólares ni el empeño de reservas de oro&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaFZ6Qkx1czU5VXpTREZ2MHkxQ3VnTWI0NEgyZXJSd2ZDdWcxd2d0Vk9QU3hrbWNiVERibVdXcDdtblNzY21tX29CeHpMeTlBNW9VVVItV2pSWG9ZOEdOVzFhdVJxRGNwdDlocFBnOEZoWDJ1X3FVdnE5Y1lhZW82LWVnVUE1MHg0eFRuTUtwVW50c1NETXc4ZEdmOWhNdzZidmhheUp4X09RWGZETE4tMTNMRjZkYW9sNk9Jc0xhRXJvVmp3Ry1DVVh4NmRNdmhqeU5wejN3?oc=5",
       "date": "2026-10-18T00:17:54Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
-      "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
-      "date": "2026-10-17T13:09:20Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -247,13 +247,6 @@
       "date": "2026-10-07T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
-      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
-      "date": "2026-10-06T07:00:00Z"
-    },
-    {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
@@ -269,10 +262,10 @@
     },
     {
       "source": "Google — Economía Bolivia",
-      "title": "Gobierno y alcaldías de ciudades capitales acuerdan trabajo conjunto para sanear las finanzas municipales - ABI - Agencia Boliviana de Información",
-      "desc": "Gobierno y alcaldías de ciudades capitales acuerdan trabajo conjunto para sanear las finanzas municipales&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeVZhcncyR3lEWHVPTFdDellXanhENTdvZzFDOVV2UzBNSThhVFVIRVd0YUhmdHAwd3dfVi1BZE1qRGZFLWswTHlUVkVZdDVuU05HY3dxSndFMEJQc3NkOVNXTUtVTlMzcEpWTmkwZ1dxUkRMSjN4TzQwQjZjTWFlSHNGZ293WEJoSnphYzA0OE9jRzdfYzBNM2dxbkUyYVVkOVZHVTJsZlkzSnROX1pvck1SOVpDU0pnXzVvRTZR?oc=5",
-      "date": "2026-09-08T07:00:00Z"
+      "title": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP - MEFP",
+      "desc": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80eFRQOEprd3V6bXJOQ0w4X0xGeDhJaWx5VHdCeldrdzVjbjNJQURtM3FLU29hLWdYcEdrUmFMZHJGSVBOTzZwbG04R2tMX0ZIRE5tSnhNZ19uRzg?oc=5",
+      "date": "2026-09-10T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -280,6 +273,13 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
