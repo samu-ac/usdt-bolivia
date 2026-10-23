@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-23T16:07:39Z",
+  "lastUpdated": "2026-10-23T20:48:39Z",
   "displayDate": "viernes 23 de octubre, 2026",
   "binance": {
-    "buy": 12.02,
-    "sell": 12.06,
+    "buy": 11.96,
+    "sell": 12.01,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.01,
-    "sell": 11.96,
+    "sell": 11.92,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.3,
-    "sell": 11.91,
+    "buy": 12.25,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.22,
-    "sell": 11.87,
+    "buy": 12.18,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.04,
-    "sell": 12.01,
+    "buy": 12.0,
+    "sell": 11.99,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.17,
-    "sell": 11.76,
+    "buy": 12.12,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.84,
     "officialSell": 11.84,
-    "referentialBuy": 12.02,
-    "referentialSell": 12.06,
+    "referentialBuy": 11.96,
+    "referentialSell": 12.01,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-23T16:07:32Z"
+    "fetchedAt": "2026-10-23T20:48:31Z"
   },
   "banks": [
     {
@@ -108,10 +108,59 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Cuatro policías son aprehendidos tras facilitar llamadas al exfiscal Mariaca",
-      "desc": "Tras una requisa sin resultados, se entrevistó a los custodios y se identificó al asesor jurídico quien facilitaba su celular al exfiscal. \nThe post Cuatro policías son aprehendidos tras facilitar lla…",
-      "link": "https://larazon.bo/nacional/2026/10/23/cuatro-policias-son-aprehendidos-tras-facilitar-llamadas-al-exfiscal-mariaca/",
-      "date": "2026-10-23T16:02:42Z"
+      "title": "MacLean advierte que el veto de visas de EEUU puede alcanzar al gabinete de Rodrigo Paz",
+      "desc": "El excanciller afirma que el país está ‘desarmado’ frente a la penetración criminal en la Policía, la Fiscalía y la justicia\nThe post MacLean advierte que el veto de visas de EEUU puede alcanzar al ga…",
+      "link": "https://larazon.bo/nacional/2026/10/23/maclean-advierte-que-el-veto-de-visas-de-eeuu-puede-alcanzar-al-gabinete-de-rodrigo-paz/",
+      "date": "2026-10-23T19:55:21Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Cerimedo participará en la audiencia de exhibición de su computadora ante la Fiscalía",
+      "desc": "La defensa legal confirma la presencia del investigado junto a la comisión de fiscales a cargo del caso\nThe post Cerimedo participará en la audiencia de exhibición de su computadora ante la Fiscalía a…",
+      "link": "https://larazon.bo/nacional/2026/10/23/cerimedo-participara-en-la-audiencia-de-exhibicion-de-su-computadora-ante-la-fiscalia/",
+      "date": "2026-10-23T19:40:49Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Teatro: ‘Amor Fati’ aborda el primer amor",
+      "desc": "Esta obra de teatro, impulsada por Fundarbol Colectivo Artístico, se presentará del 24 al 31 de octubre en el Teatro Municipal de la Villa Primero de Mayo, con funciones a las 9:00, 11:00, 15:00 y 16:…",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/amor-fati-aborda-primer-amor_1792783389",
+      "date": "2026-10-23T19:23:16Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía designará abogado de oficio a Jhonny Fernández",
+      "desc": "El Ministerio Público solicitará la medida de 180 días de detención preventiva\nThe post Fiscalía designará abogado de oficio a Jhonny Fernández appeared first on La Razón.",
+      "link": "https://larazon.bo/ciudades/2026/10/23/fiscalia-designara-abogado-de-oficio-a-jhonny-fernandez/",
+      "date": "2026-10-23T19:15:21Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas - unitel.bo",
+      "desc": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas&nbsp;&nbsp;unitel.bo",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHlTWmxSQzI5ZW1zWmFDenNqOVY5X1BOd3lzRElYSnpaQ3NEcFZoSlk3bXAyb0NwYnRkMGlVS2hRbDJsdkVrMG11STc3TG8xQlhxTkdReUcteGZkVGtQZ19MTlR3MGx5WXpycDJxbHNNU2NjQnF4dElscTItYmFNLWhlalJVRUJQVHhFX3VJdnludFRLeTNCWjhSaURjZXpvWW5BNHBmNG5iRkVxMmgyNTFZelNtdlEwWEg1V1VKLXFpS04tbWJsNXhBR0Y3MkQyZnB5MTI1SkloQQ?oc=5",
+      "date": "2026-10-23T17:26:23Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Ronaldinho regresará al césped con el Ravenna el 15 de noviembre en la Serie C italiana",
+      "desc": "El astro brasileño Ronaldinho Gaúcho regresará al césped con el Ravenna el próximo 15 de noviembre, coincidiendo con el derbi regional contra el Forlì, correspondiente a la Serie C italiana, según anu…",
+      "link": "https://eldeber.com.bo/deportes/ronaldinho-regresara-cesped-ravenna-15-noviembre-serie-c-italiana_1792776069",
+      "date": "2026-10-23T17:21:09Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Poblaciones guarayas celebran simultáneamente el día de la tradición",
+      "desc": "Entradas típicas, música, danzas y gastronomía forman parte de las actividades culturales que reúnen a estudiantes, instituciones y comunidades de la provincia Guarayos",
+      "link": "https://eldeber.com.bo/santa-cruz/poblaciones-guarayas-celebran-simultaneamente-dia-tradicion_1792772860",
+      "date": "2026-10-23T16:27:40Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Alberto Vaca a Jhonny Fernández: “Si es inocente, que se presente a la Justicia y lo demuestre”",
+      "desc": "El director municipal instó al exalcalde a que demuestre su inocencia en el proceso por presunta malversación de Bs 191 millones. La audiencia de medidas cautelares fue reprogramada para el 9 de novie…",
+      "link": "https://eldeber.com.bo/santa-cruz/alberto-vaca-jhonny-fernandez-si-inocente-presente-justicia-demuestre_1792772192",
+      "date": "2026-10-23T16:16:32Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -121,74 +170,11 @@
       "date": "2026-10-23T16:02:30Z"
     },
     {
-      "source": "El Deber",
-      "title": "Exdirector del Segip asegura desconocer los motivos de la restricción de su visa por EEUU",
-      "desc": "Mediante un mensaje publicado en sus redes sociales, Oscar Mauricio Ortiz Cuéllar respondió luego de conocer que estaba incluido en la nueva lista de bolivianos con visa restringida",
-      "link": "https://eldeber.com.bo/santa-cruz/exdirector-segip-asegura-desconocer-motivos-restriccion-visa-eeuu_1792768937",
-      "date": "2026-10-23T15:22:17Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar Binance hoy en Bolivia: 12.05 bolivianos - Criptotendencias",
       "desc": "Dólar Binance hoy en Bolivia: 12.05 bolivianos&nbsp;&nbsp;Criptotendencias",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NSFdRczhjWlhrUkt4U0hzSzQtaWs4OWRGNi1fU2JWUFNCMlpFSDdScWluc254SVNUQVp0eHJHYjdPRGRLWGZLQmh2b2N2Qmhtc19hbFdYb1lkV05nWHJZQUpTR1R4YVg4NzZib2FPY3F3MFRTcHc?oc=5",
       "date": "2026-10-23T15:16:11Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Bolivia y Estados Unidos coordinan el ingreso del país a la coalición continental contra cárteles",
-      "desc": "El ministro de Defensa, Ernesto Justiniano, recibió a la delegación diplomática norteamericana para establecer una agenda de seguridad\nThe post Bolivia y Estados Unidos coordinan el ingreso del país a…",
-      "link": "https://larazon.bo/nacional/2026/10/23/bolivia-y-estados-unidos-coordinan-el-ingreso-del-pais-a-la-coalicion-continental-contra-carteles/",
-      "date": "2026-10-23T15:12:08Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "\"El estado de excepción no frenará la educación\": maestros urbanos advierten con endurecer medidas de presión",
-      "desc": "El sector acata un paro de 24 horas este viernes y exige incremento salarial, respeto al escalafón nacional y el rechazo a la descentralización educativa. Un dirigente no descartó bloqueos, huelgas o …",
-      "link": "https://eldeber.com.bo/santa-cruz/estado-excepcion-no-frenara-educacion-maestros-urbanos-advierten-endurecer-medidas-presion_1792767427",
-      "date": "2026-10-23T14:57:07Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Fiscalía General instruye “prohibición taxativa” de cobros irregulares y habilita un sistema de denuncia",
-      "desc": "“Aquel servidor público que incurra o participe en actos ilegales, será procesado inmediatamente por la vía disciplinaria y remitido ante la jurisdicción penal”, asegura la institución presidida por e…",
-      "link": "https://eldeber.com.bo/pais/fiscalia-general-instruye-prohibicion-taxativa-cobros-irregulares-habilita-sistema-denuncia_1792766777",
-      "date": "2026-10-23T14:46:17Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "BCB: Las RIN llegan a $us 3.978 millones con el oro como principal sostén",
-      "desc": "El metal concentra el 82,1% del total acumulado al 16 de octubre, según el reporte del Banco Central\nThe post BCB: Las RIN llegan a $us 3.978 millones con el oro como principal sostén appeared first o…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/23/bcb-las-rin-llegan-a-us-3-978-millones-con-el-oro-como-principal-sosten/",
-      "date": "2026-10-23T14:38:04Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Policía gasifica marcha del magisterio urbano en Sucre y aprehende a un profesor",
-      "desc": "El gremio denuncia agresiones físicas contra el docente durante el operativo policial\nThe post Policía gasifica marcha del magisterio urbano en Sucre y aprehende a un profesor appeared first on La Raz…",
-      "link": "https://larazon.bo/ciudades/2026/10/23/policia-gasifica-marcha-del-magisterio-urbano-en-sucre-y-aprehende-a-un-profesor/",
-      "date": "2026-10-23T14:30:03Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Magisterio urbano inicia su marcha hacia La Paz desde el Multifuncional de la Ceja de El Alto",
-      "desc": "Maestros bajan por la autopista en demanda de presupuesto y contra el alza del costo de vida\nThe post Magisterio urbano inicia su marcha hacia La Paz desde el Multifuncional de la Ceja de El Alto appe…",
-      "link": "https://larazon.bo/sociedad/2026/10/23/magisterio-urbano-inicia-su-marcha-hacia-la-paz-desde-el-multifuncional-de-la-ceja-de-el-alto/",
-      "date": "2026-10-23T14:08:44Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿Cuál es la cotización del dólar este viernes? La divisa sigue en ascenso en Bolivia",
-      "desc": "La cotización oficial del dólar, que está bajo el esquema flexible, subió 15 centavos en cinco días.",
-      "link": "https://eldeber.com.bo/economia/cuanto-esta-dolar-este-viernes-cotizacion-sigue-ascenso-bolivia_1792755171",
-      "date": "2026-10-23T11:32:51Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "3 claves que explican por qué el duelo final entre Flávio Bolsonaro y Lula en Brasil es crucial para América Latina (y para Trump en EE.UU.)",
-      "desc": "La diferencia en votos válidos entre ambos candidatos el 4 de octubre fue de 1,9 puntos porcentuales, la menor registrada en una primera vuelta desde que Brasil recuperó la democracia, y algunas encue…",
-      "link": "https://eldeber.com.bo/bbc/3-claves-que-explican-por-que-el-duelo-final-entre-flavio-bolsonaro-y-lula-en-brasil-es-crucial-para-america-latina-y-para-trump-en-ee-uu--2026102381817",
-      "date": "2026-10-23T11:18:17Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -240,6 +226,13 @@
       "date": "2026-10-13T07:00:00Z"
     },
     {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
+      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
+      "date": "2026-10-13T07:00:00Z"
+    },
+    {
       "source": "Google — BCB reservas",
       "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
@@ -248,9 +241,9 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - ABI - Agencia Boliviana de Información",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGt1MGZHTHhJZFdRS1BDZkwyQzJZUzJQVWNxV3VKZW93d1U4eU5YYXctRlNEbkloUDd0YmN3X1RCc2x5Q2VmZWxVOEVCZXlWUUo4bUFlRnFDYk52UDZseGY4eFZxWG5YZXZobm5sV1cxQVN6VzVYc0w3emw4ZXdvMzhPSlBZbF9nSjI2eGRpaFVIZklPak5OVU04WXI?oc=5",
+      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
+      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
       "date": "2026-10-09T07:00:00Z"
     },
     {
@@ -261,11 +254,11 @@
       "date": "2026-10-08T07:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
-      "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
-      "date": "2026-10-07T07:00:00Z"
+      "source": "Google — BCB reservas",
+      "title": "Reservas líquidas del BCB crecen a más de $us 1.000 millones tras el desembolso del FMI - eju.tv",
+      "desc": "Reservas líquidas del BCB crecen a más de $us 1.000 millones tras el desembolso del FMI&nbsp;&nbsp;eju.tv",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUnN0YVNYVERRc2VtUWQ4dTFsR1ZDYThKaUYyZXJuc2Jodm1wVXJyalBOWkh1emdva1R0ZlBhaUpycERxdVA4bG5sS0gtb3ptMU5LdFdfQVlxbDhRT0kySXhBU0RwWG5CT210NlY0M2wwdGNVTWNvRE41S1BfUmwzRjlHY3I3TW5IZnJPblpUdUVqcDdUNnB5WHhMaHY5ZXZjbnRQM093R2VtWXlTT3JZ?oc=5",
+      "date": "2026-10-06T07:00:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -275,19 +268,26 @@
       "date": "2026-10-06T07:00:00Z"
     },
     {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
-      "date": "2026-10-05T07:00:00Z"
+      "source": "Google — USDT Bolivia",
+      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
+      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
+      "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Gobierno y alcaldías de ciudades capitales acuerdan trabajo conjunto para sanear las finanzas municipales - ABI - Agencia Boliviana de Información",
+      "desc": "Gobierno y alcaldías de ciudades capitales acuerdan trabajo conjunto para sanear las finanzas municipales&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeVZhcncyR3lEWHVPTFdDellXanhENTdvZzFDOVV2UzBNSThhVFVIRVd0YUhmdHAwd3dfVi1BZE1qRGZFLWswTHlUVkVZdDVuU05HY3dxSndFMEJQc3NkOVNXTUtVTlMzcEpWTmkwZ1dxUkRMSjN4TzQwQjZjTWFlSHNGZ293WEJoSnphYzA0OE9jRzdfYzBNM2dxbkUyYVVkOVZHVTJsZlkzSnROX1pvck1SOVpDU0pnXzVvRTZR?oc=5",
+      "date": "2026-09-08T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.01,
-    "sellTomorrow": 12.05,
-    "changeBuy": -0.01,
-    "changeSell": -0.01,
-    "trend": "baja",
+    "buyTomorrow": 11.98,
+    "sellTomorrow": 12.02,
+    "changeBuy": 0.02,
+    "changeSell": 0.01,
+    "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4254,8 +4254,8 @@
     },
     {
       "date": "2026-10-23",
-      "buy": 12.02,
-      "sell": 12.06
+      "buy": 11.96,
+      "sell": 12.01
     }
   ]
 }
