@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-23T00:14:52Z",
+  "lastUpdated": "2026-10-23T03:38:35Z",
   "displayDate": "jueves 22 de octubre, 2026",
   "binance": {
-    "buy": 11.9,
-    "sell": 11.94,
+    "buy": 11.91,
+    "sell": 11.96,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.94,
-    "sell": 11.88,
+    "buy": 11.99,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.17,
-    "sell": 11.78,
+    "buy": 12.19,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.1,
-    "sell": 11.75,
+    "buy": 12.12,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -38,20 +38,20 @@
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.94,
-    "sell": 11.68,
+    "buy": 11.95,
+    "sell": 11.69,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.75,
     "officialSell": 11.75,
-    "referentialBuy": 11.9,
-    "referentialSell": 11.94,
+    "referentialBuy": 11.91,
+    "referentialSell": 11.96,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-23T00:14:45Z"
+    "fetchedAt": "2026-10-23T03:38:28Z"
   },
   "banks": [
     {
@@ -107,6 +107,48 @@
   ],
   "news": [
     {
+      "source": "La Razón",
+      "title": "‘Desvisado’, Quezada renuncia a la Presidencia del TDJ de Santa Cruz",
+      "desc": "La nueva lista estadounidense incluye a 15 ciudadanos bolivianos, entre ellos dos diputados, el exfiscal general Juan Lanchipa Ponce.\nThe post ‘Desvisado’, Quezada renuncia a la Presidencia del TDJ de…",
+      "link": "https://larazon.bo/nacional/2026/10/22/desvisado-quezada-renuncia-a-la-presidencia-del-tdj-de-santa-cruz/",
+      "date": "2026-10-23T03:16:30Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "TeCNIa 2026 reunirá a expertos para impulsar la economía circular en Bolivia",
+      "desc": "El encuentro organizado por la Cámara Nacional de Industrias se realizará el 27 de octubre en La Paz, con especialistas internacionales, experiencias empresariales y cinco startups.\nThe post TeCNIa 20…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/22/tecnia-2026-reunira-a-expertos-para-impulsar-la-economia-circular-en-bolivia/",
+      "date": "2026-10-23T02:38:28Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Always Ready y The Strongest no se sacan ventaja y dejan la llave abierta",
+      "desc": "El Millonario y el Tigre igualaron 1-1 en la ida de los cuartos de final de la Copa Bolivia. Javier Uzeda adelantó al local y Luis Cueto selló la igualdad. La revancha se disputará el 4 de noviembre e…",
+      "link": "https://eldeber.com.bo/deportes/always-ready-the-strongest-no-sacan-ventaja-dejan-llave-abierta_1792721106",
+      "date": "2026-10-23T02:05:06Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "The Strongest sacó un empate (1-1) ante Always en El Alto",
+      "desc": "Uzeda abrió el marcador y Cueto empató. El aurinegro se quedó con 10 tras expulsión de Saucedo. La llave se definirá en noviembre en el Hernando Siles\nThe post The Strongest sacó un empate (1-1) ante …",
+      "link": "https://larazon.bo/marcas/2026/10/22/the-strongest-saco-un-empate-1-1-ante-always-en-el-alto/",
+      "date": "2026-10-23T02:03:13Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Fiscalía evaluará el informe médico de Tatiana Marset y definirá si es trasladada a Palmasola",
+      "desc": "La hermana del uruguayo Sebastián Marset debía recibir el alta médica este jueves 22 de octubre y retornar a la cárcel de Palmasola para cumplir detención preventiva",
+      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-evaluara-informe-medico-tatiana-marset-definira-si-trasladada-palmasola_1792720563",
+      "date": "2026-10-23T01:56:03Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno dice que narcotráfico no tendrá oficina en el Estado",
+      "desc": "De los 28 nombres publicados hasta el momento, ocho son jueces, ex jueces, magistrados judiciales o exmagistrados. Asimismo, hay ocho fiscales y exfiscales",
+      "link": "https://eldeber.com.bo/pais/gobierno-dice-narcotrafico-no-tendra-oficina-estado_1792717621",
+      "date": "2026-10-23T01:07:01Z"
+    },
+    {
       "source": "El Deber",
       "title": "Indígenas piden al Gobierno de Bolivia restringir la minería en el acceso al parque Madidi",
       "desc": "El pedido fue planteado ante la estatal Autoridad Jurisdiccional Administrativa Minera (AJAM) por el presidente del Consejo Indígena del Pueblo Tacana (Cipta), Jorge Canamari; el alcalde del municipio…",
@@ -128,46 +170,18 @@
       "date": "2026-10-22T22:58:16Z"
     },
     {
-      "source": "La Razón",
-      "title": "Bolivia proyecta más de 500 encuentros empresariales y ampliar comercio con Chile",
-      "desc": "El viceministro de Comercio Exterior sostuvo que el país necesita incrementar sus ventas al exterior no solo para generar divisas, sino también para impulsar el empleo\nThe post Bolivia proyecta más de…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/22/bolivia-proyecta-mas-de-500-encuentros-empresariales-y-ampliar-comercio-con-chile/",
-      "date": "2026-10-22T22:40:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Dos pilotos bolivianos son condenados a 10 años de prisión en Argentina",
-      "desc": "Juan Pablo Quinteros Peredo y Henry Álvaro Mercado Cuajera, acusados por delito de contrabando de importación de estupefacientes destinados a su comercialización traficaron la droga desde Bolivia hast…",
-      "link": "https://eldeber.com.bo/pais/dos-pilotos-bolivianos-condenados-10-anos-prision-argentina_1792708325",
-      "date": "2026-10-22T22:32:05Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Asamblea aprueba crédito de $us 30 MM del BID para alumbrado público en el país",
-      "desc": "Según el Ministerio de Economía y Finanzas Públicas (MEFP), estas medidas permitirán avanzar hacia sistemas de iluminación más eficientes y reducir el consumo de electricidad\nThe post Asamblea aprueba…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/22/asamblea-aprueba-credito-de-us-30-mm-del-bid-para-alumbrado-publico-en-el-pais/",
-      "date": "2026-10-22T22:29:51Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aprueban crédito de $us 30,2 millones del BID para alumbrado público en el país",
-      "desc": "Buscan incorporar tecnología LED, reducir el consumo de electricidad y mejorar la eficiencia de los servicios públicos, a través de la inversión de este crédito del BID",
-      "link": "https://eldeber.com.bo/pais/aprueban-credito-us-30-2-millones-bid-alumbrado-publico-pais_1792708047",
-      "date": "2026-10-22T22:27:27Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Cívicos piden que la Cancillería exija Estados Unidos las pruebas para la restricción de los visados",
-      "desc": "El Departamento de Estado de los Estados Unidos identificó públicamente a 15 ciudadanos bolivianos, entre ellos dos diputados nacionales, un exfiscal general, fiscales, jueces y exautoridades policial…",
-      "link": "https://eldeber.com.bo/santa-cruz/civicos-piden-cancilleria-exija-estados-unidos-pruebas-restriccion-visados_1792707040",
-      "date": "2026-10-22T22:10:40Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar hoy en Bolivia: cotización de cierre del 22 de octubre - Infobae",
       "desc": "Dólar hoy en Bolivia: cotización de cierre del 22 de octubre&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzFFeVlfd2t6b0ZWM2ZYTFlaNzN2SWp2U21pSFZrU05tSl8yT3pyYk55WmxQNDJKanNQTzR5WVM3V2NzY2JwSFhsd3I4SGk3T3RrVmFTSXMzVVdxMGJyOEJNbUNTLWtpWTJoLUM5alpKSlotQXg2MmtJZmF4TEROakljbVU5ODFVRGdWX29hTTF6VHFXTGliN0U5TUJndlJDUklNZUt0ONIBwgFBVV95cUxOdTB5emV1bnVrUzdZVTF5b1pIME9YVTNGcGpZeWtQNjFHSnNKZHZCS1BuWUVJUDlzaTFZcVctN0xGMmg2X2dRUmx3cW1ybUNpRW9qOXVPTzZfWnctOVAzd25oMDJ6V2lqb3ZVazRxZUpXV0pnX3RvVzY2Z0NKNEo0cVJVNUNPa0REa2tDV1BPLTdXUXAwOTV1UFAyVldJVWE3bzN6SGNtUnVjTjNxSzd2Y0pJV3ZqOU1vb3VkcXFvSTB1dw?oc=5",
       "date": "2026-10-22T19:41:51Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
+      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
+      "date": "2026-10-22T01:17:23Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -196,6 +210,13 @@
       "desc": "BCB asegura que no se repetirán los “corralitos” en dólares ni el empeño de reservas de oro&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaFZ6Qkx1czU5VXpTREZ2MHkxQ3VnTWI0NEgyZXJSd2ZDdWcxd2d0Vk9QU3hrbWNiVERibVdXcDdtblNzY21tX29CeHpMeTlBNW9VVVItV2pSWG9ZOEdOVzFhdVJxRGNwdDlocFBnOEZoWDJ1X3FVdnE5Y1lhZW82LWVnVUE1MHg0eFRuTUtwVW50c1NETXc4ZEdmOWhNdzZidmhheUp4X09RWGZETE4tMTNMRjZkYW9sNk9Jc0xhRXJvVmp3Ry1DVVh4NmRNdmhqeU5wejN3?oc=5",
       "date": "2026-10-18T00:17:54Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
+      "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
+      "date": "2026-10-17T13:09:20Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -259,35 +280,14 @@
       "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
       "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP - MEFP",
-      "desc": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80eFRQOEprd3V6bXJOQ0w4X0xGeDhJaWx5VHdCeldrdzVjbjNJQURtM3FLU29hLWdYcEdrUmFMZHJGSVBOTzZwbG04R2tMX0ZIRE5tSnhNZ19uRzg?oc=5",
-      "date": "2026-09-10T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.91,
-    "sellTomorrow": 11.95,
-    "changeBuy": 0.01,
-    "changeSell": 0.01,
-    "trend": "alza",
+    "sellTomorrow": 11.96,
+    "changeBuy": 0.0,
+    "changeSell": 0.0,
+    "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4249,8 +4249,8 @@
     },
     {
       "date": "2026-10-22",
-      "buy": 11.9,
-      "sell": 11.94
+      "buy": 11.91,
+      "sell": 11.96
     }
   ]
 }
