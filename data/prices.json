@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-24T00:08:35Z",
+  "lastUpdated": "2026-10-24T03:32:35Z",
   "displayDate": "viernes 23 de octubre, 2026",
   "binance": {
-    "buy": 11.97,
+    "buy": 11.95,
     "sell": 12.01,
     "available": true,
     "source": "binance_p2p"
@@ -15,13 +15,13 @@
   },
   "takenos": {
     "buy": 12.24,
-    "sell": 11.85,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.17,
-    "sell": 11.82,
+    "buy": 12.16,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.98,
+    "buy": 11.99,
     "sell": 11.98,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.09,
-    "sell": 11.77,
+    "buy": 12.06,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.84,
     "officialSell": 11.84,
-    "referentialBuy": 11.97,
+    "referentialBuy": 11.95,
     "referentialSell": 12.01,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-24T00:08:29Z"
+    "fetchedAt": "2026-10-24T03:32:27Z"
   },
   "banks": [
     {
@@ -107,6 +107,48 @@
   ],
   "news": [
     {
+      "source": "El Deber",
+      "title": "Investigan al ex fiscal de Cochabamba Osvaldo Tejerina por presunta corrupción",
+      "desc": "La Fiscalía de Cochabamba abrió una investigación penal contra el ex fiscal departamental por los presuntos delitos de concusión y cohecho pasivo. Además, se anunciaron procesos disciplinarios por pos…",
+      "link": "https://eldeber.com.bo/cochabamba/investigan-ex-fiscal-cochabamba-osvaldo-tejerina-presunta-corrupcion_1792809047",
+      "date": "2026-10-24T02:30:47Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Caso Marset: Fiscalía reabre investigación contra policías tras la aprehensión del coronel Ferrufino",
+      "desc": "El fiscal Jimmy López confirmó que nuevas evidencias motivaron la reapertura de una denuncia que había sido rechazada. El caso está relacionado con presuntas irregularidades en el operativo de captura…",
+      "link": "https://eldeber.com.bo/pais/caso-marset-fiscalia-reabre-investigacion-policias-aprehension-coronel-ferrufino_1792807864",
+      "date": "2026-10-24T02:11:04Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Caso Hotel Las Américas: citan a Jhonny Aguilera, Raúl García Linera y otras exautoridades",
+      "desc": "El denunciante Juan Carlos Guedes confirmó a EL DEBER que la Fiscalía comenzará a convocar a testigos dentro de la investigación por presuntas vejaciones y torturas. Entre los citados están el ex jefe…",
+      "link": "https://eldeber.com.bo/pais/caso-hotel-americas-citan-jhonny-aguilera-raul-garcia-linera-otras-exautoridades_1792805534",
+      "date": "2026-10-24T01:32:14Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Revelan a quiénes llamó Mariaca y solicitan informes a telefónicas bolivianas",
+      "desc": "La Fiscalía solicitó informes a las empresas telefónicas Entel, Tigo y Viva para identificar los números contactados y establecer el alcance de las comunicaciones",
+      "link": "https://eldeber.com.bo/potosi/revelan-quienes-llamo-mariaca-solicitan-informes-telefonicas-bolivianas_1792804017",
+      "date": "2026-10-24T01:06:57Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Cambian a todos los custodios de Mariaca y lo mantendrán aislado",
+      "desc": "El comandante departamental de Potosí, coronel Franklin Villazón, confirmó que el ex fiscal general permanecerá en una celda de observación. Los nuevos guardias rotarán diariamente para evitar vínculo…",
+      "link": "https://eldeber.com.bo/potosi/cambian-todos-custodios-mariaca-mantendran-aislado_1792801044",
+      "date": "2026-10-24T00:17:24Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía investiga al exfiscal Osvaldo Tejerina por presunta corrupción",
+      "desc": "Una eventual desvinculación definitiva de la carrera fiscal dependerá de los resultados de un proceso disciplinario.\nThe post Fiscalía investiga al exfiscal Osvaldo Tejerina por presunta corrupción ap…",
+      "link": "https://larazon.bo/nacional/2026/10/23/fiscalia-investiga-al-exfiscal-osvaldo-tejerina-por-presunta-corrupcion/",
+      "date": "2026-10-24T00:15:05Z"
+    },
+    {
       "source": "La Razón",
       "title": "Irma Villavicencio asume la presidencia del TDJ de Santa Cruz",
       "desc": "La nueva titular reemplaza a Aldo Quezada, quien renunció al cargo y a su puesto de vocal de la Sala Constitucional Segunda el jueves 22 de octubre.\nThe post Irma Villavicencio asume la presidencia de…",
@@ -135,20 +177,6 @@
       "date": "2026-10-23T22:53:15Z"
     },
     {
-      "source": "La Razón",
-      "title": "El petróleo sube por temor del mercado a nuevos ataques",
-      "desc": "El barril de Brent del mar del Norte subió un 3,14%, hasta 116,72 dólares\nThe post El petróleo sube por temor del mercado a nuevos ataques appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/23/el-petroleo-sube-por-temor-del-mercado-a-nuevos-ataques/",
-      "date": "2026-10-23T22:52:57Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aprehenden a uno de los tres jefes policiales que dirigieron la captura de Marset",
-      "desc": "La Fiscalía emitió órdenes de aprehensión contra tres coroneles que participaron en el operativo de captura de Sebastián Marset el 13 de marzo en Santa Cruz. Uno de ellos, Juan Ferrufino, fue capturad…",
-      "link": "https://eldeber.com.bo/pais/aprehenden-ex-jefe-inteligencia-dirigio-captura-marset_1792795654",
-      "date": "2026-10-23T22:47:34Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "BCB: RIN de Bolivia suben a $us 3.978 millones hasta el 16 de octubre - Red Uno",
       "desc": "BCB: RIN de Bolivia suben a $us 3.978 millones hasta el 16 de octubre&nbsp;&nbsp;Red Uno",
@@ -156,46 +184,11 @@
       "date": "2026-10-23T22:23:23Z"
     },
     {
-      "source": "El Deber",
-      "title": "Autoridades piden a la Fiscalía celeridad en la investigación por la retención de funcionarios en Guarayos",
-      "desc": "Mediante un comunicado difundido por las redes sociales de la Gobernación de Santa Cruz, la institución confirmaba la liberación de doce funcionarios de diversas entidades que habían sido retenidos en…",
-      "link": "https://eldeber.com.bo/santa-cruz/autoridades-piden-fiscalia-celeridad-investigacion-retencion-funcionarios-guarayos_1792793230",
-      "date": "2026-10-23T22:07:10Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Tras destitución de exfiscal vetado por EEUU, designan a Ruddy Parada como fiscal coordinador de la Unidad de Sustancias Controladas",
-      "desc": "Por disposición superior, el fiscal encara el reto de dirigir la unidad especializada antidroga de la Fiscalía de Santa Cruz luego de la desvinculación del exfiscal Julio César Porras",
-      "link": "https://eldeber.com.bo/santa-cruz/destitucion-exfiscal-vetado-eeuu-designan-ruddy-parada-fiscal-coordinador-unidad-sustancias-controladas_1792792941",
-      "date": "2026-10-23T22:02:21Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Fiscalía indaga si Róger Mariaca planeaba fugarse de Cantumarca con ayuda de policías",
-      "desc": "El Ministerio Público rastrea las llamadas que habría realizado el ex fiscal general desde su celda con teléfonos facilitados presuntamente por sus custodios y el asesor jurídico del penal. Cuatro pol…",
-      "link": "https://eldeber.com.bo/potosi/fiscalia-indaga-si-roger-mariaca-planeaba-fugarse-cantumarca-ayuda-policias_1792791129",
-      "date": "2026-10-23T21:32:09Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Trabajadora investigada por el atraco a joyería denuncia al exfiscal Balderas, que quedó con la visa restringida por EEUU",
-      "desc": "Formalizó su denuncia en el Ministerio Público, luego de conocer que el exfiscal que investigaba el atraco estaba incluido en la lista de ciudadanos bolivianos vetados por EEUU. Denunció presuntas irr…",
-      "link": "https://eldeber.com.bo/santa-cruz/trabajadora-investigada-atraco-joyeria-denuncia-exfiscal-balderas-quedo-visa-restringida-eeuu_1792789699",
-      "date": "2026-10-23T21:08:19Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Las reservas internacionales llegan a $us 3.978 millones, con el oro como principal componente - Abya Yala Tv",
-      "desc": "Las reservas internacionales llegan a $us 3.978 millones, con el oro como principal componente&nbsp;&nbsp;Abya Yala Tv",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS090VlFpOWZHUi1weTBYSnhCUzFXZ1l5WHB1bjZna2VhOTJmWmVzOEo0RUpIblpVLV9icVd1ampsUkZ3UXROLWhZMWJTZVRNemlyVVZiYUQ3ampDMEdEdTJJVGp1S1dpcEptT3EwdHRFRlZhUVF5cjUxVmlfTWdkWTBwZ1FBU0ZzSjlLS0pmYmgxdmVWc2xpLXRrVkFkSjVLZzROMzBWa0pMeDVhMDRnVnZpZDF2ekk?oc=5",
-      "date": "2026-10-23T20:49:14Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas - unitel.bo",
       "desc": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas&nbsp;&nbsp;unitel.bo",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHlTWmxSQzI5ZW1zWmFDenNqOVY5X1BOd3lzRElYSnpaQ3NEcFZoSlk3bXAyb0NwYnRkMGlVS2hRbDJsdkVrMG11STc3TG8xQlhxTkdReUcteGZkVGtQZ19MTlR3MGx5WXpycDJxbHNNU2NjQnF4dElscTItYmFNLWhlalJVRUJQVHhFX3VJdnludFRLeTNCWjhSaURjZXpvWW5BNHBmNG5iRkVxMmgyNTFZelNtdlEwWEg1V1VKLXFpS04tbWJsNXhBR0Y3MkQyZnB5MTI1SkloQQ?oc=5",
-      "date": "2026-10-23T17:23:18Z"
+      "date": "2026-10-23T17:19:23Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -233,20 +226,6 @@
       "date": "2026-10-22T01:17:23Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
-      "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
-      "date": "2026-10-20T20:16:41Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia rinde su primer examen ante el FMI luego de la aprobación del crédito de $us 1.900 millones y el primer desembolso - eju.tv",
-      "desc": "Bolivia rinde su primer examen ante el FMI luego de la aprobación del crédito de $us 1.900 millones y el primer desembolso&nbsp;&nbsp;eju.tv",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNc0oyWGpTcUtyR0YtYzE4akZuNzh3MDR0UVVmSWRUc1FQZk9SclFHaWRRME9maENzSDRlc2ctZ0tNVmxmUGsyVmF2TmZhVEN2dVRibUZ1WWVKWDdsX0IydnRfc3BoYXBES19fN2FrSXoxbHpwZTV2Q182STNDb3pOS2RfX2dfNWtDeWVQcmRYWk5FTzR6MURuS29Zei1Nb2dGLU1OYTBSVWlvcFVrV0NMOHFJX1VZT1hNQjBDNnktSHpIX2NxdjVMMmlpTENFWVpuNFhuc05May16R1VyX3c?oc=5",
-      "date": "2026-10-18T11:15:06Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
@@ -268,24 +247,45 @@
       "date": "2026-10-13T07:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
-      "date": "2026-10-13T07:00:00Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T18:43:06Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales - La Razón Digital Bolivia",
+      "desc": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales&nbsp;&nbsp;La Razón Digital Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3EzUkFBWHpuV3pmQm5NbEktNE91RjhXSHA5a1BRRWhBcUtqUGl4ODZfY0NMN0NybmhBSXduMHViWHpmNGpSOGdLakJfbkhTRHlRNl8tcmxhck8tS1o1TjByblhXMU1IaFlsTXNGanY0XzFIUi1jV25rNElxZzZ4TVhHSGpQWVU2Ymh5QVVkRW0wamdfdDVuYUpGY1hNVXRxSWpMbVctUmoySUxuZy1JTGs2Nm1zV1VFQmtiQ2g0aGRZNFBmazc4ZU1rb3ItUk1HbTctMzNR?oc=5",
+      "date": "2026-10-09T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Todo lo que debes saber sobre el acuerdo entre Bolivia y el FMI - El Deber",
+      "desc": "Todo lo que debes saber sobre el acuerdo entre Bolivia y el FMI&nbsp;&nbsp;El Deber",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3FkQTZsZ2J3akRLVDhOcDJOczVZY3NoeUVlOG13SXU1cVBiYmprTVBhT2NVSVdfMEszUWZNRWxhd1dBMmJucnJtbDI4OUk5dEhzQlJpaUtrOUZjV1hLek1JT2hRNWRReVFqbEJsbGNDNVE5M3lvZDg2NFg2Sk1DRG9NVmJyZw?oc=5",
+      "date": "2026-10-08T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
+      "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
+      "date": "2026-10-08T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
+      "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
+      "date": "2026-10-07T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.98,
+    "buyTomorrow": 11.97,
     "sellTomorrow": 12.02,
-    "changeBuy": 0.01,
+    "changeBuy": 0.02,
     "changeSell": 0.01,
     "trend": "alza",
     "confidence": "alta",
@@ -4254,7 +4254,7 @@
     },
     {
       "date": "2026-10-23",
-      "buy": 11.97,
+      "buy": 11.95,
       "sell": 12.01
     }
   ]
