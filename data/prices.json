@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-23T20:48:39Z",
+  "lastUpdated": "2026-10-24T00:08:35Z",
   "displayDate": "viernes 23 de octubre, 2026",
   "binance": {
-    "buy": 11.96,
+    "buy": 11.97,
     "sell": 12.01,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.01,
-    "sell": 11.92,
+    "sell": 11.93,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.25,
-    "sell": 11.86,
+    "buy": 12.24,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.18,
-    "sell": 11.83,
+    "buy": 12.17,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,13 +32,13 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.0,
-    "sell": 11.99,
+    "buy": 11.98,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.12,
+    "buy": 12.09,
     "sell": 11.77,
     "available": true,
     "source": "api_dbb_saldoar"
@@ -46,12 +46,12 @@
   "bcb": {
     "officialBuy": 11.84,
     "officialSell": 11.84,
-    "referentialBuy": 11.96,
+    "referentialBuy": 11.97,
     "referentialSell": 12.01,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-23T20:48:31Z"
+    "fetchedAt": "2026-10-24T00:08:29Z"
   },
   "banks": [
     {
@@ -108,71 +108,106 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "MacLean advierte que el veto de visas de EEUU puede alcanzar al gabinete de Rodrigo Paz",
-      "desc": "El excanciller afirma que el país está ‘desarmado’ frente a la penetración criminal en la Policía, la Fiscalía y la justicia\nThe post MacLean advierte que el veto de visas de EEUU puede alcanzar al ga…",
-      "link": "https://larazon.bo/nacional/2026/10/23/maclean-advierte-que-el-veto-de-visas-de-eeuu-puede-alcanzar-al-gabinete-de-rodrigo-paz/",
-      "date": "2026-10-23T19:55:21Z"
+      "title": "Irma Villavicencio asume la presidencia del TDJ de Santa Cruz",
+      "desc": "La nueva titular reemplaza a Aldo Quezada, quien renunció al cargo y a su puesto de vocal de la Sala Constitucional Segunda el jueves 22 de octubre.\nThe post Irma Villavicencio asume la presidencia de…",
+      "link": "https://larazon.bo/nacional/2026/10/23/irma-villavicencio-asume-la-presidencia-del-tdj-de-santa-cruz/",
+      "date": "2026-10-23T23:55:23Z"
     },
     {
       "source": "La Razón",
-      "title": "Cerimedo participará en la audiencia de exhibición de su computadora ante la Fiscalía",
-      "desc": "La defensa legal confirma la presencia del investigado junto a la comisión de fiscales a cargo del caso\nThe post Cerimedo participará en la audiencia de exhibición de su computadora ante la Fiscalía a…",
-      "link": "https://larazon.bo/nacional/2026/10/23/cerimedo-participara-en-la-audiencia-de-exhibicion-de-su-computadora-ante-la-fiscalia/",
-      "date": "2026-10-23T19:40:49Z"
+      "title": "Todos Santos: las mascotas también serán recordadas en el ‘T’anta Guau Guau’",
+      "desc": "La tradición, enraizada en México, reza que las almas de los animalitos llegan el 27 de octubre y se quedan hasta la madrugada del 28.\nThe post Todos Santos: las mascotas también serán recordadas en e…",
+      "link": "https://larazon.bo/sociedad/2026/10/23/todos-santos-las-mascotas-tambien-seran-recordadas-en-el-tanta-guau-guau/",
+      "date": "2026-10-23T23:20:30Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Justicia de Ecuador dicta prisión preventiva contra excandidata",
+      "desc": "Se investiga el origen de unos 500.000 dólares usados ​​en publicidad electoral\nThe post Justicia de Ecuador dicta prisión preventiva contra excandidata appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/23/justicia-de-ecuador-dicta-prision-preventiva-contra-excandidata/",
+      "date": "2026-10-23T22:58:44Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Es capturado exjefe de Inteligencia que dirigió la captura de Marset",
+      "desc": "Mientras tanto, las denuncias sobre dinero y bienes presuntamente desaparecidos continúan pendientes de esclarecimiento.\nThe post Es capturado exjefe de Inteligencia que dirigió la captura de Marset a…",
+      "link": "https://larazon.bo/nacional/2026/10/23/es-capturado-exjefe-de-inteligencia-que-dirigio-la-captura-de-marset/",
+      "date": "2026-10-23T22:53:15Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El petróleo sube por temor del mercado a nuevos ataques",
+      "desc": "El barril de Brent del mar del Norte subió un 3,14%, hasta 116,72 dólares\nThe post El petróleo sube por temor del mercado a nuevos ataques appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/23/el-petroleo-sube-por-temor-del-mercado-a-nuevos-ataques/",
+      "date": "2026-10-23T22:52:57Z"
     },
     {
       "source": "El Deber",
-      "title": "Teatro: ‘Amor Fati’ aborda el primer amor",
-      "desc": "Esta obra de teatro, impulsada por Fundarbol Colectivo Artístico, se presentará del 24 al 31 de octubre en el Teatro Municipal de la Villa Primero de Mayo, con funciones a las 9:00, 11:00, 15:00 y 16:…",
-      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/amor-fati-aborda-primer-amor_1792783389",
-      "date": "2026-10-23T19:23:16Z"
+      "title": "Aprehenden a uno de los tres jefes policiales que dirigieron la captura de Marset",
+      "desc": "La Fiscalía emitió órdenes de aprehensión contra tres coroneles que participaron en el operativo de captura de Sebastián Marset el 13 de marzo en Santa Cruz. Uno de ellos, Juan Ferrufino, fue capturad…",
+      "link": "https://eldeber.com.bo/pais/aprehenden-ex-jefe-inteligencia-dirigio-captura-marset_1792795654",
+      "date": "2026-10-23T22:47:34Z"
     },
     {
-      "source": "La Razón",
-      "title": "Fiscalía designará abogado de oficio a Jhonny Fernández",
-      "desc": "El Ministerio Público solicitará la medida de 180 días de detención preventiva\nThe post Fiscalía designará abogado de oficio a Jhonny Fernández appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/23/fiscalia-designara-abogado-de-oficio-a-jhonny-fernandez/",
-      "date": "2026-10-23T19:15:21Z"
+      "source": "Google — BCB reservas",
+      "title": "BCB: RIN de Bolivia suben a $us 3.978 millones hasta el 16 de octubre - Red Uno",
+      "desc": "BCB: RIN de Bolivia suben a $us 3.978 millones hasta el 16 de octubre&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUUxFUndJUHJySEwzOUpEVUpNeFFQME5xX1lWSEhhN09EenlmSW95bWRxSmJ4SmNPVHNoMjIxYVlyejBFc3h3OEJWZ05xN3daeF9aZmZvejRrTFJ0Mzk3THdHUW5LdkxQYVdCcnRLbnVQU2QycDB6dDFCX29MRnZURlk3dkxkV3VSSzBDQWtMTGV2eEJUQmNhVG96ZnRTX2JrZlFMcEwzVk53SkxiMGZSZldDZHpWRWZK?oc=5",
+      "date": "2026-10-23T22:23:23Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Autoridades piden a la Fiscalía celeridad en la investigación por la retención de funcionarios en Guarayos",
+      "desc": "Mediante un comunicado difundido por las redes sociales de la Gobernación de Santa Cruz, la institución confirmaba la liberación de doce funcionarios de diversas entidades que habían sido retenidos en…",
+      "link": "https://eldeber.com.bo/santa-cruz/autoridades-piden-fiscalia-celeridad-investigacion-retencion-funcionarios-guarayos_1792793230",
+      "date": "2026-10-23T22:07:10Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Tras destitución de exfiscal vetado por EEUU, designan a Ruddy Parada como fiscal coordinador de la Unidad de Sustancias Controladas",
+      "desc": "Por disposición superior, el fiscal encara el reto de dirigir la unidad especializada antidroga de la Fiscalía de Santa Cruz luego de la desvinculación del exfiscal Julio César Porras",
+      "link": "https://eldeber.com.bo/santa-cruz/destitucion-exfiscal-vetado-eeuu-designan-ruddy-parada-fiscal-coordinador-unidad-sustancias-controladas_1792792941",
+      "date": "2026-10-23T22:02:21Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Fiscalía indaga si Róger Mariaca planeaba fugarse de Cantumarca con ayuda de policías",
+      "desc": "El Ministerio Público rastrea las llamadas que habría realizado el ex fiscal general desde su celda con teléfonos facilitados presuntamente por sus custodios y el asesor jurídico del penal. Cuatro pol…",
+      "link": "https://eldeber.com.bo/potosi/fiscalia-indaga-si-roger-mariaca-planeaba-fugarse-cantumarca-ayuda-policias_1792791129",
+      "date": "2026-10-23T21:32:09Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Trabajadora investigada por el atraco a joyería denuncia al exfiscal Balderas, que quedó con la visa restringida por EEUU",
+      "desc": "Formalizó su denuncia en el Ministerio Público, luego de conocer que el exfiscal que investigaba el atraco estaba incluido en la lista de ciudadanos bolivianos vetados por EEUU. Denunció presuntas irr…",
+      "link": "https://eldeber.com.bo/santa-cruz/trabajadora-investigada-atraco-joyeria-denuncia-exfiscal-balderas-quedo-visa-restringida-eeuu_1792789699",
+      "date": "2026-10-23T21:08:19Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Las reservas internacionales llegan a $us 3.978 millones, con el oro como principal componente - Abya Yala Tv",
+      "desc": "Las reservas internacionales llegan a $us 3.978 millones, con el oro como principal componente&nbsp;&nbsp;Abya Yala Tv",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS090VlFpOWZHUi1weTBYSnhCUzFXZ1l5WHB1bjZna2VhOTJmWmVzOEo0RUpIblpVLV9icVd1ampsUkZ3UXROLWhZMWJTZVRNemlyVVZiYUQ3ampDMEdEdTJJVGp1S1dpcEptT3EwdHRFRlZhUVF5cjUxVmlfTWdkWTBwZ1FBU0ZzSjlLS0pmYmgxdmVWc2xpLXRrVkFkSjVLZzROMzBWa0pMeDVhMDRnVnZpZDF2ekk?oc=5",
+      "date": "2026-10-23T20:49:14Z"
     },
     {
       "source": "Google — BCB reservas",
       "title": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas - unitel.bo",
       "desc": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas&nbsp;&nbsp;unitel.bo",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHlTWmxSQzI5ZW1zWmFDenNqOVY5X1BOd3lzRElYSnpaQ3NEcFZoSlk3bXAyb0NwYnRkMGlVS2hRbDJsdkVrMG11STc3TG8xQlhxTkdReUcteGZkVGtQZ19MTlR3MGx5WXpycDJxbHNNU2NjQnF4dElscTItYmFNLWhlalJVRUJQVHhFX3VJdnludFRLeTNCWjhSaURjZXpvWW5BNHBmNG5iRkVxMmgyNTFZelNtdlEwWEg1V1VKLXFpS04tbWJsNXhBR0Y3MkQyZnB5MTI1SkloQQ?oc=5",
-      "date": "2026-10-23T17:26:23Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Ronaldinho regresará al césped con el Ravenna el 15 de noviembre en la Serie C italiana",
-      "desc": "El astro brasileño Ronaldinho Gaúcho regresará al césped con el Ravenna el próximo 15 de noviembre, coincidiendo con el derbi regional contra el Forlì, correspondiente a la Serie C italiana, según anu…",
-      "link": "https://eldeber.com.bo/deportes/ronaldinho-regresara-cesped-ravenna-15-noviembre-serie-c-italiana_1792776069",
-      "date": "2026-10-23T17:21:09Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Poblaciones guarayas celebran simultáneamente el día de la tradición",
-      "desc": "Entradas típicas, música, danzas y gastronomía forman parte de las actividades culturales que reúnen a estudiantes, instituciones y comunidades de la provincia Guarayos",
-      "link": "https://eldeber.com.bo/santa-cruz/poblaciones-guarayas-celebran-simultaneamente-dia-tradicion_1792772860",
-      "date": "2026-10-23T16:27:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Alberto Vaca a Jhonny Fernández: “Si es inocente, que se presente a la Justicia y lo demuestre”",
-      "desc": "El director municipal instó al exalcalde a que demuestre su inocencia en el proceso por presunta malversación de Bs 191 millones. La audiencia de medidas cautelares fue reprogramada para el 9 de novie…",
-      "link": "https://eldeber.com.bo/santa-cruz/alberto-vaca-jhonny-fernandez-si-inocente-presente-justicia-demuestre_1792772192",
-      "date": "2026-10-23T16:16:32Z"
+      "date": "2026-10-23T17:23:18Z"
     },
     {
       "source": "Google — BCB reservas",
       "title": "Reservas Internacionales alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB - El Potosí",
       "desc": "Reservas Internacionales alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB&nbsp;&nbsp;El Potosí",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWFVUSjZ3OEM1OUdidExxSWRRN1FCVWdQWFZRZGlQdHZfdkZtLXNUaTQ2em5GQ2RfVVh2ZzNKSkdFY0pqMTJBb0V0QXcwckRhbVFoWWEyd0JfeTBYM1h2QjBHdjZMd2dGNUNLNWlmUUdTSjlBUm53ZXg4T2t4SE8yRGFCQ0pBaEVPajJ4dHBBV19WU1ZIYzVFNEF1VDhHR3Z4Y1VwRFgyVWRld1V3Sk9ZSnhreFZMQlNzaDZjckhycUtpelBMVlhDVVpKNFh3Uy1oRFE?oc=5",
-      "date": "2026-10-23T16:02:30Z"
+      "date": "2026-10-23T16:04:24Z"
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "Dólar Binance hoy en Bolivia: 12.05 bolivianos - Criptotendencias",
-      "desc": "Dólar Binance hoy en Bolivia: 12.05 bolivianos&nbsp;&nbsp;Criptotendencias",
+      "title": "Dólar Binance en Bolivia supera los 12 bolivianos: cotiza a 12.05 - Criptotendencias",
+      "desc": "Dólar Binance en Bolivia supera los 12 bolivianos: cotiza a 12.05&nbsp;&nbsp;Criptotendencias",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NSFdRczhjWlhrUkt4U0hzSzQtaWs4OWRGNi1fU2JWUFNCMlpFSDdScWluc254SVNUQVp0eHJHYjdPRGRLWGZLQmh2b2N2Qmhtc19hbFdYb1lkV05nWHJZQUpTR1R4YVg4NzZib2FPY3F3MFRTcHc?oc=5",
       "date": "2026-10-23T15:16:11Z"
     },
@@ -196,6 +231,13 @@
       "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
       "date": "2026-10-22T01:17:23Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
+      "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
+      "date": "2026-10-20T20:16:41Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -238,54 +280,12 @@
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T18:43:06Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
-      "date": "2026-10-09T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
-      "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
-      "date": "2026-10-08T07:00:00Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas líquidas del BCB crecen a más de $us 1.000 millones tras el desembolso del FMI - eju.tv",
-      "desc": "Reservas líquidas del BCB crecen a más de $us 1.000 millones tras el desembolso del FMI&nbsp;&nbsp;eju.tv",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUnN0YVNYVERRc2VtUWQ4dTFsR1ZDYThKaUYyZXJuc2Jodm1wVXJyalBOWkh1emdva1R0ZlBhaUpycERxdVA4bG5sS0gtb3ptMU5LdFdfQVlxbDhRT0kySXhBU0RwWG5CT210NlY0M2wwdGNVTWNvRE41S1BfUmwzRjlHY3I3TW5IZnJPblpUdUVqcDdUNnB5WHhMaHY5ZXZjbnRQM093R2VtWXlTT3JZ?oc=5",
-      "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
-      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
-      "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
-      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
-      "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Gobierno y alcaldías de ciudades capitales acuerdan trabajo conjunto para sanear las finanzas municipales - ABI - Agencia Boliviana de Información",
-      "desc": "Gobierno y alcaldías de ciudades capitales acuerdan trabajo conjunto para sanear las finanzas municipales&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeVZhcncyR3lEWHVPTFdDellXanhENTdvZzFDOVV2UzBNSThhVFVIRVd0YUhmdHAwd3dfVi1BZE1qRGZFLWswTHlUVkVZdDVuU05HY3dxSndFMEJQc3NkOVNXTUtVTlMzcEpWTmkwZ1dxUkRMSjN4TzQwQjZjTWFlSHNGZ293WEJoSnphYzA0OE9jRzdfYzBNM2dxbkUyYVVkOVZHVTJsZlkzSnROX1pvck1SOVpDU0pnXzVvRTZR?oc=5",
-      "date": "2026-09-08T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.98,
     "sellTomorrow": 12.02,
-    "changeBuy": 0.02,
+    "changeBuy": 0.01,
     "changeSell": 0.01,
     "trend": "alza",
     "confidence": "alta",
@@ -4254,7 +4254,7 @@
     },
     {
       "date": "2026-10-23",
-      "buy": 11.96,
+      "buy": 11.97,
       "sell": 12.01
     }
   ]
