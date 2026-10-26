@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T17:55:15Z",
+  "lastUpdated": "2026-10-26T22:06:21Z",
   "displayDate": "lunes 26 de octubre, 2026",
   "binance": {
     "buy": 12.02,
@@ -9,13 +9,13 @@
   },
   "eldorado": {
     "buy": 12.08,
-    "sell": 11.99,
+    "sell": 12.0,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.29,
-    "sell": 11.9,
+    "sell": 11.91,
     "available": true,
     "source": "api_dbb_takenos"
   },
@@ -32,13 +32,13 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.03,
-    "sell": 12.01,
+    "buy": 12.04,
+    "sell": 12.04,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.14,
+    "buy": 12.08,
     "sell": 11.81,
     "available": true,
     "source": "api_dbb_saldoar"
@@ -51,7 +51,7 @@
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-26T17:55:07Z"
+    "fetchedAt": "2026-10-26T22:06:13Z"
   },
   "banks": [
     {
@@ -107,39 +107,67 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Morales acusa al Gobierno de buscar la privatización educativa con la descentralización de institutos",
-      "desc": "El expresidente denuncia que el traspaso responde a recetas de ajuste del FMI y afecta a sectores campesinos y de bajos ingresos\nThe post Morales acusa al Gobierno de buscar la privatización educativa…",
-      "link": "https://larazon.bo/nacional/2026/10/26/morales-acusa-al-gobierno-de-buscar-la-privatizacion-educativa-con-la-descentralizacion-de-institutos/",
-      "date": "2026-10-26T17:41:30Z"
+      "source": "El Deber",
+      "title": "Vaca pide a Jhonny Fernández que \"empiece a explicarle a Santa Cruz qué pasó con esos 191 millones de bolivianos\"",
+      "desc": "La jueza modificó la fecha de la audiencia y la adelantó para este martes. La defensa de Fernández no pudo demostrar los problemas de salud que alegó su abogado",
+      "link": "https://eldeber.com.bo/santa-cruz/vaca-pide-jhonny-fernandez-empiece-explicarle-santa-cruz-paso-esos-191-millones-bolivianos_1793051584",
+      "date": "2026-10-26T21:53:04Z"
     },
     {
       "source": "La Razón",
-      "title": "Gobernación de Cochabamba fija cumbre de seguridad para el 5 y 6 de noviembre",
-      "desc": "El encuentro, anunciado en medio de crecientes demandas sectoriales por la ola de violencia y bloqueos en la región.\nThe post Gobernación de Cochabamba fija cumbre de seguridad para el 5 y 6 de noviem…",
-      "link": "https://larazon.bo/ciudades/2026/10/26/gobernacion-de-cochabamba-fija-cumbre-de-seguridad-para-el-5-y-6-de-noviembre/",
-      "date": "2026-10-26T17:38:51Z"
+      "title": "El INE pone en marcha la segunda etapa del Censo Agropecuario 2026",
+      "desc": "Esta segunda etapa en tarija, Chuquisaca, Oruro y Pando da continuidad al operativo que comenzó en Santa Cruz y Beni\nThe post El INE pone en marcha la segunda etapa del Censo Agropecuario 2026 appeare…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/26/el-ine-pone-en-marcha-la-segunda-etapa-del-censo-agropecuario-2026/",
+      "date": "2026-10-26T21:39:14Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "La justicia amplía por 40 días la detención de Luis Marcelo Arce en Palmasola",
+      "desc": "El imputado, por legitimación de ganancias ilícitas, alegó inocencia, pero el juez Primo Flores aceptó el pedido fiscal ante riesgos procesales\nThe post La justicia amplía por 40 días la detención de …",
+      "link": "https://larazon.bo/nacional/2026/10/26/la-justicia-amplia-por-40-dias-la-detencion-de-luis-marcelo-arce-en-palmasola/",
+      "date": "2026-10-26T21:27:18Z"
     },
     {
       "source": "El Deber",
-      "title": "El Vaticano confirma el viaje del Papa a Uruguay, Argentina y Perú tras su operación",
-      "desc": "El viaje será del 6 al 17 de noviembre, tras haber sido operado de un cáncer de pulmón y de que se le extirpara el lóbulo inferior de su pulmón derecho.",
-      "link": "https://eldeber.com.bo/mundo/vaticano-confirma-viaje-papa-uruguay-argentina-peru-operacion_1793034256",
-      "date": "2026-10-26T17:05:08Z"
+      "title": "Lamine Yamal se hace con su tercer trofeo Kopa",
+      "desc": "El español Lamine Yamal, jugador del Barcelona, se alzó por tercer año consecutivo con el trofeo Kopa, que reconoce al mejor jugador menor de 21 años de la temporada.",
+      "link": "https://eldeber.com.bo/deportes/lamine-yamal-hace-tercer-trofeo-kopa_1793049526",
+      "date": "2026-10-26T21:18:46Z"
     },
     {
       "source": "La Razón",
-      "title": "Alcaraz liderará a España en la final a 8 de Copa Davis",
-      "desc": "España se medirá a Austria el 26 de noviembre en cuartos de final buscando una plaza en semifinales y jugará ante el ganador de Italia y Corea del Sur\nThe post Alcaraz liderará a España en la final a …",
-      "link": "https://larazon.bo/marcas/2026/10/26/alcaraz-liderara-a-espana-en-la-final-a-8-de-copa-davis/",
-      "date": "2026-10-26T17:00:47Z"
+      "title": "Triunfo de Lula genera turbulencia en los mercados",
+      "desc": "Temen que el mandatario gobierne sin disciplina fiscal en su cuarto mandato.\nThe post Triunfo de Lula genera turbulencia en los mercados appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/26/triunfo-de-lula-genera-turbulencia-en-los-mercados/",
+      "date": "2026-10-26T21:15:38Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El petróleo retrocede, por diálogo en Oriente Medio",
+      "desc": "El precio del barril de Brent del mar del Norte perdió un 0,78% hasta 115,81 dólares\nThe post El petróleo retrocede, por diálogo en Oriente Medio appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/26/el-petroleo-retrocede-por-dialogo-en-oriente-medio/",
+      "date": "2026-10-26T21:09:25Z"
     },
     {
       "source": "El Deber",
-      "title": "Hallan otros dos cadáveres en Huanuni, suman tres los ‘jukus’ muertos en una mina",
-      "desc": "Se presume que estas personas murieron por la inhalación de gases tóxicos",
-      "link": "https://eldeber.com.bo/oruro/hallan-otros-dos-cadaveres-huanuni-suman-tres-jukus-muertos-mina_1793034043",
-      "date": "2026-10-26T17:00:43Z"
+      "title": "La organización de ‘Junior Trindade’ era “más grande que la de Sebastián Marset”, según el Gobierno",
+      "desc": "La estructura criminal, vinculada al sicariato y al tráfico internacional de drogas, operaba en Santa Cruz y tenía nexos con el Primer Comando Capital de Brasil. El cabecilla resultó gravemente herido…",
+      "link": "https://eldeber.com.bo/santa-cruz/organizacion-junior-trindade-era-grande-sebastian-marset-gobierno_1793047440",
+      "date": "2026-10-26T20:44:00Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La FBF aprueba un estatuto que permite hasta tres mandatos consecutivos",
+      "desc": "El Congreso Ordinario de la FBF, realizado este lunes en La Paz, dio luz verde a la modificación que habilita una segunda reelección para los integrantes del Comité Ejecutivo. Fernando Costa afirmó qu…",
+      "link": "https://eldeber.com.bo/deportes/fbf-aprueba-estatuto-permite-tres-mandatos-consecutivos_1793046354",
+      "date": "2026-10-26T20:25:54Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El \"ejército digital\" de 10 millones de personas en WhatsApp que ayudó a Lula a lograr una victoria histórica",
+      "desc": "Durante años, los conservadores alineados con el expresidente Jair Bolsonaro fueron considerados como los principales impulsores de la movilización política online, especialmente en plataformas como W…",
+      "link": "https://eldeber.com.bo/bbc/el-ejercito-digital-de-10-millones-de-personas-en-whatsapp-que-ayudo-a-lula-a-lograr-una-victoria-historica-20261026151136",
+      "date": "2026-10-26T18:11:36Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -147,34 +175,6 @@
       "desc": "Dólar paralelo en Bolivia registra nuevas variaciones este martes: estos son los precios de compra y venta&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUmllRUh3cnhPWlV6a1NvLVZHVUp3dTl6ZU8tZFp6YVI0ZEF5ZFhEZUtmVkQwZnZMMmI3SmJxYTdfbXVITmtFUW9XUzVWSVVCNjBTR25EbW9CZGl2T1pnXy1nT1ZfVXItb0s1ckdFRlJCYnlQMFVGRmxaWUpXV3pjVDAxZ0lLSTZ0SjdmQW9CaEpFV1VINks4aUxiSG12M19OOFZhbEtRVUx0eUZWdjFxVEJsaVI0ZDZhR0RCcjhGQTh6Y3Atc01UdDEySGJHY2FKbERWZWVCOW1NV1I2UkkzaXVCdVh1UmNBd2RR?oc=5",
       "date": "2026-10-26T16:59:14Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "TSJ pide los domicilios de Morales y García Linera a la Fiscalía antes de abrir investigación",
-      "desc": "El magistrado Carlos Ortega desmiente el rechazo de la proposición acusatoria y aclara que el trámite espera los datos para las notificaciones\nThe post TSJ pide los domicilios de Morales y García Line…",
-      "link": "https://larazon.bo/nacional/2026/10/26/tsj-pide-los-domicilios-de-morales-y-garcia-linera-a-la-fiscalia-antes-de-abrir-investigacion/",
-      "date": "2026-10-26T16:55:59Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "El Vaticano confirma el viaje del Papa a Sudamérica en noviembre",
-      "desc": "León XIV a visitará Uruguay, Argentina y Perú, del 6 al 17 de noviembre\nThe post El Vaticano confirma el viaje del Papa a Sudamérica en noviembre appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/26/el-vaticano-confirma-el-viaje-del-papa-a-sudamerica-en-noviembre/",
-      "date": "2026-10-26T16:53:51Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿Un asalto terminó en hecho de sangre? Investigan la muerte de un médico y una persona herida en Trinidad",
-      "desc": "El médico fue encontrado sin vida en su domicilio, en el barrio San Antonio. Una segunda persona resultó herida y la Fiscalía investiga las circunstancias del hecho. Los medios locales apuntan a que \"…",
-      "link": "https://eldeber.com.bo/beni/asalto-termino-hecho-sangre-investigan-muerte-medico-persona-herida-trinidad_1793031686",
-      "date": "2026-10-26T16:21:26Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Esther Ortiz, de Campos de Solana, y Principia, de Granier Ortiz, se lucen entre los 60 mejores vinos de Sudamérica en ProWine São Paulo 2026",
-      "desc": "Ambas etiquetas fueron seleccionadas por la reconocida Guía Descorchados para integrar su wine bar durante una de las ferias profesionales más importantes de la industria vitivinícola de las Américas,…",
-      "link": "https://eldeber.com.bo/te-puede-interesar/esther-ortiz-campos-solana-principia-granier-ortiz-lucen-60-mejores-vinos-sudamerica-prowine-sao-paulo-2026_1793030296",
-      "date": "2026-10-26T15:58:16Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -254,18 +254,18 @@
       "date": "2026-10-08T07:00:00Z"
     },
     {
-      "source": "Google — INE inflación",
-      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
-      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
-      "date": "2026-10-07T07:00:00Z"
-    },
-    {
       "source": "Google — FMI Bolivia",
       "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
       "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
       "date": "2026-10-07T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
+      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
+      "date": "2026-10-06T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -275,10 +275,10 @@
       "date": "2026-10-05T07:00:00Z"
     },
     {
-      "source": "Google — INE inflación",
-      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
-      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
+      "source": "Google — FMI Bolivia",
+      "title": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles - Opinión Bolivia",
+      "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
       "date": "2026-10-05T07:00:00Z"
     }
   ],
