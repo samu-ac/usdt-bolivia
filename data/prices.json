@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-24T03:32:35Z",
-  "displayDate": "viernes 23 de octubre, 2026",
+  "lastUpdated": "2026-10-26T17:55:15Z",
+  "displayDate": "lunes 26 de octubre, 2026",
   "binance": {
-    "buy": 11.95,
-    "sell": 12.01,
+    "buy": 12.02,
+    "sell": 12.06,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.01,
-    "sell": 11.93,
+    "buy": 12.08,
+    "sell": 11.99,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.24,
-    "sell": 11.84,
+    "buy": 12.29,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.16,
-    "sell": 11.81,
+    "buy": 12.22,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,149 +32,170 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.99,
-    "sell": 11.98,
+    "buy": 12.03,
+    "sell": 12.01,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.06,
-    "sell": 11.76,
+    "buy": 12.14,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.84,
-    "officialSell": 11.84,
-    "referentialBuy": 11.95,
-    "referentialSell": 12.01,
+    "officialBuy": 11.88,
+    "officialSell": 11.88,
+    "referentialBuy": 12.02,
+    "referentialSell": 12.06,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-24T03:32:27Z"
+    "fetchedAt": "2026-10-26T17:55:07Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.54,
-      "sell": 12.14
+      "buy": 11.58,
+      "sell": 12.18
     },
     {
       "name": "BCP",
-      "buy": 11.34,
-      "sell": 12.14
+      "buy": 11.38,
+      "sell": 12.18
     },
     {
       "name": "BNB",
-      "buy": 11.34,
-      "sell": 12.14
+      "buy": 11.38,
+      "sell": 12.18
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.14,
-      "sell": 12.05
+      "buy": 11.18,
+      "sell": 12.1
     },
     {
       "name": "Banco FIE",
-      "buy": 10.94,
-      "sell": 11.94
+      "buy": 10.98,
+      "sell": 11.98
     },
     {
       "name": "Banco Económico",
-      "buy": 10.84,
-      "sell": 12.19
+      "buy": 10.88,
+      "sell": 12.23
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.74,
-      "sell": 12.14
+      "buy": 10.78,
+      "sell": 12.18
     },
     {
       "name": "BancoSol",
-      "buy": 10.66,
-      "sell": 12.14
+      "buy": 10.69,
+      "sell": 12.18
     },
     {
       "name": "Banco Unión",
-      "buy": 10.34,
-      "sell": 12.14
+      "buy": 10.38,
+      "sell": 12.18
     },
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.14
+      "sell": 12.18
     }
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Investigan al ex fiscal de Cochabamba Osvaldo Tejerina por presunta corrupción",
-      "desc": "La Fiscalía de Cochabamba abrió una investigación penal contra el ex fiscal departamental por los presuntos delitos de concusión y cohecho pasivo. Además, se anunciaron procesos disciplinarios por pos…",
-      "link": "https://eldeber.com.bo/cochabamba/investigan-ex-fiscal-cochabamba-osvaldo-tejerina-presunta-corrupcion_1792809047",
-      "date": "2026-10-24T02:30:47Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Caso Marset: Fiscalía reabre investigación contra policías tras la aprehensión del coronel Ferrufino",
-      "desc": "El fiscal Jimmy López confirmó que nuevas evidencias motivaron la reapertura de una denuncia que había sido rechazada. El caso está relacionado con presuntas irregularidades en el operativo de captura…",
-      "link": "https://eldeber.com.bo/pais/caso-marset-fiscalia-reabre-investigacion-policias-aprehension-coronel-ferrufino_1792807864",
-      "date": "2026-10-24T02:11:04Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Caso Hotel Las Américas: citan a Jhonny Aguilera, Raúl García Linera y otras exautoridades",
-      "desc": "El denunciante Juan Carlos Guedes confirmó a EL DEBER que la Fiscalía comenzará a convocar a testigos dentro de la investigación por presuntas vejaciones y torturas. Entre los citados están el ex jefe…",
-      "link": "https://eldeber.com.bo/pais/caso-hotel-americas-citan-jhonny-aguilera-raul-garcia-linera-otras-exautoridades_1792805534",
-      "date": "2026-10-24T01:32:14Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Revelan a quiénes llamó Mariaca y solicitan informes a telefónicas bolivianas",
-      "desc": "La Fiscalía solicitó informes a las empresas telefónicas Entel, Tigo y Viva para identificar los números contactados y establecer el alcance de las comunicaciones",
-      "link": "https://eldeber.com.bo/potosi/revelan-quienes-llamo-mariaca-solicitan-informes-telefonicas-bolivianas_1792804017",
-      "date": "2026-10-24T01:06:57Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Cambian a todos los custodios de Mariaca y lo mantendrán aislado",
-      "desc": "El comandante departamental de Potosí, coronel Franklin Villazón, confirmó que el ex fiscal general permanecerá en una celda de observación. Los nuevos guardias rotarán diariamente para evitar vínculo…",
-      "link": "https://eldeber.com.bo/potosi/cambian-todos-custodios-mariaca-mantendran-aislado_1792801044",
-      "date": "2026-10-24T00:17:24Z"
+      "source": "La Razón",
+      "title": "Morales acusa al Gobierno de buscar la privatización educativa con la descentralización de institutos",
+      "desc": "El expresidente denuncia que el traspaso responde a recetas de ajuste del FMI y afecta a sectores campesinos y de bajos ingresos\nThe post Morales acusa al Gobierno de buscar la privatización educativa…",
+      "link": "https://larazon.bo/nacional/2026/10/26/morales-acusa-al-gobierno-de-buscar-la-privatizacion-educativa-con-la-descentralizacion-de-institutos/",
+      "date": "2026-10-26T17:41:30Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía investiga al exfiscal Osvaldo Tejerina por presunta corrupción",
-      "desc": "Una eventual desvinculación definitiva de la carrera fiscal dependerá de los resultados de un proceso disciplinario.\nThe post Fiscalía investiga al exfiscal Osvaldo Tejerina por presunta corrupción ap…",
-      "link": "https://larazon.bo/nacional/2026/10/23/fiscalia-investiga-al-exfiscal-osvaldo-tejerina-por-presunta-corrupcion/",
-      "date": "2026-10-24T00:15:05Z"
+      "title": "Gobernación de Cochabamba fija cumbre de seguridad para el 5 y 6 de noviembre",
+      "desc": "El encuentro, anunciado en medio de crecientes demandas sectoriales por la ola de violencia y bloqueos en la región.\nThe post Gobernación de Cochabamba fija cumbre de seguridad para el 5 y 6 de noviem…",
+      "link": "https://larazon.bo/ciudades/2026/10/26/gobernacion-de-cochabamba-fija-cumbre-de-seguridad-para-el-5-y-6-de-noviembre/",
+      "date": "2026-10-26T17:38:51Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El Vaticano confirma el viaje del Papa a Uruguay, Argentina y Perú tras su operación",
+      "desc": "El viaje será del 6 al 17 de noviembre, tras haber sido operado de un cáncer de pulmón y de que se le extirpara el lóbulo inferior de su pulmón derecho.",
+      "link": "https://eldeber.com.bo/mundo/vaticano-confirma-viaje-papa-uruguay-argentina-peru-operacion_1793034256",
+      "date": "2026-10-26T17:05:08Z"
     },
     {
       "source": "La Razón",
-      "title": "Irma Villavicencio asume la presidencia del TDJ de Santa Cruz",
-      "desc": "La nueva titular reemplaza a Aldo Quezada, quien renunció al cargo y a su puesto de vocal de la Sala Constitucional Segunda el jueves 22 de octubre.\nThe post Irma Villavicencio asume la presidencia de…",
-      "link": "https://larazon.bo/nacional/2026/10/23/irma-villavicencio-asume-la-presidencia-del-tdj-de-santa-cruz/",
-      "date": "2026-10-23T23:55:23Z"
+      "title": "Alcaraz liderará a España en la final a 8 de Copa Davis",
+      "desc": "España se medirá a Austria el 26 de noviembre en cuartos de final buscando una plaza en semifinales y jugará ante el ganador de Italia y Corea del Sur\nThe post Alcaraz liderará a España en la final a …",
+      "link": "https://larazon.bo/marcas/2026/10/26/alcaraz-liderara-a-espana-en-la-final-a-8-de-copa-davis/",
+      "date": "2026-10-26T17:00:47Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Hallan otros dos cadáveres en Huanuni, suman tres los ‘jukus’ muertos en una mina",
+      "desc": "Se presume que estas personas murieron por la inhalación de gases tóxicos",
+      "link": "https://eldeber.com.bo/oruro/hallan-otros-dos-cadaveres-huanuni-suman-tres-jukus-muertos-mina_1793034043",
+      "date": "2026-10-26T17:00:43Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar paralelo en Bolivia registra nuevas variaciones este martes: estos son los precios de compra y venta - Red Uno",
+      "desc": "Dólar paralelo en Bolivia registra nuevas variaciones este martes: estos son los precios de compra y venta&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUmllRUh3cnhPWlV6a1NvLVZHVUp3dTl6ZU8tZFp6YVI0ZEF5ZFhEZUtmVkQwZnZMMmI3SmJxYTdfbXVITmtFUW9XUzVWSVVCNjBTR25EbW9CZGl2T1pnXy1nT1ZfVXItb0s1ckdFRlJCYnlQMFVGRmxaWUpXV3pjVDAxZ0lLSTZ0SjdmQW9CaEpFV1VINks4aUxiSG12M19OOFZhbEtRVUx0eUZWdjFxVEJsaVI0ZDZhR0RCcjhGQTh6Y3Atc01UdDEySGJHY2FKbERWZWVCOW1NV1I2UkkzaXVCdVh1UmNBd2RR?oc=5",
+      "date": "2026-10-26T16:59:14Z"
     },
     {
       "source": "La Razón",
-      "title": "Todos Santos: las mascotas también serán recordadas en el ‘T’anta Guau Guau’",
-      "desc": "La tradición, enraizada en México, reza que las almas de los animalitos llegan el 27 de octubre y se quedan hasta la madrugada del 28.\nThe post Todos Santos: las mascotas también serán recordadas en e…",
-      "link": "https://larazon.bo/sociedad/2026/10/23/todos-santos-las-mascotas-tambien-seran-recordadas-en-el-tanta-guau-guau/",
-      "date": "2026-10-23T23:20:30Z"
+      "title": "TSJ pide los domicilios de Morales y García Linera a la Fiscalía antes de abrir investigación",
+      "desc": "El magistrado Carlos Ortega desmiente el rechazo de la proposición acusatoria y aclara que el trámite espera los datos para las notificaciones\nThe post TSJ pide los domicilios de Morales y García Line…",
+      "link": "https://larazon.bo/nacional/2026/10/26/tsj-pide-los-domicilios-de-morales-y-garcia-linera-a-la-fiscalia-antes-de-abrir-investigacion/",
+      "date": "2026-10-26T16:55:59Z"
     },
     {
       "source": "La Razón",
-      "title": "Justicia de Ecuador dicta prisión preventiva contra excandidata",
-      "desc": "Se investiga el origen de unos 500.000 dólares usados ​​en publicidad electoral\nThe post Justicia de Ecuador dicta prisión preventiva contra excandidata appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/23/justicia-de-ecuador-dicta-prision-preventiva-contra-excandidata/",
-      "date": "2026-10-23T22:58:44Z"
+      "title": "El Vaticano confirma el viaje del Papa a Sudamérica en noviembre",
+      "desc": "León XIV a visitará Uruguay, Argentina y Perú, del 6 al 17 de noviembre\nThe post El Vaticano confirma el viaje del Papa a Sudamérica en noviembre appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/26/el-vaticano-confirma-el-viaje-del-papa-a-sudamerica-en-noviembre/",
+      "date": "2026-10-26T16:53:51Z"
     },
     {
-      "source": "La Razón",
-      "title": "Es capturado exjefe de Inteligencia que dirigió la captura de Marset",
-      "desc": "Mientras tanto, las denuncias sobre dinero y bienes presuntamente desaparecidos continúan pendientes de esclarecimiento.\nThe post Es capturado exjefe de Inteligencia que dirigió la captura de Marset a…",
-      "link": "https://larazon.bo/nacional/2026/10/23/es-capturado-exjefe-de-inteligencia-que-dirigio-la-captura-de-marset/",
-      "date": "2026-10-23T22:53:15Z"
+      "source": "El Deber",
+      "title": "¿Un asalto terminó en hecho de sangre? Investigan la muerte de un médico y una persona herida en Trinidad",
+      "desc": "El médico fue encontrado sin vida en su domicilio, en el barrio San Antonio. Una segunda persona resultó herida y la Fiscalía investiga las circunstancias del hecho. Los medios locales apuntan a que \"…",
+      "link": "https://eldeber.com.bo/beni/asalto-termino-hecho-sangre-investigan-muerte-medico-persona-herida-trinidad_1793031686",
+      "date": "2026-10-26T16:21:26Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Esther Ortiz, de Campos de Solana, y Principia, de Granier Ortiz, se lucen entre los 60 mejores vinos de Sudamérica en ProWine São Paulo 2026",
+      "desc": "Ambas etiquetas fueron seleccionadas por la reconocida Guía Descorchados para integrar su wine bar durante una de las ferias profesionales más importantes de la industria vitivinícola de las Américas,…",
+      "link": "https://eldeber.com.bo/te-puede-interesar/esther-ortiz-campos-solana-principia-granier-ortiz-lucen-60-mejores-vinos-sudamerica-prowine-sao-paulo-2026_1793030296",
+      "date": "2026-10-26T15:58:16Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares - La Patria Bolivia",
+      "desc": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSEFQTER6ZzMweS1pQWpIOEJ4bzFOaHgyakdEMjVNc1B3d3hCcGJGTG5TdnJDOXhHSUJyR3czWG5ib2pZVDVGcHVxLVJVTmNvSS0wY0l0RERiVi03enRMSzlmazMwOFZRNDl4WDNtNS1GYjcxWUlMZlVMcERsRTNJYWIyREVUb2dXQUdtQjNCenlsNkFYUFhjajRmRGtFXzF1QV9F?oc=5",
+      "date": "2026-10-25T22:37:39Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
+      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
+      "date": "2026-10-25T13:11:07Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "El BCB informa que las RIN llegaron a $us 3.978 millones - EL DÍA - Noticias de Bolivia para el mundo",
+      "desc": "El BCB informa que las RIN llegaron a $us 3.978 millones&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhsY3pTbmRVQVVQZFl2ZXhFS0VMSk5RelNlQmFCLUlKVWxvOEh1aVE1SUNUWmNmQmQ0SWhXbmwxSWxVNEtLNEJKT25FcERuQURPcXliZU5pNXptYlhqVXYySndNWVJ6N2h6UkVqVUZkZFZhMWFXM1lmTFpCaU9vRW9VUUlWVTJZalRLa3JmU0RsMTRCWTZGVVFnXzZ4VlRUR1E0?oc=5",
+      "date": "2026-10-24T04:20:03Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -188,7 +209,7 @@
       "title": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas - unitel.bo",
       "desc": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas&nbsp;&nbsp;unitel.bo",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHlTWmxSQzI5ZW1zWmFDenNqOVY5X1BOd3lzRElYSnpaQ3NEcFZoSlk3bXAyb0NwYnRkMGlVS2hRbDJsdkVrMG11STc3TG8xQlhxTkdReUcteGZkVGtQZ19MTlR3MGx5WXpycDJxbHNNU2NjQnF4dElscTItYmFNLWhlalJVRUJQVHhFX3VJdnludFRLeTNCWjhSaURjZXpvWW5BNHBmNG5iRkVxMmgyNTFZelNtdlEwWEg1V1VKLXFpS04tbWJsNXhBR0Y3MkQyZnB5MTI1SkloQQ?oc=5",
-      "date": "2026-10-23T17:19:23Z"
+      "date": "2026-10-23T17:22:29Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -199,38 +220,17 @@
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "Dólar Binance en Bolivia supera los 12 bolivianos: cotiza a 12.05 - Criptotendencias",
-      "desc": "Dólar Binance en Bolivia supera los 12 bolivianos: cotiza a 12.05&nbsp;&nbsp;Criptotendencias",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NSFdRczhjWlhrUkt4U0hzSzQtaWs4OWRGNi1fU2JWUFNCMlpFSDdScWluc254SVNUQVp0eHJHYjdPRGRLWGZLQmh2b2N2Qmhtc19hbFdYb1lkV05nWHJZQUpTR1R4YVg4NzZib2FPY3F3MFRTcHc?oc=5",
-      "date": "2026-10-23T15:16:11Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "¿Qué pasa con el dólar? El tipo de cambio oficial registra una nueva variación - Red Uno",
-      "desc": "¿Qué pasa con el dólar? El tipo de cambio oficial registra una nueva variación&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjhDblJMRGdDQXdhQlppQVBySUwybzZlUFpkLVZfZ0xISGV6RkFPSl8wMDBWaktIT1RqSGx2a2FXbWpxV2VseFpnYUZCTUw2ZXE0TkhkaGhwbjc2Zmlvd0hxSVVNeGNFTjNFSTFTQUp6QW5jbTl6WG9oaXlxNTI4a3l2cmhCNF9Nd2p1aDJrVGJ2NFVJTjJGZVdvdzBSZ3NZSUl5YklUNWstUTEyUW02NTgzMXpkX3hIR0NNbkU2Vmk4M0E?oc=5",
-      "date": "2026-10-23T11:02:53Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: cotización de cierre del 22 de octubre - Infobae",
-      "desc": "Dólar hoy en Bolivia: cotización de cierre del 22 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzFFeVlfd2t6b0ZWM2ZYTFlaNzN2SWp2U21pSFZrU05tSl8yT3pyYk55WmxQNDJKanNQTzR5WVM3V2NzY2JwSFhsd3I4SGk3T3RrVmFTSXMzVVdxMGJyOEJNbUNTLWtpWTJoLUM5alpKSlotQXg2MmtJZmF4TEROakljbVU5ODFVRGdWX29hTTF6VHFXTGliN0U5TUJndlJDUklNZUt0ONIBwgFBVV95cUxOdTB5emV1bnVrUzdZVTF5b1pIME9YVTNGcGpZeWtQNjFHSnNKZHZCS1BuWUVJUDlzaTFZcVctN0xGMmg2X2dRUmx3cW1ybUNpRW9qOXVPTzZfWnctOVAzd25oMDJ6V2lqb3ZVazRxZUpXV0pnX3RvVzY2Z0NKNEo0cVJVNUNPa0REa2tDV1BPLTdXUXAwOTV1UFAyVldJVWE3bzN6SGNtUnVjTjNxSzd2Y0pJV3ZqOU1vb3VkcXFvSTB1dw?oc=5",
-      "date": "2026-10-22T19:41:51Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
-      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
-      "date": "2026-10-22T01:17:23Z"
+      "title": "Dólar hoy en Bolivia: cotización de apertura del 22 de octubre - Infobae",
+      "desc": "Dólar hoy en Bolivia: cotización de apertura del 22 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmNlcEZ4QkFuaUpSRllZU2tPb1pQd3RfbC1fUURveU91V1lfWTVDVDRtUkkzaXNtOHhobGdrc09nREt6WVd1OS1URTBGOC1RSUp0Y3JwZGpwTVlheGVVT2dqdk84MlNNVEhpZmw4RS01VGdobnhMYWhYbUJYU3NmZnJBQkZKQmtVbTBjYXZ2OG9fM2stdTAzNlhOaUxCTjJaMzdpdnNCRlRud9IBxAFBVV95cUxNakZXNlVyamVDajYwTkZTTXZmY2Nrekd4YS1wckNWMmpkaEVQYnJVREZBRzl6MG81dHozMDd2LXJXempKV2dPTDhaQkZlbFZFb0VRYUFjWWJidm8tWnVNcnpvMmtUM2NrNzJ5VGZjOGV3UGxNVUNWSl8tekpyUm9Qc1NGeGpOSjgzbGZjeHctY3RoS0dVNG9CSUxPSmRoZHFheFo3cUozdzE3WDFfZWRVMGRJSlk0b3ctX1dlbVRxV09CR3Zj?oc=5",
+      "date": "2026-10-22T12:36:45Z"
     },
     {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
-      "date": "2026-10-17T13:09:20Z"
+      "date": "2026-10-17T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -247,27 +247,6 @@
       "date": "2026-10-13T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
-      "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
-      "date": "2026-10-09T18:43:06Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales - La Razón Digital Bolivia",
-      "desc": "Reservas de oro llegan a 25,3 toneladas y concentran el 87% de las reservas internacionales&nbsp;&nbsp;La Razón Digital Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3EzUkFBWHpuV3pmQm5NbEktNE91RjhXSHA5a1BRRWhBcUtqUGl4ODZfY0NMN0NybmhBSXduMHViWHpmNGpSOGdLakJfbkhTRHlRNl8tcmxhck8tS1o1TjByblhXMU1IaFlsTXNGanY0XzFIUi1jV25rNElxZzZ4TVhHSGpQWVU2Ymh5QVVkRW0wamdfdDVuYUpGY1hNVXRxSWpMbVctUmoySUxuZy1JTGs2Nm1zV1VFQmtiQ2g0aGRZNFBmazc4ZU1rb3ItUk1HbTctMzNR?oc=5",
-      "date": "2026-10-09T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Todo lo que debes saber sobre el acuerdo entre Bolivia y el FMI - El Deber",
-      "desc": "Todo lo que debes saber sobre el acuerdo entre Bolivia y el FMI&nbsp;&nbsp;El Deber",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3FkQTZsZ2J3akRLVDhOcDJOczVZY3NoeUVlOG13SXU1cVBiYmprTVBhT2NVSVdfMEszUWZNRWxhd1dBMmJucnJtbDI4OUk5dEhzQlJpaUtrOUZjV1hLek1JT2hRNWRReVFqbEJsbGNDNVE5M3lvZDg2NFg2Sk1DRG9NVmJyZw?oc=5",
-      "date": "2026-10-08T07:00:00Z"
-    },
-    {
       "source": "Google — USDT Bolivia",
       "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
       "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
@@ -275,18 +254,39 @@
       "date": "2026-10-08T07:00:00Z"
     },
     {
+      "source": "Google — INE inflación",
+      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
+      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
+      "date": "2026-10-07T07:00:00Z"
+    },
+    {
       "source": "Google — FMI Bolivia",
       "title": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI - América Económica",
       "desc": "Bolivia confía en estabilizar su economía y volver al crecimiento en 2028 con el apoyo del FMI&nbsp;&nbsp;América Económica",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFJlSHp1cWRBVmRIem45aU8xQVdrRk5KcXVrb0diX3NOX1NRT08tbExKU3pNTXk5ODNKWjlJWV9MSEhyTXk0YXFxTkwzc1A3QWJHMFVzWklTN1NXQmEtakRFRHNhdExoWjhKWDl1eC1jWFlSOFQwNFpkRTdZdHhTdDRkZ3ZzNkI3M1dXb3R2OGxMaTZkbm9DcjhoV1VXN1FGNGpEVWRTc3hLQmo4VXJLX3JOR1IxbktXa1VBamg5bjZwUDRwWDVMaHFBY1BubmM0R3hEWHI4VUU0MHEw0gHiAUFVX3lxTFA5cUg2eTZGREtzaW92WFR5U3dmdFBRWDVHbzFXbWYyRDBBNDJQX2p5SlFwbFVycXl6MUlIMlpVZ3dIWUJLVElVWENISTB3VWxYckZIOEQ1SEd6eUkwLS1GQVN3RjluZGdHMUpubDJnNHJ5ZXR4WnVhYkk3cnZMR1lQR0VzU05hM1pzc3gtWTlEZ3lvNkdINi0wTm9DVm1keGdOMEpuNjhxVWFqc2lyc3BGUFo3M2ttUklUYnM3ZmFkdjRFQmVYeDBKWThBRjhndkNFSWl3YkZNRzlnWi01bDdKYVE?oc=5",
       "date": "2026-10-07T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
+      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.97,
-    "sellTomorrow": 12.02,
-    "changeBuy": 0.02,
-    "changeSell": 0.01,
+    "buyTomorrow": 12.03,
+    "sellTomorrow": 12.08,
+    "changeBuy": 0.01,
+    "changeSell": 0.02,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4256,6 +4256,11 @@
       "date": "2026-10-23",
       "buy": 11.95,
       "sell": 12.01
+    },
+    {
+      "date": "2026-10-26",
+      "buy": 12.02,
+      "sell": 12.06
     }
   ]
 }
