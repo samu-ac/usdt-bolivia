@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-28T17:38:56Z",
+  "lastUpdated": "2026-10-28T22:00:26Z",
   "displayDate": "miercoles 28 de octubre, 2026",
   "binance": {
-    "buy": 12.13,
-    "sell": 12.17,
+    "buy": 12.14,
+    "sell": 12.18,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.2,
+    "buy": 12.18,
     "sell": 12.11,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.4,
-    "sell": 12.01,
+    "buy": 12.41,
+    "sell": 12.02,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.34,
-    "sell": 11.97,
+    "buy": 12.35,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.15,
-    "sell": 12.13,
+    "buy": 12.16,
+    "sell": 12.15,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
     "buy": 12.35,
-    "sell": 12.0,
+    "sell": 12.01,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.02,
     "officialSell": 12.02,
-    "referentialBuy": 12.13,
-    "referentialSell": 12.17,
+    "referentialBuy": 12.14,
+    "referentialSell": 12.18,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-28T17:38:49Z"
+    "fetchedAt": "2026-10-28T22:00:17Z"
   },
   "banks": [
     {
@@ -108,24 +108,73 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Fiscal: Jhonny Fernández no tiene voluntad de someterse al proceso",
-      "desc": "El fiscal señaló que están vigentes los derechos constitucionales de Fernández\nThe post Fiscal: Jhonny Fernández no tiene voluntad de someterse al proceso appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/28/fiscal-jhonny-fernandez-no-tiene-voluntad-de-someterse-al-proceso/",
-      "date": "2026-10-28T17:25:29Z"
+      "title": "Fiscalía investigará si las cuatro maletas del GEAT son las de Marset",
+      "desc": "La Fiscalía deberá establecer su procedencia, las circunstancias en las que llegaron a las instalaciones del GEAT\nThe post Fiscalía investigará si las cuatro maletas del GEAT son las de Marset appeare…",
+      "link": "https://larazon.bo/nacional/2026/10/28/fiscalia-investigara-si-las-cuatro-maletas-del-geat-son-las-de-marset/",
+      "date": "2026-10-28T21:57:45Z"
     },
     {
       "source": "La Razón",
-      "title": "Consejo de la Magistratura pedirá informes a EEUU por jueces ‘desvisados’",
-      "desc": "La Sala Plena tramitará los datos por Cancillería para evaluar procesos administrativos o denuncias ante la Fiscalía\nThe post Consejo de la Magistratura pedirá informes a EEUU por jueces ‘desvisados’ …",
-      "link": "https://larazon.bo/nacional/2026/10/28/consejo-de-la-magistratura-pedira-informes-a-eeuu-por-jueces-desvisados/",
-      "date": "2026-10-28T17:23:14Z"
+      "title": "Habilitan líneas de asistencia para bolivianos tras accidente en España",
+      "desc": "El choque de dos trenes dejó al menos 68 personas fallecidas en la provincia de Toledo\nThe post Habilitan líneas de asistencia para bolivianos tras accidente en España appeared first on La Razón.",
+      "link": "https://larazon.bo/nacional/2026/10/28/habilitan-lineas-de-asistencia-para-bolivianos-tras-accidente-en-espana/",
+      "date": "2026-10-28T21:54:27Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno apuesta por renovables para postergar la importación de gas",
+      "desc": "La viceministra Tatiana Genuzio reconoció que Bolivia necesitaría comprar gas desde 2029 si se mantiene la proyección de producción y demanda. El Ejecutivo busca retrasar ese escenario con energías re…",
+      "link": "https://eldeber.com.bo/economia/gobierno-apuesta-renovables-postergar-importacion-gas_1793224001",
+      "date": "2026-10-28T21:46:41Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía investiga a Teresa Morales por presunto uso indebido de datos de la UIF",
-      "desc": "La exdirectora enfrenta cargos por incumplimiento de deberes y revelación de secretos a denuncia del Viceministerio de Transparencia\nThe post Fiscalía investiga a Teresa Morales por presunto uso indeb…",
-      "link": "https://larazon.bo/nacional/2026/10/28/fiscalia-investiga-a-teresa-morales-por-presunto-uso-indebido-de-datos-de-la-uif/",
-      "date": "2026-10-28T17:07:43Z"
+      "title": "Dockweiler pide frenar legalización de ‘chutos’ por congestión y gasto de combustible",
+      "desc": "Uno de los argumentos que se plantea a favor de la regularización es la posibilidad de generar ingresos económicos mediante la recaudación.\nThe post Dockweiler pide frenar legalización de &#8216;chuto…",
+      "link": "https://larazon.bo/ciudades/2026/10/28/dockweiler-pide-frenar-legalizacion-de-chutos-por-congestion-y-gasto-de-combustible/",
+      "date": "2026-10-28T21:37:26Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Yaksic informa que el Concejo aprobó ley para iniciar debate de la Carta Orgánica",
+      "desc": "Se prevé que la presentación oficial del documento sancionado se realice el próximo 12 de noviembre.\nThe post Yaksic informa que el Concejo aprobó ley para iniciar debate de la Carta Orgánica appeared…",
+      "link": "https://larazon.bo/ciudades/2026/10/28/yaksic-informa-que-el-concejo-aprobo-ley-para-iniciar-debate-de-la-carta-organica/",
+      "date": "2026-10-28T21:33:34Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Asamblea posterga interpelaciones a Oviedo y Justiniano para la próxima legislatura",
+      "desc": "La agenda pendiente también incluye una interpelación al titular de Minería, aunque los detalles de esa convocatoria deberán verificarse en la documentación legislativa correspondiente.\nThe post Asamb…",
+      "link": "https://larazon.bo/nacional/2026/10/28/asamblea-posterga-interpelaciones-a-oviedo-y-justiniano-para-la-proxima-legislatura/",
+      "date": "2026-10-28T21:31:11Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El presidente atribuye los ataques en su contra con las aprehensiones de Marset y Mariaca",
+      "desc": "Marset fue capturado en la madrugada del 13 de marzo en un importante operativo policial simultáneo en el barrio Las Palmas; mientras que Mariaca fue capturado a finales de septiembre pasado en el aer…",
+      "link": "https://eldeber.com.bo/pais/presidente-atribuye-ataque-aprehensiones-marset-mariaca_1793222974",
+      "date": "2026-10-28T21:29:34Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La minería privada aportó el 58% de las regalías en 2025",
+      "desc": "Las cooperativas encabezaron el valor de la producción minera, con una participación del 48,5%, mientras que su aporte a las regalías fue del 35%, según datos preliminares del Ministerio de Minería y …",
+      "link": "https://eldeber.com.bo/economia/mineria-privada-aporto-58-regalias-2025_1793222175",
+      "date": "2026-10-28T21:16:15Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Hospital de Montero inicia campaña gratuita de cirugías de labio y paladar hendido",
+      "desc": "Una macrobrigada llevará seis especialidades a Los Andes, en Santa Rosa del Sara. En paralelo, el hospital y la Fundación Jiwaqui Bolivia ofrecerán evaluaciones, cirugías y rehabilitación para niños y…",
+      "link": "https://eldeber.com.bo/santa-cruz/hospital-montero-inicia-campana-gratuita-cirugias-labio-paladar-hendido_1793222164",
+      "date": "2026-10-28T21:16:04Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Marset impugna el registro de un celular incautado en Bolivia y pone en duda pruebas de la DEA",
+      "desc": "El proceso judicial en Estados Unidos se produce mientras en Bolivia avanzan investigaciones por presuntos vínculos de exfiscales y policías con Marset, así como por el supuesto manejo irregular de ob…",
+      "link": "https://eldeber.com.bo/pais/marset-impugna-registro-celular-incautado-bolivia-pone-duda-pruebas-dea_1793221052",
+      "date": "2026-10-28T20:57:32Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -133,48 +182,6 @@
       "desc": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRkZDQ0NYdXNCV1NSTHk1MzZTYW9WM3A4RlBnRy15dE5NWno0TEZHN0FDZjdibEN0UENITHlfTWpuR2tSOGoxeXdkX1FoZGowX21MRVJWZ1RJR1BhWHBzYXpheFYxbmVNTkVHNC1kSFZpcUx6VGdZRE1tekNvSXdyWnpDbFRhTl9KU1hzcTBxVVJCdTFHUDhVdU1sd1A1ZWgwOUs3THVtVUJRN2wzYXdxVEp2YlNVUTNtTG5fcGl0S3NYOVVTYWdVU3J2N3hsOE1mWG15b1B5RmlWT0lGbms4MWhRWnM?oc=5",
       "date": "2026-10-28T16:55:46Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Anapo prevé estancamiento en la siembra de verano por encarecimiento de los insumos",
-      "desc": "Según la dirigencia de los agricultores, la liberación de las exportaciones permitiría a los productores negociar sus precios con mayor certidumbre\nThe post Anapo prevé estancamiento en la siembra de …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/28/anapo-preve-estancamiento-en-la-siembra-de-verano-por-encarecimiento-de-los-insumos/",
-      "date": "2026-10-28T16:44:39Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Experto plantea incentivar la producción de gas ante futuras importaciones",
-      "desc": "El especialista, Orlando Vaca, propone revisar las condiciones que reciben las operadoras para invertir en Bolivia. Considera que la apertura a las compras externas debe acompañarse con medidas para r…",
-      "link": "https://eldeber.com.bo/economia/experto-plantea-incentivar-produccion-gas-futuras-importaciones_1793204489",
-      "date": "2026-10-28T16:21:29Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Bolivia se prepara para importar gas, pero ¿está lista para pagar su precio?",
-      "desc": "La producción nacional cayó cerca del 54% entre 2014 y 2025. El Gobierno autorizó importaciones para consumo propio y generación eléctrica, mientras expertos advierten que comprar gas a precios intern…",
-      "link": "https://eldeber.com.bo/economia/bolivia-prepara-importar-gas-esta-lista-pagar-precio_1793202348",
-      "date": "2026-10-28T15:45:48Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aduana de Chile halla más de 251.000 dólares ocultos en un camión boliviano",
-      "desc": "El dinero fue decomisado y entregado a Carabineros de Colchane",
-      "link": "https://eldeber.com.bo/pais/aduana-chile-halla-251-000-dolares-ocultos-camion-boliviano_1793201436",
-      "date": "2026-10-28T15:30:36Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El gas importado costará casi el triple para la industria, advierte experto",
-      "desc": "El especialista sostiene que comprar gas argentino permitiría evitar restricciones de suministro desde 2029, pero elevaría los costos de producción. El Decreto 5755 habilita importaciones para consumo…",
-      "link": "https://eldeber.com.bo/economia/gas-importado-costara-casi-triple-industria-advierte-experto_1793201267",
-      "date": "2026-10-28T15:27:47Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "CRE pasó a semifinales de la Divpro",
-      "desc": "Pese a caer ante Fantasmas Morales Moralitos en los cuartos de final, CRE clasificó como mejor tercero y sigue en carrera en la División Profesional de Futsal. Ahora, recibirá a Deportivo Mineros de P…",
-      "link": "https://eldeber.com.bo/deportes/cre-paso-semifinales-divpro_1793199396",
-      "date": "2026-10-28T14:56:36Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -189,13 +196,6 @@
       "desc": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSEFQTER6ZzMweS1pQWpIOEJ4bzFOaHgyakdEMjVNc1B3d3hCcGJGTG5TdnJDOXhHSUJyR3czWG5ib2pZVDVGcHVxLVJVTmNvSS0wY0l0RERiVi03enRMSzlmazMwOFZRNDl4WDNtNS1GYjcxWUlMZlVMcERsRTNJYWIyREVUb2dXQUdtQjNCenlsNkFYUFhjajRmRGtFXzF1QV9F?oc=5",
       "date": "2026-10-25T22:40:18Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Tether respalda a Peso para impulsar pagos minoristas con USDT en Bolivia - Bitcoin News",
-      "desc": "Tether respalda a Peso para impulsar pagos minoristas con USDT en Bolivia&nbsp;&nbsp;Bitcoin News",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2tKd3VmTXVHNHdtcFRjaFh6Tk9IT0ktM3dtckh0VDBxSkl0ZVNWRFNLS1MzR3F4WWdCWXFaVlJ0cnVFZU1rREFZMzBGR2lsYVpOQmI3OFRINnNjNllVMUo3MHdJclFPSzRSNWQ4dVZmZXlpWTViNWVEUTBqZDhCZWdXMkFDRm5qbURhOWlHTXlIUm1udGF0ODBuVlFSQUttWUNmOVI3ZTg4Ujd4N1NqeUtGY2E?oc=5",
-      "date": "2026-10-22T18:30:52Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -216,6 +216,13 @@
       "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
       "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
+      "date": "2026-10-13T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
+      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
       "date": "2026-10-13T07:00:00Z"
     },
     {
@@ -240,11 +247,25 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
+      "source": "Google — BCB reservas",
+      "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
+      "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
+      "date": "2026-10-09T07:00:00Z"
+    },
+    {
       "source": "Google — USDT Bolivia",
       "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
       "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
       "date": "2026-10-08T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
+      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
+      "date": "2026-10-07T07:00:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -259,34 +280,13 @@
       "desc": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial&nbsp;&nbsp;Urgentebo",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZW1lZFB2TDNxRmkzTWcwWVdyRnpfNWFpdllXVU5VNlhLV0lLMkVYVGo3SVRCYUxRYWZ0QVBRRXc3WnVjMExGa0k1dWllSjA2UW9PU2dvT09rMlJ1dkVydExFRi1wdkNmSUdxTVpuOTRaNnVaMzk0ZVByQ3dqc3Q1OVhWdVVYYUlDcXpaV3dWTUxOY192T0VxSWhTel9iazVlaW9ZSEN0ZlBfWll3YVh1Z1NxbFBBeF9KTF84?oc=5",
       "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles - Opinión Bolivia",
-      "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
-      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
-      "date": "2026-09-21T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.19,
+    "buyTomorrow": 12.2,
     "sellTomorrow": 12.24,
     "changeBuy": 0.06,
-    "changeSell": 0.07,
+    "changeSell": 0.06,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4269,8 +4269,8 @@
     },
     {
       "date": "2026-10-28",
-      "buy": 12.13,
-      "sell": 12.17
+      "buy": 12.14,
+      "sell": 12.18
     }
   ]
 }
