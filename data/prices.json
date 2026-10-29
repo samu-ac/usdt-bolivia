@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-10-29T17:46:40Z",
+  "lastUpdated": "2026-10-29T22:12:33Z",
   "displayDate": "jueves 29 de octubre, 2026",
   "binance": {
     "buy": 12.16,
-    "sell": 12.2,
+    "sell": 12.19,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.21,
-    "sell": 12.13,
+    "buy": 12.23,
+    "sell": 12.14,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.43,
+    "buy": 12.42,
     "sell": 12.05,
     "available": true,
     "source": "api_dbb_takenos"
@@ -32,14 +32,14 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.17,
-    "sell": 12.17,
+    "buy": 12.2,
+    "sell": 12.19,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.38,
-    "sell": 12.03,
+    "buy": 12.39,
+    "sell": 12.04,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -47,11 +47,11 @@
     "officialBuy": 12.12,
     "officialSell": 12.12,
     "referentialBuy": 12.16,
-    "referentialSell": 12.2,
+    "referentialSell": 12.19,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-29T17:46:33Z"
+    "fetchedAt": "2026-10-29T22:12:27Z"
   },
   "banks": [
     {
@@ -108,10 +108,59 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Procuraduría pide a la Fiscalía destrabar procesos por corrupción y congelar bienes de acusados",
-      "desc": "La lista de procesos priorizados por la institución abarca el caso Botrading, las irregularidades en las piscinas evaporíticas de YLB y las anomalías en la adquisición del Sidacta\nThe post Procuradurí…",
-      "link": "https://larazon.bo/nacional/2026/10/29/procuraduria-pide-a-la-fiscalia-destrabar-procesos-por-corrupcion-y-congelar-bienes-de-acusados/",
-      "date": "2026-10-29T17:20:42Z"
+      "title": "Bolivia podría enfrentar primeros racionamientos de gas en 2029, advierte exministro",
+      "desc": "Ríos consideró que Bolivia necesita impulsar reformas para atraer capital al sector hidrocarburífero y ampliar la generación de energía\nThe post Bolivia podría enfrentar primeros racionamientos de gas…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/bolivia-podria-enfrentar-primeros-racionamientos-de-gas-en-2029-advierte-exministro/",
+      "date": "2026-10-29T22:00:39Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Morales plantea a Rodrigo Paz una cumbre de expresidentes para frenar la caída del gas",
+      "desc": "‘Yo, si fuera Rodrigo Paz, convocaría a los expresidentes a ver cómo acelerar estos temas, así como yo hice con el tema del mar a los expresidentes’, indicó el exmandatario \nThe post Morales plantea a…",
+      "link": "https://larazon.bo/nacional/2026/10/29/morales-plantea-a-rodrigo-paz-una-cumbre-de-expresidentes-para-frenar-la-caida-del-gas/",
+      "date": "2026-10-29T21:59:49Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El Presidente asegura que el país volverá a exportar gas con la Ley de Hidrocarburos",
+      "desc": "El Mandatario anunció que el Gobierno concluyó el proyecto de una nueva ley de hidrocarburos y que remitirá próximamente a la Asamblea\nThe post El Presidente asegura que el país volverá a exportar gas…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/el-presidente-asegura-que-el-pais-volvera-a-exportar-gas-con-la-ley-de-hidrocarburos/",
+      "date": "2026-10-29T21:51:02Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "EE.UU. sanciona a organizadores de caravana de migrantes que se dirige a su frontera",
+      "desc": "Una caravana de aproximadamente cien personas, que partió de San Pedro Sula, Honduras, el pasado 20 de septiembre, se encuentra en Chiapas, intentando movilizarse hacia el norte de México",
+      "link": "https://eldeber.com.bo/mundo/ee-uu-sanciona-organizadores-caravana-migrantes-dirige-frontera_1793310630",
+      "date": "2026-10-29T21:50:30Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Octubre cierra con una nutrida agenda cultural en la capital cruceña",
+      "desc": "Hay teatro, talleres y conversatorios para estos tres últimos días del mes de octubre, en la capital cruceña. El sábado se celebra el cambaween, una actividad popular que inunda de disfraces el centro…",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/octubre-cierra-nutrida-agenda-cultural-capital-crucena_1793310629",
+      "date": "2026-10-29T21:50:29Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía citará a periodistas a declarar por ‘el pasanaku’ de Mariaca",
+      "desc": "El fiscal Jimmy López señaló que la información que se obtenga permitirá establecer si existen elementos para abrir una investigación.\nThe post Fiscalía citará a periodistas a declarar por &#8216;el p…",
+      "link": "https://larazon.bo/nacional/2026/10/29/fiscalia-citara-a-periodistas-a-declarar-por-el-pasanaku-de-mariaca/",
+      "date": "2026-10-29T21:36:35Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Muere Patrick Stewart, actor de la saga de ‘Star Trek’ y ‘X-Men’",
+      "desc": "El intérprete británico tenía 86 años y construyó una trayectoria excepcional entre el teatro clásico y Hollywood, convirtiéndose en uno de los rostros más emblemáticos de la ciencia ficción y el cine…",
+      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/muere-patrick-stewart-actor-saga-star-trek-x-men_1793305851",
+      "date": "2026-10-29T20:30:51Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Presidente Rodrigo Paz visitó la tierra del durazno para entregar tanques de almacenamiento de agua",
+      "desc": "El Jefe de Estado habló de las leyes de minería e hidrocarburos como los instrumentos legales para generar condiciones en la producción y el desarrollo económico en un departamento de Tarija",
+      "link": "https://eldeber.com.bo/tarija/presidente-rodrigo-paz-visito-tierra-durazno-entregar-tanques-almacenamiento-agua_1793305787",
+      "date": "2026-10-29T20:29:47Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -121,81 +170,11 @@
       "date": "2026-10-29T17:14:36Z"
     },
     {
-      "source": "El Deber",
-      "title": "¿Por qué está aprehendido el hijo de 23 años de Jhonny Fernández? La Fiscalía investiga dos delitos",
-      "desc": "La Fiscalía abrió una causa contra el joven de 23 años por presunta legitimación de ganancias ilícitas y obstrucción a la justicia. Fue encontrado junto a su padre en el allanamiento de Fundamax, dond…",
-      "link": "https://eldeber.com.bo/santa-cruz/esta-aprehendido-hijo-23-anos-jhonny-fernandez-fiscalia-investiga-dos-delitos_1793293375",
-      "date": "2026-10-29T17:02:55Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "CAO urge a aprobar la Ley de Inversiones hasta noviembre ‘para no retrasar la recuperación’",
-      "desc": "Klaus Frerking sostuvo que Bolivia necesita recuperar la confianza de los inversionistas para superar la crisis económica\nThe post CAO urge a aprobar la Ley de Inversiones hasta noviembre ‘para no ret…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/cao-urge-a-aprobar-la-ley-de-inversiones-hasta-noviembre-para-no-retrasar-la-recuperacion/",
-      "date": "2026-10-29T16:44:44Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El exministro  Edmundo Novillo declara por el 'caso radares' en La Paz",
-      "desc": "La Fiscalía investiga un presunto daño económico al Estado de más de Bs 1.478 millones",
-      "link": "https://eldeber.com.bo/pais/exministro-edmundo-novillo-declara-caso-radares-paz_1793292197",
-      "date": "2026-10-29T16:43:17Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Florentín y Oriente, a la espera de una reunión clave para definir el futuro",
-      "desc": "Roger ‘Sucha’ Suárez, director deportivo del club refinero, confirmó a DIEZ que la dirigencia aguarda la llegada del representante del entrenador paraguayo para conversar sobre su continuidad. Además,…",
-      "link": "https://eldeber.com.bo/deportes/florentin-oriente-espera-reunion-clave-definir-futuro_1793292019",
-      "date": "2026-10-29T16:40:19Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Se confirma aprehensión de 'Niño', seguridad personal del exfiscal Mariaca",
-      "desc": "Lo trasladarán a La Paz para su declaración y será puesto a disposición de la Justicia",
-      "link": "https://eldeber.com.bo/pais/confirma-aprehension-nino-seguridad-personal-exfiscal-mariaca_1793291002",
-      "date": "2026-10-29T16:28:20Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿Vas a visitar el cementerio por Todos Santos? Estas son las fechas, los horarios y las restricciones",
-      "desc": "Los camposantos municipales estarán cerrados el 30 y 31 de octubre. El 1 y 2 de noviembre atenderán de 08:00 a 21:00, con controles para evitar el consumo de alcohol y otras actividades prohibidas.",
-      "link": "https://eldeber.com.bo/santa-cruz/vas-visitar-cementerio-todos-santos-estas-fechas-horarios-restricciones_1793291007",
-      "date": "2026-10-29T16:23:27Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
       "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
       "date": "2026-10-28T06:51:26Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares - La Patria Bolivia",
-      "desc": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSEFQTER6ZzMweS1pQWpIOEJ4bzFOaHgyakdEMjVNc1B3d3hCcGJGTG5TdnJDOXhHSUJyR3czWG5ib2pZVDVGcHVxLVJVTmNvSS0wY0l0RERiVi03enRMSzlmazMwOFZRNDl4WDNtNS1GYjcxWUlMZlVMcERsRTNJYWIyREVUb2dXQUdtQjNCenlsNkFYUFhjajRmRGtFXzF1QV9F?oc=5",
-      "date": "2026-10-25T22:40:18Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "El BCB informa que las RIN llegaron a $us 3.978 millones - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "El BCB informa que las RIN llegaron a $us 3.978 millones&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhsY3pTbmRVQVVQZFl2ZXhFS0VMSk5RelNlQmFCLUlKVWxvOEh1aVE1SUNUWmNmQmQ0SWhXbmwxSWxVNEtLNEJKT25FcERuQURPcXliZU5pNXptYlhqVXYySndNWVJ6N2h6UkVqVUZkZFZhMWFXM1lmTFpCaU9vRW9VUUlWVTJZalRLa3JmU0RsMTRCWTZGVVFnXzZ4VlRUR1E0?oc=5",
-      "date": "2026-10-24T04:20:03Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB: RIN de Bolivia suben a $us 3.978 millones hasta el 16 de octubre - Red Uno",
-      "desc": "BCB: RIN de Bolivia suben a $us 3.978 millones hasta el 16 de octubre&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUUxFUndJUHJySEwzOUpEVUpNeFFQME5xX1lWSEhhN09EenlmSW95bWRxSmJ4SmNPVHNoMjIxYVlyejBFc3h3OEJWZ05xN3daeF9aZmZvejRrTFJ0Mzk3THdHUW5LdkxQYVdCcnRLbnVQU2QycDB6dDFCX29MRnZURlk3dkxkV3VSSzBDQWtMTGV2eEJUQmNhVG96ZnRTX2JrZlFMcEwzVk53SkxiMGZSZldDZHpWRWZK?oc=5",
-      "date": "2026-10-23T22:23:23Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas - unitel.bo",
-      "desc": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas&nbsp;&nbsp;unitel.bo",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHlTWmxSQzI5ZW1zWmFDenNqOVY5X1BOd3lzRElYSnpaQ3NEcFZoSlk3bXAyb0NwYnRkMGlVS2hRbDJsdkVrMG11STc3TG8xQlhxTkdReUcteGZkVGtQZ19MTlR3MGx5WXpycDJxbHNNU2NjQnF4dElscTItYmFNLWhlalJVRUJQVHhFX3VJdnludFRLeTNCWjhSaURjZXpvWW5BNHBmNG5iRkVxMmgyNTFZelNtdlEwWEg1V1VKLXFpS04tbWJsNXhBR0Y3MkQyZnB5MTI1SkloQQ?oc=5",
-      "date": "2026-10-23T17:22:29Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -234,9 +213,16 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "A septiembre, reservas del BCB suman $us 932,8 MM; 8,7% más que en el segundo trimestre - La Razón Digital Bolivia",
-      "desc": "A septiembre, reservas del BCB suman $us 932,8 MM; 8,7% más que en el segundo trimestre&nbsp;&nbsp;La Razón Digital Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNVc2TnRwOUNadVYtUGNrZEZqVzdMX2o1djdWejN6S0FTLWVpZVJQNkFQX2pSY3BGQnU1c2hKSF9JRWo2b1ZMZTFKZ2QwYnVSSS1sSDlRQ1NUckNxdmlXM09ucWxfMXpXSGh1UHFHcUZaWHo2NEU0Q0p0b2dLYXBNWE9STEt5b0dGM1RNM3VsVXU3bm5kMi1LU1JKU3ptXzVJclpSdUxWaC02NzBRdkdZdVRmanNDdTdBMlU3OTcyUGJWTEtWT1VjSnF4Yw?oc=5",
+      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - ABI - Agencia Boliviana de Información",
+      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGt1MGZHTHhJZFdRS1BDZkwyQzJZUzJQVWNxV3VKZW93d1U4eU5YYXctRlNEbkloUDd0YmN3X1RCc2x5Q2VmZWxVOEVCZXlWUUo4bUFlRnFDYk52UDZseGY4eFZxWG5YZXZobm5sV1cxQVN6VzVYc0w3emw4ZXdvMzhPSlBZbF9nSjI2eGRpaFVIZklPak5OVU04WXI?oc=5",
+      "date": "2026-10-09T16:51:29Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
+      "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T07:00:00Z"
     },
     {
@@ -245,6 +231,13 @@
       "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
       "date": "2026-10-08T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
+      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
+      "date": "2026-10-06T07:00:00Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -280,11 +273,18 @@
       "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
       "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "BCB dispone medidas para reducir la presión sobre el mercado de dólares - Erbol |",
+      "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
+      "date": "2026-09-07T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 12.25,
-    "sellTomorrow": 12.29,
+    "sellTomorrow": 12.28,
     "changeBuy": 0.09,
     "changeSell": 0.09,
     "trend": "alza",
@@ -4275,7 +4275,7 @@
     {
       "date": "2026-10-29",
       "buy": 12.16,
-      "sell": 12.2
+      "sell": 12.19
     }
   ]
 }
