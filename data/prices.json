@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-29T04:40:38Z",
+  "lastUpdated": "2026-10-29T17:46:40Z",
   "displayDate": "jueves 29 de octubre, 2026",
   "binance": {
-    "buy": 12.14,
-    "sell": 12.18,
+    "buy": 12.16,
+    "sell": 12.2,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.2,
-    "sell": 12.05,
+    "buy": 12.21,
+    "sell": 12.13,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.42,
-    "sell": 12.02,
+    "buy": 12.43,
+    "sell": 12.05,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.35,
-    "sell": 11.98,
+    "buy": 12.38,
+    "sell": 12.01,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,31 +33,31 @@
   },
   "bybit": {
     "buy": 12.17,
-    "sell": 12.14,
+    "sell": 12.17,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.35,
-    "sell": 12.01,
+    "buy": 12.38,
+    "sell": 12.03,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.12,
     "officialSell": 12.12,
-    "referentialBuy": 12.14,
-    "referentialSell": 12.18,
+    "referentialBuy": 12.16,
+    "referentialSell": 12.2,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-29T04:40:32Z"
+    "fetchedAt": "2026-10-29T17:46:33Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.72,
-      "sell": 12.32
+      "buy": 11.82,
+      "sell": 12.42
     },
     {
       "name": "BCP",
@@ -72,7 +72,7 @@
     {
       "name": "Banco Bisa",
       "buy": 11.42,
-      "sell": 12.3
+      "sell": 12.25
     },
     {
       "name": "Banco FIE",
@@ -86,18 +86,18 @@
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.92,
-      "sell": 12.32
+      "buy": 11.02,
+      "sell": 12.42
     },
     {
       "name": "BancoSol",
-      "buy": 10.82,
-      "sell": 12.52
+      "buy": 10.91,
+      "sell": 12.62
     },
     {
       "name": "Banco Unión",
-      "buy": 10.52,
-      "sell": 12.32
+      "buy": 10.62,
+      "sell": 12.42
     },
     {
       "name": "Banco Ganadero",
@@ -107,53 +107,67 @@
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Caso Marset: envían al capitán Ruiz a la cárcel de Qalauma por seis meses",
-      "desc": "El capitán de la Policía fue imputado por cinco presuntos delitos vinculados con la extracción de maletas de la vivienda de Sebastián Marset. Su defensa sostiene que actuó por órdenes de sus superiore…",
-      "link": "https://eldeber.com.bo/la-paz/caso-marset-envian-capitan-ruiz-carcel-qalauma-seis-meses_1793239587",
-      "date": "2026-10-29T02:06:27Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aprehenden al fiscal Julio César Canaza por una denuncia de presunta corrupción",
-      "desc": "El funcionario fue trasladado a dependencias de la unidad anticorrupción de la Policía, en la zona del Plan Tres Mil de Santa Cruz. De manera preliminar, se informó que es investigado por un presunto …",
-      "link": "https://eldeber.com.bo/santa-cruz/aprehenden-fiscal-julio-cesar-canaza-denuncia-presunta-corrupcion_1793237016",
-      "date": "2026-10-29T01:23:36Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Pueblos indígenas amazónicos alertan del peligro de \"riesgo inminente de exterminio\"",
-      "desc": "En este informe colectivo, compilado por Amazon Frontlines, se alerta \"sobre el riesgo inminente de exterminio físico y cultural que enfrentan las naciones originarias cuyos territorios ancestrales tr…",
-      "link": "https://eldeber.com.bo/mundo/pueblos-indigenas-amazonicos-alertan-peligro-riesgo-inminente-exterminio_1793235170",
-      "date": "2026-10-29T00:52:50Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Macron pide calma y reabrir los centros educativos tras semanas de protestas estudiantiles",
-      "desc": "El mandatario atribuyó la magnitud de los disturbios de aquel día a una combinación de falta de anticipación, actuación de grupos de extrema izquierda y saqueos. Antes del 17 de octubre, la ira social…",
-      "link": "https://eldeber.com.bo/mundo/macron-pide-calma-reabrir-centros-educativos-semanas-protestas-estudiantiles_1793234816",
-      "date": "2026-10-29T00:46:56Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "De principal comprador a posible proveedor, gobierno ve a Argentina por el gas",
-      "desc": "Se prevé que Bolivia deje de exportar gas el 2030 y a partir de allí comience a importarlo.",
-      "link": "https://eldeber.com.bo/economia/principal-comprador-posible-proveedor-gobierno-ve-argentina-gas_1793231078",
-      "date": "2026-10-28T23:44:38Z"
-    },
-    {
       "source": "La Razón",
-      "title": "Fiscalía admite denuncia contra Teresa Morales por presuntas irregularidades en la UIF",
-      "desc": "La admisión de la denuncia fue comunicada por el Ministerio de la Presidencia mediante una publicación en sus redes sociales.\nThe post Fiscalía admite denuncia contra Teresa Morales por presuntas irre…",
-      "link": "https://larazon.bo/nacional/2026/10/28/fiscalia-admite-denuncia-contra-teresa-morales-por-presuntas-irregularidades-en-la-uif/",
-      "date": "2026-10-28T22:59:26Z"
+      "title": "Procuraduría pide a la Fiscalía destrabar procesos por corrupción y congelar bienes de acusados",
+      "desc": "La lista de procesos priorizados por la institución abarca el caso Botrading, las irregularidades en las piscinas evaporíticas de YLB y las anomalías en la adquisición del Sidacta\nThe post Procuradurí…",
+      "link": "https://larazon.bo/nacional/2026/10/29/procuraduria-pide-a-la-fiscalia-destrabar-procesos-por-corrupcion-y-congelar-bienes-de-acusados/",
+      "date": "2026-10-29T17:20:42Z"
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde - Red Uno",
-      "desc": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRkZDQ0NYdXNCV1NSTHk1MzZTYW9WM3A4RlBnRy15dE5NWno0TEZHN0FDZjdibEN0UENITHlfTWpuR2tSOGoxeXdkX1FoZGowX21MRVJWZ1RJR1BhWHBzYXpheFYxbmVNTkVHNC1kSFZpcUx6VGdZRE1tekNvSXdyWnpDbFRhTl9KU1hzcTBxVVJCdTFHUDhVdU1sd1A1ZWgwOUs3THVtVUJRN2wzYXdxVEp2YlNVUTNtTG5fcGl0S3NYOVVTYWdVU3J2N3hsOE1mWG15b1B5RmlWT0lGbms4MWhRWnM?oc=5",
-      "date": "2026-10-28T16:55:46Z"
+      "title": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia - Red Uno",
+      "desc": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU1Y4YzVKQUF6bHRaeTdTRkdJUGRlUC1Ebk54bGJPMWJTeTgxMU9MWFhjN3BaRmd4QnlteGxWMGdIbzVFdWRZNjkzZ2NGMFZRSkpzbmJqc2FmanZreXlRdVhRNEtCZWtUZVpqRW9iZFl6RVpjeGVZQi04NEFoSkNnbkFlREhjemJFTEt5YmtZTFJmZHNGcVdFS3k1czBURm1PY0Q5UnNKRkhrOG9tNWZhSktDWkNsQmNDSFJ4Snh1SWwtTGNGcmJwdERDVktiRDNkRU9IWlF6MA?oc=5",
+      "date": "2026-10-29T17:14:36Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Por qué está aprehendido el hijo de 23 años de Jhonny Fernández? La Fiscalía investiga dos delitos",
+      "desc": "La Fiscalía abrió una causa contra el joven de 23 años por presunta legitimación de ganancias ilícitas y obstrucción a la justicia. Fue encontrado junto a su padre en el allanamiento de Fundamax, dond…",
+      "link": "https://eldeber.com.bo/santa-cruz/esta-aprehendido-hijo-23-anos-jhonny-fernandez-fiscalia-investiga-dos-delitos_1793293375",
+      "date": "2026-10-29T17:02:55Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "CAO urge a aprobar la Ley de Inversiones hasta noviembre ‘para no retrasar la recuperación’",
+      "desc": "Klaus Frerking sostuvo que Bolivia necesita recuperar la confianza de los inversionistas para superar la crisis económica\nThe post CAO urge a aprobar la Ley de Inversiones hasta noviembre ‘para no ret…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/cao-urge-a-aprobar-la-ley-de-inversiones-hasta-noviembre-para-no-retrasar-la-recuperacion/",
+      "date": "2026-10-29T16:44:44Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El exministro  Edmundo Novillo declara por el 'caso radares' en La Paz",
+      "desc": "La Fiscalía investiga un presunto daño económico al Estado de más de Bs 1.478 millones",
+      "link": "https://eldeber.com.bo/pais/exministro-edmundo-novillo-declara-caso-radares-paz_1793292197",
+      "date": "2026-10-29T16:43:17Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Florentín y Oriente, a la espera de una reunión clave para definir el futuro",
+      "desc": "Roger ‘Sucha’ Suárez, director deportivo del club refinero, confirmó a DIEZ que la dirigencia aguarda la llegada del representante del entrenador paraguayo para conversar sobre su continuidad. Además,…",
+      "link": "https://eldeber.com.bo/deportes/florentin-oriente-espera-reunion-clave-definir-futuro_1793292019",
+      "date": "2026-10-29T16:40:19Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Se confirma aprehensión de 'Niño', seguridad personal del exfiscal Mariaca",
+      "desc": "Lo trasladarán a La Paz para su declaración y será puesto a disposición de la Justicia",
+      "link": "https://eldeber.com.bo/pais/confirma-aprehension-nino-seguridad-personal-exfiscal-mariaca_1793291002",
+      "date": "2026-10-29T16:28:20Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Vas a visitar el cementerio por Todos Santos? Estas son las fechas, los horarios y las restricciones",
+      "desc": "Los camposantos municipales estarán cerrados el 30 y 31 de octubre. El 1 y 2 de noviembre atenderán de 08:00 a 21:00, con controles para evitar el consumo de alcohol y otras actividades prohibidas.",
+      "link": "https://eldeber.com.bo/santa-cruz/vas-visitar-cementerio-todos-santos-estas-fechas-horarios-restricciones_1793291007",
+      "date": "2026-10-29T16:23:27Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
+      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
+      "date": "2026-10-28T06:51:26Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -212,6 +226,13 @@
       "date": "2026-10-13T07:00:00Z"
     },
     {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026 - Clarin.com",
+      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026&nbsp;&nbsp;Clarin.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdFotY2xzelRQc0ZJblRlVE9kUmhNWHBqNVRjTl9tRVUwM0l3cW4ybU5XSnI4cWs3ZVpyMlZ6RzdveVdKMmh4ZnpLTHBtaEVEbXV0eUVaLWNWY0JFUjN1V0ZNS19UUUhDY1lqQzJndGF2ek1SVF9valdpUlpWUHQyYjVLZmFpV3ZGVG1ZNjdDRVZDcXZBSUFlY0I2MjNOdkJNdlh6VFdMMVRqLVRoeGlJNVVFdVdhcEQ0Z2p4dzcxRHZQWXdYRVJnbENJbk41MWdJOGxR0gHYAUFVX3lxTE03blBrcU1SbFc3N1dKUll4NnRtWkI3aVZyRVMzd0NGV3lvSDY1Mk44QkZEMUZDUWZaMGstM2NMdm83Nm9rZUNzTndWdFJzalptVW5PU3BEY2VqV042SEhMRGN5Zi0wXzlSUUVwZHF0NkpuY1I4MTVfVzBrOTFZeS1KTnVqZWxxT0JVbU5rTlJEaWUyVVNMRWVCaXhiNzJtN0ZrWmZyeTFjYmVCdFFOX3pOOEhlVldpMl9oZWtRbnpack82TUdFLVVFQmo1UlJQTDZVbXo5dlF6eg?oc=5",
+      "date": "2026-10-10T07:00:00Z"
+    },
+    {
       "source": "Google — BCB reservas",
       "title": "A septiembre, reservas del BCB suman $us 932,8 MM; 8,7% más que en el segundo trimestre - La Razón Digital Bolivia",
       "desc": "A septiembre, reservas del BCB suman $us 932,8 MM; 8,7% más que en el segundo trimestre&nbsp;&nbsp;La Razón Digital Bolivia",
@@ -226,18 +247,11 @@
       "date": "2026-10-08T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
-      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
-      "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial - Urgentebo",
-      "desc": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial&nbsp;&nbsp;Urgentebo",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZW1lZFB2TDNxRmkzTWcwWVdyRnpfNWFpdllXVU5VNlhLV0lLMkVYVGo3SVRCYUxRYWZ0QVBRRXc3WnVjMExGa0k1dWllSjA2UW9PU2dvT09rMlJ1dkVydExFRi1wdkNmSUdxTVpuOTRaNnVaMzk0ZVByQ3dqc3Q1OVhWdVVYYUlDcXpaV3dWTUxOY192T0VxSWhTel9iazVlaW9ZSEN0ZlBfWll3YVh1Z1NxbFBBeF9KTF84?oc=5",
-      "date": "2026-10-06T07:00:00Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
+      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -266,26 +280,12 @@
       "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
       "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
-      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.24,
-    "sellTomorrow": 12.27,
-    "changeBuy": 0.1,
+    "buyTomorrow": 12.25,
+    "sellTomorrow": 12.29,
+    "changeBuy": 0.09,
     "changeSell": 0.09,
     "trend": "alza",
     "confidence": "alta",
@@ -4274,8 +4274,8 @@
     },
     {
       "date": "2026-10-29",
-      "buy": 12.14,
-      "sell": 12.18
+      "buy": 12.16,
+      "sell": 12.2
     }
   ]
 }
