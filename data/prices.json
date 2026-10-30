@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-29T22:12:33Z",
-  "displayDate": "jueves 29 de octubre, 2026",
+  "lastUpdated": "2026-10-30T04:40:13Z",
+  "displayDate": "viernes 30 de octubre, 2026",
   "binance": {
-    "buy": 12.16,
-    "sell": 12.19,
+    "buy": 12.04,
+    "sell": 12.11,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.23,
-    "sell": 12.14,
+    "buy": 12.18,
+    "sell": 12.04,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.42,
-    "sell": 12.05,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.38,
-    "sell": 12.01,
+    "buy": 12.26,
+    "sell": 11.89,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.2,
-    "sell": 12.19,
+    "buy": 12.19,
+    "sell": 12.15,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.39,
-    "sell": 12.04,
+    "buy": 12.35,
+    "sell": 11.95,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 12.12,
-    "officialSell": 12.12,
-    "referentialBuy": 12.16,
-    "referentialSell": 12.19,
+    "officialBuy": 12.11,
+    "officialSell": 12.11,
+    "referentialBuy": 12.04,
+    "referentialSell": 12.11,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-29T22:12:27Z"
+    "fetchedAt": "2026-10-30T04:40:06Z"
   },
   "banks": [
     {
@@ -61,33 +61,33 @@
     },
     {
       "name": "BCP",
-      "buy": 11.62,
-      "sell": 12.42
+      "buy": 11.61,
+      "sell": 12.41
     },
     {
       "name": "BNB",
-      "buy": 11.62,
-      "sell": 12.42
+      "buy": 11.61,
+      "sell": 12.41
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.42,
-      "sell": 12.25
+      "buy": 11.41,
+      "sell": 12.24
     },
     {
       "name": "Banco FIE",
-      "buy": 11.22,
-      "sell": 12.22
+      "buy": 11.21,
+      "sell": 12.21
     },
     {
       "name": "Banco Económico",
-      "buy": 11.12,
-      "sell": 12.47
+      "buy": 11.11,
+      "sell": 12.46
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 11.02,
-      "sell": 12.42
+      "buy": 11.01,
+      "sell": 12.41
     },
     {
       "name": "BancoSol",
@@ -102,79 +102,86 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.42
+      "sell": 12.41
     }
   ],
   "news": [
     {
       "source": "La Razón",
-      "title": "Bolivia podría enfrentar primeros racionamientos de gas en 2029, advierte exministro",
-      "desc": "Ríos consideró que Bolivia necesita impulsar reformas para atraer capital al sector hidrocarburífero y ampliar la generación de energía\nThe post Bolivia podría enfrentar primeros racionamientos de gas…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/bolivia-podria-enfrentar-primeros-racionamientos-de-gas-en-2029-advierte-exministro/",
-      "date": "2026-10-29T22:00:39Z"
+      "title": "Más de $us 2.500 MM congelados tras hackeo a plataforma de criptomonedas Binance",
+      "desc": "La empresa indicó que había suspendido el comercio de ciertos productos.\nThe post Más de $us 2.500 MM congelados tras hackeo a plataforma de criptomonedas Binance appeared first on La Razón.",
+      "link": "https://larazon.bo/mundo/2026/10/30/mas-de-us-2-500-mm-congelados-tras-hackeo-a-plataforma-de-criptomonedas-binance/",
+      "date": "2026-10-30T04:21:12Z"
     },
     {
       "source": "La Razón",
-      "title": "Morales plantea a Rodrigo Paz una cumbre de expresidentes para frenar la caída del gas",
-      "desc": "‘Yo, si fuera Rodrigo Paz, convocaría a los expresidentes a ver cómo acelerar estos temas, así como yo hice con el tema del mar a los expresidentes’, indicó el exmandatario \nThe post Morales plantea a…",
-      "link": "https://larazon.bo/nacional/2026/10/29/morales-plantea-a-rodrigo-paz-una-cumbre-de-expresidentes-para-frenar-la-caida-del-gas/",
-      "date": "2026-10-29T21:59:49Z"
+      "title": "Fiscalía verificará si el uso de vehículos incautados a Marset fue legal",
+      "desc": "La Fiscalía investigará si la utilización de vehículos de alta gama incautados en el operativo de captura del narcotraficante Sebastián Marset \nThe post Fiscalía verificará si el uso de vehículos inca…",
+      "link": "https://larazon.bo/nacional/2026/10/29/fiscalia-verificara-si-el-uso-de-vehiculos-incautados-a-marset-fue-legal/",
+      "date": "2026-10-30T03:42:37Z"
     },
     {
       "source": "La Razón",
-      "title": "El Presidente asegura que el país volverá a exportar gas con la Ley de Hidrocarburos",
-      "desc": "El Mandatario anunció que el Gobierno concluyó el proyecto de una nueva ley de hidrocarburos y que remitirá próximamente a la Asamblea\nThe post El Presidente asegura que el país volverá a exportar gas…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/el-presidente-asegura-que-el-pais-volvera-a-exportar-gas-con-la-ley-de-hidrocarburos/",
-      "date": "2026-10-29T21:51:02Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "EE.UU. sanciona a organizadores de caravana de migrantes que se dirige a su frontera",
-      "desc": "Una caravana de aproximadamente cien personas, que partió de San Pedro Sula, Honduras, el pasado 20 de septiembre, se encuentra en Chiapas, intentando movilizarse hacia el norte de México",
-      "link": "https://eldeber.com.bo/mundo/ee-uu-sanciona-organizadores-caravana-migrantes-dirige-frontera_1793310630",
-      "date": "2026-10-29T21:50:30Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Octubre cierra con una nutrida agenda cultural en la capital cruceña",
-      "desc": "Hay teatro, talleres y conversatorios para estos tres últimos días del mes de octubre, en la capital cruceña. El sábado se celebra el cambaween, una actividad popular que inunda de disfraces el centro…",
-      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/octubre-cierra-nutrida-agenda-cultural-capital-crucena_1793310629",
-      "date": "2026-10-29T21:50:29Z"
+      "title": "Fiscalía creará una unidad de Cibercrimen para investigar audios atribuidos a Cerimedo",
+      "desc": "José Armando Urioste anunció que la nueva dirección tendrá presencia nacional y departamental.\nThe post Fiscalía creará una unidad de Cibercrimen para investigar audios atribuidos a Cerimedo appeared …",
+      "link": "https://larazon.bo/nacional/2026/10/29/fiscalia-creara-una-unidad-de-cibercrimen-para-investigar-audios-atribuidos-a-cerimedo/",
+      "date": "2026-10-30T03:29:54Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía citará a periodistas a declarar por ‘el pasanaku’ de Mariaca",
-      "desc": "El fiscal Jimmy López señaló que la información que se obtenga permitirá establecer si existen elementos para abrir una investigación.\nThe post Fiscalía citará a periodistas a declarar por &#8216;el p…",
-      "link": "https://larazon.bo/nacional/2026/10/29/fiscalia-citara-a-periodistas-a-declarar-por-el-pasanaku-de-mariaca/",
-      "date": "2026-10-29T21:36:35Z"
+      "title": "Arranca la Fipaz y reúne a 650 expositores hasta el 8 de noviembre",
+      "desc": "La feria internacional se desarrolla en el Campo Ferial Chuquiago Marka, en La Paz, con la participación de ocho países invitados. \nThe post Arranca la Fipaz y reúne a 650 expositores hasta el 8 de no…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/arranca-la-fipaz-y-reune-a-650-expositores-hasta-el-8-de-noviembre/",
+      "date": "2026-10-30T02:55:56Z"
     },
     {
       "source": "El Deber",
-      "title": "Muere Patrick Stewart, actor de la saga de ‘Star Trek’ y ‘X-Men’",
-      "desc": "El intérprete británico tenía 86 años y construyó una trayectoria excepcional entre el teatro clásico y Hollywood, convirtiéndose en uno de los rostros más emblemáticos de la ciencia ficción y el cine…",
-      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/muere-patrick-stewart-actor-saga-star-trek-x-men_1793305851",
-      "date": "2026-10-29T20:30:51Z"
+      "title": "Boris Arias avanza a semifinales de dobles en el Challenger de Guayaquil",
+      "desc": "El boliviano y el uruguayo Ignacio Carou derrotaron por 6-1 y 7-5 a los brasileños Bruno Oliveira y Natan Rodrigues. El partido de Federico Zeballos fue suspendido por lluvia.",
+      "link": "https://eldeber.com.bo/deportes/boris-arias-avanza-semifinales-dobles-challenger-guayaquil_1793325294",
+      "date": "2026-10-30T01:54:54Z"
     },
     {
       "source": "El Deber",
-      "title": "Presidente Rodrigo Paz visitó la tierra del durazno para entregar tanques de almacenamiento de agua",
-      "desc": "El Jefe de Estado habló de las leyes de minería e hidrocarburos como los instrumentos legales para generar condiciones en la producción y el desarrollo económico en un departamento de Tarija",
-      "link": "https://eldeber.com.bo/tarija/presidente-rodrigo-paz-visito-tierra-durazno-entregar-tanques-almacenamiento-agua_1793305787",
-      "date": "2026-10-29T20:29:47Z"
+      "title": "Gobierno acusa a los hermanos Torrico de conspiración y los vincula con el evismo",
+      "desc": "La hermana de los aprehendidos dijo que su padre era minero y que perdieron su cooperativa. Relató que los explosivos que encontró la Policía están en su casa desde hace muchos años",
+      "link": "https://eldeber.com.bo/pais/gobierno-acusa-hermanos-torrico-conspiracion-vincula-evismo_1793324704",
+      "date": "2026-10-30T01:45:04Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Binance denuncia un ataque informático y suspende retiros de su plataforma",
+      "desc": "La famosa casa de cambio de divisas digitales asegura que los fondos de los usuarios están seguros",
+      "link": "https://eldeber.com.bo/economia/binance-denuncia-ataque-informatico-suspende-retiros-plataforma_1793323206",
+      "date": "2026-10-30T01:20:06Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Presidente de Bolivia ratifica que irá a la Cumbre Iberoamericana y anuncia viaje a COP31",
+      "desc": "Paz dijo a los medios en la región sureña de Tarija que próximamente viajará a España para asistir a la Cumbre Iberoamericana, que se desarrollará el 4 y 5 de noviembre.",
+      "link": "https://eldeber.com.bo/pais/presidente-bolivia-ratifica-ira-cumbre-iberoamericana-anuncia-viaje-cop31_1793321890",
+      "date": "2026-10-30T00:58:10Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Concejo aprueba Ley de Alivio Tributario ante el rechazo de Dockweiler",
+      "desc": "La norma plantea condonar el 100% de deudas tributarias de inmuebles, vehículos y patentes correspondientes a 2017 y gestiones anteriores.\nThe post Concejo aprueba Ley de Alivio Tributario ante el rec…",
+      "link": "https://larazon.bo/ciudades/2026/10/29/concejo-aprueba-ley-de-alivio-tributario-ante-el-rechazo-de-dockweiler/",
+      "date": "2026-10-29T23:37:58Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Los gráficos que muestran cómo ha cambiado la migración en EE.UU. en la era Trump",
+      "desc": "Cuando en 2015 bajó la escalera mecánica dorada de la Torre Trump para anunciar la candidatura que le llevaría a su primer mandato presidencial, acusó a México de enviar drogas y delincuencia a Estado…",
+      "link": "https://eldeber.com.bo/bbc/graficos-muestran-ha-cambiado-migracion-ee-uu-era-trump_1793283592",
+      "date": "2026-10-29T14:19:52Z"
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia - Red Uno",
-      "desc": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU1Y4YzVKQUF6bHRaeTdTRkdJUGRlUC1Ebk54bGJPMWJTeTgxMU9MWFhjN3BaRmd4QnlteGxWMGdIbzVFdWRZNjkzZ2NGMFZRSkpzbmJqc2FmanZreXlRdVhRNEtCZWtUZVpqRW9iZFl6RVpjeGVZQi04NEFoSkNnbkFlREhjemJFTEt5YmtZTFJmZHNGcVdFS3k1czBURm1PY0Q5UnNKRkhrOG9tNWZhSktDWkNsQmNDSFJ4Snh1SWwtTGNGcmJwdERDVktiRDNkRU9IWlF6MA?oc=5",
-      "date": "2026-10-29T17:14:36Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
-      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
-      "date": "2026-10-28T06:51:26Z"
+      "title": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde - Red Uno",
+      "desc": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRkZDQ0NYdXNCV1NSTHk1MzZTYW9WM3A4RlBnRy15dE5NWno0TEZHN0FDZjdibEN0UENITHlfTWpuR2tSOGoxeXdkX1FoZGowX21MRVJWZ1RJR1BhWHBzYXpheFYxbmVNTkVHNC1kSFZpcUx6VGdZRE1tekNvSXdyWnpDbFRhTl9KU1hzcTBxVVJCdTFHUDhVdU1sd1A1ZWgwOUs3THVtVUJRN2wzYXdxVEp2YlNVUTNtTG5fcGl0S3NYOVVTYWdVU3J2N3hsOE1mWG15b1B5RmlWT0lGbms4MWhRWnM?oc=5",
+      "date": "2026-10-28T16:55:46Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -196,20 +203,6 @@
       "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
       "date": "2026-10-13T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
-      "date": "2026-10-13T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026 - Clarin.com",
-      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026&nbsp;&nbsp;Clarin.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdFotY2xzelRQc0ZJblRlVE9kUmhNWHBqNVRjTl9tRVUwM0l3cW4ybU5XSnI4cWs3ZVpyMlZ6RzdveVdKMmh4ZnpLTHBtaEVEbXV0eUVaLWNWY0JFUjN1V0ZNS19UUUhDY1lqQzJndGF2ek1SVF9valdpUlpWUHQyYjVLZmFpV3ZGVG1ZNjdDRVZDcXZBSUFlY0I2MjNOdkJNdlh6VFdMMVRqLVRoeGlJNVVFdVdhcEQ0Z2p4dzcxRHZQWXdYRVJnbENJbk41MWdJOGxR0gHYAUFVX3lxTE03blBrcU1SbFc3N1dKUll4NnRtWkI3aVZyRVMzd0NGV3lvSDY1Mk44QkZEMUZDUWZaMGstM2NMdm83Nm9rZUNzTndWdFJzalptVW5PU3BEY2VqV042SEhMRGN5Zi0wXzlSUUVwZHF0NkpuY1I4MTVfVzBrOTFZeS1KTnVqZWxxT0JVbU5rTlJEaWUyVVNMRWVCaXhiNzJtN0ZrWmZyeTFjYmVCdFFOX3pOOEhlVldpMl9oZWtRbnpack82TUdFLVVFQmo1UlJQTDZVbXo5dlF6eg?oc=5",
-      "date": "2026-10-10T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -238,13 +231,6 @@
       "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
       "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
-      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
-      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -280,13 +266,27 @@
       "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
       "date": "2026-09-07T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.25,
-    "sellTomorrow": 12.28,
-    "changeBuy": 0.09,
-    "changeSell": 0.09,
+    "buyTomorrow": 12.19,
+    "sellTomorrow": 12.23,
+    "changeBuy": 0.15,
+    "changeSell": 0.12,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4276,6 +4276,11 @@
       "date": "2026-10-29",
       "buy": 12.16,
       "sell": 12.19
+    },
+    {
+      "date": "2026-10-30",
+      "buy": 12.04,
+      "sell": 12.11
     }
   ]
 }
