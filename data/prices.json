@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-10-30T04:40:13Z",
+  "lastUpdated": "2026-10-30T17:27:47Z",
   "displayDate": "viernes 30 de octubre, 2026",
   "binance": {
-    "buy": 12.04,
-    "sell": 12.11,
+    "buy": 11.96,
+    "sell": 12.02,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.18,
-    "sell": 12.04,
+    "buy": 12.13,
+    "sell": 12.02,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.42,
-    "sell": 11.98,
+    "sell": 11.97,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.26,
-    "sell": 11.89,
+    "buy": 12.17,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.19,
-    "sell": 12.15,
+    "buy": 12.13,
+    "sell": 12.1,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.35,
-    "sell": 11.95,
+    "buy": 12.26,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.11,
     "officialSell": 12.11,
-    "referentialBuy": 12.04,
-    "referentialSell": 12.11,
+    "referentialBuy": 11.96,
+    "referentialSell": 12.02,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-30T04:40:06Z"
+    "fetchedAt": "2026-10-30T17:27:41Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.82,
-      "sell": 12.42
+      "buy": 11.81,
+      "sell": 12.41
     },
     {
       "name": "BCP",
@@ -72,7 +72,7 @@
     {
       "name": "Banco Bisa",
       "buy": 11.41,
-      "sell": 12.24
+      "sell": 12.25
     },
     {
       "name": "Banco FIE",
@@ -91,13 +91,13 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.91,
-      "sell": 12.62
+      "buy": 10.9,
+      "sell": 12.61
     },
     {
       "name": "Banco Unión",
-      "buy": 10.62,
-      "sell": 12.42
+      "buy": 10.61,
+      "sell": 12.41
     },
     {
       "name": "Banco Ganadero",
@@ -108,80 +108,87 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Más de $us 2.500 MM congelados tras hackeo a plataforma de criptomonedas Binance",
-      "desc": "La empresa indicó que había suspendido el comercio de ciertos productos.\nThe post Más de $us 2.500 MM congelados tras hackeo a plataforma de criptomonedas Binance appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/10/30/mas-de-us-2-500-mm-congelados-tras-hackeo-a-plataforma-de-criptomonedas-binance/",
-      "date": "2026-10-30T04:21:12Z"
+      "title": "Con la ruta por confirmar, la ACFO garantiza el Primer Convite",
+      "desc": "Programado para el 8 de noviembre, el Primer Convite da inicio de manera oficial a las actividades rumbo al Carnaval de Oruro 2027.\nThe post Con la ruta por confirmar, la ACFO garantiza el Primer Conv…",
+      "link": "https://larazon.bo/la-revista/2026/10/30/con-la-ruta-por-confirmar-la-acfo-garantiza-el-primer-convite/",
+      "date": "2026-10-30T17:26:47Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía verificará si el uso de vehículos incautados a Marset fue legal",
-      "desc": "La Fiscalía investigará si la utilización de vehículos de alta gama incautados en el operativo de captura del narcotraficante Sebastián Marset \nThe post Fiscalía verificará si el uso de vehículos inca…",
-      "link": "https://larazon.bo/nacional/2026/10/29/fiscalia-verificara-si-el-uso-de-vehiculos-incautados-a-marset-fue-legal/",
-      "date": "2026-10-30T03:42:37Z"
+      "title": "BCB adelanta para el 5 de noviembre la devolución de $us 333 MM a ahorristas",
+      "desc": "El ente emisor aclaró que la devolución será para los hogares que mantienen depósitos de entre $us 10.001 y $us 50.000\nThe post BCB adelanta para el 5 de noviembre la devolución de $us 333 MM a ahorri…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/30/bcb-adelanta-para-el-5-de-noviembre-la-devolucion-de-us-333-mm-a-ahorristas/",
+      "date": "2026-10-30T17:09:50Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía creará una unidad de Cibercrimen para investigar audios atribuidos a Cerimedo",
-      "desc": "José Armando Urioste anunció que la nueva dirección tendrá presencia nacional y departamental.\nThe post Fiscalía creará una unidad de Cibercrimen para investigar audios atribuidos a Cerimedo appeared …",
-      "link": "https://larazon.bo/nacional/2026/10/29/fiscalia-creara-una-unidad-de-cibercrimen-para-investigar-audios-atribuidos-a-cerimedo/",
-      "date": "2026-10-30T03:29:54Z"
+      "title": "Llega a Bolivia la IV Misión Comercial Industria del Perú",
+      "desc": "PromPerú organiza la misión que tendrá ruedas de negocios en Cochabamba, Santa Cruz y La Paz. Habrá visitas técnicas y comerciales a operaciones mineras de Uyuni, Tupiza, Potosí, Oruro y Coro Coro.\nTh…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/30/llega-a-bolivia-la-iv-mision-comercial-industria-del-peru/",
+      "date": "2026-10-30T16:31:52Z"
     },
     {
       "source": "La Razón",
-      "title": "Arranca la Fipaz y reúne a 650 expositores hasta el 8 de noviembre",
-      "desc": "La feria internacional se desarrolla en el Campo Ferial Chuquiago Marka, en La Paz, con la participación de ocho países invitados. \nThe post Arranca la Fipaz y reúne a 650 expositores hasta el 8 de no…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/10/29/arranca-la-fipaz-y-reune-a-650-expositores-hasta-el-8-de-noviembre/",
-      "date": "2026-10-30T02:55:56Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Boris Arias avanza a semifinales de dobles en el Challenger de Guayaquil",
-      "desc": "El boliviano y el uruguayo Ignacio Carou derrotaron por 6-1 y 7-5 a los brasileños Bruno Oliveira y Natan Rodrigues. El partido de Federico Zeballos fue suspendido por lluvia.",
-      "link": "https://eldeber.com.bo/deportes/boris-arias-avanza-semifinales-dobles-challenger-guayaquil_1793325294",
-      "date": "2026-10-30T01:54:54Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Gobierno acusa a los hermanos Torrico de conspiración y los vincula con el evismo",
-      "desc": "La hermana de los aprehendidos dijo que su padre era minero y que perdieron su cooperativa. Relató que los explosivos que encontró la Policía están en su casa desde hace muchos años",
-      "link": "https://eldeber.com.bo/pais/gobierno-acusa-hermanos-torrico-conspiracion-vincula-evismo_1793324704",
-      "date": "2026-10-30T01:45:04Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Binance denuncia un ataque informático y suspende retiros de su plataforma",
-      "desc": "La famosa casa de cambio de divisas digitales asegura que los fondos de los usuarios están seguros",
-      "link": "https://eldeber.com.bo/economia/binance-denuncia-ataque-informatico-suspende-retiros-plataforma_1793323206",
-      "date": "2026-10-30T01:20:06Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Presidente de Bolivia ratifica que irá a la Cumbre Iberoamericana y anuncia viaje a COP31",
-      "desc": "Paz dijo a los medios en la región sureña de Tarija que próximamente viajará a España para asistir a la Cumbre Iberoamericana, que se desarrollará el 4 y 5 de noviembre.",
-      "link": "https://eldeber.com.bo/pais/presidente-bolivia-ratifica-ira-cumbre-iberoamericana-anuncia-viaje-cop31_1793321890",
-      "date": "2026-10-30T00:58:10Z"
+      "title": "Código minero: Sector aurífero plantea seguridad jurídica para atraer inversiones",
+      "desc": "La seguridad jurídica, la generación de empleo y el cumplimiento de las normas ambientales y sociales figuran entre los aspectos que debe contemplar la nueva normativa minera para atraer inversiones y…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/30/codigo-minero-sector-aurifero-plantea-seguridad-juridica-para-atraer-inversiones/",
+      "date": "2026-10-30T16:30:24Z"
     },
     {
       "source": "La Razón",
-      "title": "Concejo aprueba Ley de Alivio Tributario ante el rechazo de Dockweiler",
-      "desc": "La norma plantea condonar el 100% de deudas tributarias de inmuebles, vehículos y patentes correspondientes a 2017 y gestiones anteriores.\nThe post Concejo aprueba Ley de Alivio Tributario ante el rec…",
-      "link": "https://larazon.bo/ciudades/2026/10/29/concejo-aprueba-ley-de-alivio-tributario-ante-el-rechazo-de-dockweiler/",
-      "date": "2026-10-29T23:37:58Z"
+      "title": "Gobierno abre la puerta a importar gas para privados ante riesgos de crisis energética",
+      "desc": "Marcelo Blanco explicó que esta alternativa busca anticiparse a un eventual déficit de producción nacional y garantizar el suministro a las industrias\nThe post Gobierno abre la puerta a importar gas p…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/10/30/gobierno-abre-la-puerta-a-importar-gas-para-privados-ante-riesgos-de-crisis-energetica/",
+      "date": "2026-10-30T16:16:57Z"
     },
     {
       "source": "El Deber",
-      "title": "Los gráficos que muestran cómo ha cambiado la migración en EE.UU. en la era Trump",
-      "desc": "Cuando en 2015 bajó la escalera mecánica dorada de la Torre Trump para anunciar la candidatura que le llevaría a su primer mandato presidencial, acusó a México de enviar drogas y delincuencia a Estado…",
-      "link": "https://eldeber.com.bo/bbc/graficos-muestran-ha-cambiado-migracion-ee-uu-era-trump_1793283592",
-      "date": "2026-10-29T14:19:52Z"
+      "title": "Caso radares: Edmundo Novillo es sometido a una audiencia de medidas cautelares",
+      "desc": "El exministro insiste en que es inocente, mientras la Fiscalía pide su encarcelamiento preventivo",
+      "link": "https://eldeber.com.bo/pais/edmundo-novillo-sometido-audiencia-medidas-cautelares_1793374961",
+      "date": "2026-10-30T15:42:41Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El Banco Mundial prevé que Bolivia seguirá en recesión hasta 2027",
+      "desc": "El organismo proyecta una caída del PIB del 2,8% este año y del 1,4% en 2027. Bolivia registra el peor pronóstico de 2026 entre las economías del informe, mientras sus vecinos mantienen perspectivas d…",
+      "link": "https://eldeber.com.bo/pais/banco-mundial-preve-bolivia-seguira-recesion-2027_1793374345",
+      "date": "2026-10-30T15:32:25Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Francia: Seguridad \"amplificada\" para la movilización del sábado en medio de denuncias por represión",
+      "desc": "Este sábado se permitirán concentraciones, \"pero no en los centros urbanos\": tendrán lugar \"en zonas periféricas\", confirmó Nuñez el 24 de octubre. En París, las propuestas de la CGT y los chalecos am…",
+      "link": "https://eldeber.com.bo/rfi/francia-seguridad-amplificada-movilizacion-sabado-medio-denuncias-represion_1793374255",
+      "date": "2026-10-30T15:30:55Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Rusia: el diario opositor “Nóvaya Gazeta” anuncia su cierre bajo la presión de las autoridades",
+      "desc": "En abril, la redacción fue registrada y un periodista fue detenido. En septiembre, el periódico fue incluido en la lista de “agentes extranjeros”. El 15 de octubre, el redactor jefe, Serguéi Sokolov, …",
+      "link": "https://eldeber.com.bo/rfi/rusia-diario-opositor-novaya-gazeta-anuncia-cierre-presion-autoridades_1793365693",
+      "date": "2026-10-30T13:08:13Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Italia: estudiantes y trabajadores marchan contra la \"economía de guerra\" de Meloni",
+      "desc": "El verdadero temor del Gobierno es la violencia que Italia conoció la semana pasada con protestas que nacían pacíficas y por culpa de una minoría de extremistas y delincuentes terminaban destrozando a…",
+      "link": "https://eldeber.com.bo/rfi/italia-estudiantes-trabajadores-marchan-economia-guerra-meloni_1793360093",
+      "date": "2026-10-30T11:34:53Z"
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde - Red Uno",
-      "desc": "¡Atención! Dólar paralelo en Bolivia: estas son las cotizaciones reportadas este miércoles por la tarde&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRkZDQ0NYdXNCV1NSTHk1MzZTYW9WM3A4RlBnRy15dE5NWno0TEZHN0FDZjdibEN0UENITHlfTWpuR2tSOGoxeXdkX1FoZGowX21MRVJWZ1RJR1BhWHBzYXpheFYxbmVNTkVHNC1kSFZpcUx6VGdZRE1tekNvSXdyWnpDbFRhTl9KU1hzcTBxVVJCdTFHUDhVdU1sd1A1ZWgwOUs3THVtVUJRN2wzYXdxVEp2YlNVUTNtTG5fcGl0S3NYOVVTYWdVU3J2N3hsOE1mWG15b1B5RmlWT0lGbms4MWhRWnM?oc=5",
-      "date": "2026-10-28T16:55:46Z"
+      "title": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia - Red Uno",
+      "desc": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU1Y4YzVKQUF6bHRaeTdTRkdJUGRlUC1Ebk54bGJPMWJTeTgxMU9MWFhjN3BaRmd4QnlteGxWMGdIbzVFdWRZNjkzZ2NGMFZRSkpzbmJqc2FmanZreXlRdVhRNEtCZWtUZVpqRW9iZFl6RVpjeGVZQi04NEFoSkNnbkFlREhjemJFTEt5YmtZTFJmZHNGcVdFS3k1czBURm1PY0Q5UnNKRkhrOG9tNWZhSktDWkNsQmNDSFJ4Snh1SWwtTGNGcmJwdERDVktiRDNkRU9IWlF6MA?oc=5",
+      "date": "2026-10-29T17:14:36Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
+      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
+      "date": "2026-10-29T04:25:21Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -205,17 +212,24 @@
       "date": "2026-10-13T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - ABI - Agencia Boliviana de Información",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGt1MGZHTHhJZFdRS1BDZkwyQzJZUzJQVWNxV3VKZW93d1U4eU5YYXctRlNEbkloUDd0YmN3X1RCc2x5Q2VmZWxVOEVCZXlWUUo4bUFlRnFDYk52UDZseGY4eFZxWG5YZXZobm5sV1cxQVN6VzVYc0w3emw4ZXdvMzhPSlBZbF9nSjI2eGRpaFVIZklPak5OVU04WXI?oc=5",
-      "date": "2026-10-09T16:51:29Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026 - Clarin.com",
+      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026&nbsp;&nbsp;Clarin.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdFotY2xzelRQc0ZJblRlVE9kUmhNWHBqNVRjTl9tRVUwM0l3cW4ybU5XSnI4cWs3ZVpyMlZ6RzdveVdKMmh4ZnpLTHBtaEVEbXV0eUVaLWNWY0JFUjN1V0ZNS19UUUhDY1lqQzJndGF2ek1SVF9valdpUlpWUHQyYjVLZmFpV3ZGVG1ZNjdDRVZDcXZBSUFlY0I2MjNOdkJNdlh6VFdMMVRqLVRoeGlJNVVFdVdhcEQ0Z2p4dzcxRHZQWXdYRVJnbENJbk41MWdJOGxR0gHYAUFVX3lxTE03blBrcU1SbFc3N1dKUll4NnRtWkI3aVZyRVMzd0NGV3lvSDY1Mk44QkZEMUZDUWZaMGstM2NMdm83Nm9rZUNzTndWdFJzalptVW5PU3BEY2VqV042SEhMRGN5Zi0wXzlSUUVwZHF0NkpuY1I4MTVfVzBrOTFZeS1KTnVqZWxxT0JVbU5rTlJEaWUyVVNMRWVCaXhiNzJtN0ZrWmZyeTFjYmVCdFFOX3pOOEhlVldpMl9oZWtRbnpack82TUdFLVVFQmo1UlJQTDZVbXo5dlF6eg?oc=5",
+      "date": "2026-10-10T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
       "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
+      "date": "2026-10-09T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
+      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
       "date": "2026-10-09T07:00:00Z"
     },
     {
@@ -226,24 +240,17 @@
       "date": "2026-10-08T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
-      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
-      "date": "2026-10-06T07:00:00Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
+      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles - Opinión Bolivia",
-      "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
       "date": "2026-10-05T07:00:00Z"
     },
     {
@@ -261,11 +268,11 @@
       "date": "2026-09-21T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB dispone medidas para reducir la presión sobre el mercado de dólares - Erbol |",
-      "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
-      "date": "2026-09-07T07:00:00Z"
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI - DW.com",
+      "desc": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI&nbsp;&nbsp;DW.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhIZDB0MmJmbmZscmFwS25tY0NHTHRudGF2czVkZDhYR05NNlFRcDdCMksyRm16RGJ4cVhJOVJORTVtZGJ1WGw2QnBIQTNyMXExLUJyZXB6X3hVTWRNMVVvcDM0OFhpM1pXZlpGY2hZVF9yZktqaW9xOTJTc2FrYWplNzdxUWppVmtXZURNVHdPaFV6X0hCQVlaY9IBmwFBVV95cUxOSUV0ZUVxNlBiaHFPOGhoWndFQkpaN25pS20tSXlvc2p4RFhoOEpKRDlLY2E3Z1ZnLXlFVmdpc1NVRUJjOWk4NW43ZkRKTEVwR0d6WFhhRlNCMklJdjBNZnVtelJEUFIwcG4xYTN4anlwRVY0UE43ajdMR25BME11MzFRMlFUbzFyWkp1SFNBU1ZiYU4tTHNMX0lROA?oc=5",
+      "date": "2026-09-19T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -273,20 +280,13 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
-      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.19,
-    "sellTomorrow": 12.23,
-    "changeBuy": 0.15,
-    "changeSell": 0.12,
+    "buyTomorrow": 12.14,
+    "sellTomorrow": 12.18,
+    "changeBuy": 0.18,
+    "changeSell": 0.16,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4279,8 +4279,8 @@
     },
     {
       "date": "2026-10-30",
-      "buy": 12.04,
-      "sell": 12.11
+      "buy": 11.96,
+      "sell": 12.02
     }
   ]
 }
