@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-31T01:14:37Z",
-  "displayDate": "viernes 30 de octubre, 2026",
+  "lastUpdated": "2026-10-31T04:24:56Z",
+  "displayDate": "sabado 31 de octubre, 2026",
   "binance": {
-    "buy": 11.93,
-    "sell": 11.98,
+    "buy": 11.94,
+    "sell": 12.0,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.09,
-    "sell": 11.85,
+    "buy": 12.1,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -20,8 +20,8 @@
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.14,
-    "sell": 11.79,
+    "buy": 12.15,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.08,
+    "buy": 12.1,
     "sell": 12.04,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.06,
-    "sell": 11.8,
+    "buy": 12.07,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 12.11,
-    "officialSell": 12.11,
-    "referentialBuy": 11.93,
-    "referentialSell": 11.98,
+    "officialBuy": 12.09,
+    "officialSell": 12.09,
+    "referentialBuy": 11.94,
+    "referentialSell": 12.0,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-10-31T01:14:31Z"
+    "fetchedAt": "2026-10-31T04:24:08Z"
   },
   "banks": [
     {
@@ -102,10 +102,38 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.41
+      "sell": 12.39
     }
   ],
   "news": [
+    {
+      "source": "La Razón",
+      "title": "El cambio de régimen cambiario: otra cosa es con guitarra",
+      "desc": "En junio de 2026 Bolivia dejó atrás el régimen de tipo de cambio administrado por el Banco Central, que había estado vigente por cuatro décadas y que estuvo fijo en Bs 6,96 desde 2011. Esta era, quizá…",
+      "link": "https://larazon.bo/voces/2026/10/31/el-cambio-de-regimen-cambiario-otra-cosa-es-con-guitarra/",
+      "date": "2026-10-31T04:06:40Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Un Nobel para entender la economía",
+      "desc": "Los economistas estadounidenses Robert E. Hall y Michael Woodford recibieron el Premio Nobel de Ciencias Económicas de 2026 por desarrollar modelos que explican cómo las decisiones de hogares y empres…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/10/31/un-nobel-para-entender-la-economia/",
+      "date": "2026-10-31T04:05:18Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Oriente deja escapar la oportunidad de subir al cuarto puesto",
+      "desc": "El equipo refinero empató 1-1 ante Aurora en el Tahuichi y no pudo aprovechar el tropiezo de Real Potosí para escalar en la tabla.",
+      "link": "https://eldeber.com.bo/deportes/oriente-deja-escapar-oportunidad-subir-cuarto-puesto_1793413013",
+      "date": "2026-10-31T02:21:49Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Los sectores de infraestructura y agropecuario serán los mayores beneficiarios con la inversión pública del PGE 2027",
+      "desc": "Este viernes, el Ejecutivo Nacional presentó el Presupuesto General del Estado 2027 ante la Asamblea Legislativa Plurinacional",
+      "link": "https://eldeber.com.bo/economia/sectores-infraestructura-agropecuario-seran-mayores-beneficiarios-inversion-publica-pge-2027_1793412058",
+      "date": "2026-10-31T02:00:58Z"
+    },
     {
       "source": "La Razón",
       "title": "Ministros presentarán informes de gestión por 12 días desde el 9 de noviembre",
@@ -147,146 +175,13 @@
       "desc": "El ministro de Economía explicó este viernes que el documento mantiene los criterios presupuestarios vigentes mientras el Gobierno avanza en la construcción de esa propuesta\nThe post PGE 2027 no incor…",
       "link": "https://larazon.bo/economia-y-empresa/2026/10/30/pge-2027-no-incorpora-el-modelo-50-50-porque-el-gobierno-aun-trabaja-en-su-construccion/",
       "date": "2026-10-30T22:47:29Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "La Paz: un accidente deja un muerto en Pongo en los Yungas",
-      "desc": "El camión se dirigía hacia el municipio de Irupana\nThe post La Paz: un accidente deja un muerto en Pongo en los Yungas appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/30/la-paz-un-accidente-deja-un-muerto-en-pongo-en-los-yungas/",
-      "date": "2026-10-30T22:27:32Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Envían a Palmasola por 180 días a acusado del asesinato de un librecambista en el primer anillo",
-      "desc": "El asesinato del librecambista se registró el jueves 24 de septiembre, en la intersección de las avenidas Argentina e Irala, en el primer anillo de la capital cruceña",
-      "link": "https://eldeber.com.bo/santa-cruz/envian-palmasola-180-dias-acusado-asesinato-librecambista-primer-anillo_1793398926",
-      "date": "2026-10-30T22:22:06Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "ABC habilita el paso vehicular en la ruta a los valles cruceños",
-      "desc": "El paso estará habilitado  del sábado 31 de octubre hasta el lunes 2 de noviembre\nThe post ABC habilita el paso vehicular en la ruta a los valles cruceños appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/10/30/abc-habilita-el-paso-vehicular-en-la-ruta-a-los-valles-crucenos/",
-      "date": "2026-10-30T22:18:52Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Una memoria externa destapó un caso de violencia sexual contra tres niñas",
-      "desc": "La Fiscalía informó que el padrastro y la madre de las menores, de cuatro, seis y nueve años, fueron aprehendidos e imputados. El principal sospechoso tenía una denuncia previa por abuso sexual y habí…",
-      "link": "https://eldeber.com.bo/santa-cruz/memoria-externa-destapo-caso-violencia-sexual-tres-ninas_1793396625",
-      "date": "2026-10-30T21:43:45Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "El Ministerio de Economía dispone respetar el tipo de cambio de Bs 6,96 en contratos anteriores al 26 de junio - El País Tarija",
-      "desc": "El Ministerio de Economía dispone respetar el tipo de cambio de Bs 6,96 en contratos anteriores al 26 de junio&nbsp;&nbsp;El País Tarija",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSWdrbGgya0I0d2tUM283Q0RaWGJfbmZEWFplNnR6WlR0Q1N0OXo1WmtWUG9DSUVDNDY4Zk9ENXJnWDF4SUFVckdoSzlYT1J6UE9fTUxwVWRTaW56RllFRHEyYklpWHBsZGE4dW92R2N2WFZCMUpDRURBM3JrSWpGUml4YWM1bnVPdHEtYTVXMDZsV0RGUUgxc0xITXpGcVp2bjNVSTlJbjRFbGZzcFhmdTd5dF9DTERJMmx6NnJYbWlMZDEzVlVzcDdUMFVTM0IwR2t3YkIwbEJTTllIQ0pBYnZJT3Njdw?oc=5",
-      "date": "2026-10-30T17:00:27Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia - Red Uno",
-      "desc": "¡Atención! El dólar paralelo registra diferencias en sus precios de compra y venta en Bolivia&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU1Y4YzVKQUF6bHRaeTdTRkdJUGRlUC1Ebk54bGJPMWJTeTgxMU9MWFhjN3BaRmd4QnlteGxWMGdIbzVFdWRZNjkzZ2NGMFZRSkpzbmJqc2FmanZreXlRdVhRNEtCZWtUZVpqRW9iZFl6RVpjeGVZQi04NEFoSkNnbkFlREhjemJFTEt5YmtZTFJmZHNGcVdFS3k1czBURm1PY0Q5UnNKRkhrOG9tNWZhSktDWkNsQmNDSFJ4Snh1SWwtTGNGcmJwdERDVktiRDNkRU9IWlF6MA?oc=5",
-      "date": "2026-10-29T17:14:36Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
-      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
-      "date": "2026-10-29T04:25:21Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: cotización de apertura del 28 de octubre - Infobae",
-      "desc": "Dólar hoy en Bolivia: cotización de apertura del 28 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0ExSXVGS3F3LXJHS21sOThlQWljdEhDVG9vRGlOYXF2V0ZjeHdJeUVGWl9COVpNX29jYWlmblJsV21nWDRsZV94SVV3c0Jyb3VoYzZFN21HTXZBb0dIWjl2WnRqanItclJlN3Q1b21mRy13Z1JweE0yVUcxaFVSbmFLOEhkcjlhYXBSZDh2NGpCd3N4ZWZ4UHhqb2NSMG15QnNPOFlYb2trZ9IBxAFBVV95cUxPM0Z2ekFKWGcyV3ZpQ09JNjVpcElaNjVYeXF3Yi1rRENzN2oyUjJVVGEtY0QxM0hDNnRrVGJNUU1uM2dCNUhKbExKX242Rmhhc1lITW5MNGQ3QnN3clJiSkhtZGptTUM4d0E3YUpjSW5kZElCVk15ckNIMVc1ZVlQTUtGbzRqUHMxNkJ4Q21SMDJHeEZ6VVE0emdzWC1HSHNicXZCSGcwNW9GcFFxOU9qR2VHU3V3ZnRISXJLQ0w0Vnk5RG1E?oc=5",
-      "date": "2026-10-28T13:17:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
-      "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
-      "date": "2026-10-14T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
-      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
-      "date": "2026-10-13T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026 - Clarin.com",
-      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026&nbsp;&nbsp;Clarin.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdFotY2xzelRQc0ZJblRlVE9kUmhNWHBqNVRjTl9tRVUwM0l3cW4ybU5XSnI4cWs3ZVpyMlZ6RzdveVdKMmh4ZnpLTHBtaEVEbXV0eUVaLWNWY0JFUjN1V0ZNS19UUUhDY1lqQzJndGF2ek1SVF9valdpUlpWUHQyYjVLZmFpV3ZGVG1ZNjdDRVZDcXZBSUFlY0I2MjNOdkJNdlh6VFdMMVRqLVRoeGlJNVVFdVdhcEQ0Z2p4dzcxRHZQWXdYRVJnbENJbk41MWdJOGxR0gHYAUFVX3lxTE03blBrcU1SbFc3N1dKUll4NnRtWkI3aVZyRVMzd0NGV3lvSDY1Mk44QkZEMUZDUWZaMGstM2NMdm83Nm9rZUNzTndWdFJzalptVW5PU3BEY2VqV042SEhMRGN5Zi0wXzlSUUVwZHF0NkpuY1I4MTVfVzBrOTFZeS1KTnVqZWxxT0JVbU5rTlJEaWUyVVNMRWVCaXhiNzJtN0ZrWmZyeTFjYmVCdFFOX3pOOEhlVldpMl9oZWtRbnpack82TUdFLVVFQmo1UlJQTDZVbXo5dlF6eg?oc=5",
-      "date": "2026-10-10T07:00:00Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
-      "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
-      "date": "2026-10-09T07:00:00Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
-      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
-      "date": "2026-10-09T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
-      "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
-      "date": "2026-10-08T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
-      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
-      "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial - Urgentebo",
-      "desc": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial&nbsp;&nbsp;Urgentebo",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZW1lZFB2TDNxRmkzTWcwWVdyRnpfNWFpdllXVU5VNlhLV0lLMkVYVGo3SVRCYUxRYWZ0QVBRRXc3WnVjMExGa0k1dWllSjA2UW9PU2dvT09rMlJ1dkVydExFRi1wdkNmSUdxTVpuOTRaNnVaMzk0ZVByQ3dqc3Q1OVhWdVVYYUlDcXpaV3dWTUxOY192T0VxSWhTel9iazVlaW9ZSEN0ZlBfWll3YVh1Z1NxbFBBeF9KTF84?oc=5",
-      "date": "2026-10-06T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
-      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
-      "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
-      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
-      "date": "2026-09-21T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.12,
-    "sellTomorrow": 12.16,
-    "changeBuy": 0.19,
-    "changeSell": 0.18,
+    "buyTomorrow": 12.01,
+    "sellTomorrow": 12.05,
+    "changeBuy": 0.07,
+    "changeSell": 0.05,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4281,6 +4176,11 @@
       "date": "2026-10-30",
       "buy": 11.93,
       "sell": 11.98
+    },
+    {
+      "date": "2026-10-31",
+      "buy": 11.94,
+      "sell": 12.0
     }
   ]
 }
