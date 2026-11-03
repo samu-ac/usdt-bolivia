@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-02T21:04:43Z",
+  "lastUpdated": "2026-11-03T03:09:56Z",
   "displayDate": "lunes 2 de noviembre, 2026",
   "binance": {
-    "buy": 11.96,
-    "sell": 12.0,
+    "buy": 11.98,
+    "sell": 12.04,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.06,
-    "sell": 11.88,
+    "buy": 12.07,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -20,8 +20,8 @@
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.16,
-    "sell": 11.81,
+    "buy": 12.19,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.0,
-    "sell": 11.98,
+    "buy": 12.02,
+    "sell": 12.01,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.26,
-    "sell": 11.9,
+    "buy": 12.25,
+    "sell": 11.92,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.09,
     "officialSell": 12.09,
-    "referentialBuy": 11.96,
-    "referentialSell": 12.0,
+    "referentialBuy": 11.98,
+    "referentialSell": 12.04,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-02T21:04:36Z"
+    "fetchedAt": "2026-11-03T03:09:50Z"
   },
   "banks": [
     {
@@ -107,74 +107,60 @@
   ],
   "news": [
     {
+      "source": "El Deber",
+      "title": "Gastronomía cruceña factura unos Bs 2.000 millones y busca crecer con el turismo",
+      "desc": "La facturación de los restaurantes aumentó un 76% entre 2020 y 2024. La Cámara Gastronómica reúne a unas 280 marcas y apuesta por los feriados largos, la capacitación y la expansión hacia destinos com…",
+      "link": "https://eldeber.com.bo/economia/gastronomia-crucena-factura-bs-2-000-millones-busca-crecer-turismo_1793674085",
+      "date": "2026-11-03T02:48:05Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Velitas, flores y recuerdos: así se vivió el cierre del Día de los Difuntos en Santa Cruz",
+      "desc": "Cientos de familias llegaron hasta los cementerios municipales para recordar a sus seres queridos. La jornada concluyó a las 21:00 con controles de seguridad y fiscalización del comercio.",
+      "link": "https://eldeber.com.bo/santa-cruz/velitas-flores-recuerdos-asi-vivio-cierre-dia-difuntos-santa-cruz_1793670087",
+      "date": "2026-11-03T01:41:27Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Taiwán recauda $us 160 MM con impuesto al carbono y acelera transición hacia economía verde",
+      "desc": "El país asiático reporta una reducción de 6,59% en sus emisiones netas de gases de efecto invernadero respecto a 2005\nThe post Taiwán recauda $us 160 MM con impuesto al carbono y acelera transición ha…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/02/taiwan-recauda-us-160-mm-con-impuesto-al-carbono-y-acelera-transicion-hacia-economia-verde/",
+      "date": "2026-11-03T00:35:42Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "De la diplomacia a los negocios: el desafío de Paz en la Cumbre de Madrid",
+      "desc": "Rodrigo Paz aprovechará la Cumbre Iberoamericana y el encuentro empresarial para atraer inversiones en hidrocarburos, minería, energía y tecnología. Las reuniones bilaterales serán claves para avanzar…",
+      "link": "https://eldeber.com.bo/economia/diplomacia-negocios-desafio-paz-cumbre-madrid_1793663531",
+      "date": "2026-11-02T23:52:11Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Beni: Fiscalía investiga hallazgo de restos óseos calcinados en una comunidad fronteriza con Brasil",
+      "desc": "Los restos fueron encontrados en una excavación en la comunidad de Nueva Brema, cerca de la frontera con Brasil. La víctima sería un hombre cuyo paradero se desconoce desde el 23 de octubre.",
+      "link": "https://eldeber.com.bo/pais/beni-fiscalia-investiga-hallazgo-restos-oseos-calcinados-comunidad-fronteriza-brasil_1793661710",
+      "date": "2026-11-02T23:22:32Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Cuántos feriados quedan en Bolivia antes de terminar el 2026?",
+      "desc": "Tras el descanso por Todos Santos, el calendario nacional solo contempla una fecha más antes de finalizar el año. Potosí y Beni tendrán sus propios feriados departamentales en noviembre.",
+      "link": "https://eldeber.com.bo/pais/cuantos-feriados-quedan-bolivia-antes-terminar-2026_1793660731",
+      "date": "2026-11-02T23:06:10Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El Diccionario de la lengua española estrena su primera edición nativo digital",
+      "desc": "La directora de la Academia Boliviana de Lengua (ABL), España Villegas, presentó el bolivianismo “amartelo”.\nThe post El Diccionario de la lengua española estrena su primera edición nativo digital app…",
+      "link": "https://larazon.bo/la-revista/2026/11/02/el-diccionario-de-la-lengua-espanola-estrena-su-primera-edicion-digital-nativa/",
+      "date": "2026-11-02T21:13:33Z"
+    },
+    {
       "source": "La Razón",
       "title": "Trump intenta movilizar a los suyos ante sombrías perspectivas en elecciones al Congreso",
       "desc": "Demócratas y republicanos apuraron los últimos mítines de una campaña que costó a ambos partidos al menos 11.000 millones de dólares, y con sorpresas hasta el último momento.\nThe post Trump intenta mo…",
       "link": "https://larazon.bo/mundo/2026/11/02/trump-intenta-movilizar-a-los-suyos-ante-sombrias-perspectivas-en-elecciones-al-congreso/",
       "date": "2026-11-02T20:54:44Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿Dónde tembló en Bolivia? Reportan dos sismos este 2 de noviembre",
-      "desc": "El Observatorio San Calixto informó sobre dos movimientos telúricos registrados este lunes en territorio boliviano.",
-      "link": "https://eldeber.com.bo/pais/donde-temblo-bolivia-reportan-dos-sismos-este-2-noviembre_1793649766",
-      "date": "2026-11-02T20:03:12Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "ANH intensifica controles de GLP y combustibles durante el feriado",
-      "desc": "La entidad supervisó desde las 06:00 el despacho de garrafas en Senkata, verificó estaciones de servicio en Tarija y decomisó más de 240 litros de gasolina transportados irregularmente en Oruro\nThe po…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/02/anh-intensifica-controles-de-glp-y-combustibles-durante-el-feriado/",
-      "date": "2026-11-02T19:50:59Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El MI José Gemy gana por segunda semana al hilo en Bolivia al conquistar el Torneo Nacional",
-      "desc": "Entre sábado y domingo fue el mejor de entre los 52 pensadores que participaron en Santa Cruz, donde hubo una bolsa económica de 6.300 bolivianos",
-      "link": "https://eldeber.com.bo/deportes/jose-gemy-gana-segunda-semana-hilo-bolivia-conquistar-torneo-nacional_1793648822",
-      "date": "2026-11-02T19:47:02Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Hugo Dellien es campeón en el Challenger de Guayaquil",
-      "desc": "El tenista boliviano en la final derrotó al uruguayo Aguilar y sumó su tercer título de la temporada y el número 33 a nivel profesional\nThe post Hugo Dellien es campeón en el Challenger de Guayaquil a…",
-      "link": "https://larazon.bo/marcas/2026/11/02/hugo-dellien-es-campeon-en-el-challenger-de-guayaquil/",
-      "date": "2026-11-02T19:45:50Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Netanyahu pide un ‘gobierno nacional amplio’ bajo su liderazgo",
-      "desc": "Las elecciones del 27 de octubre no arrojaron una mayoría, ni para la coalición de Netanyahu (53 escaños), ni para el bloque opositor liderado por el centrista Gadi Eisenkot (48).\nThe post Netanyahu p…",
-      "link": "https://larazon.bo/mundo/2026/11/02/netanyahu-pide-un-gobierno-nacional-amplio-bajo-su-liderazgo/",
-      "date": "2026-11-02T19:45:41Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Otro ciberataque golpea a supermercados de varios países europeos",
-      "desc": "El pasado 12 de octubre grandes cadenas de distribución francesas anunciaron que cientos de sistemas de refrigeración de sus establecimientos habían sido objeto de un ciberataque\nThe post Otro ciberat…",
-      "link": "https://larazon.bo/mundo/2026/11/02/otro-ciberataque-golpea-a-supermercados-de-varios-paises-europeos/",
-      "date": "2026-11-02T19:40:42Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El canciller Huanca escucha reclamos por falta de personal consular en España",
-      "desc": "Inspeccionó oficinas consulares y comprometió mejoras en la atención a los bolivianos. A casi un año del gobierno de Rodrigo Paz, persisten las vacantes de embajadores y funcionarios del servicio exte…",
-      "link": "https://eldeber.com.bo/pais/cancller-huanca-escucha-reclamos-falta-personal-consular-espana_1793647725",
-      "date": "2026-11-02T19:28:45Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Hugo Dellien es campeón del Challenger de Guayaquil",
-      "desc": "El tenista boliviano conquistó el título en Ecuador tras imponerse por 7-5 en el primer set al uruguayo Joaquín Aguilar Cardozo, quien se retiró por lesión al inicio del segundo parcial.",
-      "link": "https://eldeber.com.bo/deportes/hugo-dellien-campeon-challenger-guayaquil_1793647127",
-      "date": "2026-11-02T19:22:59Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Hombre hallado en el Cordón Ecológico murió por 5 disparos y golpes en la cabeza",
-      "desc": "El examen forense estableció que la víctima sufrió un traumatismo craneoencefálico y lesiones en el pulmón y el hígado. La Fiscalía informó que se encontraron cinco impactos de bala en el cuerpo",
-      "link": "https://eldeber.com.bo/santa-cruz/hombre-hallado-cordon-ecologico-murio-5-disparos-golpes-cabeza_1793643507",
-      "date": "2026-11-02T18:18:27Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -185,24 +171,17 @@
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
-      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
-      "date": "2026-11-02T10:17:06Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
       "title": "¡Así arranca noviembre! Conozca la cotización del dólar oficial y paralelo en Bolivia este domingo - Red Uno",
       "desc": "¡Así arranca noviembre! Conozca la cotización del dólar oficial y paralelo en Bolivia este domingo&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0FYTGZPdXN0ajBkeUhMeXVxSVJmeDhMdHVXWnBNTkpvc3RFRE5mVGdrVU9Xd0thOTgtSlIzSHBZMXlHc1ZuUjZiV2VDUWQzYmU1RUplWDFDaTFRQlNYN0d5dFBHQkNMa1h4a2lyWGZBUldqMzJvYnB1M0loNDNFdkpmcHNreG4xQUZsV1pfVGljT0t3eW9NekRORFdKM0dZcGpUcnNpTkxPYnhqcURHRUlxczBqekNx?oc=5",
       "date": "2026-11-01T11:38:35Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "El Ministerio de Economía dispone respetar el tipo de cambio de Bs 6,96 en contratos anteriores al 26 de junio - El País Tarija",
-      "desc": "El Ministerio de Economía dispone respetar el tipo de cambio de Bs 6,96 en contratos anteriores al 26 de junio&nbsp;&nbsp;El País Tarija",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSWdrbGgya0I0d2tUM283Q0RaWGJfbmZEWFplNnR6WlR0Q1N0OXo1WmtWUG9DSUVDNDY4Zk9ENXJnWDF4SUFVckdoSzlYT1J6UE9fTUxwVWRTaW56RllFRHEyYklpWHBsZGE4dW92R2N2WFZCMUpDRURBM3JrSWpGUml4YWM1bnVPdHEtYTVXMDZsV0RGUUgxc0xITXpGcVp2bjNVSTlJbjRFbGZzcFhmdTd5dF9DTERJMmx6NnJYbWlMZDEzVlVzcDdUMFVTM0IwR2t3YkIwbEJTTllIQ0pBYnZJT3Njdw?oc=5",
-      "date": "2026-10-30T17:00:27Z"
+      "source": "Google — USDT Bolivia",
+      "title": "En Bolivia, el USDT ya cuesta menos que el dólar oficial - Criptoinforme",
+      "desc": "En Bolivia, el USDT ya cuesta menos que el dólar oficial&nbsp;&nbsp;Criptoinforme",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdk14QjZXazJ2NXBsSlRYWkpIekJoNVpNdk0wZVQ5OTJnMjZlaktYdldsanFldEEyMldselFId3NJNDRab3VPTUVnX0tKeEstSGhra0RkQU1CVU0yUnFsa1I3RDF4aC1qWkxXVU5wRUhnbHFLVW9xd0xhQ3FOT28tbjJn?oc=5",
+      "date": "2026-10-31T16:59:54Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -213,16 +192,16 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "El BCB informa que las RIN llegaron a $us 3.978 millones - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "El BCB informa que las RIN llegaron a $us 3.978 millones&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhsY3pTbmRVQVVQZFl2ZXhFS0VMSk5RelNlQmFCLUlKVWxvOEh1aVE1SUNUWmNmQmQ0SWhXbmwxSWxVNEtLNEJKT25FcERuQURPcXliZU5pNXptYlhqVXYySndNWVJ6N2h6UkVqVUZkZFZhMWFXM1lmTFpCaU9vRW9VUUlWVTJZalRLa3JmU0RsMTRCWTZGVVFnXzZ4VlRUR1E0?oc=5",
-      "date": "2026-10-24T04:20:03Z"
-    },
-    {
-      "source": "Google — BCB reservas",
       "title": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas - unitel.bo",
       "desc": "Reservas de Bolivia llegan a $us 3.978 millones a mediados de octubre; $us 647 millones son divisas&nbsp;&nbsp;unitel.bo",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHlTWmxSQzI5ZW1zWmFDenNqOVY5X1BOd3lzRElYSnpaQ3NEcFZoSlk3bXAyb0NwYnRkMGlVS2hRbDJsdkVrMG11STc3TG8xQlhxTkdReUcteGZkVGtQZ19MTlR3MGx5WXpycDJxbHNNU2NjQnF4dElscTItYmFNLWhlalJVRUJQVHhFX3VJdnludFRLeTNCWjhSaURjZXpvWW5BNHBmNG5iRkVxMmgyNTFZelNtdlEwWEg1V1VKLXFpS04tbWJsNXhBR0Y3MkQyZnB5MTI1SkloQQ?oc=5",
+      "date": "2026-10-23T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "El BCB informa que las RIN llegaron a $us 3.978 millones - EL DÍA - Noticias de Bolivia para el mundo",
+      "desc": "El BCB informa que las RIN llegaron a $us 3.978 millones&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhsY3pTbmRVQVVQZFl2ZXhFS0VMSk5RelNlQmFCLUlKVWxvOEh1aVE1SUNUWmNmQmQ0SWhXbmwxSWxVNEtLNEJKT25FcERuQURPcXliZU5pNXptYlhqVXYySndNWVJ6N2h6UkVqVUZkZFZhMWFXM1lmTFpCaU9vRW9VUUlWVTJZalRLa3JmU0RsMTRCWTZGVVFnXzZ4VlRUR1E0?oc=5",
       "date": "2026-10-23T07:00:00Z"
     },
     {
@@ -238,6 +217,13 @@
       "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
       "date": "2026-10-14T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
+      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
+      "date": "2026-10-13T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -268,25 +254,39 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial - El Financiero",
-      "desc": "Crecimiento de PIB de México en 2026 solo superará al de Bolivia, Jamaica y Santa Lucía: Banco Mundial&nbsp;&nbsp;El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVms1LVJja2FEVlM5ZW9BSzlxbExjQ3BFWVYwMkd6U3VBQWtuamhNQ250dURoVV9hSERBV0xhRDdubDYtdnA5ckJ0Y0sySlcxZHRva3ZTUFBpR1pkTGpVT0cyQ2docnBfeTc2MXpDNEkxeE5WYVFzdzMwbkYtbGFOcExBVUdkWmVSSlpIM1JDYVBRcHVtR2RWSEN5Y1UzZzVSYmdkOUNXMElaMmpCYTljMXAwQk15XzdBcEpRUm0xNVE3dU1odGowMVdKU19YQV9JVTZzUkpTaElVejNfLUVDb1BtblNaMjZZ?oc=5",
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia ya recibió el primer desembolso de $us 211 MM del FMI - La Razón Digital Bolivia",
+      "desc": "Bolivia ya recibió el primer desembolso de $us 211 MM del FMI&nbsp;&nbsp;La Razón Digital Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHI1YXE3ekJjSmJFaGNlVHh2VTJJcnZycGhad1BmVHBTVUljNDhDSnQ4ejFRNV80dnBsNXhGcUhwNlR5d0MxYXhibXEyeC1od1lVTUUxdlpoZzRvQlUzSzIzRnVweGpBYWdNOFpGYkM1Qjh3cThsZ2hubGRmYml4Z1lUTkRlMkN6ZVJTVkJtTGRlNlMyb1kzenJBN0ZaMVR4aEc5WjFxSjl0RlJjU2Z3?oc=5",
       "date": "2026-10-06T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
-      "title": "Según el INE, Bolivia tuvo una inflación de 0,85% en septiembre y la acumulada llega a 3,88% - Oxígeno Digital",
-      "desc": "Según el INE, Bolivia tuvo una inflación de 0,85% en septiembre y la acumulada llega a 3,88%&nbsp;&nbsp;Oxígeno Digital",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLVU4d09yN2xsTDU4LUVGYjM3MGF3WkUtWWFNNGR2dlVObmVveEc3MXFCd2g4enRUWWpTZGZLY1VlUDRZVnJReXMtX0FaV1JyQTgzZlNEYTRnX0U0Q3VCMjJYbGM0WWMzdllqTGx6SDJVZENhN0t6VnRjRnJYaEVnenAtUHV0YzUydE1sRWRYaENLRmVWSkszQ2VaTVRKak5DX3FFM04xZF9lSjA?oc=5",
-      "date": "2026-10-05T21:29:14Z"
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
+      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
+      "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.92,
-    "sellTomorrow": 11.97,
-    "changeBuy": -0.04,
-    "changeSell": -0.03,
+    "buyTomorrow": 11.93,
+    "sellTomorrow": 11.99,
+    "changeBuy": -0.05,
+    "changeSell": -0.05,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4289,8 +4289,8 @@
     },
     {
       "date": "2026-11-02",
-      "buy": 11.96,
-      "sell": 12.0
+      "buy": 11.98,
+      "sell": 12.04
     }
   ]
 }
