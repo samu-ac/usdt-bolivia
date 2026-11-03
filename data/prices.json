@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-03T03:09:56Z",
-  "displayDate": "lunes 2 de noviembre, 2026",
+  "lastUpdated": "2026-11-03T05:35:55Z",
+  "displayDate": "martes 3 de noviembre, 2026",
   "binance": {
     "buy": 11.98,
-    "sell": 12.04,
+    "sell": 12.05,
     "available": true,
     "source": "binance_p2p"
   },
@@ -14,14 +14,14 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.25,
+    "buy": 12.28,
     "sell": 11.93,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.19,
-    "sell": 11.84,
+    "buy": 12.2,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,12 +33,12 @@
   },
   "bybit": {
     "buy": 12.02,
-    "sell": 12.01,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.25,
+    "buy": 12.26,
     "sell": 11.92,
     "available": true,
     "source": "api_dbb_saldoar"
@@ -47,11 +47,11 @@
     "officialBuy": 12.09,
     "officialSell": 12.09,
     "referentialBuy": 11.98,
-    "referentialSell": 12.04,
+    "referentialSell": 12.05,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-03T03:09:50Z"
+    "fetchedAt": "2026-11-03T05:35:48Z"
   },
   "banks": [
     {
@@ -198,13 +198,6 @@
       "date": "2026-10-23T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "El BCB informa que las RIN llegaron a $us 3.978 millones - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "El BCB informa que las RIN llegaron a $us 3.978 millones&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhsY3pTbmRVQVVQZFl2ZXhFS0VMSk5RelNlQmFCLUlKVWxvOEh1aVE1SUNUWmNmQmQ0SWhXbmwxSWxVNEtLNEJKT25FcERuQURPcXliZU5pNXptYlhqVXYySndNWVJ6N2h6UkVqVUZkZFZhMWFXM1lmTFpCaU9vRW9VUUlWVTJZalRLa3JmU0RsMTRCWTZGVVFnXzZ4VlRUR1E0?oc=5",
-      "date": "2026-10-23T07:00:00Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
@@ -254,11 +247,25 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
+      "source": "Google — INE inflación",
+      "title": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre - Bolivia.com",
+      "desc": "¿Alza de la inflación?: estos son los datos del INE del mes de septiembre&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFNVZjZ2ZnMtd0RvcVJDWktod0t1UEVfU1l6WUkxS0NXNjgxRDNkZ2l5cFZkbWFEeWVOSnJxVTlSeEx5YmVOZm8wajY4cFRfWks3eHR1bUo2c3FJZGJQSkp6WjFpa3RwWDhTTnB3em9fNWl5S1NBMTRwdVVMNlZPRWl0VWI0NFNaYUY3eWhBWkhXdV94TzJEVWtTSzkwSWhjQm9XQjVqQWF6MkE?oc=5",
+      "date": "2026-10-07T07:00:00Z"
+    },
+    {
       "source": "Google — FMI Bolivia",
       "title": "Bolivia ya recibió el primer desembolso de $us 211 MM del FMI - La Razón Digital Bolivia",
       "desc": "Bolivia ya recibió el primer desembolso de $us 211 MM del FMI&nbsp;&nbsp;La Razón Digital Bolivia",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHI1YXE3ekJjSmJFaGNlVHh2VTJJcnZycGhad1BmVHBTVUljNDhDSnQ4ejFRNV80dnBsNXhGcUhwNlR5d0MxYXhibXEyeC1od1lVTUUxdlpoZzRvQlUzSzIzRnVweGpBYWdNOFpGYkM1Qjh3cThsZ2hubGRmYml4Z1lUTkRlMkN6ZVJTVkJtTGRlNlMyb1kzenJBN0ZaMVR4aEc5WjFxSjl0RlJjU2Z3?oc=5",
       "date": "2026-10-06T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "Según el INE, Bolivia tuvo una inflación de 0,85% en septiembre y la acumulada llega a 3,88% - Oxígeno Digital",
+      "desc": "Según el INE, Bolivia tuvo una inflación de 0,85% en septiembre y la acumulada llega a 3,88%&nbsp;&nbsp;Oxígeno Digital",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLVU4d09yN2xsTDU4LUVGYjM3MGF3WkUtWWFNNGR2dlVObmVveEc3MXFCd2g4enRUWWpTZGZLY1VlUDRZVnJReXMtX0FaV1JyQTgzZlNEYTRnX0U0Q3VCMjJYbGM0WWMzdllqTGx6SDJVZENhN0t6VnRjRnJYaEVnenAtUHV0YzUydE1sRWRYaENLRmVWSkszQ2VaTVRKak5DX3FFM04xZF9lSjA?oc=5",
+      "date": "2026-10-05T21:29:14Z"
     },
     {
       "source": "Google — INE inflación",
@@ -268,25 +275,18 @@
       "date": "2026-10-05T07:00:00Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
-      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
-      "date": "2026-09-21T07:00:00Z"
-    },
-    {
       "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
+      "title": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88% - Red Uno",
+      "desc": "INE reporta inflación de 0,85% en septiembre; acumulada alcanza 3,88%&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM2tmcFRWSV9JUThxUk8yc3dqUmVNZWNWTGhQcEZQdjhBQ0liOEhJMnlWUU9mbUx0WldsdTkzbEp5NmtYdXVqNkkxbXFvM2tqOUEycG4xY2pGeFVoSzJlYTdHM1NNY0ZpT3JFSnpBZHNsRGh0YnJRRU95SlRHcGNRYXJtWUVZa0hKZ0c3MzJveXB5QXhFUElHamNUd3dFZFBYVWpCSnUtaDFVTDZSN0N1RThLUXY?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.93,
-    "sellTomorrow": 11.99,
-    "changeBuy": -0.05,
-    "changeSell": -0.05,
+    "buyTomorrow": 11.89,
+    "sellTomorrow": 11.97,
+    "changeBuy": -0.09,
+    "changeSell": -0.08,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4291,6 +4291,11 @@
       "date": "2026-11-02",
       "buy": 11.98,
       "sell": 12.04
+    },
+    {
+      "date": "2026-11-03",
+      "buy": 11.98,
+      "sell": 12.05
     }
   ]
 }
