@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-05T05:26:56Z",
+  "lastUpdated": "2026-11-05T19:14:26Z",
   "displayDate": "jueves 5 de noviembre, 2026",
   "binance": {
-    "buy": 11.99,
-    "sell": 12.05,
+    "buy": 11.98,
+    "sell": 12.03,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.07,
-    "sell": 11.91,
+    "buy": 12.04,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.29,
-    "sell": 11.88,
+    "buy": 12.26,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.2,
-    "sell": 11.85,
+    "buy": 12.19,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.04,
-    "sell": 11.98,
+    "buy": 12.02,
+    "sell": 12.01,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
     "buy": 12.16,
-    "sell": 11.89,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.0,
     "officialSell": 12.0,
-    "referentialBuy": 11.99,
-    "referentialSell": 12.05,
+    "referentialBuy": 11.98,
+    "referentialSell": 12.03,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-05T05:26:49Z"
+    "fetchedAt": "2026-11-05T19:14:19Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.76,
-      "sell": 12.36
+      "buy": 11.7,
+      "sell": 12.3
     },
     {
       "name": "BCP",
@@ -72,7 +72,7 @@
     {
       "name": "Banco Bisa",
       "buy": 11.3,
-      "sell": 12.1
+      "sell": 12.05
     },
     {
       "name": "Banco FIE",
@@ -91,13 +91,13 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.85,
-      "sell": 12.56
+      "buy": 10.8,
+      "sell": 12.5
     },
     {
       "name": "Banco Unión",
-      "buy": 10.56,
-      "sell": 12.36
+      "buy": 10.5,
+      "sell": 12.3
     },
     {
       "name": "Banco Ganadero",
@@ -108,59 +108,80 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "La pandemia de los feminicidios",
-      "desc": "Entre siete a ocho mujeres por mes fueron asesinadas en Bolivia. De enero a octubre del 2026 la fiscalía general ha registrado71 feminicidios. Los difundió en su portal como meras estadísticas. Como s…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/05/la-pandemia-de-los-feminicidios/",
-      "date": "2026-11-05T04:22:54Z"
+      "title": "Quispe acusa al Gobierno de buscar el control de las instituciones del Estado",
+      "desc": "El exdiputado cuestionó las actuaciones sobre el TSE, la Fiscalía y el TSJ. También denunció presuntas vulneraciones al debido proceso en los casos de Saucedo y Mariaca.\nThe post Quispe acusa al Gobie…",
+      "link": "https://larazon.bo/nacional/2026/11/05/quispe-acusa-al-gobierno-de-buscar-el-control-de-las-instituciones-del-estado/",
+      "date": "2026-11-05T18:53:23Z"
     },
     {
       "source": "La Razón",
-      "title": "Argerer suma su tercer diploma olímpico en Dakar 2026",
-      "desc": "El boliviano alcanzó su tercera final, obteniendo el quinto puesto en los 200 metros combinado, con un tiempo de 2:05.72\nThe post Argerer suma su tercer diploma olímpico en Dakar 2026 appeared first o…",
-      "link": "https://larazon.bo/marcas/2026/11/05/argerer-suma-su-tercer-diploma-olimpico-en-dakar-2026/",
-      "date": "2026-11-05T04:10:34Z"
+      "title": "El Alto: Buscan un nuevo educador vial a través de un concurso dirigido a jóvenes",
+      "desc": "La convocatoria se enfoca en personas de 16 a 28 años que podrán presentar dibujos, diseños, historietas o propuestas de botargas.\nThe post El Alto: Buscan un nuevo educador vial a través de un concur…",
+      "link": "https://larazon.bo/ciudades/2026/11/05/el-alto-buscan-un-nuevo-educador-vial-a-traves-de-un-concurso-dirigido-a-jovenes/",
+      "date": "2026-11-05T18:46:56Z"
     },
     {
       "source": "La Razón",
-      "title": "García Linera puede ser declarado rebelde, dice Urioste",
-      "desc": "Urioste señaló que el exvicepresidente debe comparecer ante la convocatoria judicial por el caso Hotel Las Américas. \nThe post García Linera puede ser declarado rebelde, dice Urioste appeared first on…",
-      "link": "https://larazon.bo/nacional/2026/11/04/garcia-linera-puede-ser-declarado-rebelde-dice-urioste/",
-      "date": "2026-11-05T02:57:59Z"
+      "title": "La Gestora reporta que rentabilidad del fondo de pensiones creció de 4% a 9,5%",
+      "desc": "La Gestora explicó que uno de los factores que incidió en este resultado fue el nuevo tipo de cambio\nThe post La Gestora reporta que rentabilidad del fondo de pensiones creció de 4% a 9,5% appeared fi…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/05/la-gestora-reporta-que-rentabilidad-del-fondo-de-pensiones-crecio-de-4-a-95/",
+      "date": "2026-11-05T18:38:11Z"
     },
     {
       "source": "El Deber",
-      "title": "Capturan en Santa Cruz a alto miembro del PCC buscado en Brasil por tráfico de drogas y armas",
-      "desc": "Dellenberg de Sousa, de 33 años, fue detenido durante un operativo de inteligencia policial. Según el Gobierno, tenía una condena de más de 10 años en Brasil y operaba entre Bolivia y el estado de Mat…",
-      "link": "https://eldeber.com.bo/pais/capturan-santa-cruz-alto-miembro-pcc-buscado-brasil-trafico-drogas-armas_1793845982",
-      "date": "2026-11-05T02:33:02Z"
+      "title": "Perú presenta su convocatoria para medirse ante Bolivia en noviembre",
+      "desc": "El volante juvenil Francesco Andrealli, de 19 años, que juega en la reserva del Como italiano, es la principal novedad en la convocatoria hecha este jueves por el seleccionador de Perú, el brasileño M…",
+      "link": "https://eldeber.com.bo/deportes/peru-presenta-convocatoria-medirse-bolivia-noviembre_1793903863",
+      "date": "2026-11-05T18:37:43Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Bolivia y Paraguay coordinarán lucha contra redes criminales",
+      "desc": "Autoridades de ambos países dieron inicio a la reunión del Comité Boliviano-Paraguayo\nThe post Bolivia y Paraguay coordinarán lucha contra redes criminales appeared first on La Razón.",
+      "link": "https://larazon.bo/nacional/2026/11/05/bolivia-y-paraguay-coordinaran-lucha-contra-redes-criminales/",
+      "date": "2026-11-05T18:14:40Z"
     },
     {
       "source": "El Deber",
-      "title": "\"Mi post es la frustración de un boliviano\", exministro López justifica su reclamo a Rómer Saucedo",
-      "desc": "El ex ministro de Defensa, Fernando López Julio, aseguró este miércoles que la salida del país del presidente del Tribunal Supremo de Justicia (TSJ), Rómer Saucedo, no es sorprendente porque la autori…",
-      "link": "https://eldeber.com.bo/pais/post-frustracion-boliviano-exministro-lopez-justifica-reclamo-romer-saucedo_1793845368",
-      "date": "2026-11-05T02:22:48Z"
+      "title": "\"El dueño de las maletas era el señor Rómer Saucedo, alias el Alemán\"; declara Laura Rojas",
+      "desc": "La exdiputada señaló que se mantuvo callada por temor y por la seguridad de su vida, de sus hijas y su familia. Este jueves fue trasladada a la Fiscalía de Sustancias Controladas para ampliar su decla…",
+      "link": "https://eldeber.com.bo/santa-cruz/dueno-maletas-era-senor-romer-saucedo-alias-aleman-declara-laura-rojas_1793901409",
+      "date": "2026-11-05T17:56:49Z"
     },
     {
       "source": "El Deber",
-      "title": "Alfredo Saucedo: \"El juicio de responsabilidades a Evo Morales me parece un teatro político\"",
-      "desc": "La ausencia de los fiscales que conforman la comisión de investigación impidió la toma de declaración a los tres primeros testigos. No hay fecha para una nueva citación. Los demandantes observan desin…",
-      "link": "https://eldeber.com.bo/santa-cruz/alfredo-saucedo-juicio-responsabilidades-evo-morales-me-parece-teatro-politico_1793844941",
-      "date": "2026-11-05T02:15:41Z"
+      "title": "Procuraduría denuncia a 23 personas por irregularidades en tres termoeléctricas de ENDE",
+      "desc": "Durante una conferencia de prensa en La Paz, León La Faye informó que las investigaciones alcanzan a ex ministros del área energética, exdirectivos y personal jerárquico de ENDE. Según la autoridad, l…",
+      "link": "https://eldeber.com.bo/economia/procuraduria-denuncia-23-personas-irregularidades-tres-termoelectricas-ende_1793897311",
+      "date": "2026-11-05T16:48:31Z"
     },
     {
       "source": "El Deber",
-      "title": "“El diablo sabe a quién le aparece”, Urioste cree que Saucedo huyó a Brasil tras filtración de la orden de aprehensión",
-      "desc": "El fiscal general señaló que, según la información preliminar que maneja el Ministerio Público, Saucedo habría llegado el miércoles a Santa Cruz de un viaje al exterior y posteriormente se habría desp…",
-      "link": "https://eldeber.com.bo/santa-cruz/diablo-sabe-quien-le-aparece-urioste-cree-saucedo-huyo-brasil-filtracion-orden-aprehension_1793842943",
-      "date": "2026-11-05T01:42:23Z"
+      "title": "Bolivia y Paraguay preparan operativos conjuntos para golpear las finanzas del narcotráfico",
+      "desc": "La captura de Sebastián Marset, el tráfico aéreo de cocaína y los riesgos en la frontera común marcan la nueva agenda bilateral. Ambos países proyectan operaciones coordinadas para 2027",
+      "link": "https://eldeber.com.bo/pais/bolivia-paraguay-preparan-operativos-conjuntos-golpear-finanzas-narcotrafico_1793896085",
+      "date": "2026-11-05T16:28:05Z"
     },
     {
       "source": "El Deber",
-      "title": "Castro afirma su reelección y convoca a sesión preparatoria para su posesión",
-      "desc": "Tres directivos actuales, Roberto Castro, Khaline Moreno y José Maldonado repetirán su gestión. Los otros cuatro miembros de la directiva fueron removidos",
-      "link": "https://eldeber.com.bo/pais/castro-afirma-reeleccion-convoca-sesion-preparatoria-posesion_1793839015",
-      "date": "2026-11-05T00:36:55Z"
+      "title": "Ratifican paro de salud de 24 horas para este viernes en Santa Cruz",
+      "desc": "Este jueves 5 de noviembre, los trabajadores en salud de Bolivia acatan un paro nacional de 24 horas en demanda del pago del Bono de Riesgo. A eso suma el paro departamental de mañana.",
+      "link": "https://eldeber.com.bo/santa-cruz/ratifican-paro-salud-24-horas-este-viernes-santa-cruz_1793889328",
+      "date": "2026-11-05T14:35:28Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Las cotizaciones del dólar cambian en Bolivia: estos son los valores de este jueves - Red Uno",
+      "desc": "Las cotizaciones del dólar cambian en Bolivia: estos son los valores de este jueves&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeGg2ZEthRnRvc1h5VHdHd3VCSlZ6bTYtYmJZenhXX0FTZWtZZnRfZVZLbm1mVU44ZWROQVdjSFloakJuZWFXem5ldGczR0ZGVnBLQUVyWXBsUmhpYWxJbXJlbUdHZWwtb3M2M2swdWJ3NHo1QzF2Rmlpc2tJYlY0Z1pVWGtWREtON25RRXlZaDcyd25qbVRWZmVZMFZVUFV4VEtrOEoxQUpyYVAtTDh0bDZmS2Ita2RNVFMzMlRESUthSmlCZ2JrejlB?oc=5",
+      "date": "2026-11-05T11:09:21Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar oficial se cotiza en Bs 12,00: Banco Central de Bolivia registra baja de seis centavos - FmBolivia",
+      "desc": "Dólar oficial se cotiza en Bs 12,00: Banco Central de Bolivia registra baja de seis centavos&nbsp;&nbsp;FmBolivia",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObGVoQVdhQU5rd3ZTS19XWDltOVctWWxjLXp4RWlZNkpHcktldG81akpLVEpwSzJScVZYZUFGQ0s4SnloVmRHR3hudXRsc0NKX05RRDRjOW9MbldfZHV3S3ZxSDNjczhlN0c5SkR0aUVnTkhLMXNRUmlVMV9pbWtkUmg0emw0amZleVVtZFVFUTJzYTU5NEszbkpFSHoxWU42VFVPSy1VckpkQld6Y3VpVkEzbGdKZWEwdUc1VDE4QmxlNkRBWEZaelJNYw?oc=5",
+      "date": "2026-11-05T10:31:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -170,6 +191,13 @@
       "date": "2026-11-04T17:10:28Z"
     },
     {
+      "source": "Google — Economía Bolivia",
+      "title": "Deudas en dólares: ¿la nueva resolución garantiza respetar el tipo de cambio pactado? - Economy Bolivia",
+      "desc": "Deudas en dólares: ¿la nueva resolución garantiza respetar el tipo de cambio pactado?&nbsp;&nbsp;Economy Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWXA1MzBMUHY5MVduTkFWRlNZZVhTT25ORk44a1RJbVBlSk5LdWFNNERjQzVjbGFCalVmUWhqUTRvYXFGVDI0MUVpQUhlU3p1MUhLQ0ZJMjNiV1Q5M1pQbXVlSXZJdV9lZG1IYThOT2FFWHU3blNXMTJCTGxJRVo5MVY0SmpwUklCVkN4QkpLYmQ0aFJ0MGNYc0hRNFRGWmxZM1l5OWFjRDNCUVRnTGFrUU44WE4?oc=5",
+      "date": "2026-11-03T21:30:45Z"
+    },
+    {
       "source": "Google — USDT Bolivia",
       "title": "En Bolivia, el USDT ya cuesta menos que el dólar oficial - Criptoinforme",
       "desc": "En Bolivia, el USDT ya cuesta menos que el dólar oficial&nbsp;&nbsp;Criptoinforme",
@@ -177,25 +205,11 @@
       "date": "2026-11-02T14:28:48Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "¡Así arranca noviembre! Conozca la cotización del dólar oficial y paralelo en Bolivia este domingo - Red Uno",
-      "desc": "¡Así arranca noviembre! Conozca la cotización del dólar oficial y paralelo en Bolivia este domingo&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0FYTGZPdXN0ajBkeUhMeXVxSVJmeDhMdHVXWnBNTkpvc3RFRE5mVGdrVU9Xd0thOTgtSlIzSHBZMXlHc1ZuUjZiV2VDUWQzYmU1RUplWDFDaTFRQlNYN0d5dFBHQkNMa1h4a2lyWGZBUldqMzJvYnB1M0loNDNFdkpmcHNreG4xQUZsV1pfVGljT0t3eW9NekRORFdKM0dZcGpUcnNpTkxPYnhqcURHRUlxczBqekNx?oc=5",
-      "date": "2026-11-01T11:38:35Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
       "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
       "date": "2026-10-20T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
-      "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
-      "date": "2026-10-17T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -206,9 +220,9 @@
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
-      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
+      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
+      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
       "date": "2026-10-13T07:00:00Z"
     },
     {
@@ -266,27 +280,13 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
-      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.96,
-    "sellTomorrow": 12.02,
+    "buyTomorrow": 11.95,
+    "sellTomorrow": 12.01,
     "changeBuy": -0.03,
-    "changeSell": -0.03,
+    "changeSell": -0.02,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4304,8 +4304,8 @@
     },
     {
       "date": "2026-11-05",
-      "buy": 11.99,
-      "sell": 12.05
+      "buy": 11.98,
+      "sell": 12.03
     }
   ]
 }
