@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-11-05T00:38:28Z",
-  "displayDate": "miercoles 4 de noviembre, 2026",
+  "lastUpdated": "2026-11-05T05:26:56Z",
+  "displayDate": "jueves 5 de noviembre, 2026",
   "binance": {
-    "buy": 11.98,
-    "sell": 12.03,
+    "buy": 11.99,
+    "sell": 12.05,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.08,
-    "sell": 11.96,
+    "buy": 12.07,
+    "sell": 11.91,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.26,
-    "sell": 11.89,
+    "buy": 12.29,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_takenos"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.03,
-    "sell": 12.02,
+    "buy": 12.04,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.15,
+    "buy": 12.16,
     "sell": 11.89,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 12.06,
-    "officialSell": 12.06,
-    "referentialBuy": 11.98,
-    "referentialSell": 12.03,
+    "officialBuy": 12.0,
+    "officialSell": 12.0,
+    "referentialBuy": 11.99,
+    "referentialSell": 12.05,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-05T00:38:22Z"
+    "fetchedAt": "2026-11-05T05:26:49Z"
   },
   "banks": [
     {
@@ -61,33 +61,33 @@
     },
     {
       "name": "BCP",
-      "buy": 11.56,
-      "sell": 12.36
+      "buy": 11.5,
+      "sell": 12.3
     },
     {
       "name": "BNB",
-      "buy": 11.56,
-      "sell": 12.36
+      "buy": 11.5,
+      "sell": 12.3
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.36,
-      "sell": 12.16
+      "buy": 11.3,
+      "sell": 12.1
     },
     {
       "name": "Banco FIE",
-      "buy": 11.16,
-      "sell": 12.16
+      "buy": 11.1,
+      "sell": 12.1
     },
     {
       "name": "Banco Económico",
-      "buy": 11.06,
-      "sell": 12.41
+      "buy": 11.0,
+      "sell": 12.35
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.96,
-      "sell": 12.36
+      "buy": 10.9,
+      "sell": 12.3
     },
     {
       "name": "BancoSol",
@@ -102,58 +102,65 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.36
+      "sell": 12.3
     }
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Distinguen a los policías que rescataron a turistas en Uyuni",
-      "desc": "El acto de reconocimiento se desarrolló el 30 de octubre en la Asamblea Legislativa Plurinacional y estuvo a cargo de la encargada de Negocios de la Embajada de los Estados Unidos en Bolivia, Amanda P…",
-      "link": "https://eldeber.com.bo/pais/distinguen-policias-rescataron-turistas-uyuni_1793837699",
-      "date": "2026-11-05T00:14:59Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Dolorosa serenata para Oriente: goleado en Potosí y eliminado de la Copa Bolivia",
-      "desc": "En vísperas de su aniversario 71, el equipo refinero cayó por 5-1 ante Nacional Potosí, que revirtió la serie y avanzó a las semifinales con un global de 7-4. Oriente volvió a exhibir fragilidades def…",
-      "link": "https://eldeber.com.bo/deportes/dolorosa-serenata-oriente-goleado-potosi-eliminado-copa-bolivia_1793836792",
-      "date": "2026-11-05T00:04:09Z"
+      "source": "La Razón",
+      "title": "La pandemia de los feminicidios",
+      "desc": "Entre siete a ocho mujeres por mes fueron asesinadas en Bolivia. De enero a octubre del 2026 la fiscalía general ha registrado71 feminicidios. Los difundió en su portal como meras estadísticas. Como s…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/05/la-pandemia-de-los-feminicidios/",
+      "date": "2026-11-05T04:22:54Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía ordena aprehender a Saucedo por narcotráfico",
-      "desc": "Saucedo denunció una presunta persecución y advirtió sobre la posibilidad de que se fabriquen elementos para desacreditarlo.\nThe post Fiscalía ordena aprehender a Saucedo por narcotráfico appeared fir…",
-      "link": "https://larazon.bo/nacional/2026/11/04/fiscalia-ordena-aprehender-a-saucedo-por-narcotrafico/",
-      "date": "2026-11-04T23:58:16Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Padre del joven asesinado en el Cordón Ecológico dice que su hijo era guardia privado del viceministro",
-      "desc": "El caso adquirió relevancia nacional después de que junto al cuerpo de la víctima se encontrara un mensaje amenazante dirigido al viceministro Maldonado, en el que se hacía referencia a una supuesta d…",
-      "link": "https://eldeber.com.bo/pais/padre-joven-asesinado-cordon-ecologico-dice-hijo-era-guardia-privado-viceministro_1793836212",
-      "date": "2026-11-04T23:50:12Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Gobierno invita al diálogo al Magisterio Urbano y rechaza el paro anunciado para la próxima semana",
-      "desc": "El ministro del área recordó que el 30 de octubre hubo un “rompimiento unilateral” del diálogo por parte de algunos dirigentes del magisterio, quienes ni siquiera permitieron explicar la propuesta de …",
-      "link": "https://eldeber.com.bo/pais/gobierno-invita-dialogo-magisterio-urbano-rechaza-paro-anunciado-proxima-semana_1793834531",
-      "date": "2026-11-04T23:22:11Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La Fiscalía ordenó aprehender a Saucedo por presunto tráfico de drogas y organización criminal",
-      "desc": "Una resolución fiscal del 3 de noviembre, anterior al anuncio de \"exilio\" del presidente del TSJ, requiere su aprehensión. El documento está suscrito por una comisión de fiscales que investiga delitos…",
-      "link": "https://eldeber.com.bo/pais/fiscalia-ordeno-aprehender-saucedo-presunto-trafico-drogas-organizacion-criminal_1793832187",
-      "date": "2026-11-04T22:43:07Z"
+      "title": "Argerer suma su tercer diploma olímpico en Dakar 2026",
+      "desc": "El boliviano alcanzó su tercera final, obteniendo el quinto puesto en los 200 metros combinado, con un tiempo de 2:05.72\nThe post Argerer suma su tercer diploma olímpico en Dakar 2026 appeared first o…",
+      "link": "https://larazon.bo/marcas/2026/11/05/argerer-suma-su-tercer-diploma-olimpico-en-dakar-2026/",
+      "date": "2026-11-05T04:10:34Z"
     },
     {
       "source": "La Razón",
-      "title": "Código Minero: habilitan plataforma digital para recibir propuestas ciudadanas",
-      "desc": "La plataforma digital, según el Ministerio de Minería y metalurgia, permitirá que cualquier persona acceda al contenido del documento\nThe post Código Minero: habilitan plataforma digital para recibir …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/04/codigo-minero-habilitan-plataforma-digital-para-recibir-propuestas-ciudadanas/",
-      "date": "2026-11-04T22:39:02Z"
+      "title": "García Linera puede ser declarado rebelde, dice Urioste",
+      "desc": "Urioste señaló que el exvicepresidente debe comparecer ante la convocatoria judicial por el caso Hotel Las Américas. \nThe post García Linera puede ser declarado rebelde, dice Urioste appeared first on…",
+      "link": "https://larazon.bo/nacional/2026/11/04/garcia-linera-puede-ser-declarado-rebelde-dice-urioste/",
+      "date": "2026-11-05T02:57:59Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Capturan en Santa Cruz a alto miembro del PCC buscado en Brasil por tráfico de drogas y armas",
+      "desc": "Dellenberg de Sousa, de 33 años, fue detenido durante un operativo de inteligencia policial. Según el Gobierno, tenía una condena de más de 10 años en Brasil y operaba entre Bolivia y el estado de Mat…",
+      "link": "https://eldeber.com.bo/pais/capturan-santa-cruz-alto-miembro-pcc-buscado-brasil-trafico-drogas-armas_1793845982",
+      "date": "2026-11-05T02:33:02Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "\"Mi post es la frustración de un boliviano\", exministro López justifica su reclamo a Rómer Saucedo",
+      "desc": "El ex ministro de Defensa, Fernando López Julio, aseguró este miércoles que la salida del país del presidente del Tribunal Supremo de Justicia (TSJ), Rómer Saucedo, no es sorprendente porque la autori…",
+      "link": "https://eldeber.com.bo/pais/post-frustracion-boliviano-exministro-lopez-justifica-reclamo-romer-saucedo_1793845368",
+      "date": "2026-11-05T02:22:48Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Alfredo Saucedo: \"El juicio de responsabilidades a Evo Morales me parece un teatro político\"",
+      "desc": "La ausencia de los fiscales que conforman la comisión de investigación impidió la toma de declaración a los tres primeros testigos. No hay fecha para una nueva citación. Los demandantes observan desin…",
+      "link": "https://eldeber.com.bo/santa-cruz/alfredo-saucedo-juicio-responsabilidades-evo-morales-me-parece-teatro-politico_1793844941",
+      "date": "2026-11-05T02:15:41Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "“El diablo sabe a quién le aparece”, Urioste cree que Saucedo huyó a Brasil tras filtración de la orden de aprehensión",
+      "desc": "El fiscal general señaló que, según la información preliminar que maneja el Ministerio Público, Saucedo habría llegado el miércoles a Santa Cruz de un viaje al exterior y posteriormente se habría desp…",
+      "link": "https://eldeber.com.bo/santa-cruz/diablo-sabe-quien-le-aparece-urioste-cree-saucedo-huyo-brasil-filtracion-orden-aprehension_1793842943",
+      "date": "2026-11-05T01:42:23Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Castro afirma su reelección y convoca a sesión preparatoria para su posesión",
+      "desc": "Tres directivos actuales, Roberto Castro, Khaline Moreno y José Maldonado repetirán su gestión. Los otros cuatro miembros de la directiva fueron removidos",
+      "link": "https://eldeber.com.bo/pais/castro-afirma-reeleccion-convoca-sesion-preparatoria-posesion_1793839015",
+      "date": "2026-11-05T00:36:55Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -175,13 +182,6 @@
       "desc": "¡Así arranca noviembre! Conozca la cotización del dólar oficial y paralelo en Bolivia este domingo&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0FYTGZPdXN0ajBkeUhMeXVxSVJmeDhMdHVXWnBNTkpvc3RFRE5mVGdrVU9Xd0thOTgtSlIzSHBZMXlHc1ZuUjZiV2VDUWQzYmU1RUplWDFDaTFRQlNYN0d5dFBHQkNMa1h4a2lyWGZBUldqMzJvYnB1M0loNDNFdkpmcHNreG4xQUZsV1pfVGljT0t3eW9NekRORFdKM0dZcGpUcnNpTkxPYnhqcURHRUlxczBqekNx?oc=5",
       "date": "2026-11-01T11:38:35Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB - ABI - Agencia Boliviana de Información",
-      "desc": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHAyRERBeDhwRnc4TDN6Y2JjV25QMnV3OUN2Y1Q3WTZyRnpNUGROVktydmF3VmFabzZ3SUFCRDRKUzdrazBPcDFmU1Jhdy1fb2xsVlNQbkhyNnVyUHNzTlUxbGZ0YkpqX29MaE5KNlpyYUhVeGtDaEt5cHJjT3hnOUJnOHpIRDFrY2s5SENUM2dlMmtZM2Q0c0tKU0tVdUwwbWVjV3FPbUk0QU80c09EMTBrRnQ2VXc?oc=5",
-      "date": "2026-10-23T07:00:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -275,18 +275,18 @@
       "date": "2026-08-26T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
-      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "source": "Google — BCB reservas",
+      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
+      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
       "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.92,
-    "sellTomorrow": 11.98,
-    "changeBuy": -0.06,
-    "changeSell": -0.05,
+    "buyTomorrow": 11.96,
+    "sellTomorrow": 12.02,
+    "changeBuy": -0.03,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4301,6 +4301,11 @@
       "date": "2026-11-04",
       "buy": 11.98,
       "sell": 12.03
+    },
+    {
+      "date": "2026-11-05",
+      "buy": 11.99,
+      "sell": 12.05
     }
   ]
 }
