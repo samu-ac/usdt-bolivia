@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-04T19:05:11Z",
+  "lastUpdated": "2026-11-05T00:38:28Z",
   "displayDate": "miercoles 4 de noviembre, 2026",
   "binance": {
-    "buy": 12.0,
-    "sell": 12.04,
+    "buy": 11.98,
+    "sell": 12.03,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.09,
+    "buy": 12.08,
     "sell": 11.96,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.27,
+    "buy": 12.26,
     "sell": 11.89,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.21,
-    "sell": 11.86,
+    "buy": 12.2,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.02,
+    "buy": 12.03,
     "sell": 12.02,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.3,
-    "sell": 11.96,
+    "buy": 12.15,
+    "sell": 11.89,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.06,
     "officialSell": 12.06,
-    "referentialBuy": 12.0,
-    "referentialSell": 12.04,
+    "referentialBuy": 11.98,
+    "referentialSell": 12.03,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-04T19:05:04Z"
+    "fetchedAt": "2026-11-05T00:38:22Z"
   },
   "banks": [
     {
@@ -107,60 +107,53 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Bolivia fortalece relaciones con la UE para cooperación e inversiones, según Paz",
-      "desc": "La autoridad remarcó que la junta sirvió para fortalecer las relaciones institucionales y abrir nuevas oportunidades de inversión\nThe post Bolivia fortalece relaciones con la UE para cooperación e inv…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/04/bolivia-fortalece-relaciones-con-la-ue-para-cooperacion-e-inversiones-segun-paz/",
-      "date": "2026-11-04T18:52:24Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz anuncia en encuentro iberoamericano el fin de 20 años de aislamiento económico",
-      "desc": "El jefe de Estado sostuvo que la apertura internacional permitirá recuperar oportunidades de inversión que, según su evaluación, Bolivia dejó pasar durante las anteriores gestiones\nThe post Paz anunci…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/04/paz-anuncia-en-encuentro-iberoamericano-el-fin-de-20-anos-de-aislamiento-economico/",
-      "date": "2026-11-04T18:42:11Z"
+      "source": "El Deber",
+      "title": "Distinguen a los policías que rescataron a turistas en Uyuni",
+      "desc": "El acto de reconocimiento se desarrolló el 30 de octubre en la Asamblea Legislativa Plurinacional y estuvo a cargo de la encargada de Negocios de la Embajada de los Estados Unidos en Bolivia, Amanda P…",
+      "link": "https://eldeber.com.bo/pais/distinguen-policias-rescataron-turistas-uyuni_1793837699",
+      "date": "2026-11-05T00:14:59Z"
     },
     {
       "source": "El Deber",
-      "title": "Exgobernador Rubén Costas se presenta a declarar en calidad de testigo por el 'caso Hotel Las Américas'",
-      "desc": "Para esta jornada, tres exautoridades fueron convocadas a declarar en la Fuerza Especial de Lucha Contra el Crimen (Felcc): Rubén Costas, el exfiscal Jaime Soliz Phiel y Víctor Hugo Velasco Iporre, pr…",
-      "link": "https://eldeber.com.bo/santa-cruz/exgobernador-ruben-costas-presenta-declarar-calidad-testigo-caso-hotel-americas_1793817695",
-      "date": "2026-11-04T18:41:35Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "García Linera salió a Argentina hace unos días, según el Gobierno",
-      "desc": "Álvaro García Linera y Evo Morales son investigados por las ejecuciones en el Hotel Las Américas",
-      "link": "https://eldeber.com.bo/pais/garcia-linera-salio-argentina-hace-dias-gobierno_1793815576",
-      "date": "2026-11-04T18:06:16Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "140 años, 140 horas y beneficios exclusivos: Mercedes-Benz presenta oportunidades especiales en Bolivia",
-      "desc": "Mercedes-Benz Bolivia anuncia el regreso de las 140 Horas de Beneficios Exclusivos, una campaña que se llevará a cabo del 9 al 14 de noviembre en los showrooms de la marca a nivel nacional",
-      "link": "https://eldeber.com.bo/te-puede-interesar/140-anos-140-horas-beneficios-exclusivos-mercedes-benz-presenta-oportunidades-especiales-bolivia_1793815567",
-      "date": "2026-11-04T18:06:07Z"
+      "title": "Dolorosa serenata para Oriente: goleado en Potosí y eliminado de la Copa Bolivia",
+      "desc": "En vísperas de su aniversario 71, el equipo refinero cayó por 5-1 ante Nacional Potosí, que revirtió la serie y avanzó a las semifinales con un global de 7-4. Oriente volvió a exhibir fragilidades def…",
+      "link": "https://eldeber.com.bo/deportes/dolorosa-serenata-oriente-goleado-potosi-eliminado-copa-bolivia_1793836792",
+      "date": "2026-11-05T00:04:09Z"
     },
     {
       "source": "La Razón",
-      "title": "Sergeomin busca apoyo del BM para explorar tierras raras y minerales estratégicos",
-      "desc": "La iniciativa contempla como uno de sus principales proyectos la elaboración de la Carta Geológica de Bolivia a escala\nThe post Sergeomin busca apoyo del BM para explorar tierras raras y minerales est…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/04/sergeomin-busca-apoyo-del-bm-para-explorar-tierras-raras-y-minerales-estrategicos/",
-      "date": "2026-11-04T17:55:21Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Camex: Exportaciones mineras suben a $us 1.300 MM en septiembre y China lidera destinos",
-      "desc": "Este comportamiento mantiene la tendencia de los minerales entre los principales productos de exportación del país, según la cámara paceña\nThe post Camex: Exportaciones mineras suben a $us 1.300 MM en…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/04/camex-exportaciones-mineras-suben-a-us-1-300-mm-en-septiembre-y-china-lidera-destinos/",
-      "date": "2026-11-04T17:42:41Z"
+      "title": "Fiscalía ordena aprehender a Saucedo por narcotráfico",
+      "desc": "Saucedo denunció una presunta persecución y advirtió sobre la posibilidad de que se fabriquen elementos para desacreditarlo.\nThe post Fiscalía ordena aprehender a Saucedo por narcotráfico appeared fir…",
+      "link": "https://larazon.bo/nacional/2026/11/04/fiscalia-ordena-aprehender-a-saucedo-por-narcotrafico/",
+      "date": "2026-11-04T23:58:16Z"
     },
     {
       "source": "El Deber",
-      "title": "Fiscalía de Santa Cruz concentrará la atención de las unidades especializadas en el edificio inaugurado",
-      "desc": "El nuevo edificio se encuentra sobre el primer anillo del a avenida Cañoto, entre las calles 21 de mayo y España. El la infraestructura está construida en más de 6.400 metros cuadrados en un predio de…",
-      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-santa-cruz-concentrara-atencion-unidades-especializadas-edificio-inaugurado_1793812396",
-      "date": "2026-11-04T17:13:16Z"
+      "title": "Padre del joven asesinado en el Cordón Ecológico dice que su hijo era guardia privado del viceministro",
+      "desc": "El caso adquirió relevancia nacional después de que junto al cuerpo de la víctima se encontrara un mensaje amenazante dirigido al viceministro Maldonado, en el que se hacía referencia a una supuesta d…",
+      "link": "https://eldeber.com.bo/pais/padre-joven-asesinado-cordon-ecologico-dice-hijo-era-guardia-privado-viceministro_1793836212",
+      "date": "2026-11-04T23:50:12Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno invita al diálogo al Magisterio Urbano y rechaza el paro anunciado para la próxima semana",
+      "desc": "El ministro del área recordó que el 30 de octubre hubo un “rompimiento unilateral” del diálogo por parte de algunos dirigentes del magisterio, quienes ni siquiera permitieron explicar la propuesta de …",
+      "link": "https://eldeber.com.bo/pais/gobierno-invita-dialogo-magisterio-urbano-rechaza-paro-anunciado-proxima-semana_1793834531",
+      "date": "2026-11-04T23:22:11Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La Fiscalía ordenó aprehender a Saucedo por presunto tráfico de drogas y organización criminal",
+      "desc": "Una resolución fiscal del 3 de noviembre, anterior al anuncio de \"exilio\" del presidente del TSJ, requiere su aprehensión. El documento está suscrito por una comisión de fiscales que investiga delitos…",
+      "link": "https://eldeber.com.bo/pais/fiscalia-ordeno-aprehender-saucedo-presunto-trafico-drogas-organizacion-criminal_1793832187",
+      "date": "2026-11-04T22:43:07Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Código Minero: habilitan plataforma digital para recibir propuestas ciudadanas",
+      "desc": "La plataforma digital, según el Ministerio de Minería y metalurgia, permitirá que cualquier persona acceda al contenido del documento\nThe post Código Minero: habilitan plataforma digital para recibir …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/04/codigo-minero-habilitan-plataforma-digital-para-recibir-propuestas-ciudadanas/",
+      "date": "2026-11-04T22:39:02Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -168,20 +161,6 @@
       "desc": "Ministro de Economía se reúne con autoridades españolas para ampliar oportunidades de inversión y comercio&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkcxRDFwM2FSTXFibVFEY3N1ck04QjVxUzQ5VkdHR2FySlBCMWV1d21QQjU2MGNubGtrUlpjT2g5bWNpQTRLbTFrczZ2b1BEUHpEMnZyUS1YZTZqVk9EUENpSVZsYTBfS1RtRUY5NVVabGx2MVdQOXFkUW1mM0ltVjU4LVZRa09DeGplb3kwb0FmMzRqdzgxQ2VZOXQ2V0psblh2SnU2RWR0TmY2dzVlYnFqS2lHem9KYzdVcmlQMA?oc=5",
       "date": "2026-11-04T17:10:28Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Investigan en Chile a dos militares bolivianos por presuntos nexos con el contrabando",
-      "desc": "Los uniformados permanecerán detenidos hasta el viernes. La Fiscalía chilena investiga su relación con un camión robado, mientras Bolivia asegura que cumplían una misión oficial contra el contrabando.",
-      "link": "https://eldeber.com.bo/pais/investigan-chile-dos-militares-bolivianos-presuntos-nexos-contrabando_1793810559",
-      "date": "2026-11-04T16:42:39Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Hackeo a Binance: ¿qué tan expuestos están los usuarios de criptomonedas en Bolivia? - Economy Bolivia",
-      "desc": "Hackeo a Binance: ¿qué tan expuestos están los usuarios de criptomonedas en Bolivia?&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRE5hZFZGUEduT3ZYbzY0dFhKcnFMRUU3ZmxtWGRPaklDUkVuZGZoeVdTOUVQaXAzbmJxZmtDTVBrbmxTbkdnbEVmellIMGs5aV9sMjJLV0JGTm9vbENxM0lrZFBLQ0tUV0dJNUtqTDV3ZGZPRW44bEE5a2pCTm1QMDl4Z3ZoNVdhcWhMa3k2eFRHajlhN21aYm1oQnEtR01hUFJwcmpIV3dad0JuNmY0WGFKcw?oc=5",
-      "date": "2026-11-03T23:35:52Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -280,11 +259,32 @@
       "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
       "date": "2026-09-07T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.94,
-    "sellTomorrow": 11.99,
+    "buyTomorrow": 11.92,
+    "sellTomorrow": 11.98,
     "changeBuy": -0.06,
     "changeSell": -0.05,
     "trend": "baja",
@@ -4299,8 +4299,8 @@
     },
     {
       "date": "2026-11-04",
-      "buy": 12.0,
-      "sell": 12.04
+      "buy": 11.98,
+      "sell": 12.03
     }
   ]
 }
