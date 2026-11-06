@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-05T19:14:26Z",
+  "lastUpdated": "2026-11-06T00:36:54Z",
   "displayDate": "jueves 5 de noviembre, 2026",
   "binance": {
-    "buy": 11.98,
+    "buy": 11.99,
     "sell": 12.03,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.04,
+    "buy": 12.05,
     "sell": 11.98,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.26,
-    "sell": 11.87,
+    "buy": 12.27,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.19,
-    "sell": 11.84,
+    "buy": 12.2,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.02,
-    "sell": 12.01,
+    "buy": 12.0,
+    "sell": 12.02,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.16,
-    "sell": 11.9,
+    "buy": 12.19,
+    "sell": 11.92,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 12.0,
     "officialSell": 12.0,
-    "referentialBuy": 11.98,
+    "referentialBuy": 11.99,
     "referentialSell": 12.03,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-05T19:14:19Z"
+    "fetchedAt": "2026-11-06T00:36:48Z"
   },
   "banks": [
     {
@@ -107,67 +107,67 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Quispe acusa al Gobierno de buscar el control de las instituciones del Estado",
-      "desc": "El exdiputado cuestionó las actuaciones sobre el TSE, la Fiscalía y el TSJ. También denunció presuntas vulneraciones al debido proceso en los casos de Saucedo y Mariaca.\nThe post Quispe acusa al Gobie…",
-      "link": "https://larazon.bo/nacional/2026/11/05/quispe-acusa-al-gobierno-de-buscar-el-control-de-las-instituciones-del-estado/",
-      "date": "2026-11-05T18:53:23Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "El Alto: Buscan un nuevo educador vial a través de un concurso dirigido a jóvenes",
-      "desc": "La convocatoria se enfoca en personas de 16 a 28 años que podrán presentar dibujos, diseños, historietas o propuestas de botargas.\nThe post El Alto: Buscan un nuevo educador vial a través de un concur…",
-      "link": "https://larazon.bo/ciudades/2026/11/05/el-alto-buscan-un-nuevo-educador-vial-a-traves-de-un-concurso-dirigido-a-jovenes/",
-      "date": "2026-11-05T18:46:56Z"
+      "source": "El Deber",
+      "title": "El Banco Central de Paraguay comienza los pagos a los ahorristas del intervenido Ueno bank",
+      "desc": "En un comunicado, el BCP informó que los pagos, de hasta 10 millones de guaraníes o 1.565 dólares estadounidenses a la tasa de cambio del emisor, están destinados a un \"primer grupo\" de ahorristas que…",
+      "link": "https://eldeber.com.bo/mundo/banco-central-paraguay-comienza-pagos-ahorristas-intervenido-ueno-bank_1793925070",
+      "date": "2026-11-06T00:31:10Z"
     },
     {
       "source": "La Razón",
-      "title": "La Gestora reporta que rentabilidad del fondo de pensiones creció de 4% a 9,5%",
-      "desc": "La Gestora explicó que uno de los factores que incidió en este resultado fue el nuevo tipo de cambio\nThe post La Gestora reporta que rentabilidad del fondo de pensiones creció de 4% a 9,5% appeared fi…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/05/la-gestora-reporta-que-rentabilidad-del-fondo-de-pensiones-crecio-de-4-a-95/",
-      "date": "2026-11-05T18:38:11Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Perú presenta su convocatoria para medirse ante Bolivia en noviembre",
-      "desc": "El volante juvenil Francesco Andrealli, de 19 años, que juega en la reserva del Como italiano, es la principal novedad en la convocatoria hecha este jueves por el seleccionador de Perú, el brasileño M…",
-      "link": "https://eldeber.com.bo/deportes/peru-presenta-convocatoria-medirse-bolivia-noviembre_1793903863",
-      "date": "2026-11-05T18:37:43Z"
+      "title": "Aramayo afirma que la seguridad jurídica es clave para atraer inversiones",
+      "desc": "Tras la Cumbre Iberoamericana en Madrid, el ministro destacó el interés internacional por Bolivia y señaló que las reformas judiciales e institucionales son necesarias para generar confianza.\nThe post…",
+      "link": "https://larazon.bo/nacional/2026/11/05/aramayo-afirma-que-la-seguridad-juridica-es-clave-para-atraer-inversiones/",
+      "date": "2026-11-06T00:21:56Z"
     },
     {
       "source": "La Razón",
-      "title": "Bolivia y Paraguay coordinarán lucha contra redes criminales",
-      "desc": "Autoridades de ambos países dieron inicio a la reunión del Comité Boliviano-Paraguayo\nThe post Bolivia y Paraguay coordinarán lucha contra redes criminales appeared first on La Razón.",
-      "link": "https://larazon.bo/nacional/2026/11/05/bolivia-y-paraguay-coordinaran-lucha-contra-redes-criminales/",
-      "date": "2026-11-05T18:14:40Z"
+      "title": "La Fiscalía y la Alcaldía de El Alto coordinan acciones para nuevo edificio",
+      "desc": "El proyecto incluye reforzar y equipar la Plataforma de Atención Integral a la Familia ubicada en La Ceja.\nThe post La Fiscalía y la Alcaldía de El Alto coordinan acciones para nuevo edificio appeared…",
+      "link": "https://larazon.bo/sociedad/2026/11/05/la-fiscalia-y-la-alcaldia-de-el-alto-coordinan-acciones-para-nuevo-edificio/",
+      "date": "2026-11-05T23:55:17Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Paz y Sánchez abordan cooperación e inversión entre Bolivia y España",
+      "desc": "El encuentro se realizó en Madrid, durante la XXX Cumbre Iberoamericana. El mandatario boliviano planteó convertir los vínculos históricos en oportunidades económicas.\nThe post Paz y Sánchez abordan c…",
+      "link": "https://larazon.bo/nacional/2026/11/05/paz-y-sanchez-abordan-cooperacion-e-inversion-entre-bolivia-y-espana-2/",
+      "date": "2026-11-05T23:48:02Z"
     },
     {
       "source": "El Deber",
-      "title": "\"El dueño de las maletas era el señor Rómer Saucedo, alias el Alemán\"; declara Laura Rojas",
-      "desc": "La exdiputada señaló que se mantuvo callada por temor y por la seguridad de su vida, de sus hijas y su familia. Este jueves fue trasladada a la Fiscalía de Sustancias Controladas para ampliar su decla…",
-      "link": "https://eldeber.com.bo/santa-cruz/dueno-maletas-era-senor-romer-saucedo-alias-aleman-declara-laura-rojas_1793901409",
-      "date": "2026-11-05T17:56:49Z"
+      "title": "Se inicia la socialización de la Carta Orgánica de Santa Cruz de la Sierra",
+      "desc": "El proceso de socialización inició este jueves, pero se extenderá hasta el 25 de noviembre. Permitirá recoger propuestas, sugerencias y demandas de los vecinos para enriquecer la Carta Orgánica de San…",
+      "link": "https://eldeber.com.bo/santa-cruz/inicia-socializacion-carta-organica-santa-cruz-sierra_1793922473",
+      "date": "2026-11-05T23:47:53Z"
     },
     {
       "source": "El Deber",
-      "title": "Procuraduría denuncia a 23 personas por irregularidades en tres termoeléctricas de ENDE",
-      "desc": "Durante una conferencia de prensa en La Paz, León La Faye informó que las investigaciones alcanzan a ex ministros del área energética, exdirectivos y personal jerárquico de ENDE. Según la autoridad, l…",
-      "link": "https://eldeber.com.bo/economia/procuraduria-denuncia-23-personas-irregularidades-tres-termoelectricas-ende_1793897311",
-      "date": "2026-11-05T16:48:31Z"
+      "title": "Caso Mariaca: allanan dos autoventas y secuestran tres vehículos de lujo en Santa Cruz",
+      "desc": "Los operativos fueron ejecutados por la Fiscalía y efectivos de la Felcn en establecimientos ubicados en el cuarto anillo. Uno ubicado en inmediaciones de la radial 27 y otro en la avenida Busch. Los …",
+      "link": "https://eldeber.com.bo/santa-cruz/caso-mariaca-allanan-dos-autoventas-secuestran-tres-vehiculos-lujo-santa-cruz_1793921437",
+      "date": "2026-11-05T23:30:37Z"
     },
     {
       "source": "El Deber",
-      "title": "Bolivia y Paraguay preparan operativos conjuntos para golpear las finanzas del narcotráfico",
-      "desc": "La captura de Sebastián Marset, el tráfico aéreo de cocaína y los riesgos en la frontera común marcan la nueva agenda bilateral. Ambos países proyectan operaciones coordinadas para 2027",
-      "link": "https://eldeber.com.bo/pais/bolivia-paraguay-preparan-operativos-conjuntos-golpear-finanzas-narcotrafico_1793896085",
-      "date": "2026-11-05T16:28:05Z"
+      "title": "Cámara boliviano paraguaya pide calma a empresarios ante crisis tras dimisión de Santiago Peña",
+      "desc": "En medio de las protestas por la intervención de la entidad financiera Ueno Bank, el mandatario paraguayo, Santiago Peña, anunció su renuncia, mientras que la Cámara de Diputados decidió someterlo a u…",
+      "link": "https://eldeber.com.bo/pais/camara-boliviano-paraguaya-pide-calma-empresarios-crisis-dimision-santiago-pena_1793921044",
+      "date": "2026-11-05T23:24:04Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Paz respalda Paraguay y reivindica la institucionalidad tras salida de Peña",
+      "desc": "El presidente boliviano se pronunció sobre la crisis política en Paraguay y pidió que se respete la Constitución y las instituciones democráticas.\nThe post Paz respalda Paraguay y reivindica la instit…",
+      "link": "https://larazon.bo/nacional/2026/11/05/paz-respalda-paraguay-y-reivindica-la-institucionalidad-tras-salida-de-pena/",
+      "date": "2026-11-05T23:14:09Z"
     },
     {
       "source": "El Deber",
-      "title": "Ratifican paro de salud de 24 horas para este viernes en Santa Cruz",
-      "desc": "Este jueves 5 de noviembre, los trabajadores en salud de Bolivia acatan un paro nacional de 24 horas en demanda del pago del Bono de Riesgo. A eso suma el paro departamental de mañana.",
-      "link": "https://eldeber.com.bo/santa-cruz/ratifican-paro-salud-24-horas-este-viernes-santa-cruz_1793889328",
-      "date": "2026-11-05T14:35:28Z"
+      "title": "La crisis de Ueno Bank alcanza a la selección paraguaya y a los clubes",
+      "desc": "Futbolistas de la selección paraguaya, integrantes de los principales clubes del país y la propia Conmebol mantenían ahorros, cuentas u operaciones financieras en la entidad cuyo cierre fue ordenado p…",
+      "link": "https://eldeber.com.bo/deportes/crisis-ueno-bank-alcanza-seleccion-paraguaya-principales-clubes_1793919754",
+      "date": "2026-11-05T23:04:44Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -177,25 +177,11 @@
       "date": "2026-11-05T11:09:21Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar oficial se cotiza en Bs 12,00: Banco Central de Bolivia registra baja de seis centavos - FmBolivia",
-      "desc": "Dólar oficial se cotiza en Bs 12,00: Banco Central de Bolivia registra baja de seis centavos&nbsp;&nbsp;FmBolivia",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObGVoQVdhQU5rd3ZTS19XWDltOVctWWxjLXp4RWlZNkpHcktldG81akpLVEpwSzJScVZYZUFGQ0s4SnloVmRHR3hudXRsc0NKX05RRDRjOW9MbldfZHV3S3ZxSDNjczhlN0c5SkR0aUVnTkhLMXNRUmlVMV9pbWtkUmg0emw0amZleVVtZFVFUTJzYTU5NEszbkpFSHoxWU42VFVPSy1VckpkQld6Y3VpVkEzbGdKZWEwdUc1VDE4QmxlNkRBWEZaelJNYw?oc=5",
-      "date": "2026-11-05T10:31:00Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "Ministro de Economía se reúne con autoridades españolas para ampliar oportunidades de inversión y comercio - ABI - Agencia Boliviana de Información",
       "desc": "Ministro de Economía se reúne con autoridades españolas para ampliar oportunidades de inversión y comercio&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkcxRDFwM2FSTXFibVFEY3N1ck04QjVxUzQ5VkdHR2FySlBCMWV1d21QQjU2MGNubGtrUlpjT2g5bWNpQTRLbTFrczZ2b1BEUHpEMnZyUS1YZTZqVk9EUENpSVZsYTBfS1RtRUY5NVVabGx2MVdQOXFkUW1mM0ltVjU4LVZRa09DeGplb3kwb0FmMzRqdzgxQ2VZOXQ2V0psblh2SnU2RWR0TmY2dzVlYnFqS2lHem9KYzdVcmlQMA?oc=5",
       "date": "2026-11-04T17:10:28Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Deudas en dólares: ¿la nueva resolución garantiza respetar el tipo de cambio pactado? - Economy Bolivia",
-      "desc": "Deudas en dólares: ¿la nueva resolución garantiza respetar el tipo de cambio pactado?&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWXA1MzBMUHY5MVduTkFWRlNZZVhTT25ORk44a1RJbVBlSk5LdWFNNERjQzVjbGFCalVmUWhqUTRvYXFGVDI0MUVpQUhlU3p1MUhLQ0ZJMjNiV1Q5M1pQbXVlSXZJdV9lZG1IYThOT2FFWHU3blNXMTJCTGxJRVo5MVY0SmpwUklCVkN4QkpLYmQ0aFJ0MGNYc0hRNFRGWmxZM1l5OWFjRDNCUVRnTGFrUU44WE4?oc=5",
-      "date": "2026-11-03T21:30:45Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -210,6 +196,13 @@
       "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
       "date": "2026-10-20T07:00:00Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
+      "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
+      "date": "2026-10-17T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -280,10 +273,17 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.95,
+    "buyTomorrow": 11.96,
     "sellTomorrow": 12.01,
     "changeBuy": -0.03,
     "changeSell": -0.02,
@@ -4304,7 +4304,7 @@
     },
     {
       "date": "2026-11-05",
-      "buy": 11.98,
+      "buy": 11.99,
       "sell": 12.03
     }
   ]
