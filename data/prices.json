@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-06T18:40:49Z",
+  "lastUpdated": "2026-11-06T23:52:31Z",
   "displayDate": "viernes 6 de noviembre, 2026",
   "binance": {
-    "buy": 11.92,
-    "sell": 11.97,
+    "buy": 11.94,
+    "sell": 11.98,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.05,
-    "sell": 11.95,
+    "sell": 11.94,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.2,
-    "sell": 11.81,
+    "buy": 12.21,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.13,
-    "sell": 11.78,
+    "buy": 12.14,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.95,
-    "sell": 11.93,
+    "buy": 11.96,
+    "sell": 11.96,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.27,
-    "sell": 11.89,
+    "buy": 12.25,
+    "sell": 11.91,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.89,
     "officialSell": 11.89,
-    "referentialBuy": 11.92,
-    "referentialSell": 11.97,
+    "referentialBuy": 11.94,
+    "referentialSell": 11.98,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-06T18:40:44Z"
+    "fetchedAt": "2026-11-06T23:52:24Z"
   },
   "banks": [
     {
@@ -76,8 +76,8 @@
     },
     {
       "name": "Banco FIE",
-      "buy": 10.99,
-      "sell": 11.99
+      "buy": 10.89,
+      "sell": 12.09
     },
     {
       "name": "Banco Económico",
@@ -107,67 +107,74 @@
   ],
   "news": [
     {
+      "source": "La Razón",
+      "title": "Fiscalía confirma proceso a Saucedo por narcotráfico en la vía ordinaria",
+      "desc": "El fiscal general interino, José Armando Urioste, explicó que los delitos investigados no están relacionados con el ejercicio de funciones judiciales. \nThe post Fiscalía confirma proceso a Saucedo por…",
+      "link": "https://larazon.bo/nacional/2026/11/06/fiscalia-confirma-proceso-a-saucedo-por-narcotrafico-en-la-via-ordinaria/",
+      "date": "2026-11-06T23:14:23Z"
+    },
+    {
       "source": "El Deber",
-      "title": "Gobierno confirma que en las 31 maletas había marihuana e involucra a una fiscal más",
-      "desc": "El ministro Oviedo dijo que “extrañamente” Delmy Guzmán sigue siendo fiscal, y señaló que esta es una “parte fundamental del encubrimiento en esta investigación” (‘caso maletas’). Agregó que “la aún f…",
-      "link": "https://eldeber.com.bo/pais/gobierno-confirma-31-maletas-habia-marihuana-involucra-fiscal_1793989320",
-      "date": "2026-11-06T18:22:00Z"
+      "title": "Panificadores suben el precio del pan a Bs 1 en las ciudades de La Paz y El Alto",
+      "desc": "Los panificadores aseguran que el precio de Bs 310 el quintal de harina no compensa porque deben recoger de los almacenes del Gobierno y el transporte significa otro costo que se carga a los gastos de…",
+      "link": "https://eldeber.com.bo/pais/panificadores-suben-precio-pan-bs-1-ciudades-paz-alto_1794006762",
+      "date": "2026-11-06T23:12:42Z"
     },
     {
       "source": "La Razón",
-      "title": "Aramayo apunta a que la estabilización se traduzca en resultados para la microeconomía",
-      "desc": "El Gobierno busca que los esfuerzos para estabilizar la economía boliviana se reflejen en la actividad productiva, la generación de empleos y mejores condiciones para la población\nThe post Aramayo apu…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/aramayo-apunta-a-que-la-estabilizacion-se-traduzca-en-resultados-para-la-microeconomia/",
-      "date": "2026-11-06T18:19:25Z"
+      "title": "Paz presenta al CEAPI reformas para inversiones y destaca leyes económicas",
+      "desc": "Ell Mandatario expuso los cambios que busca implementar para ofrecer seguridad jurídica y promover la participación del sector privado\nThe post Paz presenta al CEAPI reformas para inversiones y destac…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/paz-presenta-al-ceapi-reformas-para-inversiones-y-destaca-leyes-economicas/",
+      "date": "2026-11-06T23:01:45Z"
     },
     {
       "source": "El Deber",
-      "title": "\"Tenemos dudas de las causas del fallecimiento\": el Gobierno investigará la muerte de uno de los detenidos del 'caso maletas'",
-      "desc": "Juan Carlos Espinoza Vaca murió en la cárcel de Palmasola a fines de septiembre, luego de permanecer detenido tras ser sindicado de estar vinculado con el 'caso maletas'",
-      "link": "https://eldeber.com.bo/santa-cruz/tenemos-dudas-causas-fallecimiento-gobierno-investigara-muerte-uno-detenidos-caso-maletas_1793988940",
-      "date": "2026-11-06T18:15:40Z"
+      "title": "Ronald Gutiérrez será el primer boliviano al frente de la banca latinoamericana",
+      "desc": "Entre los desafíos de su gestión esta impulsar la transformación digital de las entidades financieras, ampliar la inclusión financiera y el acceso al crédito.",
+      "link": "https://eldeber.com.bo/economia/ronald-gutierrez-sera-primer-boliviano-frente-banca-latinoamericana_1794005882",
+      "date": "2026-11-06T22:58:02Z"
     },
     {
       "source": "La Razón",
-      "title": "Con apoyo internacional, el Gobierno refuerza el plan contra El Niño",
-      "desc": "La agenda contempla la suscripción de un convenio de cooperación interinstitucional entre Defensa Civil y la Cruz Roja Boliviana.\nThe post Con apoyo internacional, el Gobierno refuerza el plan contra …",
-      "link": "https://larazon.bo/sociedad/2026/11/06/con-apoyo-internacional-el-gobierno-refuerza-el-plan-contra-el-nino/",
-      "date": "2026-11-06T18:14:44Z"
+      "title": "Caneb convoca a empresas a identificar trabas que frenan la inversión extranjera",
+      "desc": "La iniciativa responde a una solicitud de la Cancillería y cuenta con la participación de la Caneb y la Red de Cámaras Departamentales de Exportadores\nThe post Caneb convoca a empresas a identificar t…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/caneb-convoca-a-empresas-a-identificar-trabas-que-frenan-la-inversion-extranjera/",
+      "date": "2026-11-06T22:54:30Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Caso Mariaca: Porras dice que “no encontraron un peso” en su casa y afirma que se presentará a declarar",
+      "desc": "El exfiscal señaló que no recibió una orden de aprehensión y que prevé apersonarse ante la Fiscalía el próximo martes para prestar su declaración en calidad de testigo en la investigación contra el ex…",
+      "link": "https://eldeber.com.bo/santa-cruz/caso-mariaca-porras-dice-no-encontraron-peso-casa-afirma-presentara-declarar_1794005604",
+      "date": "2026-11-06T22:53:24Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía: Romer Saucedo será procesado por narcotráfico en la justicia ordinaria",
-      "desc": "El fiscal general interino explicó que la condición de Saucedo como presidente del TSJ no le otorga privilegios en investigación por un delito que no habría sido cometido en el ejercicio de sus funcio…",
-      "link": "https://larazon.bo/nacional/2026/11/06/fiscalia-romer-saucedo-sera-procesado-por-narcotrafico-en-la-justicia-ordinaria/",
-      "date": "2026-11-06T18:09:07Z"
+      "title": "Brasil prioriza tierras raras, litio y cobre en nueva estrategia minera",
+      "desc": "La nueva clasificación permitirá al Gobierno brasileño orientar el financiamiento y otros mecanismos de apoyo\nThe post Brasil prioriza tierras raras, litio y cobre en nueva estrategia minera appeared …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/brasil-prioriza-tierras-raras-litio-y-cobre-en-nueva-estrategia-minera/",
+      "date": "2026-11-06T22:48:58Z"
     },
     {
       "source": "El Deber",
-      "title": "Davinson Sánchez lidera convocatoria colombiana para amistosos en la que no está Luis Díaz",
-      "desc": "El central Davinson Sánchez, del Galatasaray, lidera la convocatoria de 26 jugadores de la selección colombiana para los dos encuentros amistosos que disputará en la fecha FIFA de este mes ante Chile,…",
-      "link": "https://eldeber.com.bo/deportes/davinson-sanchez-lidera-convocatoria-colombiana-amistosos-no-esta-luis-diaz_1793987450",
-      "date": "2026-11-06T17:50:50Z"
+      "title": "¡Hay nueva programación! EL DEBER renueva su pantalla con más noticias, análisis y entretenimiento",
+      "desc": "La renovada grilla ofrecerá contenidos para diferentes públicos, desde revistas matinales y entrevistas hasta deportes, finanzas y noticieros.",
+      "link": "https://eldeber.com.bo/pais/hay-nueva-programacion-deber-renueva-pantalla-noticias-analisis-entretenimiento_1794004917",
+      "date": "2026-11-06T22:41:57Z"
     },
     {
       "source": "El Deber",
-      "title": "Nabil Nacif recibe un nuevo llamado de la selección",
-      "desc": "El delantero de Oriente Petrolero será citado por Óscar Villegas para los amistosos ante Perú y Ecuador. Marco Velasco también aparece entre los convocados del equipo refinero.",
-      "link": "https://eldeber.com.bo/deportes/nabil-nacif-tendra-primera-convocatoria-seleccion-boliviana_1793985761",
-      "date": "2026-11-06T17:34:34Z"
+      "title": "La Fiscalía de Bolivia investiga la muerte de un bebé presuntamente asfixiado por su madre",
+      "desc": "La madre del menor, una joven de 22 años, señaló inicialmente que el martes en la noche, el niño cayó de su cama mientras jugaba, pero todavía estaba con signos vitales",
+      "link": "https://eldeber.com.bo/pais/fiscalia-bolivia-investiga-muerte-bebe-presuntamente-asfixiado-madre_1794004534",
+      "date": "2026-11-06T22:35:34Z"
     },
     {
-      "source": "La Razón",
-      "title": "Santa Cruz tiene 182 procesos de avasallamiento en curso",
-      "desc": "También se solicitó al INRA información sobre las tierras fiscales disponibles y no disponibles\nThe post Santa Cruz tiene 182 procesos de avasallamiento en curso appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/11/06/santa-cruz-tiene-182-procesos-de-avasallamiento-en-curso/",
-      "date": "2026-11-06T17:30:24Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Sujetos ingresan a una unidad educativa y secuestran a un adolescente de 16 años",
-      "desc": "Al menos seis sujetos irrumpieron el establecimiento educativo y secuestraron a un estudiante de 16 años. Los secuestradores se contactaron con la madre de la víctima y pidieron un rescate de 113 mil …",
-      "link": "https://eldeber.com.bo/pais/sujetos-ingresan-unidad-educativa-secuestran-adolescente-16-anos_1793985737",
-      "date": "2026-11-06T17:22:17Z"
+      "source": "Google — Economía Bolivia",
+      "title": "Blockchain y activos virtuales abren nuevas oportunidades para el sistema financiero boliviano - Economy Bolivia",
+      "desc": "Blockchain y activos virtuales abren nuevas oportunidades para el sistema financiero boliviano&nbsp;&nbsp;Economy Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRElFdldFR3dKLXN0NnE5a2NnWE93aHc4N2c2TzRzbEY1a2R5eXN0RTl0Q2pNTEhRVmp2OXM2YzQxd1p1aV85RHFWSHNkTEZ5bV9XaXE2MmF2NnRUY2w1eG5hSmtqdXVMaFZKUzVFLVJYWWhGV2dlTlRoVE9md0pzOXNRbHh0MENmUGFucHozdFRDbi1YTnJLZ1NjWFBnS1VFckJtUGJ3VFFzSXJHaVctTkxyOWgtNzAyTzRCeXVYT2RkNzl6dnJCWkFOYw?oc=5",
+      "date": "2026-11-06T22:20:33Z"
     },
     {
       "source": "Google — INE inflación",
@@ -273,19 +280,12 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.98,
-    "sellTomorrow": 12.02,
-    "changeBuy": 0.06,
+    "buyTomorrow": 11.99,
+    "sellTomorrow": 12.03,
+    "changeBuy": 0.05,
     "changeSell": 0.05,
     "trend": "alza",
     "confidence": "alta",
@@ -4309,8 +4309,8 @@
     },
     {
       "date": "2026-11-06",
-      "buy": 11.92,
-      "sell": 11.97
+      "buy": 11.94,
+      "sell": 11.98
     }
   ]
 }
