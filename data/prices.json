@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-06T00:36:54Z",
-  "displayDate": "jueves 5 de noviembre, 2026",
+  "lastUpdated": "2026-11-06T05:25:45Z",
+  "displayDate": "viernes 6 de noviembre, 2026",
   "binance": {
-    "buy": 11.99,
-    "sell": 12.03,
+    "buy": 11.98,
+    "sell": 12.04,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.05,
-    "sell": 11.98,
+    "sell": 12.0,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.27,
-    "sell": 11.88,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.2,
-    "sell": 11.85,
+    "buy": 12.19,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,25 +33,25 @@
   },
   "bybit": {
     "buy": 12.0,
-    "sell": 12.02,
+    "sell": 11.97,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.19,
-    "sell": 11.92,
+    "buy": 12.23,
+    "sell": 11.93,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 12.0,
-    "officialSell": 12.0,
-    "referentialBuy": 11.99,
-    "referentialSell": 12.03,
+    "officialBuy": 11.89,
+    "officialSell": 11.89,
+    "referentialBuy": 11.98,
+    "referentialSell": 12.04,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-06T00:36:48Z"
+    "fetchedAt": "2026-11-06T05:25:38Z"
   },
   "banks": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "name": "BNB",
-      "buy": 11.5,
-      "sell": 12.3
+      "buy": 11.39,
+      "sell": 12.19
     },
     {
       "name": "Banco Bisa",
@@ -76,23 +76,23 @@
     },
     {
       "name": "Banco FIE",
-      "buy": 11.1,
-      "sell": 12.1
+      "buy": 10.99,
+      "sell": 11.99
     },
     {
       "name": "Banco Económico",
-      "buy": 11.0,
-      "sell": 12.35
-    },
-    {
-      "name": "Mercantil Santa Cruz",
-      "buy": 10.9,
-      "sell": 12.3
+      "buy": 10.89,
+      "sell": 12.24
     },
     {
       "name": "BancoSol",
       "buy": 10.8,
       "sell": 12.5
+    },
+    {
+      "name": "Mercantil Santa Cruz",
+      "buy": 10.79,
+      "sell": 12.19
     },
     {
       "name": "Banco Unión",
@@ -102,10 +102,45 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.3
+      "sell": 12.19
     }
   ],
   "news": [
+    {
+      "source": "La Razón",
+      "title": "Our brand is failure",
+      "desc": "El 8 de noviembre de 2025, Rodrigo Paz Pereira juraba como presidente de Bolivia, ahora llamada “Estado Plurinacional”, pero aún así, república. Era el fin de una kakistocracia vergonzosa. La lluvia c…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/06/our-brand-is-failure/",
+      "date": "2026-11-06T05:21:24Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "EL DEBER presenta su grilla televisiva con sello informativo",
+      "desc": "La programación inicia el lunes 9 e incluirá espacios informativos, entrevistas, análisis, entretenimiento, deportes y finanzas. La propuesta apuesta por una televisión diferente y contexto como eje c…",
+      "link": "https://eldeber.com.bo/santa-cruz/deber-presenta-grilla-televisiva-sello-informativo_1793936739",
+      "date": "2026-11-06T03:45:39Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Bolivia registra una inflación de 6,03 % entre enero y octubre de 2026",
+      "desc": "La variación de los precios a doce meses es de 7,08 %, según el reporte del instituto estatal.",
+      "link": "https://eldeber.com.bo/pais/bolivia-registra-inflacion-6-03-enero-octubre-2026_1793931667",
+      "date": "2026-11-06T02:21:07Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "La inflación acumulada llega al 6,03% hasta octubre, según el INE",
+      "desc": "El transporte público y los alimentos estuvieron entre los productos y servicios que más subieron.\nThe post La inflación acumulada llega al 6,03% hasta octubre, según el INE appeared first on La Razón…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/05/la-inflacion-acumulada-llega-al-603-hasta-octubre-segun-el-ine/",
+      "date": "2026-11-06T01:59:22Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Giro en la investigación: nuevos elementos apuntan a Mariaca y Saucedo por el ingreso de las 32 maletas",
+      "desc": "La exdiputada identificó al magistrado Rómer Saucedo como el supuesto propietario del equipaje, mientras que el exjuez Hebert Zeballos afirmó que el entonces fiscal general Róger Mariaca habría brinda…",
+      "link": "https://eldeber.com.bo/pais/giro-investigacion-nuevos-elementos-apuntan-mariaca-saucedo-ingreso-32-maletas_1793929042",
+      "date": "2026-11-06T01:37:22Z"
+    },
     {
       "source": "El Deber",
       "title": "El Banco Central de Paraguay comienza los pagos a los ahorristas del intervenido Ueno bank",
@@ -121,53 +156,11 @@
       "date": "2026-11-06T00:21:56Z"
     },
     {
-      "source": "La Razón",
-      "title": "La Fiscalía y la Alcaldía de El Alto coordinan acciones para nuevo edificio",
-      "desc": "El proyecto incluye reforzar y equipar la Plataforma de Atención Integral a la Familia ubicada en La Ceja.\nThe post La Fiscalía y la Alcaldía de El Alto coordinan acciones para nuevo edificio appeared…",
-      "link": "https://larazon.bo/sociedad/2026/11/05/la-fiscalia-y-la-alcaldia-de-el-alto-coordinan-acciones-para-nuevo-edificio/",
-      "date": "2026-11-05T23:55:17Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz y Sánchez abordan cooperación e inversión entre Bolivia y España",
-      "desc": "El encuentro se realizó en Madrid, durante la XXX Cumbre Iberoamericana. El mandatario boliviano planteó convertir los vínculos históricos en oportunidades económicas.\nThe post Paz y Sánchez abordan c…",
-      "link": "https://larazon.bo/nacional/2026/11/05/paz-y-sanchez-abordan-cooperacion-e-inversion-entre-bolivia-y-espana-2/",
-      "date": "2026-11-05T23:48:02Z"
-    },
-    {
       "source": "El Deber",
       "title": "Se inicia la socialización de la Carta Orgánica de Santa Cruz de la Sierra",
       "desc": "El proceso de socialización inició este jueves, pero se extenderá hasta el 25 de noviembre. Permitirá recoger propuestas, sugerencias y demandas de los vecinos para enriquecer la Carta Orgánica de San…",
       "link": "https://eldeber.com.bo/santa-cruz/inicia-socializacion-carta-organica-santa-cruz-sierra_1793922473",
       "date": "2026-11-05T23:47:53Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Caso Mariaca: allanan dos autoventas y secuestran tres vehículos de lujo en Santa Cruz",
-      "desc": "Los operativos fueron ejecutados por la Fiscalía y efectivos de la Felcn en establecimientos ubicados en el cuarto anillo. Uno ubicado en inmediaciones de la radial 27 y otro en la avenida Busch. Los …",
-      "link": "https://eldeber.com.bo/santa-cruz/caso-mariaca-allanan-dos-autoventas-secuestran-tres-vehiculos-lujo-santa-cruz_1793921437",
-      "date": "2026-11-05T23:30:37Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Cámara boliviano paraguaya pide calma a empresarios ante crisis tras dimisión de Santiago Peña",
-      "desc": "En medio de las protestas por la intervención de la entidad financiera Ueno Bank, el mandatario paraguayo, Santiago Peña, anunció su renuncia, mientras que la Cámara de Diputados decidió someterlo a u…",
-      "link": "https://eldeber.com.bo/pais/camara-boliviano-paraguaya-pide-calma-empresarios-crisis-dimision-santiago-pena_1793921044",
-      "date": "2026-11-05T23:24:04Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz respalda Paraguay y reivindica la institucionalidad tras salida de Peña",
-      "desc": "El presidente boliviano se pronunció sobre la crisis política en Paraguay y pidió que se respete la Constitución y las instituciones democráticas.\nThe post Paz respalda Paraguay y reivindica la instit…",
-      "link": "https://larazon.bo/nacional/2026/11/05/paz-respalda-paraguay-y-reivindica-la-institucionalidad-tras-salida-de-pena/",
-      "date": "2026-11-05T23:14:09Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La crisis de Ueno Bank alcanza a la selección paraguaya y a los clubes",
-      "desc": "Futbolistas de la selección paraguaya, integrantes de los principales clubes del país y la propia Conmebol mantenían ahorros, cuentas u operaciones financieras en la entidad cuyo cierre fue ordenado p…",
-      "link": "https://eldeber.com.bo/deportes/crisis-ueno-bank-alcanza-seleccion-paraguaya-principales-clubes_1793919754",
-      "date": "2026-11-05T23:04:44Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -213,9 +206,9 @@
     },
     {
       "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
+      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
+      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
       "date": "2026-10-13T07:00:00Z"
     },
     {
@@ -280,14 +273,21 @@
       "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
       "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
+      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.96,
-    "sellTomorrow": 12.01,
-    "changeBuy": -0.03,
-    "changeSell": -0.02,
-    "trend": "baja",
+    "buyTomorrow": 12.01,
+    "sellTomorrow": 12.06,
+    "changeBuy": 0.03,
+    "changeSell": 0.02,
+    "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4306,6 +4306,11 @@
       "date": "2026-11-05",
       "buy": 11.99,
       "sell": 12.03
+    },
+    {
+      "date": "2026-11-06",
+      "buy": 11.98,
+      "sell": 12.04
     }
   ]
 }
