@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-06T05:25:45Z",
+  "lastUpdated": "2026-11-06T18:40:49Z",
   "displayDate": "viernes 6 de noviembre, 2026",
   "binance": {
-    "buy": 11.98,
-    "sell": 12.04,
+    "buy": 11.92,
+    "sell": 11.97,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.05,
-    "sell": 12.0,
+    "sell": 11.95,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.27,
-    "sell": 11.87,
+    "buy": 12.2,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.19,
-    "sell": 11.84,
+    "buy": 12.13,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,37 +32,37 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.0,
-    "sell": 11.97,
+    "buy": 11.95,
+    "sell": 11.93,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.23,
-    "sell": 11.93,
+    "buy": 12.27,
+    "sell": 11.89,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.89,
     "officialSell": 11.89,
-    "referentialBuy": 11.98,
-    "referentialSell": 12.04,
+    "referentialBuy": 11.92,
+    "referentialSell": 11.97,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-06T05:25:38Z"
+    "fetchedAt": "2026-11-06T18:40:44Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.7,
-      "sell": 12.3
+      "buy": 11.59,
+      "sell": 12.19
     },
     {
       "name": "BCP",
-      "buy": 11.5,
-      "sell": 12.3
+      "buy": 11.39,
+      "sell": 12.19
     },
     {
       "name": "BNB",
@@ -71,8 +71,8 @@
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.3,
-      "sell": 12.05
+      "buy": 11.19,
+      "sell": 12.0
     },
     {
       "name": "Banco FIE",
@@ -85,19 +85,19 @@
       "sell": 12.24
     },
     {
-      "name": "BancoSol",
-      "buy": 10.8,
-      "sell": 12.5
-    },
-    {
       "name": "Mercantil Santa Cruz",
       "buy": 10.79,
       "sell": 12.19
     },
     {
+      "name": "BancoSol",
+      "buy": 10.7,
+      "sell": 12.39
+    },
+    {
       "name": "Banco Unión",
-      "buy": 10.5,
-      "sell": 12.3
+      "buy": 10.3,
+      "sell": 12.19
     },
     {
       "name": "Banco Ganadero",
@@ -107,60 +107,74 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Our brand is failure",
-      "desc": "El 8 de noviembre de 2025, Rodrigo Paz Pereira juraba como presidente de Bolivia, ahora llamada “Estado Plurinacional”, pero aún así, república. Era el fin de una kakistocracia vergonzosa. La lluvia c…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/06/our-brand-is-failure/",
-      "date": "2026-11-06T05:21:24Z"
-    },
-    {
       "source": "El Deber",
-      "title": "EL DEBER presenta su grilla televisiva con sello informativo",
-      "desc": "La programación inicia el lunes 9 e incluirá espacios informativos, entrevistas, análisis, entretenimiento, deportes y finanzas. La propuesta apuesta por una televisión diferente y contexto como eje c…",
-      "link": "https://eldeber.com.bo/santa-cruz/deber-presenta-grilla-televisiva-sello-informativo_1793936739",
-      "date": "2026-11-06T03:45:39Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Bolivia registra una inflación de 6,03 % entre enero y octubre de 2026",
-      "desc": "La variación de los precios a doce meses es de 7,08 %, según el reporte del instituto estatal.",
-      "link": "https://eldeber.com.bo/pais/bolivia-registra-inflacion-6-03-enero-octubre-2026_1793931667",
-      "date": "2026-11-06T02:21:07Z"
+      "title": "Gobierno confirma que en las 31 maletas había marihuana e involucra a una fiscal más",
+      "desc": "El ministro Oviedo dijo que “extrañamente” Delmy Guzmán sigue siendo fiscal, y señaló que esta es una “parte fundamental del encubrimiento en esta investigación” (‘caso maletas’). Agregó que “la aún f…",
+      "link": "https://eldeber.com.bo/pais/gobierno-confirma-31-maletas-habia-marihuana-involucra-fiscal_1793989320",
+      "date": "2026-11-06T18:22:00Z"
     },
     {
       "source": "La Razón",
-      "title": "La inflación acumulada llega al 6,03% hasta octubre, según el INE",
-      "desc": "El transporte público y los alimentos estuvieron entre los productos y servicios que más subieron.\nThe post La inflación acumulada llega al 6,03% hasta octubre, según el INE appeared first on La Razón…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/05/la-inflacion-acumulada-llega-al-603-hasta-octubre-segun-el-ine/",
-      "date": "2026-11-06T01:59:22Z"
+      "title": "Aramayo apunta a que la estabilización se traduzca en resultados para la microeconomía",
+      "desc": "El Gobierno busca que los esfuerzos para estabilizar la economía boliviana se reflejen en la actividad productiva, la generación de empleos y mejores condiciones para la población\nThe post Aramayo apu…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/aramayo-apunta-a-que-la-estabilizacion-se-traduzca-en-resultados-para-la-microeconomia/",
+      "date": "2026-11-06T18:19:25Z"
     },
     {
       "source": "El Deber",
-      "title": "Giro en la investigación: nuevos elementos apuntan a Mariaca y Saucedo por el ingreso de las 32 maletas",
-      "desc": "La exdiputada identificó al magistrado Rómer Saucedo como el supuesto propietario del equipaje, mientras que el exjuez Hebert Zeballos afirmó que el entonces fiscal general Róger Mariaca habría brinda…",
-      "link": "https://eldeber.com.bo/pais/giro-investigacion-nuevos-elementos-apuntan-mariaca-saucedo-ingreso-32-maletas_1793929042",
-      "date": "2026-11-06T01:37:22Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El Banco Central de Paraguay comienza los pagos a los ahorristas del intervenido Ueno bank",
-      "desc": "En un comunicado, el BCP informó que los pagos, de hasta 10 millones de guaraníes o 1.565 dólares estadounidenses a la tasa de cambio del emisor, están destinados a un \"primer grupo\" de ahorristas que…",
-      "link": "https://eldeber.com.bo/mundo/banco-central-paraguay-comienza-pagos-ahorristas-intervenido-ueno-bank_1793925070",
-      "date": "2026-11-06T00:31:10Z"
+      "title": "\"Tenemos dudas de las causas del fallecimiento\": el Gobierno investigará la muerte de uno de los detenidos del 'caso maletas'",
+      "desc": "Juan Carlos Espinoza Vaca murió en la cárcel de Palmasola a fines de septiembre, luego de permanecer detenido tras ser sindicado de estar vinculado con el 'caso maletas'",
+      "link": "https://eldeber.com.bo/santa-cruz/tenemos-dudas-causas-fallecimiento-gobierno-investigara-muerte-uno-detenidos-caso-maletas_1793988940",
+      "date": "2026-11-06T18:15:40Z"
     },
     {
       "source": "La Razón",
-      "title": "Aramayo afirma que la seguridad jurídica es clave para atraer inversiones",
-      "desc": "Tras la Cumbre Iberoamericana en Madrid, el ministro destacó el interés internacional por Bolivia y señaló que las reformas judiciales e institucionales son necesarias para generar confianza.\nThe post…",
-      "link": "https://larazon.bo/nacional/2026/11/05/aramayo-afirma-que-la-seguridad-juridica-es-clave-para-atraer-inversiones/",
-      "date": "2026-11-06T00:21:56Z"
+      "title": "Con apoyo internacional, el Gobierno refuerza el plan contra El Niño",
+      "desc": "La agenda contempla la suscripción de un convenio de cooperación interinstitucional entre Defensa Civil y la Cruz Roja Boliviana.\nThe post Con apoyo internacional, el Gobierno refuerza el plan contra …",
+      "link": "https://larazon.bo/sociedad/2026/11/06/con-apoyo-internacional-el-gobierno-refuerza-el-plan-contra-el-nino/",
+      "date": "2026-11-06T18:14:44Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía: Romer Saucedo será procesado por narcotráfico en la justicia ordinaria",
+      "desc": "El fiscal general interino explicó que la condición de Saucedo como presidente del TSJ no le otorga privilegios en investigación por un delito que no habría sido cometido en el ejercicio de sus funcio…",
+      "link": "https://larazon.bo/nacional/2026/11/06/fiscalia-romer-saucedo-sera-procesado-por-narcotrafico-en-la-justicia-ordinaria/",
+      "date": "2026-11-06T18:09:07Z"
     },
     {
       "source": "El Deber",
-      "title": "Se inicia la socialización de la Carta Orgánica de Santa Cruz de la Sierra",
-      "desc": "El proceso de socialización inició este jueves, pero se extenderá hasta el 25 de noviembre. Permitirá recoger propuestas, sugerencias y demandas de los vecinos para enriquecer la Carta Orgánica de San…",
-      "link": "https://eldeber.com.bo/santa-cruz/inicia-socializacion-carta-organica-santa-cruz-sierra_1793922473",
-      "date": "2026-11-05T23:47:53Z"
+      "title": "Davinson Sánchez lidera convocatoria colombiana para amistosos en la que no está Luis Díaz",
+      "desc": "El central Davinson Sánchez, del Galatasaray, lidera la convocatoria de 26 jugadores de la selección colombiana para los dos encuentros amistosos que disputará en la fecha FIFA de este mes ante Chile,…",
+      "link": "https://eldeber.com.bo/deportes/davinson-sanchez-lidera-convocatoria-colombiana-amistosos-no-esta-luis-diaz_1793987450",
+      "date": "2026-11-06T17:50:50Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Nabil Nacif recibe un nuevo llamado de la selección",
+      "desc": "El delantero de Oriente Petrolero será citado por Óscar Villegas para los amistosos ante Perú y Ecuador. Marco Velasco también aparece entre los convocados del equipo refinero.",
+      "link": "https://eldeber.com.bo/deportes/nabil-nacif-tendra-primera-convocatoria-seleccion-boliviana_1793985761",
+      "date": "2026-11-06T17:34:34Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Santa Cruz tiene 182 procesos de avasallamiento en curso",
+      "desc": "También se solicitó al INRA información sobre las tierras fiscales disponibles y no disponibles\nThe post Santa Cruz tiene 182 procesos de avasallamiento en curso appeared first on La Razón.",
+      "link": "https://larazon.bo/ciudades/2026/11/06/santa-cruz-tiene-182-procesos-de-avasallamiento-en-curso/",
+      "date": "2026-11-06T17:30:24Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Sujetos ingresan a una unidad educativa y secuestran a un adolescente de 16 años",
+      "desc": "Al menos seis sujetos irrumpieron el establecimiento educativo y secuestraron a un estudiante de 16 años. Los secuestradores se contactaron con la madre de la víctima y pidieron un rescate de 113 mil …",
+      "link": "https://eldeber.com.bo/pais/sujetos-ingresan-unidad-educativa-secuestran-adolescente-16-anos_1793985737",
+      "date": "2026-11-06T17:22:17Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "BOLIVIA REGISTRA UNA VARIACIÓN MENSUAL DEL IPC DE 2,07% EN OCTUBRE DE 2026 - Ine.gob.bo",
+      "desc": "BOLIVIA REGISTRA UNA VARIACIÓN MENSUAL DEL IPC DE 2,07% EN OCTUBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalFIajhuWWFuVmZCblJMZ2FOTEVQMDlQc21ZWWNPOUhzQ240TXY2SHQ3Y3EyOU5qQ3JNQVFHeS10SVVpRlNrVGwyQXVabXFDUXZWM1hlYno4aWJyR0ZZNUY2NzB2TV84cVZXQTV4akpCa19QbVZSSFRLZ3RUSTBpekdhU0N3TU1nWE9QRzRJM0MtNklNY04tYlcyZS1DY1c0MWY1SGpnUy0wdw?oc=5",
+      "date": "2026-11-05T22:15:48Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -168,13 +182,6 @@
       "desc": "Las cotizaciones del dólar cambian en Bolivia: estos son los valores de este jueves&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeGg2ZEthRnRvc1h5VHdHd3VCSlZ6bTYtYmJZenhXX0FTZWtZZnRfZVZLbm1mVU44ZWROQVdjSFloakJuZWFXem5ldGczR0ZGVnBLQUVyWXBsUmhpYWxJbXJlbUdHZWwtb3M2M2swdWJ3NHo1QzF2Rmlpc2tJYlY0Z1pVWGtWREtON25RRXlZaDcyd25qbVRWZmVZMFZVUFV4VEtrOEoxQUpyYVAtTDh0bDZmS2Ita2RNVFMzMlRESUthSmlCZ2JrejlB?oc=5",
       "date": "2026-11-05T11:09:21Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Ministro de Economía se reúne con autoridades españolas para ampliar oportunidades de inversión y comercio - ABI - Agencia Boliviana de Información",
-      "desc": "Ministro de Economía se reúne con autoridades españolas para ampliar oportunidades de inversión y comercio&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkcxRDFwM2FSTXFibVFEY3N1ck04QjVxUzQ5VkdHR2FySlBCMWV1d21QQjU2MGNubGtrUlpjT2g5bWNpQTRLbTFrczZ2b1BEUHpEMnZyUS1YZTZqVk9EUENpSVZsYTBfS1RtRUY5NVVabGx2MVdQOXFkUW1mM0ltVjU4LVZRa09DeGplb3kwb0FmMzRqdzgxQ2VZOXQ2V0psblh2SnU2RWR0TmY2dzVlYnFqS2lHem9KYzdVcmlQMA?oc=5",
-      "date": "2026-11-04T17:10:28Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -273,20 +280,13 @@
       "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
       "date": "2026-08-26T07:00:00Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
-      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.01,
-    "sellTomorrow": 12.06,
-    "changeBuy": 0.03,
-    "changeSell": 0.02,
+    "buyTomorrow": 11.98,
+    "sellTomorrow": 12.02,
+    "changeBuy": 0.06,
+    "changeSell": 0.05,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4309,8 +4309,8 @@
     },
     {
       "date": "2026-11-06",
-      "buy": 11.98,
-      "sell": 12.04
+      "buy": 11.92,
+      "sell": 11.97
     }
   ]
 }
