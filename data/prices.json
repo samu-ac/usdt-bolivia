@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-06T23:52:31Z",
-  "displayDate": "viernes 6 de noviembre, 2026",
+  "lastUpdated": "2026-11-07T04:54:05Z",
+  "displayDate": "sabado 7 de noviembre, 2026",
   "binance": {
-    "buy": 11.94,
-    "sell": 11.98,
+    "buy": 11.93,
+    "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
@@ -14,14 +14,14 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.21,
-    "sell": 11.82,
+    "buy": 12.22,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.14,
-    "sell": 11.79,
+    "buy": 12.13,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.96,
-    "sell": 11.96,
+    "buy": 11.98,
+    "sell": 11.95,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.25,
-    "sell": 11.91,
+    "buy": 12.24,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.89,
-    "officialSell": 11.89,
-    "referentialBuy": 11.94,
-    "referentialSell": 11.98,
+    "officialBuy": 11.81,
+    "officialSell": 11.81,
+    "referentialBuy": 11.93,
+    "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-06T23:52:24Z"
+    "fetchedAt": "2026-11-07T04:53:59Z"
   },
   "banks": [
     {
@@ -61,33 +61,33 @@
     },
     {
       "name": "BCP",
-      "buy": 11.39,
-      "sell": 12.19
+      "buy": 11.31,
+      "sell": 12.11
     },
     {
       "name": "BNB",
-      "buy": 11.39,
-      "sell": 12.19
+      "buy": 11.31,
+      "sell": 12.11
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.19,
-      "sell": 12.0
+      "buy": 11.11,
+      "sell": 11.92
     },
     {
       "name": "Banco FIE",
-      "buy": 10.89,
-      "sell": 12.09
+      "buy": 10.81,
+      "sell": 12.01
     },
     {
       "name": "Banco Económico",
-      "buy": 10.89,
-      "sell": 12.24
+      "buy": 10.81,
+      "sell": 12.16
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.79,
-      "sell": 12.19
+      "buy": 10.71,
+      "sell": 12.11
     },
     {
       "name": "BancoSol",
@@ -102,72 +102,51 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.19
+      "sell": 12.11
     }
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Fiscalía confirma proceso a Saucedo por narcotráfico en la vía ordinaria",
-      "desc": "El fiscal general interino, José Armando Urioste, explicó que los delitos investigados no están relacionados con el ejercicio de funciones judiciales. \nThe post Fiscalía confirma proceso a Saucedo por…",
-      "link": "https://larazon.bo/nacional/2026/11/06/fiscalia-confirma-proceso-a-saucedo-por-narcotrafico-en-la-via-ordinaria/",
-      "date": "2026-11-06T23:14:23Z"
-    },
-    {
       "source": "El Deber",
-      "title": "Panificadores suben el precio del pan a Bs 1 en las ciudades de La Paz y El Alto",
-      "desc": "Los panificadores aseguran que el precio de Bs 310 el quintal de harina no compensa porque deben recoger de los almacenes del Gobierno y el transporte significa otro costo que se carga a los gastos de…",
-      "link": "https://eldeber.com.bo/pais/panificadores-suben-precio-pan-bs-1-ciudades-paz-alto_1794006762",
-      "date": "2026-11-06T23:12:42Z"
+      "title": "Teatro y cine en la agenda cultural del municipio",
+      "desc": "Además de las artes escénicas, se mantienen los recorridos guiados por el centro de la ciudad. Este fin de semana se intensifican las presentaciones en el festival de teatro Bicu Bicu",
+      "link": "https://eldeber.com.bo/santa-cruz/teatro-cine-agenda-cultural-municipio_1794018117",
+      "date": "2026-11-07T02:21:57Z"
     },
     {
       "source": "La Razón",
-      "title": "Paz presenta al CEAPI reformas para inversiones y destaca leyes económicas",
-      "desc": "Ell Mandatario expuso los cambios que busca implementar para ofrecer seguridad jurídica y promover la participación del sector privado\nThe post Paz presenta al CEAPI reformas para inversiones y destac…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/paz-presenta-al-ceapi-reformas-para-inversiones-y-destaca-leyes-economicas/",
-      "date": "2026-11-06T23:01:45Z"
+      "title": "CNC: Paraguay seguirá siendo un destino para los empresarios bolivianos",
+      "desc": "Olivo analizó la crisis que atraviesa el vecino país tras la renuncia, destitución y detención del expresidente Santiago Peña.\nThe post CNC: Paraguay seguirá siendo un destino para los empresarios bol…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/cnc-paraguay-seguira-siendo-un-destino-para-los-empresarios-bolivianos/",
+      "date": "2026-11-07T01:36:38Z"
     },
     {
       "source": "El Deber",
-      "title": "Ronald Gutiérrez será el primer boliviano al frente de la banca latinoamericana",
-      "desc": "Entre los desafíos de su gestión esta impulsar la transformación digital de las entidades financieras, ampliar la inclusión financiera y el acceso al crédito.",
-      "link": "https://eldeber.com.bo/economia/ronald-gutierrez-sera-primer-boliviano-frente-banca-latinoamericana_1794005882",
-      "date": "2026-11-06T22:58:02Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Caneb convoca a empresas a identificar trabas que frenan la inversión extranjera",
-      "desc": "La iniciativa responde a una solicitud de la Cancillería y cuenta con la participación de la Caneb y la Red de Cámaras Departamentales de Exportadores\nThe post Caneb convoca a empresas a identificar t…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/caneb-convoca-a-empresas-a-identificar-trabas-que-frenan-la-inversion-extranjera/",
-      "date": "2026-11-06T22:54:30Z"
+      "title": "Fiscalía destituye a Delmy Guzmán, tras ser sindicada por obstruir el caso Maletas",
+      "desc": "El fiscal departamental de Santa Cruz, Jimmy López, confirmó a EL DEBER la salida de la funcionaria, señalada por el ministro de Gobierno como parte del entorno cercano del ex fiscal general Róger Mar…",
+      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-destituye-delmy-guzman-ser-sindicada-obstruir-caso-maletas_1794014284",
+      "date": "2026-11-07T01:18:04Z"
     },
     {
       "source": "El Deber",
-      "title": "Caso Mariaca: Porras dice que “no encontraron un peso” en su casa y afirma que se presentará a declarar",
-      "desc": "El exfiscal señaló que no recibió una orden de aprehensión y que prevé apersonarse ante la Fiscalía el próximo martes para prestar su declaración en calidad de testigo en la investigación contra el ex…",
-      "link": "https://eldeber.com.bo/santa-cruz/caso-mariaca-porras-dice-no-encontraron-peso-casa-afirma-presentara-declarar_1794005604",
-      "date": "2026-11-06T22:53:24Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Brasil prioriza tierras raras, litio y cobre en nueva estrategia minera",
-      "desc": "La nueva clasificación permitirá al Gobierno brasileño orientar el financiamiento y otros mecanismos de apoyo\nThe post Brasil prioriza tierras raras, litio y cobre en nueva estrategia minera appeared …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/06/brasil-prioriza-tierras-raras-litio-y-cobre-en-nueva-estrategia-minera/",
-      "date": "2026-11-06T22:48:58Z"
+      "title": "Petrobras celebra 30 años contribuyendo al desarrollo energético de Bolivia",
+      "desc": "Tres décadas de inversiones, tecnología, generación de valor y compromiso con el desarrollo energético del país",
+      "link": "https://eldeber.com.bo/economia/petrobras-celebra-30-anos-contribuyendo-desarrollo-energetico-bolivia_1794014138",
+      "date": "2026-11-07T01:15:38Z"
     },
     {
       "source": "El Deber",
-      "title": "¡Hay nueva programación! EL DEBER renueva su pantalla con más noticias, análisis y entretenimiento",
-      "desc": "La renovada grilla ofrecerá contenidos para diferentes públicos, desde revistas matinales y entrevistas hasta deportes, finanzas y noticieros.",
-      "link": "https://eldeber.com.bo/pais/hay-nueva-programacion-deber-renueva-pantalla-noticias-analisis-entretenimiento_1794004917",
-      "date": "2026-11-06T22:41:57Z"
+      "title": "La Verde tiene a sus elegidos para los amistosos de noviembre",
+      "desc": "La Verde afrontará dos compromisos internacionales durante la fecha FIFA de noviembre. La nómina presenta nombres de experiencia y jóvenes futbolistas que buscarán ganarse un lugar en el equipo nacion…",
+      "link": "https://eldeber.com.bo/deportes/verde-tiene-elegidos-amistosos-noviembre_1794012297",
+      "date": "2026-11-07T00:44:57Z"
     },
     {
       "source": "El Deber",
-      "title": "La Fiscalía de Bolivia investiga la muerte de un bebé presuntamente asfixiado por su madre",
-      "desc": "La madre del menor, una joven de 22 años, señaló inicialmente que el martes en la noche, el niño cayó de su cama mientras jugaba, pero todavía estaba con signos vitales",
-      "link": "https://eldeber.com.bo/pais/fiscalia-bolivia-investiga-muerte-bebe-presuntamente-asfixiado-madre_1794004534",
-      "date": "2026-11-06T22:35:34Z"
+      "title": "Decomisan 70 garrafas de GLP y 65 litros de gasolina que eran vendidos ilegalmente en Santa Cruz",
+      "desc": "Un operativo de la ANH, YPFB y la Policía detectó puntos de almacenamiento y reventa de combustibles en la carretera a Cotoca",
+      "link": "https://eldeber.com.bo/economia/decomisan-70-garrafas-glp-65-litros-gasolina-eran-vendidos-ilegalmente-santa-cruz_1794011827",
+      "date": "2026-11-07T00:37:07Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -217,13 +196,6 @@
       "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
       "date": "2026-10-14T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027 - Visión 360",
-      "desc": "FMI: Bolivia será la única economía de Sudamérica que se contraerá en 2026 y 2027&nbsp;&nbsp;Visión 360",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd0lLQi1PN2ZRTkZ1Y0YzbllhQU9LcDBmSWh0d0JaUG02dHhwT3k3WUZXXzNJZjlRRWVpUU5YclZSbURFdDVRaUN4RHJtazQ2cjd2WUJDWFpiV1RObUFrS3JoNGNlTVR2V09aMmlmYVNvanBJSWZxWXBZaVhkcEpKOWZWUUJrb1Rsem95ME56cjNHa0ZTX0VqeVVtMFdRMUh3MFp5LThlOXhNYkhDOTA5WlNZcTAwTTFLVUJ3b3dJQUFPclQxcVdZRm5Pd9IB0AFBVV95cUxQOWdRallzV3Q5cEMzNnRmeUJ0OWdmTzc3eHFQMGYtTHNHMVJqYm9kdzIwdTN4enZYM3dKYXpRVElxNHNsT3lwMEMteWhjdmVNal8yZFlCTkZacjBJU092UmFTUktNSlBzdEFNejJ3LXdhMlA5TWMteDF1Vi1kc3dhSG9rdjYtc1FKUmhWLWdmMm5nejJuRnFVV3o5U1BKTEdOMkxGdmhVU2xDUkkzd3FBWjlWcGFxN2wyM2RxcHVEV1FZODROQjJ2c1dTQzI2b0JY?oc=5",
-      "date": "2026-10-13T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -280,13 +252,41 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
+      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
+      "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
+      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
+      "date": "2026-08-24T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.99,
-    "sellTomorrow": 12.03,
-    "changeBuy": 0.05,
-    "changeSell": 0.05,
+    "buyTomorrow": 11.95,
+    "sellTomorrow": 11.99,
+    "changeBuy": 0.02,
+    "changeSell": 0.0,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4311,6 +4311,11 @@
       "date": "2026-11-06",
       "buy": 11.94,
       "sell": 11.98
+    },
+    {
+      "date": "2026-11-07",
+      "buy": 11.93,
+      "sell": 11.99
     }
   ]
 }
