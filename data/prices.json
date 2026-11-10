@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-10T06:11:45Z",
+  "lastUpdated": "2026-11-10T19:03:20Z",
   "displayDate": "martes 10 de noviembre, 2026",
   "binance": {
-    "buy": 11.92,
-    "sell": 11.99,
+    "buy": 11.84,
+    "sell": 11.88,
     "available": true,
     "source": "binance_p2p"
   },
@@ -14,14 +14,14 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.22,
-    "sell": 11.81,
+    "buy": 12.12,
+    "sell": 11.68,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.13,
-    "sell": 11.78,
+    "buy": 12.05,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.96,
-    "sell": 11.92,
+    "buy": 11.88,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.25,
-    "sell": 11.92,
+    "buy": 12.08,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.75,
     "officialSell": 11.75,
-    "referentialBuy": 11.92,
-    "referentialSell": 11.99,
+    "referentialBuy": 11.84,
+    "referentialSell": 11.88,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-10T06:11:39Z"
+    "fetchedAt": "2026-11-10T19:03:14Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.51,
-      "sell": 12.11
+      "buy": 11.45,
+      "sell": 12.05
     },
     {
       "name": "BCP",
@@ -72,7 +72,7 @@
     {
       "name": "Banco Bisa",
       "buy": 11.05,
-      "sell": 11.92
+      "sell": 11.9
     },
     {
       "name": "Banco FIE",
@@ -91,13 +91,13 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.63,
-      "sell": 12.31
+      "buy": 10.58,
+      "sell": 12.25
     },
     {
       "name": "Banco Unión",
-      "buy": 10.31,
-      "sell": 12.11
+      "buy": 10.25,
+      "sell": 12.05
     },
     {
       "name": "Banco Ganadero",
@@ -108,73 +108,94 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "‘Cómo robar un banco’ llega a los cines de Bolivia",
-      "desc": "La película muestra cómo un grupo de delincuentes deberá enfrentarse a las consecuencias de convertir sus propios crímenes en espectáculos públicos.\nThe post ‘Cómo robar un banco’ llega a los cines de…",
-      "link": "https://larazon.bo/la-revista/2026/11/10/como-robar-un-banco-llega-a-los-cines-de-bolivia/",
-      "date": "2026-11-10T06:07:40Z"
+      "title": "Camex plantea tratados de libre comercio para ampliar exportaciones de algodón",
+      "desc": "La entidad considera que los países vecinos ofrecen ventajas logísticas para ampliar las ventas internacionales del producto\nThe post Camex plantea tratados de libre comercio para ampliar exportacione…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/camex-plantea-tratados-de-libre-comercio-para-ampliar-exportaciones-de-algodon/",
+      "date": "2026-11-10T19:00:27Z"
     },
     {
       "source": "La Razón",
-      "title": "Ciudades intermedias, turismo y misiones jesuíticas en Castilla y León",
-      "desc": "En tiempos de crisis, debemos apelar a nuestras mayores fortalezas. El Centro Tordesillas para las Relaciones con Iberoamérica de la Universidad de Valladolid, bajo la dirección de Carlos Hernández Ca…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/10/ciudades-intermedias-turismo-y-misiones-jesuiticas-en-castilla-y-leon/",
-      "date": "2026-11-10T05:49:32Z"
+      "title": "Infanticidio: Abigail murió tras ser obligada por su madrastra a tomar sopa caliente",
+      "desc": "La víctima había sido reportada como desaparecida la noche del 4 de noviembre. Al día siguiente, su cuerpo fue hallado cerca del río. \nThe post Infanticidio: Abigail murió tras ser obligada por su mad…",
+      "link": "https://larazon.bo/ciudades/2026/11/10/infanticidio-abigail-murio-tras-ser-obligada-por-su-madrastra-a-tomar-sopa-caliente/",
+      "date": "2026-11-10T18:35:13Z"
     },
     {
       "source": "La Razón",
-      "title": "El Estado obeso y glotón",
-      "desc": "No es una gran revelación decir que el Estado ha crecido de una forma desmesurada desde que el MAS tomó el poder el 2006. No solo se ha convertido en un enorme aparato burocrático al que todos los bol…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/10/el-estado-obeso-y-gloton/",
-      "date": "2026-11-10T05:12:25Z"
+      "title": "Santa Cruz: Sedes descarta nuevos casos de meningitis en Palmasola",
+      "desc": "El pasado 2 de noviembre se registró un caso positivo de la enfermedad. La entidad activó el protocolo para descartar nuevos contagios.\nThe post Santa Cruz: Sedes descarta nuevos casos de meningitis e…",
+      "link": "https://larazon.bo/sociedad/2026/11/10/santa-cruz-sedes-descarta-nuevos-casos-de-meningitis-en-palmasola/",
+      "date": "2026-11-10T18:34:15Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Policías y estudiantes de un instituto tecnológico se enfrentan en La Paz",
+      "desc": "Hubo gasificaciones y varios bloqueadores de un instituto tecnológico fueron arrestados",
+      "link": "https://eldeber.com.bo/la-paz/policias-estudiantes-instituto-tecnologico-enfrentan-paz_1794335014",
+      "date": "2026-11-10T18:23:34Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Fiscalía cita a declarar a ex fiscales de la Felcn, entre ellos el exasesor de Rómer Saucedo y el ex presidente del TDJ  de Santa Cruz",
+      "desc": "En total son cuatro convocatorias que forman parte de las diligencias investigativas que desarrolla el Ministerio Público dentro del denominado 'caso maletas'.",
+      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-cita-declarar-ex-fiscales-felcn-ellos-exasesor-romer-saucedo-ex-presidente-tdj-santa-cruz_1794334557",
+      "date": "2026-11-10T18:16:46Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "\"Estoy muy preocupado porque no tengo noticias de mi dinero\": los millones de paraguayos afectados por la crisis del Ueno Bank que aún esperan la devolución de sus ahorros",
+      "desc": "Menos de 48 horas después de la intervención del banco por insolvencia, el BCP puso en marcha el proceso de devolución de depósitos. Hasta este lunes, más de 1,7 millones de personas habían recuperado…",
+      "link": "https://eldeber.com.bo/bbc/estoy-preocupado-porque-no-tengo-noticias-dinero-millones-paraguayos-afectados-crisis-ueno-bank-aun-esperan-devolucion-ahorros_1794333672",
+      "date": "2026-11-10T18:01:12Z"
     },
     {
       "source": "La Razón",
-      "title": "Luis rico, hombre comprometido con su época",
-      "desc": "Ha muerto Luis Rico, trovador de nuestro pueblo. Su lucha, contaba él, comenzó con la conmoción que le causó la Masacre de San Juan en 1967: los militares cercaron el campamento de la mina de Siglo XX…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/10/luis-rico-hombre-comprometido-con-su-epoca/",
-      "date": "2026-11-10T05:09:34Z"
+      "title": "Calderón sugiere un marco normativo minero más claro, Fencomin denuncia falta de participación",
+      "desc": "La propuesta enfrenta cuestionamientos del sector cooperativista, que denuncia falta de participación en su elaboración\nThe post Calderón sugiere un marco normativo minero más claro, Fencomin denuncia…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/calderon-sugiere-un-marco-normativo-minero-mas-claro-fencomin-denuncia-falta-de-participacion/",
+      "date": "2026-11-10T17:58:40Z"
     },
     {
       "source": "El Deber",
-      "title": "Exdiputado Barral considera que el caso maletas será cerrado sin culpables",
-      "desc": "Un informe de la Fuerza Especial de Lucha Contra el Narcotráfico (Felcn), incorporado al cuadernillo de investigación fiscal del denominado caso 'Maletas', establece que las más de 30 maletas que lleg…",
-      "link": "https://eldeber.com.bo/pais/exdiputado-barral-considera-caso-maletas-sera-cerrado-culpables_1794276138",
-      "date": "2026-11-10T02:02:18Z"
+      "title": "La ganadería también  tiene rostro de mujer y negocios de alto valor",
+      "desc": "Las ganaderas bolivianas se organizan en Asocebú Mujer, presidida por Yasmine Ribera, empresaria cruceña que llevó genética cebuina al mercado de Brasil",
+      "link": "https://eldeber.com.bo/dinero/ganaderia-tiene-rostro-mujer-negocios-alto-valor_1794333191",
+      "date": "2026-11-10T17:53:11Z"
     },
     {
       "source": "El Deber",
-      "title": "Def Leppard se despide de Sudamérica en Chile con la nostalgia de un rock que une generaciones",
-      "desc": "Desde la mirada de un cronista boliviano, el concierto en Santiago fue un viaje a los años dorados del hard rock. Los himnos de Hysteria reunieron a padres, hijos y abuelos en una noche de recuerdos y…",
-      "link": "https://eldeber.com.bo/pais/def-leppard-despide-sudamerica-chile-nostalgia-rock-une-generaciones_1794273040",
-      "date": "2026-11-10T01:10:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Alcaldes de Bolivia exigen el 50/50, devolución del IDH y un decreto para salvar obras municipales",
-      "desc": "Las autoridades municipales definieron una hoja de ruta para negociar con el Gobierno y plantearon medidas urgentes para aliviar las finanzas municipales.",
-      "link": "https://eldeber.com.bo/pais/alcaldes-bolivia-exigen-50-50-devolucion-idh-decreto-salvar-obras-municipales_1794272903",
-      "date": "2026-11-10T01:08:23Z"
+      "title": "Denuncian a cuatro ex funcionarios del INE en Potosí por delitos de corrupción",
+      "desc": "Un rastreo financiero estableció movimientos económicos fuera del perfil de los investigados",
+      "link": "https://eldeber.com.bo/potosi/denuncian-cuatro-exfuncionarios-ine-potosi-delitos-corrupcion_1794332909",
+      "date": "2026-11-10T17:48:29Z"
     },
     {
       "source": "La Razón",
-      "title": "Alcaldes dan plazo al Gobierno hasta el 13 de noviembre por el 50/50",
-      "desc": "Los municipios exigen un decreto para proteger proyectos en riesgo, el desembolso de recursos y participación protagónica en el nuevo pacto fiscal.\nThe post Alcaldes dan plazo al Gobierno hasta el 13 …",
-      "link": "https://larazon.bo/nacional/2026/11/09/alcaldes-dan-plazo-al-gobierno-hasta-el-13-de-noviembre-por-el-50-50/",
-      "date": "2026-11-10T00:43:38Z"
+      "title": "Las principales medidas que se deberían tomar en materia energética",
+      "desc": "Los temas de fondo, son cambiar la CPE para permitir el arbitraje internacional y tener nuevas leyes de electricidad e hidrocarburos, que permitan atraer inversión internacional\nThe post Las principal…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/10/las-principales-medidas-que-se-deberian-tomar-en-materia-energetica/",
+      "date": "2026-11-10T17:44:06Z"
     },
     {
-      "source": "El Deber",
-      "title": "¿Qué hizo la Brigada Parlamentaria de Santa Cruz en un año? Estos son los resultados",
-      "desc": "La institución reportó un cumplimiento del 83,39% de los requerimientos ciudadanos durante su gestión. Para el siguiente periodo prevé agilizar la fiscalización y la atención de demandas. La elección …",
-      "link": "https://eldeber.com.bo/santa-cruz/hizo-brigada-parlamentaria-santa-cruz-ano-estos-resultados_1794270323",
-      "date": "2026-11-10T00:25:23Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar paralelo en Bolivia: estos son los precios de compra y venta este martes 10 de noviembre - Red Uno",
+      "desc": "Dólar paralelo en Bolivia: estos son los precios de compra y venta este martes 10 de noviembre&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR1FlUktCQkRST3BOZkM0dkVwS0NJRkJBUUc4NlRaamhrNFkxT1lwUklmWl9yUEYwS053R2RNQUR1ZzhfTnAxdTlwOXg4M0dtcEQtcWZrNnl2NUZZTC05ZkxOV2FYSzBiYy1ycjRqc0JyZnYxSTh1aWVwNkZoRUxUeFk2QUJtXzhkY1U2RnhfMkc1dUtES1dNbC1CaExsa0RZRXpiRlZ6MC1YdEdtWlRMY3ZfXy1TZ1RNMUJ1azd3UWJfSnduNUFJQngzT3BHcTY2MWJ0TTZPUTZpOVk?oc=5",
+      "date": "2026-11-10T17:18:44Z"
     },
     {
-      "source": "El Deber",
-      "title": "La Fiscalía de Paraguay trata de abrir una bóveda oculta hallada en una propiedad del expresidente Santiago Peña",
-      "desc": "Los agentes consiguieron abrir una primera puerta de la bóveda en la residencia de verano de Peña, pero se encontraron con una segunda compuerta que les impidió acceder, según las declaraciones de los…",
-      "link": "https://eldeber.com.bo/bbc/fiscalia-paraguay-trata-abrir-boveda-oculta-hallada-propiedad-expresidente-santiago-pena_1794265012",
-      "date": "2026-11-09T22:56:52Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "El dólar oficial baja en Bolivia: así se mueve la cotización para este martes - Red Uno",
+      "desc": "El dólar oficial baja en Bolivia: así se mueve la cotización para este martes&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT1NMWDdLc1pkcDR6Wkx1U2JURFJPZ2FmYTJJY3pKZ29nVmE5QkVkWV80U1BFeHJOc0ZDWEJLRmRhRkRsOC04QjJPVm0wNHEtN00tWkRfWnkyZEdFY084dzlFQkNOWFltczhVTUtDYUR5cTBuLU9KTGtKQWlNZ0xyZWNfT1FadEZHTXZsWUFERDk2WXpiQm9Tcl9GQ3h1UHFBdFJtVk9fSG9COFZwWFJjYVgxc2pMYmthbkZDVDFVakM4Zw?oc=5",
+      "date": "2026-11-10T10:43:46Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Gobierno establece nueva metodología para calcular el precio del diésel en Bolivia - Correo del Sur",
+      "desc": "Gobierno establece nueva metodología para calcular el precio del diésel en Bolivia&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRzM4TjUtLXdNZWdySkQyaVJDbXRMdHBHVFlMSHZ0Z3hqbGVTOVlIczZ2SmVtSmJwVWdPbFh3OUVxM3NCRm16aGZhNW5VYnFOQ3VPeExiZUVXREhSa3VJLVhOdVpETVFkLWU1eW52MDduNDRBZllIcUQ0QjEzdTAzNlVTaHYtN254T0RPX1JKME56ZExqOXhvdzdzMzhpOHdKU3UwdHZ1ZVpIbms1dFVjdkJFLXpOamdOYTdXVU5HRUZOOWlWNDJybEdn?oc=5",
+      "date": "2026-11-10T03:59:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -182,13 +203,6 @@
       "desc": "Un año de Rodrigo Paz: ¿qué cambió en la economía boliviana?&nbsp;&nbsp;Economy Bolivia",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUdXTEx5UlpJcldTekRZVGNNRlJDQnk5NlREbWZHSnl6elJSQUQ0SnB1clFXY0RwdjJHaWFUXzdEXzZxeHZkcDg1WURTenRCcHdvcDBFb2JodzBlMUtwQ1Y3TjVWNXQwMUlxb3c3NjVSZ2VPQWhKcjNaWHctaVQ2b0xYNWJQYm5SWWRaTmJaR3ZnLWs?oc=5",
       "date": "2026-11-09T17:16:39Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "¿A cuánto está el dólar hoy? Así cotiza la moneda estadounidense en Bolivia - Red Uno",
-      "desc": "¿A cuánto está el dólar hoy? Así cotiza la moneda estadounidense en Bolivia&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUNrNWFvQkJSbzVnMUdkX3ZoNzczY091WGw5ZENVTE5TMUhUakNJYm16M2FMb2tqUGREM1pHWjhKWU5tV19XckZvQ3diX1BNVlM0TXd1ZW50ZEtZUjY4cU9IREhoeE1sOGN5T1BKVkJpUkJab001Z25sQkFHOHJzYTdhWm51ZEJDYXdWMUl2S0VfUEVXaFJCR1JvVjVuaHZ6bWtVWDBCSFZtNmotRzg2SllMekR5T2FfbXcwckVR?oc=5",
-      "date": "2026-11-09T10:38:39Z"
     },
     {
       "source": "Google — INE inflación",
@@ -205,25 +219,11 @@
       "date": "2026-10-20T07:00:00Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
-      "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
-      "date": "2026-10-17T07:00:00Z"
-    },
-    {
       "source": "Google — FMI Bolivia",
       "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
       "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
       "date": "2026-10-14T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
-      "date": "2026-10-13T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -262,6 +262,13 @@
     },
     {
       "source": "Google — FMI Bolivia",
+      "title": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI - DW.com",
+      "desc": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI&nbsp;&nbsp;DW.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhIZDB0MmJmbmZscmFwS25tY0NHTHRudGF2czVkZDhYR05NNlFRcDdCMksyRm16RGJ4cVhJOVJORTVtZGJ1WGw2QnBIQTNyMXExLUJyZXB6X3hVTWRNMVVvcDM0OFhpM1pXZlpGY2hZVF9yZktqaW9xOTJTc2FrYWplNzdxUWppVmtXZURNVHdPaFV6X0hCQVlaY9IBmwFBVV95cUxOSUV0ZUVxNlBiaHFPOGhoWndFQkpaN25pS20tSXlvc2p4RFhoOEpKRDlLY2E3Z1ZnLXlFVmdpc1NVRUJjOWk4NW43ZkRKTEVwR0d6WFhhRlNCMklJdjBNZnVtelJEUFIwcG4xYTN4anlwRVY0UE43ajdMR25BME11MzFRMlFUbzFyWkp1SFNBU1ZiYU4tTHNMX0lROA?oc=5",
+      "date": "2026-09-19T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
       "title": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP - MEFP",
       "desc": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80eFRQOEprd3V6bXJOQ0w4X0xGeDhJaWx5VHdCeldrdzVjbjNJQURtM3FLU29hLWdYcEdrUmFMZHJGSVBOTzZwbG04R2tMX0ZIRE5tSnhNZ19uRzg?oc=5",
@@ -273,21 +280,14 @@
       "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
       "date": "2026-09-07T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.89,
-    "sellTomorrow": 11.96,
-    "changeBuy": -0.03,
-    "changeSell": -0.03,
-    "trend": "baja",
+    "buyTomorrow": 11.84,
+    "sellTomorrow": 11.89,
+    "changeBuy": 0.0,
+    "changeSell": 0.01,
+    "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4324,8 +4324,8 @@
     },
     {
       "date": "2026-11-10",
-      "buy": 11.92,
-      "sell": 11.99
+      "buy": 11.84,
+      "sell": 11.88
     }
   ]
 }
