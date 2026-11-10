@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-09T21:44:50Z",
+  "lastUpdated": "2026-11-10T03:53:28Z",
   "displayDate": "lunes 9 de noviembre, 2026",
   "binance": {
-    "buy": 11.93,
-    "sell": 11.97,
+    "buy": 11.92,
+    "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
@@ -14,14 +14,14 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.21,
-    "sell": 11.81,
+    "buy": 12.22,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.13,
-    "sell": 11.78,
+    "buy": 12.14,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,7 +33,7 @@
   },
   "bybit": {
     "buy": 11.96,
-    "sell": 11.96,
+    "sell": 11.95,
     "available": true,
     "source": "api_dbb_bybit"
   },
@@ -46,12 +46,12 @@
   "bcb": {
     "officialBuy": 11.81,
     "officialSell": 11.81,
-    "referentialBuy": 11.93,
-    "referentialSell": 11.97,
+    "referentialBuy": 11.92,
+    "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-09T21:44:44Z"
+    "fetchedAt": "2026-11-10T03:53:21Z"
   },
   "banks": [
     {
@@ -107,60 +107,60 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "La película Mar Oscuro se proyectará por primera vez en el Cine 6 de Agosto",
-      "desc": "El filme fue galardonado con el Premio Eduardo Abaroa 2025 por el Viceministerio de Culturas y llega por primera vez a las salas de cine.\nThe post La película Mar Oscuro se proyectará por primera vez …",
-      "link": "https://larazon.bo/la-revista/2026/11/09/la-pelicula-mar-oscuro-se-proyectara-por-primera-vez-en-el-cine-6-de-agosto/",
-      "date": "2026-11-09T21:44:41Z"
+      "source": "El Deber",
+      "title": "Exdiputado Barral considera que el caso maletas será cerrado sin culpables",
+      "desc": "Un informe de la Fuerza Especial de Lucha Contra el Narcotráfico (Felcn), incorporado al cuadernillo de investigación fiscal del denominado caso 'Maletas', establece que las más de 30 maletas que lleg…",
+      "link": "https://eldeber.com.bo/pais/exdiputado-barral-considera-caso-maletas-sera-cerrado-culpables_1794276138",
+      "date": "2026-11-10T02:02:18Z"
     },
     {
       "source": "El Deber",
-      "title": "Potosí: sectores rechazan la propuesta de un nuevo código minero",
-      "desc": "Después de 12 años de vigencia de la Ley 535, el Gobierno propone un anteproyecto de Código de Minería y Metalurgia que entre algunos aspectos plantea que algunos contratos mineros ya no requieran apr…",
-      "link": "https://eldeber.com.bo/pais/potosi-sectores-rechazan-propuesta-nuevo-codigo-minero_1794259341",
-      "date": "2026-11-09T21:22:21Z"
+      "title": "Def Leppard se despide de Sudamérica en Chile con la nostalgia de un rock que une generaciones",
+      "desc": "Desde la mirada de un cronista boliviano, el concierto en Santiago fue un viaje a los años dorados del hard rock. Los himnos de Hysteria reunieron a padres, hijos y abuelos en una noche de recuerdos y…",
+      "link": "https://eldeber.com.bo/pais/def-leppard-despide-sudamerica-chile-nostalgia-rock-une-generaciones_1794273040",
+      "date": "2026-11-10T01:10:40Z"
     },
     {
       "source": "El Deber",
-      "title": "Ueno Bank: el colapso de la entidad que atrapó los ahorros de casi tres millones de paraguayos",
-      "desc": "La intervención del banco digital, que administraba unos $us 850 millones de fondos públicos, desató una crisis financiera y política que terminó con la salida de Santiago Peña. La Fiscalía investiga …",
-      "link": "https://eldeber.com.bo/economia/ueno-bank-colapso-entidad-atrapo-ahorros-casi-tres-millones-paraguayos_1794258851",
-      "date": "2026-11-09T21:14:11Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Fiscalía y Policía allanan la vivienda de Romer Saucedo en Sucre",
-      "desc": "El operativo se realizó en la zona El Guereo, después de que se emitiera una orden de aprehensión contra el exmagistrado por presuntos vínculos con el narcotráfico y la organización criminal.\nThe post…",
-      "link": "https://larazon.bo/nacional/2026/11/09/fiscalia-y-policia-allanan-la-vivienda-de-romer-saucedo-en-sucre/",
-      "date": "2026-11-09T21:11:02Z"
+      "title": "Alcaldes de Bolivia exigen el 50/50, devolución del IDH y un decreto para salvar obras municipales",
+      "desc": "Las autoridades municipales definieron una hoja de ruta para negociar con el Gobierno y plantearon medidas urgentes para aliviar las finanzas municipales.",
+      "link": "https://eldeber.com.bo/pais/alcaldes-bolivia-exigen-50-50-devolucion-idh-decreto-salvar-obras-municipales_1794272903",
+      "date": "2026-11-10T01:08:23Z"
     },
     {
       "source": "La Razón",
-      "title": "El petróleo baja por posible salida diplomática en Oriente Medio",
-      "desc": "El precio del barril de Brent del mar del Norte cayó un 5,85%, hasta 92,57 dólares.\nThe post El petróleo baja por posible salida diplomática en Oriente Medio appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/11/09/el-petroleo-baja-por-posible-salida-diplomatica-en-oriente-medio/",
-      "date": "2026-11-09T21:03:04Z"
+      "title": "Alcaldes dan plazo al Gobierno hasta el 13 de noviembre por el 50/50",
+      "desc": "Los municipios exigen un decreto para proteger proyectos en riesgo, el desembolso de recursos y participación protagónica en el nuevo pacto fiscal.\nThe post Alcaldes dan plazo al Gobierno hasta el 13 …",
+      "link": "https://larazon.bo/nacional/2026/11/09/alcaldes-dan-plazo-al-gobierno-hasta-el-13-de-noviembre-por-el-50-50/",
+      "date": "2026-11-10T00:43:38Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Cooperativistas exigen frenar el Código Minero y piden renuncia del ministro",
+      "desc": "Las cooperativas mineras elevaron su rechazo al anteproyecto del nuevo Código Minero y exigieron al presidente Rodrigo Paz suspender su socialización, convocar a los tres sectores de la actividad y de…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/09/cooperativistas-exigen-frenar-el-codigo-minero-y-piden-renuncia-del-ministro/",
+      "date": "2026-11-10T00:36:56Z"
     },
     {
       "source": "El Deber",
-      "title": "Jorge Schreiner, nuevo presidente del Banco Central de Paraguay tras escándalo de Ueno",
-      "desc": "Paraguay quedó sumido en una crisis después de que el BCP comunicara, el martes pasado, el inicio del proceso de resolución de Ueno bank, una entidad privada que recibió cerca de 800 millones proceden…",
-      "link": "https://eldeber.com.bo/mundo/jorge-schreiner-nuevo-presidente-banco-central-paraguay-escandalo-ueno_1794257773",
-      "date": "2026-11-09T20:56:13Z"
+      "title": "¿Qué hizo la Brigada Parlamentaria de Santa Cruz en un año? Estos son los resultados",
+      "desc": "La institución reportó un cumplimiento del 83,39% de los requerimientos ciudadanos durante su gestión. Para el siguiente periodo prevé agilizar la fiscalización y la atención de demandas. La elección …",
+      "link": "https://eldeber.com.bo/santa-cruz/hizo-brigada-parlamentaria-santa-cruz-ano-estos-resultados_1794270323",
+      "date": "2026-11-10T00:25:23Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Villazón: Explotación ilegal de oro deja un saldo de cuatro heridos y dos aprehendidos",
+      "desc": "El conflicto en Chipihuayco se originó por el uso de agua para actividades mineras fuera de la cuadrícula autorizada.\nThe post Villazón: Explotación ilegal de oro deja un saldo de cuatro heridos y dos…",
+      "link": "https://larazon.bo/sociedad/2026/11/09/villazon-explotacion-ilegal-de-oro-deja-un-saldo-de-cuatro-heridos-y-dos-aprehendidos/",
+      "date": "2026-11-09T23:03:43Z"
     },
     {
       "source": "El Deber",
-      "title": "Tarija: esperan la presencia del presidente Rodrigo Paz en el Festival de Vinos y Singanis",
-      "desc": "Se prevé la participación de al menos 30 bodegas industriales de Tarija, Santa Cruz y Chuquisaca. El Festival de Vinos y Singanis  será el 13 y 14 de este mes en el campo ferial de San Jacinto",
-      "link": "https://eldeber.com.bo/tarija/tarija-esperan-presencia-presidente-rodrigo-paz-festival-vinos-singanis_1794253836",
-      "date": "2026-11-09T19:50:36Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Fiscalía paraguaya busca detectar posibles bienes de Peña en el extranjero por caso Ueno",
-      "desc": "El fiscal explicó que la intención de esta acción es \"determinar exhortos o cartas probatorias\" con el fin último de incorporar los posibles bienes como \"pruebas\" y lograr \"el aseguramiento con fines …",
-      "link": "https://eldeber.com.bo/mundo/fiscalia-paraguaya-busca-detectar-posibles-bienes-pena-extranjero-caso-ueno_1794248705",
-      "date": "2026-11-09T18:26:06Z"
+      "title": "La Fiscalía de Paraguay trata de abrir una bóveda oculta hallada en una propiedad del expresidente Santiago Peña",
+      "desc": "Los agentes consiguieron abrir una primera puerta de la bóveda en la residencia de verano de Peña, pero se encontraron con una segunda compuerta que les impidió acceder, según las declaraciones de los…",
+      "link": "https://eldeber.com.bo/bbc/fiscalia-paraguay-trata-abrir-boveda-oculta-hallada-propiedad-expresidente-santiago-pena_1794265012",
+      "date": "2026-11-09T22:56:52Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -184,13 +184,6 @@
       "date": "2026-11-05T22:15:48Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
-      "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
-      "date": "2026-10-20T07:00:00Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado - La Patria Bolivia",
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
@@ -203,13 +196,6 @@
       "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
       "date": "2026-10-14T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "FMI: la economía de Bolivia se contraerá en un 3% este año - Los Tiempos",
-      "desc": "FMI: la economía de Bolivia se contraerá en un 3% este año&nbsp;&nbsp;Los Tiempos",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDAxdEhfclJ4VXdxcE1JMVJPeEFWWFMwZ3lHR0xVV0ltWm9oY2NHYzlWVGlVcm5aZkJpd2k0dElESUlFeEtJN1huYjRPYzBmcHl3bUtwNWQwT3llaXN0UkYzMUY3cDVYcUVnTU5jLWJacy1nTjlMM0ZCNXhXcjNfX2dNcVpQMnBpX0hKOHpVUFBYSGo3a0dVdXpRQUVXSWRWOFE?oc=5",
-      "date": "2026-10-13T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -241,9 +227,9 @@
     },
     {
       "source": "Google — USDT Bolivia",
-      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
-      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
+      "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
+      "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
       "date": "2026-09-21T07:00:00Z"
     },
     {
@@ -268,24 +254,38 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
       "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
       "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
+      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
+      "date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "BCB reporta $us 3.632 millones en reservas al cierre de julio - Red Uno",
+      "desc": "BCB reporta $us 3.632 millones en reservas al cierre de julio&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHpMRnRBVXlkOFd6R1gyTktZNDlVNGxZb2t0UUE0anRwRllKaDA2OEVmUVNyZS1JYmNqRHFnVWJoSllndEdLYVQ2THdqVHRSbkpfcHVqeGQ5SVl4WUZoTXlaT3R4U29sOHZ0Rkcya0VFcFUxN0dMQXN3aUt2RkNsVnFKM2R2ZEhKdDdxRWZBMmd2NXdKcTRMTWsxQlI0YjhFSmNYWDFIQ3VzeHZ3ZXc?oc=5",
+      "date": "2026-08-11T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.91,
-    "sellTomorrow": 11.95,
-    "changeBuy": -0.02,
+    "sellTomorrow": 11.97,
+    "changeBuy": -0.01,
     "changeSell": -0.02,
     "trend": "baja",
     "confidence": "alta",
@@ -4319,8 +4319,8 @@
     },
     {
       "date": "2026-11-09",
-      "buy": 11.93,
-      "sell": 11.97
+      "buy": 11.92,
+      "sell": 11.99
     }
   ]
 }
