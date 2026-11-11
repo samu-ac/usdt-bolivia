@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-11T00:18:58Z",
-  "displayDate": "martes 10 de noviembre, 2026",
+  "lastUpdated": "2026-11-11T04:57:21Z",
+  "displayDate": "miercoles 11 de noviembre, 2026",
   "binance": {
     "buy": 11.87,
     "sell": 11.92,
@@ -15,13 +15,13 @@
   },
   "takenos": {
     "buy": 12.15,
-    "sell": 11.71,
+    "sell": 11.7,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.08,
-    "sell": 11.73,
+    "buy": 12.07,
+    "sell": 11.72,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.88,
-    "sell": 11.88,
+    "buy": 11.92,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.97,
+    "buy": 11.96,
     "sell": 11.64,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.75,
-    "officialSell": 11.75,
+    "officialBuy": 11.71,
+    "officialSell": 11.71,
     "referentialBuy": 11.87,
     "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-11T00:18:51Z"
+    "fetchedAt": "2026-11-11T04:57:17Z"
   },
   "banks": [
     {
@@ -61,33 +61,33 @@
     },
     {
       "name": "BCP",
-      "buy": 11.25,
-      "sell": 12.05
+      "buy": 11.21,
+      "sell": 12.01
     },
     {
       "name": "BNB",
-      "buy": 11.25,
-      "sell": 12.05
+      "buy": 11.21,
+      "sell": 12.01
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.05,
-      "sell": 11.9
+      "buy": 11.01,
+      "sell": 11.86
     },
     {
       "name": "Banco FIE",
-      "buy": 10.75,
-      "sell": 11.95
+      "buy": 10.71,
+      "sell": 11.91
     },
     {
       "name": "Banco Económico",
-      "buy": 10.75,
-      "sell": 12.1
+      "buy": 10.71,
+      "sell": 12.06
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.65,
-      "sell": 12.05
+      "buy": 10.61,
+      "sell": 12.01
     },
     {
       "name": "BancoSol",
@@ -102,58 +102,72 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.05
+      "sell": 12.01
     }
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Nvidia encarga la investigación independiente sobre Huang a un exfiscal federal",
-      "desc": "las acciones de Nvidia cayeron más de un 4 %, lo que supone una gran pérdida para la empresa que habitualmente se disputa con Apple la categoría de la mayor cotizada del mundo",
-      "link": "https://eldeber.com.bo/mundo/nvidia-encarga-investigacion-independiente-huang-exfiscal-federal_1794353177",
-      "date": "2026-11-10T23:26:17Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La seguridad social de Paraguay denuncia a Ueno Bank por más de 516 millones de dólares",
-      "desc": "El presidente Pedro Alliana dijo que la recuperación de los recursos de los aportantes y jubilados del sector público \"tendrá prioridad\", y confirmó la devolución de sus ahorros a un 95 % de los clien…",
-      "link": "https://eldeber.com.bo/mundo/seguridad-social-paraguay-denuncia-ueno-bank-516-millones-dolares_1794351537",
-      "date": "2026-11-10T22:58:57Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Ixiamas: liberan a un juez, un fiscal y dos policías que fueron puestos al cepo",
-      "desc": "La Policía utilizó agentes químicos para dispersar a los pobladores y rescatar a las autoridades retenidas, lo que dejó a varias personas afectadas por la gasificación",
-      "link": "https://eldeber.com.bo/la-paz/ixiamas-liberan-juez-fiscal-dos-policias-fueron-puestos-cepo_1794349972",
-      "date": "2026-11-10T22:32:52Z"
+      "source": "La Razón",
+      "title": "Bolivia e India acuerdan fortalecer cooperación en sectores estratégicos",
+      "desc": "Durante el encuentro bilateral, el canciller boliviano, Héctor Huanca, abordó asuntos de interés común con el ministro de Estado de Relaciones Exteriores de India, Pabitra Margherita.\nThe post Bolivia…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/bolivia-e-india-acuerdan-fortalecer-cooperacion-en-sectores-estrategicos/",
+      "date": "2026-11-11T03:12:28Z"
     },
     {
       "source": "La Razón",
-      "title": "Socializan propuesta de moneda digital como base para proyecto de ley",
-      "desc": "La propuesta legislativa plantea introducir un mecanismo de distribución de dólares digitales bajo el concepto de ingreso básico universal\nThe post Socializan propuesta de moneda digital como base par…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/socializan-propuesta-de-moneda-digital-como-base-para-proyecto-de-ley/",
-      "date": "2026-11-10T22:26:07Z"
+      "title": "India presenta su programa de cooperación  ITEC ante autoridades, legisladores y becarios bolivianos",
+      "desc": "El embajador Rohit Valdhwana destacó que el programa ofrece más de 400 cursos en más de 20 áreas, abiertos a profesionales y estudiantes de Bolivia\nThe post India presenta su programa de cooperación  …",
+      "link": "https://larazon.bo/sociedad/2026/11/10/india-presenta-su-programa-de-cooperacion-itec-ante-autoridades-legisladores-y-becarios-bolivianos/",
+      "date": "2026-11-11T03:01:49Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Ahorristas bolivianos en Ueno Bank pueden perder entre hasta un 12% de su dinero por tipo de cambio",
+      "desc": "El director de la Cámara Binacional de Comercio Boliviana-Paraguaya, Sergio León, valora la incidencia que ha tenido la quiebra del banco paraguayo en los ahorristas bolivianos",
+      "link": "https://eldeber.com.bo/economia/ahorristas-bolivianos-ueno-bank-pueden-perder-12-dinero-tipo-cambio_1794364395",
+      "date": "2026-11-11T02:33:15Z"
     },
     {
       "source": "La Razón",
-      "title": "Gobierno perfila a la minería como el motor económico del país",
-      "desc": "Ell Gobierno apunta a dinamizar toda la cadena minera mediante mayores actividades de exploración, reglas claras y más producción\nThe post Gobierno perfila a la minería como el motor económico del paí…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/gobierno-perfila-a-la-mineria-como-el-motor-economico-del-pais/",
-      "date": "2026-11-10T22:17:30Z"
+      "title": "Aprehenden a exasesor de Romer Saucedo por caso Maletas",
+      "desc": "Mauricio R. fue detenido tras declarar ante la Fiscalía por el ingreso irregular de 31 maletas al aeropuerto de Viru Viru.\nThe post Aprehenden a exasesor de Romer Saucedo por caso Maletas appeared fir…",
+      "link": "https://larazon.bo/nacional/2026/11/10/aprehenden-a-exasesor-de-romer-saucedo-por-caso-maletas/",
+      "date": "2026-11-11T02:27:49Z"
     },
     {
       "source": "El Deber",
-      "title": "Caso Maletas: Aldo Quezada declara en la Fiscalía en calidad de testigo",
-      "desc": "El ex presidente del Tribunal Departamental de Justicia de Santa Cruz se presentó este martes a declarar en calidad de testigo dentro del denominado caso Maletas",
-      "link": "https://eldeber.com.bo/santa-cruz/caso-maletas-aldo-quezada-declara-fiscalia-calidad-testigo_1794348927",
-      "date": "2026-11-10T22:15:27Z"
+      "title": "El vocero presidencial sugiere que con el 1% de coparticipación Santa Cruz quedaría sin déficit fiscal",
+      "desc": "El gobierno nacional ha ofrecido el 1% de los recursos de coparticipación para las gobernaciones del país, siete lo rechazaron; entre ellos, está la de Santa Cruz.",
+      "link": "https://eldeber.com.bo/santa-cruz/vocero-presidencial-sugiere-1-coparticipacion-santa-cruz-quedaria-deficit-fiscal_1794362187",
+      "date": "2026-11-11T01:56:27Z"
     },
     {
       "source": "El Deber",
-      "title": "Investigan la procedencia y destino del dinero en efectivo que una mujer llevó hasta las oficinas de Jhonny Fernández",
-      "desc": "Actualmente, el exalcalde guarda detención preventiva en Palmasola, por el caso malversación de fondos públicos.",
-      "link": "https://eldeber.com.bo/santa-cruz/investigan-procedencia-destino-dinero-mujer-efectivo-llevo-oficinas-jhonny-fernandez_1794348347",
-      "date": "2026-11-10T22:05:47Z"
+      "title": "Exfiscal Delmy Guzmán no acudió a declarar por el caso Maletas",
+      "desc": "Guzmán había sido convocada para las 14:00, en el marco de las investigaciones que buscan esclarecer las circunstancias del traslado e ingreso de más de 30 maletas al país",
+      "link": "https://eldeber.com.bo/santa-cruz/exfiscal-delmy-guzman-no-acudio-declarar-caso-maletas_1794361865",
+      "date": "2026-11-11T01:51:05Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "“He dado todo lo que tengo que dar”, dice Porras tras declarar por el caso Maletas",
+      "desc": "La declaración de Porras se realizó en una jornada en la que también fueron citados Mauricio Requena, exasesor de Rómer Saucedo; Aldo Quezada, ex presidente del Tribunal Departamental de Justicia (TDJ…",
+      "link": "https://eldeber.com.bo/santa-cruz/he-dado-todo-tengo-dar-dice-porras-declarar-caso-maletas_1794360706",
+      "date": "2026-11-11T01:31:46Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Este miércoles se define la situación de Rómer Saucedo en el TSJ",
+      "desc": "Hace una semana, el aún presidente del Tribunal Supremo de Justicia se declaró en exilio. La sala plena del TSJ dispuso un plazo de seis días para tomar una decisión",
+      "link": "https://eldeber.com.bo/pais/este-miercoles-define-situacion-romer-saucedo-tsj_1794359513",
+      "date": "2026-11-11T01:11:53Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El plan de Céspedes apunta a los Bolivarianos La Paz 2029",
+      "desc": "El jinete, el mejor del Nacional de Salto en el valle, tiene la mirada puesta en clasificarse a los Juegos que se disputarán dentro de tres años. \nThe post El plan de Céspedes apunta a los Bolivariano…",
+      "link": "https://larazon.bo/marcas/2026/11/10/el-plan-de-cespedes-apunta-a-los-bolivarianos-la-paz-2029/",
+      "date": "2026-11-11T01:04:22Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -266,28 +280,14 @@
       "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
       "date": "2026-09-07T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.86,
-    "sellTomorrow": 11.92,
-    "changeBuy": -0.01,
-    "changeSell": 0.0,
-    "trend": "estable",
+    "buyTomorrow": 11.84,
+    "sellTomorrow": 11.9,
+    "changeBuy": -0.03,
+    "changeSell": -0.02,
+    "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4324,6 +4324,11 @@
     },
     {
       "date": "2026-11-10",
+      "buy": 11.87,
+      "sell": 11.92
+    },
+    {
+      "date": "2026-11-11",
       "buy": 11.87,
       "sell": 11.92
     }
