@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-10T19:03:20Z",
+  "lastUpdated": "2026-11-11T00:18:58Z",
   "displayDate": "martes 10 de noviembre, 2026",
   "binance": {
-    "buy": 11.84,
-    "sell": 11.88,
+    "buy": 11.87,
+    "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
@@ -14,14 +14,14 @@
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.12,
-    "sell": 11.68,
+    "buy": 12.15,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.05,
-    "sell": 11.7,
+    "buy": 12.08,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,25 +33,25 @@
   },
   "bybit": {
     "buy": 11.88,
-    "sell": 11.87,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.08,
-    "sell": 11.79,
+    "buy": 11.97,
+    "sell": 11.64,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.75,
     "officialSell": 11.75,
-    "referentialBuy": 11.84,
-    "referentialSell": 11.88,
+    "referentialBuy": 11.87,
+    "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-10T19:03:14Z"
+    "fetchedAt": "2026-11-11T00:18:51Z"
   },
   "banks": [
     {
@@ -107,74 +107,53 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Camex plantea tratados de libre comercio para ampliar exportaciones de algodón",
-      "desc": "La entidad considera que los países vecinos ofrecen ventajas logísticas para ampliar las ventas internacionales del producto\nThe post Camex plantea tratados de libre comercio para ampliar exportacione…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/camex-plantea-tratados-de-libre-comercio-para-ampliar-exportaciones-de-algodon/",
-      "date": "2026-11-10T19:00:27Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Infanticidio: Abigail murió tras ser obligada por su madrastra a tomar sopa caliente",
-      "desc": "La víctima había sido reportada como desaparecida la noche del 4 de noviembre. Al día siguiente, su cuerpo fue hallado cerca del río. \nThe post Infanticidio: Abigail murió tras ser obligada por su mad…",
-      "link": "https://larazon.bo/ciudades/2026/11/10/infanticidio-abigail-murio-tras-ser-obligada-por-su-madrastra-a-tomar-sopa-caliente/",
-      "date": "2026-11-10T18:35:13Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Santa Cruz: Sedes descarta nuevos casos de meningitis en Palmasola",
-      "desc": "El pasado 2 de noviembre se registró un caso positivo de la enfermedad. La entidad activó el protocolo para descartar nuevos contagios.\nThe post Santa Cruz: Sedes descarta nuevos casos de meningitis e…",
-      "link": "https://larazon.bo/sociedad/2026/11/10/santa-cruz-sedes-descarta-nuevos-casos-de-meningitis-en-palmasola/",
-      "date": "2026-11-10T18:34:15Z"
+      "source": "El Deber",
+      "title": "Nvidia encarga la investigación independiente sobre Huang a un exfiscal federal",
+      "desc": "las acciones de Nvidia cayeron más de un 4 %, lo que supone una gran pérdida para la empresa que habitualmente se disputa con Apple la categoría de la mayor cotizada del mundo",
+      "link": "https://eldeber.com.bo/mundo/nvidia-encarga-investigacion-independiente-huang-exfiscal-federal_1794353177",
+      "date": "2026-11-10T23:26:17Z"
     },
     {
       "source": "El Deber",
-      "title": "Policías y estudiantes de un instituto tecnológico se enfrentan en La Paz",
-      "desc": "Hubo gasificaciones y varios bloqueadores de un instituto tecnológico fueron arrestados",
-      "link": "https://eldeber.com.bo/la-paz/policias-estudiantes-instituto-tecnologico-enfrentan-paz_1794335014",
-      "date": "2026-11-10T18:23:34Z"
+      "title": "La seguridad social de Paraguay denuncia a Ueno Bank por más de 516 millones de dólares",
+      "desc": "El presidente Pedro Alliana dijo que la recuperación de los recursos de los aportantes y jubilados del sector público \"tendrá prioridad\", y confirmó la devolución de sus ahorros a un 95 % de los clien…",
+      "link": "https://eldeber.com.bo/mundo/seguridad-social-paraguay-denuncia-ueno-bank-516-millones-dolares_1794351537",
+      "date": "2026-11-10T22:58:57Z"
     },
     {
       "source": "El Deber",
-      "title": "Fiscalía cita a declarar a ex fiscales de la Felcn, entre ellos el exasesor de Rómer Saucedo y el ex presidente del TDJ  de Santa Cruz",
-      "desc": "En total son cuatro convocatorias que forman parte de las diligencias investigativas que desarrolla el Ministerio Público dentro del denominado 'caso maletas'.",
-      "link": "https://eldeber.com.bo/santa-cruz/fiscalia-cita-declarar-ex-fiscales-felcn-ellos-exasesor-romer-saucedo-ex-presidente-tdj-santa-cruz_1794334557",
-      "date": "2026-11-10T18:16:46Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "\"Estoy muy preocupado porque no tengo noticias de mi dinero\": los millones de paraguayos afectados por la crisis del Ueno Bank que aún esperan la devolución de sus ahorros",
-      "desc": "Menos de 48 horas después de la intervención del banco por insolvencia, el BCP puso en marcha el proceso de devolución de depósitos. Hasta este lunes, más de 1,7 millones de personas habían recuperado…",
-      "link": "https://eldeber.com.bo/bbc/estoy-preocupado-porque-no-tengo-noticias-dinero-millones-paraguayos-afectados-crisis-ueno-bank-aun-esperan-devolucion-ahorros_1794333672",
-      "date": "2026-11-10T18:01:12Z"
+      "title": "Ixiamas: liberan a un juez, un fiscal y dos policías que fueron puestos al cepo",
+      "desc": "La Policía utilizó agentes químicos para dispersar a los pobladores y rescatar a las autoridades retenidas, lo que dejó a varias personas afectadas por la gasificación",
+      "link": "https://eldeber.com.bo/la-paz/ixiamas-liberan-juez-fiscal-dos-policias-fueron-puestos-cepo_1794349972",
+      "date": "2026-11-10T22:32:52Z"
     },
     {
       "source": "La Razón",
-      "title": "Calderón sugiere un marco normativo minero más claro, Fencomin denuncia falta de participación",
-      "desc": "La propuesta enfrenta cuestionamientos del sector cooperativista, que denuncia falta de participación en su elaboración\nThe post Calderón sugiere un marco normativo minero más claro, Fencomin denuncia…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/calderon-sugiere-un-marco-normativo-minero-mas-claro-fencomin-denuncia-falta-de-participacion/",
-      "date": "2026-11-10T17:58:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La ganadería también  tiene rostro de mujer y negocios de alto valor",
-      "desc": "Las ganaderas bolivianas se organizan en Asocebú Mujer, presidida por Yasmine Ribera, empresaria cruceña que llevó genética cebuina al mercado de Brasil",
-      "link": "https://eldeber.com.bo/dinero/ganaderia-tiene-rostro-mujer-negocios-alto-valor_1794333191",
-      "date": "2026-11-10T17:53:11Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Denuncian a cuatro ex funcionarios del INE en Potosí por delitos de corrupción",
-      "desc": "Un rastreo financiero estableció movimientos económicos fuera del perfil de los investigados",
-      "link": "https://eldeber.com.bo/potosi/denuncian-cuatro-exfuncionarios-ine-potosi-delitos-corrupcion_1794332909",
-      "date": "2026-11-10T17:48:29Z"
+      "title": "Socializan propuesta de moneda digital como base para proyecto de ley",
+      "desc": "La propuesta legislativa plantea introducir un mecanismo de distribución de dólares digitales bajo el concepto de ingreso básico universal\nThe post Socializan propuesta de moneda digital como base par…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/socializan-propuesta-de-moneda-digital-como-base-para-proyecto-de-ley/",
+      "date": "2026-11-10T22:26:07Z"
     },
     {
       "source": "La Razón",
-      "title": "Las principales medidas que se deberían tomar en materia energética",
-      "desc": "Los temas de fondo, son cambiar la CPE para permitir el arbitraje internacional y tener nuevas leyes de electricidad e hidrocarburos, que permitan atraer inversión internacional\nThe post Las principal…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/10/las-principales-medidas-que-se-deberian-tomar-en-materia-energetica/",
-      "date": "2026-11-10T17:44:06Z"
+      "title": "Gobierno perfila a la minería como el motor económico del país",
+      "desc": "Ell Gobierno apunta a dinamizar toda la cadena minera mediante mayores actividades de exploración, reglas claras y más producción\nThe post Gobierno perfila a la minería como el motor económico del paí…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/10/gobierno-perfila-a-la-mineria-como-el-motor-economico-del-pais/",
+      "date": "2026-11-10T22:17:30Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Caso Maletas: Aldo Quezada declara en la Fiscalía en calidad de testigo",
+      "desc": "El ex presidente del Tribunal Departamental de Justicia de Santa Cruz se presentó este martes a declarar en calidad de testigo dentro del denominado caso Maletas",
+      "link": "https://eldeber.com.bo/santa-cruz/caso-maletas-aldo-quezada-declara-fiscalia-calidad-testigo_1794348927",
+      "date": "2026-11-10T22:15:27Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Investigan la procedencia y destino del dinero en efectivo que una mujer llevó hasta las oficinas de Jhonny Fernández",
+      "desc": "Actualmente, el exalcalde guarda detención preventiva en Palmasola, por el caso malversación de fondos públicos.",
+      "link": "https://eldeber.com.bo/santa-cruz/investigan-procedencia-destino-dinero-mujer-efectivo-llevo-oficinas-jhonny-fernandez_1794348347",
+      "date": "2026-11-10T22:05:47Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -185,10 +164,10 @@
     },
     {
       "source": "Google — Dólar Bolivia",
-      "title": "El dólar oficial baja en Bolivia: así se mueve la cotización para este martes - Red Uno",
-      "desc": "El dólar oficial baja en Bolivia: así se mueve la cotización para este martes&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT1NMWDdLc1pkcDR6Wkx1U2JURFJPZ2FmYTJJY3pKZ29nVmE5QkVkWV80U1BFeHJOc0ZDWEJLRmRhRkRsOC04QjJPVm0wNHEtN00tWkRfWnkyZEdFY084dzlFQkNOWFltczhVTUtDYUR5cTBuLU9KTGtKQWlNZ0xyZWNfT1FadEZHTXZsWUFERDk2WXpiQm9Tcl9GQ3h1UHFBdFJtVk9fSG9COFZwWFJjYVgxc2pMYmthbkZDVDFVakM4Zw?oc=5",
-      "date": "2026-11-10T10:43:46Z"
+      "title": "¿El dólar seguirá bajando? Así se cotiza la divisa este martes 10 de noviembre en Bolivia - El Deber",
+      "desc": "¿El dólar seguirá bajando? Así se cotiza la divisa este martes 10 de noviembre en Bolivia&nbsp;&nbsp;El Deber",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeGEzZllfYlFEVXVQNkgxTnRtcUxGMnZRRjZrX3FzVEZCcnl6TkhMa0ZHYnhYZm1ObUV1VVVOdWRDOGFVUkM4WEVWaHhxZTAwXzA0VmRrQjJnZXNWMXNOZ1pfRnJLMVRBdnFONklFWnpMMUJWblJrU2g2b3psVUJyVTltY0N6OFotNjF0amJ4SGFoeGtTcDMwaDRMUEhBTXYyX01CVExTSW5MSVpybGhscy1KQjc0dw?oc=5",
+      "date": "2026-11-10T12:34:44Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -203,6 +182,13 @@
       "desc": "Un año de Rodrigo Paz: ¿qué cambió en la economía boliviana?&nbsp;&nbsp;Economy Bolivia",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUdXTEx5UlpJcldTekRZVGNNRlJDQnk5NlREbWZHSnl6elJSQUQ0SnB1clFXY0RwdjJHaWFUXzdEXzZxeHZkcDg1WURTenRCcHdvcDBFb2JodzBlMUtwQ1Y3TjVWNXQwMUlxb3c3NjVSZ2VPQWhKcjNaWHctaVQ2b0xYNWJQYm5SWWRaTmJaR3ZnLWs?oc=5",
       "date": "2026-11-09T17:16:39Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "Bolivia registra una inflación de 6,03 % entre enero y octubre de 2026 - Jornada",
+      "desc": "Bolivia registra una inflación de 6,03 % entre enero y octubre de 2026&nbsp;&nbsp;Jornada",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOEZFT3cxMDhGZjQ0MlZWV0JUMTVMZmcxaHpHSEo3YUhxeWlxSnBEOFJTaHJBaGtjT2lsZUdzajl0VXoybkI0S0tZaW9ZV2FLYllpenpFUzhydWpQNjF5U1oxbFF6ejZ5TWw1eXFqWnlDbjk1LWp1WV9JMW03bDdwdTJoLWR2ZGgyeExjRlQzYkVwQnhMNEE?oc=5",
+      "date": "2026-11-06T00:43:43Z"
     },
     {
       "source": "Google — INE inflación",
@@ -280,13 +266,27 @@
       "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
       "date": "2026-09-07T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.84,
-    "sellTomorrow": 11.89,
-    "changeBuy": 0.0,
-    "changeSell": 0.01,
+    "buyTomorrow": 11.86,
+    "sellTomorrow": 11.92,
+    "changeBuy": -0.01,
+    "changeSell": 0.0,
     "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4324,8 +4324,8 @@
     },
     {
       "date": "2026-11-10",
-      "buy": 11.84,
-      "sell": 11.88
+      "buy": 11.87,
+      "sell": 11.92
     }
   ]
 }
