@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-11T19:00:25Z",
+  "lastUpdated": "2026-11-12T01:44:09Z",
   "displayDate": "miercoles 11 de noviembre, 2026",
   "binance": {
-    "buy": 11.87,
-    "sell": 11.92,
+    "buy": 11.92,
+    "sell": 11.96,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.05,
-    "sell": 11.94,
+    "buy": 11.96,
+    "sell": 11.88,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.15,
-    "sell": 11.71,
+    "buy": 12.2,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.08,
-    "sell": 11.73,
+    "buy": 12.13,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.89,
-    "sell": 11.89,
+    "buy": 11.93,
+    "sell": 11.93,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.99,
-    "sell": 11.78,
+    "buy": 12.1,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.71,
     "officialSell": 11.71,
-    "referentialBuy": 11.87,
-    "referentialSell": 11.92,
+    "referentialBuy": 11.92,
+    "referentialSell": 11.96,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-11T19:00:20Z"
+    "fetchedAt": "2026-11-12T01:44:03Z"
   },
   "banks": [
     {
@@ -107,60 +107,53 @@
   ],
   "news": [
     {
+      "source": "La Razón",
+      "title": "Argollo niega vínculos con Mariaca por los bloqueos de 53 días",
+      "desc": "El dirigente de la COB rechazó las acusaciones sobre una supuesta relación con el exfiscal y denunció un intento de incriminar a los movilizados.\nThe post Argollo niega vínculos con Mariaca por los bl…",
+      "link": "https://larazon.bo/nacional/2026/11/11/argollo-niega-vinculos-con-mariaca-por-los-bloqueos-de-53-dias/",
+      "date": "2026-11-12T01:42:06Z"
+    },
+    {
       "source": "El Deber",
-      "title": "Sin pantallas, llega “Megafamilia” al Megacentro Avenida Brasil para reconectar a todos sus integrantes",
-      "desc": "El Megacentro Comercial Avenida Brasil responde con la actividad “Mega Familia 2026”, los días sábado 14 y domingo 15 de noviembre, bajo el concepto “Familia unida, desconectada del Wifi”, propone vol…",
-      "link": "https://eldeber.com.bo/te-puede-interesar/pantallas-llega-megafamilia-megacentro-avenida-brasil-reconectar-todos-integrantes_1794422323",
-      "date": "2026-11-11T18:38:43Z"
+      "title": "Flores “sigue con molestias” y espera recuperarse; Villegas destaca a Nacif",
+      "desc": "El futbolista de Oriente Petrolero reconoció que todavía tiene molestias tras el clásico cruceño, mientras el seleccionador destacó la proyección de su compañero de equipo.",
+      "link": "https://eldeber.com.bo/deportes/flores-sigue-molestias-espera-recuperarse-villegas-destaca-nacif_1794447068",
+      "date": "2026-11-12T01:31:10Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "De magistrado a acusado: Aldo Quezada es imputado por la Fiscalía",
+      "desc": "En menos de un mes, Quezada paso de ser magistrado a ser aprehendido y acusado en el caso Maletas. Se espera que en las próximas horas comparezca ante un juez cautelar que defina su situación jurídica",
+      "link": "https://eldeber.com.bo/santa-cruz/magistrado-acusado-aldo-quezada-imputado-fiscalia_1794445235",
+      "date": "2026-11-12T01:00:35Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El Alto: destruyen más de 9.000 unidades de bebidas alcohólicas",
+      "desc": "También se destruyó el contenido de 275 gaseosas, algunas en mal estado; 269 singanis; 214 unidades de alcohol potable y fraccionado; 151 bebidas alcohólicas de bolsillo; 92 vinos; 33 rones; y 10 jugo…",
+      "link": "https://eldeber.com.bo/pais/alto-destruyen-9-000-unidades-bebidas-alcoholicas_1794444169",
+      "date": "2026-11-12T00:42:49Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Fujimori agradece al Senado por autorizar su viaje a China y Japón, en plena visita papal",
+      "desc": "La autorización del viaje de Fujimori abarca del 15 al 21 de noviembre, con el objetivo de participar en actividades del APEC en Shenzhen (China) y posteriormente hacer la visita de Estado a Japón el …",
+      "link": "https://eldeber.com.bo/mundo/fujimori-agradece-senado-autorizar-viaje-china-japon-plena-visita-papal_1794442986",
+      "date": "2026-11-12T00:23:06Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El coronel Marcelo Acuña asume la dirección nacional de la Felcn",
+      "desc": "El nombramiento fue anunciado este miércoles por el Viceministerio de Lucha Integral Contra el Narcotráfico, que le dio la bienvenida a la nueva autoridad policial y expresó su expectativa de fortalec…",
+      "link": "https://eldeber.com.bo/la-paz/coronel-marcelo-acuna-asume-direccion-nacional-felcn_1794440932",
+      "date": "2026-11-11T23:48:52Z"
     },
     {
       "source": "La Razón",
-      "title": "ANH decomisa 2.400 litros de gasolina en la carretera Sucre-Potosí",
-      "desc": "El operativo se realizó en la tranca de Kuchu Tambo, donde las autoridades interceptaron un vehículo que transportaba 120 bidones de combustible\nThe post ANH decomisa 2.400 litros de gasolina en la ca…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/11/anh-decomisa-2-400-litros-de-gasolina-en-la-carretera-sucre-potosi/",
-      "date": "2026-11-11T18:26:40Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "¿García Linera también pidió asilo a México? Vocero dice que aún no hay una comunicación oficial",
-      "desc": "“En términos públicos, a través de los medios, entendimos que (García Linera) habría arribado a la Ciudad de México”, dice el vocero presidencial",
-      "link": "https://eldeber.com.bo/pais/garcia-linera-pidio-asilo-mexico-vocero-dice-aun-no-hay-comunicacion-oficial_1794421246",
-      "date": "2026-11-11T18:20:46Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La Verde y su dolor de cabeza: entre lesionados y jugadores sin continuidad en el exterior",
-      "desc": "Óscar Villegas reconoció que le costó definir la convocatoria de la selección boliviana para los amistosos ante Perú y Ecuador, debido a las lesiones y a la falta de continuidad de varios jugadores qu…",
-      "link": "https://eldeber.com.bo/deportes/verde-dolor-cabeza-lesionados-jugadores-continuidad-exterior_1794420805",
-      "date": "2026-11-11T18:13:26Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Gobierno perfila llegada de una misión del FMI para evaluar medidas tras primer desembolso",
-      "desc": "La revisión permitirá verificar el cumplimiento de los compromisos asumidos por Bolivia en el programa de financiamiento de $us 1.900 millones\nThe post Gobierno perfila llegada de una misión del FMI p…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/11/gobierno-perfila-llegada-de-una-mision-del-fmi-para-evaluar-medidas-tras-primer-desembolso/",
-      "date": "2026-11-11T18:03:15Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Alcaldía cruceña abre proceso penal por desmonte en el Cordón Ecológico",
-      "desc": "Desde octubre se está realizando una auditoría de los terrenos y propietarios en esta zona\nThe post Alcaldía cruceña abre proceso penal por desmonte en el Cordón Ecológico appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/11/11/alcaldia-crucena-abre-proceso-penal-por-desmonte-en-el-cordon-ecologico/",
-      "date": "2026-11-11T17:41:52Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Construir una vivienda en Bolivia cuesta 63% más que hace tres años",
-      "desc": "El costo de edificar una casa unifamiliar subió 4,4% en octubre, mientras que el de un edificio residencial aumentó 3,53%, según el índice de la Cámara Boliviana de Desarrolladores Inmobiliarios. El e…",
-      "link": "https://eldeber.com.bo/economia/construir-vivienda-bolivia-cuesta-63-hace-tres-anos_1794414822",
-      "date": "2026-11-11T16:33:42Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Lara inaugura la legislatura 2026 – 2027 sin reconocer la sesión de clausura y convoca a la reconciliación",
-      "desc": "El vicepresidente del Estado afirma que corresponde al Tribunal Constitucional resolver la validez de la sesión de clausura que dirigió el presidente del Senado el 6 de noviembre.",
-      "link": "https://eldeber.com.bo/la-paz/lara-inaugura-legislatura-2026-2027-reconocer-sesion-clausura-convoca-reconciliacion_1794410422",
-      "date": "2026-11-11T15:20:22Z"
+      "title": "Concejo de La Paz abre participación ciudadana para elaborar la Carta Orgánica",
+      "desc": "El evento que se realizará este jueves 12 de noviembre a las 18.30 en la sala de sesiones del pleno del Palacio Consistorial.\nThe post Concejo de La Paz abre participación ciudadana para elaborar la C…",
+      "link": "https://larazon.bo/ciudades/2026/11/11/concejo-de-la-paz-abre-participacion-ciudadana-para-elaborar-la-carta-organica/",
+      "date": "2026-11-11T23:07:48Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -177,11 +170,11 @@
       "date": "2026-11-09T17:16:39Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "¿A cuánto está el dólar hoy? Así cotiza la moneda estadounidense en Bolivia - Red Uno",
-      "desc": "¿A cuánto está el dólar hoy? Así cotiza la moneda estadounidense en Bolivia&nbsp;&nbsp;Red Uno",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUNrNWFvQkJSbzVnMUdkX3ZoNzczY091WGw5ZENVTE5TMUhUakNJYm16M2FMb2tqUGREM1pHWjhKWU5tV19XckZvQ3diX1BNVlM0TXd1ZW50ZEtZUjY4cU9IREhoeE1sOGN5T1BKVkJpUkJab001Z25sQkFHOHJzYTdhWm51ZEJDYXdWMUl2S0VfUEVXaFJCR1JvVjVuaHZ6bWtVWDBCSFZtNmotRzg2SllMekR5T2FfbXcwckVR?oc=5",
-      "date": "2026-11-09T10:38:39Z"
+      "source": "Google — USDT Bolivia",
+      "title": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos - Criptoinforme",
+      "desc": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos&nbsp;&nbsp;Criptoinforme",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSGRNWXFwdUppUmpOemlpM2ozTGNtdGZIVHBfTUd3bkpHY19fZ1hyZkVSSFV3UUs2V1ZCWDFpTlFGNFZXM1BHX2xrUm1uOGd0YUxUdV95RGlzMUFYMG1WaTNneXNSWHJXOUE?oc=5",
+      "date": "2026-11-06T14:56:49Z"
     },
     {
       "source": "Google — INE inflación",
@@ -189,6 +182,20 @@
       "desc": "BOLIVIA REGISTRA UNA VARIACIÓN MENSUAL DEL IPC DE 2,07% EN OCTUBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalFIajhuWWFuVmZCblJMZ2FOTEVQMDlQc21ZWWNPOUhzQ240TXY2SHQ3Y3EyOU5qQ3JNQVFHeS10SVVpRlNrVGwyQXVabXFDUXZWM1hlYno4aWJyR0ZZNUY2NzB2TV84cVZXQTV4akpCa19QbVZSSFRLZ3RUSTBpekdhU0N3TU1nWE9QRzRJM0MtNklNY04tYlcyZS1DY1c0MWY1SGpnUy0wdw?oc=5",
       "date": "2026-11-05T22:15:48Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB - ABI - Agencia Boliviana de Información",
+      "desc": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHAyRERBeDhwRnc4TDN6Y2JjV25QMnV3OUN2Y1Q3WTZyRnpNUGROVktydmF3VmFabzZ3SUFCRDRKUzdrazBPcDFmU1Jhdy1fb2xsVlNQbkhyNnVyUHNzTlUxbGZ0YkpqX29MaE5KNlpyYUhVeGtDaEt5cHJjT3hnOUJnOHpIRDFrY2s5SENUM2dlMmtZM2Q0c0tKU0tVdUwwbWVjV3FPbUk0QU80c09EMTBrRnQ2VXc?oc=5",
+      "date": "2026-10-23T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
+      "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
+      "date": "2026-10-20T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -212,17 +219,24 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "Criptomonedas en Bolivia: guía completa 2026 - Criptoinforme",
-      "desc": "Criptomonedas en Bolivia: guía completa 2026&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OeDF2ZktpcjZQRUVyQ19GZk5zRWVucEdjSVpzVVZHUTB0RF95Yk9uT2gtdlF0b3AtS2t5Y05wV25vQWE4bm91clI5dkFma1V5NjVESWdSTjBxX0Jf?oc=5",
-      "date": "2026-10-08T07:00:00Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
+      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles - Opinión Bolivia",
+      "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
       "date": "2026-10-05T07:00:00Z"
     },
     {
@@ -261,32 +275,18 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
-      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
-      "date": "2026-08-25T07:00:00Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
       "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
       "date": "2026-08-25T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
-      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
-      "date": "2026-08-24T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.84,
-    "sellTomorrow": 11.9,
-    "changeBuy": -0.03,
-    "changeSell": -0.02,
+    "buyTomorrow": 11.87,
+    "sellTomorrow": 11.93,
+    "changeBuy": -0.05,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4329,8 +4329,8 @@
     },
     {
       "date": "2026-11-11",
-      "buy": 11.87,
-      "sell": 11.92
+      "buy": 11.92,
+      "sell": 11.96
     }
   ]
 }
