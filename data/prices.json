@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-12T05:59:22Z",
+  "lastUpdated": "2026-11-12T19:19:01Z",
   "displayDate": "jueves 12 de noviembre, 2026",
   "binance": {
-    "buy": 11.91,
-    "sell": 11.96,
+    "buy": 11.9,
+    "sell": 11.94,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.96,
-    "sell": 11.86,
+    "buy": 11.95,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.2,
-    "sell": 11.75,
+    "buy": 12.16,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.12,
-    "sell": 11.77,
+    "buy": 12.1,
+    "sell": 11.75,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.94,
-    "sell": 11.93,
+    "buy": 11.91,
+    "sell": 11.9,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.13,
-    "sell": 11.85,
+    "buy": 12.11,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.91,
-    "referentialSell": 11.96,
+    "referentialBuy": 11.9,
+    "referentialSell": 11.94,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-12T05:59:18Z"
+    "fetchedAt": "2026-11-12T19:18:55Z"
   },
   "banks": [
     {
       "name": "Banco Fortaleza",
-      "buy": 11.41,
-      "sell": 12.01
+      "buy": 11.4,
+      "sell": 12.0
     },
     {
       "name": "BCP",
@@ -72,17 +72,22 @@
     {
       "name": "Banco Bisa",
       "buy": 11.0,
-      "sell": 11.89
+      "sell": 11.9
     },
     {
       "name": "Banco FIE",
       "buy": 10.7,
-      "sell": 11.9
+      "sell": 12.05
     },
     {
       "name": "Banco Económico",
       "buy": 10.7,
       "sell": 12.05
+    },
+    {
+      "name": "Banco Unión",
+      "buy": 10.7,
+      "sell": 12.0
     },
     {
       "name": "Mercantil Santa Cruz",
@@ -91,13 +96,8 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.54,
-      "sell": 11.96
-    },
-    {
-      "name": "Banco Unión",
-      "buy": 10.21,
-      "sell": 12.01
+      "buy": 10.53,
+      "sell": 11.95
     },
     {
       "name": "Banco Ganadero",
@@ -108,66 +108,80 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "El sacerdote que llegó dos veces",
-      "desc": "En 1985 el dinero boliviano pesaba más de lo que valía. Los billetes se contaban por fajos, los precios cambiaban entre la mañana y la tarde, y en las casas se hablaba de inflación como antes se habla…",
-      "link": "https://larazon.bo/opinion/columnistas/2026/11/12/el-sacerdote-que-llego-dos-veces/",
-      "date": "2026-11-12T04:28:08Z"
+      "title": "Tramitan sello azul para el exvicepresidente Álvaro García Linera",
+      "desc": "El director de la Interpol dijo que coordinan con el Ministerio Público para tramitar la solicitud y ubicar el paradero del exvicepresidente\nThe post Tramitan sello azul para el exvicepresidente Álvar…",
+      "link": "https://larazon.bo/nacional/2026/11/12/tramitan-sello-azul-para-el-exvicepresidente-alvaro-garcia-linera/",
+      "date": "2026-11-12T19:15:58Z"
     },
     {
       "source": "La Razón",
-      "title": "ANH ratifica el precio del diésel en Bs 17,95 por litro",
-      "desc": "La entidad descartó un nuevo incremento y explicó que la Resolución 0048/2026 establece cambios técnicos para calcular el precio referencial del carburante.\nThe post ANH ratifica el precio del diésel …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/11/anh-ratifica-el-precio-del-diesel-en-bs-1795-por-litro/",
-      "date": "2026-11-12T03:40:09Z"
+      "title": "Chile: hallan dólares y contrabando en camiones bolivianos",
+      "desc": "En el complejo fronterizo Chungará se detectó las irregularidades\nThe post Chile: hallan dólares y contrabando en camiones bolivianos appeared first on La Razón.",
+      "link": "https://larazon.bo/ciudades/2026/11/12/chile-hallan-dolares-y-contrabando-en-camiones-bolivianos/",
+      "date": "2026-11-12T19:05:36Z"
     },
     {
       "source": "La Razón",
-      "title": "Argollo niega vínculos con Mariaca por los bloqueos de 53 días",
-      "desc": "El dirigente de la COB rechazó las acusaciones sobre una supuesta relación con el exfiscal y denunció un intento de incriminar a los movilizados.\nThe post Argollo niega vínculos con Mariaca por los bl…",
-      "link": "https://larazon.bo/nacional/2026/11/11/argollo-niega-vinculos-con-mariaca-por-los-bloqueos-de-53-dias/",
-      "date": "2026-11-12T01:42:06Z"
+      "title": "Minería convoca a Fencomin para socializar el nuevo Código Minero",
+      "desc": "El Ejecutivo envió las invitaciones formales al directorio de Fencomin y a los representantes de las federaciones para abrir un espacio de diálogo\nThe post Minería convoca a Fencomin para socializar e…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/mineria-convoca-a-fencomin-para-socializar-el-nuevo-codigo-minero/",
+      "date": "2026-11-12T19:02:42Z"
     },
     {
       "source": "El Deber",
-      "title": "La ANH ratifica que el diésel mantiene su precio de Bs 17,95",
-      "desc": "La entidad reguladora desmintió versiones sobre un nuevo incremento del carburante y explicó que la Resolución 0048/2026 reglamenta cambios en la metodología de cálculo establecidos por el Decreto Sup…",
-      "link": "https://eldeber.com.bo/economia/anh-ratifica-diesel-mantiene-precio-bs-17-95_1794447693",
-      "date": "2026-11-12T01:41:33Z"
+      "title": "'Caso maletas': exasesor de Saucedo comparece ante un juez",
+      "desc": "Mauricio Requena quedó aprehendido luego de brindar su declaración en la fiscalía de Sustancias Controladas. Se indagan presuntos vínculos con el caso",
+      "link": "https://eldeber.com.bo/santa-cruz/caso-maletas-exasesor-saucedo-comparece-juez_1794509213",
+      "date": "2026-11-12T18:46:53Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Decomisan 156 kilos de cocaína en un camión en los Yungas",
+      "desc": "La FELCN  interceptó un camión que transportaba la droga en siete cajas\nThe post Decomisan 156 kilos de cocaína en un camión en los Yungas appeared first on La Razón.",
+      "link": "https://larazon.bo/ciudades/2026/11/12/decomisan-156-kilos-de-cocaina-en-un-camion-en-los-yungas/",
+      "date": "2026-11-12T18:42:57Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Constructores piden a Paz aplicar reajustes de costos y reactivar la economía",
+      "desc": "En paralelo, el director de Defensa al Consumidor, Wálter Quiroz, informó que su despacho notificó a varias empresas cementeras para que presenten sus estructuras de costos\nThe post Constructores pide…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/constructores-piden-a-paz-aplicar-reajustes-de-costos-y-reactivar-la-economia/",
+      "date": "2026-11-12T18:12:19Z"
     },
     {
       "source": "El Deber",
-      "title": "Flores “sigue con molestias” y espera recuperarse; Villegas destaca a Nacif",
-      "desc": "El futbolista de Oriente Petrolero reconoció que todavía tiene molestias tras el clásico cruceño, mientras el seleccionador destacó la proyección de su compañero de equipo.",
-      "link": "https://eldeber.com.bo/deportes/flores-sigue-molestias-espera-recuperarse-villegas-destaca-nacif_1794447068",
-      "date": "2026-11-12T01:31:10Z"
+      "title": "Fiscalía cita a García Linera y Evo dice que ese ex vicepresidente se escapó “cobardemente”",
+      "desc": "También se ha ordenado la citación del expresidente Evo Morales, pero todavía no fue realizada",
+      "link": "https://eldeber.com.bo/pais/fiscalia-cita-garcia-linera-evo-dice-ese-ex-vicepresidente-escapo-cobardemente_1794506708",
+      "date": "2026-11-12T18:05:08Z"
     },
     {
       "source": "El Deber",
-      "title": "De magistrado a acusado: Aldo Quezada es imputado por la Fiscalía",
-      "desc": "En menos de un mes, Quezada paso de ser magistrado a ser aprehendido y acusado en el caso Maletas. Se espera que en las próximas horas comparezca ante un juez cautelar que defina su situación jurídica",
-      "link": "https://eldeber.com.bo/santa-cruz/magistrado-acusado-aldo-quezada-imputado-fiscalia_1794445235",
-      "date": "2026-11-12T01:00:35Z"
+      "title": "Urioste pide a nuevos fiscales no “llenarse los bolsillos de plata” y promete transparencia",
+      "desc": "El fiscal general interino, José Armando Urioste, posesionó en Sucre a 68 fiscales de materia provisorios, seleccionados mediante un proceso público. Prometió acabar con las designaciones a dedo y exi…",
+      "link": "https://eldeber.com.bo/pais/urioste-pide-nuevos-fiscales-no-llenarse-bolsillos-plata-promete-transparencia_1794501790",
+      "date": "2026-11-12T16:43:10Z"
     },
     {
       "source": "El Deber",
-      "title": "El Alto: destruyen más de 9.000 unidades de bebidas alcohólicas",
-      "desc": "También se destruyó el contenido de 275 gaseosas, algunas en mal estado; 269 singanis; 214 unidades de alcohol potable y fraccionado; 151 bebidas alcohólicas de bolsillo; 92 vinos; 33 rones; y 10 jugo…",
-      "link": "https://eldeber.com.bo/pais/alto-destruyen-9-000-unidades-bebidas-alcoholicas_1794444169",
-      "date": "2026-11-12T00:42:49Z"
+      "title": "La soya genera $us 3.500 millones al año y explica la mitad del crecimiento agrícola",
+      "desc": "Un estudio del Cebec revela que la cadena soyera aporta el 51% del crecimiento del agro boliviano. El sector proyecta elevar la producción hasta 12 millones de toneladas y sumar más de $us 1.800 millo…",
+      "link": "https://eldeber.com.bo/economia/soya-genera-us-3-500-millones-ano-explica-mitad-crecimiento-agricola_1794500998",
+      "date": "2026-11-12T16:29:58Z"
     },
     {
       "source": "El Deber",
-      "title": "Fujimori agradece al Senado por autorizar su viaje a China y Japón, en plena visita papal",
-      "desc": "La autorización del viaje de Fujimori abarca del 15 al 21 de noviembre, con el objetivo de participar en actividades del APEC en Shenzhen (China) y posteriormente hacer la visita de Estado a Japón el …",
-      "link": "https://eldeber.com.bo/mundo/fujimori-agradece-senado-autorizar-viaje-china-japon-plena-visita-papal_1794442986",
-      "date": "2026-11-12T00:23:06Z"
+      "title": "Fiscalía ampliará toma de declaraciones a funcionarios y exfuncionarios vinculados con el 'caso maletas'",
+      "desc": "\"Hay muchas más personas incriminadas\", señaló el fiscal general del Estado, José Armando Urioste, luego de las declaraciones ampliadas que tomaron al ex presidente del TDJ, Aldo Quezada, quien fue ap…",
+      "link": "https://eldeber.com.bo/pais/fiscalia-ampliara-toma-declaraciones-funcionarios-exfuncionarios-vinculados-caso-maletas_1794499296",
+      "date": "2026-11-12T16:01:36Z"
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Fundación Jubileo: Bolivia debe fortalecer sus exportaciones para generar divisas - El Potosí",
-      "desc": "Fundación Jubileo: Bolivia debe fortalecer sus exportaciones para generar divisas&nbsp;&nbsp;El Potosí",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQW9obWY5cUxaWjhmSkxUNzQwVllLbGdzekRWMGgtRVp4U0JsWkFFbkNtMTNvOTNCUk03QjlrdUtOZkJiTWowRWtCVTRXeU5tS2VXdlUyd0pDSnZBekFhZVRGSVM4S2I1OEluTTBwWHpudlJYMlNZeE9XZUNJc3UyTnE2TkpUcGdnc0dhWjNzVTlGMUxSZmpjeU5QcnhlTnVsX0tzbURzMzhJWGhzaTZ5a0FteXQ2ckZNWmd5cmtMeWlJUQ?oc=5",
-      "date": "2026-11-11T23:08:14Z"
+      "title": "Jubileo: Bolivia necesita producir más, exportar y generar divisas para recuperar sus reservas internacionales - Erbol |",
+      "desc": "Jubileo: Bolivia necesita producir más, exportar y generar divisas para recuperar sus reservas internacionales&nbsp;&nbsp;Erbol |",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVVYyV0hQTGNOdG5YTWowblgwMGZPQzYxZzFNemtIcV92WENvWmlqT18tdWFkazl2aDlBak9iRW9abEh5WFZuWWU2ZVFPUXZTTHlMUjh0SXdxSUFuZjhkbEIxSFpVZVpzVEZ1VmZLbWFQSlZYcjktcjJhUWdHeWlKTmVWOGJGcEpLeEFvcUlLX2R0eWpLemJnSi0xbVNmQmxEOHhPZGFldlFwa0hmZG1wdHE0MHJjazh1T2ZRajlxbkE?oc=5",
+      "date": "2026-11-12T14:08:04Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -184,6 +198,13 @@
       "date": "2026-11-09T17:16:39Z"
     },
     {
+      "source": "Google — USDT Bolivia",
+      "title": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos - Criptoinforme",
+      "desc": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos&nbsp;&nbsp;Criptoinforme",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSGRNWXFwdUppUmpOemlpM2ozTGNtdGZIVHBfTUd3bkpHY19fZ1hyZkVSSFV3UUs2V1ZCWDFpTlFGNFZXM1BHX2xrUm1uOGd0YUxUdV95RGlzMUFYMG1WaTNneXNSWHJXOUE?oc=5",
+      "date": "2026-11-06T14:56:49Z"
+    },
+    {
       "source": "Google — INE inflación",
       "title": "BOLIVIA REGISTRA UNA VARIACIÓN MENSUAL DEL IPC DE 2,07% EN OCTUBRE DE 2026 - Ine.gob.bo",
       "desc": "BOLIVIA REGISTRA UNA VARIACIÓN MENSUAL DEL IPC DE 2,07% EN OCTUBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
@@ -196,13 +217,6 @@
       "desc": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHAyRERBeDhwRnc4TDN6Y2JjV25QMnV3OUN2Y1Q3WTZyRnpNUGROVktydmF3VmFabzZ3SUFCRDRKUzdrazBPcDFmU1Jhdy1fb2xsVlNQbkhyNnVyUHNzTlUxbGZ0YkpqX29MaE5KNlpyYUhVeGtDaEt5cHJjT3hnOUJnOHpIRDFrY2s5SENUM2dlMmtZM2Q0c0tKU0tVdUwwbWVjV3FPbUk0QU80c09EMTBrRnQ2VXc?oc=5",
       "date": "2026-10-23T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia? - Bolivia.com",
-      "desc": "Latinoamérica alcanza su mayor crecimiento en inclusión financiera: ¿Bolivia?&nbsp;&nbsp;Bolivia.com",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOG9jR3Zpd2wxN0ZLMjEyc2kzdC1CR1cxWTJGTFVDelFQVTJPOTNtSzJtTlF0MmFwMUF2d244c093YjkwRmdFLXNGN3NIMF9wXzFmeFRFN3hEdVhaRzNTLWthczdQT2dWdGI3ajdpQUlDa2J5RXJJeDVZLXR2bmdFVmFNaTB6OEJZMzg4eWp3YzYtal8xQjdqWW9GR0NkcTFKZDJyNDRWLTFGaHlkeDNsTzhqdHd4eVFBeU9kNDgxaFcxbGVmYTRZRWxqSGJ2aVVFVWcxd3ZuVQ?oc=5",
-      "date": "2026-10-20T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -226,13 +240,6 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
-      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
@@ -240,24 +247,10 @@
       "date": "2026-10-05T07:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles - Opinión Bolivia",
-      "desc": "El Gobierno ratifica que primer desembolso del FMI se hará el miércoles&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbC1LbXVRMFo0RGxwMksxWjV0YkNBSk9Ral91S242VGEydnE2OWJfV2pHRUhKRTF5eVBUWUNxb1pWNExGdXNkYXhobm9ESkRsdmhUOWJfcUhJaVp0OHk4bEZEcW5FeG9ObE8zZ1g5NUMzODB6QVgwV3BYcXhjSm1MTE1YckQ3MGFuXzR1RHpCVUwtN2ZteU1wMmlCUkh1SmJ6dzJtMHdsZHM1WkxKemJ0NzU0Ty1WNkXSAbwBQVVfeXFMTWp3SDhvVVFWSHdxVjRSM291ZndfdG4wSHdNMkhVd2dkUXBfXzJzTUZWVnR2SVV2X1VpbVlBbU4yR2pWbm9hUzdyQWFZUWM4SGQxWWNkLVotY0tMdHFDbEh5QlNaMmtUTWV0Q29mbGQ2R2VjS1B2TmxNak5vOW1Vazk5aWtKOFYzRW9aTExhNkx0Q0Z0YWFBZWU4S0ZjZUlyU2cySUUzRHppMFFvR2wtbW92ZGdfcVQ4dWZpZEc?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
       "source": "Google — USDT Bolivia",
       "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
       "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
-      "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
-      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
       "date": "2026-09-21T07:00:00Z"
     },
     {
@@ -280,13 +273,20 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.88,
-    "sellTomorrow": 11.93,
+    "buyTomorrow": 11.87,
+    "sellTomorrow": 11.92,
     "changeBuy": -0.03,
-    "changeSell": -0.03,
+    "changeSell": -0.02,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4334,8 +4334,8 @@
     },
     {
       "date": "2026-11-12",
-      "buy": 11.91,
-      "sell": 11.96
+      "buy": 11.9,
+      "sell": 11.94
     }
   ]
 }
