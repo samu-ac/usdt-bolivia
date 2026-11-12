@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-12T01:44:09Z",
-  "displayDate": "miercoles 11 de noviembre, 2026",
+  "lastUpdated": "2026-11-12T05:59:22Z",
+  "displayDate": "jueves 12 de noviembre, 2026",
   "binance": {
-    "buy": 11.92,
+    "buy": 11.91,
     "sell": 11.96,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.96,
-    "sell": 11.88,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.2,
-    "sell": 11.76,
+    "sell": 11.75,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.13,
-    "sell": 11.78,
+    "buy": 12.12,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.93,
+    "buy": 11.94,
     "sell": 11.93,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.1,
-    "sell": 11.83,
+    "buy": 12.13,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.71,
-    "officialSell": 11.71,
-    "referentialBuy": 11.92,
+    "officialBuy": 11.7,
+    "officialSell": 11.7,
+    "referentialBuy": 11.91,
     "referentialSell": 11.96,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-12T01:44:03Z"
+    "fetchedAt": "2026-11-12T05:59:18Z"
   },
   "banks": [
     {
@@ -61,33 +61,33 @@
     },
     {
       "name": "BCP",
-      "buy": 11.21,
-      "sell": 12.01
+      "buy": 11.2,
+      "sell": 12.0
     },
     {
       "name": "BNB",
-      "buy": 11.21,
-      "sell": 12.01
+      "buy": 11.2,
+      "sell": 12.0
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.01,
-      "sell": 11.9
+      "buy": 11.0,
+      "sell": 11.89
     },
     {
       "name": "Banco FIE",
-      "buy": 10.71,
-      "sell": 11.91
+      "buy": 10.7,
+      "sell": 11.9
     },
     {
       "name": "Banco Económico",
-      "buy": 10.71,
-      "sell": 12.06
+      "buy": 10.7,
+      "sell": 12.05
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.61,
-      "sell": 12.01
+      "buy": 10.6,
+      "sell": 12.0
     },
     {
       "name": "BancoSol",
@@ -102,16 +102,37 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.01
+      "sell": 12.0
     }
   ],
   "news": [
+    {
+      "source": "La Razón",
+      "title": "El sacerdote que llegó dos veces",
+      "desc": "En 1985 el dinero boliviano pesaba más de lo que valía. Los billetes se contaban por fajos, los precios cambiaban entre la mañana y la tarde, y en las casas se hablaba de inflación como antes se habla…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/12/el-sacerdote-que-llego-dos-veces/",
+      "date": "2026-11-12T04:28:08Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "ANH ratifica el precio del diésel en Bs 17,95 por litro",
+      "desc": "La entidad descartó un nuevo incremento y explicó que la Resolución 0048/2026 establece cambios técnicos para calcular el precio referencial del carburante.\nThe post ANH ratifica el precio del diésel …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/11/anh-ratifica-el-precio-del-diesel-en-bs-1795-por-litro/",
+      "date": "2026-11-12T03:40:09Z"
+    },
     {
       "source": "La Razón",
       "title": "Argollo niega vínculos con Mariaca por los bloqueos de 53 días",
       "desc": "El dirigente de la COB rechazó las acusaciones sobre una supuesta relación con el exfiscal y denunció un intento de incriminar a los movilizados.\nThe post Argollo niega vínculos con Mariaca por los bl…",
       "link": "https://larazon.bo/nacional/2026/11/11/argollo-niega-vinculos-con-mariaca-por-los-bloqueos-de-53-dias/",
       "date": "2026-11-12T01:42:06Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La ANH ratifica que el diésel mantiene su precio de Bs 17,95",
+      "desc": "La entidad reguladora desmintió versiones sobre un nuevo incremento del carburante y explicó que la Resolución 0048/2026 reglamenta cambios en la metodología de cálculo establecidos por el Decreto Sup…",
+      "link": "https://eldeber.com.bo/economia/anh-ratifica-diesel-mantiene-precio-bs-17-95_1794447693",
+      "date": "2026-11-12T01:41:33Z"
     },
     {
       "source": "El Deber",
@@ -142,18 +163,11 @@
       "date": "2026-11-12T00:23:06Z"
     },
     {
-      "source": "El Deber",
-      "title": "El coronel Marcelo Acuña asume la dirección nacional de la Felcn",
-      "desc": "El nombramiento fue anunciado este miércoles por el Viceministerio de Lucha Integral Contra el Narcotráfico, que le dio la bienvenida a la nueva autoridad policial y expresó su expectativa de fortalec…",
-      "link": "https://eldeber.com.bo/la-paz/coronel-marcelo-acuna-asume-direccion-nacional-felcn_1794440932",
-      "date": "2026-11-11T23:48:52Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Concejo de La Paz abre participación ciudadana para elaborar la Carta Orgánica",
-      "desc": "El evento que se realizará este jueves 12 de noviembre a las 18.30 en la sala de sesiones del pleno del Palacio Consistorial.\nThe post Concejo de La Paz abre participación ciudadana para elaborar la C…",
-      "link": "https://larazon.bo/ciudades/2026/11/11/concejo-de-la-paz-abre-participacion-ciudadana-para-elaborar-la-carta-organica/",
-      "date": "2026-11-11T23:07:48Z"
+      "source": "Google — BCB reservas",
+      "title": "Fundación Jubileo: Bolivia debe fortalecer sus exportaciones para generar divisas - El Potosí",
+      "desc": "Fundación Jubileo: Bolivia debe fortalecer sus exportaciones para generar divisas&nbsp;&nbsp;El Potosí",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQW9obWY5cUxaWjhmSkxUNzQwVllLbGdzekRWMGgtRVp4U0JsWkFFbkNtMTNvOTNCUk03QjlrdUtOZkJiTWowRWtCVTRXeU5tS2VXdlUyd0pDSnZBekFhZVRGSVM4S2I1OEluTTBwWHpudlJYMlNZeE9XZUNJc3UyTnE2TkpUcGdnc0dhWjNzVTlGMUxSZmpjeU5QcnhlTnVsX0tzbURzMzhJWGhzaTZ5a0FteXQ2ckZNWmd5cmtMeWlJUQ?oc=5",
+      "date": "2026-11-11T23:08:14Z"
     },
     {
       "source": "Google — Dólar Bolivia",
@@ -168,13 +182,6 @@
       "desc": "Un año de Rodrigo Paz: ¿qué cambió en la economía boliviana?&nbsp;&nbsp;Economy Bolivia",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUdXTEx5UlpJcldTekRZVGNNRlJDQnk5NlREbWZHSnl6elJSQUQ0SnB1clFXY0RwdjJHaWFUXzdEXzZxeHZkcDg1WURTenRCcHdvcDBFb2JodzBlMUtwQ1Y3TjVWNXQwMUlxb3c3NjVSZ2VPQWhKcjNaWHctaVQ2b0xYNWJQYm5SWWRaTmJaR3ZnLWs?oc=5",
       "date": "2026-11-09T17:16:39Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos - Criptoinforme",
-      "desc": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSGRNWXFwdUppUmpOemlpM2ozTGNtdGZIVHBfTUd3bkpHY19fZ1hyZkVSSFV3UUs2V1ZCWDFpTlFGNFZXM1BHX2xrUm1uOGd0YUxUdV95RGlzMUFYMG1WaTNneXNSWHJXOUE?oc=5",
-      "date": "2026-11-06T14:56:49Z"
     },
     {
       "source": "Google — INE inflación",
@@ -247,6 +254,13 @@
       "date": "2026-09-21T07:00:00Z"
     },
     {
+      "source": "Google — USDT Bolivia",
+      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
+      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
+      "date": "2026-09-21T07:00:00Z"
+    },
+    {
       "source": "Google — FMI Bolivia",
       "title": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI - DW.com",
       "desc": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI&nbsp;&nbsp;DW.com",
@@ -261,31 +275,17 @@
       "date": "2026-09-10T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB dispone medidas para reducir la presión sobre el mercado de dólares - Erbol |",
-      "desc": "BCB dispone medidas para reducir la presión sobre el mercado de dólares&nbsp;&nbsp;Erbol |",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0R4TFRPTGxqWHRGZGRuLUVROTFzSzZocGZLSlVZV3dpcmJ6d3hsUzJNQndLVTZKYXBsNTlSZFVsVE1pdzVyT3lNSEg5WEgydG1kaTdLYmVROFAwVXhPM1lVaGpTeFJNR0UyYlpJNmF6Sm9DT3pwYzBCTFVGcXZpVUZCU2lJODBiRWRLbEJhTW15T20xNVhNMnY0NVVWNW5SQ0NIZXp4RDViQ2ttU1Z4V1BWdmJuR3c?oc=5",
-      "date": "2026-09-07T07:00:00Z"
-    },
-    {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
       "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
-      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
-      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.87,
+    "buyTomorrow": 11.88,
     "sellTomorrow": 11.93,
-    "changeBuy": -0.05,
+    "changeBuy": -0.03,
     "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
@@ -4330,6 +4330,11 @@
     {
       "date": "2026-11-11",
       "buy": 11.92,
+      "sell": 11.96
+    },
+    {
+      "date": "2026-11-12",
+      "buy": 11.91,
       "sell": 11.96
     }
   ]
