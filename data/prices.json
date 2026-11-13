@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-12T19:19:01Z",
+  "lastUpdated": "2026-11-13T00:47:40Z",
   "displayDate": "jueves 12 de noviembre, 2026",
   "binance": {
-    "buy": 11.9,
-    "sell": 11.94,
+    "buy": 11.94,
+    "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.95,
-    "sell": 11.85,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.16,
-    "sell": 11.73,
+    "buy": 12.23,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.1,
-    "sell": 11.75,
+    "buy": 12.15,
+    "sell": 11.8,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.91,
-    "sell": 11.9,
+    "buy": 11.96,
+    "sell": 11.96,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.11,
-    "sell": 11.83,
+    "buy": 12.14,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.9,
-    "referentialSell": 11.94,
+    "referentialBuy": 11.94,
+    "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-12T19:18:55Z"
+    "fetchedAt": "2026-11-13T00:47:35Z"
   },
   "banks": [
     {
@@ -108,73 +108,59 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Tramitan sello azul para el exvicepresidente Álvaro García Linera",
-      "desc": "El director de la Interpol dijo que coordinan con el Ministerio Público para tramitar la solicitud y ubicar el paradero del exvicepresidente\nThe post Tramitan sello azul para el exvicepresidente Álvar…",
-      "link": "https://larazon.bo/nacional/2026/11/12/tramitan-sello-azul-para-el-exvicepresidente-alvaro-garcia-linera/",
-      "date": "2026-11-12T19:15:58Z"
+      "title": "Cancillería pide a México aclarar el asilo a García Linera",
+      "desc": "El Gobierno busca conocer si el exvicepresidente recibió protección política y cuál es el alcance jurídico de esa decisión.\nThe post Cancillería pide a México aclarar el asilo a García Linera appeared…",
+      "link": "https://larazon.bo/nacional/2026/11/12/cancilleria-pide-a-mexico-aclarar-el-asilo-a-garcia-linera/",
+      "date": "2026-11-13T00:29:18Z"
     },
     {
       "source": "La Razón",
-      "title": "Chile: hallan dólares y contrabando en camiones bolivianos",
-      "desc": "En el complejo fronterizo Chungará se detectó las irregularidades\nThe post Chile: hallan dólares y contrabando en camiones bolivianos appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/11/12/chile-hallan-dolares-y-contrabando-en-camiones-bolivianos/",
-      "date": "2026-11-12T19:05:36Z"
+      "title": "Fiscalía cita a Javier Zavaleta como sindicado en caso Radares",
+      "desc": "El exministro de Defensa deberá declarar el lunes ante la Fiscalía de La Paz por presuntas irregularidades en la compra de 13 radares.\nThe post Fiscalía cita a Javier Zavaleta como sindicado en caso R…",
+      "link": "https://larazon.bo/nacional/2026/11/12/fiscalia-cita-a-javier-zavaleta-como-sindicado-en-caso-radares/",
+      "date": "2026-11-12T23:48:56Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Bolivia y Argentina definen prioridades para financiar con fondos de la GEF",
+      "desc": "El proyecto denominado GEF Bermejo vincula a ambos países para gestionar de manera conjunta el agua de la cuenca que comparten. Son $us 6.3 millones donados por el Fondo para el Medio Ambiente Mundial…",
+      "link": "https://eldeber.com.bo/tarija/bolivia-argentina-definen-prioridades-financiar-fondos-gef_1794525266",
+      "date": "2026-11-12T23:14:26Z"
     },
     {
       "source": "La Razón",
-      "title": "Minería convoca a Fencomin para socializar el nuevo Código Minero",
-      "desc": "El Ejecutivo envió las invitaciones formales al directorio de Fencomin y a los representantes de las federaciones para abrir un espacio de diálogo\nThe post Minería convoca a Fencomin para socializar e…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/mineria-convoca-a-fencomin-para-socializar-el-nuevo-codigo-minero/",
-      "date": "2026-11-12T19:02:42Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "'Caso maletas': exasesor de Saucedo comparece ante un juez",
-      "desc": "Mauricio Requena quedó aprehendido luego de brindar su declaración en la fiscalía de Sustancias Controladas. Se indagan presuntos vínculos con el caso",
-      "link": "https://eldeber.com.bo/santa-cruz/caso-maletas-exasesor-saucedo-comparece-juez_1794509213",
-      "date": "2026-11-12T18:46:53Z"
+      "title": "Industria pide aprobar la Ley de Inversiones consensuada con privados antes que otras",
+      "desc": "La dirigencia advirtió que, sin un marco legal que garantice condiciones claras para los inversionistas, Bolivia tendrá dificultades para ampliar su capacidad productiva\nThe post Industria pide aproba…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/industria-pide-aprobar-la-ley-de-inversiones-consensuada-con-privados-antes-que-otras/",
+      "date": "2026-11-12T22:57:43Z"
     },
     {
       "source": "La Razón",
-      "title": "Decomisan 156 kilos de cocaína en un camión en los Yungas",
-      "desc": "La FELCN  interceptó un camión que transportaba la droga en siete cajas\nThe post Decomisan 156 kilos de cocaína en un camión en los Yungas appeared first on La Razón.",
-      "link": "https://larazon.bo/ciudades/2026/11/12/decomisan-156-kilos-de-cocaina-en-un-camion-en-los-yungas/",
-      "date": "2026-11-12T18:42:57Z"
+      "title": "Banco Mundial aprueba $us 500 MM para ordenar cuentas públicas y generar empleo en Bolivia",
+      "desc": "La operación constituye la primera de dos previstas dentro de un programa de apoyo presupuestario que busca fortalecer las finanzas públicas\nThe post Banco Mundial aprueba $us 500 MM para ordenar cuen…",
+      "link": "https://larazon.bo/lr-article/2026/11/12/banco-mundial-aprueba-us-500-mm-para-ordenar-cuentas-publicas-y-generar-empleo-en-bolivia/",
+      "date": "2026-11-12T22:49:58Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Aprehenden al ex fiscal antidroga Julio César Porras tras ampliar su declaración",
+      "desc": "Porras fue convocado dos veces a ampliar su declaración testifical ante la fiscalía de Sustancias Controladas",
+      "link": "https://eldeber.com.bo/santa-cruz/aprehenden-ex-fiscal-antidroga-julio-cesar-porras-ampliar-declaracion_1794523346",
+      "date": "2026-11-12T22:42:26Z"
     },
     {
       "source": "La Razón",
-      "title": "Constructores piden a Paz aplicar reajustes de costos y reactivar la economía",
-      "desc": "En paralelo, el director de Defensa al Consumidor, Wálter Quiroz, informó que su despacho notificó a varias empresas cementeras para que presenten sus estructuras de costos\nThe post Constructores pide…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/constructores-piden-a-paz-aplicar-reajustes-de-costos-y-reactivar-la-economia/",
-      "date": "2026-11-12T18:12:19Z"
+      "title": "Gobierno presentará el viernes la certificación de reservas de gas natural",
+      "desc": "Blanco anticipó que las reservas actuales no son suficientes y anunció medidas para ampliar la exploración, perforar nuevos pozos e impulsar el uso de energías renovables\nThe post Gobierno presentará …",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/gobierno-presentara-el-viernes-la-certificacion-de-reservas-de-gas-natural/",
+      "date": "2026-11-12T22:39:58Z"
     },
     {
       "source": "El Deber",
-      "title": "Fiscalía cita a García Linera y Evo dice que ese ex vicepresidente se escapó “cobardemente”",
-      "desc": "También se ha ordenado la citación del expresidente Evo Morales, pero todavía no fue realizada",
-      "link": "https://eldeber.com.bo/pais/fiscalia-cita-garcia-linera-evo-dice-ese-ex-vicepresidente-escapo-cobardemente_1794506708",
-      "date": "2026-11-12T18:05:08Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Urioste pide a nuevos fiscales no “llenarse los bolsillos de plata” y promete transparencia",
-      "desc": "El fiscal general interino, José Armando Urioste, posesionó en Sucre a 68 fiscales de materia provisorios, seleccionados mediante un proceso público. Prometió acabar con las designaciones a dedo y exi…",
-      "link": "https://eldeber.com.bo/pais/urioste-pide-nuevos-fiscales-no-llenarse-bolsillos-plata-promete-transparencia_1794501790",
-      "date": "2026-11-12T16:43:10Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La soya genera $us 3.500 millones al año y explica la mitad del crecimiento agrícola",
-      "desc": "Un estudio del Cebec revela que la cadena soyera aporta el 51% del crecimiento del agro boliviano. El sector proyecta elevar la producción hasta 12 millones de toneladas y sumar más de $us 1.800 millo…",
-      "link": "https://eldeber.com.bo/economia/soya-genera-us-3-500-millones-ano-explica-mitad-crecimiento-agricola_1794500998",
-      "date": "2026-11-12T16:29:58Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Fiscalía ampliará toma de declaraciones a funcionarios y exfuncionarios vinculados con el 'caso maletas'",
-      "desc": "\"Hay muchas más personas incriminadas\", señaló el fiscal general del Estado, José Armando Urioste, luego de las declaraciones ampliadas que tomaron al ex presidente del TDJ, Aldo Quezada, quien fue ap…",
-      "link": "https://eldeber.com.bo/pais/fiscalia-ampliara-toma-declaraciones-funcionarios-exfuncionarios-vinculados-caso-maletas_1794499296",
-      "date": "2026-11-12T16:01:36Z"
+      "title": "Este viernes se revelará el misterio de la pieza arqueológica encontrada en Motacucito",
+      "desc": "Para esta revelación se realizará un acto, este viernes, 13 de noviembre, a las 12:00, en la Casa de Gobierno, frente a la plaza 24 de Septiembre. El gobernador JP Velasco estará presente en el acto",
+      "link": "https://eldeber.com.bo/santa-cruz/este-viernes-revelara-misterio-pieza-arqueologica-encontrada-motacusito_1794522082",
+      "date": "2026-11-12T22:21:22Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -280,13 +266,27 @@
       "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
       "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
+      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
+      "date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "BCB reporta $us 3.632 millones en reservas al cierre de julio - Red Uno",
+      "desc": "BCB reporta $us 3.632 millones en reservas al cierre de julio&nbsp;&nbsp;Red Uno",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHpMRnRBVXlkOFd6R1gyTktZNDlVNGxZb2t0UUE0anRwRllKaDA2OEVmUVNyZS1JYmNqRHFnVWJoSllndEdLYVQ2THdqVHRSbkpfcHVqeGQ5SVl4WUZoTXlaT3R4U29sOHZ0Rkcya0VFcFUxN0dMQXN3aUt2RkNsVnFKM2R2ZEhKdDdxRWZBMmd2NXdKcTRMTWsxQlI0YjhFSmNYWDFIQ3VzeHZ3ZXc?oc=5",
+      "date": "2026-08-11T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.87,
-    "sellTomorrow": 11.92,
-    "changeBuy": -0.03,
-    "changeSell": -0.02,
+    "buyTomorrow": 11.89,
+    "sellTomorrow": 11.95,
+    "changeBuy": -0.05,
+    "changeSell": -0.04,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4334,8 +4334,8 @@
     },
     {
       "date": "2026-11-12",
-      "buy": 11.9,
-      "sell": 11.94
+      "buy": 11.94,
+      "sell": 11.99
     }
   ]
 }
