@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-13T00:47:40Z",
-  "displayDate": "jueves 12 de noviembre, 2026",
+  "lastUpdated": "2026-11-13T05:24:21Z",
+  "displayDate": "viernes 13 de noviembre, 2026",
   "binance": {
-    "buy": 11.94,
-    "sell": 11.99,
+    "buy": 11.92,
+    "sell": 11.98,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.95,
+    "buy": 11.98,
     "sell": 11.87,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.23,
-    "sell": 11.78,
+    "buy": 12.21,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.15,
-    "sell": 11.8,
+    "buy": 12.13,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -33,25 +33,25 @@
   },
   "bybit": {
     "buy": 11.96,
-    "sell": 11.96,
+    "sell": 11.95,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.14,
-    "sell": 11.85,
+    "buy": 12.12,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.7,
-    "officialSell": 11.7,
-    "referentialBuy": 11.94,
-    "referentialSell": 11.99,
+    "officialBuy": 11.67,
+    "officialSell": 11.67,
+    "referentialBuy": 11.92,
+    "referentialSell": 11.98,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-13T00:47:35Z"
+    "fetchedAt": "2026-11-13T05:24:13Z"
   },
   "banks": [
     {
@@ -61,28 +61,18 @@
     },
     {
       "name": "BCP",
-      "buy": 11.2,
-      "sell": 12.0
+      "buy": 11.17,
+      "sell": 11.97
     },
     {
       "name": "BNB",
-      "buy": 11.2,
-      "sell": 12.0
+      "buy": 11.17,
+      "sell": 11.97
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.0,
-      "sell": 11.9
-    },
-    {
-      "name": "Banco FIE",
-      "buy": 10.7,
-      "sell": 12.05
-    },
-    {
-      "name": "Banco Económico",
-      "buy": 10.7,
-      "sell": 12.05
+      "buy": 10.97,
+      "sell": 11.87
     },
     {
       "name": "Banco Unión",
@@ -90,9 +80,19 @@
       "sell": 12.0
     },
     {
+      "name": "Banco FIE",
+      "buy": 10.67,
+      "sell": 12.02
+    },
+    {
+      "name": "Banco Económico",
+      "buy": 10.67,
+      "sell": 12.02
+    },
+    {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.6,
-      "sell": 12.0
+      "buy": 10.57,
+      "sell": 11.97
     },
     {
       "name": "BancoSol",
@@ -108,17 +108,38 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "Cancillería pide a México aclarar el asilo a García Linera",
-      "desc": "El Gobierno busca conocer si el exvicepresidente recibió protección política y cuál es el alcance jurídico de esa decisión.\nThe post Cancillería pide a México aclarar el asilo a García Linera appeared…",
-      "link": "https://larazon.bo/nacional/2026/11/12/cancilleria-pide-a-mexico-aclarar-el-asilo-a-garcia-linera/",
-      "date": "2026-11-13T00:29:18Z"
+      "title": "Potosí, la minería y los impuestos",
+      "desc": "Mi departamento, Potosí, conmemoró su efeméride el martes en un contexto marcado por las altas cotizaciones de minerales y su condición –nuevamente– de principal exportador de Bolivia. Pero no todo so…",
+      "link": "https://larazon.bo/voces/2026/11/13/potosi-la-mineria-y-los-impuestos/",
+      "date": "2026-11-13T04:35:18Z"
     },
     {
       "source": "La Razón",
-      "title": "Fiscalía cita a Javier Zavaleta como sindicado en caso Radares",
-      "desc": "El exministro de Defensa deberá declarar el lunes ante la Fiscalía de La Paz por presuntas irregularidades en la compra de 13 radares.\nThe post Fiscalía cita a Javier Zavaleta como sindicado en caso R…",
-      "link": "https://larazon.bo/nacional/2026/11/12/fiscalia-cita-a-javier-zavaleta-como-sindicado-en-caso-radares/",
-      "date": "2026-11-12T23:48:56Z"
+      "title": "Zeballos acusa a Porras de encubrir el caso de las maletas",
+      "desc": "Hebert Zeballos acusó al exfiscal antinarcóticos Julio César Porras de 'encubrir' la investigación por el ingreso irregular de 31 maletas a Viru Viru\nThe post Zeballos acusa a Porras de encubrir el ca…",
+      "link": "https://larazon.bo/nacional/2026/11/12/zeballos-acusa-a-porras-de-encubrir-el-caso-de-las-maletas/",
+      "date": "2026-11-13T03:53:20Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Para qué servirán los $us 500 millones que aprobó el Banco Mundial para Bolivia?",
+      "desc": "El crédito busca respaldar reformas en las empresas estatales, el sector energético, las contrataciones públicas y las condiciones para atraer inversiones.",
+      "link": "https://eldeber.com.bo/pais/serviran-us-500-millones-aprobo-banco-mundial-bolivia_1794537523",
+      "date": "2026-11-13T02:38:43Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Aprehenden al exfiscal Porras por el caso maletas",
+      "desc": "Julio César Porras es investigado por presunto tráfico de sustancias controladas, asociación delictuosa y confabulación. Su defensa denuncia una “venganza personal”.\nThe post Aprehenden al exfiscal Po…",
+      "link": "https://larazon.bo/nacional/2026/11/12/aprehenden-al-exfiscal-porras-por-el-caso-maletas/",
+      "date": "2026-11-13T02:33:43Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Gobierno sobre García Linera: \"El asilo político no implica la suspensión de procesos judiciales\"",
+      "desc": "La Cancillería boliviana recordó que la protección internacional no implica la suspensión de procesos judiciales y anunció que canalizará la cooperación jurídica con México.",
+      "link": "https://eldeber.com.bo/pais/gobierno-garcia-linera-asilo-politico-no-implica-suspension-procesos-judiciales_1794530036",
+      "date": "2026-11-13T00:33:56Z"
     },
     {
       "source": "El Deber",
@@ -126,41 +147,6 @@
       "desc": "El proyecto denominado GEF Bermejo vincula a ambos países para gestionar de manera conjunta el agua de la cuenca que comparten. Son $us 6.3 millones donados por el Fondo para el Medio Ambiente Mundial…",
       "link": "https://eldeber.com.bo/tarija/bolivia-argentina-definen-prioridades-financiar-fondos-gef_1794525266",
       "date": "2026-11-12T23:14:26Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Industria pide aprobar la Ley de Inversiones consensuada con privados antes que otras",
-      "desc": "La dirigencia advirtió que, sin un marco legal que garantice condiciones claras para los inversionistas, Bolivia tendrá dificultades para ampliar su capacidad productiva\nThe post Industria pide aproba…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/industria-pide-aprobar-la-ley-de-inversiones-consensuada-con-privados-antes-que-otras/",
-      "date": "2026-11-12T22:57:43Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Banco Mundial aprueba $us 500 MM para ordenar cuentas públicas y generar empleo en Bolivia",
-      "desc": "La operación constituye la primera de dos previstas dentro de un programa de apoyo presupuestario que busca fortalecer las finanzas públicas\nThe post Banco Mundial aprueba $us 500 MM para ordenar cuen…",
-      "link": "https://larazon.bo/lr-article/2026/11/12/banco-mundial-aprueba-us-500-mm-para-ordenar-cuentas-publicas-y-generar-empleo-en-bolivia/",
-      "date": "2026-11-12T22:49:58Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Aprehenden al ex fiscal antidroga Julio César Porras tras ampliar su declaración",
-      "desc": "Porras fue convocado dos veces a ampliar su declaración testifical ante la fiscalía de Sustancias Controladas",
-      "link": "https://eldeber.com.bo/santa-cruz/aprehenden-ex-fiscal-antidroga-julio-cesar-porras-ampliar-declaracion_1794523346",
-      "date": "2026-11-12T22:42:26Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Gobierno presentará el viernes la certificación de reservas de gas natural",
-      "desc": "Blanco anticipó que las reservas actuales no son suficientes y anunció medidas para ampliar la exploración, perforar nuevos pozos e impulsar el uso de energías renovables\nThe post Gobierno presentará …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/12/gobierno-presentara-el-viernes-la-certificacion-de-reservas-de-gas-natural/",
-      "date": "2026-11-12T22:39:58Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Este viernes se revelará el misterio de la pieza arqueológica encontrada en Motacucito",
-      "desc": "Para esta revelación se realizará un acto, este viernes, 13 de noviembre, a las 12:00, en la Casa de Gobierno, frente a la plaza 24 de Septiembre. El gobernador JP Velasco estará presente en el acto",
-      "link": "https://eldeber.com.bo/santa-cruz/este-viernes-revelara-misterio-pieza-arqueologica-encontrada-motacusito_1794522082",
-      "date": "2026-11-12T22:21:22Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -182,13 +168,6 @@
       "desc": "Un año de Rodrigo Paz: ¿qué cambió en la economía boliviana?&nbsp;&nbsp;Economy Bolivia",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUdXTEx5UlpJcldTekRZVGNNRlJDQnk5NlREbWZHSnl6elJSQUQ0SnB1clFXY0RwdjJHaWFUXzdEXzZxeHZkcDg1WURTenRCcHdvcDBFb2JodzBlMUtwQ1Y3TjVWNXQwMUlxb3c3NjVSZ2VPQWhKcjNaWHctaVQ2b0xYNWJQYm5SWWRaTmJaR3ZnLWs?oc=5",
       "date": "2026-11-09T17:16:39Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos - Criptoinforme",
-      "desc": "Cómo comprar USDT en Bolivia en 2026: exchanges, pago con QR y bancos&nbsp;&nbsp;Criptoinforme",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSGRNWXFwdUppUmpOemlpM2ozTGNtdGZIVHBfTUd3bkpHY19fZ1hyZkVSSFV3UUs2V1ZCWDFpTlFGNFZXM1BHX2xrUm1uOGd0YUxUdV95RGlzMUFYMG1WaTNneXNSWHJXOUE?oc=5",
-      "date": "2026-11-06T14:56:49Z"
     },
     {
       "source": "Google — INE inflación",
@@ -226,6 +205,13 @@
       "date": "2026-10-09T07:00:00Z"
     },
     {
+      "source": "Google — Dólar Bolivia",
+      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
+      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
@@ -237,6 +223,13 @@
       "title": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador? - CriptoNoticias",
       "desc": "¿Por qué el FMI prefiere USDT en Bolivia pero rechaza bitcoin en El Salvador?&nbsp;&nbsp;CriptoNoticias",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjR1WGJXb2tLRGpQTjRDY0J5YjlMLV93T3FzOGFZczhvdFJYSVY2T3E4Q0tXQXNTSkFzU2xsQVFtcmdKVzl6VnB3amRISDM3RTg1VmxzeVlOdmRTS0VXZzNja3hvTHd3dkNpeWFOckw2Rlp2dHRVVTlteTIzY184UzItQ2hObzNOVkViaFlCemV4Tkd6QkplQ0lXUQ?oc=5",
+      "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
+      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
       "date": "2026-09-21T07:00:00Z"
     },
     {
@@ -268,25 +261,32 @@
       "date": "2026-08-25T07:00:00Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado - The Coin Republic",
-      "desc": "Las principales pasarelas de pago con criptomonedas en Bolivia: análisis detallado&nbsp;&nbsp;The Coin Republic",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2FhUTJ0MENKT0xUWl9pR1JYZVZnVHpPbGNfRWFfZjlyNE40UFJ4WHNKRU1ZZWZ1T3NyTER3enlNNGJpcUJnaGU2dDRjeW00SWcxc0hwNUZUd0ZCbHVIYkZqUERWNEc2em5QQmxvNFRlM0NCcGtoSy0yWnpSUzJyaHprdUdsd1dyZmZiVHJDSFZyZm5ONm5rQS1MRDJpWi03Nk15cS02ckNydDRzVEFZd2RsN0J0aWttRXJieEpKYUZxLWl2Ukxj0gHMAUFVX3lxTE50UVB1WVFtSzlrbHBYX0s4cTF0X1NBWW9wQUxsbHJseTNQU0Y4dXExQnZPaGthQWRHNkZEUnBraGVkNlFNMEpmM1p6cUJEVFlkX3NNdURBOEpyN1VVM2d1MDFIVFNrRUNMZkl4R244aVlkbW9YNi1WT0pkeDZhaXMwR1pTV19Pb0tVWGZvVHVDN205bm5jenVQeHhBNktYWDd0SzhnMkhDMzR4MmJsY3NuT2puQzVwVlBhTGV2cDh5dEo1cmRuR3pUZjhnaQ?oc=5",
-      "date": "2026-08-24T07:00:00Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "BCB reporta $us 3.632 millones en reservas al cierre de julio - Red Uno",
       "desc": "BCB reporta $us 3.632 millones en reservas al cierre de julio&nbsp;&nbsp;Red Uno",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHpMRnRBVXlkOFd6R1gyTktZNDlVNGxZb2t0UUE0anRwRllKaDA2OEVmUVNyZS1JYmNqRHFnVWJoSllndEdLYVQ2THdqVHRSbkpfcHVqeGQ5SVl4WUZoTXlaT3R4U29sOHZ0Rkcya0VFcFUxN0dMQXN3aUt2RkNsVnFKM2R2ZEhKdDdxRWZBMmd2NXdKcTRMTWsxQlI0YjhFSmNYWDFIQ3VzeHZ3ZXc?oc=5",
       "date": "2026-08-11T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026 - Ine.gob.bo",
+      "desc": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2M5UkFad3ZIamY2QzMtVTZxbmVEaURSMmFmeGRyU3p2V3A1M2lPa3JNX2w2T25felhoOHVveC1OV2NjQTlMend6Vk1qVUgtSzNpcGNZa1M2ZmROT3VfNTFBel8wRnhfUUhZV2dLdk9iWXlrRmdEclF5azBXc0hkWE80THloT1RCUEl4RHF0alBVa2dfR2hXSXZDREozYTFIZlZOVTRsOS01Qk5wR0hXN20zN3gzZw?oc=5",
+      "date": "2026-08-04T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica - EL PAÍS",
+      "desc": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica&nbsp;&nbsp;EL PAÍS",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNejVzTkFfUjFxckVxZ3U4cjF5SGE0XzQwYm1mRzZqVjRTS0ZJbEZvcWpqbDdsdkU4U3hYbVBSSnh3ZkhJdHBXSmdoWmVvaFRPU29vanZyNjNoU2VzclhJZ2RtenB1cjlDcl9vN0NFYklJR05XTzZtWjRfa3dHakZKb1VWYTZGdHFLam9RX1R6aTFpSER4bjBUTjFpNXl3RWpxd09Uc2xuSWt3MDRsOXd6UkRGVnFVRXRLaHJZRTFLUHlMTWRpQW9GUXMzLXBBRlNJVmNhWWpudVkwd9IB7gFBVV95cUxNQXhMejRLZmM3ZHowNW8zS0tobHBGMUxXSG1tUk1tY0pjX2NVYnBnWnFqeEtleG9Lcm51MVpXbmZfM05MVkRwdy00aThZbE5oVEJ1dnlORzlkVlJaVXphcTRwTktWNGlURTN3MFZYQ2t1NGFOMS1SZHQtUV9wRFpJRF9YbTlTMWQ5OEtfWFpWQ2EwZHJsV01ocTFLQTcwSGFqZlV0eDlWYk4yNGt5OWJ6S0pFMS05NlFvb1I5Q3AyVkJfX0VvS1gyT1Vsa3hURUo0cmR3TjFaRmRkSTNNR2ZEVWFkRzdrQ2pORzFOUmhR?oc=5",
+      "date": "2026-07-31T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.89,
-    "sellTomorrow": 11.95,
-    "changeBuy": -0.05,
-    "changeSell": -0.04,
+    "buyTomorrow": 11.91,
+    "sellTomorrow": 11.97,
+    "changeBuy": -0.01,
+    "changeSell": -0.01,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4336,6 +4336,11 @@
       "date": "2026-11-12",
       "buy": 11.94,
       "sell": 11.99
+    },
+    {
+      "date": "2026-11-13",
+      "buy": 11.92,
+      "sell": 11.98
     }
   ]
 }
