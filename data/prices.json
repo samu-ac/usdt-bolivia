@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-14T00:32:55Z",
-  "displayDate": "viernes 13 de noviembre, 2026",
+  "lastUpdated": "2026-11-14T05:13:23Z",
+  "displayDate": "sabado 14 de noviembre, 2026",
   "binance": {
-    "buy": 11.85,
-    "sell": 11.9,
+    "buy": 11.86,
+    "sell": 11.92,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.92,
-    "sell": 11.78,
+    "buy": 11.94,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.14,
+    "buy": 12.15,
     "sell": 11.75,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.07,
-    "sell": 11.72,
+    "buy": 12.06,
+    "sell": 11.71,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.88,
-    "sell": 11.87,
+    "buy": 11.95,
+    "sell": 11.86,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.07,
-    "sell": 11.79,
+    "buy": 12.15,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.67,
     "officialSell": 11.67,
-    "referentialBuy": 11.85,
-    "referentialSell": 11.9,
+    "referentialBuy": 11.86,
+    "referentialSell": 11.92,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-14T00:32:50Z"
+    "fetchedAt": "2026-11-14T05:13:18Z"
   },
   "banks": [
     {
@@ -107,46 +107,53 @@
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Gobierno continua con la socialización del Código Minero en medio de reclamos de las cooperativas",
-      "desc": "La propuesta de norma tiene 207 artículos en 15 títulos y el Ministerio de Minería recibirá aportes hasta el 20 de noviembre en su micrositio.",
-      "link": "https://eldeber.com.bo/economia/gobierno-continua-socializacion-codigo-minero-medio-reclamos-cooperativas_1794610474",
-      "date": "2026-11-13T22:54:34Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Álvaro Peña aconseja a Nabil Nacif y dice “No hay que presionarlo”",
-      "desc": "El exmundialista pidió paciencia con el delantero de 17 años y explicó qué debe mejorar en su juego. Mauricio Saucedo también destacó el potencial del juvenil y respaldó el proceso de Óscar Villegas.",
-      "link": "https://eldeber.com.bo/deportes/alvaro-pena-aconseja-nabil-nacif-dice-no-hay-presionarlo_1794610459",
-      "date": "2026-11-13T22:54:19Z"
+      "source": "La Razón",
+      "title": "Inversión privada para  crecer",
+      "desc": "A comienzos de noviembre, autoridades y empresarios bolivianos visitaron España para promover inversiones que contribuyan a enfrentar los problemas económicos del país. Estos acercamientos deben tradu…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/14/inversion-privada-para-crecer/",
+      "date": "2026-11-14T04:45:01Z"
     },
     {
       "source": "La Razón",
-      "title": "Transporte boliviano retoma operaciones tras el fin del conflicto en Chile",
-      "desc": "La medida generó pérdidas de aproximadamente Bs 1 millón por día para el sector boliviano\nThe post Transporte boliviano retoma operaciones tras el fin del conflicto en Chile appeared first on La Razón…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/13/transporte-boliviano-retoma-operaciones-tras-el-fin-del-conflicto-en-chile/",
-      "date": "2026-11-13T22:39:46Z"
+      "title": "El litio que queremos",
+      "desc": "El litio lo queremos, porque acrecienta los horizontes de los ciudadanos de Argentina, Chile y Bolivia, porque representa mucho más que una oportunidad económica, es una invitación a mirar hacia adela…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/14/el-litio-que-queremos/",
+      "date": "2026-11-14T04:38:32Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía solicita alerta migratoria contra Morales por los bloqueos",
+      "desc": "El requerimiento fue firmado el 13 de noviembre por el fiscal Glauco Montero y está relacionado con la denuncia del Comité Pro Santa Cruz.\nThe post Fiscalía solicita alerta migratoria contra Morales p…",
+      "link": "https://larazon.bo/nacional/2026/11/13/fiscalia-solicita-alerta-migratoria-contra-morales-por-los-bloqueos/",
+      "date": "2026-11-14T02:31:11Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía considera esclarecidos los principales hechos del caso Maletas y apunta a Saucedo",
+      "desc": "El fiscal Rolando Salvatierra afirmó que los autores principales fueron identificados y anunció nuevas actuaciones contra otras personas involucradas.\nThe post Fiscalía considera esclarecidos los prin…",
+      "link": "https://larazon.bo/nacional/2026/11/13/fiscalia-considera-esclarecidos-los-principales-hechos-del-caso-maletas-y-apunta-a-saucedo/",
+      "date": "2026-11-14T02:27:40Z"
     },
     {
       "source": "El Deber",
-      "title": "Policías bolivianos se capacitan en investigación del crimen organizado y blanqueo de capitales",
-      "desc": "Oviedo señaló que el fortalecimiento de las capacidades de investigación policial constituye una prioridad de la gestión gubernamental y se refirió al trabajo que desarrolla la Policía Boliviana frent…",
-      "link": "https://eldeber.com.bo/pais/policias-bolivianos-capacitan-investigacion-crimen-organizado-blanqueo-capitales_1794608735",
-      "date": "2026-11-13T22:25:35Z"
+      "title": "Daroca admite que, actualmente, Bolivia no es atractiva para la inversión extranjera en hidrocarburos",
+      "desc": "El nivel de reservas probadas de gas natural de Bolivia al 31 de diciembre de 2025 alcanza los 2,3 trillones de pies cúbicos (TCF), el \"más bajo\" en los últimos 20 años",
+      "link": "https://eldeber.com.bo/economia/daroca-admite-actualmente-bolivia-no-atractiva-inversion-extranjera-hidrocarburos_1794621361",
+      "date": "2026-11-14T01:56:01Z"
     },
     {
       "source": "El Deber",
-      "title": "Activan alerta migratoria contra Delmy Guzmán; su abogado pide garantías para declarar",
-      "desc": "La exfiscal Delmy Guzmán es investigada por los presuntos delitos de tráfico de sustancias controladas, asociación delictuosa y confabulación, debido a que la sindican de haber obstruido la investigac…",
-      "link": "https://eldeber.com.bo/santa-cruz/activan-alerta-migratoria-delmy-guzman-abogado-pide-garantias-declarar_1794607514",
-      "date": "2026-11-13T22:05:14Z"
+      "title": "Caso Hotel Las Américas: procuraduría pide investigar a Evo Morales y Álvaro García Linera por asesinato",
+      "desc": "La institución solicitó a la Fiscalía ampliar la investigación por el delito de asesinato contra el expresidente y el exvicepresidente, a quienes señala como presuntos autores intelectuales. También p…",
+      "link": "https://eldeber.com.bo/pais/caso-hotel-americas-procuraduria-pide-investigar-evo-morales-alvaro-garcia-linera-asesinato_1794620604",
+      "date": "2026-11-14T01:43:24Z"
     },
     {
       "source": "El Deber",
-      "title": "Concepción se prepara para vivir el día de la tradición con una agenda cultural y gastronómica",
-      "desc": "Las actividades comenzarán el sábado 14 de noviembre, a partir de las 20:00, en la plaza principal 8 de Diciembre, con presentaciones artísticas, música autóctona, danzas típicas y poesía, además de l…",
-      "link": "https://eldeber.com.bo/santa-cruz/concepcion-prepara-vivir-dia-tradicion-agenda-cultural-gastronomica_1794607224",
-      "date": "2026-11-13T22:00:46Z"
+      "title": "Brasileño hallado muerto en Cobija tenía antecedentes y quedó libre hace 10 días",
+      "desc": "De acuerdo con los antecedentes del proceso, el brasileño obtuvo medidas sustitutivas a la detención preventiva en una audiencia cautelar desarrollada el 5 de noviembre, dentro de una investigación po…",
+      "link": "https://eldeber.com.bo/pando/brasileno-hallado-muerto-cobija-tenia-antecedentes-quedo-libre-hace-10-dias_1794618735",
+      "date": "2026-11-14T01:12:15Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -189,13 +196,6 @@
       "desc": "Dólar : tipo de cambio oficial sube a Bs 11,69 este sábado&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQm5ZSGdwQjJUVnd0Y3ctbXJFbGpDRmIyZkw1UFFEMEdGMVhjaWt5X1RESkdOM3M5T1RIcExBd1NacUg3bldNclQ1UkM5NEtzNDE5eTlIcUVPaEZYQUVjYVdYNG1yU3dPdTRzWEZYXzdwZVNqOFBKTEM0Wlh4Y2ZvQkJ5aHluLUJfckFXTVJ0SjNQVjdVZ1E?oc=5",
       "date": "2026-10-17T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
-      "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
-      "date": "2026-10-14T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -254,11 +254,11 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
+      "source": "Google — FMI Bolivia",
+      "title": "El Gobierno de Bolivia envió al Parlamento el acuerdo con el FMI por USD 1.900 millones para su análisis y eventual aprobación - Infobae",
+      "desc": "El Gobierno de Bolivia envió al Parlamento el acuerdo con el FMI por USD 1.900 millones para su análisis y eventual aprobación&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZUFxXzI3c1ZYRF81dmJBZVBDLWMtVkJEVGVOY1NLb3gyakV5ZmtTM05kb1M2SFB6ZUpLR0NsSk5QeG9yOUFiSmdmZHFWcGIwb1dhMlpBSGRNRHZYcURCd09vWmkwa1JqX0lqRUNFWUhNUHcxcl92SGR5TEVDUVdFYTRJaExZYkJBc050blBRWHBnXzR6WHcxMFZxR3Vtc3U3bWkwbW1MSjNHdnBRVHh5d2hXd1ZWakd6Vm9TcW00ZVBtRXhoMV9fRTFOOHF0VXZBUF9LR2dTcEVYMzlIMXZHRnVfVU9EUFlCUi1HWmFHTlFFU0l6NWhKQ2JqVDczaHFQWHVKdDNhVWs1ZHdiZ3JtRXRB0gGsAkFVX3lxTE11MUREQmVWQUxMREJzdjNlbWtXeGpBdGxLNGVUVmFKeUx4bmtDQWg2dEZIVEdxNjZPbExKZWNkWTNtYjU4YVJkVEFrR2F5UERSQWxaclpjS0xMMmQwZW9FU2cwaWVxWkRsQjJseFRad3hZY295ZUxzUnNNMG42QXVzQTU4cW8ydngwQmlyLTE5V0N6QTZKOXlZc3J5azRaUW04U0VfTXdMbTdYaE44eFZZajhvT3VsSVBsdUh6dUEzYy1YZ3BXX3VReUJvTVBJR2xKRE1qdHBoUGxnaTd0Z1NLeFEySVBqYlRlTjdmRVcxYk1fc29HeXZvYmNmYU90MGVtYzVpTjFzZ2V4TGM0WEY2ZnA2VzlzRHUwRGpsUkRWeXJRZ2RsSXA3Unh2OA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -283,11 +283,11 @@
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.87,
-    "sellTomorrow": 11.92,
-    "changeBuy": 0.02,
-    "changeSell": 0.02,
-    "trend": "alza",
+    "buyTomorrow": 11.86,
+    "sellTomorrow": 11.91,
+    "changeBuy": 0.0,
+    "changeSell": -0.01,
+    "trend": "estable",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4341,6 +4341,11 @@
       "date": "2026-11-13",
       "buy": 11.85,
       "sell": 11.9
+    },
+    {
+      "date": "2026-11-14",
+      "buy": 11.86,
+      "sell": 11.92
     }
   ]
 }
