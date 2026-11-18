@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-17T20:13:48Z",
+  "lastUpdated": "2026-11-18T03:13:54Z",
   "displayDate": "martes 17 de noviembre, 2026",
   "binance": {
-    "buy": 11.88,
-    "sell": 11.93,
+    "buy": 11.94,
+    "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.94,
-    "sell": 11.83,
+    "buy": 11.98,
+    "sell": 11.84,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.15,
-    "sell": 11.77,
+    "buy": 12.22,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.09,
-    "sell": 11.74,
+    "buy": 12.14,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.9,
-    "sell": 11.9,
+    "buy": 11.96,
+    "sell": 11.94,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 11.98,
-    "sell": 11.75,
+    "buy": 12.06,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.7,
     "officialSell": 11.7,
-    "referentialBuy": 11.88,
-    "referentialSell": 11.93,
+    "referentialBuy": 11.94,
+    "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-17T20:13:41Z"
+    "fetchedAt": "2026-11-18T03:13:48Z"
   },
   "banks": [
     {
@@ -107,81 +107,60 @@
   ],
   "news": [
     {
-      "source": "La Razón",
-      "title": "Nvidia presenta sus primeros resultados tras el escándalo",
-      "desc": "Desde que estalló el escándalo, Nvidia ha perdido 700.000 millones de dólares en valor de mercado\nThe post Nvidia presenta sus primeros resultados tras el escándalo appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/11/17/nvidia-presenta-sus-primeros-resultados-tras-el-escandalo/",
-      "date": "2026-11-17T19:48:14Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Minería ilegal: Ingenieros ambientales piden tomar muestras más precisas en Misicuni",
-      "desc": "Un representante del sector explicó que el mercurio puede estar presente en sedimentos y en peces.\nThe post Minería ilegal: Ingenieros ambientales piden tomar muestras más precisas en Misicuni appeare…",
-      "link": "https://larazon.bo/sociedad/2026/11/17/mineria-ilegal-ingenieros-ambientales-piden-tomar-muestras-mas-precisas-en-misicuni/",
-      "date": "2026-11-17T19:44:12Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "DS 5775 define dos esquemas de ajuste de precios según el plazo de las obras",
-      "desc": "Además, el DS 5775 incorpora otros dos mecanismos que aseguran la continuidad operativa y mantienen el empleo en el sector de la construcción\nThe post DS 5775 define dos esquemas de ajuste de precios …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/17/ds-5775-define-dos-esquemas-de-ajuste-de-precios-segun-el-plazo-de-las-obras/",
-      "date": "2026-11-17T19:40:42Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Fiscalía pide seis meses de detención preventiva para Quezada y Porras",
-      "desc": "El Ministerio Público solicitó que Aldo Quezada sea enviado al Centro de Custodia de Patacamaya y Julio César Porras a la cárcel de San Pedro, en La Paz.\nThe post Fiscalía pide seis meses de detención…",
-      "link": "https://larazon.bo/nacional/2026/11/17/fiscalia-pide-seis-meses-de-detencion-preventiva-para-quezada-y-porras/",
-      "date": "2026-11-17T19:39:43Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Caso Hotel Las Américas: Fiscalía cita a Jhonny Aguilera y Raúl García Linera como testigos",
-      "desc": "El excomandante de la Policía y el exfuncionario deberán declarar en la investigación sobre los hechos ocurridos en 2009. La Fiscalía de Santa Cruz aún debe fijar la fecha y hora de sus comparecencias…",
-      "link": "https://larazon.bo/nacional/2026/11/17/caso-hotel-las-americas-fiscalia-cita-a-jhonny-aguilera-y-raul-garcia-linera-como-testigos/",
-      "date": "2026-11-17T19:35:06Z"
+      "source": "El Deber",
+      "title": "Rubio: EEUU no está bajo \"ataque sistémico\" tras fallos en infraestructuras digitales",
+      "desc": "El secretario de Estado dijo que no está preocupado por esta supuesta amenaza iraní y aseguró que \"no hay ninguna amenaza inminente\"",
+      "link": "https://eldeber.com.bo/mundo/rubio-eeuu-no-esta-ataque-sistemico-fallos-infraestructuras-digitales_1794969271",
+      "date": "2026-11-18T02:34:31Z"
     },
     {
       "source": "El Deber",
-      "title": "Crédito de $us 500 millones con Trafigura respalda el abastecimiento de diésel",
-      "desc": "El financiamiento permite a YPFB recibir combustibles y pagar después. La compañía afirma que cubre cerca del 80% del diésel que se distribuye en Bolivia",
-      "link": "https://eldeber.com.bo/economia/credito-us-500-millones-trafigura-respalda-abastecimiento-diesel_1794944005",
-      "date": "2026-11-17T19:33:25Z"
+      "title": "\"Los dólares compran tiempo\": los créditos alivian pero no frenan el déficit fiscal, según un analista",
+      "desc": "Darío Monasterio sostiene que los créditos internacionales aliviarán las cuentas fiscales, pero no garantizarán la recuperación económica si no se corrigen los desequilibrios estructurales.",
+      "link": "https://eldeber.com.bo/economia/dolares-compran-tiempo-creditos-alivian-no-frenan-deficit-fiscal-analista_1794968039",
+      "date": "2026-11-18T02:13:59Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Quezada y Porras son enviados a Patacamaya y San Pedro por el caso Roma",
+      "desc": "El expresidente del Tribunal Departamental de Justicia de Santa Cruz será recluido en el centro de custodia de Patacamaya y el exfiscal antinarcóticos en el penal de San Pedro, en La Paz.\nThe post Que…",
+      "link": "https://larazon.bo/nacional/2026/11/17/quezada-y-porras-son-enviados-a-patacamaya-y-san-pedro-por-el-caso-roma/",
+      "date": "2026-11-18T01:48:37Z"
     },
     {
       "source": "El Deber",
-      "title": "'Caso Roma': pedirán seis meses de detención preventiva para Porras y Quezada",
-      "desc": "El ex presidente del Tribunal Departamental de Justicia (TDJ) de Santa Cruz, Aldo Quezada, y el ex fiscal antidroga Julio César Porras llegaron el lunes a las oficinas de la Fiscalía Antinarcóticos de…",
-      "link": "https://eldeber.com.bo/pais/caso-roma-pediran-seis-meses-detencion-preventiva-porras-quezada_1794942886",
-      "date": "2026-11-17T19:14:46Z"
+      "title": "\"Es un reto\": Álvaro Zabala Serrano es el nuevo fiscal de Sustancias Controladas",
+      "desc": "El fiscal institucionalizado asumió funciones y calificó como un reto para el Ministerio Público continuar con las investigaciones.",
+      "link": "https://eldeber.com.bo/pais/reto-alvaro-zabala-serrano-nuevo-fiscal-sustancias-controladas_1794966309",
+      "date": "2026-11-18T01:45:09Z"
     },
     {
       "source": "El Deber",
-      "title": "Amplían el universo de los beneficiarios del bono PEPE II con la modificación de un decreto",
-      "desc": "Entre los beneficiarios se encuentran “mujeres gestantes, incluidas las menores de edad representadas por un titular de pago debidamente acreditado, así como las madres, padres o titulares de cobro de…",
-      "link": "https://eldeber.com.bo/pais/amplian-universo-beneficiarios-bono-pepe-ii-modificacion-decreto_1794938779",
-      "date": "2026-11-17T18:06:19Z"
+      "title": "La situación sigue tensa en Ascensión de Guarayos a días de la Feria de la Piña",
+      "desc": "En la primera semana de noviembre el presidente de la Asociación de Productores Piñeros de Guarayos sentó una denuncia en la fiscalía asegurando que fue atacado por interculturales. Del otro lado mani…",
+      "link": "https://eldeber.com.bo/santa-cruz/situacion-sigue-tensa-ascension-guarayos-dias-feria-pina_1794965118",
+      "date": "2026-11-18T01:28:57Z"
     },
     {
       "source": "El Deber",
-      "title": "Ante demanda de constructoras, Gobierno autoriza reajustes de precios en obras públicas",
-      "desc": "El Decreto Supremo 5775 permite modificar contratos por el aumento de materiales, maquinaria, equipos y diésel. La medida responde a una demanda de las constructoras, que reportaron incrementos de cos…",
-      "link": "https://eldeber.com.bo/economia/demanda-constructoras-gobierno-autoriza-reajustes-precios-obras-publicas_1794933762",
-      "date": "2026-11-17T16:42:42Z"
+      "title": "Putin llega a China para la APEC con una inédita cita trilateral con Trump y Xi agendada",
+      "desc": "Está previsto asimismo un encuentro bilateral exclusivo entre Putin y Xi, en un contexto de fortalecimiento de sus vínculos estratégicos y de negociaciones pendientes sobre el suministro de gas ruso a…",
+      "link": "https://eldeber.com.bo/mundo/putin-llega-china-apec-inedita-cita-trilateral-trump-xi-agendada_1794961723",
+      "date": "2026-11-18T00:28:43Z"
     },
     {
-      "source": "El Deber",
-      "title": "Policía y Migración intensifican la búsqueda de la ex fiscal Delmy Guzmán",
-      "desc": "La exfuncionaria continúa prófuga de la Justicia, luego de activarse una orden de captura en su contra al no presentarse a brindar su declaración",
-      "link": "https://eldeber.com.bo/santa-cruz/policia-migracion-intensifican-busqueda-ex-fiscal-delmy-guzman_1794932533",
-      "date": "2026-11-17T16:22:13Z"
+      "source": "La Razón",
+      "title": "Bolivia afirma que el asilo de García Linera en México sigue vigente desde 2019",
+      "desc": "El vicecanciller Carlos Paz aclaró que la condición de asilado no otorga inmunidad ni frena las investigaciones judiciales en el país.\nThe post Bolivia afirma que el asilo de García Linera en México s…",
+      "link": "https://larazon.bo/nacional/2026/11/17/bolivia-afirma-que-el-asilo-de-garcia-linera-en-mexico-sigue-vigente-desde-2019/",
+      "date": "2026-11-18T00:06:27Z"
     },
     {
       "source": "Google — Economía Bolivia",
-      "title": "Cotización de minerales: el oro supera $us 4.000 y la plata alcanza $us 51,46 - Economy Bolivia",
-      "desc": "Cotización de minerales: el oro supera $us 4.000 y la plata alcanza $us 51,46&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTER6QTV5XzVYeGdTcGM0MW0zQ3MxdEx0clphS3EtTDBYOE1jbldkMlgwYnNNR1g3dlV3OGdfak40TUc1TTd3YVFtQnhTZFY1dE0wUU5UOFBaUnUwYzk0UzlNNUtQSDBpcEZrWHIxd2dzckN2Z2NuVnh1RWJ3Vy1WM0Y2aW1zazNyUHNPcHpUYUZseFJxdUZNaUNvNE9rZlBIZzNBLVBFdw?oc=5",
-      "date": "2026-11-16T21:22:04Z"
+      "title": "Bolivia gestionará créditos del BID por $US 750 millones para fortalecer su economía - Economy Bolivia",
+      "desc": "Bolivia gestionará créditos del BID por $US 750 millones para fortalecer su economía&nbsp;&nbsp;Economy Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkU4RG00X2hRdWtrVXhzeWtJXzZURlVLRnBReXRUakJhU0dSemNLdWpTWXlCWjh2M0FySm9qQ2cyYlZtTk53TnBxTUlXUklqVmhOaHFaTmVwSUg3YUZxQTJZa2FPQURoS0QtUzhldnl4WTlYMjRyeHdZbnRJblNlWXRZckRDdWhUOWJvaGVYYmVOYzA3aUNaNmNUU0xVLTZnU21mRVdNNUJVQkw4ME0wUXdLeDhNUQ?oc=5",
+      "date": "2026-11-17T22:58:41Z"
     },
     {
       "source": "Google — INE inflación",
@@ -268,6 +247,13 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
+      "source": "Google — BCB reservas",
+      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
+      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
+      "date": "2026-08-25T07:00:00Z"
+    },
+    {
       "source": "Google — Economía Bolivia",
       "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
       "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
@@ -280,13 +266,27 @@
       "desc": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2M5UkFad3ZIamY2QzMtVTZxbmVEaURSMmFmeGRyU3p2V3A1M2lPa3JNX2w2T25felhoOHVveC1OV2NjQTlMend6Vk1qVUgtSzNpcGNZa1M2ZmROT3VfNTFBel8wRnhfUUhZV2dLdk9iWXlrRmdEclF5azBXc0hkWE80THloT1RCUEl4RHF0alBVa2dfR2hXSXZDREozYTFIZlZOVTRsOS01Qk5wR0hXN20zN3gzZw?oc=5",
       "date": "2026-08-04T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica - EL PAÍS",
+      "desc": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica&nbsp;&nbsp;EL PAÍS",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNejVzTkFfUjFxckVxZ3U4cjF5SGE0XzQwYm1mRzZqVjRTS0ZJbEZvcWpqbDdsdkU4U3hYbVBSSnh3ZkhJdHBXSmdoWmVvaFRPU29vanZyNjNoU2VzclhJZ2RtenB1cjlDcl9vN0NFYklJR05XTzZtWjRfa3dHakZKb1VWYTZGdHFLam9RX1R6aTFpSER4bjBUTjFpNXl3RWpxd09Uc2xuSWt3MDRsOXd6UkRGVnFVRXRLaHJZRTFLUHlMTWRpQW9GUXMzLXBBRlNJVmNhWWpudVkwd9IB7gFBVV95cUxNQXhMejRLZmM3ZHowNW8zS0tobHBGMUxXSG1tUk1tY0pjX2NVYnBnWnFqeEtleG9Lcm51MVpXbmZfM05MVkRwdy00aThZbE5oVEJ1dnlORzlkVlJaVXphcTRwTktWNGlURTN3MFZYQ2t1NGFOMS1SZHQtUV9wRFpJRF9YbTlTMWQ5OEtfWFpWQ2EwZHJsV01ocTFLQTcwSGFqZlV0eDlWYk4yNGt5OWJ6S0pFMS05NlFvb1I5Q3AyVkJfX0VvS1gyT1Vsa3hURUo0cmR3TjFaRmRkSTNNR2ZEVWFkRzdrQ2pORzFOUmhR?oc=5",
+      "date": "2026-07-31T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026 - MEFP",
+      "desc": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lYlp4dGJhRVdZSVFPMXFodmRfNFVpS1VJbkwxbHZZeEJuaVNKZTF4QWZzS0pWYVNXSGhsd1Fya1N1bDN1VHBWU2R2c2ZISzlDMmJZQlR5ZUtPaEE?oc=5",
+      "date": "2026-07-31T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.86,
-    "sellTomorrow": 11.91,
-    "changeBuy": -0.02,
-    "changeSell": -0.02,
+    "buyTomorrow": 11.89,
+    "sellTomorrow": 11.94,
+    "changeBuy": -0.05,
+    "changeSell": -0.05,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4354,8 +4354,8 @@
     },
     {
       "date": "2026-11-17",
-      "buy": 11.88,
-      "sell": 11.93
+      "buy": 11.94,
+      "sell": 11.99
     }
   ]
 }
