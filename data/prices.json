@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-18T03:13:54Z",
-  "displayDate": "martes 17 de noviembre, 2026",
+  "lastUpdated": "2026-11-18T06:10:43Z",
+  "displayDate": "miercoles 18 de noviembre, 2026",
   "binance": {
-    "buy": 11.94,
+    "buy": 11.92,
     "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 11.98,
-    "sell": 11.84,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.22,
-    "sell": 11.82,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.14,
-    "sell": 11.79,
+    "buy": 12.13,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.96,
-    "sell": 11.94,
+    "buy": 11.98,
+    "sell": 11.92,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.06,
+    "buy": 12.07,
     "sell": 11.78,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.7,
-    "officialSell": 11.7,
-    "referentialBuy": 11.94,
+    "officialBuy": 11.75,
+    "officialSell": 11.75,
+    "referentialBuy": 11.92,
     "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-18T03:13:48Z"
+    "fetchedAt": "2026-11-18T06:10:37Z"
   },
   "banks": [
     {
       "name": "BNB",
-      "buy": 11.7,
-      "sell": 12.0
+      "buy": 11.75,
+      "sell": 12.05
     },
     {
       "name": "Banco Fortaleza",
@@ -66,23 +66,23 @@
     },
     {
       "name": "BCP",
-      "buy": 11.2,
-      "sell": 12.0
+      "buy": 11.25,
+      "sell": 12.05
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.0,
-      "sell": 11.93
+      "buy": 11.05,
+      "sell": 11.98
     },
     {
       "name": "Banco FIE",
-      "buy": 10.7,
-      "sell": 12.05
+      "buy": 10.75,
+      "sell": 12.1
     },
     {
       "name": "Banco Económico",
-      "buy": 10.7,
-      "sell": 12.05
+      "buy": 10.75,
+      "sell": 12.1
     },
     {
       "name": "Banco Unión",
@@ -91,8 +91,8 @@
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.6,
-      "sell": 12.0
+      "buy": 10.65,
+      "sell": 12.05
     },
     {
       "name": "BancoSol",
@@ -102,7 +102,7 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.0
+      "sell": 12.05
     }
   ],
   "news": [
@@ -147,13 +147,6 @@
       "desc": "Está previsto asimismo un encuentro bilateral exclusivo entre Putin y Xi, en un contexto de fortalecimiento de sus vínculos estratégicos y de negociaciones pendientes sobre el suministro de gas ruso a…",
       "link": "https://eldeber.com.bo/mundo/putin-llega-china-apec-inedita-cita-trilateral-trump-xi-agendada_1794961723",
       "date": "2026-11-18T00:28:43Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Bolivia afirma que el asilo de García Linera en México sigue vigente desde 2019",
-      "desc": "El vicecanciller Carlos Paz aclaró que la condición de asilado no otorga inmunidad ni frena las investigaciones judiciales en el país.\nThe post Bolivia afirma que el asilo de García Linera en México s…",
-      "link": "https://larazon.bo/nacional/2026/11/17/bolivia-afirma-que-el-asilo-de-garcia-linera-en-mexico-sigue-vigente-desde-2019/",
-      "date": "2026-11-18T00:06:27Z"
     },
     {
       "source": "Google — Economía Bolivia",
@@ -247,13 +240,6 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto - ABI - Agencia Boliviana de Información",
-      "desc": "BCB: Reservas Internacionales se incrementan en $us 638 millones entre junio y agosto&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1ZMWTBzYU82WXZPREJtYkdoNG0tWThGNVFKR0g2ajRQWDlSWTVNcEEzQVg1Nm9yZDhXOEN6ZUJkRHctZTJGMkFJRzFhdmUtemJuNmE2UGY3TmphWHhZTWxtZHVwRmhMMHlhdlZjN0lyQ2xxR1h3VUxVTlFQTHBib3dYN0NYNFY3MW13ZllqRDBzVm5Pd0pYZUptUkZkYVJP?oc=5",
-      "date": "2026-08-25T07:00:00Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
       "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
@@ -280,13 +266,27 @@
       "desc": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026&nbsp;&nbsp;MEFP",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lYlp4dGJhRVdZSVFPMXFodmRfNFVpS1VJbkwxbHZZeEJuaVNKZTF4QWZzS0pWYVNXSGhsd1Fya1N1bDN1VHBWU2R2c2ZISzlDMmJZQlR5ZUtPaEE?oc=5",
       "date": "2026-07-31T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia pacta crédito millonario con el FMI, el primero tras dos décadas y en medio de una crisis económica - France 24",
+      "desc": "Bolivia pacta crédito millonario con el FMI, el primero tras dos décadas y en medio de una crisis económica&nbsp;&nbsp;France 24",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNYll0aXNPSmxUdnhPdG1obld1eElkQnBZeU5oTWx3WHFVT3l2NmUwejhGUUwzOUV0OHJIam1zRjF3ZzN4VWZBM2dUbjVweDh3X3lOLXd5eDU5RXhDVjFPeDlrV09KQVNGU0xydmVnSTVIcjIxaEdyeEE3QW5CS1EzeEhYZTdyOXg5TWdCem5kbDViT2ZfTXlkSmdnVldiSHdhRFhJTW9RVHZYS0pySHplOWc4QUJ1TUQ5TDk2RnZhYkhKaTI1SVpTYTRFQ2d6dkwyRVUzdXkzcFdIQ1huYjdaVUswZU5BR3NlNFh4RlRXbnhGNUlseTdDX1B6NUZXMWUyU2t2UFJGUlpEaHJCVlln?oc=5",
+      "date": "2026-07-30T07:00:00Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local - EL PAÍS",
+      "desc": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local&nbsp;&nbsp;EL PAÍS",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTy1XNTBIWndrUmpWdl9KTzJfaFJOX2tOZFpVeTd6bHBBYmgwUnN4bGl2MkNMU0hHbElfZlJLQW9PdlloOWczMU14U0UwOG54ZWwyc3czNFliNWhyQWZQcTJXRzFhcEE4UnRzM3l0ckdhV0tqa0ZlLTcxeVh3amF6QnE5NVhrdjBxMEUwYktpZ1dkaUNILUVvbXhlNTVENTRwNmMzblpWS2g3MkpYRVo1WVY3SzVYWTRsaW9vMU1DeWEteFVMX05GamVXMDN1d9IB4gFBVV95cUxOb0JfZ0hIM3NrV3JhNFlMZDBGSGtUd0hXZ3VVTXU0YmwwdlhRYUhPdEdtenJfOTdMRHY3R3BjMWRCNEVUTHFURGZ6SW56SDVZdVZCd2EtN0JodzBKTXk5MTF2VXc1WjBSRnd5RGl2a1l1aDBETXN5R3dCTUVwbm5fVTJnSEZ2ZUpicVRLZlYxMXFNTWFhakxuZHNKZGNpUHBSdUxISVJjNm5zODBROEpFWU45VDJ0M2VsYlVrZ1Ftcm1uTTBRSElHMUUya2NqQU9MX0JFMEM4dnhLU01Pck13Rk9n?oc=5",
+      "date": "2026-07-20T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.89,
-    "sellTomorrow": 11.94,
-    "changeBuy": -0.05,
-    "changeSell": -0.05,
+    "buyTomorrow": 11.9,
+    "sellTomorrow": 11.96,
+    "changeBuy": -0.02,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4355,6 +4355,11 @@
     {
       "date": "2026-11-17",
       "buy": 11.94,
+      "sell": 11.99
+    },
+    {
+      "date": "2026-11-18",
+      "buy": 11.92,
       "sell": 11.99
     }
   ]
