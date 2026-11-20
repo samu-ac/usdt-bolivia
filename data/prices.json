@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-20T05:57:52Z",
+  "lastUpdated": "2026-11-20T19:25:55Z",
   "displayDate": "viernes 20 de noviembre, 2026",
   "binance": {
-    "buy": 11.93,
-    "sell": 11.99,
+    "buy": 11.92,
+    "sell": 11.96,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.03,
-    "sell": 11.88,
+    "sell": 11.91,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.22,
-    "sell": 11.83,
+    "buy": 12.19,
+    "sell": 11.81,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.15,
-    "sell": 11.8,
+    "buy": 12.12,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.0,
+    "buy": 11.95,
     "sell": 11.94,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.04,
-    "sell": 11.81,
+    "buy": 12.01,
+    "sell": 11.79,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.75,
     "officialSell": 11.75,
-    "referentialBuy": 11.93,
-    "referentialSell": 11.99,
+    "referentialBuy": 11.92,
+    "referentialSell": 11.96,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-20T05:57:48Z"
+    "fetchedAt": "2026-11-20T19:25:50Z"
   },
   "banks": [
     {
@@ -61,8 +61,8 @@
     },
     {
       "name": "Banco Fortaleza",
-      "buy": 11.38,
-      "sell": 11.98
+      "buy": 11.45,
+      "sell": 12.05
     },
     {
       "name": "BCP",
@@ -86,8 +86,8 @@
     },
     {
       "name": "Banco Unión",
-      "buy": 10.68,
-      "sell": 11.98
+      "buy": 10.75,
+      "sell": 12.05
     },
     {
       "name": "Mercantil Santa Cruz",
@@ -96,8 +96,8 @@
     },
     {
       "name": "BancoSol",
-      "buy": 10.51,
-      "sell": 11.93
+      "buy": 10.58,
+      "sell": 12.0
     },
     {
       "name": "Banco Ganadero",
@@ -107,53 +107,67 @@
   ],
   "news": [
     {
-      "source": "El Deber",
-      "title": "Bolívar en la lista de prohibiciones de la FIFA",
-      "desc": "El club apareció en el registro de prohibiciones de la FIFA desde el 18 de noviembre y tiene tres períodos de inscripción restringidos, salvo que cancele la deuda pendiente.",
-      "link": "https://eldeber.com.bo/deportes/bolivar-lista-prohibiciones-fifa_1795141671",
-      "date": "2026-11-20T02:29:07Z"
+      "source": "La Razón",
+      "title": "UE y España destinan 2,86 millones de euros al proyecto Justicia Digital",
+      "desc": "La iniciativa busca modernizar el sistema judicial boliviano mediante herramientas tecnológicas, capacitación e integración institucional.\nThe post UE y España destinan 2,86 millones de euros al proye…",
+      "link": "https://larazon.bo/nacional/2026/11/20/ue-y-espana-destinan-286-millones-de-euros-al-proyecto-justicia-digital/",
+      "date": "2026-11-20T19:19:12Z"
     },
     {
       "source": "La Razón",
-      "title": "Defensa de Mariaca solicita reforzar su seguridad en el penal de Cantumarca",
-      "desc": "La defensa del exfiscal general del Estado Roger Mariaca solicitó a las autoridades judiciales reforzar las medidas de seguridad en el penal de Cantumarca, en Potosí, donde su defendido cumple detenci…",
-      "link": "https://larazon.bo/sociedad/2026/11/19/defensa-de-mariaca-solicita-reforzar-su-seguridad-en-el-penal-de-cantumarca/",
-      "date": "2026-11-20T01:30:17Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Actor boliviano Reynaldo Pacheco debuta en los videojuegos como antagonista de GTA 6",
-      "desc": "La participación marca su primera experiencia en el mundo de los videojuegos y representa un nuevo paso en su trayectoria internacional.",
-      "link": "https://eldeber.com.bo/cultura-y-entretenimiento/actor-boliviano-reynaldo-pacheco-debuta-videojuegos-antagonista-gta-6_1795134869",
-      "date": "2026-11-20T00:34:29Z"
+      "title": "Magistratura remitirá a la Fiscalía informe sobre cinco jueces vetados por EEUU",
+      "desc": "El relevamiento incluye antecedentes y actuaciones judiciales de autoridades observadas por el Gobierno estadounidense.\nThe post Magistratura remitirá a la Fiscalía informe sobre cinco jueces vetados …",
+      "link": "https://larazon.bo/nacional/2026/11/20/magistratura-remitira-a-la-fiscalia-informe-sobre-cinco-jueces-vetados-por-eeuu/",
+      "date": "2026-11-20T19:06:32Z"
     },
     {
       "source": "La Razón",
-      "title": "El actor boliviano Reynaldo Pacheco se suma al elenco de GTA 6",
-      "desc": "Pacheco es parte del elenco del videojuego. En él interpreta a un antagonista que va por un desafío dentro de su trayectoria artística.\nThe post El actor boliviano Reynaldo Pacheco se suma al elenco d…",
-      "link": "https://larazon.bo/la-revista/2026/11/19/el-actor-boliviano-reynaldo-pacheco-se-suma-al-elenco-de-gta-6/",
-      "date": "2026-11-20T00:01:11Z"
+      "title": "Bolivia e India avanzan en acuerdos sobre minería, hidrocarburos y tecnología",
+      "desc": "Ambas partes expresaron su compromiso de \"agilizar la implementación de las decisiones adoptadas\" en ese encuentro y fortalecer la cooperación bilateral\nThe post Bolivia e India avanzan en acuerdos so…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/20/bolivia-e-india-avanzan-en-acuerdos-sobre-mineria-hidrocarburos-y-tecnologia/",
+      "date": "2026-11-20T18:52:01Z"
     },
     {
       "source": "La Razón",
-      "title": "Jubileo destaca que la inflación en Bolivia bajó al 7,08% hasta octubre",
-      "desc": "El indicador acumulado se redujo respecto al 20,40% registrado en noviembre de 2025. Un analista de la institución advirtió que la presión inflacionaria todavía no fue superada.\nThe post Jubileo desta…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/19/jubileo-destaca-que-la-inflacion-en-bolivia-bajo-al-708-hasta-octubre/",
-      "date": "2026-11-19T23:48:53Z"
+      "title": "Pando exhibe su potencial productivo en feria que busca impulsar la economía regional",
+      "desc": "El ministro de Economía, Christian Morales Burgos, llegó hasta Cobija para participar en esta jornada, que forma parte de las actividades por el primer año de gestión del Gobierno\nThe post Pando exhib…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/20/pando-exhibe-su-potencial-productivo-en-feria-que-busca-impulsar-la-economia-regional/",
+      "date": "2026-11-20T18:42:38Z"
     },
     {
       "source": "El Deber",
-      "title": "Bolivia gana el Huevo de Oro y el consumo de este alimento crece un 13,4%",
-      "desc": "El reconocimiento internacional a la Asociación Nacional de Avicultores de Bolivia (ANA) llegó en un momento de expansión del mercado interno. El país pasó de consumir 232 huevos por persona al año en…",
-      "link": "https://eldeber.com.bo/economia/bolivia-gana-huevo-oro-consumo-este-alimento-crece-13-4_1795128127",
-      "date": "2026-11-19T22:42:07Z"
+      "title": "Villegas considera que su continuidad es lo mejor para la selección boliviana",
+      "desc": "El entrenador de la Verde defendió el proceso que inició en 2024 y aseguró que ya conoce el camino para afrontar las próximas Eliminatorias. También habló de la importancia de recuperar la fortaleza d…",
+      "link": "https://eldeber.com.bo/deportes/villegas-considera-continuidad-mejor-seleccion-boliviana_1795191613",
+      "date": "2026-11-20T16:20:13Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Bolivia gestionará créditos del BID por $US 750 millones para fortalecer su economía - Economy Bolivia",
-      "desc": "Bolivia gestionará créditos del BID por $US 750 millones para fortalecer su economía&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkU4RG00X2hRdWtrVXhzeWtJXzZURlVLRnBReXRUakJhU0dSemNLdWpTWXlCWjh2M0FySm9qQ2cyYlZtTk53TnBxTUlXUklqVmhOaHFaTmVwSUg3YUZxQTJZa2FPQURoS0QtUzhldnl4WTlYMjRyeHdZbnRJblNlWXRZckRDdWhUOWJvaGVYYmVOYzA3aUNaNmNUU0xVLTZnU21mRVdNNUJVQkw4ME0wUXdLeDhNUQ?oc=5",
-      "date": "2026-11-17T22:58:41Z"
+      "source": "El Deber",
+      "title": "Bolívar dice que la prohibición de inscribir jugadores no es por deudas",
+      "desc": "No cumplió a tiempo un requerimiento de la Cámara de Compensación de la FIFA. El club señaló que a más tardar hasta el martes quedará liberado.",
+      "link": "https://eldeber.com.bo/futbol/bolivar-dice-prohibicion-inscribir-jugadores-no-deudas_1795191455",
+      "date": "2026-11-20T16:17:35Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Este año, el Gobierno amplió tres veces los recursos para cubrir costos del subsidio al combustible",
+      "desc": "La autorización del Tesoro General de la Nación pasó de Bs 1.000 millones a Bs 9.000 millones en poco más de cuatro meses. El Ejecutivo elevó el monto en tres oportunidades mediante decretos que modif…",
+      "link": "https://eldeber.com.bo/economia/este-ano-gobierno-amplio-tres-veces-recursos-cubrir-costos-subsidio-combustible_1795190934",
+      "date": "2026-11-20T16:08:54Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Los cinco países que aportan talento al Atlético Mineiro",
+      "desc": "Atlético Mineiro, que disputará el título de la Copa Sudamericana con Boca Juniors el sábado en Barranquilla, es uno de los equipos brasileños con mayor número de extranjeros, nueve de cinco países, e…",
+      "link": "https://eldeber.com.bo/deportes/cinco-paises-aportan-talento-atletico-mineiro_1795188030",
+      "date": "2026-11-20T15:20:30Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El Gobierno eleva a Bs 9.000 millones el respaldo a YPFB para sostener los combustibles",
+      "desc": "En cuatro meses, el Ejecutivo multiplicó por nueve el techo de recursos destinados a YPFB. La medida refleja la presión financiera del abastecimiento y coincide con el debate sobre las subvenciones en…",
+      "link": "https://eldeber.com.bo/economia/gobierno-eleva-bs-9-000-millones-respaldo-ypfb-sostener-combustibles_1795184224",
+      "date": "2026-11-20T14:17:04Z"
     },
     {
       "source": "Google — INE inflación",
@@ -177,13 +191,6 @@
       "date": "2026-10-24T05:05:23Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene - CriptoNoticias",
-      "desc": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene&nbsp;&nbsp;CriptoNoticias",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZjJRdVZXQmRFZ2hpUGhGdlNZa1J6aEZYYkJCMkhBQmpuMTI5d2FmaHA5bXZiWkRfUWZoZWcxb01VM3NDR0hsQ0ljbkF0S1ZfTWNEYzVONmNZV0l3XzFjUVl6b1B2OGxJVVdNVFlmX1VTdGN4UWM5dHVwZ1U3a21ObTJLbmhKRHVv?oc=5",
-      "date": "2026-10-12T07:00:00Z"
-    },
-    {
       "source": "Google — BCB reservas",
       "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
       "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
@@ -196,6 +203,13 @@
       "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T07:00:00Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre - Infobae",
+      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 5 de octubre&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmdFc0lDM3E3VlU1NngzNk1uLW8xZVBqLVFxelNNanhTcXJxdWZrNk1BM1U3dVFvY0wzYkFxekdmUmg5TmJnTmhsSnJoam9EM1FxMDNlU3E0WjF2RnNTZzZnQW5fMW9kcDJUaHhPVFBKZUVnMTd5X3ZaVklMREpyY195Q3FMa2lZb3RlSVZrcU9sU1dDU3c1X0ZtdEhMdmxIcFlfazR3MWxHT1RTYUVoX3RnbDnSAc8BQVVfeXFMTXRYZlVCOEdRdlVsODdXUmlOeUJ6NkFfNlB1bjRCY2g5Y3RvWXFaSjFCM0xhUUFlLUV5RnpSekl5M21xNXVNTDRvREM5OW5sZ09rTVdzX3c0M3RWcDEwRDNDN1gzLWhLX19PTWJkYmVTWTRodmNMUVpZT3pLTm9BVmhQRnhuSG1PajBSN3RTSjNLclEzYW1JdFoxVlNuVHZubWdSSEs5OUtkaG10ckJLa1F4eDQwTmFmdkxGSHhBLV9XSFpVdTZPTjVQc0Z3UVJV?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -217,13 +231,6 @@
       "desc": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI&nbsp;&nbsp;DW.com",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhIZDB0MmJmbmZscmFwS25tY0NHTHRudGF2czVkZDhYR05NNlFRcDdCMksyRm16RGJ4cVhJOVJORTVtZGJ1WGw2QnBIQTNyMXExLUJyZXB6X3hVTWRNMVVvcDM0OFhpM1pXZlpGY2hZVF9yZktqaW9xOTJTc2FrYWplNzdxUWppVmtXZURNVHdPaFV6X0hCQVlaY9IBmwFBVV95cUxOSUV0ZUVxNlBiaHFPOGhoWndFQkpaN25pS20tSXlvc2p4RFhoOEpKRDlLY2E3Z1ZnLXlFVmdpc1NVRUJjOWk4NW43ZkRKTEVwR0d6WFhhRlNCMklJdjBNZnVtelJEUFIwcG4xYTN4anlwRVY0UE43ajdMR25BME11MzFRMlFUbzFyWkp1SFNBU1ZiYU4tTHNMX0lROA?oc=5",
       "date": "2026-09-19T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "Precio del dólar hoy en Bolivia: cotización de cierre del 11 de septiembre - Infobae",
-      "desc": "Precio del dólar hoy en Bolivia: cotización de cierre del 11 de septiembre&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVl93OHJ1SC1sZXN4QURwTGVtN0xvRklqeW9JbDA3dmlEOEcwaDAyU0k0M0UxaGVMaEFJYkRJUHpzdnpGeUNFb2hvMzB0bkU3WnJJcDJoLWFjNU44aWFtTnRGNm9sNkFKakEzbmFJWURPbjd4bjZETFdBMy0wRTVwZVF0SGxnWDExeXhudTlMd2JXTHpVR0FjcVBTY214OFRQVG1BNFBWV2U2cGV1WksyT0IyQmxkRzJmeFHSAdQBQVVfeXFMT0FIUy12REVuczFVZDRPOV9fZzZNdmZTV2ZFNlh4TlEtZjEtZllQc0E0a3ZGUENtUUxRNmJpX1pIU1BNMVRQcWNzTm16c3JXSlFVN0t5SldTal9VQnFEb1FoSGg3cHlqWFhBcHV4R0ZzUkF4Mk9PV1ZTZHlMVmNBczNDajJ3NXY1ek5DRm93WU1nMjFqcDdYMW1iNUkxMEdCTU5Yc1ZwOUhGVmN1aHZGTElFQmhid3c2bGV3Q0JRWGFMTzJLRnhHSGwyb0JJalNsRTM5RS0?oc=5",
-      "date": "2026-09-11T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -248,6 +255,13 @@
     },
     {
       "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
       "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
       "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
@@ -266,27 +280,13 @@
       "desc": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2M5UkFad3ZIamY2QzMtVTZxbmVEaURSMmFmeGRyU3p2V3A1M2lPa3JNX2w2T25felhoOHVveC1OV2NjQTlMend6Vk1qVUgtSzNpcGNZa1M2ZmROT3VfNTFBel8wRnhfUUhZV2dLdk9iWXlrRmdEclF5azBXc0hkWE80THloT1RCUEl4RHF0alBVa2dfR2hXSXZDREozYTFIZlZOVTRsOS01Qk5wR0hXN20zN3gzZw?oc=5",
       "date": "2026-08-04T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica - EL PAÍS",
-      "desc": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica&nbsp;&nbsp;EL PAÍS",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNejVzTkFfUjFxckVxZ3U4cjF5SGE0XzQwYm1mRzZqVjRTS0ZJbEZvcWpqbDdsdkU4U3hYbVBSSnh3ZkhJdHBXSmdoWmVvaFRPU29vanZyNjNoU2VzclhJZ2RtenB1cjlDcl9vN0NFYklJR05XTzZtWjRfa3dHakZKb1VWYTZGdHFLam9RX1R6aTFpSER4bjBUTjFpNXl3RWpxd09Uc2xuSWt3MDRsOXd6UkRGVnFVRXRLaHJZRTFLUHlMTWRpQW9GUXMzLXBBRlNJVmNhWWpudVkwd9IB7gFBVV95cUxNQXhMejRLZmM3ZHowNW8zS0tobHBGMUxXSG1tUk1tY0pjX2NVYnBnWnFqeEtleG9Lcm51MVpXbmZfM05MVkRwdy00aThZbE5oVEJ1dnlORzlkVlJaVXphcTRwTktWNGlURTN3MFZYQ2t1NGFOMS1SZHQtUV9wRFpJRF9YbTlTMWQ5OEtfWFpWQ2EwZHJsV01ocTFLQTcwSGFqZlV0eDlWYk4yNGt5OWJ6S0pFMS05NlFvb1I5Q3AyVkJfX0VvS1gyT1Vsa3hURUo0cmR3TjFaRmRkSTNNR2ZEVWFkRzdrQ2pORzFOUmhR?oc=5",
-      "date": "2026-07-31T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026 - MEFP",
-      "desc": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lYlp4dGJhRVdZSVFPMXFodmRfNFVpS1VJbkwxbHZZeEJuaVNKZTF4QWZzS0pWYVNXSGhsd1Fya1N1bDN1VHBWU2R2c2ZISzlDMmJZQlR5ZUtPaEE?oc=5",
-      "date": "2026-07-31T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 11.97,
-    "sellTomorrow": 12.02,
-    "changeBuy": 0.04,
-    "changeSell": 0.03,
+    "sellTomorrow": 12.0,
+    "changeBuy": 0.05,
+    "changeSell": 0.04,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4369,8 +4369,8 @@
     },
     {
       "date": "2026-11-20",
-      "buy": 11.93,
-      "sell": 11.99
+      "buy": 11.92,
+      "sell": 11.96
     }
   ]
 }
