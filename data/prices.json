@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-11-20T01:31:38Z",
-  "displayDate": "jueves 19 de noviembre, 2026",
+  "lastUpdated": "2026-11-20T05:57:52Z",
+  "displayDate": "viernes 20 de noviembre, 2026",
   "binance": {
-    "buy": 11.94,
-    "sell": 11.98,
+    "buy": 11.93,
+    "sell": 11.99,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.0,
+    "buy": 12.03,
     "sell": 11.88,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
     "buy": 12.22,
-    "sell": 11.82,
+    "sell": 11.83,
     "available": true,
     "source": "api_dbb_takenos"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.96,
-    "sell": 11.92,
+    "buy": 12.0,
+    "sell": 11.94,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.08,
+    "buy": 12.04,
     "sell": 11.81,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.68,
-    "officialSell": 11.68,
-    "referentialBuy": 11.94,
-    "referentialSell": 11.98,
+    "officialBuy": 11.75,
+    "officialSell": 11.75,
+    "referentialBuy": 11.93,
+    "referentialSell": 11.99,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-20T01:31:32Z"
+    "fetchedAt": "2026-11-20T05:57:48Z"
   },
   "banks": [
     {
       "name": "BNB",
-      "buy": 11.68,
-      "sell": 11.98
+      "buy": 11.75,
+      "sell": 12.05
     },
     {
       "name": "Banco Fortaleza",
@@ -66,23 +66,23 @@
     },
     {
       "name": "BCP",
-      "buy": 11.18,
-      "sell": 11.98
+      "buy": 11.25,
+      "sell": 12.05
     },
     {
       "name": "Banco Bisa",
-      "buy": 10.98,
-      "sell": 11.91
+      "buy": 11.05,
+      "sell": 11.98
     },
     {
       "name": "Banco FIE",
-      "buy": 10.68,
-      "sell": 12.03
+      "buy": 10.75,
+      "sell": 12.1
     },
     {
       "name": "Banco Económico",
-      "buy": 10.68,
-      "sell": 12.03
+      "buy": 10.75,
+      "sell": 12.1
     },
     {
       "name": "Banco Unión",
@@ -91,8 +91,8 @@
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.58,
-      "sell": 11.98
+      "buy": 10.65,
+      "sell": 12.05
     },
     {
       "name": "BancoSol",
@@ -102,15 +102,22 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 11.98
+      "sell": 12.05
     }
   ],
   "news": [
     {
+      "source": "El Deber",
+      "title": "Bolívar en la lista de prohibiciones de la FIFA",
+      "desc": "El club apareció en el registro de prohibiciones de la FIFA desde el 18 de noviembre y tiene tres períodos de inscripción restringidos, salvo que cancele la deuda pendiente.",
+      "link": "https://eldeber.com.bo/deportes/bolivar-lista-prohibiciones-fifa_1795141671",
+      "date": "2026-11-20T02:29:07Z"
+    },
+    {
       "source": "La Razón",
       "title": "Defensa de Mariaca solicita reforzar su seguridad en el penal de Cantumarca",
       "desc": "La defensa del exfiscal general del Estado Roger Mariaca solicitó a las autoridades judiciales reforzar las medidas de seguridad en el penal de Cantumarca, en Potosí, donde su defendido cumple detenci…",
-      "link": "https://larazon.bo/nacional/2026/11/19/defensa-de-mariaca-solicita-reforzar-su-seguridad-en-el-penal-de-cantumarca/",
+      "link": "https://larazon.bo/sociedad/2026/11/19/defensa-de-mariaca-solicita-reforzar-su-seguridad-en-el-penal-de-cantumarca/",
       "date": "2026-11-20T01:30:17Z"
     },
     {
@@ -135,27 +142,6 @@
       "date": "2026-11-19T23:48:53Z"
     },
     {
-      "source": "La Razón",
-      "title": "Zaratti: Bolivia podría dejar de vender gas a Brasil en 2030",
-      "desc": "El experto observó que los 2,30 TCF corresponden al 31 de diciembre de 2025 y que la certificación debió conocerse varios meses antes.\nThe post Zaratti: Bolivia podría dejar de vender gas a Brasil en …",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/19/zaratti-bolivia-podria-dejar-de-vender-gas-a-brasil-en-2030/",
-      "date": "2026-11-19T23:39:54Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Gobierno atribuye a una organización criminal brasileña el ataque contra Zeballos",
-      "desc": "La Fiscalía abre investigación por tentativa de asesinato",
-      "link": "https://eldeber.com.bo/pais/gobierno-atribuye-organizacion-criminal-brasilena-ataque-zeballos_1795129630",
-      "date": "2026-11-19T23:07:10Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Lanzan minga de limpieza contra el mosquito para este sábado en el Distrito 6",
-      "desc": "La jornada se realizará este sábado, 21 de noviembre, desde las 08:00, con 22 puntos de acopio habilitados para recolectar objetos en desuso",
-      "link": "https://eldeber.com.bo/santa-cruz/lanzan-minga-limpieza-mosquito-este-sabado-distrito-6_1795128582",
-      "date": "2026-11-19T22:49:42Z"
-    },
-    {
       "source": "El Deber",
       "title": "Bolivia gana el Huevo de Oro y el consumo de este alimento crece un 13,4%",
       "desc": "El reconocimiento internacional a la Asociación Nacional de Avicultores de Bolivia (ANA) llegó en un momento de expansión del mercado interno. El país pasó de consumir 232 huevos por persona al año en…",
@@ -163,18 +149,11 @@
       "date": "2026-11-19T22:42:07Z"
     },
     {
-      "source": "El Deber",
-      "title": "La Verde de talla baja ya está en Marruecos para disputar el Mundial",
-      "desc": "La selección boliviana arribó al país africano después de un largo viaje y se alista para su debut ante Francia, este sábado 21 de noviembre.",
-      "link": "https://eldeber.com.bo/deportes/verde-talla-baja-esta-marruecos-disputar-mundial_1795127051",
-      "date": "2026-11-19T22:25:16Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB confirma el pago de la deuda adquirida en 2025 por pignoración de oro - Economy Bolivia",
-      "desc": "BCB confirma el pago de la deuda adquirida en 2025 por pignoración de oro&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGFPVVVjbF9hcEhWTFMxVld6Vng4SjFfM2lsbFZJd2dTQVlpd2JjMURNbnR2OFJEZUhPaVdYOUhVSnNUOGMyd1hZMUV5OUM2dE03MFRxSHB4ZHB2UENhQ2JDYlBCbFk4ZTg2TGRVWEZMVGh3c1BMVjUzblhFTklZZ0VmTm1mV0RlZXNLWWhDbVE0aVBJdFE?oc=5",
-      "date": "2026-11-08T09:18:35Z"
+      "source": "Google — Economía Bolivia",
+      "title": "Bolivia gestionará créditos del BID por $US 750 millones para fortalecer su economía - Economy Bolivia",
+      "desc": "Bolivia gestionará créditos del BID por $US 750 millones para fortalecer su economía&nbsp;&nbsp;Economy Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkU4RG00X2hRdWtrVXhzeWtJXzZURlVLRnBReXRUakJhU0dSemNLdWpTWXlCWjh2M0FySm9qQ2cyYlZtTk53TnBxTUlXUklqVmhOaHFaTmVwSUg3YUZxQTJZa2FPQURoS0QtUzhldnl4WTlYMjRyeHdZbnRJblNlWXRZckRDdWhUOWJvaGVYYmVOYzA3aUNaNmNUU0xVLTZnU21mRVdNNUJVQkw4ME0wUXdLeDhNUQ?oc=5",
+      "date": "2026-11-17T22:58:41Z"
     },
     {
       "source": "Google — INE inflación",
@@ -184,31 +163,38 @@
       "date": "2026-11-05T08:00:00Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB asegura que no se repetirán los “corralitos” en dólares ni el empeño de reservas de oro - ABI - Agencia Boliviana de Información",
-      "desc": "BCB asegura que no se repetirán los “corralitos” en dólares ni el empeño de reservas de oro&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX2hVZkJHLTFwQ0JtdldkS3lBakN0OS1jcFpjSG5IZGZfXzNlaTVWU1FxeTc4X0JScm1NdWJOZ09icEtMUHhIdWQxWDhLaXo1aFdJbkpuN2UzVVJxTHpTeFNhNDI0SjQ3UlZwMHBmaWpsQnpsQ25KVEd5a21IS1BtdGxEemJ6eVpGZVZFTXVsMUVadmRONHBCVFdycjRldllpMUxqd19YWHM?oc=5",
-      "date": "2026-11-03T11:46:26Z"
+      "source": "Google — USDT Bolivia",
+      "title": "\"80% de la adopción de criptomonedas en Bolivia es de forma irresponsable\": Pedro Rey Puma - CriptoNoticias",
+      "desc": "\"80% de la adopción de criptomonedas en Bolivia es de forma irresponsable\": Pedro Rey Puma&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGFNSUtMck95NU4tV3NoZ3lQWjBDSEwxbTZkWnc2MTZJbWNEaGRUYXkyb0FDRmU5ZVE5SzBuZW0zcHdBN3hZZGo2YU9KZXJfc0RqUEVYeU9lWndud1RFYzlsMlFFS3dKRXJ6d3hHc3RtRXh4OElXYjRocUw5bHRwbFFtbGF4Wk11VWY0S24zTVh0aV9RWVN6bTdjX1dYVzNW?oc=5",
+      "date": "2026-11-03T08:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
-      "title": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares - La Patria Bolivia",
-      "desc": "Bolivia: Reservas Internacionales suman 3.978 millones de dólares&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSEFQTER6ZzMweS1pQWpIOEJ4bzFOaHgyakdEMjVNc1B3d3hCcGJGTG5TdnJDOXhHSUJyR3czWG5ib2pZVDVGcHVxLVJVTmNvSS0wY0l0RERiVi03enRMSzlmazMwOFZRNDl4WDNtNS1GYjcxWUlMZlVMcERsRTNJYWIyREVUb2dXQUdtQjNCenlsNkFYUFhjajRmRGtFXzF1QV9F?oc=5",
-      "date": "2026-10-25T07:00:00Z"
+      "title": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB - ABI - Agencia Boliviana de Información",
+      "desc": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHAyRERBeDhwRnc4TDN6Y2JjV25QMnV3OUN2Y1Q3WTZyRnpNUGROVktydmF3VmFabzZ3SUFCRDRKUzdrazBPcDFmU1Jhdy1fb2xsVlNQbkhyNnVyUHNzTlUxbGZ0YkpqX29MaE5KNlpyYUhVeGtDaEt5cHJjT3hnOUJnOHpIRDFrY2s5SENUM2dlMmtZM2Q0c0tKU0tVdUwwbWVjV3FPbUk0QU80c09EMTBrRnQ2VXc?oc=5",
+      "date": "2026-10-24T05:05:23Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene - CriptoNoticias",
+      "desc": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZjJRdVZXQmRFZ2hpUGhGdlNZa1J6aEZYYkJCMkhBQmpuMTI5d2FmaHA5bXZiWkRfUWZoZWcxb01VM3NDR0hsQ0ljbkF0S1ZfTWNEYzVONmNZV0l3XzFjUVl6b1B2OGxJVVdNVFlmX1VTdGN4UWM5dHVwZ1U3a21ObTJLbmhKRHVv?oc=5",
+      "date": "2026-10-12T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
-      "title": "El BCB informa que las RIN llegaron a $us 3.978 millones - EL DÍA - Noticias de Bolivia para el mundo",
-      "desc": "El BCB informa que las RIN llegaron a $us 3.978 millones&nbsp;&nbsp;EL DÍA - Noticias de Bolivia para el mundo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhsY3pTbmRVQVVQZFl2ZXhFS0VMSk5RelNlQmFCLUlKVWxvOEh1aVE1SUNUWmNmQmQ0SWhXbmwxSWxVNEtLNEJKT25FcERuQURPcXliZU5pNXptYlhqVXYySndNWVJ6N2h6UkVqVUZkZFZhMWFXM1lmTFpCaU9vRW9VUUlWVTJZalRLa3JmU0RsMTRCWTZGVVFnXzZ4VlRUR1E0?oc=5",
-      "date": "2026-10-23T07:00:00Z"
+      "title": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB - Opinión Bolivia",
+      "desc": "Reservas Internacionales alcanzan a $us 3.932,8 millones a septiembre, según el BCB&nbsp;&nbsp;Opinión Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUxneDk4bTdrRERzczh2ZXJvZm9hc0NOcmYyeHBEU0h2REhVSTdFWUlUMkZPMXdKQVpVdm9QOVFhQnY0aHliaV84ZXFTRFlkUEltOVhwSVN3ZXhaaEtwRGtGa2huMXBHNWVOb0k2OXlIRWZkQmU0NXdJNFVIYTYwUl82bkNSR3huN29tZVVZc0VQZFBnU184VzZ5UUFGQkRzbnphNnBIYk5ZWWc4Vjd3QkJwakpSWHM1SUtRWU4td2E2b3fSAcgBQVVfeXFMT0pTbDdOLXoxcGdKektkcVhqZW41N1ptRjhyR1lQR1czM3hUanRyYkFYb3ZBTlJWMlk5a1E0QWIydHV3cVJrbEZLalV6QXdWTzdqanQ0Z19iR3R1RjVJaU5uUU0xbWdERDFEazRIVVJNS3B5Y0VzN0xsLUFiTFBiTFo2TDZKM2wxSVFRcmZpeFBxbEdGMVlmZWI3a3A3bXFBZldiZDc3VDVxTGI4RFY2M0JrdEZ6WFZsRkRrZnVBTmtYUFZCdFJraWY?oc=5",
+      "date": "2026-10-09T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
-      "title": "A septiembre, reservas del BCB suman $us 932,8 MM; 8,7% más que en el segundo trimestre - La Razón Digital Bolivia",
-      "desc": "A septiembre, reservas del BCB suman $us 932,8 MM; 8,7% más que en el segundo trimestre&nbsp;&nbsp;La Razón Digital Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNVc2TnRwOUNadVYtUGNrZEZqVzdMX2o1djdWejN6S0FTLWVpZVJQNkFQX2pSY3BGQnU1c2hKSF9JRWo2b1ZMZTFKZ2QwYnVSSS1sSDlRQ1NUckNxdmlXM09ucWxfMXpXSGh1UHFHcUZaWHo2NEU0Q0p0b2dLYXBNWE9STEt5b0dGM1RNM3VsVXU3bm5kMi1LU1JKU3ptXzVJclpSdUxWaC02NzBRdkdZdVRmanNDdTdBMlU3OTcyUGJWTEtWT1VjSnF4Yw?oc=5",
+      "title": "BCB reporta incremento en reservas internacionales de Bolivia - La Patria Bolivia",
+      "desc": "BCB reporta incremento en reservas internacionales de Bolivia&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFA2Z0VWZFhtbkNOOVNmSlVsZlAtZkJxNno5SUVzSDRnZ1AxNGtFT0pSR0NqNjZaVVVMOU1FMzhxZXV2aUpZcEIwa2pHTy1TQ0pjMHhINGdMUkU0NWwyWkNzbUlzS3lkWkg5bWI1NnVtMGdDTHRBLWdvZkRwTDRraUV2UzNYZ2VPMHVxTDU4SGNKQVowclRSYzNvcURtOVFFbkIw?oc=5",
       "date": "2026-10-09T07:00:00Z"
     },
     {
@@ -217,6 +203,13 @@
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
       "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
+      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
+      "date": "2026-09-21T07:00:00Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -254,6 +247,20 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — BCB reservas",
+      "title": "Reservas Internacionales Netas se mantienen estables tras incremento de $us 15 millones, según el BCB - Correo del Sur",
+      "desc": "Reservas Internacionales Netas se mantienen estables tras incremento de $us 15 millones, según el BCB&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTWlmVnJwa19pZ1BKZmNELWpja2ZyRHdXXzUwNWFOSlg1cF9PckZOYlVhalkzUWNEM2dod0x4dUNfdFN0MjF0OVA4V2xIZ3J0SHJ2RHU0QjRGRWNBV3VPRnIwZlhhNzFWMEo0clV6M3dMRWhuSmhURjNHWTZKdDRJVkpkT09Ba092ZHJONjA0d1J1RXpmRG1YN1dJQktreTJDWjNiVFhUbTNwNmYtT1FZTGRkVUFOVkE2V09Sdk8tWWpfVkpGYnNFTF9lTzVYYVhzbE5CQkdxUGNSSVhrdnNZVA?oc=5",
+      "date": "2026-08-11T07:00:00Z"
+    },
+    {
       "source": "Google — INE inflación",
       "title": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026 - Ine.gob.bo",
       "desc": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026&nbsp;&nbsp;Ine.gob.bo",
@@ -268,26 +275,19 @@
       "date": "2026-07-31T07:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia pacta crédito millonario con el FMI, el primero tras dos décadas y en medio de una crisis económica - France 24",
-      "desc": "Bolivia pacta crédito millonario con el FMI, el primero tras dos décadas y en medio de una crisis económica&nbsp;&nbsp;France 24",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNYll0aXNPSmxUdnhPdG1obld1eElkQnBZeU5oTWx3WHFVT3l2NmUwejhGUUwzOUV0OHJIam1zRjF3ZzN4VWZBM2dUbjVweDh3X3lOLXd5eDU5RXhDVjFPeDlrV09KQVNGU0xydmVnSTVIcjIxaEdyeEE3QW5CS1EzeEhYZTdyOXg5TWdCem5kbDViT2ZfTXlkSmdnVldiSHdhRFhJTW9RVHZYS0pySHplOWc4QUJ1TUQ5TDk2RnZhYkhKaTI1SVpTYTRFQ2d6dkwyRVUzdXkzcFdIQ1huYjdaVUswZU5BR3NlNFh4RlRXbnhGNUlseTdDX1B6NUZXMWUyU2t2UFJGUlpEaHJCVlln?oc=5",
-      "date": "2026-07-30T07:00:00Z"
-    },
-    {
-      "source": "Google — Dólar Bolivia",
-      "title": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local - EL PAÍS",
-      "desc": "El nuevo esquema cambiario debuta en Bolivia con una devaluación del 10% de la moneda local&nbsp;&nbsp;EL PAÍS",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTy1XNTBIWndrUmpWdl9KTzJfaFJOX2tOZFpVeTd6bHBBYmgwUnN4bGl2MkNMU0hHbElfZlJLQW9PdlloOWczMU14U0UwOG54ZWwyc3czNFliNWhyQWZQcTJXRzFhcEE4UnRzM3l0ckdhV0tqa0ZlLTcxeVh3amF6QnE5NVhrdjBxMEUwYktpZ1dkaUNILUVvbXhlNTVENTRwNmMzblpWS2g3MkpYRVo1WVY3SzVYWTRsaW9vMU1DeWEteFVMX05GamVXMDN1d9IB4gFBVV95cUxOb0JfZ0hIM3NrV3JhNFlMZDBGSGtUd0hXZ3VVTXU0YmwwdlhRYUhPdEdtenJfOTdMRHY3R3BjMWRCNEVUTHFURGZ6SW56SDVZdVZCd2EtN0JodzBKTXk5MTF2VXc1WjBSRnd5RGl2a1l1aDBETXN5R3dCTUVwbm5fVTJnSEZ2ZUpicVRLZlYxMXFNTWFhakxuZHNKZGNpUHBSdUxISVJjNm5zODBROEpFWU45VDJ0M2VsYlVrZ1Ftcm1uTTBRSElHMUUya2NqQU9MX0JFMEM4dnhLU01Pck13Rk9n?oc=5",
-      "date": "2026-07-20T07:00:00Z"
+      "source": "Google — Economía Bolivia",
+      "title": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026 - MEFP",
+      "desc": "BOLIVIA REVIERTE LA TENDENCIA FISCAL Y REGISTRA SUPERÁVIT EN LOS PRIMEROS CINCO MESES DE 2026&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lYlp4dGJhRVdZSVFPMXFodmRfNFVpS1VJbkwxbHZZeEJuaVNKZTF4QWZzS0pWYVNXSGhsd1Fya1N1bDN1VHBWU2R2c2ZISzlDMmJZQlR5ZUtPaEE?oc=5",
+      "date": "2026-07-31T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.94,
-    "sellTomorrow": 11.98,
-    "changeBuy": 0.0,
-    "changeSell": 0.0,
-    "trend": "estable",
+    "buyTomorrow": 11.97,
+    "sellTomorrow": 12.02,
+    "changeBuy": 0.04,
+    "changeSell": 0.03,
+    "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4366,6 +4366,11 @@
       "date": "2026-11-19",
       "buy": 11.94,
       "sell": 11.98
+    },
+    {
+      "date": "2026-11-20",
+      "buy": 11.93,
+      "sell": 11.99
     }
   ]
 }
