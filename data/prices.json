@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-11-20T19:25:55Z",
+  "lastUpdated": "2026-11-21T00:59:09Z",
   "displayDate": "viernes 20 de noviembre, 2026",
   "binance": {
-    "buy": 11.92,
-    "sell": 11.96,
+    "buy": 11.96,
+    "sell": 12.0,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.03,
-    "sell": 11.91,
+    "buy": 12.08,
+    "sell": 11.93,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.19,
-    "sell": 11.81,
+    "buy": 12.24,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_takenos"
   },
   "wallbit": {
-    "buy": 12.12,
-    "sell": 11.77,
+    "buy": 12.17,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_wallbit"
   },
@@ -32,26 +32,26 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 11.95,
-    "sell": 11.94,
+    "buy": 11.98,
+    "sell": 11.97,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.01,
-    "sell": 11.79,
+    "buy": 12.06,
+    "sell": 11.82,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.75,
     "officialSell": 11.75,
-    "referentialBuy": 11.92,
-    "referentialSell": 11.96,
+    "referentialBuy": 11.96,
+    "referentialSell": 12.0,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-20T19:25:50Z"
+    "fetchedAt": "2026-11-21T00:59:04Z"
   },
   "banks": [
     {
@@ -108,66 +108,73 @@
   "news": [
     {
       "source": "La Razón",
-      "title": "UE y España destinan 2,86 millones de euros al proyecto Justicia Digital",
-      "desc": "La iniciativa busca modernizar el sistema judicial boliviano mediante herramientas tecnológicas, capacitación e integración institucional.\nThe post UE y España destinan 2,86 millones de euros al proye…",
-      "link": "https://larazon.bo/nacional/2026/11/20/ue-y-espana-destinan-286-millones-de-euros-al-proyecto-justicia-digital/",
-      "date": "2026-11-20T19:19:12Z"
+      "title": "La Fiscalía de Oruro abre investigación por muerte de mujer tras cesárea",
+      "desc": "El examen forense develó que la causa de la muerte de la mujer fue por shock hipovolémico hemorrágico. \nThe post La Fiscalía de Oruro abre investigación por muerte de mujer tras cesárea appeared first…",
+      "link": "https://larazon.bo/ciudades/2026/11/20/la-fiscalia-de-oruro-abre-investigacion-por-muerte-de-mujer-tras-cesarea/",
+      "date": "2026-11-21T00:50:06Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "La Fiscalía abre investigación penal contra el exfiscal general de Paraguay por Ueno bank",
+      "desc": "Por el procedimiento contra Ueno también renunciaron el ahora extitular del BCP Carlos Carvallo y tres directivos de la entidad emisora, todos en prisión preventiva como parte de la investigación pena…",
+      "link": "https://eldeber.com.bo/mundo/fiscalia-abre-investigacion-penal-exfiscal-general-paraguay-ueno-bank_1795221891",
+      "date": "2026-11-21T00:44:51Z"
     },
     {
       "source": "La Razón",
-      "title": "Magistratura remitirá a la Fiscalía informe sobre cinco jueces vetados por EEUU",
-      "desc": "El relevamiento incluye antecedentes y actuaciones judiciales de autoridades observadas por el Gobierno estadounidense.\nThe post Magistratura remitirá a la Fiscalía informe sobre cinco jueces vetados …",
-      "link": "https://larazon.bo/nacional/2026/11/20/magistratura-remitira-a-la-fiscalia-informe-sobre-cinco-jueces-vetados-por-eeuu/",
-      "date": "2026-11-20T19:06:32Z"
+      "title": "Auditorías en Beni develan dobles sueldos, obras inconclusas y otras irregularidades",
+      "desc": "Uno de los casos es la entrega de importantes sumas de dinero bajo la modalidad de fondos en avance a la Gobernación y distintas alcaldías.\nThe post Auditorías en Beni develan dobles sueldos, obras in…",
+      "link": "https://larazon.bo/nacional/2026/11/20/auditorias-en-beni-develan-dobles-sueldos-fondos-y-obras-inconclusas/",
+      "date": "2026-11-20T23:52:47Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Habilitan circulación en la carretera nueva a Santa Cruz desde Cochabamba tras derrumbe",
+      "desc": "La mañana de este viernes se suspendió la circulación vehicular por esta zona, por lo que las salidas de buses desde Cochabamba se realizaban por la carretera antigua hacia el oriente boliviano",
+      "link": "https://eldeber.com.bo/santa-cruz/habilitan-circulacion-carretera-nueva-santa-cruz-cochabamba-derrumbe_1795217099",
+      "date": "2026-11-20T23:24:59Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Conmemorarán los 210 años de la batalla del Pari",
+      "desc": "El acto será este sábado, 21 de noviembre, en la plaza Fátima (zona de El Chiriguano)",
+      "link": "https://eldeber.com.bo/santa-cruz/conmemoraran-210-anos-batalla-pari_1795215553",
+      "date": "2026-11-20T22:59:13Z"
     },
     {
       "source": "La Razón",
-      "title": "Bolivia e India avanzan en acuerdos sobre minería, hidrocarburos y tecnología",
-      "desc": "Ambas partes expresaron su compromiso de \"agilizar la implementación de las decisiones adoptadas\" en ese encuentro y fortalecer la cooperación bilateral\nThe post Bolivia e India avanzan en acuerdos so…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/20/bolivia-e-india-avanzan-en-acuerdos-sobre-mineria-hidrocarburos-y-tecnologia/",
-      "date": "2026-11-20T18:52:01Z"
+      "title": "Alivio tributario: Dockweiler denuncia una deuda de Bs 900 MM con el municipio",
+      "desc": "El alcalde advirtió que la promulgación de la norma tributaria podría afectar la capacidad financiera del municipio.\nThe post Alivio tributario: Dockweiler denuncia una deuda de Bs 900 MM con el munic…",
+      "link": "https://larazon.bo/ciudades/2026/11/20/alivio-tributario-dockweiler-denuncia-una-deuda-de-bs-900-mm-con-el-municipio/",
+      "date": "2026-11-20T22:52:44Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "¿Planes para el fin de semana? Aquí la agenda cultural de la capital cruceña",
+      "desc": "Las actividades incluyen una función de cine nacional al aire libre en el Plan Tres Mil (Distrito 8), la apertura de una ruta gastronómica en el Distrito 2 y una presentación de la Banda Sinfónica de …",
+      "link": "https://eldeber.com.bo/santa-cruz/planes-fin-semana-aqui-agenda-cultural-capital-crucena_1795214217",
+      "date": "2026-11-20T22:36:57Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Cae un inglés con notificación roja por tráfico de drogas junto a otros cinco extranjeros",
+      "desc": "La Policía indicó que los aprehendidos están vinculados a investigaciones por hechos ilícitos relacionados con sustancias controladas. Las pesquisas deberán establecer la participación individual de c…",
+      "link": "https://eldeber.com.bo/santa-cruz/cae-ingles-notificacion-roja-trafico-drogas-junto-otros-cinco-extranjeros_1795213807",
+      "date": "2026-11-20T22:30:07Z"
     },
     {
       "source": "La Razón",
-      "title": "Pando exhibe su potencial productivo en feria que busca impulsar la economía regional",
-      "desc": "El ministro de Economía, Christian Morales Burgos, llegó hasta Cobija para participar en esta jornada, que forma parte de las actividades por el primer año de gestión del Gobierno\nThe post Pando exhib…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/20/pando-exhibe-su-potencial-productivo-en-feria-que-busca-impulsar-la-economia-regional/",
-      "date": "2026-11-20T18:42:38Z"
+      "title": "Chile proyecta inversiones mineras por $us 111.149 MM hasta 2035",
+      "desc": "Latinoamérica y el Caribe tiene inversiones millonarias, pero los proyectos aún tropiezan con permisos y falta de madurez, según estudio financiero \nThe post Chile proyecta inversiones mineras por $us…",
+      "link": "https://larazon.bo/economia-y-empresa/2026/11/20/chile-proyecta-inversiones-mineras-por-us-111-149-mm-hasta-2035/",
+      "date": "2026-11-20T22:27:16Z"
     },
     {
-      "source": "El Deber",
-      "title": "Villegas considera que su continuidad es lo mejor para la selección boliviana",
-      "desc": "El entrenador de la Verde defendió el proceso que inició en 2024 y aseguró que ya conoce el camino para afrontar las próximas Eliminatorias. También habló de la importancia de recuperar la fortaleza d…",
-      "link": "https://eldeber.com.bo/deportes/villegas-considera-continuidad-mejor-seleccion-boliviana_1795191613",
-      "date": "2026-11-20T16:20:13Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Bolívar dice que la prohibición de inscribir jugadores no es por deudas",
-      "desc": "No cumplió a tiempo un requerimiento de la Cámara de Compensación de la FIFA. El club señaló que a más tardar hasta el martes quedará liberado.",
-      "link": "https://eldeber.com.bo/futbol/bolivar-dice-prohibicion-inscribir-jugadores-no-deudas_1795191455",
-      "date": "2026-11-20T16:17:35Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Este año, el Gobierno amplió tres veces los recursos para cubrir costos del subsidio al combustible",
-      "desc": "La autorización del Tesoro General de la Nación pasó de Bs 1.000 millones a Bs 9.000 millones en poco más de cuatro meses. El Ejecutivo elevó el monto en tres oportunidades mediante decretos que modif…",
-      "link": "https://eldeber.com.bo/economia/este-ano-gobierno-amplio-tres-veces-recursos-cubrir-costos-subsidio-combustible_1795190934",
-      "date": "2026-11-20T16:08:54Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Los cinco países que aportan talento al Atlético Mineiro",
-      "desc": "Atlético Mineiro, que disputará el título de la Copa Sudamericana con Boca Juniors el sábado en Barranquilla, es uno de los equipos brasileños con mayor número de extranjeros, nueve de cinco países, e…",
-      "link": "https://eldeber.com.bo/deportes/cinco-paises-aportan-talento-atletico-mineiro_1795188030",
-      "date": "2026-11-20T15:20:30Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "El Gobierno eleva a Bs 9.000 millones el respaldo a YPFB para sostener los combustibles",
-      "desc": "En cuatro meses, el Ejecutivo multiplicó por nueve el techo de recursos destinados a YPFB. La medida refleja la presión financiera del abastecimiento y coincide con el debate sobre las subvenciones en…",
-      "link": "https://eldeber.com.bo/economia/gobierno-eleva-bs-9-000-millones-respaldo-ypfb-sostener-combustibles_1795184224",
-      "date": "2026-11-20T14:17:04Z"
+      "source": "Google — Economía Bolivia",
+      "title": "Informe revela avances en la economía boliviana en 2026 - La Patria Bolivia",
+      "desc": "Informe revela avances en la economía boliviana en 2026&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZW1uWFVQakRFUmk3OEVaWmItYnE4ODBuSTdYVmFOTWgwUzE1TzJqT3p3cjl0VzJ6SUNmTy1Gc0l4UXMyZkpsRnY1SUV1UW16SHNiWjBPRUJCMXVRQmxUeHA0TDdGblFuWTFxelFaR1QtVlFJSC1lS2JHcGFkYS0wMkRMMUNYaXN3VlNXY2tBX3E?oc=5",
+      "date": "2026-11-20T16:21:50Z"
     },
     {
       "source": "Google — INE inflación",
@@ -189,6 +196,13 @@
       "desc": "Reservas Internacionales: Divisas alcanzan su nivel más alto en mayo con $us 897 millones, según el BCB&nbsp;&nbsp;ABI - Agencia Boliviana de Información",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHAyRERBeDhwRnc4TDN6Y2JjV25QMnV3OUN2Y1Q3WTZyRnpNUGROVktydmF3VmFabzZ3SUFCRDRKUzdrazBPcDFmU1Jhdy1fb2xsVlNQbkhyNnVyUHNzTlUxbGZ0YkpqX29MaE5KNlpyYUhVeGtDaEt5cHJjT3hnOUJnOHpIRDFrY2s5SENUM2dlMmtZM2Q0c0tKU0tVdUwwbWVjV3FPbUk0QU80c09EMTBrRnQ2VXc?oc=5",
       "date": "2026-10-24T05:05:23Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
+      "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
+      "date": "2026-10-14T07:00:00Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -247,20 +261,6 @@
       "date": "2026-09-03T07:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "El Gobierno de Bolivia envió al Parlamento el acuerdo con el FMI por USD 1.900 millones para su análisis y eventual aprobación - Infobae",
-      "desc": "El Gobierno de Bolivia envió al Parlamento el acuerdo con el FMI por USD 1.900 millones para su análisis y eventual aprobación&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZUFxXzI3c1ZYRF81dmJBZVBDLWMtVkJEVGVOY1NLb3gyakV5ZmtTM05kb1M2SFB6ZUpLR0NsSk5QeG9yOUFiSmdmZHFWcGIwb1dhMlpBSGRNRHZYcURCd09vWmkwa1JqX0lqRUNFWUhNUHcxcl92SGR5TEVDUVdFYTRJaExZYkJBc050blBRWHBnXzR6WHcxMFZxR3Vtc3U3bWkwbW1MSjNHdnBRVHh5d2hXd1ZWakd6Vm9TcW00ZVBtRXhoMV9fRTFOOHF0VXZBUF9LR2dTcEVYMzlIMXZHRnVfVU9EUFlCUi1HWmFHTlFFU0l6NWhKQ2JqVDczaHFQWHVKdDNhVWs1ZHdiZ3JtRXRB0gGsAkFVX3lxTE11MUREQmVWQUxMREJzdjNlbWtXeGpBdGxLNGVUVmFKeUx4bmtDQWg2dEZIVEdxNjZPbExKZWNkWTNtYjU4YVJkVEFrR2F5UERSQWxaclpjS0xMMmQwZW9FU2cwaWVxWkRsQjJseFRad3hZY295ZUxzUnNNMG42QXVzQTU4cW8ydngwQmlyLTE5V0N6QTZKOXlZc3J5azRaUW04U0VfTXdMbTdYaE44eFZZajhvT3VsSVBsdUh6dUEzYy1YZ3BXX3VReUJvTVBJR2xKRE1qdHBoUGxnaTd0Z1NLeFEySVBqYlRlTjdmRVcxYk1fc29HeXZvYmNmYU90MGVtYzVpTjFzZ2V4TGM0WEY2ZnA2VzlzRHUwRGpsUkRWeXJRZ2RsSXA3Unh2OA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
-    },
-    {
       "source": "Google — Economía Bolivia",
       "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
       "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
@@ -283,10 +283,10 @@
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.97,
-    "sellTomorrow": 12.0,
-    "changeBuy": 0.05,
-    "changeSell": 0.04,
+    "buyTomorrow": 11.99,
+    "sellTomorrow": 12.03,
+    "changeBuy": 0.03,
+    "changeSell": 0.03,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4369,8 +4369,8 @@
     },
     {
       "date": "2026-11-20",
-      "buy": 11.92,
-      "sell": 11.96
+      "buy": 11.96,
+      "sell": 12.0
     }
   ]
 }
