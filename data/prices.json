@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-25T04:41:33Z",
+  "lastUpdated": "2026-11-25T07:16:06Z",
   "displayDate": "miercoles 25 de noviembre, 2026",
   "binance": {
-    "buy": 12.0,
+    "buy": 11.99,
     "sell": 12.05,
     "available": true,
     "source": "binance_p2p"
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.02,
+    "buy": 12.1,
     "sell": 11.96,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.16,
-    "sell": 11.86,
+    "buy": 12.17,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
     "officialBuy": 11.83,
     "officialSell": 11.83,
-    "referentialBuy": 12.0,
+    "referentialBuy": 11.99,
     "referentialSell": 12.05,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-25T04:41:27Z"
+    "fetchedAt": "2026-11-25T07:16:00Z"
   },
   "banks": [
     {
       "name": "BNB",
-      "buy": 11.78,
-      "sell": 12.08
+      "buy": 11.83,
+      "sell": 12.13
     },
     {
       "name": "Banco Fortaleza",
@@ -66,23 +66,23 @@
     },
     {
       "name": "BCP",
-      "buy": 11.28,
-      "sell": 12.08
+      "buy": 11.33,
+      "sell": 12.13
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.08,
-      "sell": 12.01
+      "buy": 11.13,
+      "sell": 12.06
     },
     {
       "name": "Banco FIE",
-      "buy": 10.78,
-      "sell": 12.13
+      "buy": 10.83,
+      "sell": 12.18
     },
     {
       "name": "Banco Económico",
-      "buy": 10.78,
-      "sell": 12.13
+      "buy": 10.83,
+      "sell": 12.18
     },
     {
       "name": "Banco Unión",
@@ -91,8 +91,8 @@
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.68,
-      "sell": 12.08
+      "buy": 10.73,
+      "sell": 12.13
     },
     {
       "name": "BancoSol",
@@ -102,7 +102,7 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.08
+      "sell": 12.13
     }
   ],
   "news": [
@@ -177,67 +177,11 @@
       "date": "2026-11-24T22:11:12Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "Banco Central quiere triplicar las reservas en divisas para el próximo año - Erbol |",
-      "desc": "Banco Central quiere triplicar las reservas en divisas para el próximo año&nbsp;&nbsp;Erbol |",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRl9ia0pTd2JmTThGRW9nTmtwVjN1dUtxY0NxQmNXQmVaOUVnN1hxV0RtQUtCMG42TGdQdXZYMThqcWpRS1h2XzJZcWNwZ05qVnZFOUljVTl4MDFwR3lPdmsxZENXRXdIRTl1dm9zSHFsWWwwblNTcWRtX0h4RERqd3d1S1ptM2pWZEFDZ25wYWZlVGJodDgzbGhGa21qUzJydmxhaWtlOHJ2dTJBTkNOb3dMRnF2NGExSW9Z?oc=5",
-      "date": "2026-11-24T21:39:26Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Moneda boliviana es la más depreciada del mundo en 2026 frente al dólar, según Bloomberg - Economy Bolivia",
-      "desc": "Moneda boliviana es la más depreciada del mundo en 2026 frente al dólar, según Bloomberg&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjlUbktVaWJxNHl0R0V5MXdOSms3WllVQmg2bUk5My00dU5nRjh2dlBHd3ZVUThJNXN6MzVSanA0VHFyYWxuLTBRdjZoRXpTNVQ0YUxxTnhJMXMwVTRWSmVENW5XUmp5MHZuU1d4Y0JTNFYybHpQRHFjYVNLNGJYc0FGRzYwWEpBeUdKV3phV3pCUFhxUVhVbnRPX3hRQklSRzZKUVpvdWtVeFRYb2xRMjE1bjFKclU?oc=5",
-      "date": "2026-11-24T21:20:28Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "Banco Central de Bolivia proyecta triplicar en 2027 reservas internacionales en divisas - Correo del Sur",
-      "desc": "Banco Central de Bolivia proyecta triplicar en 2027 reservas internacionales en divisas&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSkNFMmI3VGxWdE9BTHYxbV9BcTQ0SDktWDdmUi03QllhVlMxWm5xdVowQm44WjF3S1JNWnh2X3ktWGFGQTBtZGdvRzdpaW4wTGI3NDJ0LVM0dDdHWnNNM1JTTGVUY3VzR0pubXdkRzVWS3h1Y1dERC0wOUxsQU00RGRUWlZCNnppY0Fqc3c2a2hHeDZDOUFLM19iSi1oM1pRa1FyeHpmeWhEUW1aaWJvU1poSVRiakQwaW5XM1VsaW5SbDgxVnZNbUpOdWJ5U21k?oc=5",
-      "date": "2026-11-24T19:46:00Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB reporta reservas por $us 3.965 millones, pero aún debe devolver $us 1.366 millones - Asuntos Centrales",
-      "desc": "BCB reporta reservas por $us 3.965 millones, pero aún debe devolver $us 1.366 millones&nbsp;&nbsp;Asuntos Centrales",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDQ1T25HUkZ3akd5Ymc1SFpNaEtqUG1jRGFiMWJ6a2JSaDBxNVAxdF93NnhHN1V4QzlWMTNxQXZTaHowOGF6TmRVWHpEZ0c5QXFEcE9SMjJUX2NrZS1SMGxsbTFfZERIY0QwSXBzakZYR21jWHUzODc3eElaR01ZWlN6eVFEeWJHUUtHazhHQkd2cUpUcVVzV0x6ZDVGallma2pNYTV3Wk9MbEFrZU85TURwbw?oc=5",
-      "date": "2026-11-24T19:04:09Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB busca triplicar las reservas en dólares y propone convertir parte del oro el dólares - Opinión Bolivia",
-      "desc": "BCB busca triplicar las reservas en dólares y propone convertir parte del oro el dólares&nbsp;&nbsp;Opinión Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWW5zdHBQbFZfTnk3dWVKdzB5c0lJRmFBQUQ3Szlzb3IzWl9VTk44ZVczektwbVBrbFA5RUVLVmhaX1NrVXlkS3BrRDZkS3dtNVN1QlRVcS1Ic0E0QlVqaUJMX0VjOUhMSHllRVhYX1A2dEt0S0FmR0xvSFZLX25VaHk1Q3k0MnN0c014dlhBR2twYnY5ZEVZV09Qb1I0U1hiYXI1LV9uVjU0Tkdod0R1NERpMVg2LXFYdEduV2phVXRKaDAwSkcxSVV30gHPAUFVX3lxTE1RNzB1cWJWTWtoMHplTU1RT3RqYVBWaXUwQ0tkdXNqOEM1SXJqeDBfRUtjU3lxTnRXQWszSFZCSmNQRjFQZWIwZXFGampNUENxSlZkYXNheDdnLUJUd2VKRWkwV1F0bHlzLV9YWDdyVWxseFhualJQLThWdWczWmNTTlRnWkJZTDBjVU5oWm84N2RFSkhGMTlvRFQ5OExsSEprUXR4bTkwY05iTDhkT3N4am1KRTdSd3dpUi1xMng5OXJVMXhra1llSG1VZVNudw?oc=5",
-      "date": "2026-11-24T19:03:21Z"
-    },
-    {
-      "source": "Google — BCB reservas",
-      "title": "BCB proyecta inflación del 9,2% para cierre de 2026 - La Patria Bolivia",
-      "desc": "BCB proyecta inflación del 9,2% para cierre de 2026&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY2Z4aWhka2ZBMXo1VHV0ZURpbWp6bU5jZ0RmMU9tV29CLWpiSE9vS1lveU9jRWktS05PdU82Wm9QWDBFeHJRTmFOTUJ2b3dXbHVsZG10OGJJbUNBSzVfRkVza2VwQWR2TGRTdklSSXVjRnRsMXluTXVpNzFVTDd6ZQ?oc=5",
-      "date": "2026-11-24T18:51:02Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "La IA abre oportunidades para reducir costos y transformar las microfinanzas en Bolivia - Economy Bolivia",
-      "desc": "La IA abre oportunidades para reducir costos y transformar las microfinanzas en Bolivia&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWk3NW5NYjZCTDFJUHVGWHpYT2c5ZGdFNWRaLXZ1eFIxekZtbjBYd1ktZEpqbWo1ZTg4Z0xfV19CZ2pEQWlpNzlvMC1fUXBLWXpoanhLcFV5RzZyMWdXYTJlWjBlTi1VclBtZzE4WDgyRHV4TTJzM09VUE1WS2s0bndTbG1menI1cXFZSVhSbUJGN2VudFJFdW1YalN3bkNqOUZnU1FGRjFSWmFtVGpuUXJqR0pYSG8?oc=5",
-      "date": "2026-11-24T00:05:20Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar hoy en Bolivia: cotización de apertura del 23 de noviembre - Infobae",
       "desc": "Dólar hoy en Bolivia: cotización de apertura del 23 de noviembre&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDRJZ3dJcWlzRndaSXlZRVpzdDFRNW5SMzBfOG5YTTdTNEtoTksta1pzb1pRR25lUXg4b3BSTk10dUV6d0dNRko0dFZyR05CVjc1QUswMHZsM1ZtVFFaTDFHd204Nkphdm9LWUYxMjZ1V04tcTlCTVhOWDhYRDZNQW5vV085cm1VYUw1UlJpWlFaeUg0RUZSM3BCTzRnUDJzSmFqUnpGTFdMN2pC0gHHAUFVX3lxTE9FVnd0NXQ1R185WXo0dHFfaV9PWHdBVnJQTmlJb3hfeUhZXy0yVEVUSWhQTmR0VHV4RC1XQkNPU3NYc0dobGNpTHBtR1g3dGtDQXFHWktybk9tOUR0VUZQSTNoejcwNHc1eGFUSE9jNTJ1ZndCUVc3OUJIYjFXcmdXSlZJY1dzcmthTUFncXBWWlkwRTdrQmtLNnkzNWlSUHg3enBTYzBRWUZrVzBGSWFQMlprQk1zSlltUW8zcERxRDRHWTYyN2s?oc=5",
       "date": "2026-11-23T12:01:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ - MEFP",
-      "desc": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZEVWZmRzVERvUzZKTzFGZUlIS0swOU5URHVUV3dLOHNPOVhDWWlfQ3lYZjM0c1dmUHNVcjNHQURUSjVpZ2E2d1V4R1N5ZWFNOUZsRDBfdmVsc3M?oc=5",
-      "date": "2026-11-20T12:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -254,11 +198,25 @@
       "date": "2026-10-14T07:00:00Z"
     },
     {
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026 - Clarin.com",
+      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026&nbsp;&nbsp;Clarin.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdFotY2xzelRQc0ZJblRlVE9kUmhNWHBqNVRjTl9tRVUwM0l3cW4ybU5XSnI4cWs3ZVpyMlZ6RzdveVdKMmh4ZnpLTHBtaEVEbXV0eUVaLWNWY0JFUjN1V0ZNS19UUUhDY1lqQzJndGF2ek1SVF9valdpUlpWUHQyYjVLZmFpV3ZGVG1ZNjdDRVZDcXZBSUFlY0I2MjNOdkJNdlh6VFdMMVRqLVRoeGlJNVVFdVdhcEQ0Z2p4dzcxRHZQWXdYRVJnbENJbk41MWdJOGxR0gHYAUFVX3lxTE03blBrcU1SbFc3N1dKUll4NnRtWkI3aVZyRVMzd0NGV3lvSDY1Mk44QkZEMUZDUWZaMGstM2NMdm83Nm9rZUNzTndWdFJzalptVW5PU3BEY2VqV042SEhMRGN5Zi0wXzlSUUVwZHF0NkpuY1I4MTVfVzBrOTFZeS1KTnVqZWxxT0JVbU5rTlJEaWUyVVNMRWVCaXhiNzJtN0ZrWmZyeTFjYmVCdFFOX3pOOEhlVldpMl9oZWtRbnpack82TUdFLVVFQmo1UlJQTDZVbXo5dlF6eg?oc=5",
+      "date": "2026-10-10T07:00:00Z"
+    },
+    {
       "source": "Google — INE inflación",
       "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
       "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
       "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "FMI aprueba financiamiento de $us 1.900 millones para Bolivia - La Patria Bolivia",
+      "desc": "FMI aprueba financiamiento de $us 1.900 millones para Bolivia&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZk02NzFQUXNPMm9Zb3RvN0ZfSXludXV6bUdLQWRmeHYwT00zM0gxbmFEQmk4MnVVT3hHbWdKWkh3dHM2bkxMTVZCQ1RxdWxfUWhnUW1tSHktREpaR1RlaGV6TlZQQm1YQzJVWllhNUUzb0ItQ2s2dzEwYUtIRENvcm9UMEkybVlRWWV4M29OYTk3OWtQVkY4?oc=5",
+      "date": "2026-10-04T07:00:00Z"
     },
     {
       "source": "Google — USDT Bolivia",
@@ -280,10 +238,52 @@
       "desc": "Bolivia aprueba financiamiento de USD 1.900 millones con FMI&nbsp;&nbsp;DW.com",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhIZDB0MmJmbmZscmFwS25tY0NHTHRudGF2czVkZDhYR05NNlFRcDdCMksyRm16RGJ4cVhJOVJORTVtZGJ1WGw2QnBIQTNyMXExLUJyZXB6X3hVTWRNMVVvcDM0OFhpM1pXZlpGY2hZVF9yZktqaW9xOTJTc2FrYWplNzdxUWppVmtXZURNVHdPaFV6X0hCQVlaY9IBmwFBVV95cUxOSUV0ZUVxNlBiaHFPOGhoWndFQkpaN25pS20tSXlvc2p4RFhoOEpKRDlLY2E3Z1ZnLXlFVmdpc1NVRUJjOWk4NW43ZkRKTEVwR0d6WFhhRlNCMklJdjBNZnVtelJEUFIwcG4xYTN4anlwRVY0UE43ajdMR25BME11MzFRMlFUbzFyWkp1SFNBU1ZiYU4tTHNMX0lROA?oc=5",
       "date": "2026-09-19T07:00:00Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP - MEFP",
+      "desc": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80eFRQOEprd3V6bXJOQ0w4X0xGeDhJaWx5VHdCeldrdzVjbjNJQURtM3FLU29hLWdYcEdrUmFMZHJGSVBOTzZwbG04R2tMX0ZIRE5tSnhNZ19uRzg?oc=5",
+      "date": "2026-09-10T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "source": "Google — Dólar Bolivia",
+      "title": "Alivio en Bolivia por la apreciación de la moneda tras el anuncio de un préstamo del FMI - EL PAÍS",
+      "desc": "Alivio en Bolivia por la apreciación de la moneda tras el anuncio de un préstamo del FMI&nbsp;&nbsp;EL PAÍS",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVlpKalNHXzM0WFNLV3hNUjYxTlBROFZ2UHBRcjJwQlJKY3VHOEpfcDZoaWs3NFJza1YwSTIxTkdiSXFTMUtJSllRU0FOdngwMUtYbVBQcnlJWDR2WW5tbmJ6LXRKbnFHVEY2NTdzSVFjUzA5U19XSFVzYkluTTJQMm41T1lPRmNUWFJDX0FobExqMUd1R3ROdTRnM1VoTjJLSUhCc2FqanRKYmNlUmJRMlRCVlpXNmJMWjUtYkIyM2k5SkZPTzZuY1o3QdIB3wFBVV95cUxPd0ozamp5TVR2TzdDV0c2NUVCV1N0UE1qOTdUWEdTTnc0MXVVdHI4ZVdJeGw5Ry0tVmQybF9pelZZLUtLVUowa1dKUWdaLW4wWm5rYmozWmFlb1ExYW5vMTdoRUlVbjlSbE5XQ0FjSDc0QXdJNVBzYnF2T2tNV001OWNuWWN6RXZhN2pFeG44aXJOTXdDRk5tUHRoM0hiMTlNTGQ0Z1lHSTJQSWItUnA3U2Q4Tmd3aWhHVHVXeUotZ0hTZDJWaWpyUGxQaHVLQVNTQjNoYlJLcDdUMC1EZFNr?oc=5",
+      "date": "2026-08-17T07:00:00Z"
+    },
+    {
+      "source": "Google — INE inflación",
+      "title": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026 - Ine.gob.bo",
+      "desc": "El Índice de Precios al Consumidor disminuyó 2,79% en Bolivia durante julio de 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2M5UkFad3ZIamY2QzMtVTZxbmVEaURSMmFmeGRyU3p2V3A1M2lPa3JNX2w2T25felhoOHVveC1OV2NjQTlMend6Vk1qVUgtSzNpcGNZa1M2ZmROT3VfNTFBel8wRnhfUUhZV2dLdk9iWXlrRmdEclF5azBXc0hkWE80THloT1RCUEl4RHF0alBVa2dfR2hXSXZDREozYTFIZlZOVTRsOS01Qk5wR0hXN20zN3gzZw?oc=5",
+      "date": "2026-08-04T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 11.99,
+    "buyTomorrow": 11.98,
     "sellTomorrow": 12.03,
     "changeBuy": -0.01,
     "changeSell": -0.02,
@@ -4389,7 +4389,7 @@
     },
     {
       "date": "2026-11-25",
-      "buy": 12.0,
+      "buy": 11.99,
       "sell": 12.05
     }
   ]
