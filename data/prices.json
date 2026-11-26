@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-11-25T20:51:00Z",
+  "lastUpdated": "2026-11-26T03:50:58Z",
   "displayDate": "miercoles 25 de noviembre, 2026",
   "binance": {
     "buy": 12.02,
-    "sell": 12.05,
+    "sell": 12.07,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 11.98,
-    "sell": 11.94,
+    "buy": 12.1,
+    "sell": 11.98,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.27,
+    "buy": 12.3,
     "sell": 11.9,
     "available": true,
     "source": "api_dbb_takenos"
@@ -26,20 +26,20 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.09,
-    "sell": 11.58,
+    "buy": 12.29,
+    "sell": 11.77,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.03,
+    "buy": 12.05,
     "sell": 12.02,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.07,
-    "sell": 11.84,
+    "buy": 12.09,
+    "sell": 11.85,
     "available": true,
     "source": "api_dbb_saldoar"
   },
@@ -47,11 +47,11 @@
     "officialBuy": 11.83,
     "officialSell": 11.83,
     "referentialBuy": 12.02,
-    "referentialSell": 12.05,
+    "referentialSell": 12.07,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-25T20:50:55Z"
+    "fetchedAt": "2026-11-26T03:50:52Z"
   },
   "banks": [
     {
@@ -107,81 +107,88 @@
   ],
   "news": [
     {
+      "source": "La Razón",
+      "title": "Aguirre pide a Paz cerrar la AISEM y transferir sus recursos a las regiones",
+      "desc": "Paola Aguirre cuestionó la concentración de presupuesto en esa entidad y afirmó que las gobernaciones carecen de fondos para hospitales de tercer nivel.\nThe post Aguirre pide a Paz cerrar la AISEM y t…",
+      "link": "https://larazon.bo/sociedad/2026/11/25/aguirre-pide-a-paz-cerrar-la-aisem-y-transferir-sus-recursos-a-las-regiones/",
+      "date": "2026-11-26T03:43:26Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Fiscalía acusa a 32 personas por robo de billetes tras accidente aéreo en El Alto",
+      "desc": "La Fiscalía presentó una acusación formal contra 32 personas por el presunto robo de billetes del avión Hércules C-130 de la Fuerza Aérea Boliviana (FAB), que se accidentó el 27 de febrero de 2026 en …",
+      "link": "https://larazon.bo/nacional/2026/11/25/fiscalia-acusa-a-32-personas-por-robo-de-billetes-tras-accidente-aereo-en-el-alto/",
+      "date": "2026-11-26T03:35:01Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Magisterio anuncia que mantendrá protestas entre semana en respuesta a Paz",
+      "desc": "El magisterio urbano ratificó que continuará con sus movilizaciones durante los días hábiles, en respuesta al pedido del presidente Rodrigo Paz de trasladar las protestas a los fines de semana para ev…",
+      "link": "https://larazon.bo/sociedad/2026/11/25/magisterio-anuncia-que-mantendra-protestas-entre-semana-en-respuesta-a-paz/",
+      "date": "2026-11-26T03:10:16Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "De Santa Cruz a Ivirgarzama: ¿qué se sabe del último viaje del joven asesinado en Buena Vista?",
+      "desc": "La familia vela en Ascensión de Guarayos el cuerpo de Carlos Rafael Valencia Vargas, el joven encontrado sin vida en Buena Vista después de estar más de 10 días desaparecido",
+      "link": "https://eldeber.com.bo/santa-cruz/santa-cruz-ivirgarzama-sabe-ultimo-viaje-joven-asesinado-buena-vista_1795660246",
+      "date": "2026-11-26T02:30:46Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "El Parlamento chileno aprueba los primeros presupuestos generales de Kast",
+      "desc": "El Gobierno logró también la aprobación del Parlamento para endeudarse el próximo año por hasta 25.600 millones de dólares",
+      "link": "https://eldeber.com.bo/mundo/parlamento-chileno-aprueba-primeros-presupuestos-generales-kast_1795657056",
+      "date": "2026-11-26T01:37:36Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Bolivia tiene el diésel más caro y de baja calidad de la región, afirman los transportistas",
+      "desc": "El diésel de Bolivia está solo por debajo de Perú en cuanto a precio. El resto de los países vecinos lo comercializan por debajo de los Bs 20",
+      "link": "https://eldeber.com.bo/pais/bolivia-tiene-diesel-caro-baja-calidad-region-afirman-transportistas_1795655911",
+      "date": "2026-11-26T01:18:31Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "Ramón Tarqui va por el subcampeonato sudamericano en Uruguay",
+      "desc": "El representante boliviano afrontará la última fecha del Sudamericano con la posibilidad de quedarse con el subcampeonato de la categoría CO4.",
+      "link": "https://eldeber.com.bo/a-todo-motor/ramon-tarqui-va-subcampeonato-sudamericano-uruguay_1795652395",
+      "date": "2026-11-26T00:19:55Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Diputados exigen iniciar elección del Fiscal General antes de fin de año",
+      "desc": "Freddy Camacho y Álvaro Cazasola pidieron activar el procedimiento legislativo. El interinato de José Armando Urioste vence el 5 de enero de 2027.\nThe post Diputados exigen iniciar elección del Fiscal…",
+      "link": "https://larazon.bo/nacional/2026/11/25/diputados-exigen-iniciar-eleccion-del-fiscal-general-antes-de-fin-de-ano/",
+      "date": "2026-11-26T00:04:16Z"
+    },
+    {
+      "source": "El Deber",
+      "title": "\"Pasé décadas como agente del FBI y este es el caso que no pude dejar atrás\"",
+      "desc": "Ella investigó a Nexus desde 2016 hasta su jubilación del FBI en 2021. Pero, después de casi seis años, los sospechosos solo habían enfrentado un cargo por evasión fiscal",
+      "link": "https://eldeber.com.bo/bbc/pase-decadas-agente-fbi-este-caso-no-pude-dejar-atras_1795650573",
+      "date": "2026-11-25T23:49:33Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "‘Amazonía a Sangre y Sudor’, de Roberto Navia, llega a la Cinemateca",
+      "desc": "El largometraje muestra cómo las familias que cosechan la castaña amazónica lo hacen sin contrato formal ni acceso a la seguridad social.\nThe post ‘Amazonía a Sangre y Sudor’, de Roberto Navia, llega …",
+      "link": "https://larazon.bo/la-revista/2026/11/25/amazonia-a-sangre-y-sudor-de-roberto-navia-llega-a-la-cinemateca/",
+      "date": "2026-11-25T23:36:32Z"
+    },
+    {
       "source": "Google — FMI Bolivia",
       "title": "Bolivia recibirá segundo desembolso del FMI de $us 211 millones - La Patria Bolivia",
       "desc": "Bolivia recibirá segundo desembolso del FMI de $us 211 millones&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOamZhVTJodC04RVhCMW5wRjNiNTBheEJuV3NZbWMtQVdaZFZXSWw3b3dSd0loN3F2TlV0aUVvMUZMdDl6TUdfaHNpLUhJS2lDT1RuU2owSHVweEM3SHRCRmswLVE3dG4yOHowZnNpMGNpVi1xd0Zva05HR3ZNX3htTUxpSU9kTUlWbzV2ZWxlak1KelU2NDZVTWJMMA?oc=5",
-      "date": "2026-11-25T20:45:12Z"
+      "date": "2026-11-25T20:29:36Z"
     },
     {
-      "source": "El Deber",
-      "title": "Transportistas exigen liberar a 16 choferes arrestados y anuncian más medidas de presión en Sucre",
-      "desc": "La dirigencia trasladó su protesta hasta las instalaciones de la Policía. Anunció una reunión con el Comando Departamental y una delegación al ampliado nacional para definir nuevas acciones contra el …",
-      "link": "https://eldeber.com.bo/economia/transportistas-exigen-liberar-16-choferes-arrestados-anuncian-medidas-presion-sucre_1795639024",
-      "date": "2026-11-25T20:37:04Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Ataques en Oriente Medio hacen subir precio del petróleo",
-      "desc": "El precio del barril de Brent del mar del Norte ganó un 3,51% a 94,61 dólares.\nThe post Ataques en Oriente Medio hacen subir precio del petróleo appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/11/25/ataques-en-oriente-medio-hacen-subir-precio-del-petroleo/",
-      "date": "2026-11-25T20:35:16Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "CNC: Fórmula para calcular el precio del diésel está mal hecha",
-      "desc": "El presidente de la CNC dijo a La Razón que el cálculo debería hacerse con el precio promedio de los últimos días. Planteó alternativas para reducir el impacto en el precio final de bienes y servicios…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/25/cnc-formula-para-calcular-el-precio-del-diesel-esta-mal-hecha/",
-      "date": "2026-11-25T20:31:50Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Sucre: Reportan 27 arrestados en los desbloqueos, hasta la media jornada",
-      "desc": "La ciudad de Sucre amaneció este miércoles bloqueada por transportistas que rechazan el nuevo incremento del precio de diésel",
-      "link": "https://eldeber.com.bo/pais/sucre-reportan-27-arrestados-desbloqueos-media-jornada_1795638156",
-      "date": "2026-11-25T20:22:36Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Nuevos audios mencionan a Bilbao una presunta gestión de cargos en la AISEM",
-      "desc": "Una conversación difundida en redes sociales alude a una supuesta lista para acceder a un puesto de trabajo y a la priorización de una carpeta por parte de la ministra de Salud. La Fiscalía aseguró qu…",
-      "link": "https://larazon.bo/nacional/2026/11/25/nuevos-audios-mencionan-a-bilbao-una-presunta-gestion-de-cargos-en-la-aisem/",
-      "date": "2026-11-25T20:17:16Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Akly declara por el caso ‘gasolina basura’ y ratifica que cumplió con controles de rigor",
-      "desc": "El exejecutivo señaló que los casos relacionados con la denominada gasolina basura continúan bajo investigación y afirmó que ya proporcionó información sobre estos hechos en anteriores oportunidade\nTh…",
-      "link": "https://larazon.bo/economia-y-empresa/2026/11/25/akly-declara-por-el-caso-gasolina-basura-y-ratifica-que-cumplio-con-controles-de-rigor/",
-      "date": "2026-11-25T20:08:58Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Machado promete transición ‘sin venganza’ en Venezuela",
-      "desc": "Tuvo un acto multitudinario desde su sorpresivo regreso del exilio en octubre\nThe post Machado promete transición &#8216;sin venganza&#8217; en Venezuela appeared first on La Razón.",
-      "link": "https://larazon.bo/mundo/2026/11/25/machado-promete-transicion-sin-venganza-en-venezuela/",
-      "date": "2026-11-25T19:53:24Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Ex presidente de YPFB Yussef Akly se presenta a declarar a la fiscalía de La Paz",
-      "desc": "El ministerio Público citó a Akly para declarar como testigo de Fernando Cerimedo por el presunto delito de enriquecimiento ilícito de particulares con afectación al Estado",
-      "link": "https://eldeber.com.bo/pais/ex-presidente-ypfb-yussef-akly-presenta-declarar-fiscalia-paz_1795634780",
-      "date": "2026-11-25T19:26:20Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "Transporte urbano de Santa Cruz rechaza el alza del diésel y alerta por el encarecimiento de repuestos",
-      "desc": "Los transportistas sostienen que el incremento del combustible tendrá un efecto en cadena sobre los insumos de mantenimiento de micros y otros vehículos.",
-      "link": "https://eldeber.com.bo/santa-cruz/transporte-urbano-santa-cruz-rechaza-alza-diesel-alerta-encarecimiento-repuestos_1795633430",
-      "date": "2026-11-25T19:03:50Z"
-    },
-    {
-      "source": "El Deber",
-      "title": "La disputa entre matemáticos que aviva el temor de que la IA pueda socavar la ciencia",
-      "desc": "En septiembre, OpenAI, creadora de ChatGPT, anunció haber resuelto uno de los grandes problemas matemáticos sin resolver, relacionado con las famosas ecuaciones de Navier-Stokes. La compañía afirmó qu…",
-      "link": "https://eldeber.com.bo/bbc/disputa-matematicos-aviva-temor-ia-pueda-socavar-ciencia_1795607096",
-      "date": "2026-11-25T11:44:56Z"
+      "source": "Google — FMI Bolivia",
+      "title": "Economía.- El FMI cierra con Bolivia la primera revisión del acuerdo del Servicio Ampliado del Fondo por 193 millones - Bolsamania",
+      "desc": "Economía.- El FMI cierra con Bolivia la primera revisión del acuerdo del Servicio Ampliado del Fondo por 193 millones&nbsp;&nbsp;Bolsamania",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOa0NJY0h5aG9LT2N2OWNOVEtzb194ejVRbC1lSkNKbDhGNGZNVjliWnlGUjYxU1F3M1ZBT2dvRXhaajNlbXdqekRGdVVNNlYtRHplUFJuU3FCcndYYW1CSUpoNU0zZWQ0ZE5PRVBJcUM0Si13MGtwREVzVHdDYWpiTjN3X2l2Mm1fVmU1TVNxWHZLX2p6b01hQUpfODJlNjlWMFFlc0I5ZS1lRGJ5M1U0OFgwenU1a25DYmdQVC1iQ3JUR2R5R3FfOGI5NkVvbUhnVTVIMUZkcm1zTlFVYWJud1hUWS1aS3pLdjFLWm9fb2hfR3VDeHRIVTc4dXZtd1FENUJMbUZUQdIBjAJBVV95cUxPWUlSUTgxRUJqMG9fdE5NQWxNQlNvbFNmUHl0Y2R4OEhIRFFNUW1scktDVTlqVTdRQjVnVXRFUEtlbWJjWXdzZUJMdTZfeXdpTzlwa0toQk9kX0pZcmx3MnJQU094MXdCRXJCRzBmVFp3VTlldHJHVTRKVVlCNWJwVUJyUE84QkRzQ3poRm1xV3o3MUt4cGlXa0Fub1EyRmxMR0dFbHJrTHlBOENDRFl0cHZKOGZqemJUdkQyVGFlYTdlbkZrSTE2ekpHZE1TWHhsQ0JZa1pNODRGOFV0UTRYWDN1UklCRk5ZbGw2ZHplX0gwVnpJVkxBMm1PT1daZ2FUQmViVExHRHBvZHN2?oc=5",
+      "date": "2026-11-25T18:08:27Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -191,18 +198,18 @@
       "date": "2026-11-25T08:52:48Z"
     },
     {
+      "source": "Google — USDT Bolivia",
+      "title": "Comunidad Andina llevará capacitación sobre delitos con criptomonedas a Bolivia - CriptoNoticias",
+      "desc": "Comunidad Andina llevará capacitación sobre delitos con criptomonedas a Bolivia&nbsp;&nbsp;CriptoNoticias",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1M2WUJCRlBTM1N2R2JzcEtoUy0yNlVXNkhaWUNwdGhrZkJBVENXekFYS1VCbm1BWjhzUzdxZlNmVkZ6V1Y3NlFSTHRhWnV5YmcxRjVDXy1NalV6RFZrMlJWam5vY3hHbGRZOXNzMXFITkdCSjM5cEhsQzNfTkU0cW0wXzJnRGNJdzZRaGdLcDRNWjZjRHVZUEh0cWMtMHIzaW9ZaQ?oc=5",
+      "date": "2026-11-25T02:36:27Z"
+    },
+    {
       "source": "Google — BCB reservas",
       "title": "Banco Central quiere triplicar las reservas en divisas para el próximo año - Erbol |",
       "desc": "Banco Central quiere triplicar las reservas en divisas para el próximo año&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRl9ia0pTd2JmTThGRW9nTmtwVjN1dUtxY0NxQmNXQmVaOUVnN1hxV0RtQUtCMG42TGdQdXZYMThqcWpRS1h2XzJZcWNwZ05qVnZFOUljVTl4MDFwR3lPdmsxZENXRXdIRTl1dm9zSHFsWWwwblNTcWRtX0h4RERqd3d1S1ptM2pWZEFDZ25wYWZlVGJodDgzbGhGa21qUzJydmxhaWtlOHJ2dTJBTkNOb3dMRnF2NGExSW9Z?oc=5",
       "date": "2026-11-24T21:39:26Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Moneda boliviana es la más depreciada del mundo en 2026 frente al dólar, según Bloomberg - Economy Bolivia",
-      "desc": "Moneda boliviana es la más depreciada del mundo en 2026 frente al dólar, según Bloomberg&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjlUbktVaWJxNHl0R0V5MXdOSms3WllVQmg2bUk5My00dU5nRjh2dlBHd3ZVUThJNXN6MzVSanA0VHFyYWxuLTBRdjZoRXpTNVQ0YUxxTnhJMXMwVTRWSmVENW5XUmp5MHZuU1d4Y0JTNFYybHpQRHFjYVNLNGJYc0FGRzYwWEpBeUdKV3phV3pCUFhxUVhVbnRPX3hRQklSRzZKUVpvdWtVeFRYb2xRMjE1bjFKclU?oc=5",
-      "date": "2026-11-24T21:20:28Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -233,13 +240,6 @@
       "date": "2026-11-24T16:52:10Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "La IA abre oportunidades para reducir costos y transformar las microfinanzas en Bolivia - Economy Bolivia",
-      "desc": "La IA abre oportunidades para reducir costos y transformar las microfinanzas en Bolivia&nbsp;&nbsp;Economy Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWk3NW5NYjZCTDFJUHVGWHpYT2c5ZGdFNWRaLXZ1eFIxekZtbjBYd1ktZEpqbWo1ZTg4Z0xfV19CZ2pEQWlpNzlvMC1fUXBLWXpoanhLcFV5RzZyMWdXYTJlWjBlTi1VclBtZzE4WDgyRHV4TTJzM09VUE1WS2s0bndTbG1menI1cXFZSVhSbUJGN2VudFJFdW1YalN3bkNqOUZnU1FGRjFSWmFtVGpuUXJqR0pYSG8?oc=5",
-      "date": "2026-11-24T00:05:20Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar hoy en Bolivia: cotización de apertura del 23 de noviembre - Infobae",
       "desc": "Dólar hoy en Bolivia: cotización de apertura del 23 de noviembre&nbsp;&nbsp;Infobae",
@@ -247,18 +247,11 @@
       "date": "2026-11-23T12:01:00Z"
     },
     {
-      "source": "Google — Economía Bolivia",
-      "title": "Bolivia reduce su riesgo país más de 58% y busca inversiones - Rumbo Minero",
-      "desc": "Bolivia reduce su riesgo país más de 58% y busca inversiones&nbsp;&nbsp;Rumbo Minero",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcXB1bEc0Q0h3YkpQZ1BIRklWTllsTGlRcGh2SG5HUUdJSlpMU2xyZXM0Tlc2ODZNTlNMVzJUaDU5NFIwVlBGbUdSVGJVVnA2R3FvNVc5cmM4TzF3eE43SmVvR0pGOEt0X3ZEdmtxM3pqRXhRZF9STWFpMEJzamJUTWU2RnUtWkpWaV9xczNTQ1BJcE9adlFodi1xeUM?oc=5",
-      "date": "2026-11-23T11:13:52Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ - MEFP",
-      "desc": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZEVWZmRzVERvUzZKTzFGZUlIS0swOU5URHVUV3dLOHNPOVhDWWlfQ3lYZjM0c1dmUHNVcjNHQURUSjVpZ2E2d1V4R1N5ZWFNOUZsRDBfdmVsc3M?oc=5",
-      "date": "2026-11-20T12:00:00Z"
+      "source": "Google — FMI Bolivia",
+      "title": "“El financiamiento compra tiempo, pero solo las reformas compran futuro”: Dunn sobre el FMI - Correo del Sur",
+      "desc": "“El financiamiento compra tiempo, pero solo las reformas compran futuro”: Dunn sobre el FMI&nbsp;&nbsp;Correo del Sur",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0NPd0lXaS1oSVhQNXdIU0t6WEpCNjdmLWt5cFE5NkI4b3FtRmxLSWZWUE15dWtLakVnMjVHNFRsWjMycXR5dEN2UkVTWkpnN2ZrV1V1R1dwbWhuZTJRWkYtTFN6Qi1mMzJtRk81Nm5iYlI3RXBNblF1VWlHS0doR2R3U1ZpV0wzdUpWMjhGX1pLQXRtUHRua2twSkxDbnVIS3hzdjZSNTgtV0h1VHdWa1d5WEg2QkhUWFpCNDljRUdOSnZhUEZFNHVNNzktZzNK?oc=5",
+      "date": "2026-11-09T08:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -268,25 +261,32 @@
       "date": "2026-11-05T08:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027 - Infobae",
-      "desc": "El FMI prevé que Bolivia será la única economía de la región que se contraerá en 2026 y 2027&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHBCeFRyU29Tb3ZVZXNkeUlEVUJ0bnZWWEtNSTZMVnBxQk1JYU13Z1N6cGEwRHlHbEo3MWZiYjduaHJUYktjdEYtcDNaLTJtdFpvc1lidGhUUFBBRVQtOVhUT0puMGgxMkk2eGhJT1hwTE43QTEyV1VEcGR4ZmJtZHBaelotS1hZbWNXTXA2Tm1TaFVQVy01Z05Dc2pZa0lqMnhLN0w0ai1iWWZWdGxEMmpEXzZlSlZkSHVFYzZUSkxLelViMDd6ZjhUNjZNY1VhNGJtbWhpYTFBam1HRXRlMEpaUzFPUdIBgAJBVV95cUxNelplYkFHeVlXWGhYTU5ScnRvbXM3bUVPMHAyR0ViU1FkZ09RTGdSU05uWEx6X2puNGRHYzR0TVBVeThfR2JzRHBKSElWU19vRmNrMHhsZ0FNQWM5dWM3NWN4dzUxU1FhT2YtM3hDY2xfMGhkaUt5R0laR0s4eGhTYVREa3luSndpcjdodFFFWE0wYWtlTzJkbGZndFI5c08zTURXb09BZUlOcGtySElERTYyc0d6QW54dC1FLS12eHg2TWhJOXFkMGNyQVpDTEx1TVZmeDJQVXZwcDNtLURFUElLUFNURGQtd0NxLXBRZnJUN3dKOUtlWTZXWDdpWFdw?oc=5",
-      "date": "2026-10-14T07:00:00Z"
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
-      "source": "Google — Dólar Bolivia",
-      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026 - Clarin.com",
-      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este sábado 10 de octubre de 2026&nbsp;&nbsp;Clarin.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdFotY2xzelRQc0ZJblRlVE9kUmhNWHBqNVRjTl9tRVUwM0l3cW4ybU5XSnI4cWs3ZVpyMlZ6RzdveVdKMmh4ZnpLTHBtaEVEbXV0eUVaLWNWY0JFUjN1V0ZNS19UUUhDY1lqQzJndGF2ek1SVF9valdpUlpWUHQyYjVLZmFpV3ZGVG1ZNjdDRVZDcXZBSUFlY0I2MjNOdkJNdlh6VFdMMVRqLVRoeGlJNVVFdVdhcEQ0Z2p4dzcxRHZQWXdYRVJnbENJbk41MWdJOGxR0gHYAUFVX3lxTE03blBrcU1SbFc3N1dKUll4NnRtWkI3aVZyRVMzd0NGV3lvSDY1Mk44QkZEMUZDUWZaMGstM2NMdm83Nm9rZUNzTndWdFJzalptVW5PU3BEY2VqV042SEhMRGN5Zi0wXzlSUUVwZHF0NkpuY1I4MTVfVzBrOTFZeS1KTnVqZWxxT0JVbU5rTlJEaWUyVVNMRWVCaXhiNzJtN0ZrWmZyeTFjYmVCdFFOX3pOOEhlVldpMl9oZWtRbnpack82TUdFLVVFQmo1UlJQTDZVbXo5dlF6eg?oc=5",
-      "date": "2026-10-10T07:00:00Z"
+      "source": "Google — FMI Bolivia",
+      "title": "DIRECTORIO DEL FMI APRUEBA ACUERDO POR $US 1.900 MILLONES CON BOLIVIA Y HABILITA DESEMBOLSO INMEDIATO DE $US 214 MILLONES | MEFP - MEFP",
+      "desc": "DIRECTORIO DEL FMI APRUEBA ACUERDO POR $US 1.900 MILLONES CON BOLIVIA Y HABILITA DESEMBOLSO INMEDIATO DE $US 214 MILLONES | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91VXJIUHhobVFScGdpRDJQMG5qX2tLRE90N005WTQyRndLYmdnS3p4VWxMSW1YSl9MN0wtdlg0MzVsLUdhNnBDdXlwcnlwcmxwQ01QS2ZCY1NpY0E?oc=5",
+      "date": "2026-10-02T07:00:00Z"
+    },
+    {
+      "source": "Google — USDT Bolivia",
+      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
+      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
+      "date": "2026-09-21T07:00:00Z"
     }
   ],
   "prediction": {
     "buyTomorrow": 12.0,
-    "sellTomorrow": 12.03,
+    "sellTomorrow": 12.04,
     "changeBuy": -0.02,
-    "changeSell": -0.02,
+    "changeSell": -0.03,
     "trend": "baja",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4390,7 +4390,7 @@
     {
       "date": "2026-11-25",
       "buy": 12.02,
-      "sell": 12.05
+      "sell": 12.07
     }
   ]
 }
