@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-26T03:50:58Z",
-  "displayDate": "miercoles 25 de noviembre, 2026",
+  "lastUpdated": "2026-11-26T07:05:37Z",
+  "displayDate": "jueves 26 de noviembre, 2026",
   "binance": {
-    "buy": 12.02,
-    "sell": 12.07,
+    "buy": 12.01,
+    "sell": 12.06,
     "available": true,
     "source": "binance_p2p"
   },
@@ -26,38 +26,38 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.29,
-    "sell": 11.77,
+    "buy": 12.28,
+    "sell": 11.76,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
     "buy": 12.05,
-    "sell": 12.02,
+    "sell": 12.01,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.09,
-    "sell": 11.85,
+    "buy": 12.06,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.83,
-    "officialSell": 11.83,
-    "referentialBuy": 12.02,
-    "referentialSell": 12.07,
+    "officialBuy": 11.86,
+    "officialSell": 11.86,
+    "referentialBuy": 12.01,
+    "referentialSell": 12.06,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-26T03:50:52Z"
+    "fetchedAt": "2026-11-26T07:05:30Z"
   },
   "banks": [
     {
       "name": "BNB",
-      "buy": 11.83,
-      "sell": 12.13
+      "buy": 11.86,
+      "sell": 12.16
     },
     {
       "name": "Banco Fortaleza",
@@ -66,23 +66,23 @@
     },
     {
       "name": "BCP",
-      "buy": 11.33,
-      "sell": 12.13
+      "buy": 11.36,
+      "sell": 12.16
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.13,
-      "sell": 12.06
+      "buy": 11.16,
+      "sell": 12.09
     },
     {
       "name": "Banco FIE",
-      "buy": 10.83,
-      "sell": 12.18
+      "buy": 10.86,
+      "sell": 12.21
     },
     {
       "name": "Banco Económico",
-      "buy": 10.83,
-      "sell": 12.18
+      "buy": 10.86,
+      "sell": 12.21
     },
     {
       "name": "Banco Unión",
@@ -91,8 +91,8 @@
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.73,
-      "sell": 12.13
+      "buy": 10.76,
+      "sell": 12.16
     },
     {
       "name": "BancoSol",
@@ -102,10 +102,31 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.13
+      "sell": 12.16
     }
   ],
   "news": [
+    {
+      "source": "La Razón",
+      "title": "De la estanflación a la recesión emocional",
+      "desc": "Bolivia – los bolivianos en realidad – debemos estar sufriendo uno de los baches de depresión, frustración e impotencia más importantes desde el regreso a la democracia, por causa de una crisis sistém…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/26/de-la-estanflacion-a-la-recesion-emocional/",
+      "date": "2026-11-26T04:15:48Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Los acuerdos con el FMI: costos y consecuencias",
+      "desc": "Abordamos esta interrogante desde los desenlaces económicos y políticos de algunos acuerdos del Fondo Monetario Internacional (FMI) con Bolivia. El primer acuerdo se suscribió durante el gobierno de H…",
+      "link": "https://larazon.bo/voces/2026/11/26/los-acuerdos-con-el-fmi-costos-y-consecuencias/",
+      "date": "2026-11-26T04:15:41Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El fango de la mala educación",
+      "desc": "Hace unos días escuchamos al Presidente Ejecutivo de la otrora memorable Federación Sindical de Trabajadores Mineros de Bolivia (FSTMB), Andrés Paye, decir que “los jóvenes están abandonando las aulas…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/26/el-fango-de-la-mala-educacion/",
+      "date": "2026-11-26T04:15:03Z"
+    },
     {
       "source": "La Razón",
       "title": "Aguirre pide a Paz cerrar la AISEM y transferir sus recursos a las regiones",
@@ -119,13 +140,6 @@
       "desc": "La Fiscalía presentó una acusación formal contra 32 personas por el presunto robo de billetes del avión Hércules C-130 de la Fuerza Aérea Boliviana (FAB), que se accidentó el 27 de febrero de 2026 en …",
       "link": "https://larazon.bo/nacional/2026/11/25/fiscalia-acusa-a-32-personas-por-robo-de-billetes-tras-accidente-aereo-en-el-alto/",
       "date": "2026-11-26T03:35:01Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Magisterio anuncia que mantendrá protestas entre semana en respuesta a Paz",
-      "desc": "El magisterio urbano ratificó que continuará con sus movilizaciones durante los días hábiles, en respuesta al pedido del presidente Rodrigo Paz de trasladar las protestas a los fines de semana para ev…",
-      "link": "https://larazon.bo/sociedad/2026/11/25/magisterio-anuncia-que-mantendra-protestas-entre-semana-en-respuesta-a-paz/",
-      "date": "2026-11-26T03:10:16Z"
     },
     {
       "source": "El Deber",
@@ -156,25 +170,11 @@
       "date": "2026-11-26T00:19:55Z"
     },
     {
-      "source": "La Razón",
-      "title": "Diputados exigen iniciar elección del Fiscal General antes de fin de año",
-      "desc": "Freddy Camacho y Álvaro Cazasola pidieron activar el procedimiento legislativo. El interinato de José Armando Urioste vence el 5 de enero de 2027.\nThe post Diputados exigen iniciar elección del Fiscal…",
-      "link": "https://larazon.bo/nacional/2026/11/25/diputados-exigen-iniciar-eleccion-del-fiscal-general-antes-de-fin-de-ano/",
-      "date": "2026-11-26T00:04:16Z"
-    },
-    {
       "source": "El Deber",
       "title": "\"Pasé décadas como agente del FBI y este es el caso que no pude dejar atrás\"",
       "desc": "Ella investigó a Nexus desde 2016 hasta su jubilación del FBI en 2021. Pero, después de casi seis años, los sospechosos solo habían enfrentado un cargo por evasión fiscal",
       "link": "https://eldeber.com.bo/bbc/pase-decadas-agente-fbi-este-caso-no-pude-dejar-atras_1795650573",
       "date": "2026-11-25T23:49:33Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "‘Amazonía a Sangre y Sudor’, de Roberto Navia, llega a la Cinemateca",
-      "desc": "El largometraje muestra cómo las familias que cosechan la castaña amazónica lo hacen sin contrato formal ni acceso a la seguridad social.\nThe post ‘Amazonía a Sangre y Sudor’, de Roberto Navia, llega …",
-      "link": "https://larazon.bo/la-revista/2026/11/25/amazonia-a-sangre-y-sudor-de-roberto-navia-llega-a-la-cinemateca/",
-      "date": "2026-11-25T23:36:32Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -205,11 +205,25 @@
       "date": "2026-11-25T02:36:27Z"
     },
     {
+      "source": "Google — Dólar Bolivia",
+      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
+      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
+      "date": "2026-11-24T22:37:15Z"
+    },
+    {
       "source": "Google — BCB reservas",
       "title": "Banco Central quiere triplicar las reservas en divisas para el próximo año - Erbol |",
       "desc": "Banco Central quiere triplicar las reservas en divisas para el próximo año&nbsp;&nbsp;Erbol |",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRl9ia0pTd2JmTThGRW9nTmtwVjN1dUtxY0NxQmNXQmVaOUVnN1hxV0RtQUtCMG42TGdQdXZYMThqcWpRS1h2XzJZcWNwZ05qVnZFOUljVTl4MDFwR3lPdmsxZENXRXdIRTl1dm9zSHFsWWwwblNTcWRtX0h4RERqd3d1S1ptM2pWZEFDZ25wYWZlVGJodDgzbGhGa21qUzJydmxhaWtlOHJ2dTJBTkNOb3dMRnF2NGExSW9Z?oc=5",
       "date": "2026-11-24T21:39:26Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Moneda boliviana es la más depreciada del mundo en 2026 frente al dólar, según Bloomberg - Economy Bolivia",
+      "desc": "Moneda boliviana es la más depreciada del mundo en 2026 frente al dólar, según Bloomberg&nbsp;&nbsp;Economy Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjlUbktVaWJxNHl0R0V5MXdOSms3WllVQmg2bUk5My00dU5nRjh2dlBHd3ZVUThJNXN6MzVSanA0VHFyYWxuLTBRdjZoRXpTNVQ0YUxxTnhJMXMwVTRWSmVENW5XUmp5MHZuU1d4Y0JTNFYybHpQRHFjYVNLNGJYc0FGRzYwWEpBeUdKV3phV3pCUFhxUVhVbnRPX3hRQklSRzZKUVpvdWtVeFRYb2xRMjE1bjFKclU?oc=5",
+      "date": "2026-11-24T21:20:28Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -247,11 +261,18 @@
       "date": "2026-11-23T12:01:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "“El financiamiento compra tiempo, pero solo las reformas compran futuro”: Dunn sobre el FMI - Correo del Sur",
-      "desc": "“El financiamiento compra tiempo, pero solo las reformas compran futuro”: Dunn sobre el FMI&nbsp;&nbsp;Correo del Sur",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0NPd0lXaS1oSVhQNXdIU0t6WEpCNjdmLWt5cFE5NkI4b3FtRmxLSWZWUE15dWtLakVnMjVHNFRsWjMycXR5dEN2UkVTWkpnN2ZrV1V1R1dwbWhuZTJRWkYtTFN6Qi1mMzJtRk81Nm5iYlI3RXBNblF1VWlHS0doR2R3U1ZpV0wzdUpWMjhGX1pLQXRtUHRua2twSkxDbnVIS3hzdjZSNTgtV0h1VHdWa1d5WEg2QkhUWFpCNDljRUdOSnZhUEZFNHVNNzktZzNK?oc=5",
-      "date": "2026-11-09T08:00:00Z"
+      "source": "Google — Economía Bolivia",
+      "title": "Bolivia reduce su riesgo país más de 58% y busca inversiones - Rumbo Minero",
+      "desc": "Bolivia reduce su riesgo país más de 58% y busca inversiones&nbsp;&nbsp;Rumbo Minero",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcXB1bEc0Q0h3YkpQZ1BIRklWTllsTGlRcGh2SG5HUUdJSlpMU2xyZXM0Tlc2ODZNTlNMVzJUaDU5NFIwVlBGbUdSVGJVVnA2R3FvNVc5cmM4TzF3eE43SmVvR0pGOEt0X3ZEdmtxM3pqRXhRZF9STWFpMEJzamJUTWU2RnUtWkpWaV9xczNTQ1BJcE9adlFodi1xeUM?oc=5",
+      "date": "2026-11-23T11:13:52Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ - MEFP",
+      "desc": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZEVWZmRzVERvUzZKTzFGZUlIS0swOU5URHVUV3dLOHNPOVhDWWlfQ3lYZjM0c1dmUHNVcjNHQURUSjVpZ2E2d1V4R1N5ZWFNOUZsRDBfdmVsc3M?oc=5",
+      "date": "2026-11-20T12:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -259,35 +280,14 @@
       "desc": "BOLIVIA REGISTRA UNA VARIACIÓN MENSUAL DEL IPC DE 2,07% EN OCTUBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalFIajhuWWFuVmZCblJMZ2FOTEVQMDlQc21ZWWNPOUhzQ240TXY2SHQ3Y3EyOU5qQ3JNQVFHeS10SVVpRlNrVGwyQXVabXFDUXZWM1hlYno4aWJyR0ZZNUY2NzB2TV84cVZXQTV4akpCa19QbVZSSFRLZ3RUSTBpekdhU0N3TU1nWE9QRzRJM0MtNklNY04tYlcyZS1DY1c0MWY1SGpnUy0wdw?oc=5",
       "date": "2026-11-05T08:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR EN BOLIVIA PRESENTÓ UNA VARIACIÓN POSITIVA DE 0,85% EN SEPTIEMBRE DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTIxSWFjLUx4NGJxREZGZFhBUG5vZjZQc1p2SUFWOEFydlQyb3lvU3lrNHZkVDNXaXVqX25Wa3daYkVzOWMwRG9UYVZEbHBVb2hJcHRObXB2WHlHWHFuVWN6ZmJ2NndRTzZ5V0lwZ0JUNndMV2oweDZQWTV0U3hPNHhJc0l4SzdEMVdJT0ZQcXBqa0IxQkUzaDB1OVJ6RDRDOHdlUjJOdDFVaXhLVHJKaUY2eVdDZFYwYkFNMWhwdjJRbkhWcm83NFBDb1EyU0pmMG9OMG4zMA?oc=5",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "DIRECTORIO DEL FMI APRUEBA ACUERDO POR $US 1.900 MILLONES CON BOLIVIA Y HABILITA DESEMBOLSO INMEDIATO DE $US 214 MILLONES | MEFP - MEFP",
-      "desc": "DIRECTORIO DEL FMI APRUEBA ACUERDO POR $US 1.900 MILLONES CON BOLIVIA Y HABILITA DESEMBOLSO INMEDIATO DE $US 214 MILLONES | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91VXJIUHhobVFScGdpRDJQMG5qX2tLRE90N005WTQyRndLYmdnS3p4VWxMSW1YSl9MN0wtdlg0MzVsLUdhNnBDdXlwcnlwcmxwQ01QS2ZCY1NpY0E?oc=5",
-      "date": "2026-10-02T07:00:00Z"
-    },
-    {
-      "source": "Google — USDT Bolivia",
-      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
-      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
-      "date": "2026-09-21T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.0,
-    "sellTomorrow": 12.04,
-    "changeBuy": -0.02,
-    "changeSell": -0.03,
-    "trend": "baja",
+    "buyTomorrow": 12.02,
+    "sellTomorrow": 12.07,
+    "changeBuy": 0.01,
+    "changeSell": 0.01,
+    "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4391,6 +4391,11 @@
       "date": "2026-11-25",
       "buy": 12.02,
       "sell": 12.07
+    },
+    {
+      "date": "2026-11-26",
+      "buy": 12.01,
+      "sell": 12.06
     }
   ]
 }
