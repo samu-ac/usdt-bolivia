@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-27T03:52:22Z",
-  "displayDate": "jueves 26 de noviembre, 2026",
+  "lastUpdated": "2026-11-27T07:00:10Z",
+  "displayDate": "viernes 27 de noviembre, 2026",
   "binance": {
-    "buy": 12.05,
+    "buy": 12.04,
     "sell": 12.1,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
     "buy": 12.1,
-    "sell": 12.03,
+    "sell": 12.0,
     "available": true,
     "source": "api_dbb_eldorado"
   },
@@ -32,32 +32,32 @@
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.09,
-    "sell": 12.05,
+    "buy": 12.1,
+    "sell": 12.07,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
     "buy": 12.19,
-    "sell": 11.94,
+    "sell": 11.95,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.86,
-    "officialSell": 11.86,
-    "referentialBuy": 12.05,
+    "officialBuy": 11.85,
+    "officialSell": 11.85,
+    "referentialBuy": 12.04,
     "referentialSell": 12.1,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-27T03:52:16Z"
+    "fetchedAt": "2026-11-27T07:00:04Z"
   },
   "banks": [
     {
       "name": "BNB",
-      "buy": 11.86,
-      "sell": 12.16
+      "buy": 11.85,
+      "sell": 12.15
     },
     {
       "name": "Banco Fortaleza",
@@ -66,23 +66,13 @@
     },
     {
       "name": "BCP",
-      "buy": 11.36,
-      "sell": 12.16
+      "buy": 11.35,
+      "sell": 12.15
     },
     {
       "name": "Banco Bisa",
-      "buy": 11.16,
-      "sell": 12.09
-    },
-    {
-      "name": "Banco FIE",
-      "buy": 10.86,
-      "sell": 12.21
-    },
-    {
-      "name": "Banco Económico",
-      "buy": 10.86,
-      "sell": 12.21
+      "buy": 11.15,
+      "sell": 12.08
     },
     {
       "name": "Banco Unión",
@@ -90,9 +80,19 @@
       "sell": 12.16
     },
     {
+      "name": "Banco FIE",
+      "buy": 10.85,
+      "sell": 12.2
+    },
+    {
+      "name": "Banco Económico",
+      "buy": 10.85,
+      "sell": 12.2
+    },
+    {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.76,
-      "sell": 12.16
+      "buy": 10.75,
+      "sell": 12.15
     },
     {
       "name": "BancoSol",
@@ -102,10 +102,38 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.16
+      "sell": 12.15
     }
   ],
   "news": [
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia accedió a un segundo desembolso del FMI por USD 212 millones y buscará impulsar la reactivación productiva - Infobae",
+      "desc": "Bolivia accedió a un segundo desembolso del FMI por USD 212 millones y buscará impulsar la reactivación productiva&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUS1BdExqb3Y1QlZuZE8yejdZTEJUMFUyazg3RFA5ZTNHZGtGdmg1QTBJcWotWG9rNlpScDZTSHE3c2hRYU5BakphMnBsRGo4d1pTaGs4djhLNEowdmJtWmRLaUZaTFc4NXdTcllxTWF4cXAyMTZNcUE2M2lTTTRUQ2JRN05iemV5UjZubWhvSkljR2tYcmZsUnVEYkROUGxJaG1hZEtTVmIxWC1JbnBQQ2I1WUdFbWZTYUxjY2RRYm41YUszNzVnemZlYWtXdm11Uzh1TENmWjVOZWxkNGtPMndINVpIRmQtUVVtSlJ6T1lUNi13VE14eF9jaEN5Ylk1MVl30gGeAkFVX3lxTE1WRkt1RnktTzBlRWNCT2IydUU5UWNOZHd5eC1qZDhZYUtkSVA0cGdncGRLeFF0Mzg1NlVyMGhRdnlNSXpSODJiQ0RaaHNCbzZ0aVZ3bHUzY2tWc2ZscldDQWJMU1dWMkNyZ3UyWVZqNEdSNHQ5bmxYczR1VzFISUE0RFpiZE5abHJBOFpwbUhjcUN0NjB5UHRtdDd0M1h3WUFfRmN5Tl9jZmNReHkxbzJQZkotUFh3bWt6MHBnbnlyS2hPd1FhOWFDYWV3bWtYTC0zYUJ1aHZaV19KYnFuRGtYM1ZvejZFTlpZZmRYa256Nmp2aHBxVlpSZkVhYUhaSXJlOXRnNGlYNm1idVJFV2pqMVhPWFF4YWItUDgyMUE?oc=5",
+      "date": "2026-11-27T05:50:00Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "La cuenta que nadie quiere firmar",
+      "desc": "Bolivia parece haber encontrado una manera singular de discutir el futuro: comprometer una cosa y presupuestar otra. El Gobierno presentó para 2027 una partida de aproximadamente 11.000 millones de bo…",
+      "link": "https://larazon.bo/voces/2026/11/27/la-cuenta-que-nadie-quiere-firmar/",
+      "date": "2026-11-27T04:28:03Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "Criptominería en Bolivia: De la especulación a la sobreespeculación y la estafa",
+      "desc": "Bolivia ingresa a la economía digital entre oportunidades reales y promesas peligrosas. Mientras los hogares defienden sus ahorros frente a la incertidumbre, proliferan ofertas de criptominería que an…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/27/criptomineria-en-bolivia-de-la-especulacion-a-la-sobreespeculacion-y-la-estafa/",
+      "date": "2026-11-27T04:23:50Z"
+    },
+    {
+      "source": "La Razón",
+      "title": "El litio y la trampa de Bab el-Mandeb",
+      "desc": "La escalada de la guerra declarada por Estados Unidos e Israel contra Irán ha reformado las prioridades estratégicas de Washington, poniendo de manifiesto la vulnerabilidad de las rutas marítimas clav…",
+      "link": "https://larazon.bo/opinion/columnistas/2026/11/27/el-litio-y-la-trampa-de-bab-el-mandeb/",
+      "date": "2026-11-27T04:14:10Z"
+    },
     {
       "source": "El Deber",
       "title": "Cadex rechaza el paro del transporte y plantea bajar el precio del diésel sin volver a la subvención",
@@ -149,39 +177,11 @@
       "date": "2026-11-27T01:56:54Z"
     },
     {
-      "source": "La Razón",
-      "title": "La diputada Claros revela que la amenazan",
-      "desc": "El amedrentamiento sería por las críticas y la labor de fiscalización que realiza\nThe post La diputada Claros revela que la amenazan appeared first on La Razón.",
-      "link": "https://larazon.bo/nacional/2026/11/26/la-diputada-claros-revela-que-la-amenazan/",
-      "date": "2026-11-27T01:23:14Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "Paz llega a Lima para reactivar el Gabinete Binacional con Perú",
-      "desc": "El presidente destacó la importancia de este acercamiento bilateral\nThe post Paz llega a Lima para reactivar el Gabinete Binacional con Perú appeared first on La Razón.",
-      "link": "https://larazon.bo/nacional/2026/11/26/paz-llega-a-lima-para-reactivar-el-gabinete-binacional-con-peru/",
-      "date": "2026-11-27T01:15:42Z"
-    },
-    {
-      "source": "La Razón",
-      "title": "BNB y Nexocorp se unen para dar descuentos del 10% en Farmacorp y Amarket",
-      "desc": "El beneficio estará vigente desde el 27 de noviembre hasta el 30 de abril de 2027 y permitirá a los clientes de la entidad financiera ahorrar en sus compras\nThe post BNB y Nexocorp se unen para dar de…",
-      "link": "https://larazon.bo/espacio-empresarial/2026/11/26/bnb-y-nexocorp-se-unen-para-dar-descuentos-del-10-en-farmacorp-y-amarket/",
-      "date": "2026-11-26T23:47:42Z"
-    },
-    {
       "source": "Google — Dólar Bolivia",
       "title": "Dólar hoy en Bolivia: cotización de cierre del 26 de noviembre - Infobae",
       "desc": "Dólar hoy en Bolivia: cotización de cierre del 26 de noviembre&nbsp;&nbsp;Infobae",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1hQcnY2Q183NV9KWUNiOHV3YW90WjAzalZHckQ1Nlc2YVhMSW53Rmt6UUZ4ZU9PN3pFNmx6SnFlTDJldFhYSXZPN2NHemZycUlSLXVlSG9FQmRRaHVHU183LVJ0SGFNMmpXQUZaMTZ5R3N6MS1qOUVOc3pmaUZqWnZPcGcxOVJ1dENvd2RNYmdUM3lIQ2kwOHJ2M1AwVXBRRkRRM0pqcXZGZ9IBxAFBVV95cUxPcGVvSmM2WnhfcTd4QVFrZG9aaUYxcE1DTzRISk9qbEtURmEtSldtMlZjaTFqaWJtTWc5ek1vTlZFekdsQ3c4a3FCOVBNQW9IMkVCMGV3SWFHRHRtUk5wc3E5aEhadTlWaFFmRjRlSnhINzVGdjVGbDV4NHMyTGQ3MXhRZGl0MEZtMG5QTVFka1JKX2FRazlMUlhhWWVsXzA0V21ob1o5eFRnbFE3SnJ5X1ZVOWQ3MDBZVjY1V0tpLWVvS0RO?oc=5",
       "date": "2026-11-26T19:01:00Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia y FMI analizan políticas para segundo desembolso - La Patria Bolivia",
-      "desc": "Bolivia y FMI analizan políticas para segundo desembolso&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlRxZHhzbVBLdEZ0V1dwZE85M0t2MEtQQnhibXZsZkVwNGU2VXVLeUlKdHZ4WHNrNGFQTkFwSXBvVTFPdGhGZ1NmSE9BYjJRUXNRQVVWOUlFY1JuSzZhRl9aMjhNRkJZV0FtQTlHM09MREFJdUI1d2EwOUJ6RkJiakU5b1pnV2ItSlFGYThrUnBhSl81cGtpOWxTbw?oc=5",
-      "date": "2026-11-26T16:49:36Z"
     },
     {
       "source": "Google — FMI Bolivia",
@@ -192,6 +192,13 @@
     },
     {
       "source": "Google — FMI Bolivia",
+      "title": "Bolivia y FMI analizan políticas para segundo desembolso - La Patria Bolivia",
+      "desc": "Bolivia y FMI analizan políticas para segundo desembolso&nbsp;&nbsp;La Patria Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlRxZHhzbVBLdEZ0V1dwZE85M0t2MEtQQnhibXZsZkVwNGU2VXVLeUlKdHZ4WHNrNGFQTkFwSXBvVTFPdGhGZ1NmSE9BYjJRUXNRQVVWOUlFY1JuSzZhRl9aMjhNRkJZV0FtQTlHM09MREFJdUI1d2EwOUJ6RkJiakU5b1pnV2ItSlFGYThrUnBhSl81cGtpOWxTbw?oc=5",
+      "date": "2026-11-26T16:25:21Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
       "title": "Economía.- El FMI cierra con Bolivia la primera revisión del acuerdo del Servicio Ampliado del Fondo por 193 millones - Bolsamania",
       "desc": "Economía.- El FMI cierra con Bolivia la primera revisión del acuerdo del Servicio Ampliado del Fondo por 193 millones&nbsp;&nbsp;Bolsamania",
       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOa0NJY0h5aG9LT2N2OWNOVEtzb194ejVRbC1lSkNKbDhGNGZNVjliWnlGUjYxU1F3M1ZBT2dvRXhaajNlbXdqekRGdVVNNlYtRHplUFJuU3FCcndYYW1CSUpoNU0zZWQ0ZE5PRVBJcUM0Si13MGtwREVzVHdDYWpiTjN3X2l2Mm1fVmU1TVNxWHZLX2p6b01hQUpfODJlNjlWMFFlc0I5ZS1lRGJ5M1U0OFgwenU1a25DYmdQVC1iQ3JUR2R5R3FfOGI5NkVvbUhnVTVIMUZkcm1zTlFVYWJud1hUWS1aS3pLdjFLWm9fb2hfR3VDeHRIVTc4dXZtd1FENUJMbUZUQdIBjAJBVV95cUxPWUlSUTgxRUJqMG9fdE5NQWxNQlNvbFNmUHl0Y2R4OEhIRFFNUW1scktDVTlqVTdRQjVnVXRFUEtlbWJjWXdzZUJMdTZfeXdpTzlwa0toQk9kX0pZcmx3MnJQU094MXdCRXJCRzBmVFp3VTlldHJHVTRKVVlCNWJwVUJyUE84QkRzQ3poRm1xV3o3MUt4cGlXa0Fub1EyRmxMR0dFbHJrTHlBOENDRFl0cHZKOGZqemJUdkQyVGFlYTdlbkZrSTE2ekpHZE1TWHhsQ0JZa1pNODRGOFV0UTRYWDN1UklCRk5ZbGw2ZHplX0gwVnpJVkxBMm1PT1daZ2FUQmViVExHRHBvZHN2?oc=5",
@@ -199,10 +206,10 @@
     },
     {
       "source": "Google — BCB reservas",
-      "title": "A octubre, las reservas en efectivo llegan a $us 855 millones: el BCB destaca que ya tiene liquidez - unitel.bo",
-      "desc": "A octubre, las reservas en efectivo llegan a $us 855 millones: el BCB destaca que ya tiene liquidez&nbsp;&nbsp;unitel.bo",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdENyM1Q4Qy14eS1oLVAxeVA0bUtnQzdWMnczUTlnVElDdHBGcEJ5N0tSeWx5TV9QVzVHc3J3OUdWU2RaMk5JWWw0OFRNdWN5ZFROanAyS05oWm5jRXVQSWNfUElVenoxWHExclVnaldKZEVaVFA5aU93WmVYTU5aRWdwN252V2FpbE5kdlVMMU9INThDM3hwbTJ4VnZvUFJJb0RLVllGeFJIN3lFQzVqZVJtTU5HTkFPRFFsbHFWaFhkaXZHblNnamljd0dnb2FtSTNhdjktR0JySDA?oc=5",
-      "date": "2026-11-25T08:52:48Z"
+      "title": "Banco Central quiere triplicar las reservas en divisas para el próximo año - Erbol |",
+      "desc": "Banco Central quiere triplicar las reservas en divisas para el próximo año&nbsp;&nbsp;Erbol |",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRl9ia0pTd2JmTThGRW9nTmtwVjN1dUtxY0NxQmNXQmVaOUVnN1hxV0RtQUtCMG42TGdQdXZYMThqcWpRS1h2XzJZcWNwZ05qVnZFOUljVTl4MDFwR3lPdmsxZENXRXdIRTl1dm9zSHFsWWwwblNTcWRtX0h4RERqd3d1S1ptM2pWZEFDZ25wYWZlVGJodDgzbGhGa21qUzJydmxhaWtlOHJ2dTJBTkNOb3dMRnF2NGExSW9Z?oc=5",
+      "date": "2026-11-24T21:39:26Z"
     },
     {
       "source": "Google — BCB reservas",
@@ -226,20 +233,6 @@
       "date": "2026-11-24T19:03:21Z"
     },
     {
-      "source": "Google — BCB reservas",
-      "title": "BCB proyecta inflación del 9,2% para cierre de 2026 - La Patria Bolivia",
-      "desc": "BCB proyecta inflación del 9,2% para cierre de 2026&nbsp;&nbsp;La Patria Bolivia",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY2Z4aWhka2ZBMXo1VHV0ZURpbWp6bU5jZ0RmMU9tV29CLWpiSE9vS1lveU9jRWktS05PdU82Wm9QWDBFeHJRTmFOTUJ2b3dXbHVsZG10OGJJbUNBSzVfRkVza2VwQWR2TGRTdklSSXVjRnRsMXluTXVpNzFVTDd6ZQ?oc=5",
-      "date": "2026-11-24T18:51:02Z"
-    },
-    {
-      "source": "Google — FMI Bolivia",
-      "title": "Bolivia está cumpliendo indicadores acordados con FMI, espera desembolso en diciembre: banco central - El Nuevo Herald",
-      "desc": "Bolivia está cumpliendo indicadores acordados con FMI, espera desembolso en diciembre: banco central&nbsp;&nbsp;El Nuevo Herald",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUFOc1ItZW54b3pyQjVvWGN4T1dNQnJaR2FwZFE2S3A2NktlT2psek1tY2IyQ2JmVTdEcVdMS01JVy11SE03blRaU0Y1UXJVRF9kZzhuRk1BeGxpV2Z6ZlZUWFF3RklOU1JGc29fZzlGUV9PdDY3djFWVThIRlVYTA?oc=5",
-      "date": "2026-11-24T16:52:10Z"
-    },
-    {
       "source": "Google — USDT Bolivia",
       "title": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene - CriptoNoticias",
       "desc": "Deuda de Bolivia superará su PIB: el riesgo de emisión que bitcoin no tiene&nbsp;&nbsp;CriptoNoticias",
@@ -252,13 +245,6 @@
       "desc": "Gobierno de Bolivia confirma segundo desembolso del FMI&nbsp;&nbsp;La Patria Bolivia",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOFFUUEhHS3RhMWRkRjhYaDlNNkhBVkV0bEJhM3lMNS1Dd1BaeUtPdExZLTNzWUZULXNWd1BQUFFuaFZXb3d0Rm5uSGZNeDU1X3JOSWFOdTg0cExNaXBDazROMFZSNnVDZ1Q5OElObnFVWUR5WS1HY0xEUzFVTnplbkpleEpCUzNoTnU1OFZlQXRkSy1leURGZXp3?oc=5",
       "date": "2026-10-07T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial - Urgentebo",
-      "desc": "Este 2026, el crecimiento de Bolivia será el más bajo, peor que el de Haití, según el Banco Mundial&nbsp;&nbsp;Urgentebo",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZW1lZFB2TDNxRmkzTWcwWVdyRnpfNWFpdllXVU5VNlhLV0lLMkVYVGo3SVRCYUxRYWZ0QVBRRXc3WnVjMExGa0k1dWllSjA2UW9PU2dvT09rMlJ1dkVydExFRi1wdkNmSUdxTVpuOTRaNnVaMzk0ZVByQ3dqc3Q1OVhWdVVYYUlDcXpaV3dWTUxOY192T0VxSWhTel9iazVlaW9ZSEN0ZlBfWll3YVh1Z1NxbFBBeF9KTF84?oc=5",
-      "date": "2026-10-06T07:00:00Z"
     },
     {
       "source": "Google — INE inflación",
@@ -275,19 +261,33 @@
       "date": "2026-09-21T07:00:00Z"
     },
     {
-      "source": "Google — FMI Bolivia",
-      "title": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP - MEFP",
-      "desc": "GOBIERNO TRANSPARENTA LOS ALCANCES DEL ACUERDO CON EL FMI Y EXPLICA CÓMO CONTRIBUIRÁ A LA RECUPERACIÓN ECONÓMICA DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80eFRQOEprd3V6bXJOQ0w4X0xGeDhJaWx5VHdCeldrdzVjbjNJQURtM3FLU29hLWdYcEdrUmFMZHJGSVBOTzZwbG04R2tMX0ZIRE5tSnhNZ19uRzg?oc=5",
-      "date": "2026-09-10T07:00:00Z"
+      "source": "Google — INE inflación",
+      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
+      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
+      "date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
+      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
+      "date": "2026-08-26T07:00:00Z"
+    },
+    {
+      "source": "Google — Economía Bolivia",
+      "title": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP - MEFP",
+      "desc": "CHRISTIAN MORALES ASUME ECONOMÍA CON EL MANDATO DE CONSOLIDAR LA ESTABILIDAD Y ACELERAR LAS TRANSFORMACIONES DEL PAÍS | MEFP&nbsp;&nbsp;MEFP",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jd005TnhMdVEyb3luRHNOQnNhSk4tTThVaTVlZ2lCOTdZVDI3ZlhXc3ViTXJ2bk9oM3ZFdi1wbmJZeVBNdm5ralZjYndNOFl0V1hwbGM3dGl0Mjg?oc=5",
+      "date": "2026-08-25T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.04,
-    "sellTomorrow": 12.09,
-    "changeBuy": -0.01,
-    "changeSell": -0.01,
-    "trend": "baja",
+    "buyTomorrow": 12.07,
+    "sellTomorrow": 12.12,
+    "changeBuy": 0.03,
+    "changeSell": 0.02,
+    "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
   },
@@ -4395,6 +4395,11 @@
     {
       "date": "2026-11-26",
       "buy": 12.05,
+      "sell": 12.1
+    },
+    {
+      "date": "2026-11-27",
+      "buy": 12.04,
       "sell": 12.1
     }
   ]
