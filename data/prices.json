@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-11-28T03:38:31Z",
-  "displayDate": "viernes 27 de noviembre, 2026",
+  "lastUpdated": "2026-11-28T06:35:05Z",
+  "displayDate": "sabado 28 de noviembre, 2026",
   "binance": {
     "buy": 11.98,
-    "sell": 12.02,
+    "sell": 12.03,
     "available": true,
     "source": "binance_p2p"
   },
   "eldorado": {
-    "buy": 12.07,
-    "sell": 11.93,
+    "buy": 12.1,
+    "sell": 11.91,
     "available": true,
     "source": "api_dbb_eldorado"
   },
   "takenos": {
-    "buy": 12.25,
-    "sell": 11.86,
+    "buy": 12.26,
+    "sell": 11.87,
     "available": true,
     "source": "api_dbb_takenos"
   },
@@ -26,34 +26,39 @@
     "source": "api_dbb_wallbit"
   },
   "airtm": {
-    "buy": 12.24,
-    "sell": 11.72,
+    "buy": 12.25,
+    "sell": 11.73,
     "available": true,
     "source": "api_dbb_airtm"
   },
   "bybit": {
-    "buy": 12.03,
-    "sell": 11.98,
+    "buy": 12.04,
+    "sell": 11.96,
     "available": true,
     "source": "api_dbb_bybit"
   },
   "saldoar": {
-    "buy": 12.08,
-    "sell": 11.79,
+    "buy": 12.07,
+    "sell": 11.78,
     "available": true,
     "source": "api_dbb_saldoar"
   },
   "bcb": {
-    "officialBuy": 11.85,
-    "officialSell": 11.85,
+    "officialBuy": 11.9,
+    "officialSell": 11.9,
     "referentialBuy": 11.98,
-    "referentialSell": 12.02,
+    "referentialSell": 12.03,
     "vrdBuy": 9.79,
     "vrdSell": 10.0,
     "source": "api_dbb_officialRate",
-    "fetchedAt": "2026-11-28T03:38:25Z"
+    "fetchedAt": "2026-11-28T06:34:59Z"
   },
   "banks": [
+    {
+      "name": "BNB",
+      "buy": 11.9,
+      "sell": 12.2
+    },
     {
       "name": "Banco Fortaleza",
       "buy": 11.55,
@@ -65,23 +70,18 @@
       "sell": 12.15
     },
     {
-      "name": "BNB",
-      "buy": 11.15,
-      "sell": 12.15
-    },
-    {
       "name": "Banco Bisa",
-      "buy": 11.15,
-      "sell": 12.08
+      "buy": 11.2,
+      "sell": 12.13
     },
     {
       "name": "Banco FIE",
-      "buy": 10.85,
-      "sell": 12.2
+      "buy": 10.9,
+      "sell": 12.25
     },
     {
       "name": "Banco Económico",
-      "buy": 10.85,
+      "buy": 10.9,
       "sell": 12.2
     },
     {
@@ -91,8 +91,8 @@
     },
     {
       "name": "Mercantil Santa Cruz",
-      "buy": 10.75,
-      "sell": 12.15
+      "buy": 10.8,
+      "sell": 12.2
     },
     {
       "name": "BancoSol",
@@ -102,7 +102,7 @@
     {
       "name": "Banco Ganadero",
       "buy": null,
-      "sell": 12.15
+      "sell": 12.2
     }
   ],
   "news": [
@@ -219,6 +219,20 @@
       "date": "2026-11-25T00:33:08Z"
     },
     {
+      "source": "Google — Dólar Bolivia",
+      "title": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria - ANF Agencia de Noticias Fides Bolivia",
+      "desc": "Banco Central de Bolivia vende $us 35 millones a bancos a un tipo de cambio inferior al de la cotización diaria&nbsp;&nbsp;ANF Agencia de Noticias Fides Bolivia",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ2JTRVUzMjh5MDQ5UEpCakdyX2QzYTZseTREQUZCRW1kdEM0LUFENUtjRGZJTmo2YjVWOGt4eGFha19Hekc5dWc3RHdHZWQ3TmZoMUtMbGI2VmFTQUN2MkZZTFJleEtyWkNFWmtwM2ttZVJVaG9GR2JkeENkdGxGbXFnWHl6Y2d2Z1Y2TkNqTUJnMDdGSGhHNzBOR0hfejh4d2NNb21GUjB5c2lHNC1XaTJ0NGctVTJwYUxrUktad0FUUUV5eUxCRDhvRVZDdURnY3hHTS1VOXZ6X1ZiT2RrcjFQRQ?oc=5",
+      "date": "2026-11-24T22:37:15Z"
+    },
+    {
+      "source": "Google — FMI Bolivia",
+      "title": "Bolivia está cumpliendo indicadores acordados con FMI, espera desembolso en diciembre: banco central - El Nuevo Herald",
+      "desc": "Bolivia está cumpliendo indicadores acordados con FMI, espera desembolso en diciembre: banco central&nbsp;&nbsp;El Nuevo Herald",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUFOc1ItZW54b3pyQjVvWGN4T1dNQnJaR2FwZFE2S3A2NktlT2psek1tY2IyQ2JmVTdEcVdMS01JVy11SE03blRaU0Y1UXJVRF9kZzhuRk1BeGxpV2Z6ZlZUWFF3RklOU1JGc29fZzlGUV9PdDY3djFWVThIRlVYTA?oc=5",
+      "date": "2026-11-24T16:52:10Z"
+    },
+    {
       "source": "Google — Economía Bolivia",
       "title": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ | MEFP - MEFP",
       "desc": "BOLIVIA REDUCE LA INFLACIÓN, MULTIPLICA SUS RESERVAS Y RECUPERA CONFIANZA INTERNACIONAL EN EL PRIMER AÑO DEL GOBIERNO DE RODRIGO PAZ | MEFP&nbsp;&nbsp;MEFP",
@@ -261,32 +275,18 @@
       "date": "2026-10-05T07:00:00Z"
     },
     {
-      "source": "Google — USDT Bolivia",
-      "title": "Bolivia promete al FMI una regulación cripto tras una grave advertencia - iProUP",
-      "desc": "Bolivia promete al FMI una regulación cripto tras una grave advertencia&nbsp;&nbsp;iProUP",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2dpSTFnWmVXZjV1Q0NqRnNORzlxNjd0bVFIVGF2RHh4UEhLTDlWSG9IVmkzMlhTY2NITWttTW83TmdERzFzcmlueXp3cDljY09zbk9OMGhfZDlzMHc5SUNGQkVrWGxKem82VlBLcFd3OGdqTDNuN0xQYTZDUkJYY05LODFRc3pGZUFNbmFZZnp3a3U3UEx4c1VidGFBRVhzbkE0YlJtVWQ4QdIBrwFBVV95cUxOZGg2Zk5Ga0xqNjR3VzVEMm9NbnhjbWJZQjlNXzJDUkJGQmI4cE4xRVdnSXFMLUs3WWx3TTdHR2dvLThRWHp0NHl5WDhfRXl4Z2owWHU1aXEtdGZ2WWpmUnpYUlkwVV92ZkJzU1hmYTdWVVp0VzRfRGVKeVFrTmVZTm9SRFJ4TDlXa1RTd0MzR01HNG41Y19vb25tLUFiUTdvLV9ieEx1TnNKWHljd2R3?oc=5",
-      "date": "2026-09-21T07:00:00Z"
-    },
-    {
-      "source": "Google — INE inflación",
-      "title": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026 - Ine.gob.bo",
-      "desc": "EL ÍNDICE DE PRECIOS AL CONSUMIDOR (IPC) PRESENTÓ UNA VARIACIÓN POSITIVA DE 1,10% EN AGOSTO DE 2026&nbsp;&nbsp;Ine.gob.bo",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnBkQk5zczY5ekNqYkFYSlpQYW5ZR2VBbFhDMktHcGZfQndSUWMtTHFFSjB6bW1mMExpT2V0LVUyLTI5MWhrTV9HRFpsc01NR1p5eEo4RTNhQXdSVDVYcXh6dFBUZmZkam81Umpsall0RzRuT1lsM1FzSHRyazlBeFRXMWlvZHI5QmhwbmdFcElwcm5SLVNETWVsTU1qeHJEV0NpZDdUTHJoVGtrSktKMFBraEVvdC13c3RnZWtsQmFNMGstdms1MA?oc=5",
-      "date": "2026-09-03T07:00:00Z"
-    },
-    {
-      "source": "Google — Economía Bolivia",
-      "title": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia - Infobae",
-      "desc": "Quién es Christian Morales, el nuevo ministro de Economía en Bolivia&nbsp;&nbsp;Infobae",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUN2bGVsNjZJMUMxMW1FVHZLWnNKSVB1X0NXdzBGZm9yWnVkTXRKYVdnamg4VEpmSS1LcWtSbkdlZ0x1NFp4dG9aOGZzVWZBSVU3YzJEZFNzNy03WHBUX1lUYXFGUS1Oc1JRcEZWRnRxMEZ3bjMwVjZtSlRhdXlCRTN5ZlJEOTgzc0JFUDk0Uk1jOVlxM3lfclI3Q3Nac1ZlNHZ5N1Y2S2d1MDlCSWZhZXp4SUNkRGt4cUJYNkl2aU4tY2NM0gHfAUFVX3lxTE5KU29rVUNIbk9ROURENXRhX1hHUnFETFpxaDhVcDFPbHpYS0dDbXFQVUNmejlOTkw4c3NUc0RaTDFlU1dfdFl6YlpnN3JwUEdnMnlic2ROLWxsdkpfRjJMQ05ORjRvVkN4bHcxOG1wam91SER5QTdGR05icTdiTEtkNzlqdnlVWVVsU1RHUGVxU2g3LTgwX2wyOVdvTWFtWDRreUFNUk8tZXVXaWptVVoxSWloNDY4YmxZLWw5ZHFZb1JKN3A0LV9zWVlnMHZLRGVERFVUTlhLaWc0UDBBaUk?oc=5",
-      "date": "2026-08-26T07:00:00Z"
+      "source": "Google — Dólar Bolivia",
+      "title": "Dólar hoy en Bolivia: precio y cotización de la divisa este martes 22 de septiembre de 2026 - Clarin.com",
+      "desc": "Dólar hoy en Bolivia: precio y cotización de la divisa este martes 22 de septiembre de 2026&nbsp;&nbsp;Clarin.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYjZEQlRZUmFYQlI3NXJFM2lyalZGWEx3LTQzX252SWZUemVzS3RpYlBPNl9wYVdsdGZUMzBWYl9fZURMazNrRk1LbWFwamZlc2RCZ1VnMzEzVzViUjU4LWh6aENieHRiQVBTa0xYaWIwN2NaeXV0cG1URWpwOElZai1kX2dqbk50dW9KSmpHQTRlTElKdzhCQ1RqYzFhZGR1ZFQ4UkVjUC1iRENodHRRTnhiRVJybGxJU01sZ2ZReW9GeEdwd01Yd2l4WDRnNS0wOE44ZHpOTdIB3AFBVV95cUxOeFV0NVBTallqY3gzRHdQWmpHVVJuOEZEcW9OSFhKS1YzVXhIaHZndW5UYnVQNUhuYTd1RTBncVR0ZjllNXdXVE1nM1dKVnI2YldlSGhjbzhEZm5odUgyMkVTbkI0MzkweW5ERkJMU2tpUXVCUlhhRGRKVmoyd1JJSmYzYThOYU1CMXdKX0NxSUxsVVYzbC1jTHRFcFF1c083NW9oVlZEaG9OSy1GZHUxaHRSaGZfY3dhRDNJeWg0NV83bWVBcUVtcGZiT1BQcVo2cW0yWW9nT2ZJZFJW?oc=5",
+      "date": "2026-09-22T07:00:00Z"
     }
   ],
   "prediction": {
-    "buyTomorrow": 12.03,
-    "sellTomorrow": 12.08,
-    "changeBuy": 0.05,
-    "changeSell": 0.06,
+    "buyTomorrow": 12.02,
+    "sellTomorrow": 12.07,
+    "changeBuy": 0.04,
+    "changeSell": 0.04,
     "trend": "alza",
     "confidence": "alta",
     "basedOnDays": 7
@@ -4401,6 +4401,11 @@
       "date": "2026-11-27",
       "buy": 11.98,
       "sell": 12.02
+    },
+    {
+      "date": "2026-11-28",
+      "buy": 11.98,
+      "sell": 12.03
     }
   ]
 }
